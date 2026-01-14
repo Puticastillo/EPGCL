@@ -1,0 +1,762 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Visualizador EPGCL</title>
+    <style>
+        /* --- RESET Y BASES --- */
+        *, *::before, *::after { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+
+        :root {
+            /* PALETA DUAL TONE */
+            --bg-color: #080c14;
+            --card-bg: #121b29;
+            --header-bg: #040609;
+            --section-bg: #0d141f;
+
+            --text-main: #e1eaff;
+            --text-dim: #8ca6cc;
+            --text-header-accent: #4fc3f7;
+
+            --accent-green: #00e676;
+            --accent-green-hover: #00b34e;
+            
+            --live-bg-green: #0f3d24;
+            --border-blue: #233147;
+            
+            --row-height: 80px;
+            --header-width: 220px;
+            --ruler-height: 35px;
+        }
+
+        body {
+            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+            font-size: 16px;
+        }
+
+        .text-truncate { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; display: block; max-width: 100%; }
+
+        /* --- HEADER --- */
+        header {
+            background: var(--header-bg); padding: 10px 20px;
+            display: flex; flex-wrap: wrap; align-items: center; justify-content: center;
+            gap: 15px; border-bottom: 1px solid var(--border-blue); min-height: 60px;
+            z-index: 60; position: relative; flex-shrink: 0;
+        }
+        
+        .header-title { 
+            font-size: 1.2rem; margin: 0; white-space: nowrap; 
+            position: absolute; left: 20px; 
+            display: none; 
+            color: var(--text-header-accent); font-weight: 700;
+            cursor: pointer; transition: color 0.2s;
+        }
+        .header-title:hover { color: var(--accent-green); }
+        
+        @media(min-width: 1024px) { .header-title { display: block; } }
+
+        .search-container {
+            flex-grow: 1; display: flex; max-width: 500px;
+            background: var(--card-bg); border-radius: 20px; padding: 5px 15px;
+            border: 1px solid var(--border-blue); transition: border-color 0.2s;
+        }
+        .search-container:focus-within { border-color: var(--accent-green); }
+        .search-icon { display: flex; align-items: center; color: var(--text-dim); margin-right: 8px; }
+        .search-input { flex-grow: 1; background: transparent; border: none; color: var(--text-main); padding: 5px; outline: none; font-size: 1rem; width: 100%; }
+
+        .nav-controls { display: flex; gap: 8px; justify-content: center; }
+        .nav-btn {
+            background: transparent; border: 1px solid var(--border-blue); color: var(--text-dim);
+            padding: 8px 15px; cursor: pointer; border-radius: 4px; font-size: 0.9rem; white-space: nowrap; transition: all 0.2s;
+        }
+        .nav-btn.active { background: var(--accent-green); border-color: var(--accent-green); color: #00210e; font-weight: bold; }
+        .nav-btn:hover:not(.active) { background: var(--section-bg); color: var(--text-main); border-color: var(--text-dim); }
+
+        /* --- VISTAS --- */
+        .view-container { flex: 1; overflow: hidden; display: none; position: relative; }
+        .view-container.active { display: block; }
+
+        /* --- DASHBOARD --- */
+        #dashboard-view { overflow-y: auto; scroll-behavior: smooth; -webkit-overflow-scrolling: touch; }
+        
+        .hero-banner {
+            background: linear-gradient(to bottom right, #061e3d, #0a3820, var(--bg-color));
+            padding: 40px; border-bottom: 1px solid var(--border-blue);
+            display: flex; align-items: center; gap: 30px;
+            min-height: 320px; position: relative; overflow: hidden; transition: background 0.5s;
+        }
+        .fade-in { animation: fadeIn 0.5s ease-in-out; }
+        @keyframes fadeIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+
+        .hero-content { flex: 1; z-index: 2; overflow: hidden; }
+        .hero-label { color: var(--accent-green); font-weight: bold; margin-bottom: 10px; letter-spacing: 1px; white-space: nowrap; }
+        .hero-title { font-size: 2.5rem; font-weight: bold; margin: 0 0 15px 0; line-height: 1.1; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; color: #fff; }
+        .hero-meta { display: flex; align-items: center; gap: 15px; color: var(--text-dim); margin-bottom: 15px; font-size: 1.1rem; white-space: nowrap; }
+        .hero-desc { color: #b0bec5; max-width: 700px; line-height: 1.5; font-size: 1rem; margin-bottom: 25px; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+        .hero-logo { width: 150px; height: 150px; background: white; padding: 10px; border-radius: 10px; object-fit: contain; z-index: 2; box-shadow: 0 10px 30px rgba(0,0,0,0.5); }
+        .btn-hero { background: var(--accent-green); color: #00210e; border: none; padding: 12px 30px; font-size: 1rem; font-weight: bold; border-radius: 4px; cursor: pointer; transition: background 0.2s; white-space: nowrap; }
+        .btn-hero:hover { background: var(--accent-green-hover); color: white; }
+        
+        .hero-controls { position: absolute; right: 30px; bottom: 30px; display: flex; gap: 10px; z-index: 10; }
+        .hero-arrow { background: rgba(18, 27, 41, 0.6); border: 1px solid var(--border-blue); color: var(--text-main); width: 45px; height: 45px; border-radius: 50%; display: flex; align-items: center; justify-content: center; cursor: pointer; font-size: 1.2rem; transition: all 0.2s; user-select: none; }
+        .hero-arrow:hover { background: var(--accent-green); border-color: var(--accent-green); color: #00210e; }
+        .hero-arrow.paused { background: rgba(0, 230, 118, 0.2); border-color: var(--accent-green); color: var(--accent-green); }
+
+        .dashboard-content { padding: 25px; }
+        .section-title { font-size: 1.5rem; margin-bottom: 20px; font-weight: bold; border-left: 4px solid var(--accent-green); padding-left: 15px; color: var(--text-main); }
+        .grid-container { display: grid; grid-template-columns: repeat(auto-fill, minmax(400px, 1fr)); gap: 20px; }
+        
+        .channel-card { background: var(--card-bg); border-radius: 8px; padding: 20px; cursor: pointer; border: 1px solid var(--border-blue); transition: transform 0.2s, border-color 0.2s; display: flex; flex-direction: column; overflow: hidden; }
+        .channel-card:hover { transform: translateY(-3px); border-color: var(--accent-green); box-shadow: 0 5px 15px rgba(0, 230, 118, 0.15); }
+        .card-header { display: flex; align-items: center; margin-bottom: 15px; overflow: hidden; }
+        .card-logo { width: 50px; height: 50px; object-fit: contain; background: #fff; border-radius: 6px; margin-right: 15px; padding: 4px; flex-shrink: 0; }
+        .card-ch-name { font-weight: bold; color: var(--text-main); font-size: 1.2rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+        .card-body { flex: 1; display: flex; flex-direction: column; gap: 5px; overflow: hidden; }
+        .now-label { color: var(--accent-green); font-size: 0.75rem; font-weight: bold; text-transform: uppercase; }
+        .card-program { font-size: 1.1rem; color: var(--text-main); font-weight: 600; line-height: 1.2; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+        .card-time { font-size: 0.85rem; color: var(--text-dim); margin-bottom: 8px; white-space: nowrap; }
+        .prog-bar-bg { height: 4px; background: #1c2a3d; border-radius: 2px; margin-bottom: 15px; overflow: hidden; flex-shrink: 0; }
+        .prog-bar-fill { height: 100%; background: var(--accent-green); width: 0%; }
+        .next-info { border-top: 1px solid var(--border-blue); padding-top: 10px; margin-top: auto; overflow: hidden; }
+        .next-label { color: #5c7c9e; font-size: 0.75rem; font-weight: bold; margin-bottom: 2px; }
+        .next-program { font-size: 0.95rem; color: var(--text-dim); display: flex; justify-content: space-between; gap: 10px; overflow: hidden; }
+        .next-program span:first-child { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; flex: 1; }
+        .next-time { font-size: 0.85rem; color: var(--text-dim); font-weight: bold; white-space: nowrap; }
+
+        /* --- CANALES (ACORDEÓN) --- */
+        #channels-view { padding: 30px; overflow-y: auto; -webkit-overflow-scrolling: touch; }
+        #channels-content { max-width: 900px; margin: 0 auto; }
+        .alpha-section { margin-bottom: 30px; }
+        .alpha-header { font-size: 1.2rem; font-weight: bold; color: var(--text-header-accent); margin-bottom: 10px; padding-left: 10px; }
+        
+        .channel-list-item { background: var(--card-bg); border: 1px solid var(--border-blue); border-radius: 6px; margin-bottom: 8px; overflow: hidden; }
+        .ch-item-header { display: flex; align-items: center; padding: 15px; cursor: pointer; transition: background 0.2s; overflow: hidden; }
+        .ch-item-header:hover { background: var(--section-bg); }
+        .ch-list-logo { width: 45px; height: 45px; background: white; border-radius: 6px; padding: 3px; object-fit: contain; margin-right: 15px; flex-shrink: 0; }
+        .ch-list-name { font-size: 1.1rem; font-weight: bold; color: var(--text-main); flex: 1; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+        .ch-expand-icon { color: var(--text-dim); font-size: 1.2rem; transition: transform 0.2s; flex-shrink: 0; }
+        .channel-list-item.open .ch-expand-icon { transform: rotate(180deg); color: var(--accent-green); }
+
+        .ch-item-schedule { display: none; background: var(--section-bg); border-top: 1px solid var(--border-blue); padding: 10px 15px 15px 15px; }
+        .channel-list-item.open .ch-item-schedule { display: block; animation: slideDown 0.2s; }
+        @keyframes slideDown { from { opacity: 0; transform: translateY(-5px); } to { opacity: 1; transform: translateY(0); } }
+
+        .mini-prog-row { display: flex; gap: 15px; padding: 8px 0; border-bottom: 1px solid var(--border-blue); font-size: 0.9rem; color: var(--text-dim); overflow: hidden; }
+        .mini-prog-row.current { color: var(--text-main); background: rgba(0, 230, 118, 0.1); border-left: 3px solid var(--accent-green); padding-left: 10px; }
+        .mini-prog-time { color: var(--accent-green); font-weight: bold; min-width: 50px; flex-shrink: 0; }
+        .mini-prog-title { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; flex: 1; }
+        
+        .mini-prog-btn { width: 100%; padding: 10px; margin-top: 10px; background: var(--card-bg); color: var(--text-main); border: 1px solid var(--border-blue); border-radius: 4px; cursor: pointer; font-weight: bold; white-space: nowrap; transition: all 0.2s; }
+        .mini-prog-btn:hover { background: var(--accent-green); color: #00210e; border-color: var(--accent-green); }
+
+        /* --- TIMELINE --- */
+        #timeline-view { overflow: auto; height: 100%; position: relative; display: flex; flex-direction: column; background: var(--bg-color); }
+        #timeline-dates-wrapper { background: var(--section-bg); padding: 10px; border-bottom: 1px solid var(--border-blue); display: flex; justify-content: center; flex-shrink: 0; z-index: 55; }
+        #timeline-scroll-area { flex: 1; overflow: auto; position: relative; -webkit-overflow-scrolling: touch; }
+        .timeline-container { position: relative; min-width: 100%; }
+        
+        #timeline-ruler { position: sticky; top: 0; height: var(--ruler-height); background-color: var(--section-bg); border-bottom: 1px solid var(--border-blue); z-index: 55; white-space: nowrap; overflow: hidden; margin-left: var(--header-width); }
+        .time-marker { position: absolute; top: 0; bottom: 0; border-left: 1px solid var(--border-blue); padding-left: 5px; color: var(--text-dim); font-size: 0.8rem; line-height: var(--ruler-height); pointer-events: none; }
+
+        .channel-row { display: flex; border-bottom: 1px solid var(--border-blue); height: var(--row-height); width: 100%; }
+        .channel-sticky { position: sticky; left: 0; width: var(--header-width); min-width: var(--header-width); background: var(--section-bg); z-index: 60; display: flex; align-items: center; padding: 0 10px; border-right: 2px solid #000; box-shadow: 4px 0 10px rgba(0,0,0,0.5); cursor: pointer; transition: background 0.2s; }
+        .channel-sticky:hover { background: var(--card-bg); }
+        .sticky-logo { width: 50px; height: 50px; object-fit: contain; background: #fff; border-radius: 6px; padding: 2px; margin-right: 10px; flex-shrink: 0; }
+        .sticky-name { font-weight: bold; font-size: 0.9rem; line-height: 1.2; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; color: var(--text-main); }
+
+        .program-track { flex-grow: 1; position: relative; background: var(--card-bg); overflow: hidden; }
+
+        .program-block { position: absolute; top: 4px; bottom: 4px; background: var(--section-bg); border-left: 1px solid #000; border-radius: 3px; z-index: 10; cursor: pointer; overflow: hidden; display: block; padding: 0; transition: background-color 0.2s; }
+        .program-block:hover { background: #1c2a3d; }
+        .program-block.is-live { border-top: 3px solid var(--accent-green); background: var(--live-bg-green); }
+        .program-inner-content { padding: 5px 8px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; width: 100%; height: 100%; position: sticky; left: 0; color: var(--text-main); }
+        .prog-start-time { font-weight: bold; color: var(--text-dim); margin-right: 5px; font-size: 0.8rem; }
+        .program-block.is-live .prog-start-time { color: var(--accent-green); }
+
+        #current-line { position: absolute; top: var(--ruler-height); bottom:0; width: 2px; background: var(--accent-green); z-index: 40; pointer-events: none; box-shadow: 0 0 8px var(--accent-green); display: none; }
+
+        /* --- TOOLTIP --- */
+        #custom-tooltip { position: fixed; display: none; background: rgba(18, 27, 41, 0.98); border: 1px solid var(--border-blue); padding: 15px; border-radius: 6px; z-index: 1000; pointer-events: none; box-shadow: 0 10px 30px rgba(0,0,0,0.8); width: 300px; backdrop-filter: blur(5px); }
+        .tt-title { color: var(--text-main); font-weight: bold; font-size: 1rem; margin-bottom: 5px; line-height: 1.2; }
+        .tt-time { color: var(--accent-green); font-size: 0.85rem; font-weight: bold; margin-bottom: 8px; }
+        .tt-desc { color: var(--text-dim); font-size: 0.8rem; line-height: 1.4; display: -webkit-box; -webkit-line-clamp: 4; -webkit-box-orient: vertical; overflow: hidden; }
+
+        /* --- LISTA DETALLE Y RESULTADOS DE BUSQUEDA --- */
+        #list-view { padding: 0; overflow-y: auto; background: var(--bg-color); scroll-behavior: smooth; -webkit-overflow-scrolling: touch; }
+        .list-header { padding: 20px; background: var(--section-bg); border-bottom: 1px solid var(--border-blue); position: sticky; top: 0; z-index: 40; display: flex; flex-direction: column; align-items: center; }
+        .list-top-row { width: 100%; position: relative; display: flex; justify-content: center; align-items: center; margin-bottom: 15px; }
+        .back-btn { position: absolute; left: 0; top: 50%; transform: translateY(-50%); background: var(--card-bg); border: 1px solid var(--border-blue); color: var(--text-main); width: 40px; height: 40px; border-radius: 50%; font-size: 1.2rem; cursor: pointer; transition: all 0.2s; }
+        .back-btn:hover { background: var(--accent-green); color: #00210e; border-color: var(--accent-green); }
+        
+        .list-ch-info { display: flex; flex-direction: column; align-items: center; gap: 5px; overflow: hidden; width: 100%; }
+        .list-ch-logo { 
+            width: 80px; height: 80px; background: #fff; border-radius: 12px; padding: 5px; object-fit: contain; 
+            box-shadow: 0 4px 15px rgba(0,0,0,0.5); cursor: zoom-in; transition: transform 0.2s;
+        }
+        .list-ch-logo:hover { transform: scale(1.05); }
+        .list-ch-name { font-size: 1.5rem; font-weight: bold; margin-top: 5px; text-align: center; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 90%; color: var(--text-main); }
+        
+        .date-tabs { display: flex; gap: 10px; overflow-x: auto; padding-bottom: 5px; justify-content: center; width: 100%; }
+        .date-btn { background: var(--card-bg); border: 1px solid var(--border-blue); color: var(--text-dim); padding: 8px 18px; border-radius: 20px; cursor: pointer; white-space: nowrap; font-size: 0.95rem; transition: all 0.2s; flex-shrink: 0; }
+        .date-btn.active { background: var(--accent-green); color: #00210e; border-color: var(--accent-green); font-weight: bold; }
+        
+        .program-list { max-width: 800px; margin: 0 auto; padding: 20px; position: relative; }
+        
+        .list-item { 
+            display: flex; flex-direction: column; gap: 5px; padding: 15px; 
+            border-bottom: 1px solid var(--border-blue); transition: background 0.2s; 
+            border-left: 4px solid transparent; overflow: hidden; background: var(--card-bg); 
+        }
+        .list-item:hover { background: var(--section-bg); }
+        .list-item.live-now { background-color: var(--live-bg-green); border-left-color: var(--accent-green); }
+        
+        .list-title-row { 
+            font-size: 1.1rem; font-weight: bold; margin-bottom: 2px; 
+            white-space: nowrap; overflow: hidden; text-overflow: ellipsis; 
+            display: flex; align-items: center; color: var(--text-main); 
+        }
+        .list-time-inline { color: var(--accent-green); margin-right: 8px; font-weight: bold; flex-shrink: 0; }
+        .list-title-text { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; flex: 1; }
+        
+        /* SIN DESCIRPCION EN LA LISTA PRINCIPAL */
+        
+        .live-badge { background-color: var(--accent-green); color: #00210e; font-size: 0.7rem; padding: 2px 6px; border-radius: 4px; font-weight: 800; letter-spacing: 0.5px; animation: pulse 2s infinite; margin-left: 5px; flex-shrink: 0; }
+        @keyframes pulse { 0% { opacity: 1; } 50% { opacity: 0.7; } 100% { opacity: 1; } }
+
+        .search-item { display: flex; align-items: center; gap: 12px; padding: 12px 15px; border-bottom: 1px solid var(--border-blue); cursor: pointer; transition: background 0.2s; overflow: hidden; background: var(--card-bg); }
+        .search-item:hover { background: var(--section-bg); }
+        .search-channel-tag { background: var(--section-bg); color: var(--text-dim); font-size: 0.7rem; font-weight: bold; padding: 2px 6px; border-radius: 4px; text-transform: uppercase; white-space: nowrap; flex-shrink: 0; border: 1px solid var(--border-blue); }
+        .search-time-tag { color: var(--accent-green); font-weight: bold; font-size: 0.9rem; white-space: nowrap; flex-shrink: 0; }
+        .search-prog-title { font-size: 1rem; font-weight: 500; color: var(--text-main); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; flex: 1; }
+
+        /* Modal Programa */
+        #modal { position: fixed; inset: 0; background: rgba(8, 12, 20, 0.9); display: none; align-items: center; justify-content: center; z-index: 200; }
+        .modal-box { background: var(--card-bg); padding: 25px; border-radius: 8px; max-width: 90%; width: 400px; box-shadow: 0 15px 40px rgba(0,0,0,0.5); border: 1px solid var(--border-blue); }
+        .modal-buttons { display: flex; gap: 10px; margin-top: 20px; justify-content: flex-end; }
+        .btn-modal-close { background: var(--section-bg); color: var(--text-main); border: 1px solid var(--border-blue); padding: 10px 20px; border-radius: 4px; cursor: pointer; font-size: 1rem; transition: all 0.2s; }
+        .btn-modal-close:hover { background: var(--border-blue); }
+        .btn-modal-action { background: var(--accent-green); color: #00210e; border: none; padding: 10px 20px; border-radius: 4px; cursor: pointer; font-size: 1rem; font-weight: bold; transition: all 0.2s; }
+        .btn-modal-action:hover { background: var(--accent-green-hover); }
+
+        /* Modal Imagen */
+        #img-modal { position: fixed; inset: 0; background: rgba(8, 12, 20, 0.95); z-index: 3000; display: none; justify-content: center; align-items: center; cursor: zoom-out; }
+        #img-modal img { max-width: 90%; max-height: 90%; border-radius: 10px; box-shadow: 0 0 50px rgba(0, 230, 118, 0.1); border: 1px solid var(--border-blue); }
+
+        #loading { position: fixed; inset: 0; background: var(--bg-color); display: flex; flex-direction: column; align-items: center; justify-content: center; z-index: 100; }
+        .spinner { width: 40px; height: 40px; border: 4px solid var(--border-blue); border-top-color: var(--accent-green); border-radius: 50%; animation: spin 1s infinite; }
+        @keyframes spin { to { transform: rotate(360deg); } }
+
+        /* --- MEDIA QUERIES (MOBILE) --- */
+        @media (max-width: 768px) {
+            :root { --header-width: 110px; --row-height: 65px; }
+            header { flex-direction: column; height: auto; padding: 15px; gap: 10px; }
+            .header-title { position: static; display: block; margin-bottom: 5px; }
+            .search-container { width: 100%; max-width: 100%; }
+            .nav-controls { width: 100%; overflow-x: auto; padding-bottom: 5px; justify-content: flex-start; }
+            .nav-btn { flex-shrink: 0; }
+            .hero-banner { flex-direction: column; text-align: center; padding: 20px; min-height: auto; }
+            .hero-content { width: 100%; margin-bottom: 20px; }
+            .hero-meta { justify-content: center; font-size: 0.9rem; }
+            .hero-title { font-size: 1.8rem; white-space: normal; }
+            .hero-logo { width: 100px; height: 100px; order: -1; margin-bottom: 10px; }
+            .hero-controls { position: relative; right: auto; bottom: auto; justify-content: center; width: 100%; margin-top: 10px; }
+            .grid-container { grid-template-columns: 1fr; }
+            .channel-card { padding: 15px; }
+            #channels-view { padding: 20px 10px; }
+            #channels-content { padding: 0; max-width: 100%; }
+            #custom-tooltip { display: none !important; }
+            .date-tabs { justify-content: flex-start; }
+            
+            #timeline-ruler, #current-line { display: none !important; }
+            .channel-row { display: flex; align-items: stretch; height: auto; margin-bottom: 1px; }
+            .channel-sticky { position: relative; left: auto; width: 100px; min-width: 100px; display: flex; flex-direction: column; justify-content: center; padding: 10px 5px; border-right: 1px solid var(--border-blue); z-index: 1; background: var(--section-bg); }
+            .sticky-logo { margin-right: 0; margin-bottom: 5px; width: 40px; height: 40px; }
+            .sticky-name { text-align: center; font-size: 0.8rem; }
+            .program-track { flex: 1; display: flex; overflow-x: auto; padding: 5px; gap: 5px; background: var(--card-bg); }
+            .program-block { position: relative; top: auto; bottom: auto; left: auto !important; width: auto !important; min-width: 160px; max-width: 200px; height: 60px; display: flex; align-items: center; border-left: none; background: var(--section-bg); border: 1px solid var(--border-blue); }
+            .program-inner-content { position: relative; white-space: normal; line-height: 1.2; font-size: 0.8rem; max-height: 100%; overflow: hidden; }
+            .prog-start-time { display: block; font-size: 0.75rem; margin-bottom: 2px; }
+        }
+    </style>
+</head>
+<body>
+
+    <div id="loading"><div class="spinner"></div><p style="color:var(--text-main); margin-top:10px;">Obteniendo Datos...</p></div>
+
+    <div id="custom-tooltip">
+        <div id="tt-title" class="tt-title"></div>
+        <div id="tt-time" class="tt-time"></div>
+        <div id="tt-desc" class="tt-desc"></div>
+    </div>
+
+    <div id="img-modal" onclick="closeImgModal()">
+        <img id="img-modal-content" src="">
+    </div>
+
+    <header>
+        <h3 class="header-title" onclick="switchView('dashboard')">Guía de Programación EPGCL</h3>
+        <div class="search-container">
+            <div class="search-icon">🔍</div>
+            <input type="text" id="search-input" class="search-input" placeholder="Buscar..." oninput="handleSearch()">
+        </div>
+        <div class="nav-controls">
+            <button class="nav-btn active" id="btn-dashboard" onclick="switchView('dashboard')">Inicio</button>
+            <button class="nav-btn" id="btn-channels" onclick="switchView('channels')">Canales</button>
+            <button class="nav-btn" id="btn-timeline" onclick="switchView('timeline')">Guía</button>
+        </div>
+    </header>
+
+    <div id="dashboard-view" class="view-container active">
+        <div id="hero-banner" class="hero-banner" style="display:none;"></div>
+        <div class="dashboard-content">
+            <div class="section-title">Ahora en Vivo</div>
+            <div id="grid-cards" class="grid-container"></div>
+        </div>
+    </div>
+
+    <div id="channels-view" class="view-container">
+        <div id="channels-content"></div>
+    </div>
+
+    <div id="timeline-view" class="view-container" style="display: none;">
+        <div id="timeline-dates-wrapper">
+            <div id="timeline-date-tabs" class="date-tabs"></div>
+        </div>
+        <div id="timeline-scroll-area">
+            <div id="timeline-inner" class="timeline-container">
+                <div id="timeline-ruler"></div>
+                <div id="current-line"></div>
+                <div id="timeline-rows"></div>
+            </div>
+        </div>
+    </div>
+
+    <div id="list-view" class="view-container">
+        <div class="list-header" id="list-header">
+            <div class="list-top-row">
+                <button class="back-btn" onclick="goBack()">←</button>
+                <div id="list-header-content" class="list-ch-info"></div>
+            </div>
+            <div id="date-filters-container" class="date-tabs"></div>
+        </div>
+        <div id="list-results" class="program-list"></div>
+    </div>
+
+    <div id="modal" onclick="closeModal()">
+        <div class="modal-box" onclick="event.stopPropagation()">
+            <h2 id="m-title" class="text-truncate" style="margin-top:0; color:var(--text-main);"></h2>
+            
+            <p id="m-date" style="color:var(--text-dim); font-size:0.9rem; margin:0 0 5px 0"></p>
+            <p id="m-time" style="color:var(--accent-green); font-weight:bold; margin-top:0"></p>
+            
+            <hr style="border-color:var(--border-blue); margin:15px 0">
+            
+            <div style="max-height: 200px; overflow-y: auto; padding-right:5px;">
+                <p id="m-desc" style="color:var(--text-dim); line-height:1.5; margin:0"></p>
+            </div>
+            
+            <div id="modal-actions" class="modal-buttons"></div>
+        </div>
+    </div>
+
+    <script>
+        const EPG_URL = "https://raw.githubusercontent.com/Puticastillo/EPGCL/refs/heads/main/smithers/guia-de-programacion.xml";
+        
+        let DATA = { channels: [], programs: {}, availableDates: new Set() };
+        let lastView = 'dashboard';
+        let currentChannelProgs = [];
+        let currentTimelineDate = new Date(); 
+        const PX_PER_MIN = 5; 
+        
+        let heroQueue = []; let heroIndex = 0; let heroTimer = null; let isHeroPaused = false;
+        let searchTimeout;
+
+        document.addEventListener('DOMContentLoaded', () => {
+            init();
+            window.addEventListener('resize', () => {
+                if(document.getElementById('timeline-view').classList.contains('active')){
+                    renderTimeline(currentTimelineDate);
+                }
+            });
+        });
+
+        async function init() {
+            try {
+                const res = await fetch(EPG_URL);
+                const txt = await res.text();
+                const parser = new DOMParser();
+                const xml = parser.parseFromString(txt, "text/xml");
+                if (xml.querySelector('parsererror')) throw new Error("XML Error");
+                processXML(xml);
+                // BUGFIX: Actualizar fecha al inicio
+                currentTimelineDate = new Date();
+                renderDashboard();
+                renderAllChannelsView();
+                updateTimelineDateSelector();
+                renderTimeline(currentTimelineDate); 
+                document.getElementById('loading').style.display = 'none';
+            } catch (e) { alert("Error cargando la guía: " + e.message); }
+        }
+
+        function parseDate(str) {
+            const y = str.substr(0,4), m = str.substr(4,2)-1, d = str.substr(6,2);
+            const h = str.substr(8,2), min = str.substr(10,2);
+            return new Date(y, m, d, h, min);
+        }
+
+        function processXML(xml) {
+            const channels = Array.from(xml.getElementsByTagName('channel'));
+            channels.forEach(ch => {
+                const id = ch.getAttribute('id');
+                if (id.toUpperCase().startsWith('XXX')) return; 
+                const name = ch.getElementsByTagName('display-name')[0]?.textContent || id;
+                const icon = ch.getElementsByTagName('icon')[0]?.getAttribute('src') || '';
+                DATA.channels.push({ id, name, icon });
+                DATA.programs[id] = [];
+            });
+
+            const progs = Array.from(xml.getElementsByTagName('programme'));
+            const today = new Date(); today.setHours(0,0,0,0);
+            const yesterday = new Date(today); yesterday.setDate(yesterday.getDate() -1);
+
+            progs.forEach(p => {
+                const start = parseDate(p.getAttribute('start'));
+                const stop = parseDate(p.getAttribute('stop'));
+                if (stop < yesterday) return;
+                const chId = p.getAttribute('channel');
+                if (DATA.programs[chId]) {
+                    DATA.programs[chId].push({
+                        title: p.getElementsByTagName('title')[0]?.textContent || 'Sin Título',
+                        desc: p.getElementsByTagName('desc')[0]?.textContent || '',
+                        start, stop, channelId: chId
+                    });
+                    DATA.availableDates.add(start.toDateString());
+                }
+            });
+        }
+
+        function switchView(view) {
+            if (view !== 'list') lastView = view;
+            document.querySelectorAll('.view-container').forEach(el => { el.style.display = 'none'; el.classList.remove('active'); });
+            document.querySelectorAll('.nav-btn').forEach(el => el.classList.remove('active'));
+            const activeView = document.getElementById(view + '-view');
+            activeView.style.display = (view === 'timeline') ? 'flex' : 'block';
+            activeView.classList.add('active');
+            if (['dashboard', 'timeline', 'channels'].includes(view)) {
+                document.getElementById('btn-' + view).classList.add('active');
+                document.getElementById('search-input').value = '';
+            }
+            if (view === 'timeline') {
+                setTimeout(() => {
+                    const todayStr = new Date().toDateString();
+                    if (currentTimelineDate.toDateString() === todayStr && window.innerWidth > 768) scrollToNow();
+                    else document.getElementById('timeline-scroll-area').scrollLeft = 0;
+                }, 100);
+            }
+        }
+
+        function scrollToNow() {
+            const now = new Date();
+            const minutes = now.getHours() * 60 + now.getMinutes();
+            const cssHeaderW = getComputedStyle(document.documentElement).getPropertyValue('--header-width').trim();
+            const headerW = parseInt(cssHeaderW);
+            const pos = (minutes * PX_PER_MIN) + headerW - (window.innerWidth / 2);
+            document.getElementById('timeline-scroll-area').scrollLeft = Math.max(0, pos);
+        }
+
+        function goBack() { switchView(lastView); }
+
+        function renderDashboard() {
+            const container = document.getElementById('grid-cards');
+            const now = new Date();
+            let html = '';
+            initHeroSystem(now);
+            DATA.channels.forEach(ch => {
+                const progs = DATA.programs[ch.id];
+                if (!progs) return;
+                const currentIndex = progs.findIndex(p => p.start <= now && p.stop > now);
+                if (currentIndex !== -1) {
+                    const current = progs[currentIndex];
+                    const next = progs[currentIndex + 1];
+                    const pct = Math.min(100, Math.max(0, ((now - current.start) / (current.stop - current.start)) * 100));
+                    let nextHtml = next ? `<div class="next-info"><div class="next-label">A CONTINUACIÓN</div><div class="next-program"><span>${next.title}</span><span class="next-time">${formatTime(next.start)}</span></div></div>` : '';
+                    html += `<div class="channel-card" onclick="showChannelList('${ch.id}')"><div class="card-header"><img src="${ch.icon}" class="card-logo" onerror="this.style.display='none'"><span class="card-title">${ch.name}</span></div><div class="card-body"><div class="now-label">Ahora</div><div class="card-program">${current.title}</div><div class="card-time">${formatTime(current.start)} - ${formatTime(current.stop)}</div><div class="prog-bar-bg"><div class="prog-bar-fill" style="width:${pct}%"></div></div>${nextHtml}</div></div>`;
+                }
+            });
+            container.innerHTML = html;
+        }
+
+        function initHeroSystem(now) {
+            let liveChannels = DATA.channels.filter(ch => { const progs = DATA.programs[ch.id]; return progs && progs.some(p => p.start <= now && p.stop > now); });
+            if (liveChannels.length === 0) { document.getElementById('hero-banner').style.display = 'none'; return; }
+            heroQueue = liveChannels.sort(() => Math.random() - 0.5);
+            heroIndex = 0; isHeroPaused = false;
+            updateHero(); startHeroTimer();
+        }
+        function startHeroTimer() { if (heroTimer) clearInterval(heroTimer); if (!isHeroPaused) heroTimer = setInterval(nextHero, 8000); }
+        function toggleHeroPause() { isHeroPaused = !isHeroPaused; updateHeroControls(); if (isHeroPaused) clearInterval(heroTimer); else startHeroTimer(); }
+        function nextHero() { heroIndex++; if (heroIndex >= heroQueue.length) heroIndex = 0; updateHero(); }
+        function prevHero() { heroIndex--; if (heroIndex < 0) heroIndex = heroQueue.length - 1; updateHero(); if (!isHeroPaused) startHeroTimer(); }
+        function nextHeroManual() { nextHero(); if (!isHeroPaused) startHeroTimer(); }
+        function updateHeroControls() { const btn = document.getElementById('btn-hero-pause'); if (btn) { btn.innerHTML = isHeroPaused ? '&#9658;' : '&#10074;&#10074;'; if (isHeroPaused) btn.classList.add('paused'); else btn.classList.remove('paused'); } }
+        function updateHero() {
+            const heroBanner = document.getElementById('hero-banner'); const now = new Date(); const ch = heroQueue[heroIndex]; const progs = DATA.programs[ch.id]; const current = progs.find(p => p.start <= now && p.stop > now); if (!current) { nextHero(); return; }
+            const pauseIcon = isHeroPaused ? '&#9658;' : '&#10074;&#10074;'; const pauseClass = isHeroPaused ? 'paused' : '';
+            heroBanner.innerHTML = `<div class="hero-content fade-in"><div class="hero-label">AHORA EN ${ch.name.toUpperCase()}</div><h1 class="hero-title">${current.title}</h1><div class="hero-meta"><span>${formatTime(current.start)} - ${formatTime(current.stop)}</span></div><div class="hero-desc">${current.desc ? current.desc.substring(0, 180) + '...' : 'Sin descripción disponible.'}</div><button class="btn-hero" onclick="showChannelList('${ch.id}')">Ver Programación</button></div><img src="${ch.icon}" class="hero-logo fade-in" onerror="this.style.display='none'"><div class="hero-controls"><div class="hero-arrow" onclick="prevHero()">&#10094;</div><div class="hero-arrow ${pauseClass}" id="btn-hero-pause" onclick="toggleHeroPause()">${pauseIcon}</div><div class="hero-arrow" onclick="nextHeroManual()">&#10095;</div></div>`; heroBanner.style.display = 'flex';
+        }
+
+        /* --- LISTA CANALES (TIPO ACORDEÓN) --- */
+        function renderAllChannelsView() {
+            const container = document.getElementById('channels-content'); container.innerHTML = '';
+            const sortedChannels = [...DATA.channels].sort((a,b) => a.name.localeCompare(b.name));
+            let lastChar = ''; 
+            sortedChannels.forEach(ch => {
+                const firstChar = ch.name.charAt(0).toUpperCase();
+                if (firstChar !== lastChar) {
+                    lastChar = firstChar;
+                    const header = document.createElement('div'); header.className = 'alpha-header';
+                    header.textContent = isNaN(firstChar) ? firstChar : '#'; container.appendChild(header);
+                }
+                const item = document.createElement('div');
+                item.className = 'channel-list-item';
+                item.id = 'ch-item-' + ch.id;
+                item.innerHTML = `<div class="ch-item-header" onclick="toggleChannelExpansion('${ch.id}')"><img src="${ch.icon}" class="ch-list-logo" onerror="this.style.display='none'"><div class="ch-list-name">${ch.name}</div><div class="ch-expand-icon">&#9662;</div></div><div class="ch-item-schedule" id="schedule-${ch.id}"></div>`;
+                container.appendChild(item);
+            });
+        }
+
+        function toggleChannelExpansion(channelId) {
+            const item = document.getElementById('ch-item-' + channelId);
+            const scheduleDiv = document.getElementById('schedule-' + channelId);
+            const wasOpen = item.classList.contains('open');
+            document.querySelectorAll('.channel-list-item.open').forEach(el => el.classList.remove('open'));
+            if(!wasOpen) {
+                item.classList.add('open');
+                const progs = DATA.programs[channelId];
+                const now = new Date();
+                const currentIndex = progs.findIndex(p => p.start <= now && p.stop > now);
+                let displayProgs = [];
+                if (currentIndex !== -1) { displayProgs = progs.slice(currentIndex, currentIndex + 4); } else { let upcoming = progs.filter(p => p.start > now); upcoming.sort((a,b) => a.start - b.start); displayProgs = upcoming.slice(0, 4); }
+                let html = '';
+                displayProgs.forEach(p => { const isLive = (now >= p.start && now < p.stop); html += `<div class="mini-prog-row ${isLive ? 'current' : ''}"><div class="mini-prog-time">${formatTime(p.start)}</div><div class="mini-prog-title">${p.title}</div></div>`; });
+                if (displayProgs.length === 0) html = '<div style="color:var(--text-dim);padding:10px">No hay información futura cercana.</div>';
+                html += `<button class="mini-prog-btn" onclick="showChannelList('${channelId}')">Ver programación completa</button>`;
+                scheduleDiv.innerHTML = html;
+            }
+        }
+
+        function updateTimelineDateSelector() {
+            const container = document.getElementById('timeline-date-tabs'); container.innerHTML = '';
+            const sortedDates = Array.from(DATA.availableDates).sort((a,b) => new Date(a) - new Date(b));
+            const todayStr = new Date().toDateString();
+            sortedDates.forEach(dateStr => {
+                const dateObj = new Date(dateStr); const btn = document.createElement('button'); btn.className = 'date-btn';
+                if (dateStr === currentTimelineDate.toDateString()) btn.classList.add('active');
+                btn.textContent = (dateStr === todayStr) ? 'Hoy' : dateObj.toLocaleDateString('es-ES', { weekday: 'short', day: 'numeric' });
+                btn.onclick = () => { currentTimelineDate = new Date(dateStr); updateTimelineDateSelector(); renderTimeline(currentTimelineDate); };
+                container.appendChild(btn);
+            });
+        }
+
+        function renderTimeRuler() {
+            const ruler = document.getElementById('timeline-ruler'); ruler.innerHTML = '';
+            for(let h=0; h<24; h++) {
+                for(let m=0; m<60; m+=30) {
+                    const totalMins = (h*60) + m; const marker = document.createElement('div'); marker.className = 'time-marker';
+                    marker.style.left = (totalMins * PX_PER_MIN) + 'px'; marker.textContent = `${h.toString().padStart(2,'0')}:${m.toString().padStart(2,'0')}`;
+                    ruler.appendChild(marker);
+                }
+            }
+        }
+
+        function renderTimeline(selectedDate) {
+            if(!selectedDate) selectedDate = new Date();
+            const container = document.getElementById('timeline-rows');
+            const innerContainer = document.getElementById('timeline-inner');
+            container.innerHTML = '';
+            const isMobile = window.innerWidth <= 768;
+            const dayStart = new Date(selectedDate); dayStart.setHours(0,0,0,0);
+            const dayEnd = new Date(selectedDate); dayEnd.setHours(23,59,59,999);
+            const now = new Date();
+            if (!isMobile) {
+                const cssHeaderW = getComputedStyle(document.documentElement).getPropertyValue('--header-width').trim();
+                const headerW = parseInt(cssHeaderW);
+                innerContainer.style.width = `${(1440 * PX_PER_MIN) + headerW + 50}px`;
+                renderTimeRuler();
+                updateTimelineCurrentLine();
+            } else { innerContainer.style.width = '100%'; }
+            DATA.channels.forEach(ch => {
+                let dayProgs = DATA.programs[ch.id].filter(p => p.stop > dayStart && p.start < dayEnd);
+                if (isMobile && selectedDate.toDateString() === now.toDateString()) { dayProgs = dayProgs.filter(p => p.stop > now); }
+                if (dayProgs.length === 0) return;
+                const row = document.createElement('div'); row.className = 'channel-row';
+                const sticky = document.createElement('div'); sticky.className = 'channel-sticky';
+                sticky.onclick = () => showChannelList(ch.id);
+                sticky.innerHTML = `<img src="${ch.icon}" class="sticky-logo" onerror="this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iIzMzMyIgZD0iTTIxIDNIM2MtMS4xIDAtMiAuOS0yIDJ2MTJjMCAxLjEuOSAyIDIgMmg1djJoOHYtMmgyYy42IDAgMS0uNSAxLTF2LTE0YzAtMS4xLS45LTItMi0yek0yMCAxNUg0VjVoMTZ2MTB6Ii8+PC9zdmc+'"><span class="sticky-name">${ch.name}</span>`;
+                row.appendChild(sticky);
+                const track = document.createElement('div'); track.className = 'program-track';
+                dayProgs.forEach(p => {
+                    const block = document.createElement('div'); block.className = 'program-block';
+                    block.dataset.start = p.start.getTime(); block.dataset.stop = p.stop.getTime();
+                    if (p.start <= now && p.stop > now) block.classList.add('is-live');
+                    if (!isMobile) {
+                        let startMins = (p.start - dayStart) / 60000;
+                        let durationMins = (p.stop - p.start) / 60000;
+                        if (startMins < 0) { durationMins += startMins; startMins = 0; }
+                        if (startMins + durationMins > 1440) { durationMins = 1440 - startMins; }
+                        block.style.left = (startMins * PX_PER_MIN) + 'px';
+                        block.style.width = (durationMins * PX_PER_MIN) + 'px';
+                    }
+                    block.innerHTML = `<div class="program-inner-content"><span class="prog-start-time">${formatTime(p.start)}</span>${p.title}</div>`;
+                    block.onclick = () => openModal(p);
+                    if (!isMobile) {
+                        block.onmousemove = (e) => { if(tooltip.style.display === 'none') showTooltip(e, p); else moveTooltip(e); };
+                        block.onmouseleave = hideTooltip;
+                    }
+                    track.appendChild(block);
+                });
+                row.appendChild(track); container.appendChild(row);
+            });
+        }
+
+        function updateTimelineCurrentLine() {
+            if (window.innerWidth > 768) { 
+                const line = document.getElementById('current-line'); const now = new Date();
+                if (currentTimelineDate.toDateString() !== now.toDateString()) { line.style.display = 'none'; }
+                else {
+                    const minutes = now.getHours() * 60 + now.getMinutes();
+                    const cssHeaderW = getComputedStyle(document.documentElement).getPropertyValue('--header-width').trim();
+                    const headerW = parseInt(cssHeaderW);
+                    line.style.left = ((minutes * PX_PER_MIN) + headerW) + 'px'; line.style.display = 'block';
+                }
+            }
+            updateLiveBlocks();
+        }
+        
+        function updateLiveBlocks() {
+            const now = new Date().getTime();
+            const blocks = document.querySelectorAll('.program-block');
+            blocks.forEach(block => {
+                const start = parseInt(block.dataset.start); const stop = parseInt(block.dataset.stop);
+                if (start && stop) {
+                    if (now >= start && now < stop) { if (!block.classList.contains('is-live')) block.classList.add('is-live'); } 
+                    else { if (block.classList.contains('is-live')) block.classList.remove('is-live'); }
+                }
+            });
+        }
+
+        setInterval(updateTimelineCurrentLine, 60000);
+
+        const tooltip = document.getElementById('custom-tooltip');
+        function showTooltip(e, p) { if (window.matchMedia("(pointer: coarse)").matches) return; document.getElementById('tt-title').textContent = p.title; document.getElementById('tt-time').textContent = formatTime(p.start) + ' - ' + formatTime(p.stop); document.getElementById('tt-desc').textContent = p.desc ? p.desc.substring(0, 150) + (p.desc.length>150?'...':'') : 'Sin descripción'; moveTooltip(e); tooltip.style.display = 'block'; }
+        function moveTooltip(e) { let top = e.clientY + 15; let left = e.clientX + 15; if (left + 320 > window.innerWidth) left = e.clientX - 320; if (top + 150 > window.innerHeight) top = e.clientY - 120; tooltip.style.top = top + 'px'; tooltip.style.left = left + 'px'; }
+        function hideTooltip() { tooltip.style.display = 'none'; }
+        
+        function showChannelList(channelId) {
+            closeModal();
+            const ch = DATA.channels.find(c => c.id === channelId);
+            currentChannelProgs = DATA.programs[channelId];
+            document.getElementById('list-header-content').innerHTML = `
+                <img src="${ch.icon}" class="list-ch-logo" onclick="openImageModal('${ch.icon}')" onerror="this.style.display='none'">
+                <div class="list-ch-name">${ch.name}</div>
+            `;
+            const dates = new Set(); currentChannelProgs.forEach(p => dates.add(new Date(p.start).toDateString()));
+            const dateContainer = document.getElementById('date-filters-container'); dateContainer.innerHTML = '';
+            const sortedDates = Array.from(dates).sort((a,b) => new Date(a) - new Date(b));
+            const todayStr = new Date().toDateString(); let hasToday = false, firstDate = null;
+            sortedDates.forEach((dateStr, index) => {
+                const dateObj = new Date(dateStr); const btn = document.createElement('button'); btn.className = 'date-btn';
+                btn.textContent = (dateStr === todayStr) ? 'Hoy' : dateObj.toLocaleDateString('es-ES', { weekday: 'short', day: 'numeric' });
+                btn.onclick = () => filterListByDate(dateStr, btn);
+                dateContainer.appendChild(btn);
+                if (index === 0) firstDate = dateStr;
+                if (dateStr === todayStr) { hasToday = true; setTimeout(() => filterListByDate(dateStr, btn), 0); }
+            });
+            if (!hasToday && firstDate) { const firstBtn = dateContainer.children[0]; filterListByDate(firstDate, firstBtn); }
+            switchView('list');
+        }
+
+        function filterListByDate(dateStr, btnElement) {
+            document.querySelectorAll('.date-btn').forEach(b => b.classList.remove('active'));
+            if(btnElement) btnElement.classList.add('active');
+            const filtered = currentChannelProgs.filter(p => new Date(p.start).toDateString() === dateStr);
+            renderListItems(filtered, false);
+        }
+
+        function handleSearch() {
+            clearTimeout(searchTimeout);
+            searchTimeout = setTimeout(() => {
+                const query = document.getElementById('search-input').value.toLowerCase();
+                if (query.length < 2) { if(document.getElementById('list-view').classList.contains('active')) goBack(); return; }
+                if (!document.getElementById('list-view').classList.contains('active')) { lastView = document.querySelector('.view-container.active').id.replace('-view',''); switchView('list'); }
+                document.getElementById('list-header-content').innerHTML = `<h2 style="margin:0; color:var(--text-main);">Resultados de tu Búsqueda</h2>`;
+                document.getElementById('date-filters-container').innerHTML = ''; 
+                let results = []; const now = new Date();
+                DATA.channels.forEach(ch => {
+                    const matches = DATA.programs[ch.id].filter(p => p.title.toLowerCase().includes(query));
+                    matches.forEach(p => results.push({ ...p, channelName: ch.name, channelId: ch.id }));
+                    if (ch.name.toLowerCase().includes(query)) {
+                        const current = DATA.programs[ch.id].find(p => p.start <= now && p.stop > now);
+                        if(current) results.push({ ...current, channelName: ch.name, channelId: ch.id });
+                    }
+                });
+                results.sort((a,b) => a.start - b.start);
+                renderListItems(results.slice(0, 50), true);
+            }, 300);
+        }
+        
+        function renderListItems(items, showChannelName) { 
+            const container = document.getElementById('list-results'); container.innerHTML = ''; 
+            if (items.length === 0) { container.innerHTML = '<p style="text-align:center; padding:20px; color:var(--text-dim);">No hay programas.</p>'; return; }
+            let html = ''; const now = new Date();
+            items.forEach(p => { 
+                const chInfo = showChannelName ? `<span class="search-channel-tag">${p.channelName}</span>` : ''; 
+                const isLive = (now >= p.start && now < p.stop);
+                if(showChannelName) {
+                    html += `<div class="search-item" onclick="openModal({title:'${p.title.replace(/'/g, "\\'")}', desc:'${p.desc.replace(/'/g, "\\'")}', start: new Date('${p.start}'), stop: new Date('${p.stop}'), channelId: '${p.channelId || ''}'})">${chInfo}<div class="search-time-tag">${formatTime(p.start)}</div><div class="search-prog-title">${p.title}</div></div>`;
+                } else {
+                    const rowClass = isLive ? 'list-item live-now' : 'list-item';
+                    const liveBadge = isLive ? '<span class="live-badge">AL AIRE</span>' : '';
+                    html += `
+                    <div class="${rowClass}" onclick="openModal({title:'${p.title.replace(/'/g, "\\'")}', desc:'${p.desc.replace(/'/g, "\\'")}', start: new Date('${p.start}'), stop: new Date('${p.stop}'), channelId: '${p.channelId || ''}'})">
+                        <div class="list-title-row">
+                            <span class="list-time-inline">${formatTime(p.start)}</span>
+                            <span class="list-title-text">${p.title}</span> ${liveBadge}
+                        </div>
+                    </div>`; 
+                }
+            }); 
+            container.innerHTML = html;
+            if (!showChannelName) { setTimeout(() => { const liveEl = container.querySelector('.live-now'); if (liveEl) { liveEl.scrollIntoView({behavior: "smooth", block: "center"}); } else { container.scrollTop = 0; } }, 100); }
+        }
+
+        function formatTime(d) { if (!(d instanceof Date)) d = new Date(d); return d.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit', hour12: false }); }
+        
+        function openModal(p) {
+            document.getElementById('m-title').textContent = p.title;
+            const dateStr = p.start.toLocaleDateString('es-ES', { weekday: 'long', day: 'numeric', month: 'long' });
+            document.getElementById('m-date').textContent = dateStr.charAt(0).toUpperCase() + dateStr.slice(1);
+            document.getElementById('m-time').textContent = formatTime(p.start) + ' - ' + formatTime(p.stop);
+            document.getElementById('m-desc').textContent = p.desc || 'Sin descripción';
+            const btnContainer = document.getElementById('modal-actions');
+            let btnsHTML = '';
+            if (p.channelId) btnsHTML += `<button class="btn-modal-action" onclick="showChannelList('${p.channelId}')">Ver Información del Canal</button>`;
+            btnsHTML += `<button class="btn-modal-close" onclick="closeModal()">Cerrar</button>`;
+            btnContainer.innerHTML = btnsHTML;
+            document.getElementById('modal').style.display = 'flex';
+        }
+
+        function openImageModal(src) { document.getElementById('img-modal-content').src = src; document.getElementById('img-modal').style.display = 'flex'; }
+        function closeImgModal() { document.getElementById('img-modal').style.display = 'none'; }
+        function closeModal() { document.getElementById('modal').style.display = 'none'; }
+    </script>
+</body>
+</html>
