@@ -368,7 +368,7 @@
     </div>
 
     <script>
-        const EPG_URL = "./guia-de-programacion.xml";
+        const EPG_URL = "https://raw.githubusercontent.com/Puticastillo/EPGCL/refs/heads/main/smithers/guia-de-programacion.xml";
         
         let DATA = { channels: [], programs: {}, availableDates: new Set() };
         let lastView = 'dashboard';
@@ -510,7 +510,7 @@
         function updateHero() {
             const heroBanner = document.getElementById('hero-banner'); const now = new Date(); const ch = heroQueue[heroIndex]; const progs = DATA.programs[ch.id]; const current = progs.find(p => p.start <= now && p.stop > now); if (!current) { nextHero(); return; }
             const pauseIcon = isHeroPaused ? '&#9658;' : '&#10074;&#10074;'; const pauseClass = isHeroPaused ? 'paused' : '';
-            heroBanner.innerHTML = `<div class="hero-content fade-in"><div class="hero-label">AHORA EN ${ch.name.toUpperCase()}</div><h1 class="hero-title">${current.title}</h1><div class="hero-meta"><span>${formatTime(current.start)} - ${formatTime(current.stop)}</span></div><div class="hero-desc">${current.desc ? current.desc.substring(0, 180) + '...' : 'Sin descripción disponible.'}</div><button class="btn-hero" onclick="showChannelList('${ch.id}')">Ver Programación</button></div><img src="${ch.icon}" class="hero-logo fade-in" onerror="this.style.display='none'"><div class="hero-controls"><div class="hero-arrow" onclick="prevHero()">&#10094;</div><div class="hero-arrow ${pauseClass}" id="btn-hero-pause" onclick="toggleHeroPause()">${pauseIcon}</div><div class="hero-arrow" onclick="nextHeroManual()">&#10095;</div></div>`; heroBanner.style.display = 'flex';
+            heroBanner.innerHTML = `<div class="hero-content fade-in"><div class="hero-label">AHORA EN ${ch.name.toUpperCase()}</div><h1 class="hero-title">${current.title}</h1><div class="hero-meta"><span>${formatTime(current.start)} - ${formatTime(current.stop)}</span></div><div class="hero-desc">${current.desc ? (current.desc.length > 180 ? current.desc.substring(0, 180) + '...' : current.desc) : 'Sin descripción disponible.'}</div><button class="btn-hero" onclick="showChannelList('${ch.id}')">Ver Programación</button></div><img src="${ch.icon}" class="hero-logo fade-in" onerror="this.style.display='none'"><div class="hero-controls"><div class="hero-arrow" onclick="prevHero()">&#10094;</div><div class="hero-arrow ${pauseClass}" id="btn-hero-pause" onclick="toggleHeroPause()">${pauseIcon}</div><div class="hero-arrow" onclick="nextHeroManual()">&#10095;</div></div>`; heroBanner.style.display = 'flex';
         }
 
         /* --- LISTA CANALES (TIPO ACORDEÓN) --- */
