@@ -9,22 +9,17 @@
         *, *::before, *::after { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
 
         :root {
-            /* PALETA DUAL TONE */
             --bg-color: #080c14;
             --card-bg: #121b29;
             --header-bg: #040609;
             --section-bg: #0d141f;
-
             --text-main: #e1eaff;
             --text-dim: #8ca6cc;
             --text-header-accent: #4fc3f7;
-
             --accent-green: #00e676;
             --accent-green-hover: #00b34e;
-            
             --live-bg-green: #0f3d24;
             --border-blue: #233147;
-            
             --row-height: 80px;
             --header-width: 220px;
             --ruler-height: 35px;
@@ -204,6 +199,13 @@
         .list-ch-logo:hover { transform: scale(1.05); }
         .list-ch-name { font-size: 1.5rem; font-weight: bold; margin-top: 5px; text-align: center; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 90%; color: var(--text-main); }
         
+        /* Estilo para el ID del canal (Seleccionable) */
+        .list-ch-id { 
+            font-family: monospace; font-size: 0.85rem; color: var(--text-header-accent); 
+            background: rgba(79, 195, 247, 0.1); padding: 2px 8px; border-radius: 4px; 
+            margin-top: 2px; user-select: text; -webkit-user-select: text;
+        }
+
         .date-tabs { display: flex; gap: 10px; overflow-x: auto; padding-bottom: 5px; justify-content: center; width: 100%; }
         .date-btn { background: var(--card-bg); border: 1px solid var(--border-blue); color: var(--text-dim); padding: 8px 18px; border-radius: 20px; cursor: pointer; white-space: nowrap; font-size: 0.95rem; transition: all 0.2s; flex-shrink: 0; }
         .date-btn.active { background: var(--accent-green); color: #00210e; border-color: var(--accent-green); font-weight: bold; }
@@ -225,8 +227,6 @@
         }
         .list-time-inline { color: var(--accent-green); margin-right: 8px; font-weight: bold; flex-shrink: 0; }
         .list-title-text { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; flex: 1; }
-        
-        /* SIN DESCIRPCION EN LA LISTA PRINCIPAL */
         
         .live-badge { background-color: var(--accent-green); color: #00210e; font-size: 0.7rem; padding: 2px 6px; border-radius: 4px; font-weight: 800; letter-spacing: 0.5px; animation: pulse 2s infinite; margin-left: 5px; flex-shrink: 0; }
         @keyframes pulse { 0% { opacity: 1; } 50% { opacity: 0.7; } 100% { opacity: 1; } }
@@ -353,29 +353,23 @@
     <div id="modal" onclick="closeModal()">
         <div class="modal-box" onclick="event.stopPropagation()">
             <h2 id="m-title" class="text-truncate" style="margin-top:0; color:var(--text-main);"></h2>
-            
             <p id="m-date" style="color:var(--text-dim); font-size:0.9rem; margin:0 0 5px 0"></p>
             <p id="m-time" style="color:var(--accent-green); font-weight:bold; margin-top:0"></p>
-            
             <hr style="border-color:var(--border-blue); margin:15px 0">
-            
             <div style="max-height: 200px; overflow-y: auto; padding-right:5px;">
                 <p id="m-desc" style="color:var(--text-dim); line-height:1.5; margin:0"></p>
             </div>
-            
             <div id="modal-actions" class="modal-buttons"></div>
         </div>
     </div>
 
     <script>
         const EPG_URL = "https://raw.githubusercontent.com/Puticastillo/EPGCL/refs/heads/main/smithers/guia-de-programacion.xml";
-        
         let DATA = { channels: [], programs: {}, availableDates: new Set() };
         let lastView = 'dashboard';
         let currentChannelProgs = [];
         let currentTimelineDate = new Date(); 
         const PX_PER_MIN = 5; 
-        
         let heroQueue = []; let heroIndex = 0; let heroTimer = null; let isHeroPaused = false;
         let searchTimeout;
 
@@ -394,9 +388,7 @@
                 const txt = await res.text();
                 const parser = new DOMParser();
                 const xml = parser.parseFromString(txt, "text/xml");
-                if (xml.querySelector('parsererror')) throw new Error("XML Error");
                 processXML(xml);
-                // BUGFIX: Actualizar fecha al inicio
                 currentTimelineDate = new Date();
                 renderDashboard();
                 renderAllChannelsView();
@@ -422,11 +414,9 @@
                 DATA.channels.push({ id, name, icon });
                 DATA.programs[id] = [];
             });
-
             const progs = Array.from(xml.getElementsByTagName('programme'));
             const today = new Date(); today.setHours(0,0,0,0);
             const yesterday = new Date(today); yesterday.setDate(yesterday.getDate() -1);
-
             progs.forEach(p => {
                 const start = parseDate(p.getAttribute('start'));
                 const stop = parseDate(p.getAttribute('stop'));
@@ -488,7 +478,7 @@
                     const next = progs[currentIndex + 1];
                     const pct = Math.min(100, Math.max(0, ((now - current.start) / (current.stop - current.start)) * 100));
                     let nextHtml = next ? `<div class="next-info"><div class="next-label">A CONTINUACIÓN</div><div class="next-program"><span>${next.title}</span><span class="next-time">${formatTime(next.start)}</span></div></div>` : '';
-                    html += `<div class="channel-card" onclick="showChannelList('${ch.id}')"><div class="card-header"><img src="${ch.icon}" class="card-logo" onerror="this.style.display='none'"><span class="card-title">${ch.name}</span></div><div class="card-body"><div class="now-label">Ahora</div><div class="card-program">${current.title}</div><div class="card-time">${formatTime(current.start)} - ${formatTime(current.stop)}</div><div class="prog-bar-bg"><div class="prog-bar-fill" style="width:${pct}%"></div></div>${nextHtml}</div></div>`;
+                    html += `<div class="channel-card" onclick="showChannelList('${ch.id}')"><div class="card-header"><img src="${ch.icon}" class="card-logo" onerror="this.style.display='none'"><span class="card-ch-name">${ch.name}</span></div><div class="card-body"><div class="now-label">Ahora</div><div class="card-program">${current.title}</div><div class="card-time">${formatTime(current.start)} - ${formatTime(current.stop)}</div><div class="prog-bar-bg"><div class="prog-bar-fill" style="width:${pct}%"></div></div>${nextHtml}</div></div>`;
                 }
             });
             container.innerHTML = html;
@@ -513,7 +503,6 @@
             heroBanner.innerHTML = `<div class="hero-content fade-in"><div class="hero-label">AHORA EN ${ch.name.toUpperCase()}</div><h1 class="hero-title">${current.title}</h1><div class="hero-meta"><span>${formatTime(current.start)} - ${formatTime(current.stop)}</span></div><div class="hero-desc">${current.desc ? (current.desc.length > 180 ? current.desc.substring(0, 180) + '...' : current.desc) : 'Sin descripción disponible.'}</div><button class="btn-hero" onclick="showChannelList('${ch.id}')">Ver Programación</button></div><img src="${ch.icon}" class="hero-logo fade-in" onerror="this.style.display='none'"><div class="hero-controls"><div class="hero-arrow" onclick="prevHero()">&#10094;</div><div class="hero-arrow ${pauseClass}" id="btn-hero-pause" onclick="toggleHeroPause()">${pauseIcon}</div><div class="hero-arrow" onclick="nextHeroManual()">&#10095;</div></div>`; heroBanner.style.display = 'flex';
         }
 
-        /* --- LISTA CANALES (TIPO ACORDEÓN) --- */
         function renderAllChannelsView() {
             const container = document.getElementById('channels-content'); container.innerHTML = '';
             const sortedChannels = [...DATA.channels].sort((a,b) => a.name.localeCompare(b.name));
@@ -667,6 +656,7 @@
             document.getElementById('list-header-content').innerHTML = `
                 <img src="${ch.icon}" class="list-ch-logo" onclick="openImageModal('${ch.icon}')" onerror="this.style.display='none'">
                 <div class="list-ch-name">${ch.name}</div>
+                <div class="list-ch-id">${ch.id}</div>
             `;
             const dates = new Set(); currentChannelProgs.forEach(p => dates.add(new Date(p.start).toDateString()));
             const dateContainer = document.getElementById('date-filters-container'); dateContainer.innerHTML = '';
