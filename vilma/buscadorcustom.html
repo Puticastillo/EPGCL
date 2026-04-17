@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="apple-mobile-web-app-title" content="Buscador Escolar">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    
+    <title>Buscador Everest</title>
+    <style>
+        body { 
+            font-family: '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; 
+            background-color: #f4f7f6; 
+            margin: 0; 
+            padding: 0; 
+            display: flex; 
+            flex-direction: column; 
+            align-items: center; 
+        }
+        
+        .header { 
+            background-color: #2c3e50; 
+            color: white; 
+            width: 100%; 
+            text-align: center; 
+            padding: 20px 0; 
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        /* --- NUEVO ESTILO PARA EL LOGO --- */
+        .school-logo {
+            max-height: 90px; /* Controla qué tan alto se ve el logo. Ajusta este número si lo quieres más grande o chico */
+            width: auto;
+            margin-bottom: 10px; /* Separa un poco el logo del texto de abajo */
+        }
+        
+        .search-container { 
+            width: 90%; 
+            max-width: 800px; 
+            margin-top: 30px; 
+            background: white; 
+            padding: 20px; 
+            border-radius: 12px; 
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05); 
+        }
+        
+        .gsc-control-cse { 
+            background-color: transparent !important; 
+            border: none !important; 
+        }
+        
+        .gcsc-find-more-on-google, 
+        .gcsc-find-more-on-google-magnifier, 
+        .gcsc-find-more-on-google-branding, 
+        .gcsc-more-maybe-branding-root, 
+        .gsc-more-maybe-branding-root { 
+            display: none !important; 
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <img src="http://zapallo.serveminecraft.net:56415/everest.png" alt="Logo Colegio Everest" class="school-logo">
+        
+        <h1>Buscador Alumnos Colegio Everest</h1>
+        <p>Development by EVERTICS</p>
+    </div>
+
+    <div class="search-container">
+        <script async src="https://cse.google.com/cse.js?cx=41e532f69ecbf4ed9"></script>
+        
+        <div class="gcse-search" data-linktarget="_self"></div>
+    </div>
+
+    <script>
+        setInterval(function() {
+            let escapeLinks = document.querySelectorAll('a[href*="google.com/search"]');
+            escapeLinks.forEach(function(link) { 
+                link.remove(); 
+            });
+        }, 1000);
+    </script>
+
+</body>
+</html>
