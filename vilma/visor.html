@@ -2,1687 +2,1366 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EPGCL</title>
-    <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+    <link rel="icon" type="image/png" href="favicon.png">
     <style>
-        /* Estilos visaules */
-        *, *::before, *::after { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
-
         :root {
-            --bg-color: #080c14;
-            --card-bg: #121b29;
-            --header-bg: #040609;
-            --section-bg: #0d141f;
-            --text-main: #e1eaff;
-            --text-dim: #8ca6cc;
-            --text-header-accent: #4fc3f7;
-            --accent-green: #00e676;
-            --accent-green-hover: #00b34e;
-            --live-bg-green: #0f3d24;
-            --border-blue: #233147;
-            --row-height: 80px;
-            --header-width: 220px;
-            --ruler-height: 35px;
+            /* --- PALETA DARK AQUA --- */
+            --bg-body: #0b0e11;
+            --bg-card: #151a1f;
+            --bg-modal: #111418;
+            --text-main: #ffffff;
+            --text-dim: #90a4ae;
+            
+            --accent: #00e676;
+            --accent-glow: rgba(0, 230, 118, 0.4);
+            --match-color: #00b0ff;
+            --match-bg: rgba(0, 176, 255, 0.15);
+            
+            --border-color: #263238;
+            --input-bg: #1c2229;
+            --radius: 12px;
+            
+            --card-min-width: 280px;
+            --grid-gap: 20px;
         }
 
-        body {
-            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
-            background-color: var(--bg-color);
-            color: var(--text-main);
-            margin: 0;
-            height: 100vh;
-            display: flex;
-            flex-direction: column;
-            overflow: hidden;
-            font-size: 16px;
+        body { background-color: var(--bg-body); color: var(--text-main); font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; margin: 0; padding: 0; overflow: hidden; height: 100vh; height: 100dvh; display: flex; flex-direction: column; }
+
+        /* --- Header --- */
+        header { position: relative; z-index: 100; background: rgba(11, 14, 17, 0.98); border-bottom: 1px solid var(--border-color); padding: 10px 4%; display: flex; justify-content: space-between; align-items: center; backdrop-filter: blur(10px); flex-shrink: 0; }
+        .brand { font-size: 1.5rem; font-weight: 900; color: var(--text-main); letter-spacing: -0.5px; flex: 1;}
+        .brand span { color: var(--accent); }
+
+        .view-toggler { flex: 0 1 auto; display: flex; background: var(--input-bg); border-radius: 6px; padding: 3px; border: 1px solid var(--border-color); flex-wrap: wrap; justify-content: center; }
+        .view-btn { background: transparent; border: none; color: var(--text-dim); padding: 6px 14px; font-size: 0.85rem; font-weight: 600; cursor: pointer; border-radius: 4px; transition: 0.2s; }
+        .view-btn.active { background: var(--bg-body); color: var(--text-main); box-shadow: 0 1px 3px rgba(0,0,0,0.5); }
+
+        .header-actions { flex: 1; text-align: right; }
+        .btn-icon { background: none; border: none; font-size: 1.4rem; cursor: pointer; color: var(--text-dim); transition: 0.2s; margin-left: auto;}
+        .btn-icon:hover { color: var(--text-main); }
+
+        /* --- Config Panel --- */
+        #configPanel { display: none; padding: 20px 4%; background: var(--bg-card); border-bottom: 1px solid var(--border-color); position:absolute; top:60px; width:100%; z-index:90; box-sizing:border-box;}
+        .config-row { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; margin-bottom: 15px; }
+        .btn-small { padding: 6px 14px; background: transparent; color: var(--text-dim); border: 1px solid var(--border-color); border-radius: 4px; cursor: pointer; font-weight: 600; font-size: 0.85rem; transition: 0.2s;}
+        .btn-small:hover { border-color: var(--text-main); color: var(--text-main); }
+        .btn-small.active { background: var(--accent); color: #000; border-color: var(--accent); }
+        .url-input { flex-grow: 1; padding: 6px; background: var(--input-bg); border: 1px solid var(--border-color); color: var(--text-main); border-radius: 4px; }
+        #urlConfigSection { background: rgba(0,0,0,0.2); padding: 12px; border-radius: 8px; width: 100%; box-sizing: border-box; border: 1px solid rgba(255,255,255,0.05); }
+
+        /* --- MAIN --- */
+        #mainContainer { flex-grow: 1; overflow-y: auto; position: relative; padding-bottom: 20px; }
+        
+        /* --- CARDS VIEW (INICIO) --- */
+        #cardsView { display: block; }
+        #heroSection { position: relative; width: 100%; height: 45vh; min-height: 400px; max-height: 550px; overflow: hidden; border-bottom: 1px solid var(--border-color); display: none; transition: height 0.3s ease; }
+        .hero-bg-layer { position: absolute; top:0; left:0; width:100%; height:100%; background-size: cover; background-position: center; transition: opacity 0.5s ease-in-out; }
+        .hero-bg-layer.fade-out { opacity: 0.2; }
+        .hero-overlay { position: absolute; top:0; left:0; right:0; bottom:0; background: linear-gradient(to top, var(--bg-body) 10%, rgba(11,14,17,0.8) 50%, rgba(11,14,17,0.3) 100%); display: flex; flex-direction: column; justify-content: flex-end; padding: 40px 5%; }
+        
+        .hero-content { position: relative; z-index: 2; max-width: 900px; opacity: 1; transition: 0.4s; cursor: pointer; }
+        .hero-content:hover .hero-title { text-decoration: underline; }
+        .hero-content.changing { opacity: 0; transform: translateY(15px); }
+        
+        .hero-meta-capsule { display: flex; align-items: center; gap: 15px; background: rgba(255,255,255,0.05); backdrop-filter: blur(5px); border: 1px solid rgba(255,255,255,0.1); padding: 10px 25px 10px 10px; border-radius: 60px; width: fit-content; margin-bottom: 15px; }
+        .hero-logo-img { width: 55px; height: 55px; background: white; border-radius: 50%; object-fit: contain; padding: 3px; }
+        .hero-text-group { display: flex; flex-direction: column; line-height: 1.2; }
+        .hero-ch-name { font-weight: 800; color: white; font-size: 1.3rem; }
+        .hero-time { color: var(--accent); font-weight: 600; font-size: 1rem; margin-top: 2px;}
+        
+        .hero-title { font-size: 2.5rem; font-weight: 800; margin: 0 0 10px 0; line-height: 1.1; color: white; text-shadow: 0 4px 10px rgba(0,0,0,0.5); }
+        .hero-desc { font-size: 1rem; color: #b0bec5; line-height: 1.5; max-width: 700px; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+        
+        .hero-controls { position: absolute; bottom: 40px; right: 5%; z-index: 10; display: flex; align-items: center; gap: 10px; }
+        .hero-btn { background: rgba(255,255,255,0.1); border: 1px solid rgba(255,255,255,0.1); color: white; width: 40px; height: 40px; border-radius: 50%; cursor: pointer; display: flex; align-items: center; justify-content: center; font-size: 1rem; transition: all 0.2s; }
+        .hero-btn:hover { background: var(--accent); color: black; border-color: var(--accent); }
+        .hero-btn.play-btn { width: 50px; height: 50px; font-size: 1.2rem; background: var(--accent); color: black; border:none; }
+        .hero-progress-bar { position: absolute; bottom: 0; left: 0; height: 3px; background: var(--accent); width: 0%; z-index: 20; transition: width 0.1s linear; box-shadow: 0 -2px 10px var(--accent-glow); }
+
+        .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(var(--card-min-width), 1fr)); gap: var(--grid-gap); padding: 30px 4%; }
+        @media (min-width: 2200px) { .grid { grid-template-columns: repeat(7, 1fr); justify-content: center; } }
+        .card { background-color: var(--bg-card); border-radius: var(--radius); position: relative; aspect-ratio: 16/9; cursor: pointer; overflow: hidden; transition: transform 0.2s, box-shadow 0.2s, border-color 0.2s; border: 1px solid var(--border-color); }
+        .card:hover { transform: translateY(-4px); box-shadow: 0 10px 20px rgba(0,0,0,0.4); border-color: var(--text-dim); z-index: 5; }
+        .card-bg { width: 100%; height: 100%; background-size: cover; background-position: center; background-color: #222; opacity: 0.7; transition: opacity 0.3s; }
+        .card:hover .card-bg { opacity: 0.4; }
+        .card-overlay { position: absolute; bottom: 0; left: 0; right: 0; top: 0; background: linear-gradient(to top, var(--bg-card) 0%, rgba(21,26,31,0.8) 40%, rgba(21,26,31,0.1) 100%); display: flex; flex-direction: column; justify-content: flex-end; padding: 15px; }
+        .card-title { font-weight: 700; font-size: 1.1rem; margin-bottom: 5px; line-height: 1.2; color: white; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;}
+        .card-meta { font-size: 0.85rem; color: var(--text-dim); }
+        .card-ch-logo { position: absolute; top: 12px; left: 12px; width: 36px; height: 36px; object-fit: contain; background: white; border-radius: 6px; padding: 3px; box-shadow: 0 2px 4px rgba(0,0,0,0.5); }
+        
+        /* EL NUEVO ID DEL CANAL EN LA ESQUINA INFERIOR DERECHA DE LA TARJETA */
+        .card-ch-id { position: absolute; bottom: 12px; right: 15px; font-size: 1.1rem; font-weight: 900; color: var(--accent); z-index: 5; text-shadow: 1px 1px 3px rgba(0,0,0,0.8); }
+
+        .card-progress-container { position: absolute; bottom: 0; left: 0; width: 100%; height: 3px; background: rgba(255,255,255,0.1); }
+        .card-progress-bar { height: 100%; background: var(--accent); width: 0%; box-shadow: 0 0 5px var(--accent-glow); transition: width 0.5s ease; }
+        .card-badge { position: absolute; top: 12px; right: 12px; padding: 3px 8px; border-radius: 4px; font-size: 0.7rem; font-weight: 800; text-transform: uppercase; background: rgba(0,0,0,0.6); color: white; border: 1px solid rgba(255,255,255,0.2); backdrop-filter: blur(4px); }
+        .badge-live { color: var(--accent); border-color: var(--accent); }
+
+        /* --- VISTAS GLOBALES --- */
+        #listView, #searchView, #channelsView { display: none; flex-direction: column; min-height: 100%; background: var(--bg-body); padding: 20px 4%; box-sizing: border-box; }
+
+        /* --- LIST VIEW (OCULTA) --- */
+        .list-row { display: flex; gap: 20px; padding: 15px 0; border-bottom: 1px solid var(--border-color); align-items: center; }
+        .list-ch-col { width: 90px; flex-shrink: 0; display: flex; flex-direction: column; align-items: center; gap: 8px; }
+        .list-ch-logo { width: 60px; height: 60px; background: white; border-radius: 6px; object-fit: contain; padding: 4px; box-shadow: 0 2px 5px rgba(0,0,0,0.5); }
+        .list-ch-name { font-size: 0.8rem; text-align: center; color: var(--text-dim); font-weight: bold;}
+        .list-prog-col { flex-grow: 1; display: flex; flex-direction: column; justify-content: center; gap: 8px; overflow: hidden; }
+        .list-prog-item { display: flex; gap: 15px; align-items: center; cursor: pointer; padding: 6px 12px; border-radius: 6px; transition: background 0.2s;}
+        .list-prog-item:hover { background: var(--bg-card); }
+        .list-prog-time { font-family: monospace; font-size: 1rem; font-weight: bold; color: var(--text-dim); width: 55px; flex-shrink: 0; }
+        .list-prog-title { font-size: 0.95rem; color: var(--text-dim); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+        .list-prog-item.active { background: var(--bg-card); border-left: 3px solid var(--match-color); }
+        .list-prog-item.active .list-prog-time { color: var(--match-color); }
+        .list-prog-item.active .list-prog-title { color: var(--match-color); background: var(--match-bg); padding: 4px 10px; border-radius: 4px; font-weight: bold;}
+        
+        /* --- NUEVA PESTAÑA DE BÚSQUEDA --- */
+        .search-input-wrapper { position: sticky; top: 0; z-index: 20; background: var(--bg-body); padding-bottom: 15px; border-bottom: 1px solid var(--border-color); margin-bottom: 20px; }
+        .search-big-input { width: 100%; background: var(--input-bg); border: 2px solid var(--border-color); padding: 15px 20px; border-radius: 12px; color: white; font-size: 1.1rem; box-sizing: border-box; outline: none; transition: 0.3s; }
+        .search-big-input:focus { border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-glow); }
+        .search-section-title { color: var(--text-main); font-size: 1.3rem; margin: 0 0 15px 0; display: flex; align-items: center; gap: 10px; }
+        .search-section-title::after { content: ""; flex-grow: 1; height: 1px; background: var(--border-color); }
+        
+        .search-channels-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); gap: 15px; margin-bottom: 30px; }
+        .search-channel-item { background: white; border-radius: 12px; height: 80px; display: flex; align-items: center; justify-content: center; cursor: pointer; transition: 0.2s; padding: 5px; box-sizing: border-box; }
+        .search-channel-item:hover { transform: scale(1.05); }
+        .search-channel-item img { width: 100%; height: 100%; object-fit: contain; }
+
+        .search-result-card { gap: 15px; align-items: center; }
+        .search-ch-logo-box { width: 70px; height: 70px; flex-shrink: 0; background: white; border-radius: 8px; padding: 4px; box-shadow: 0 2px 8px rgba(0,0,0,0.5); display: flex; align-items: center; justify-content: center; }
+        .search-ch-logo-box img { width: 100%; height: 100%; object-fit: contain; }
+        .search-prog-meta { color: var(--text-dim); font-size: 0.95rem; line-height: 1.4;}
+
+        /* --- PISTA CANALES (DIRECTORIO) --- */
+        .ch-selector-wrapper { background: var(--bg-card); border-radius: 16px; padding: 20px 60px 20px 20px; margin-bottom: 25px; border: 1px solid var(--border-color); position: relative; }
+        
+        .ch-search-bar { width: 100%; background: var(--input-bg); border: 1px solid var(--border-color); padding: 10px 15px; border-radius: 8px; color: white; margin-bottom: 15px; box-sizing: border-box; outline: none; transition: 0.3s;}
+        .ch-search-bar:focus { border-color: var(--accent); }
+
+        .ch-grid-scroll { height: 255px; overflow-y: auto; scrollbar-width: none; -ms-overflow-style: none; scroll-snap-type: y mandatory; }
+        .ch-grid-scroll::-webkit-scrollbar { display: none; }
+        .ch-grid-inner { display: grid; grid-template-columns: repeat(auto-fill, minmax(80px, 1fr)); gap: 15px; }
+        
+        .ch-logo-item { background: white; border-radius: 12px; height: 75px; display: flex; align-items: center; justify-content: center; cursor: pointer; transition: 0.2s; border: 2px solid transparent; padding: 5px; box-sizing: border-box; scroll-snap-align: start; position: relative; overflow: hidden; }
+        .ch-logo-item:hover { transform: scale(1.05); }
+        .ch-logo-item.selected { border-color: var(--accent); box-shadow: 0 0 12px var(--accent-glow); transform: scale(1.05); }
+        .ch-logo-item img { width: 100%; height: 100%; object-fit: contain; }
+        
+        .ch-nav-btn { position: absolute; right: 15px; width: 35px; height: 35px; background: rgba(255,255,255,0.1); border: 1px solid rgba(255,255,255,0.2); border-radius: 50%; color: white; cursor: pointer; z-index: 10; display: flex; justify-content: center; align-items: center; font-size: 1rem; transition: 0.2s;}
+        .ch-nav-btn:hover { background: var(--accent); color: black; border-color: var(--accent); }
+        .ch-nav-up { top: 100px; }
+        .ch-nav-down { bottom: 40px; }
+
+        .dir-channel-header { display: flex; align-items: center; gap: 15px; margin-bottom: 20px; }
+        .dir-channel-header img { width: 55px; height: 55px; object-fit: contain; background: white; border-radius: 8px; padding: 4px; box-shadow: 0 2px 8px rgba(0,0,0,0.5); }
+        .dir-channel-header h2 { font-size: 1.8rem; margin: 0; color: white; letter-spacing: -0.5px;}
+
+        .ch-date-tabs { display: flex; gap: 10px; margin-bottom: 20px; flex-wrap: wrap;}
+        .ch-date-tab { background: transparent; border: 1px solid var(--border-color); color: var(--text-dim); padding: 8px 20px; border-radius: 20px; cursor: pointer; font-weight: bold; transition: 0.2s; font-family: inherit;}
+        .ch-date-tab.active { background-color: var(--accent); color: black; border-color: var(--accent); }
+        
+        .ch-date-select {
+            -webkit-appearance: none; -moz-appearance: none; appearance: none;
+            padding-right: 35px; background-color: transparent;
+            background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224%22%20height%3D%2224%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22%2390a4ae%22%3E%3Cpath%20d%3D%22M7%2010l5%205%205-5z%22%2F%3E%3C%2Fsvg%3E");
+            background-repeat: no-repeat; background-position: right 8px center; background-size: 20px; outline: none;
         }
-
-        .text-truncate { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; display: block; max-width: 100%; }
-
-        header {
-            background: var(--header-bg); padding: 10px 20px;
-            display: flex; flex-wrap: wrap; align-items: center; justify-content: center;
-            gap: 15px; border-bottom: 1px solid var(--border-blue); min-height: 60px;
-            z-index: 60; position: relative; flex-shrink: 0;
+        .ch-date-select::-ms-expand { display: none; }
+        .ch-date-select.active {
+            background-color: var(--accent);
+            background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224%22%20height%3D%2224%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22%23000000%22%3E%3Cpath%20d%3D%22M7%2010l5%205%205-5z%22%2F%3E%3C%2Fsvg%3E");
         }
+        .ch-date-select option { background: var(--bg-card); color: var(--text-main); }
+
+        .ch-prog-list { display: flex; flex-direction: column; gap: 15px; padding-bottom: 30px;}
+        .ch-prog-card { display: flex; background: var(--bg-card); border-radius: 12px; overflow: hidden; border: 1px solid var(--border-color); padding: 15px; gap: 20px; position: relative; cursor: pointer; transition: 0.2s;}
+        .ch-prog-card:hover { border-color: var(--text-dim); }
+        .ch-prog-card.is-past { opacity: 0.4; }
+        .ch-prog-card.is-live { border-color: var(--accent); background: rgba(0, 230, 118, 0.05); }
         
-        .header-title { 
-            font-size: 1.2rem; margin: 0; white-space: nowrap; 
-            position: absolute; left: 20px; display: none; 
-            color: var(--text-header-accent); font-weight: 700;
-            cursor: pointer; transition: color 0.2s;
-        }
-        .header-title:hover { color: var(--accent-green); }
-        @media(min-width: 1024px) { .header-title { display: block; } }
-
-        .search-container {
-            flex-grow: 1; display: flex; max-width: 500px;
-            background: var(--card-bg); border-radius: 20px; padding: 5px 15px;
-            border: 1px solid var(--border-blue); transition: border-color 0.2s;
-        }
-        .search-container:focus-within { border-color: var(--accent-green); }
-        .search-icon { display: flex; align-items: center; color: var(--text-dim); margin-right: 8px; }
-        .search-input { flex-grow: 1; background: transparent; border: none; color: var(--text-main); padding: 5px; outline: none; font-size: 1rem; width: 100%; }
-
-        .nav-controls { display: flex; gap: 8px; justify-content: center; }
-        .nav-btn {
-            background: transparent; border: 1px solid var(--border-blue); color: var(--text-dim);
-            padding: 8px 15px; cursor: pointer; border-radius: 4px; font-size: 0.9rem; white-space: nowrap; transition: all 0.2s;
-        }
-        .nav-btn.active { background: var(--accent-green); border-color: var(--accent-green); color: #00210e; font-weight: bold; }
-        .nav-btn:hover:not(.active) { background: var(--section-bg); color: var(--text-main); border-color: var(--text-dim); }
-
-        .view-container { flex: 1; overflow: hidden; display: none; position: relative; }
-        .view-container.active { display: block; }
-
-        #dashboard-view { overflow-y: auto; scroll-behavior: smooth; -webkit-overflow-scrolling: touch; }
+        .ch-prog-img-box { position: relative; width: 220px; flex-shrink: 0; border-radius: 8px; overflow: hidden; background: #222; aspect-ratio: 16/9; }
+        .ch-prog-img-box img { width: 100%; height: 100%; object-fit: cover; }
+        .ch-prog-progress { position: absolute; bottom: 0; left: 0; height: 5px; background: var(--accent); width: 0%; box-shadow: 0 -1px 5px var(--accent-glow);}
+        .live-badge { position: absolute; top: 10px; left: 10px; background: var(--accent); color: black; font-size: 0.7rem; font-weight: bold; padding: 3px 8px; border-radius: 4px; text-transform: uppercase; z-index: 5;}
         
-        .hero-banner {
-            background: linear-gradient(to bottom right, #061e3d, #0a3820, var(--bg-color));
-            padding: 40px; border-bottom: 1px solid var(--border-blue);
-            display: flex; align-items: center; gap: 30px;
-            min-height: 320px; position: relative; overflow: hidden; transition: background 0.5s;
-        }
-        .fade-in { animation: fadeIn 0.5s ease-in-out; }
-        @keyframes fadeIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
-
-        .hero-content { flex: 1; z-index: 2; overflow: hidden; }
-        .hero-label { color: var(--accent-green); font-weight: bold; margin-bottom: 10px; letter-spacing: 1px; white-space: nowrap; }
-        .hero-title { font-size: 2.5rem; font-weight: bold; margin: 0 0 15px 0; line-height: 1.1; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; color: #fff; }
-        .hero-meta { display: flex; align-items: center; gap: 15px; color: var(--text-dim); margin-bottom: 15px; font-size: 1.1rem; white-space: nowrap; }
-        .hero-desc { color: #b0bec5; max-width: 700px; line-height: 1.5; font-size: 1rem; margin-bottom: 25px; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
-        .hero-actions { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; margin-top: 15px; }
-        .hero-logo { width: 150px; height: 150px; background: white; padding: 10px; border-radius: 10px; object-fit: contain; z-index: 2; box-shadow: 0 10px 30px rgba(0,0,0,0.5); }
-        .btn-hero { background: var(--accent-green); color: #00210e; border: none; padding: 12px 30px; font-size: 1rem; font-weight: bold; border-radius: 4px; cursor: pointer; transition: background 0.2s; white-space: nowrap; }
-        .btn-hero:hover { background: var(--accent-green-hover); color: white; }
+        .ch-prog-info { display: flex; flex-direction: column; justify-content: center; flex-grow: 1; overflow: hidden; }
+        .ch-prog-time { color: var(--text-dim); font-family: monospace; font-size: 0.95rem; margin-bottom: 5px; display: flex; align-items: center; gap: 10px;}
+        .ch-prog-time img { height: 20px; border-radius: 4px; background: white; padding: 2px;}
+        .ch-prog-title { font-size: 1.2rem; font-weight: bold; color: white; margin-bottom: 8px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;}
         
-        .hero-controls { position: absolute; right: 30px; bottom: 30px; display: flex; gap: 10px; z-index: 10; }
-        .hero-arrow { background: rgba(18, 27, 41, 0.6); border: 1px solid var(--border-blue); color: var(--text-main); width: 45px; height: 45px; border-radius: 50%; display: flex; align-items: center; justify-content: center; cursor: pointer; font-size: 1.2rem; transition: all 0.2s; user-select: none; }
-        .hero-arrow:hover { background: var(--accent-green); border-color: var(--accent-green); color: #00210e; }
-        .hero-arrow.paused { background: rgba(0, 230, 118, 0.2); border-color: var(--accent-green); color: var(--accent-green); }
-
-        .dashboard-content { padding: 25px; }
-        .section-title { font-size: 1.5rem; margin-bottom: 20px; font-weight: bold; border-left: 4px solid var(--accent-green); padding-left: 15px; color: var(--text-main); }
-        .grid-container { display: grid; grid-template-columns: repeat(auto-fill, minmax(400px, 1fr)); gap: 20px; }
+        .ch-prog-desc { color: var(--text-dim); font-size: 0.9rem; line-height: 1.5; display: -webkit-box; -webkit-box-orient: vertical; overflow: hidden; transition: all 0.3s; }
+        .desc-clamp { -webkit-line-clamp: 2; }
+        .desc-expanded { -webkit-line-clamp: unset !important; display: block; }
         
-        .channel-card { background: var(--card-bg); border-radius: 8px; padding: 20px; cursor: pointer; border: 1px solid var(--border-blue); transition: transform 0.2s, border-color 0.2s; display: flex; flex-direction: column; overflow: hidden; }
-        .channel-card:hover { transform: translateY(-3px); border-color: var(--accent-green); box-shadow: 0 5px 15px rgba(0, 230, 118, 0.15); }
-        .card-header { display: flex; align-items: center; gap: 10px; margin-bottom: 15px; overflow: hidden; }
-        .card-logo { width: 50px; height: 50px; object-fit: contain; background: #fff; border-radius: 6px; padding: 4px; flex-shrink: 0; }
-        .card-ch-name { font-weight: bold; color: var(--text-main); font-size: 1.2rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; flex: 1; }
-        .card-body { flex: 1; display: flex; flex-direction: column; gap: 5px; overflow: hidden; }
-        .now-label { color: var(--accent-green); font-size: 0.75rem; font-weight: bold; text-transform: uppercase; }
-        .card-program { font-size: 1.1rem; color: var(--text-main); font-weight: 600; line-height: 1.2; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-        .card-time { font-size: 0.85rem; color: var(--text-dim); margin-bottom: 8px; white-space: nowrap; }
-        .prog-bar-bg { height: 4px; background: #1c2a3d; border-radius: 2px; margin-bottom: 15px; overflow: hidden; flex-shrink: 0; }
-        .prog-bar-fill { height: 100%; background: var(--accent-green); width: 0%; }
-        .next-info { border-top: 1px solid var(--border-blue); padding-top: 10px; margin-top: auto; overflow: hidden; }
-        .next-label { color: #5c7c9e; font-size: 0.75rem; font-weight: bold; margin-bottom: 2px; }
-        .next-program { font-size: 0.95rem; color: var(--text-dim); display: flex; justify-content: space-between; gap: 10px; overflow: hidden; }
-        .next-program span:first-child { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; flex: 1; }
-        .next-time { font-size: 0.85rem; color: var(--text-dim); font-weight: bold; white-space: nowrap; }
+        .btn-read-more { background: none; border: none; color: var(--accent); padding: 0; margin-top: 8px; cursor: pointer; font-size: 0.85rem; font-weight: bold; text-align: left; display: none; width: fit-content;}
+        .btn-read-more:hover { text-decoration: underline; }
 
-        .btn-icon-small { 
-            width: 32px; height: 32px; border-radius: 50%; display: flex; align-items: center; justify-content: center; 
-            font-size: 1rem; cursor: pointer; transition: transform 0.2s; border: none; flex-shrink: 0; text-decoration: none;
-        }
-        .btn-icon-stream { background: var(--accent-green); color: #00210e; }
-        .btn-icon-web { background: var(--section-bg); color: var(--text-main); border: 1px solid var(--text-dim); }
-        .btn-icon-small:hover { transform: scale(1.15); }
+        .btn-toggle-past { background: var(--input-bg); border: 1px solid var(--border-color); color: var(--text-dim); padding: 10px 20px; border-radius: 20px; cursor: pointer; font-weight: bold; transition: 0.2s; width: fit-content; margin: 0 auto 15px auto; display: block;}
+        .btn-toggle-past:hover { background: var(--border-color); color: white; }
 
-        #channels-view { padding: 30px; overflow-y: auto; -webkit-overflow-scrolling: touch; }
-        #channels-content { max-width: 900px; margin: 0 auto; }
-        .alpha-section { margin-bottom: 30px; }
-        .alpha-header { font-size: 1.2rem; font-weight: bold; color: var(--text-header-accent); margin-bottom: 10px; padding-left: 10px; }
+        /* --- MODALS & BUTTONS --- */
+        .modal-overlay { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.85); z-index: 2000; display: none; justify-content: center; align-items: center; backdrop-filter: blur(5px); }
+        .modal-content { background: var(--bg-modal); width: 95%; max-width: 800px; height: 85vh; border-radius: 12px; display: flex; flex-direction: column; box-shadow: 0 25px 50px rgba(0,0,0,0.5); overflow: hidden; position: relative; border: 1px solid var(--border-color); }
+        .modal-header { padding: 15px 20px; background: var(--bg-card); border-bottom: 1px solid var(--border-color); display: flex; flex-direction: column; gap: 15px; flex-shrink: 0; }
         
-        .channel-list-item { background: var(--card-bg); border: 1px solid var(--border-blue); border-radius: 6px; margin-bottom: 8px; overflow: hidden; }
-        .ch-item-header { display: flex; align-items: center; padding: 15px; cursor: pointer; transition: background 0.2s; overflow: hidden; }
-        .ch-item-header:hover { background: var(--section-bg); }
-        .ch-list-logo { width: 45px; height: 45px; background: white; border-radius: 6px; padding: 3px; object-fit: contain; margin-right: 15px; flex-shrink: 0; }
-        .ch-list-name { font-size: 1.1rem; font-weight: bold; color: var(--text-main); flex: 1; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+        .btn-back-action { display: inline-flex; align-items: center; gap: 5px; background: rgba(255,255,255,0.1); border: 1px solid rgba(255,255,255,0.2); color: white; padding: 6px 12px; border-radius: 20px; font-size: 0.9rem; font-weight: bold; cursor: pointer; transition: 0.2s; margin-bottom: 10px; width: fit-content; }
+        .btn-back-action:hover { background: var(--accent); color: black; border-color: var(--accent); }
         
-        .header-icons { display: flex; gap: 8px; margin-right: 15px; flex-shrink: 0; }
-
-        .ch-expand-icon { color: var(--text-dim); font-size: 1.2rem; transition: transform 0.2s; flex-shrink: 0; }
-        .channel-list-item.open .ch-expand-icon { transform: rotate(180deg); color: var(--accent-green); }
-
-        .ch-item-schedule { display: none; background: var(--section-bg); border-top: 1px solid var(--border-blue); padding: 10px 15px 15px 15px; }
-        .channel-list-item.open .ch-item-schedule { display: block; animation: slideDown 0.2s; }
-        @keyframes slideDown { from { opacity: 0; transform: translateY(-5px); } to { opacity: 1; transform: translateY(0); } }
-
-        .mini-prog-row { display: flex; gap: 15px; padding: 8px 0; border-bottom: 1px solid var(--border-blue); font-size: 0.9rem; color: var(--text-dim); overflow: hidden; }
-        .mini-prog-row.current { color: var(--text-main); background: rgba(0, 230, 118, 0.1); border-left: 3px solid var(--accent-green); padding-left: 10px; }
-        .mini-prog-time { color: var(--accent-green); font-weight: bold; min-width: 50px; flex-shrink: 0; }
-        .mini-prog-title { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; flex: 1; }
+        /* Popup Detalle */
+        #detailModal { z-index: 3000; }
+        .detail-content { background: var(--bg-modal); width: 90%; max-width: 500px; height: auto; max-height: 90vh; animation: popUp 0.3s; border: 1px solid var(--border-color); }
+        @keyframes popUp { from { transform: scale(0.95); opacity: 0; } to { transform: scale(1); opacity: 1; } }
+        .detail-hero-container { position: relative; width: 100%; height: 220px; }
+        .detail-hero { width: 100%; height: 100%; object-fit: cover; mask-image: linear-gradient(to bottom, black 50%, transparent 100%); cursor: zoom-in; }
+        .detail-ch-logo { position: absolute; top: 15px; right: 15px; width: 45px; height: 45px; background: white; border-radius: 6px; padding: 3px; object-fit: contain; box-shadow: 0 2px 10px rgba(0,0,0,0.5); cursor: zoom-in; z-index: 10; }
         
-        .mini-prog-btn { width: 100%; padding: 10px; margin-top: 10px; background: var(--card-bg); color: var(--text-main); border: 1px solid var(--border-blue); border-radius: 4px; cursor: pointer; font-weight: bold; white-space: nowrap; transition: all 0.2s; }
-        .mini-prog-btn:hover { background: var(--accent-green); color: #00210e; border-color: var(--accent-green); }
-
-        .action-btn { display: inline-flex; align-items: center; gap: 8px; padding: 8px 15px; border-radius: 4px; font-size: 0.9rem; font-weight: bold; text-decoration: none; cursor: pointer; margin-top: 5px; border: none; transition: all 0.2s; white-space: nowrap; }
-        .btn-stream { background: var(--accent-green); color: #00210e; }
-        .btn-stream:hover { background: var(--accent-green-hover); }
-        .btn-web { background: var(--card-bg); border: 1px solid var(--text-dim); color: var(--text-main); }
-        .btn-web:hover { background: var(--section-bg); border-color: var(--text-main); }
-
-        #timeline-view { overflow: auto; height: 100%; position: relative; display: flex; flex-direction: column; background: var(--bg-color); }
-        #timeline-dates-wrapper { background: var(--section-bg); padding: 10px; border-bottom: 1px solid var(--border-blue); display: flex; justify-content: center; flex-shrink: 0; z-index: 55; }
-        #timeline-scroll-area { flex: 1; overflow: auto; position: relative; -webkit-overflow-scrolling: touch; }
-        .timeline-container { position: relative; min-width: 100%; }
+        .detail-body { padding: 20px 25px 25px 25px; margin-top: -40px; position: relative; z-index: 2; }
+        .detail-title { font-size: 1.6rem; font-weight: 800; margin-bottom: 5px; color: var(--text-main); line-height: 1.2; }
+        .detail-extra { font-size: 1rem; color: var(--text-dim); margin-bottom: 15px; font-weight: 500; opacity: 0.8; font-style: italic; }
+        .detail-time { color: var(--accent); font-weight: 700; font-size: 1rem; margin-bottom: 10px; letter-spacing: 0.5px; }
+        .detail-desc { color: var(--text-main); line-height: 1.6; font-size: 0.95rem; opacity: 0.9; overflow-y: auto; max-height: 250px;}
         
-        #timeline-ruler { position: sticky; top: 0; height: var(--ruler-height); background-color: var(--section-bg); border-bottom: 1px solid var(--border-blue); z-index: 55; white-space: nowrap; overflow: hidden; margin-left: var(--header-width); }
-        .time-marker { position: absolute; top: 0; bottom: 0; border-left: 1px solid var(--border-blue); padding-left: 5px; color: var(--text-dim); font-size: 0.8rem; line-height: var(--ruler-height); pointer-events: none; }
+        .btn-back-popup { position:absolute; top:15px; left:15px; z-index: 20; }
 
-        .channel-row { display: flex; border-bottom: 1px solid var(--border-blue); height: var(--row-height); width: 100%; }
-        .channel-sticky { position: sticky; left: 0; width: var(--header-width); min-width: var(--header-width); background: var(--section-bg); z-index: 60; display: flex; align-items: center; padding: 0 10px; border-right: 2px solid #000; box-shadow: 4px 0 10px rgba(0,0,0,0.5); cursor: pointer; transition: background 0.2s; }
-        .channel-sticky:hover { background: var(--card-bg); }
-        .sticky-logo { width: 50px; height: 50px; object-fit: contain; background: #fff; border-radius: 6px; padding: 2px; margin-right: 10px; flex-shrink: 0; }
-        .sticky-name { font-weight: bold; font-size: 0.9rem; line-height: 1.2; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; color: var(--text-main); }
+        /* VISOR DE IMÁGENES */
+        #imageViewModal { z-index: 4000; flex-direction: column; background: rgba(0,0,0,0.98); }
+        #fullSizeImage { max-width: 90%; max-height: 80vh; object-fit: contain; border-radius: 8px; box-shadow: 0 10px 30px rgba(0,0,0,0.8); }
+        .btn-close-image { position: absolute; top: 20px; right: 30px; font-size: 3rem; color: white; cursor: pointer; z-index: 4001; line-height: 1;}
 
-        .program-track { flex-grow: 1; position: relative; background: var(--card-bg); overflow: hidden; }
+        /* CARGA GLOBAL */
+        .spinner { width: 50px; height: 50px; border: 4px solid rgba(255,255,255,0.1); border-top: 4px solid var(--accent); border-radius: 50%; animation: spin 1s linear infinite; }
+        @keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
 
-        .program-block { position: absolute; top: 4px; bottom: 4px; background: var(--section-bg); border-left: 1px solid #000; border-radius: 3px; z-index: 10; cursor: pointer; overflow: hidden; display: block; padding: 0; transition: background-color 0.2s; }
-        .program-block:hover { background: #1c2a3d; }
-        .program-block.is-live { border-top: 3px solid var(--accent-green); background: var(--live-bg-green); }
-        .program-inner-content { padding: 5px 8px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; width: 100%; height: 100%; position: sticky; left: 0; color: var(--text-main); }
-        .prog-start-time { font-weight: bold; color: var(--text-dim); margin-right: 5px; font-size: 0.8rem; }
-        .program-block.is-live .prog-start-time { color: var(--accent-green); }
-
-        #current-line { position: absolute; top: var(--ruler-height); bottom:0; width: 2px; background: var(--accent-green); z-index: 40; pointer-events: none; box-shadow: 0 0 8px var(--accent-green); display: none; }
-
-        #custom-tooltip { position: fixed; display: none; background: rgba(18, 27, 41, 0.98); border: 1px solid var(--border-blue); padding: 15px; border-radius: 6px; z-index: 1000; pointer-events: none; box-shadow: 0 10px 30px rgba(0,0,0,0.8); width: 300px; backdrop-filter: blur(5px); }
-        .tt-title { color: var(--text-main); font-weight: bold; font-size: 1rem; margin-bottom: 5px; line-height: 1.2; }
-        .tt-time { color: var(--accent-green); font-size: 0.85rem; font-weight: bold; margin-bottom: 8px; }
-        .tt-desc { color: var(--text-dim); font-size: 0.8rem; line-height: 1.4; display: -webkit-box; -webkit-line-clamp: 4; -webkit-box-orient: vertical; overflow: hidden; }
-
-        #list-view { padding: 0; overflow-y: auto; background: var(--bg-color); scroll-behavior: smooth; -webkit-overflow-scrolling: touch; }
-        .list-header { padding: 20px; background: var(--section-bg); border-bottom: 1px solid var(--border-blue); position: sticky; top: 0; z-index: 40; display: flex; flex-direction: column; align-items: center; }
-        .list-top-row { width: 100%; position: relative; display: flex; justify-content: center; align-items: center; margin-bottom: 15px; }
-        .back-btn { position: absolute; left: 0; top: 50%; transform: translateY(-50%); background: var(--card-bg); border: 1px solid var(--border-blue); color: var(--text-main); width: 40px; height: 40px; border-radius: 50%; font-size: 1.2rem; cursor: pointer; transition: all 0.2s; }
-        .back-btn:hover { background: var(--accent-green); color: #00210e; border-color: var(--accent-green); }
-        .list-ch-info { display: flex; flex-direction: column; align-items: center; gap: 5px; overflow: hidden; width: 100%; }
-        .list-ch-logo { width: 80px; height: 80px; background: #fff; border-radius: 12px; padding: 5px; object-fit: contain; box-shadow: 0 4px 15px rgba(0,0,0,0.5); cursor: zoom-in; transition: transform 0.2s; }
-        .list-ch-logo:hover { transform: scale(1.05); }
-        .list-ch-name { font-size: 1.5rem; font-weight: bold; margin-top: 5px; text-align: center; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 90%; color: var(--text-main); }
-        .date-tabs { display: flex; gap: 10px; overflow-x: auto; padding-bottom: 5px; justify-content: center; width: 100%; }
-        .date-btn { background: var(--card-bg); border: 1px solid var(--border-blue); color: var(--text-dim); padding: 8px 18px; border-radius: 20px; cursor: pointer; white-space: nowrap; font-size: 0.95rem; transition: all 0.2s; flex-shrink: 0; }
-        .date-btn.active { background: var(--accent-green); color: #00210e; border-color: var(--accent-green); font-weight: bold; }
-        .program-list { max-width: 800px; margin: 0 auto; padding: 20px; position: relative; }
-        
-        .list-item { display: flex; flex-direction: column; gap: 5px; padding: 15px; border-bottom: 1px solid var(--border-blue); transition: background 0.2s; border-left: 4px solid transparent; overflow: hidden; background: var(--card-bg); }
-        .list-item:hover { background: var(--section-bg); }
-        .list-item.live-now { background-color: var(--live-bg-green); border-left-color: var(--accent-green); }
-        .list-title-row { font-size: 1.1rem; font-weight: bold; margin-bottom: 2px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; display: flex; align-items: center; color: var(--text-main); }
-        .list-time-inline { color: var(--accent-green); margin-right: 8px; font-weight: bold; flex-shrink: 0; }
-        .list-title-text { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; flex: 1; }
-        .live-badge { background-color: var(--accent-green); color: #00210e; font-size: 0.7rem; padding: 2px 6px; border-radius: 4px; font-weight: 800; letter-spacing: 0.5px; animation: pulse 2s infinite; margin-left: 5px; flex-shrink: 0; }
-        @keyframes pulse { 0% { opacity: 1; } 50% { opacity: 0.7; } 100% { opacity: 1; } }
-
-        .search-item { display: flex; align-items: center; gap: 12px; padding: 12px 15px; border-bottom: 1px solid var(--border-blue); cursor: pointer; transition: background 0.2s; overflow: hidden; background: var(--card-bg); }
-        .search-item:hover { background: var(--section-bg); }
-        .search-channel-tag { background: var(--section-bg); color: var(--text-dim); font-size: 0.7rem; font-weight: bold; padding: 2px 6px; border-radius: 4px; text-transform: uppercase; white-space: nowrap; flex-shrink: 0; border: 1px solid var(--border-blue); }
-        .search-time-tag { color: var(--accent-green); font-weight: bold; font-size: 0.9rem; white-space: nowrap; flex-shrink: 0; }
-        .search-prog-title { font-size: 1rem; font-weight: 500; color: var(--text-main); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; flex: 1; }
-
-        #modal { position: fixed; inset: 0; background: rgba(8, 12, 20, 0.9); display: none; align-items: center; justify-content: center; z-index: 200; }
-        .modal-box { background: var(--card-bg); padding: 25px; border-radius: 8px; max-width: 90%; width: 400px; box-shadow: 0 15px 40px rgba(0,0,0,0.5); border: 1px solid var(--border-blue); }
-        .modal-buttons { display: flex; gap: 10px; margin-top: 20px; justify-content: flex-end; flex-wrap: wrap; }
-        .btn-modal-close { background: var(--section-bg); color: var(--text-main); border: 1px solid var(--border-blue); padding: 10px 20px; border-radius: 4px; cursor: pointer; font-size: 1rem; transition: all 0.2s; }
-        .btn-modal-close:hover { background: var(--border-blue); }
-        .btn-modal-action { background: var(--accent-green); color: #00210e; border: none; padding: 10px 20px; border-radius: 4px; cursor: pointer; font-size: 1rem; font-weight: bold; transition: all 0.2s; }
-        .btn-modal-action:hover { background: var(--accent-green-hover); }
-
-        #img-modal { position: fixed; inset: 0; background: rgba(8, 12, 20, 0.95); z-index: 3000; display: none; justify-content: center; align-items: center; cursor: zoom-out; }
-        #img-modal img { max-width: 90%; max-height: 90%; border-radius: 10px; box-shadow: 0 0 50px rgba(0, 230, 118, 0.1); border: 1px solid var(--border-blue); }
-
-        #loading { position: fixed; inset: 0; background: var(--bg-color); display: flex; flex-direction: column; align-items: center; justify-content: center; z-index: 100; }
-        .spinner { width: 40px; height: 40px; border: 4px solid var(--border-blue); border-top-color: var(--accent-green); border-radius: 50%; animation: spin 1s infinite; }
-        @keyframes spin { to { transform: rotate(360deg); } }
-
-        #player-view { background: #000; display: none; height: 80%; position: relative; flex-direction: row; }
-        
-        #video-area { flex: 1; position: relative; display: flex; align-items: center; justify-content: center; overflow: hidden; background: #000; }
-        video { width: 100%; height: 100%; object-fit: contain; max-height: 100vh; cursor: pointer; }
-
-        .player-overlay { position: absolute; inset: 0; pointer-events: none; display: flex; flex-direction: column; justify-content: space-between; padding: 20px; background: linear-gradient(to bottom, rgba(0,0,0,0.7) 0%, transparent 15%, transparent 85%, rgba(0,0,0,0.8) 100%); transition: opacity 0.3s; z-index: 10; }
-        .player-overlay.hidden { opacity: 0; }
-        .player-header { display: flex; justify-content: space-between; align-items: center; }
-        .player-ch-info { display: flex; align-items: center; gap: 25px; }
-        .player-ch-logo { width: 90px; height: 90px; background: #fff; border-radius: 3px; padding: 3px; object-fit: contain; }
-        .player-ch-name { color: #fff; font-size: 1.5rem; font-weight: bold; text-shadow: 0 2px 4px rgba(0,0,0,0.8); }
-        
-        .player-controls { 
-            position: absolute; 
-            right: 20px; 
-            top: 50%; 
-            transform: translateY(-50%); 
-            display: flex; 
-            flex-direction: column; 
-            gap: 25px; 
-            align-items: center;
-            pointer-events: auto; 
-        }
-
-        .zap-btn { background: rgba(255,255,255,0.15); color: white; border: 1px solid rgba(255,255,255,0.3); width: 60px; height: 60px; border-radius: 50%; font-size: 1.5rem; cursor: pointer; backdrop-filter: blur(5px); display: flex; align-items: center; justify-content: center; transition: all 0.2s; }
-        .zap-btn:hover { background: var(--accent-green); color: #00210e; border-color: var(--accent-green); transform: scale(1.1); }
-        .zap-list-btn { padding: 10px 20px; border-radius: 30px; width: auto; font-size: 1rem; font-weight: bold; }
-
-        .error-msg { position: absolute; background: rgba(0,0,0,0.8); color: #ff5252; padding: 15px; border-radius: 8px; text-align: center; border: 1px solid #ff5252; z-index:5; max-width: 80%; }
-
-        #player-drawer { 
-            width: 350px; 
-            background: var(--card-bg); 
-            border-left: 1px solid var(--border-blue); 
-            display: flex; 
-            flex-direction: column; 
-            position: relative;
-            height: 100%;
-            z-index: 20;
-        }
-        
-        .drawer-header { padding: 15px; border-bottom: 1px solid var(--border-blue); display: flex; flex-direction: column; gap: 10px; background: var(--section-bg); }
-        .drawer-header-top { display: flex; justify-content: space-between; align-items: center; font-weight: bold; color: var(--text-main); }
-        .drawer-search-container { width: 100%; position: relative; }
-        .drawer-search-input { width: 100%; background: var(--bg-color); border: 1px solid var(--border-blue); color: var(--text-main); padding: 8px 10px; border-radius: 6px; outline: none; font-size: 0.9rem; }
-        .drawer-search-input:focus { border-color: var(--accent-green); }
-        .drawer-list { overflow-y: auto; flex: 1; }
-        
-        .drawer-item { display: flex; gap: 12px; padding: 15px; border-bottom: 1px solid var(--border-blue); cursor: pointer; transition: background 0.2s; align-items: center; }
-        .drawer-item:hover, .drawer-item.active { background: var(--section-bg); }
-        .drawer-item.active { border-left: 4px solid var(--accent-green); background: rgba(0, 230, 118, 0.05); }
-        .drawer-logo { width: 50px; height: 50px; background: #fff; border-radius: 6px; padding: 3px; object-fit: contain; flex-shrink: 0; }
-        .drawer-info { flex: 1; overflow: hidden; display: flex; flex-direction: column; justify-content: center; }
-        .drawer-ch-name { font-weight: bold; color: var(--text-main); font-size: 1rem; margin-bottom: 4px; }
-        
-        .drawer-prog-title { color: var(--accent-green); font-size: 0.9rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; margin-bottom: 2px; font-weight: bold; }
-        .drawer-prog-time { color: var(--text-dim); font-size: 0.8rem; font-weight: normal; }
-        
-        .drawer-list::-webkit-scrollbar { width: 6px; }
-        .drawer-list::-webkit-scrollbar-thumb { background: var(--border-blue); border-radius: 3px; }
-
-        .btn-close-drawer { display: none; }
-        .btn-back-list { display: none; background: transparent; border: none; color: var(--text-main); font-size: 1.2rem; cursor: pointer; } 
-
-        @media (max-height: 500px) and (orientation: landscape) {
-            header { flex-direction: row; min-height: 40px; padding: 5px 10px; gap: 10px; flex-wrap: nowrap; }
-            .header-title { display: none; }
-            .search-container { max-width: 30%; height: 30px; padding: 2px 10px; }
-            .search-input { font-size: 0.9rem; padding: 2px; }
-            .nav-controls { width: auto; overflow: visible; flex-shrink: 0; }
-            .nav-btn { padding: 4px 8px; font-size: 0.8rem; }
-        }
+        #loading { text-align: center; padding: 50px; color: var(--text-dim); }
 
         @media (max-width: 768px) {
-            :root { --header-width: 110px; --row-height: 65px; }
-            header { flex-direction: column; height: auto; padding: 15px; gap: 10px; }
-            .header-title { position: static; display: block; margin-bottom: 5px; }
-            .search-container { width: 100%; max-width: 100%; }
-            .nav-controls { width: 100%; overflow-x: auto; padding-bottom: 5px; justify-content: flex-start; }
-            .nav-btn { flex-shrink: 0; }
-            .hero-banner { flex-direction: column; text-align: center; padding: 20px; min-height: auto; }
-            .hero-content { width: 100%; margin-bottom: 20px; }
-            .hero-meta { justify-content: center; font-size: 0.9rem; }
-            .hero-title { font-size: 1.8rem; white-space: normal; }
-            .hero-actions { justify-content: center; }
-            .hero-logo { width: 100px; height: 100px; order: -1; margin-bottom: 10px; }
-            .hero-controls { position: relative; right: auto; bottom: auto; justify-content: center; width: 100%; margin-top: 10px; }
-            .grid-container { grid-template-columns: 1fr; }
-            .channel-card { padding: 15px; }
-            #channels-view { padding: 20px 10px; }
-            #channels-content { padding: 0; max-width: 100%; }
-            #custom-tooltip { display: none !important; }
-            .date-tabs { justify-content: flex-start; }
-            #timeline-ruler, #current-line { display: none !important; }
-            .channel-row { display: flex; align-items: stretch; height: auto; margin-bottom: 1px; }
-            .channel-sticky { position: relative; left: auto; width: 100px; min-width: 100px; display: flex; flex-direction: column; justify-content: center; padding: 10px 5px; border-right: 1px solid var(--border-blue); z-index: 1; background: var(--section-bg); }
-            .sticky-logo { margin-right: 0; margin-bottom: 5px; width: 40px; height: 40px; }
-            .sticky-name { text-align: center; font-size: 0.8rem; }
-            .program-track { flex: 1; display: flex; overflow-x: auto; padding: 5px; gap: 5px; background: var(--card-bg); }
-            .program-block { position: relative; top: auto; bottom: auto; left: auto !important; width: auto !important; min-width: 160px; max-width: 200px; height: 60px; display: flex; align-items: center; border-left: none; background: var(--section-bg); border: 1px solid var(--border-blue); }
-            .program-inner-content { position: relative; white-space: normal; line-height: 1.2; font-size: 0.8rem; max-height: 100%; overflow: hidden; }
-            .prog-start-time { display: block; font-size: 0.75rem; margin-bottom: 2px; }
+            .brand { font-size: 1.2rem; }
+            .view-btn { padding: 6px 10px; font-size: 0.8rem; }
             
-            #player-view { position: relative; display: none; }
-            #player-drawer { 
-                position: absolute; top: 0; bottom: 0; right: 0; width: 100%; 
-                transform: translateX(100%); transition: transform 0.3s; z-index: 50; 
-            }
-            #player-drawer.open { transform: translateX(0); }
-            .btn-close-drawer { display: block; }
-            .player-ch-logo { width: 40px; height: 40px; }
-            .player-ch-name { font-size: 1.1rem; }
-            .zap-btn { width: 50px; height: 50px; font-size: 1.2rem; }
+            .hero-title { font-size: 2rem; height: auto; -webkit-line-clamp: 3; }
+            .hero-desc { display: none; }
+            .hero-content { width: 90%; }
+            .hero-logo-img { width: 45px; height: 45px; }
+            .hero-ch-name { font-size: 1.1rem; }
+            
+            .card-overlay { padding: 10px; }
+            :root { --card-min-width: 100%; --grid-gap: 15px; } 
+            .grid { padding: 20px 4%; }
+            
+            /* Ajustes Directorio Canales en Móvil */
+            .ch-nav-btn { display: none !important; } 
+            .ch-selector-wrapper { padding: 15px; } 
+            
+            .ch-logo-item { height: 50px; border-radius: 8px; padding: 3px; }
+            
+            .ch-grid-inner { grid-template-columns: repeat(auto-fill, minmax(55px, 1fr)); gap: 10px; }
+            .ch-grid-scroll { height: 170px; } 
+
+            .ch-prog-card { flex-direction: row; gap: 12px; padding: 10px; align-items: flex-start; }
+            .ch-prog-img-box { width: 130px; height: auto; aspect-ratio: 16/9; flex-shrink: 0; }
+            .ch-prog-info { justify-content: flex-start; padding-top: 2px; }
+            .ch-prog-title { font-size: 1rem; margin-bottom: 4px; white-space: normal; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;}
+            .ch-prog-time { font-size: 0.85rem; margin-bottom: 2px;}
+            .ch-prog-time img { height: 16px; }
+            .ch-prog-desc { font-size: 0.8rem; }
+            .desc-clamp { -webkit-line-clamp: 1; } 
+            .btn-read-more { font-size: 0.75rem; margin-top: 4px;}
+            .live-badge { font-size: 0.6rem; padding: 2px 5px; }
+            .dir-channel-header h2 { font-size: 1.4rem; }
+            
+            .search-channels-grid { grid-template-columns: repeat(auto-fill, minmax(70px, 1fr)); }
+            .search-channel-item { height: 60px; }
+            .search-ch-logo-box { width: 45px; height: 45px; }
+            .search-prog-meta { font-size: 0.85rem; }
         }
-.alpha-nav-container {
-    padding: 15px 10px;
-    background: var(--bg-color);
-    position: relative; 
-    z-index: 10;
-    border-bottom: 1px solid var(--border-blue);
-}
-.alpha-scroll {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 8px;
-    width: 100%;
-}
-
-.alpha-scroll::-webkit-scrollbar { display: none; }
-
-.alpha-btn {
-    background: var(--card-bg);
-    border: 1px solid var(--border-blue);
-    color: var(--text-dim);
-    width: 42px;
-    height: 42px;
-    border-radius: 8px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-weight: bold;
-    font-size: 1rem;
-    cursor: pointer;
-    transition: all 0.2s;
-    flex-shrink: 0;
-}
-
-.alpha-btn:first-child {
-    width: auto;
-    padding: 0 15px;
-}
-
-.alpha-btn:hover {
-    background: var(--section-bg);
-    border-color: var(--text-main);
-    color: var(--text-main);
-}
-
-.alpha-btn.active {
-    background: var(--accent-green);
-    color: #00210e;
-    border-color: var(--accent-green);
-    box-shadow: 0 0 10px rgba(0, 230, 118, 0.3);
-    transform: scale(1.1);
-}
-
-.player-modal-overlay {
-    position: absolute;
-    inset: 0;
-    background: rgba(0, 0, 0, 0.85);
-    display: none;
-    justify-content: center;
-    align-items: center;
-    z-index: 100;
-    backdrop-filter: blur(5px);
-}
-
-.player-modal-box {
-    background: var(--card-bg);
-    border: 1px solid var(--border-blue);
-    width: 90%;
-    max-width: 400px;
-    max-height: 80%;
-    border-radius: 12px;
-    display: flex;
-    flex-direction: column;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.8);
-    animation: popIn 0.2s ease-out;
-}
-
-@keyframes popIn {
-    from { transform: scale(0.9); opacity: 0; }
-    to { transform: scale(1); opacity: 1; }
-}
-
-.player-modal-header {
-    padding: 15px;
-    border-bottom: 1px solid var(--border-blue);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background: var(--section-bg);
-    border-radius: 12px 12px 0 0;
-}
-
-.player-modal-title {
-    font-weight: bold;
-    color: var(--text-main);
-    font-size: 1.1rem;
-}
-
-.player-modal-close {
-    background: transparent;
-    border: none;
-    color: var(--text-dim);
-    font-size: 1.5rem;
-    cursor: pointer;
-    line-height: 1;
-}
-
-.player-modal-search {
-    padding: 10px 15px;
-    border-bottom: 1px solid var(--border-blue);
-}
-
-.player-modal-list {
-    overflow-y: auto;
-    flex: 1;
-}
-
-.zap-arrows-group {
-    display: flex;
-        flex-direction: row;
-    gap: 15px;
-}
-
-@media (max-width: 768px) {
-    .zap-arrows-group {
-        flex-direction: row;
-        gap: 20px;
-    }
-    
-    .player-controls .zap-btn {
-        width: 50px;
-        height: 50px;
-        font-size: 1.2rem;
-    }
-}
-
-.ch-id-tag {
-    font-size: 0.75rem;
-    color: var(--text-dim);
-    background: rgba(0, 0, 0, 0.3);
-    border: 1px solid var(--border-blue);
-    padding: 2px 6px;
-    border-radius: 4px;
-    margin-left: 10px;
-    font-family: monospace;
-    font-weight: normal;
-    vertical-align: middle;
-    user-select: all;
-    display: inline-block;
-}
-
-        .list-ch-id { 
-            font-family: monospace; font-size: 0.85rem; color: var(--text-header-accent); 
-            background: rgba(79, 195, 247, 0.1); padding: 2px 8px; border-radius: 4px; 
-            margin-top: 2px; user-select: text; -webkit-user-select: text;
-        }
-
     </style>
 </head>
 <body>
 
-    <div id="loading"><div class="spinner"></div><p style="color:var(--text-main); margin-top:10px;">Obteniendo Datos...</p></div>
-
-    <div id="custom-tooltip">
-        <div id="tt-title" class="tt-title"></div>
-        <div id="tt-time" class="tt-time"></div>
-        <div id="tt-desc" class="tt-desc"></div>
-    </div>
-
-    <div id="img-modal" onclick="closeImgModal()">
-        <img id="img-modal-content" src="">
-    </div>
-
-    <header>
-        <h3 class="header-title" onclick="switchView('dashboard')">Proyecto EPGCL</h3>
-        <div class="search-container">
-            <div class="search-icon"></div>
-            <input type="text" id="search-input" class="search-input" placeholder="Buscar..." oninput="handleSearch()">
-        </div>
-        <div class="nav-controls">
-            <button class="nav-btn active" id="btn-dashboard" onclick="switchView('dashboard')">Inicio</button>
-            <button class="nav-btn" id="btn-channels" onclick="switchView('channels')">Canales</button>
-            <button class="nav-btn" id="btn-timeline" onclick="switchView('timeline')">Guía</button>
-            <button class="nav-btn" id="btn-player" onclick="switchView('player')">Reproductor TV</button>
-        </div>
-    </header>
-
-    <div id="dashboard-view" class="view-container active">
-        <div id="hero-banner" class="hero-banner" style="display:none;"></div>
-        <div class="dashboard-content">
-            <div class="section-title">Ahora en TV</div>
-            <div id="grid-cards" class="grid-container"></div>
-        </div>
-    </div>
-
-<div id="channels-view" class="view-container">
-    <div class="alpha-nav-container">
-        <div id="alpha-buttons" class="alpha-scroll"></div>
-    </div>
-    <div id="channels-content"></div>
+<div id="globalLoader" class="modal-overlay" style="z-index: 9999; flex-direction: column; gap: 15px; display: flex;">
+    <div class="spinner"></div>
+    <div style="color: white; font-weight: bold; letter-spacing: 1px; font-size: 1.2rem;">Obteniendo datos...</div>
 </div>
 
-    <div id="timeline-view" class="view-container" style="display: none;">
-        <div id="timeline-dates-wrapper">
-            <div id="timeline-date-tabs" class="date-tabs"></div>
-        </div>
-        <div id="timeline-scroll-area">
-            <div id="timeline-inner" class="timeline-container">
-                <div id="timeline-ruler"></div>
-                <div id="current-line"></div>
-                <div id="timeline-rows"></div>
-            </div>
-        </div>
+<div id="imageViewModal" class="modal-overlay" onclick="closeModal(event, 'imageViewModal')">
+    <span class="btn-close-image" onclick="closeDirect('imageViewModal')">×</span>
+    <img id="fullSizeImage" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="Pantalla Completa">
+</div>
+
+<header>
+    <div class="brand">EPGCL<span>.</span></div>
+    
+    <div class="view-toggler">
+        <button id="btnViewCards" class="view-btn active" onclick="switchView('cards')">Inicio</button>
+        <button id="btnViewDirectory" class="view-btn" onclick="switchView('directory')">Canales</button>
+        <button id="btnViewSearch" class="view-btn" onclick="switchView('search')">Buscar</button>
+        <button id="btnViewList" class="view-btn" onclick="switchView('list')" style="display:none;">Lista</button>
     </div>
 
-    <div id="list-view" class="view-container">
-        <div class="list-header" id="list-header">
-            <div class="list-top-row">
-                <button class="back-btn" onclick="goBack()">←</button>
-                <div id="list-header-content" class="list-ch-info"></div>
-            </div>
-            <div id="date-filters-container" class="date-tabs"></div>
-        </div>
-        <div id="list-results" class="program-list"></div>
+    <div class="header-actions">
+        <button class="btn-icon" onclick="toggleConfig()">⚙️</button>
     </div>
+</header>
 
-<div id="player-view" class="view-container" style="display: none;">
-    <div id="video-area" onclick="togglePlayerOverlay()">
-        <video id="main-video" playsinline></video>
-        
-        <div id="web-overlay" style="display:none; position:absolute; inset:0; flex-direction:column; align-items:center; justify-content:center; z-index:5; background:rgba(0,0,0,0.95); text-align:center; padding:20px;">
-            <p style="color:#b0bec5; font-size:1.2rem; margin-bottom:20px;">Este canal lo puedes ver en el sitio oficial</p>
-<a id="btn-web-action" href="#" target="_blank" class="btn-hero" onclick="event.stopPropagation()" style="text-decoration: none; display: inline-block;">
-        Sitio Web
-    </a>
-	</div>
+<div id="configPanel">
+    <div class="config-row">
+        <button class="btn-small" onclick="toggleUrlSection()">Cambiar URL de Guía</button>
+        <button class="btn-small" onclick="loadDefaultEPG()">Restaurar EPG por defecto</button>
+    </div>
+    <div class="config-row" id="urlConfigSection" style="display: none;">
+        <input type="text" id="urlInput" class="url-input" placeholder="Introduce la URL de tu XML...">
+        <button class="btn-small active" onclick="manualLoadEPG()">CARGAR</button>
+    </div>
+    <div class="config-row" style="margin-top: 20px;">
+        <span style="color:var(--text-dim); font-size:0.9rem;">Orden:</span>
+        <button class="btn-small active" id="sortOriginal" onclick="setSort('original')">Original</button>
+        <button class="btn-small" id="sortAZ" onclick="setSort('az')">A-Z</button>
+    </div>
+    <div class="config-row">
+        <label style="display:flex; gap:10px; cursor:pointer; color: var(--text-dim); font-size: 0.9rem; align-items:center;">
+            <input type="checkbox" id="adultCheck" onchange="toggleAdults()"> 
+            Mostrar canales (+18)
+        </label>
+        <button class="btn-small" onclick="openChannelManager()" style="margin-left:auto">Filtro Canales</button>
+    </div>
+</div>
 
-        <div id="player-ui" class="player-overlay">
-            <div class="player-header">
-                <div class="player-ch-info">
-                    <img id="p-logo" src="" class="player-ch-logo" >
-                    <div>
-                        <div id="p-name" class="player-ch-name">Cargando...</div>
-                        <div id="p-program" style="color:var(--accent-green); font-size:0.9rem; font-weight:bold;"></div>
+<div id="mainContainer">
+    <div id="cardsView">
+        <div id="heroSection">
+            <div id="heroBg" class="hero-bg-layer active"></div>
+            <div class="hero-overlay">
+                <div id="heroContent" class="hero-content">
+                    <div class="hero-meta-capsule">
+                        <img id="heroLogo" class="hero-logo-img" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+                        <div class="hero-text-group">
+                            <span id="heroChName" class="hero-ch-name">Nombre Canal</span>
+                            <span id="heroTime" class="hero-time">00:00 - 00:00</span>
+                        </div>
                     </div>
+                    <h1 id="heroTitle" class="hero-title">Título</h1>
+                    <p id="heroDesc" class="hero-desc">Desc...</p>
                 </div>
-            </div>
-            
-            <div class="player-controls">
-                <button class="zap-btn zap-list-btn" onclick="event.stopPropagation(); openPlayerPopup('list')">📺</button>
-                <button class="zap-btn zap-list-btn" onclick="event.stopPropagation(); openPlayerPopup('schedule')">📅</button>
-                
-                <div class="zap-arrows-group">
-                    <button class="zap-btn" onclick="event.stopPropagation(); zapChannel(-1)">&#9650;</button> 
-                    <button class="zap-btn" onclick="event.stopPropagation(); zapChannel(1)">&#9660;</button> 
+                <div class="hero-controls">
+                    <button class="hero-btn" onclick="prevHero()">&#10094;</button>
+                    <button class="hero-btn play-btn" onclick="toggleHeroPlay()" id="heroPlayBtn">&#10074;&#10074;</button>
+                    <button class="hero-btn" onclick="nextHero()">&#10095;</button>
                 </div>
-
-                <button class="zap-btn" onclick="event.stopPropagation(); toggleFullscreen()">⛶</button>
+                <div id="heroProgress" class="hero-progress-bar"></div>
             </div>
         </div>
+        <div id="grid" class="grid">
+            <div id="loading">Cargando datos...</div>
+        </div>
+    </div>
 
-        <div id="player-popup" class="player-modal-overlay" onclick="closePlayerPopup()">
-            <div class="player-modal-box" onclick="event.stopPropagation()">
-                <div class="player-modal-header">
-                    <span id="popup-title" class="player-modal-title">Lista</span>
-                    <button class="player-modal-close" onclick="closePlayerPopup()">✕</button>
-                </div>
-                <div id="popup-search-box" class="player-modal-search">
-                    <input type="text" id="popup-search-input" class="drawer-search-input" placeholder="Buscar canal..." oninput="renderPopupContent()">
-                </div>
-                <div id="popup-list" class="player-modal-list drawer-list"></div>
+    <div id="listView"></div>
+
+    <div id="searchView">
+        <div class="search-input-wrapper">
+            <input type="text" id="mainSearchInput" class="search-big-input" placeholder="¿Qué canal o programa buscas?">
+        </div>
+        <div id="searchResults">
+            <div style="color:var(--text-dim); text-align:center; padding: 40px;">Buscar canales o programas...</div>
+        </div>
+    </div>
+
+    <div id="channelsView">
+        <div class="ch-selector-wrapper">
+            <input type="text" id="dirSearchInput" class="ch-search-bar" placeholder="Buscar canal específico...">
+            
+            <button class="ch-nav-btn ch-nav-up" onclick="scrollDirGrid(-1)">▲</button>
+            <div class="ch-grid-scroll" id="dirGridScroll">
+                <div class="ch-grid-inner" id="dirGridInner">
+                    </div>
             </div>
+            <button class="ch-nav-btn ch-nav-down" onclick="scrollDirGrid(1)">▼</button>
+        </div>
+
+        <div class="dir-channel-header" id="dirChannelHeader" style="display:none;">
+            <img src="" id="dirHeaderLogo">
+            <h2 id="dirHeaderTitle">Programación</h2>
+        </div>
+
+        <div class="ch-date-tabs" id="dirDateTabs" style="display:none;">
+            </div>
+
+        <div class="ch-prog-list" id="dirProgList">
+            </div>
+    </div>
+</div>
+
+<div id="progModal" class="modal-overlay" onclick="closeModal(event, 'progModal')">
+    <div class="modal-content">
+        <div class="modal-header">
+            <button class="btn-back-action" onclick="closeDirect('progModal')">← Volver</button>
+            <div class="header-top">
+                <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" id="m-logo" class="modal-logo">
+                <div>
+                    <h2 id="m-name" style="margin:0; font-size:1.2rem; color:var(--text-main);">Canal</h2>
+                    <span style="font-size:0.85rem; color:var(--text-dim);">Guía Completa</span>
+                </div>
+            </div>
+            <div id="dayTabs" class="day-tabs"></div>
+        </div>
+        <div id="scheduleList" class="schedule-list"></div>
+    </div>
+</div>
+
+<div id="detailModal" class="modal-overlay" onclick="closeModal(event, 'detailModal')">
+    <div class="modal-content detail-content">
+        <div class="detail-hero-container">
+            <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" id="d-img" class="detail-hero" onerror="this.src='data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7'" onclick="openImageViewer(this.src)">
+            <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" id="d-logo" class="detail-ch-logo" onclick="openImageViewer(this.src)">
+            <button class="btn-back-action btn-back-popup" onclick="closeDirect('detailModal')">← Volver</button>
+        </div>
+        <div class="detail-body">
+            <div id="d-time" class="detail-time"></div>
+            <h1 id="d-title" class="detail-title"></h1>
+            <div id="d-extra" class="detail-extra"></div>
+            <p id="d-desc" class="detail-desc"></p>
         </div>
     </div>
 </div>
 
-
-
-    <div id="modal" onclick="closeModal()">
-        <div class="modal-box" onclick="event.stopPropagation()">
-            <h2 id="m-title" class="text-truncate" style="margin-top:0; color:var(--text-main);"></h2>
-            
-            <p id="m-date" style="color:var(--text-dim); font-size:0.9rem; margin:0 0 5px 0"></p>
-            <p id="m-time" style="color:var(--accent-green); font-weight:bold; margin-top:0"></p>
-            
-            <hr style="border-color:var(--border-blue); margin:15px 0">
-            
-            <div style="max-height: 200px; overflow-y: auto; padding-right:5px;">
-                <p id="m-desc" style="color:var(--text-dim); line-height:1.5; margin:0"></p>
+<div id="managerModal" class="modal-overlay" onclick="closeModal(event, 'managerModal')">
+    <div class="modal-content" style="height: auto; max-height: 90vh;">
+        <div class="modal-header">
+            <button class="btn-back-action" onclick="closeDirect('managerModal')">← Volver</button>
+            <div class="header-top">
+                <h3 style="color: var(--text-main); margin:0;">Mis Canales</h3>
             </div>
-            
-            <div id="modal-actions" class="modal-buttons"></div>
+        </div>
+        <div style="padding:15px 20px; display:flex; gap:10px; background: var(--bg-card); border-bottom:1px solid var(--border-color);">
+            <button class="btn-small" onclick="toggleAll(true)">Marcar Todos</button>
+            <button class="btn-small" onclick="toggleAll(false)">Desmarcar Todos</button>
+        </div>
+        <div id="chManagerGrid" class="ch-grid-select"></div>
+        <div style="padding:20px; text-align:right; background:var(--bg-card); border-top: 1px solid var(--border-color);">
+            <button class="btn-small active" style="font-size:1rem; padding: 10px 25px;" onclick="saveManager()">GUARDAR CAMBIOS</button>
         </div>
     </div>
+</div>
 
-    <script>
-        // Configs
-        const EPG_URL = "https://raw.githubusercontent.com/Puticastillo/EPGCL/refs/heads/main/smithers/guia-de-programacion.xml";
-        const STREAMS_URL = "https://raw.githubusercontent.com/Puticastillo/EPGCL/main/vilma/externos.txt"; 
-
-        let DATA = { channels: [], programs: {}, availableDates: new Set() };
-        let lastView = 'dashboard';
-        let currentChannelProgs = [];
-        let currentTimelineDate = new Date(); 
-        const PX_PER_MIN = 5; 
-        
-        let heroQueue = []; let heroIndex = 0; let heroTimer = null; let isHeroPaused = false;
-        let searchTimeout;
-
-        let hls = null;
-        let playableChannels = []; 
-        let currentPlayerIndex = 0;
-        let overlayTimer = null;
-        let touchStartY = 0;
-        let isScheduleMode = false;
-
-        // Inicialización
-        document.addEventListener('DOMContentLoaded', () => {
-            init();
-            document.addEventListener('keydown', handleGlobalKeydown);
-            
-const videoArea = document.getElementById('video-area');
-            
-            videoArea.addEventListener('touchstart', e => { 
-                if (e.target.closest('.player-modal-box')) {
-                    touchStartY = null;
-                    return; 
-                }
-                touchStartY = e.touches[0].clientY; 
-            }, {passive: true});
-
-            videoArea.addEventListener('touchend', e => {
-                if (touchStartY === null) return; 
-                if (e.target.closest('.player-modal-box')) return;
-
-                const touchEndY = e.changedTouches[0].clientY;
-                const diff = touchStartY - touchEndY;
-                
-                if (Math.abs(diff) > 50) {
-                    if (diff > 0) zapChannel(1);
-                    else zapChannel(-1);
-                }
-            }, {passive: true});
-
-            window.addEventListener('resize', () => {
-                if(document.getElementById('timeline-view').classList.contains('active')){
-                    renderTimeline(currentTimelineDate);
-                }
-            });
-        });
-
-        async function init() {
-            try {
-                const [xmlRes, txtRes] = await Promise.all([
-                    fetch(EPG_URL),
-                    fetch(STREAMS_URL).catch(e => null) 
-                ]);
-
-                if (!xmlRes.ok) throw new Error("Error XML");
-                const xmlText = await xmlRes.text();
-                const parser = new DOMParser();
-                const xml = parser.parseFromString(xmlText, "text/xml");
-                if (xml.querySelector('parsererror')) throw new Error("XML Error");
-                processXML(xml);
-
-                if (txtRes && txtRes.ok) {
-                    const rawTxt = await txtRes.text();
-                    const streams = parseStreamsTXT(rawTxt);
-                    mergeStreamsData(streams);
-                }
-
-                currentTimelineDate = new Date();
-                renderDashboard();
-                renderAllChannelsView();
-                updateTimelineDateSelector();
-                renderTimeline(currentTimelineDate); 
-                document.getElementById('loading').style.display = 'none';
-                
-            } catch (e) { alert("Error cargando: " + e.message); console.error(e); }
-        }
-
-        // utils
-        function parseStreamsTXT(text) {
-            const lines = text.split('\n');
-            const result = [];
-            lines.forEach(line => {
-                const clean = line.trim();
-                if (!clean) return;
-                const parts = clean.split(',');
-                if (parts.length >= 3) {
-                    const id = parts[0].trim();
-                    const type = parts[1].trim().toLowerCase();
-                    const url = parts[2].trim();
-                    const name = parts[3] ? parts.slice(3).join(',').trim() : null; 
-                    if(id && type && url) {
-                        result.push({ id, type, url, name });
-                    }
-                }
-            });
-            return result;
-        }
-
-        function mergeStreamsData(streams) {
-            streams.forEach(s => {
-                const ch = DATA.channels.find(c => c.id === s.id);
-                if (ch) {
-                    if (!ch.external) ch.external = {};
-                    if (s.type === 'stream') {
-                        ch.external.stream = s.url;
-                    } else if (s.type === 'web') {
-                        ch.external.web = { 
-                            url: s.url, 
-                            name: s.name || 'Ir al Sitio Web' 
-                        };
-                    }
-                }
-            });
-            playableChannels = DATA.channels.filter(c => c.external && (c.external.stream || c.external.web));
-        }
-
-        function parseDate(str) {
-            const y = str.substr(0,4), m = str.substr(4,2)-1, d = str.substr(6,2);
-            const h = str.substr(8,2), min = str.substr(10,2);
-            return new Date(y, m, d, h, min);
-        }
-
-        function processXML(xml) {
-            const channels = Array.from(xml.getElementsByTagName('channel'));
-            channels.forEach(ch => {
-                const id = ch.getAttribute('id');
-                if (id.toUpperCase().startsWith('XXX')) return; 
-                if (id.toUpperCase().startsWith('000')) return; 
-                const name = ch.getElementsByTagName('display-name')[0]?.textContent || id;
-                const icon = ch.getElementsByTagName('icon')[0]?.getAttribute('src') || '';
-                DATA.channels.push({ id, name, icon });
-                DATA.programs[id] = [];
-            });
-            const progs = Array.from(xml.getElementsByTagName('programme'));
-            const today = new Date(); today.setHours(0,0,0,0);
-            const yesterday = new Date(today); yesterday.setDate(yesterday.getDate() -1);
-            progs.forEach(p => {
-                const start = parseDate(p.getAttribute('start'));
-                const stop = parseDate(p.getAttribute('stop'));
-                if (stop < yesterday) return;
-                const chId = p.getAttribute('channel');
-                if (DATA.programs[chId]) {
-                    DATA.programs[chId].push({
-                        title: p.getElementsByTagName('title')[0]?.textContent || 'Sin Título',
-                        desc: p.getElementsByTagName('desc')[0]?.textContent || '',
-                        start, stop, channelId: chId
-                    });
-                    DATA.availableDates.add(start.toDateString());
-                }
-            });
-        }
-
-        // ctrl vistas
-        function switchView(view) {
-            const video = document.getElementById('main-video');
-            
-            if (view !== 'player') {
-                if(!video.paused) {
-                   video.pause();
-                   if (hls) { hls.destroy(); hls = null; }
-                }
-                document.getElementById('player-view').style.display = 'none'; 
-            }
-
-            if (view === 'player') {
-                if (playableChannels.length === 0) {
-                     alert("No hay canales de transmisión disponibles.");
-                     return;
-                }
-                document.getElementById('player-view').style.display = 'flex';
-                
-                if (!hls && !video.src) {
-                    loadChannelInPlayer(0);
-                }
-            }
-
-            if (view !== 'list') lastView = view;
-            document.querySelectorAll('.view-container').forEach(el => { 
-                if(el.id !== 'player-view') el.style.display = 'none'; 
-                el.classList.remove('active'); 
-            });
-            document.querySelectorAll('.nav-btn').forEach(el => el.classList.remove('active'));
-            
-            const activeView = document.getElementById(view + '-view');
-            activeView.style.display = (view === 'timeline' || view === 'player') ? 'flex' : 'block';
-            activeView.classList.add('active');
-            
-            const btnId = 'btn-' + (view === 'channels' ? 'channels' : view === 'timeline' ? 'timeline' : view === 'player' ? 'player' : 'dashboard');
-            const btn = document.getElementById(btnId);
-            if(btn) btn.classList.add('active');
-            
-            if (view !== 'list') document.getElementById('search-input').value = '';
-            
-            if (view === 'timeline') {
-                setTimeout(() => {
-                    const todayStr = new Date().toDateString();
-                    if (currentTimelineDate.toDateString() === todayStr && window.innerWidth > 768) scrollToNow();
-                    else document.getElementById('timeline-scroll-area').scrollLeft = 0;
-                }, 100);
-            }
-        }
-        
-        function exitPlayer() {
-            const video = document.getElementById('main-video');
-            video.pause();
-            video.removeAttribute('src'); 
-            video.load();
-            if (hls) { 
-                hls.stopLoad();
-                hls.destroy(); 
-                hls = null; 
-            }
-            if (document.fullscreenElement) {
-                document.exitFullscreen().catch(err => console.log(err));
-            }
-            switchView('dashboard');
-        }
-
-        function scrollToNow() {
-            const now = new Date();
-            const minutes = now.getHours() * 60 + now.getMinutes();
-            const cssHeaderW = getComputedStyle(document.documentElement).getPropertyValue('--header-width').trim();
-            const headerW = parseInt(cssHeaderW);
-            const pos = (minutes * PX_PER_MIN) + headerW - (window.innerWidth / 2);
-            document.getElementById('timeline-scroll-area').scrollLeft = Math.max(0, pos);
-        }
-        function goBack() { switchView(lastView); }
-
-        // Renderdel dashboard
-        function renderDashboard() {
-            const container = document.getElementById('grid-cards');
-            const now = new Date();
-            let html = '';
-            initHeroSystem(now);
-            DATA.channels.forEach(ch => {
-                const progs = DATA.programs[ch.id];
-                if (!progs) return;
-                const currentIndex = progs.findIndex(p => p.start <= now && p.stop > now);
-                if (currentIndex !== -1) {
-                    const current = progs[currentIndex];
-                    const next = progs[currentIndex + 1];
-                    const pct = Math.min(100, Math.max(0, ((now - current.start) / (current.stop - current.start)) * 100));
-                    let nextHtml = next ? `<div class="next-info"><div class="next-label">A CONTINUACIÓN</div><div class="next-program"><span>${next.title}</span><span class="next-time">${formatTime(next.start)}</span></div></div>` : '';
-                    
-                    let quickAction = '';
-                    if (ch.external) {
-                        if (ch.external.stream) {
-                            quickAction = `<button class="btn-icon-small btn-icon-stream" onclick="event.stopPropagation(); openPlayer('${ch.id}')">▶</button>`;
-                        } else if (ch.external.web) {
-                            quickAction = `<a href="${ch.external.web.url}" target="_blank" class="btn-icon-small btn-icon-web" onclick="event.stopPropagation()" title="${ch.external.web.name}">🌐</a>`;
-                        }
-                    }
-
-                    html += `
-                    <div class="channel-card" onclick="showChannelList('${ch.id}')">
-                        <div class="card-header">
-                            <img src="${ch.icon}" class="card-logo" onerror="this.style.display='none'">
-                            <span class="card-title" style="flex:1">${ch.name}</span>
-                            ${quickAction}
-                        </div>
-                        <div class="card-body">
-                            <div class="now-label">Ahora</div>
-                            <div class="card-program">${current.title}</div>
-                            <div class="card-time">${formatTime(current.start)} - ${formatTime(current.stop)}</div>
-                            <div class="prog-bar-bg"><div class="prog-bar-fill" style="width:${pct}%"></div></div>
-                        </div>
-                    </div>`;
-                }
-            });
-            container.innerHTML = html;
-        }
-
-        function updateHero() {
-            const heroBanner = document.getElementById('hero-banner'); 
-            const now = new Date(); 
-            const ch = heroQueue[heroIndex]; 
-            const progs = DATA.programs[ch.id]; 
-            const current = progs.find(p => p.start <= now && p.stop > now); 
-            if (!current) { nextHero(); return; }
-            
-            const pauseIcon = isHeroPaused ? '&#9658;' : '&#10074;&#10074;'; 
-            const pauseClass = isHeroPaused ? 'paused' : '';
-
-            let actionButtons = `<button class="btn-hero" onclick="showChannelList('${ch.id}')">Ver Programación</button>`;
-            if (ch.external) {
-                if (ch.external.stream) actionButtons += `<button class="btn-hero" style="background:#fff; color:#000; margin-left:10px;" onclick="openPlayer('${ch.id}')">▶ Ver canal en vivo</button>`;
-                
-                if (ch.external.web) {
-                    const label = ch.external.web.name.startsWith('Ver') ? ch.external.web.name : `Ver en ${ch.external.web.name}`;
-                    actionButtons += `<a href="${ch.external.web.url}" target="_blank" class="btn-hero" style="background:transparent; border:1px solid #fff; color:#fff; margin-left:10px; text-decoration:none; display:inline-block;">🌐 ${label}</a>`;
-                }
-            }
-
-            heroBanner.innerHTML = `
-                <div class="hero-content fade-in">
-                    <div class="hero-label">AHORA EN ${ch.name.toUpperCase()}</div>
-                    <h1 class="hero-title">${current.title}</h1>
-                    <div class="hero-meta"><span>${formatTime(current.start)} - ${formatTime(current.stop)}</span></div>
-                    <div class="hero-desc">${current.desc ? (current.desc.length > 180 ? current.desc.substring(0, 180) + '...' : current.desc) : 'Sin descripción.'}</div>
-                    <div class="hero-actions">${actionButtons}</div>
-                </div>
-                <img src="${ch.icon}" class="hero-logo fade-in" onerror="this.style.display='none'">
-                <div class="hero-controls">
-                    <div class="hero-arrow" onclick="prevHero()">&#10094;</div>
-                    <div class="hero-arrow ${pauseClass}" id="btn-hero-pause" onclick="toggleHeroPause()">${pauseIcon}</div>
-                    <div class="hero-arrow" onclick="nextHeroManual()">&#10095;</div>
-                </div>`; 
-            heroBanner.style.display = 'flex';
-        }
-
-        function initHeroSystem(now) {
-            let liveChannels = DATA.channels.filter(ch => { const progs = DATA.programs[ch.id]; return progs && progs.some(p => p.start <= now && p.stop > now); });
-            if (liveChannels.length === 0) { document.getElementById('hero-banner').style.display = 'none'; return; }
-            heroQueue = liveChannels.sort(() => Math.random() - 0.5);
-            heroIndex = 0; isHeroPaused = false;
-            updateHero(); startHeroTimer();
-        }
-        function startHeroTimer() { if (heroTimer) clearInterval(heroTimer); if (!isHeroPaused) heroTimer = setInterval(nextHero, 8000); }
-        function toggleHeroPause() { isHeroPaused = !isHeroPaused; updateHeroControls(); if (isHeroPaused) clearInterval(heroTimer); else startHeroTimer(); }
-        function nextHero() { heroIndex++; if (heroIndex >= heroQueue.length) heroIndex = 0; updateHero(); }
-        function prevHero() { heroIndex--; if (heroIndex < 0) heroIndex = heroQueue.length - 1; updateHero(); if (!isHeroPaused) startHeroTimer(); }
-        function nextHeroManual() { nextHero(); if (!isHeroPaused) startHeroTimer(); }
-        function updateHeroControls() { const btn = document.getElementById('btn-hero-pause'); if (btn) { btn.innerHTML = isHeroPaused ? '&#9658;' : '&#10074;&#10074;'; if (isHeroPaused) btn.classList.add('paused'); else btn.classList.remove('paused'); } }
-
-        function getActionButtonsHTML(channel) {
-            if (!channel || !channel.external) return '';
-            let html = '<div style="margin-top:10px; display:flex; gap:10px; flex-wrap:wrap;">';
-            if (channel.external.stream) {
-                html += `<button class="action-btn btn-stream" onclick="openPlayer('${channel.id}')">▶ Ver canal en vivo</button>`;
-            }
-            if (channel.external.web) {
-                const btnLabel = channel.external.web.name.startsWith('Ver') ? channel.external.web.name : `Ver en ${channel.external.web.name}`;
-                html += `<a href="${channel.external.web.url}" target="_blank" class="action-btn btn-web">🌐 ${btnLabel}</a>`;
-            }
-            html += '</div>';
-            return html;
-        }
-
-let currentAlphaFilter = 'ALL'; 
-
-function renderAllChannelsView() {
-    const container = document.getElementById('channels-content');
-    const alphaContainer = document.getElementById('alpha-buttons');
+<script>
+    const CORS_PROXY = "https://api.allorigins.win/raw?url=";
+    const DEFAULT_EPG_URL = "https://raw.githubusercontent.com/Puticastillo/EPGCL/refs/heads/main/smithers/guia-de-programacion.xml";
     
-    container.innerHTML = '';
-    
-    const sortedChannels = [...DATA.channels].sort((a,b) => a.name.localeCompare(b.name));
-    const availableLetters = new Set(['TODOS']);
-    
-    sortedChannels.forEach(ch => {
-        let char = ch.name.charAt(0).toUpperCase();
-        if (!/[A-Z]/.test(char)) char = '#';
-        availableLetters.add(char);
-    });
+    let state = { allChannels: [], visibleIds: new Set(), sort: 'original', showAdult: false, search: '', viewMode: 'cards', targetCardCount: 12, displayedRandomIds: [] };
+    let dirState = { selectedChannelId: null, dateOffset: 0, search: '' };
+    let heroState = { list: [], currentIndex: 0, interval: null, isPlaying: true, duration: 8000 };
+    const EMPTY_IMG = "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7";
 
-    alphaContainer.innerHTML = '';
-    let lettersArr = Array.from(availableLetters);
-    lettersArr = lettersArr.filter(l => l !== 'TODOS' && l !== '#').sort();
-    if(availableLetters.has('TODOS')) lettersArr.unshift('TODOS');
-    if(availableLetters.has('#')) lettersArr.push('#');
-
-    lettersArr.forEach(letter => {
-        const btn = document.createElement('button');
-        btn.className = `alpha-btn ${currentAlphaFilter === letter ? 'active' : ''}`;
-        btn.textContent = letter === 'TODOS' ? 'TODOS' : letter;
-        
-        btn.onclick = () => {
-            currentAlphaFilter = letter;
-            renderAllChannelsView();
-        };
-        alphaContainer.appendChild(btn);
-    });
-
-    const filteredChannels = currentAlphaFilter === 'TODOS' 
-        ? sortedChannels 
-        : sortedChannels.filter(ch => {
-            let char = ch.name.charAt(0).toUpperCase();
-            if (!/[A-Z]/.test(char)) char = '#';
-            return char === currentAlphaFilter;
-        });
-
-    if (filteredChannels.length === 0) {
-        container.innerHTML = '<div style="padding:40px; text-align:center; color:var(--text-dim)">No hay canales en esta sección.</div>';
-        return;
+    // --- SANITIZACIÓN ---
+    function getValidImg(url) {
+        if (!url || typeof url !== 'string' || url.trim() === '') return EMPTY_IMG;
+        return url.trim();
     }
 
-    filteredChannels.forEach(ch => {
-        const item = document.createElement('div');
-        item.className = 'channel-list-item';
-        item.id = 'ch-item-' + ch.id;
-        
-        let iconsHtml = '';
-        if(ch.external) {
-            iconsHtml += '<div class="header-icons">';
-            if (ch.external.stream) {
-                iconsHtml += `<button class="btn-icon-small btn-icon-stream" onclick="event.stopPropagation(); openPlayer('${ch.id}')">▶</button>`;
-            } 
-            if (ch.external.web) {
-                iconsHtml += `<a href="${ch.external.web.url}" target="_blank" class="btn-icon-small btn-icon-web" onclick="event.stopPropagation()" title="${ch.external.web.name}">🌐</a>`;
-            }
-            iconsHtml += '</div>';
+    // --- FORMATEO DE DESCRIPCIÓN GLOBAL (LIMPIADOR) ---
+    function formatDesc(desc) {
+        if (!desc) return "Sin descripción disponible.";
+        let d = desc;
+        if (d.includes('║')) {
+            d = d.substring(d.indexOf('║') + 1);
+        } else if (d.includes('|')) {
+            d = d.substring(d.indexOf('|') + 1);
         }
+        return d.trim() || "Sin descripción disponible.";
+    }
 
-        item.innerHTML = `
-        <div class="ch-item-header" onclick="toggleChannelExpansion('${ch.id}')">
-            <img src="${ch.icon}" class="ch-list-logo" onerror="this.style.display='none'">
-            <div class="ch-list-name">
-                ${ch.name}<span class="ch-id-tag">${ch.id}</span>
-            </div>
-            ${iconsHtml}
-            <div class="ch-expand-icon">&#9662;</div>
-        </div>
-        <div class="ch-item-schedule" id="schedule-${ch.id}"></div>`;
+    // --- BÚSQUEDA FUZZY ---
+    function cleanStr(str) { if(!str) return ""; return str.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/[^a-z0-9]/g, ""); }
+    function fuzzyMatch(text, search) {
+        if (!text || !search) return false;
+        const tClean = text.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/[^a-z0-9]/g, "");
+        const sClean = search.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/[^a-z0-9]/g, "");
+        if (tClean.includes(sClean)) return true;
+        const sWords = search.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/[^a-z0-9]+/g, " ").trim().split(/\s+/);
+        if (sWords.length === 0 || sWords[0] === "") return false;
+        let tempText = tClean;
+        return sWords.every(w => {
+            const idx = tempText.indexOf(w);
+            if (idx !== -1) { tempText = tempText.slice(0, idx) + tempText.slice(idx + w.length); return true; }
+            return false;
+        });
+    }
+
+    // --- LÓGICA DÍA TELEVISIVO (06:00 a 05:59) ---
+    function getTvDayStart(dateObj) {
+        let d = new Date(dateObj);
+        if (d.getHours() < 6) d.setDate(d.getDate() - 1);
+        d.setHours(6, 0, 0, 0);
+        return d;
+    }
+
+    // --- UTILIDADES ---
+    function processTitle(rawTitle) {
+        if (!rawTitle) return { main: 'Sin Título', extra: '' };
+        const parts = rawTitle.split('•');
+        return { main: parts[0].trim(), extra: parts.length > 1 ? parts.slice(1).join('•').trim() : '' };
+    }
+    
+    function getRelativeDate(dateObj) {
+        const now = new Date(); 
+        const todayTv = getTvDayStart(now);
+        const targetTv = getTvDayStart(dateObj);
+        const diffTime = targetTv - todayTv;
+        const diffDays = Math.round(diffTime / (1000 * 60 * 60 * 24));
         
-        container.appendChild(item);
+        if (diffDays === 0) return "HOY"; 
+        if (diffDays === 1) return "MAÑANA"; 
+        return dateObj.toLocaleDateString('es-ES', { weekday: 'short', day: 'numeric' }).toUpperCase().replace('.', '');
+    }
+
+    function getSearchDateString(p, channelName) {
+        const now = new Date();
+        const isPast = p.stop <= now;
+        
+        const todayTv = getTvDayStart(now);
+        const targetTv = getTvDayStart(p.start);
+        const diffDays = Math.round((targetTv - todayTv) / (1000 * 60 * 60 * 24));
+        
+        let prefix = "";
+        if (diffDays === 0) {
+            prefix = isPast ? "Se emitió hoy, " : "Hoy, ";
+        } else if (diffDays === 1) {
+            prefix = "Mañana, ";
+        } else if (diffDays === -1) {
+            prefix = isPast ? "Se emitió ayer, " : "Ayer, ";
+        } else if (diffDays < -1) {
+            prefix = "Se emitió el ";
+        }
+        
+        let dateString = p.start.toLocaleDateString('es-ES', { weekday: 'long', day: 'numeric', month: 'long' }).replace(',', '');
+        dateString = dateString.charAt(0).toUpperCase() + dateString.slice(1);
+        const timeString = p.start.toLocaleTimeString('es-ES', {hour:'2-digit', minute:'2-digit', hour12: false});
+        
+        return `${prefix}${dateString} en ${channelName} a las ${timeString}`;
+    }
+
+    function parseDate(s) {
+        if(!s) return new Date();
+        const match = s.match(/^(\d{4})(\d{2})(\d{2})(\d{2})(\d{2})(\d{2})?\s*([+-]\d{4})?/);
+        if(!match) return new Date();
+        let iso = `${match[1]}-${match[2]}-${match[3]}T${match[4]}:${match[5]}:${match[6] || '00'}`;
+        if(match[7]) { iso += match[7].substring(0,3) + ':' + match[7].substring(3); }
+        const d = new Date(iso); return isNaN(d.getTime()) ? new Date() : d;
+    }
+    function formatTime(d) { return d.toLocaleTimeString('es-ES', {hour:'2-digit', minute:'2-digit', hour12: false}); }
+    function openImageViewer(src) {
+        if(!src || src === EMPTY_IMG) return;
+        document.getElementById('fullSizeImage').src = src;
+        document.getElementById('imageViewModal').style.display = 'flex';
+    }
+
+    // --- CÁLCULO GRILLA ---
+    function calculatePerfectGridSize() {
+        if (state.viewMode !== 'cards') return;
+        const grid = document.getElementById('grid');
+        if (!grid || grid.offsetWidth === 0) return;
+        const colsStr = window.getComputedStyle(grid).gridTemplateColumns;
+        let cols = 1; if (colsStr && colsStr !== 'none') cols = colsStr.split(' ').length;
+        
+        let rows = Math.round(12 / cols);
+        if (rows < 2) rows = 2; 
+        if (cols === 1) rows = 8; 
+        
+        let perfectCount = cols * rows;
+        const validChannelsCount = [...state.allChannels].filter(ch => state.visibleIds.has(ch.id) && (!ch.isAdult || state.showAdult)).length;
+        if (validChannelsCount < perfectCount) {
+             let maxPossibleRows = Math.floor(validChannelsCount / cols);
+             perfectCount = maxPossibleRows * cols;
+             if(perfectCount === 0) perfectCount = validChannelsCount; 
+        }
+        if (state.targetCardCount !== perfectCount) {
+            state.targetCardCount = perfectCount;
+            refreshRandomCards();
+            renderGrid();
+        }
+    }
+
+    function refreshRandomCards() {
+        const fixedIds = ['0101', '0102', '0103', '0104', '0105', '0106', '0107'];
+        const poolIds = ['0108', '0109', '0110', '0111', '0112', '0113', '0114', '0115', '0117', '0121', '0153', '0201', '0202', '0203', '0207', '0208', '0214', '0301', '0401', '0422'];
+        const validIds = new Set( state.allChannels.filter(ch => state.visibleIds.has(ch.id) && (!ch.isAdult || state.showAdult)).map(ch => ch.id) );
+
+        const availableFixed = fixedIds.filter(id => validIds.has(id));
+        const availablePool = poolIds.filter(id => validIds.has(id));
+
+        const count = state.targetCardCount || 12;
+        let finalIds = [...availableFixed];
+        const slotsLeft = count - finalIds.length;
+        
+        if (slotsLeft > 0) {
+            const shuffledPool = [...availablePool].sort(() => 0.5 - Math.random());
+            finalIds = finalIds.concat(shuffledPool.slice(0, slotsLeft));
+        } else {
+            finalIds = finalIds.slice(0, count);
+        }
+        state.displayedRandomIds = finalIds;
+    }
+
+    // --- INICIALIZACIÓN ---
+    document.addEventListener('DOMContentLoaded', () => {
+        const savedUrl = localStorage.getItem('epg_url');
+        document.getElementById('urlInput').value = savedUrl || DEFAULT_EPG_URL;
+        loadEPG();
+        
+        setInterval(() => { 
+            if(!state.search) {
+                const container = document.getElementById('mainContainer');
+                const mainScrollPos = container.scrollTop;
+                
+                let dirScrollPos = 0;
+                if(state.viewMode === 'directory') {
+                    const dirScroll = document.getElementById('dirGridScroll');
+                    if(dirScroll) dirScrollPos = dirScroll.scrollTop;
+                }
+                
+                renderCurrentView(true); 
+                
+                setTimeout(() => { 
+                    container.scrollTop = mainScrollPos; 
+                    if(state.viewMode === 'directory') {
+                        const dirScroll = document.getElementById('dirGridScroll');
+                        if(dirScroll) dirScroll.scrollTop = dirScrollPos;
+                    }
+                }, 0); 
+            }
+        }, 60000);
+
+        setInterval(() => { loadEPG(); }, 43200000);
+        
+        document.getElementById('mainSearchInput').addEventListener('input', (e) => {
+            state.search = e.target.value; 
+            renderSearch();
+        });
+
+        document.getElementById('dirSearchInput').addEventListener('input', (e) => {
+            dirState.search = e.target.value; 
+            renderDirGrid();
+        });
+
+        let resizeTimer;
+        window.addEventListener('resize', () => {
+            clearTimeout(resizeTimer);
+            resizeTimer = setTimeout(() => {
+                if (state.viewMode === 'cards') calculatePerfectGridSize();
+            }, 250); 
+        });
     });
 
-    setTimeout(() => {
-        const activeBtn = alphaContainer.querySelector('.alpha-btn.active');
-        if(activeBtn) {
-            activeBtn.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' });
+    function toggleConfig() { 
+        const p = document.getElementById('configPanel'); 
+        p.style.display = p.style.display === 'block' ? 'none' : 'block'; 
+        document.getElementById('urlConfigSection').style.display = 'none'; 
+    }
+    function toggleUrlSection() {
+        const sec = document.getElementById('urlConfigSection');
+        sec.style.display = sec.style.display === 'none' ? 'flex' : 'none';
+    }
+    function showLoader() { document.getElementById('globalLoader').style.display = 'flex'; }
+    function hideLoader() { document.getElementById('globalLoader').style.display = 'none'; }
+
+    function manualLoadEPG() {
+        const urlRaw = document.getElementById('urlInput').value.trim();
+        if(!urlRaw) return;
+        localStorage.setItem('epg_url', urlRaw); 
+        executeReload();
+    }
+    function loadDefaultEPG() {
+        document.getElementById('urlInput').value = DEFAULT_EPG_URL;
+        localStorage.setItem('epg_url', DEFAULT_EPG_URL);
+        executeReload();
+    }
+
+    function executeReload() {
+        showLoader();
+        state.visibleIds.clear(); state.allChannels = []; heroState.list = []; state.displayedRandomIds = []; state.search = '';
+        document.getElementById('mainSearchInput').value = '';
+        document.getElementById('configPanel').style.display = 'none';
+        loadEPG();
+    }
+
+    async function loadEPG() {
+        const urlRaw = document.getElementById('urlInput').value;
+        if(state.allChannels.length === 0) {
+            document.getElementById('grid').innerHTML = ''; document.getElementById('listView').innerHTML = ''; showLoader();
         }
-    }, 100);
-}
-function toggleChannelExpansion(channelId) {
-            const item = document.getElementById('ch-item-' + channelId);
-            const scheduleDiv = document.getElementById('schedule-' + channelId);
-            const wasOpen = item.classList.contains('open');
-            
-            document.querySelectorAll('.channel-list-item.open').forEach(el => el.classList.remove('open'));
-            
-            if(!wasOpen) {
-                item.classList.add('open');
-                const progs = DATA.programs[channelId];
-                const now = new Date();
-                
-                const currentIndex = progs.findIndex(p => p.start <= now && p.stop > now);
-                let displayProgs = [];
-                
-                if (currentIndex !== -1) { 
-                    displayProgs = progs.slice(currentIndex, currentIndex + 4); 
-                } else { 
-                    let upcoming = progs.filter(p => p.start > now); 
-                    upcoming.sort((a,b) => a.start - b.start); 
-                    displayProgs = upcoming.slice(0, 4); 
+        const proxies = [ "", "https://api.allorigins.win/raw?url=", "https://corsproxy.io/?url=", "https://api.codetabs.com/v1/proxy?quest=" ];
+        let success = false; let xmlText = "";
+        for (let proxy of proxies) {
+            try {
+                const targetUrl = proxy ? proxy + encodeURIComponent(urlRaw) : urlRaw;
+                const resp = await fetch(targetUrl);
+                if (resp.ok) {
+                    xmlText = await resp.text();
+                    if(xmlText.includes('<?xml') || xmlText.includes('<tv')) { success = true; break; }
                 }
-                
-                let html = '';
-                
-                displayProgs.forEach(p => { 
-                    const isLive = (now >= p.start && now < p.stop);
-                    
-                    let badgeHtml = '';
-                    let titleStyle = '';
-
-                    if (isLive) {
-                        badgeHtml = '<span class="live-badge" style="margin-left:auto; margin-right: 10px;">AL AIRE</span>';
-                        titleStyle = 'color: #ffffff; font-weight: bold; font-size: 1rem;'; 
-                    }
-
-                    html += `
-                    <div class="mini-prog-row ${isLive ? 'current' : ''}">
-                        <div class="mini-prog-time">${formatTime(p.start)}</div>
-                        <div class="mini-prog-title" style="${titleStyle}">
-                            ${p.title}
-                        </div>
-                        ${badgeHtml}
-                    </div>`; 
-                });
-
-                if (displayProgs.length === 0) html = '<div style="color:var(--text-dim);padding:10px">No hay información futura cercana.</div>';
-                
-                html += getActionButtonsHTML(DATA.channels.find(c => c.id === channelId));
-                html += `<button class="mini-prog-btn" onclick="showChannelList('${channelId}')">Ver la programación de este canal</button>`;
-                
-                scheduleDiv.innerHTML = html;
-            }
+            } catch (e) { console.warn("Fallo con proxy: " + proxy); }
         }
-		
-        function updateTimelineDateSelector() {
-            const container = document.getElementById('timeline-date-tabs'); container.innerHTML = '';
-            const sortedDates = Array.from(DATA.availableDates).sort((a,b) => new Date(a) - new Date(b));
-            const todayStr = new Date().toDateString();
-            sortedDates.forEach(dateStr => {
-                const dateObj = new Date(dateStr); const btn = document.createElement('button'); btn.className = 'date-btn';
-                if (dateStr === currentTimelineDate.toDateString()) btn.classList.add('active');
-                btn.textContent = (dateStr === todayStr) ? 'Hoy' : dateObj.toLocaleDateString('es-ES', { weekday: 'short', day: 'numeric' });
-                btn.onclick = () => { currentTimelineDate = new Date(dateStr); updateTimelineDateSelector(); renderTimeline(currentTimelineDate); };
-                container.appendChild(btn);
-            });
+        if (success && xmlText) {
+            try { parseXML(xmlText); hideLoader(); return; } catch(e) { console.error("Error procesando XML:", e); }
         }
+        hideLoader();
+        const errorMsg = `<div id="loading" style="color:var(--accent)">Error al cargar la URL. Asegúrate de que el enlace sea válido y público.</div>`;
+        document.getElementById('grid').innerHTML = errorMsg; document.getElementById('listView').innerHTML = errorMsg;
+    }
 
-        function renderTimeRuler() {
-            const ruler = document.getElementById('timeline-ruler'); ruler.innerHTML = '';
-            for(let h=0; h<24; h++) {
-                for(let m=0; m<60; m+=30) {
-                    const totalMins = (h*60) + m; const marker = document.createElement('div'); marker.className = 'time-marker';
-                    marker.style.left = (totalMins * PX_PER_MIN) + 'px'; marker.textContent = `${h.toString().padStart(2,'0')}:${m.toString().padStart(2,'0')}`;
-                    ruler.appendChild(marker);
-                }
-            }
-        }
-
-        function renderTimeline(selectedDate) {
-            if(!selectedDate) selectedDate = new Date();
-            const container = document.getElementById('timeline-rows');
-            const innerContainer = document.getElementById('timeline-inner');
-            container.innerHTML = '';
-            const isMobile = window.innerWidth <= 768;
-            const dayStart = new Date(selectedDate); dayStart.setHours(0,0,0,0);
-            const dayEnd = new Date(selectedDate); dayEnd.setHours(23,59,59,999);
-            const now = new Date();
-            if (!isMobile) {
-                const cssHeaderW = getComputedStyle(document.documentElement).getPropertyValue('--header-width').trim();
-                const headerW = parseInt(cssHeaderW);
-                innerContainer.style.width = `${(1440 * PX_PER_MIN) + headerW + 50}px`;
-                renderTimeRuler();
-                updateTimelineCurrentLine();
-            } else { innerContainer.style.width = '100%'; }
-            DATA.channels.forEach(ch => {
-                let dayProgs = DATA.programs[ch.id].filter(p => p.stop > dayStart && p.start < dayEnd);
-                if (isMobile && selectedDate.toDateString() === now.toDateString()) { dayProgs = dayProgs.filter(p => p.stop > now); }
-                if (dayProgs.length === 0) return;
-                const row = document.createElement('div'); row.className = 'channel-row';
-                const sticky = document.createElement('div'); sticky.className = 'channel-sticky';
-                sticky.onclick = () => showChannelList(ch.id);
-                sticky.innerHTML = `<img src="${ch.icon}" class="sticky-logo" onerror="this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iIzMzMyIgZD0iTTIxIDNIM2MtMS4xIDAtMiAuOS0yIDJ2MTJjMCAxLjEuOSAyIDIgMmg1djJoOHYtMmgyYy42IDAgMS0uNSAxLTF2LTE0YzAtMS4xLS45LTItMi0yek0yMCAxNUg0VjVoMTZ2MTB6Ii8+PC9zdmc+'"><span class="sticky-name">${ch.name}</span>`;
-                row.appendChild(sticky);
-                const track = document.createElement('div'); track.className = 'program-track';
-                dayProgs.forEach(p => {
-                    const block = document.createElement('div'); block.className = 'program-block';
-                    block.dataset.start = p.start.getTime(); block.dataset.stop = p.stop.getTime();
-                    if (p.start <= now && p.stop > now) block.classList.add('is-live');
-                    if (!isMobile) {
-                        let startMins = (p.start - dayStart) / 60000;
-                        let durationMins = (p.stop - p.start) / 60000;
-                        if (startMins < 0) { durationMins += startMins; startMins = 0; }
-                        if (startMins + durationMins > 1440) { durationMins = 1440 - startMins; }
-                        block.style.left = (startMins * PX_PER_MIN) + 'px';
-                        block.style.width = (durationMins * PX_PER_MIN) + 'px';
-                    }
-                    block.innerHTML = `<div class="program-inner-content"><span class="prog-start-time">${formatTime(p.start)}</span>${p.title}</div>`;
-                    block.onclick = () => openModal(p);
-                    if (!isMobile) {
-                        block.onmousemove = (e) => { if(tooltip.style.display === 'none') showTooltip(e, p); else moveTooltip(e); };
-                        block.onmouseleave = hideTooltip;
-                    }
-                    track.appendChild(block);
-                });
-                row.appendChild(track); container.appendChild(row);
-            });
-        }
-
-        function updateTimelineCurrentLine() {
-            if (window.innerWidth > 768) { 
-                const line = document.getElementById('current-line'); const now = new Date();
-                if (currentTimelineDate.toDateString() !== now.toDateString()) { line.style.display = 'none'; }
-                else {
-                    const minutes = now.getHours() * 60 + now.getMinutes();
-                    const cssHeaderW = getComputedStyle(document.documentElement).getPropertyValue('--header-width').trim();
-                    const headerW = parseInt(cssHeaderW);
-                    line.style.left = ((minutes * PX_PER_MIN) + headerW) + 'px'; line.style.display = 'block';
-                }
-            }
-            updateLiveBlocks();
+    function parseXML(xmlStr) {
+        const parser = new DOMParser(); const xml = parser.parseFromString(xmlStr, "text/xml");
+        const chNodes = xml.getElementsByTagName('channel');
+        if(chNodes.length === 0) throw new Error("No hay canales en el XML");
+        const now = new Date(); const channelsMap = {}; let index = 0;
+        
+        for(let ch of chNodes) {
+            const id = ch.getAttribute('id');
+            if (id.toString().startsWith('000')) continue;
+            const name = ch.getElementsByTagName('display-name')[0]?.textContent || id;
+            const icon = ch.getElementsByTagName('icon')[0]?.getAttribute('src') || '';
+            const isAdult = id.toLowerCase().startsWith('xxx');
+            channelsMap[id] = { id, name, icon, isAdult, index: index++, programs: [] };
         }
         
-        function updateLiveBlocks() {
-            const now = new Date().getTime();
-            const blocks = document.querySelectorAll('.program-block');
-            blocks.forEach(block => {
-                const start = parseInt(block.dataset.start); const stop = parseInt(block.dataset.stop);
-                if (start && stop) {
-                    if (now >= start && now < stop) { if (!block.classList.contains('is-live')) block.classList.add('is-live'); } 
-                    else { if (block.classList.contains('is-live')) block.classList.remove('is-live'); }
-                }
+        const progNodes = xml.getElementsByTagName('programme');
+        const cutOff = getTvDayStart(now); 
+        
+        for(let p of progNodes) {
+            const chId = p.getAttribute('channel'); if(!channelsMap[chId]) continue;
+            const start = parseDate(p.getAttribute('start')); const stop = parseDate(p.getAttribute('stop'));
+            if(stop <= cutOff) continue;
+            const titleRaw = p.getElementsByTagName('title')[0]?.textContent || 'Sin Título';
+            const desc = p.getElementsByTagName('desc')[0]?.textContent || '';
+            const icon = p.getElementsByTagName('icon')[0]?.getAttribute('src') || '';
+            channelsMap[chId].programs.push({ title: titleRaw, desc, start, stop, icon });
+        }
+        
+        state.allChannels = Object.values(channelsMap).map(ch => {
+            ch.programs.sort((a,b) => a.start - b.start);
+            ch.current = ch.programs.find(p => p.start <= new Date() && p.stop > new Date()) || ch.programs.find(p => p.start > new Date());
+            return ch;
+        }).filter(ch => ch.programs.length > 0);
+        
+        if(state.visibleIds.size === 0) state.allChannels.forEach(ch => state.visibleIds.add(ch.id));
+        
+        setTimeout(() => {
+            calculatePerfectGridSize();
+            if(state.displayedRandomIds.length === 0) refreshRandomCards(); 
+            initHero();
+            renderCurrentView();
+        }, 50);
+    }
+    
+    // --- CONTROL DE VISTAS ---
+    function switchView(mode) {
+        state.viewMode = mode;
+        document.getElementById('btnViewCards').classList.toggle('active', mode === 'cards');
+        document.getElementById('btnViewDirectory').classList.toggle('active', mode === 'directory');
+        document.getElementById('btnViewSearch').classList.toggle('active', mode === 'search');
+        
+        document.getElementById('cardsView').style.display = mode === 'cards' ? 'block' : 'none';
+        document.getElementById('listView').style.display = mode === 'list' ? 'flex' : 'none';
+        document.getElementById('channelsView').style.display = mode === 'directory' ? 'flex' : 'none';
+        document.getElementById('searchView').style.display = mode === 'search' ? 'flex' : 'none';
+        
+        if (mode === 'directory') {
+            renderDirGrid();
+            if(!dirState.selectedChannelId) {
+                let defaultCh = state.allChannels.find(c => c.id === '0101' && state.visibleIds.has(c.id));
+                if(!defaultCh) defaultCh = state.allChannels.find(c => state.visibleIds.has(c.id) && (!c.isAdult || state.showAdult));
+                if(defaultCh) selectDirChannel(defaultCh.id);
+            } else {
+                const ch = state.allChannels.find(c => c.id === dirState.selectedChannelId);
+                if(ch) renderDirDateTabs(ch);
+                renderDirSchedule();
+            }
+        } else if (mode === 'search') {
+            renderSearch();
+            document.getElementById('mainSearchInput').focus();
+        } else if (mode === 'cards') {
+            setTimeout(calculatePerfectGridSize, 10);
+        } else {
+            renderCurrentView();
+        }
+    }
+
+    function renderCurrentView(isAutoRefresh = false) {
+        if (state.viewMode === 'cards') renderGrid(); 
+        else if (state.viewMode === 'list') renderList();
+        else if (state.viewMode === 'directory') { 
+            renderDirGrid(); 
+            const ch = state.allChannels.find(c => c.id === dirState.selectedChannelId);
+            if(ch) renderDirDateTabs(ch);
+            renderDirSchedule(isAutoRefresh); 
+        }
+        else if (state.viewMode === 'search') renderSearch();
+    }
+
+    // --- 1. RENDER LISTA (OCULTA) ---
+    function renderList() {
+        const container = document.getElementById('listView'); container.innerHTML = '';
+        const now = new Date();
+        let filtered = state.allChannels.filter(ch => {
+            if(!state.visibleIds.has(ch.id)) return false;
+            if(!state.showAdult && ch.isAdult) return false;
+            return true;
+        });
+
+        if(state.sort === 'az') filtered.sort((a,b) => a.name.localeCompare(b.name));
+        else if(state.sort === 'za') filtered.sort((a,b) => b.name.localeCompare(a.name));
+        else filtered.sort((a,b) => a.index - b.index);
+
+        if(filtered.length === 0) { container.innerHTML = '<div id="loading">Sin resultados</div>'; return; }
+
+        filtered.forEach(ch => {
+            let currentIndex = ch.programs.findIndex(p => p.start <= now && p.stop > now);
+            if(currentIndex === -1) currentIndex = ch.programs.findIndex(p => p.start > now);
+            if(currentIndex === -1) currentIndex = 0; 
+            const displayProgs = ch.programs.slice(currentIndex, currentIndex + 3);
+            if(displayProgs.length === 0) return;
+
+            const row = document.createElement('div'); row.className = 'list-row';
+            const safeLogo = getValidImg(ch.icon);
+            row.innerHTML = `<div class="list-ch-col" onclick="switchView('directory'); selectDirChannel('${ch.id}')" style="cursor:pointer;"><img src="${safeLogo}" class="list-ch-logo" onerror="this.src='${EMPTY_IMG}'"><div class="list-ch-name"><span style="color:var(--accent); font-weight:bold;">${ch.id}</span><br>${ch.name}</div></div>`;
+            const progCol = document.createElement('div'); progCol.className = 'list-prog-col';
+            
+            displayProgs.forEach(p => {
+                const isLive = p.start <= now && p.stop > now; 
+                const pItem = document.createElement('div'); pItem.className = `list-prog-item ${isLive ? 'active' : ''}`;
+                pItem.innerHTML = `<div class="list-prog-time">${formatTime(p.start)}</div><div class="list-prog-title">${p.title}</div>`;
+                pItem.onclick = () => openDetail(p, ch); progCol.appendChild(pItem);
+            });
+            row.appendChild(progCol); container.appendChild(row);
+        });
+    }
+
+    // --- 2. RENDER GRID (INICIO) ---
+    function renderGrid() {
+        const grid = document.getElementById('grid'); grid.innerHTML = '';
+        const now = new Date();
+        
+        let mapped = state.allChannels.map(ch => {
+            ch.current = ch.programs.find(p => p.start <= now && p.stop > now) || ch.programs.find(p => p.start > now);
+            let displayProg = ch.current; 
+            return { ch, displayProg };
+        });
+
+        let filtered = mapped.filter(item => {
+            if(!state.visibleIds.has(item.ch.id)) return false;
+            if(!state.showAdult && item.ch.isAdult) return false;
+            if(!item.displayProg) return false; 
+            if(state.displayedRandomIds.length > 0) return state.displayedRandomIds.includes(item.ch.id);
+            return true;
+        });
+
+        if(state.sort === 'az') filtered.sort((a,b) => a.ch.name.localeCompare(b.ch.name));
+        else if(state.sort === 'za') filtered.sort((a,b) => b.ch.name.localeCompare(a.ch.name));
+        else {
+            filtered.sort((a,b) => {
+                const idxA = state.displayedRandomIds.indexOf(a.ch.id);
+                const idxB = state.displayedRandomIds.indexOf(b.ch.id);
+                if(idxA !== -1 && idxB !== -1) return idxA - idxB;
+                return a.ch.index - b.ch.index; 
             });
         }
 
-        setInterval(updateTimelineCurrentLine, 20000);
+        if(filtered.length === 0) { grid.innerHTML = '<div id="loading">Sin resultados</div>'; return; }
 
-        const tooltip = document.getElementById('custom-tooltip');
-        function showTooltip(e, p) { if (window.matchMedia("(pointer: coarse)").matches) return; document.getElementById('tt-title').textContent = p.title; document.getElementById('tt-time').textContent = formatTime(p.start) + ' - ' + formatTime(p.stop); document.getElementById('tt-desc').textContent = p.desc ? p.desc.substring(0, 150) + (p.desc.length>150?'...':'') : 'Sin descripción'; moveTooltip(e); tooltip.style.display = 'block'; }
-        function moveTooltip(e) { let top = e.clientY + 15; let left = e.clientX + 15; if (left + 320 > window.innerWidth) left = e.clientX - 320; if (top + 150 > window.innerHeight) top = e.clientY - 120; tooltip.style.top = top + 'px'; tooltip.style.left = left + 'px'; }
-        function hideTooltip() { tooltip.style.display = 'none'; }
-        
-        function showChannelList(channelId) {
-            closeModal();
-            const ch = DATA.channels.find(c => c.id === channelId);
-            currentChannelProgs = DATA.programs[channelId];
-            document.getElementById('list-header-content').innerHTML = `
-                <img src="${ch.icon}" class="list-ch-logo" onclick="openImageModal('${ch.icon}')" onerror="this.style.display='none'">
-                <div class="list-ch-name">${ch.name}</div>
-                <div class="list-ch-id">${ch.id}</div>
-                ${getActionButtonsHTML(ch)}
+        filtered.forEach(item => {
+            const ch = item.ch; const displayProg = item.displayProg;
+            const isLive = (displayProg === ch.current && displayProg.start <= now && displayProg.stop > now);
+            const imgUrl = getValidImg(displayProg.icon || ch.icon); 
+            
+            const card = document.createElement('div'); card.className = 'card';
+            card.onclick = () => { switchView('directory'); selectDirChannel(ch.id); }; 
+            
+            let progressWidth = 0;
+            if(isLive) { 
+                const total = displayProg.stop - displayProg.start; 
+                const elapsed = now - displayProg.start; 
+                if(total > 0) progressWidth = Math.min(100, Math.max(0, (elapsed/total)*100)); 
+            }
+            let badgeHTML = '';
+            if (isLive) badgeHTML = '<div class="card-badge badge-live">AL AIRE</div>';
+            
+            const bgStyle = imgUrl !== EMPTY_IMG ? `background-image: url('${imgUrl}'), url('${EMPTY_IMG}');` : `background-image: url('${EMPTY_IMG}');`;
+            const safeLogo = getValidImg(ch.icon);
+            
+            card.innerHTML = `
+                <div class="card-bg" style="${bgStyle}"></div>
+                <div class="card-overlay">
+                    <div class="card-title">${displayProg.title}</div>
+                    <div class="card-meta"><span>${formatTime(displayProg.start)} - ${formatTime(displayProg.stop)}</span></div>
+                </div>
+                <div class="card-ch-id">${ch.id}</div>
+                ${safeLogo !== EMPTY_IMG ? `<img src="${safeLogo}" class="card-ch-logo" onerror="this.src='${EMPTY_IMG}'">` : ''}
+                ${badgeHTML}
+                ${isLive ? `<div class="card-progress-container"><div class="card-progress-bar" style="width:${progressWidth}%"></div></div>` : ''}
             `;
-            const dates = new Set(); currentChannelProgs.forEach(p => dates.add(new Date(p.start).toDateString()));
-            const dateContainer = document.getElementById('date-filters-container'); dateContainer.innerHTML = '';
-            const sortedDates = Array.from(dates).sort((a,b) => new Date(a) - new Date(b));
-            const todayStr = new Date().toDateString(); let hasToday = false, firstDate = null;
-            sortedDates.forEach((dateStr, index) => {
-                const dateObj = new Date(dateStr); const btn = document.createElement('button'); btn.className = 'date-btn';
-                btn.textContent = (dateStr === todayStr) ? 'Hoy' : dateObj.toLocaleDateString('es-ES', { weekday: 'short', day: 'numeric' });
-                btn.onclick = () => filterListByDate(dateStr, btn);
-                dateContainer.appendChild(btn);
-                if (index === 0) firstDate = dateStr;
-                if (dateStr === todayStr) { hasToday = true; setTimeout(() => filterListByDate(dateStr, btn), 0); }
+            grid.appendChild(card);
+        });
+    }
+
+    // --- 3. VISTA DIRECTORIO (CANALES) ---
+    function renderDirGrid() {
+        const inner = document.getElementById('dirGridInner');
+        inner.innerHTML = '';
+        const term = cleanStr(dirState.search);
+        
+        let filtered = state.allChannels.filter(ch => {
+            if(!state.visibleIds.has(ch.id)) return false;
+            if(!state.showAdult && ch.isAdult) return false;
+            if(term && !fuzzyMatch(ch.name, term)) return false;
+            return true;
+        });
+
+        if(state.sort === 'az') filtered.sort((a,b) => a.name.localeCompare(b.name));
+        else if(state.sort === 'za') filtered.sort((a,b) => b.name.localeCompare(a.name));
+        else filtered.sort((a,b) => a.index - b.index);
+
+        if(filtered.length === 0) { inner.innerHTML = '<div style="color:var(--text-dim); padding:10px;">Sin resultados</div>'; return; }
+
+        filtered.forEach(ch => {
+            const el = document.createElement('div');
+            el.className = `ch-logo-item ${ch.id === dirState.selectedChannelId ? 'selected' : ''}`;
+            const safeLogo = getValidImg(ch.icon);
+            el.innerHTML = `<img src="${safeLogo}" onerror="this.src='${EMPTY_IMG}'" title="${ch.id} - ${ch.name}">`;
+            el.onclick = () => selectDirChannel(ch.id);
+            inner.appendChild(el);
+        });
+    }
+
+    function scrollDirGrid(dir) {
+        const scrollArea = document.getElementById('dirGridScroll');
+        scrollArea.scrollBy({top: dir * 180, behavior: 'smooth'});
+    }
+
+    function selectDirChannel(id) {
+        dirState.selectedChannelId = id;
+        dirState.dateOffset = 0; 
+        
+        document.querySelectorAll('.ch-logo-item').forEach(el => el.classList.remove('selected'));
+        renderDirGrid(); 
+        
+        const ch = state.allChannels.find(c => c.id === id);
+        if(ch) {
+            const header = document.getElementById('dirChannelHeader');
+            document.getElementById('dirHeaderLogo').src = getValidImg(ch.icon);
+            document.getElementById('dirHeaderTitle').innerHTML = `<span style="color:var(--accent); margin-right:8px;">${ch.id}</span> Programación ${ch.name}`;
+            header.style.display = 'flex';
+            renderDirDateTabs(ch); 
+        }
+        
+        renderDirSchedule();
+    }
+
+    function renderDirDateTabs(ch) {
+        const tabsContainer = document.getElementById('dirDateTabs');
+        tabsContainer.innerHTML = '';
+        
+        if (!ch || !ch.programs || ch.programs.length === 0) {
+            tabsContainer.style.display = 'none';
+            return;
+        }
+        tabsContainer.style.display = 'flex';
+
+        const now = new Date();
+        const todayTv = getTvDayStart(now);
+        const offsets = new Set();
+        
+        ch.programs.forEach(p => {
+            const progTv = getTvDayStart(p.start);
+            const diffTime = progTv - todayTv;
+            const diffDays = Math.round(diffTime / (1000 * 60 * 60 * 24));
+            if(diffDays >= 0 && diffDays <= 14) offsets.add(diffDays); 
+        });
+        
+        const sortedOffsets = Array.from(offsets).sort((a,b) => a - b);
+        
+        if (sortedOffsets.includes(0)) {
+            const btn = document.createElement('button');
+            btn.className = `ch-date-tab ${dirState.dateOffset === 0 ? 'active' : ''}`;
+            btn.innerText = 'HOY';
+            btn.onclick = () => { setDirDate(0); };
+            tabsContainer.appendChild(btn);
+        }
+        
+        if (sortedOffsets.includes(1)) {
+            const btn = document.createElement('button');
+            btn.className = `ch-date-tab ${dirState.dateOffset === 1 ? 'active' : ''}`;
+            btn.innerText = 'MAÑANA';
+            btn.onclick = () => { setDirDate(1); };
+            tabsContainer.appendChild(btn);
+        }
+        
+        const moreOffsets = sortedOffsets.filter(o => o > 1);
+        if (moreOffsets.length > 0) {
+            const select = document.createElement('select');
+            select.className = `ch-date-tab ch-date-select ${dirState.dateOffset > 1 ? 'active' : ''}`;
+            
+            const defaultOpt = document.createElement('option');
+            defaultOpt.value = "";
+            defaultOpt.innerText = "MÁS";
+            defaultOpt.disabled = true;
+            if (dirState.dateOffset <= 1) defaultOpt.selected = true;
+            defaultOpt.style.display = 'none'; 
+            select.appendChild(defaultOpt);
+            
+            moreOffsets.forEach(offset => {
+                const opt = document.createElement('option');
+                opt.value = offset;
+                
+                const d = new Date(todayTv);
+                d.setDate(d.getDate() + offset);
+                let dateStr = d.toLocaleDateString('es-ES', { weekday: 'long', day: 'numeric' });
+                dateStr = dateStr.charAt(0).toUpperCase() + dateStr.slice(1);
+                
+                opt.innerText = dateStr;
+                if (dirState.dateOffset === offset) opt.selected = true;
+                select.appendChild(opt);
             });
-            if (!hasToday && firstDate) { const firstBtn = dateContainer.children[0]; filterListByDate(firstDate, firstBtn); }
-            switchView('list');
+            
+            select.onchange = (e) => { setDirDate(parseInt(e.target.value)); };
+            tabsContainer.appendChild(select);
+        }
+    }
+
+    function setDirDate(offset) {
+        dirState.dateOffset = offset;
+        const ch = state.allChannels.find(c => c.id === dirState.selectedChannelId);
+        if(ch) renderDirDateTabs(ch); 
+        renderDirSchedule();
+    }
+
+    function togglePastPrograms(btn) {
+        const wrapper = document.getElementById('pastProgramsWrapper');
+        if (wrapper.style.display === 'none') {
+            wrapper.style.display = 'flex';
+            btn.innerText = 'Ocultar programas anteriores';
+        } else {
+            wrapper.style.display = 'none';
+            btn.innerText = 'Ver programas anteriores';
+        }
+    }
+
+    function renderDirSchedule(isAutoRefresh = false) {
+        const list = document.getElementById('dirProgList');
+        list.innerHTML = '';
+        
+        if(!dirState.selectedChannelId) return;
+        const ch = state.allChannels.find(c => c.id === dirState.selectedChannelId);
+        if(!ch) return;
+
+        const now = new Date();
+        const baseTvDay = getTvDayStart(now);
+        baseTvDay.setDate(baseTvDay.getDate() + dirState.dateOffset);
+        
+        const startOfDay = new Date(baseTvDay);
+        const endOfDay = new Date(baseTvDay);
+        endOfDay.setDate(endOfDay.getDate() + 1);
+        endOfDay.setMilliseconds(-1);
+
+        const dayProgs = ch.programs.filter(p => (p.stop > startOfDay && p.start < endOfDay));
+
+        if(dayProgs.length === 0) {
+            list.innerHTML = '<div style="color:var(--text-dim);">No hay programación disponible para este día.</div>';
+            return;
         }
 
-        function filterListByDate(dateStr, btnElement) {
-            document.querySelectorAll('.date-btn').forEach(b => b.classList.remove('active'));
-            if(btnElement) btnElement.classList.add('active');
-            const filtered = currentChannelProgs.filter(p => new Date(p.start).toDateString() === dateStr);
-            renderListItems(filtered, false);
+        let hasPast = false;
+        
+        dayProgs.forEach(p => {
+            const isLive = p.start <= now && p.stop > now;
+            const isPast = p.stop <= now;
+            
+            let classes = 'ch-prog-card';
+            if(isLive) classes += ' is-live';
+            else if(isPast) classes += ' is-past';
+
+            const imgUrl = getValidImg(p.icon);
+            let progressHtml = ''; let badgeHtml = '';
+            
+            if(isLive) {
+                const total = p.stop - p.start; const elapsed = now - p.start; 
+                let progressWidth = 0; if(total > 0) progressWidth = Math.min(100, Math.max(0, (elapsed/total)*100));
+                progressHtml = `<div class="ch-prog-progress" style="width:${progressWidth}%"></div>`;
+                badgeHtml = `<div class="live-badge">AL AIRE</div>`;
+            }
+
+            const cleanDesc = formatDesc(p.desc);
+            const descId = `desc-${Math.random().toString(36).substr(2, 9)}`;
+
+            const card = document.createElement('div');
+            card.className = classes;
+            card.innerHTML = `
+                <div class="ch-prog-img-box">
+                    ${badgeHtml}
+                    <img src="${imgUrl}" onerror="this.src='${EMPTY_IMG}'">
+                    ${progressHtml}
+                </div>
+                <div class="ch-prog-info">
+                    <div class="ch-prog-time">${formatTime(p.start)} - ${formatTime(p.stop)}</div>
+                    <div class="ch-prog-title">${p.title}</div>
+                    <div class="ch-prog-desc desc-clamp" id="${descId}">${cleanDesc}</div>
+                    <button class="btn-read-more" onclick="toggleDirDesc(this, '${descId}')">Ver más...</button>
+                </div>
+            `;
+            
+            card.addEventListener('click', (e) => {
+                if(!e.target.classList.contains('btn-read-more')) openDetail(p, ch);
+            });
+
+            if (isPast && dirState.dateOffset === 0) { 
+                hasPast = true;
+                if(!window.tempPastCards) window.tempPastCards = [];
+                window.tempPastCards.push(card);
+            } else {
+                if(!window.tempFutureCards) window.tempFutureCards = [];
+                window.tempFutureCards.push(card);
+            }
+        });
+
+        if (hasPast && dirState.dateOffset === 0) {
+            const btnWrap = document.createElement('div');
+            btnWrap.style = "text-align: center; margin-bottom: 15px;";
+            btnWrap.innerHTML = `<button class="btn-toggle-past" onclick="togglePastPrograms(this)">Ver programas pasados</button>`;
+            list.appendChild(btnWrap);
+            
+            const pastWrap = document.createElement('div');
+            pastWrap.id = 'pastProgramsWrapper';
+            pastWrap.style = "display:none; flex-direction:column; gap:15px; margin-bottom:15px;";
+            window.tempPastCards.forEach(c => pastWrap.appendChild(c));
+            list.appendChild(pastWrap);
         }
 
-function handleSearch() {
-    clearTimeout(searchTimeout);
-    searchTimeout = setTimeout(() => {
-        const query = document.getElementById('search-input').value.toLowerCase();
-        if (query.length < 2) { 
-            if(document.getElementById('list-view').classList.contains('active')) goBack(); 
-            return; 
+        if(window.tempFutureCards) window.tempFutureCards.forEach(c => list.appendChild(c));
+
+        window.tempPastCards = [];
+        window.tempFutureCards = [];
+
+        setTimeout(() => {
+            const descs = list.querySelectorAll('.ch-prog-desc');
+            descs.forEach(desc => {
+                if (desc.scrollHeight > desc.clientHeight + 2) { 
+                    const btn = desc.nextElementSibling;
+                    if(btn) btn.style.display = 'block';
+                }
+            });
+            if(!isAutoRefresh) {
+                const liveItem = list.querySelector('.is-live');
+                if(liveItem && dirState.dateOffset === 0) liveItem.scrollIntoView({behavior: 'smooth', block: 'center'});
+            }
+        }, 50);
+    }
+
+    function toggleDirDesc(btn, descId) {
+        const desc = document.getElementById(descId);
+        if(!desc) return;
+        if (desc.classList.contains('desc-expanded')) {
+            desc.classList.remove('desc-expanded');
+            desc.classList.add('desc-clamp');
+            btn.innerText = 'Ver más...';
+        } else {
+            desc.classList.remove('desc-clamp');
+            desc.classList.add('desc-expanded');
+            btn.innerText = 'Ver menos';
         }
-        if (!document.getElementById('list-view').classList.contains('active')) { 
-            lastView = document.querySelector('.view-container.active').id.replace('-view',''); 
-            switchView('list'); 
+    }
+
+    // --- 4. NUEVA VISTA BÚSQUEDA ---
+    function renderSearch() {
+        const container = document.getElementById('searchResults');
+        const term = state.search.trim();
+        if (!term) {
+            container.innerHTML = '<div style="color:var(--text-dim); text-align:center; padding: 40px;">Buscar canales o programas...</div>';
+            return;
         }
 
-        document.getElementById('list-header-content').innerHTML = `<h2 style="margin:0; color:var(--text-main);">Resultados de tu Búsqueda</h2>`;
-        document.getElementById('date-filters-container').innerHTML = ''; 
-
-        let channelResults = [];
-        let programResults = [];
+        const matchedChannels = [];
+        const matchedPrograms = [];
         const now = new Date();
 
-        DATA.channels.forEach(ch => {
-            if (ch.name.toLowerCase().includes(query)) {
-                channelResults.push({ 
-                    type: 'channel',
-                    name: ch.name,
-                    icon: ch.icon,
-                    id: ch.id
-                });
+        state.allChannels.forEach(ch => {
+            if (ch.isAdult && !state.showAdult) return;
+            if (!state.visibleIds.has(ch.id)) return;
+            
+            if (fuzzyMatch(ch.name, term)) {
+                matchedChannels.push(ch);
             }
 
-            const matches = DATA.programs[ch.id].filter(p => p.title.toLowerCase().includes(query));
-            matches.forEach(p => {
-                programResults.push({ 
-                    ...p, 
-                    type: 'program',
-                    channelName: ch.name, 
-                    channelId: ch.id 
-                });
+            ch.programs.forEach(p => {
+                if (fuzzyMatch(p.title, term) || fuzzyMatch(p.desc, term)) {
+                    matchedPrograms.push({ ch, prog: p });
+                }
             });
         });
 
-        programResults.sort((a,b) => a.start - b.start);
-        const finalResults = [...channelResults, ...programResults];
-        renderListItems(finalResults.slice(0, 50), true);
-    }, 300);
-}
-        
-function renderListItems(items, isSearch) { 
-    const container = document.getElementById('list-results'); 
-    container.innerHTML = ''; 
-    if (items.length === 0) { 
-        container.innerHTML = '<p style="text-align:center; padding:20px; color:var(--text-dim);">No hay resultados.</p>'; 
-        return; 
-    }
-    
-    let html = ''; 
-    const now = new Date();
+        matchedPrograms.sort((a, b) => {
+            const isPastA = a.prog.stop <= now;
+            const isPastB = b.prog.stop <= now;
+            if (isPastA && !isPastB) return 1;  
+            if (!isPastA && isPastB) return -1; 
+            return a.prog.start - b.prog.start;
+        });
 
-    items.forEach(p => { 
-        if (p.type === 'channel') {
-            html += `
-            <div class="search-item" onclick="showChannelList('${p.id}')" style="border-left: 4px solid var(--accent-green);">
-                <img src="${p.icon}" style="width:30px; height:30px; object-fit:contain; background:white; border-radius:4px; padding:2px;" onerror="this.style.display='none'">
-                <div class="search-prog-title" style="font-weight:bold; color:var(--accent-green);">${p.name}</div>
-                <span class="search-channel-tag">Ir al canal</span>
-            </div>`;
-        } else {
-            const isLive = (now >= p.start && now < p.stop);
-            const chInfo = isSearch ? `<span class="search-channel-tag">${p.channelName}</span>` : ''; 
-            const liveBadge = isLive ? '<span class="live-badge">AL AIRE</span>' : '';
-            const titleStyle = isLive ? 'color: #ffffff; font-weight: bold;' : '';
-
-            if(isSearch) {
-                html += `
-                <div class="search-item" onclick="openModal({title:'${p.title.replace(/'/g, "\\'")}', desc:'${p.desc.replace(/'/g, "\\'")}', start: new Date('${p.start}'), stop: new Date('${p.stop}'), channelId: '${p.channelId || ''}'})">
-                    ${chInfo}
-                    <div class="search-time-tag">${formatTime(p.start)}</div>
-                    <div class="search-prog-title" style="${titleStyle}">${p.title}</div>
-                </div>`;
-            } else {
-                const rowClass = isLive ? 'list-item live-now' : 'list-item';
-                html += `
-                <div class="${rowClass}" onclick="openModal({title:'${p.title.replace(/'/g, "\\'")}', desc:'${p.desc.replace(/'/g, "\\'")}', start: new Date('${p.start}'), stop: new Date('${p.stop}'), channelId: '${p.channelId || ''}'})">
-                    <div class="list-title-row">
-                        <span class="list-time-inline">${formatTime(p.start)}</span>
-                        <span class="list-title-text" style="${titleStyle}">${p.title}</span> ${liveBadge}
-                    </div>
-                </div>`; 
-            }
-        }
-    }); 
-    container.innerHTML = html;
-
-    if (!isSearch) {
-        setTimeout(() => {
-            const liveItem = container.querySelector('.live-now');
-            if (liveItem) {
-                liveItem.scrollIntoView({ behavior: 'smooth', block: 'center' });
-            }
-        }, 150);
-    }
-}
-
-        function formatTime(d) { if (!(d instanceof Date)) d = new Date(d); return d.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit', hour12: false }); }
-        
-        function openModal(p) {
-            document.getElementById('m-title').textContent = p.title;
-            const dateStr = p.start.toLocaleDateString('es-ES', { weekday: 'long', day: 'numeric', month: 'long' });
-            document.getElementById('m-date').textContent = dateStr.charAt(0).toUpperCase() + dateStr.slice(1);
-            document.getElementById('m-time').textContent = formatTime(p.start) + ' - ' + formatTime(p.stop);
-            document.getElementById('m-desc').textContent = p.desc || 'Sin descripción';
-            const btnContainer = document.getElementById('modal-actions');
-            let btnsHTML = '';
-            if (p.channelId) {
-                const ch = DATA.channels.find(c => c.id === p.channelId);
-                if(ch) btnsHTML += getActionButtonsHTML(ch).replace(/margin-top:10px/g, 'margin-bottom:10px'); 
-                btnsHTML += `<button class="btn-modal-action" onclick="showChannelList('${p.channelId}')">Ver Programación del Canal</button>`;
-            }
-            btnsHTML += `<button class="btn-modal-close" onclick="closeModal()">Cerrar</button>`;
-            btnContainer.innerHTML = btnsHTML;
-            document.getElementById('modal').style.display = 'flex';
-        }
-        
-        function openImageModal(src) { document.getElementById('img-modal-content').src = src; document.getElementById('img-modal').style.display = 'flex'; }
-        function closeImgModal() { document.getElementById('img-modal').style.display = 'none'; }
-        function closeModal() { document.getElementById('modal').style.display = 'none'; }
-
-        // Lógica de Player
-        function openPlayer(channelId) {
-            switchView('player');
-            const index = playableChannels.findIndex(c => c.id === channelId);
-            if (index !== -1) {
-                loadChannelInPlayer(index);
-                if(window.innerWidth <= 768) {
-                    document.getElementById('player-drawer').classList.remove('open');
-                }
-            } else if (playableChannels.length > 0) {
-                if (!hls && !document.getElementById('main-video').src) {
-                    if(window.innerWidth <= 768) toggleDrawer();
-                }
-            } else {
-                alert("Canal sin transmisión en vivo.");
-                switchView('dashboard');
-            }
+        if (matchedChannels.length === 0 && matchedPrograms.length === 0) {
+            container.innerHTML = '<div style="color:var(--text-dim); text-align:center; padding: 40px;">No se encontraron resultados para "'+term+'".</div>';
+            return;
         }
 
-function loadChannelInPlayer(index) {
-    if (index < 0 || index >= playableChannels.length) return;
-    currentPlayerIndex = index;
-    const ch = playableChannels[index];
-    
-    const video = document.getElementById('main-video');
-    const webOverlay = document.getElementById('web-overlay');
-    const webBtn = document.getElementById('btn-web-action');
-    
-    document.getElementById('p-logo').src = ch.icon;
-    document.getElementById('p-name').textContent = ch.name;
-    
-    const now = new Date();
-    const currentProg = DATA.programs[ch.id]?.find(p => p.start <= now && p.stop > now);
-    document.getElementById('p-program').textContent = currentProg ? currentProg.title : 'Transmisión en Vivo';
-
-    removePlaybackError();
-    
-    if (ch.external.stream) {
-        webOverlay.style.display = 'none';
-        video.style.display = 'block';
+        container.innerHTML = '';
         
-        if (Hls.isSupported()) {
-            if (hls) { hls.destroy(); }
-            hls = new Hls({ enableWorker: true });
-            hls.loadSource(ch.external.stream);
-            hls.attachMedia(video);
-            hls.on(Hls.Events.MANIFEST_PARSED, () => video.play().catch(e => console.log("Auto-play blocked", e)));
-            hls.on(Hls.Events.ERROR, function (event, data) {
-                if (data.fatal) {
-                    switch (data.type) {
-                        case Hls.ErrorTypes.NETWORK_ERROR:
-                            hls.startLoad();
-                            showPlaybackError(true);
-                            break;
-                        case Hls.ErrorTypes.MEDIA_ERROR:
-                            hls.recoverMediaError();
-                            break;
-                        default: hls.destroy(); break;
-                    }
-                }
+        if (matchedChannels.length > 0) {
+            const title = document.createElement('h3');
+            title.className = 'search-section-title';
+            title.innerText = 'Canales Encontrados';
+            container.appendChild(title);
+            
+            const grid = document.createElement('div');
+            grid.className = 'search-channels-grid';
+            matchedChannels.forEach(ch => {
+                const el = document.createElement('div');
+                el.className = 'search-channel-item';
+                const safeLogo = getValidImg(ch.icon);
+                el.innerHTML = `<img src="${safeLogo}" onerror="this.src='${EMPTY_IMG}'" title="${ch.id} - ${ch.name}">`;
+                el.onclick = () => { switchView('directory'); selectDirChannel(ch.id); };
+                grid.appendChild(el);
             });
-        } else if (video.canPlayType('application/vnd.apple.mpegurl')) {
-            video.src = ch.external.stream;
-            video.addEventListener('loadedmetadata', () => video.play());
+            container.appendChild(grid);
         }
 
-    } else if (ch.external.web) {
+        if (matchedPrograms.length > 0) {
+            const title = document.createElement('h3');
+            title.className = 'search-section-title';
+            title.innerText = 'Programas Encontrados';
+            container.appendChild(title);
+            
+            const list = document.createElement('div');
+            list.className = 'search-programs-list';
+            
+            const limitProgs = matchedPrograms.slice(0, 50); 
+            limitProgs.forEach(item => {
+                const ch = item.ch;
+                const p = item.prog;
+                const isLive = p.start <= now && p.stop > now;
+                const isPast = p.stop <= now;
+                
+                const card = document.createElement('div');
+                let classes = 'ch-prog-card search-result-card';
+                if(isLive) classes += ' is-live';
+                else if(isPast) classes += ' is-past';
+                card.className = classes;
 
-        video.pause();
-        video.removeAttribute('src');
-        if(hls) { hls.destroy(); hls = null; }
-        
-        video.style.display = 'none';
-        webOverlay.style.display = 'flex'; 
-        
-        const btnLabel = ch.external.web.name && ch.external.web.name.startsWith('Ver') ? ch.external.web.name : `Ver en ${ch.external.web.name || 'Web'}`;
-        webBtn.textContent = `🌐 ${btnLabel}`;
-        webBtn.href = ch.external.web.url;
+                const imgUrl = getValidImg(p.icon);
+                const safeLogo = getValidImg(ch.icon);
+                const searchDateStr = getSearchDateString(p, ch.name);
+                
+                let progressHtml = ''; let badgeHtml = '';
+                if(isLive) {
+                    const total = p.stop - p.start; const elapsed = now - p.start; 
+                    let progressWidth = 0; if(total > 0) progressWidth = Math.min(100, Math.max(0, (elapsed/total)*100));
+                    progressHtml = `<div class="ch-prog-progress" style="width:${progressWidth}%"></div>`;
+                    badgeHtml = `<div class="live-badge">AL AIRE</div>`;
+                } else if (isPast) {
+                    badgeHtml = `<div class="live-badge" style="background:var(--border-color); color:white;">FINALIZADOS</div>`;
+                }
+
+                card.innerHTML = `
+                    <div class="ch-prog-img-box">
+                        ${badgeHtml}
+                        <img src="${imgUrl}" onerror="this.src='${EMPTY_IMG}'">
+                        ${progressHtml}
+                    </div>
+                    <div class="search-ch-logo-box">
+                        <img src="${safeLogo}" onerror="this.src='${EMPTY_IMG}'">
+                    </div>
+                    <div class="ch-prog-info">
+                        <div class="ch-prog-title" style="margin-bottom: 4px;">${p.title}</div>
+                        <div class="search-prog-meta"><span style="color:var(--accent); font-weight:bold;">${ch.id}</span> | ${searchDateStr}</div>
+                    </div>
+                `;
+                
+                card.addEventListener('click', () => openDetail(p, ch));
+                list.appendChild(card);
+            });
+            container.appendChild(list);
+        }
     }
 
-    const popup = document.getElementById('player-popup');
-    if (popup.style.display === 'flex') {
-        renderPopupContent();
+
+    // --- HERO & MODALS BASE ---
+    function initHero() {
+        const candidates = state.allChannels.filter(ch => {
+            const hasProg = ch.current && (ch.current.icon || ch.icon);
+            const notAdult = !ch.isAdult; return hasProg && notAdult;
+        });
+        if(heroState.list.length === 0) { heroState.list = candidates.sort(() => 0.5 - Math.random()); heroState.currentIndex = 0; }
+        if (heroState.list.length > 0 && state.search.trim() === '') {
+            document.getElementById('heroSection').style.display = 'block';
+            if(!heroState.interval) { showHeroSlide(); startHeroTimer(); }
+        } else { document.getElementById('heroSection').style.display = 'none'; }
     }
-}
+    function showHeroSlide() {
+        const contentEl = document.getElementById('heroContent'); const bgEl = document.getElementById('heroBg');
+        contentEl.classList.add('changing'); bgEl.classList.add('fade-out');
+        setTimeout(() => {
+            if(heroState.list.length === 0) return;
+            const item = heroState.list[heroState.currentIndex]; const prog = item.current;
+            if(!prog) { nextHero(); return; } 
+            
+            contentEl.onclick = () => {
+                switchView('directory');
+                selectDirChannel(item.id);
+            };
 
+            const bgImg = getValidImg(prog.icon || item.icon);
+            bgEl.style.backgroundImage = `url('${bgImg}')`;
+            document.getElementById('heroTitle').textContent = prog.title;
+            document.getElementById('heroDesc').textContent = formatDesc(prog.desc);
+            document.getElementById('heroLogo').src = getValidImg(item.icon);
+            document.getElementById('heroChName').innerHTML = `<span style="color:var(--accent); margin-right:5px;">${item.id}</span> ${item.name}`;
+            document.getElementById('heroTime').textContent = `${formatTime(prog.start)} - ${formatTime(prog.stop)}`;
+            bgEl.classList.remove('fade-out'); contentEl.classList.remove('changing');
+            resetProgressBar();
+        }, 400);
+    }
+    function resetProgressBar() { const bar = document.getElementById('heroProgress'); bar.style.transition = 'none'; bar.style.width = '0%'; if(heroState.isPlaying) { setTimeout(() => { bar.style.transition = `width ${heroState.duration}ms linear`; bar.style.width = '100%'; }, 50); } }
+    function startHeroTimer() { clearInterval(heroState.interval); if(heroState.isPlaying) { heroState.interval = setInterval(nextHero, heroState.duration); resetProgressBar(); } }
+    function nextHero() { heroState.currentIndex = (heroState.currentIndex + 1) % heroState.list.length; showHeroSlide(); }
+    function prevHero() { heroState.currentIndex = (heroState.currentIndex - 1 + heroState.list.length) % heroState.list.length; showHeroSlide(); startHeroTimer(); }
+    function toggleHeroPlay() { heroState.isPlaying = !heroState.isPlaying; const btn = document.getElementById('heroPlayBtn'); if(heroState.isPlaying) { btn.innerHTML = '&#10074;&#10074;'; startHeroTimer(); } else { btn.innerHTML = '&#9658;'; clearInterval(heroState.interval); document.getElementById('heroProgress').style.width = '0%'; } }
+    
+    function openDetail(prog, ch = null) {
+        const modal = document.getElementById('detailModal'); 
+        const img = document.getElementById('d-img'); 
+        const logo = document.getElementById('d-logo');
         
-		function handleGlobalKeydown(e) {
-            if (!document.getElementById('player-view').classList.contains('active')) return;
-            switch(e.key) {
-                case 'ArrowUp': zapChannel(-1); break; 
-                case 'ArrowDown': zapChannel(1); break; 
-                case 'ArrowLeft': 
-                case 'ArrowRight': toggleDrawer(); break;
-                case 'Enter': showOverlay(); break;
-                case 'Escape': exitPlayer(); break;
-            }
-        }
+        const titleObj = processTitle(prog.title);
+        const cleanDesc = formatDesc(prog.desc);
+        
+        img.src = getValidImg(prog.icon);
+        const safeLogo = ch ? getValidImg(ch.icon) : EMPTY_IMG;
+        if(safeLogo !== EMPTY_IMG) { logo.src = safeLogo; logo.style.display = 'block'; } 
+        else { logo.style.display = 'none'; }
 
-        function zapChannel(direction) {
-            if (playableChannels.length === 0) return;
-            let newIndex = currentPlayerIndex + direction;
-            if (newIndex >= playableChannels.length) newIndex = 0;
-            if (newIndex < 0) newIndex = playableChannels.length - 1;
-            loadChannelInPlayer(newIndex);
-            showOverlay(); 
-        }
+        document.getElementById('d-title').innerText = titleObj.main; 
+        document.getElementById('d-extra').innerText = titleObj.extra; 
+        document.getElementById('d-desc').innerText = cleanDesc; 
+        document.getElementById('d-time').innerHTML = `<span style="color:var(--text-main); font-weight:bold; margin-right:8px; padding:2px 6px; background:var(--accent); color:black; border-radius:4px;">${ch ? ch.id : ''}</span> ${getRelativeDate(prog.start)} | ${formatTime(prog.start)} - ${formatTime(prog.stop)}`;
+        modal.style.display = 'flex';
+    }
 
-        function togglePlayerOverlay() {
-            const ui = document.getElementById('player-ui');
-            if (ui.classList.contains('hidden')) {
-                showOverlay();
-            } else {
-                if(window.innerWidth <= 768 && !document.getElementById('player-drawer').classList.contains('open')) {
-                    ui.classList.add('hidden');
-                } else if (window.innerWidth > 768) {
-                    ui.classList.add('hidden');
-                }
-            }
-        }
+    function toggleAdults() { 
+        state.showAdult = document.getElementById('adultCheck').checked; 
+        calculatePerfectGridSize();
+        renderCurrentView(); 
+    }
+    function setSort(s) { state.sort = s; document.querySelectorAll('#configPanel button').forEach(b=>b.classList.remove('active')); event.target.classList.add('active'); renderCurrentView(); }
+    function closeModal(e, id){ if(e.target.id === id) closeDirect(id); }
+    function closeDirect(id){ document.getElementById(id).style.display='none'; }
+</script>
 
-        function showOverlay() {
-            const ui = document.getElementById('player-ui');
-            ui.classList.remove('hidden');
-            removePlaybackError(); 
-            if (overlayTimer) clearTimeout(overlayTimer);
-            overlayTimer = setTimeout(() => {
-                if (window.innerWidth > 768 || !document.getElementById('player-drawer').classList.contains('open')) {
-                    ui.classList.add('hidden');
-                }
-            }, 4000);
-        }
-
-        function showPlaybackError(isNetwork) {
-            let msg = document.getElementById('error-msg');
-            if(!msg) {
-                msg = document.createElement('div');
-                msg.id = 'error-msg';
-                msg.className = 'error-msg';
-                msg.style.cssText = "position:absolute; top:50%; left:50%; transform:translate(-50%,-50%); background:rgba(0,0,0,0.8); color:#ff5252; padding:20px; border-radius:8px; text-align:center; border:1px solid #ff5252; z-index:5;";
-                document.getElementById('video-area').appendChild(msg);
-            }
-            msg.innerHTML = isNetwork ? "⚠️ Error de conexión.<br><small>Es posible que este canal no esté disponible temporalmente.</small>" : "⚠️ Error de reproducción";
-        }
-        function removePlaybackError() {
-            const msg = document.getElementById('error-msg');
-            if(msg) msg.remove();
-        }
-
-        function toggleFullscreen() {
-            const container = document.getElementById('player-view');
-            const video = document.getElementById('main-video');
-
-            const activeFullscreen = document.fullscreenElement || 
-                                     document.webkitFullscreenElement || 
-                                     document.mozFullScreenElement || 
-                                     document.msFullscreenElement;
-
-            if (!activeFullscreen) {
-                
-                if (container.requestFullscreen) {
-                    container.requestFullscreen().catch(err => {
-                        if(video.webkitEnterFullscreen) video.webkitEnterFullscreen();
-                    });
-                } else if (container.webkitRequestFullscreen) {
-                    container.webkitRequestFullscreen();
-                } else if (container.mozRequestFullScreen) {
-                    container.mozRequestFullScreen();
-                } else if (container.msRequestFullscreen) {
-                    container.msRequestFullscreen();
-                } 
-                else if (video.webkitEnterFullscreen) {
-                    video.webkitEnterFullscreen();
-                }
-                
-            } else {
-                if (document.exitFullscreen) {
-                    document.exitFullscreen();
-                } else if (document.webkitExitFullscreen) { 
-                    document.webkitExitFullscreen();
-                } else if (document.mozCancelFullScreen) { 
-                    document.mozCancelFullScreen();
-                } else if (document.msExitFullscreen) { 
-                    document.msExitFullscreen();
-                }
-            }
-        }
-
-        let popupMode = 'list'; 
-
-        function openPlayerPopup(mode) {
-            popupMode = mode;
-            const popup = document.getElementById('player-popup');
-            const title = document.getElementById('popup-title');
-            const searchBox = document.getElementById('popup-search-box');
-            const searchInput = document.getElementById('popup-search-input');
-
-            if(overlayTimer) clearTimeout(overlayTimer);
-            document.getElementById('player-ui').classList.remove('hidden');
-
-            if (mode === 'list') {
-                title.textContent = "Lista de Canales";
-                searchBox.style.display = 'block';
-                searchInput.value = ''; 
-                searchInput.focus();
-            } else {
-                title.textContent = "Programación de Hoy";
-                searchBox.style.display = 'none';
-            }
-
-            renderPopupContent();
-            popup.style.display = 'flex';
-        }
-
-        function closePlayerPopup() {
-            document.getElementById('player-popup').style.display = 'none';
-            showOverlay();
-        }
-
-        function renderPopupContent() {
-            const listContainer = document.getElementById('popup-list');
-            listContainer.innerHTML = '';
-            const now = new Date();
-
-            if (popupMode === 'list') {
-                const query = document.getElementById('popup-search-input').value.toLowerCase();
-                
-                playableChannels.forEach((ch, idx) => {
-                    if (query && !ch.name.toLowerCase().includes(query)) return;
-
-                    const item = document.createElement('div');
-                    item.className = `drawer-item ${idx === currentPlayerIndex ? 'active' : ''}`;
-                    item.onclick = () => { 
-                        loadChannelInPlayer(idx); 
-                        closePlayerPopup(); 
-                    };
-                    
-                    const currentProg = DATA.programs[ch.id]?.find(p => p.start <= now && p.stop > now);
-                    const progTitle = currentProg ? currentProg.title : 'Sin información';
-
-                    item.innerHTML = `
-                        <img src="${ch.icon}" class="drawer-logo" onerror="this.style.visibility='hidden'">
-                        <div class="drawer-info">
-                            <div class="drawer-ch-name">${ch.name}</div>
-                            <div class="drawer-prog-title">${progTitle}</div>
-                        </div>
-                    `;
-                    listContainer.appendChild(item);
-                });
-
-            } else {
-                const ch = playableChannels[currentPlayerIndex];
-                if (!ch) return;
-
-                const progs = DATA.programs[ch.id] || [];
-                const todayEnd = new Date(now); todayEnd.setHours(23,59,59,999);
-                const upcomingProgs = progs.filter(p => p.stop > now && p.start < todayEnd);
-
-                if (upcomingProgs.length === 0) {
-                    listContainer.innerHTML = '<div style="padding:20px; text-align:center; color:var(--text-dim)">No hay más programas por hoy.</div>';
-                    return;
-                }
-
-                upcomingProgs.forEach(p => {
-                    const isLive = (now >= p.start && now < p.stop);
-                    const item = document.createElement('div');
-                    item.className = `drawer-item ${isLive ? 'active' : ''}`;
-                    
-                    item.innerHTML = `
-                        <div class="drawer-info" style="border-left: ${isLive ? 'none' : '2px solid var(--border-blue)'}; padding-left:10px;">
-                            <div class="drawer-prog-title" style="color:var(--accent-green); font-size:1rem;">${p.title}</div>
-                            <div class="drawer-prog-time" style="color:var(--text-dim); font-size:0.85rem;">${formatTime(p.start)} - ${formatTime(p.stop)}</div>
-                            <div style="color:var(--text-dim); font-size:0.8rem; margin-top:2px;">${p.desc ? p.desc.substring(0,80)+'...' : ''}</div>
-                        </div>
-                    `;
-                    listContainer.appendChild(item);
-                });
-            }
-        }
-
-    </script>
 </body>
 </html>
