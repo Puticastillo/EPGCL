@@ -446,7 +446,7 @@
 
 <script>
     const CORS_PROXY = "https://api.allorigins.win/raw?url=";
-    const DEFAULT_EPG_URL = "https://raw.githubusercontent.com/Puticastillo/EPGCL/refs/heads/main/smithers/guia-de-programacion.xml";
+    const DEFAULT_EPG_URL = "https://puticastillo.github.io/EPGCL/vilma//guia-de-programacion.xml";
     
     let state = { allChannels: [], visibleIds: new Set(), sort: 'original', showAdult: false, search: '', viewMode: 'cards', targetCardCount: 12, displayedRandomIds: [] };
     let dirState = { selectedChannelId: null, dateOffset: 0, search: '' };
@@ -1126,7 +1126,7 @@
         if (hasPast && dirState.dateOffset === 0) {
             const btnWrap = document.createElement('div');
             btnWrap.style = "text-align: center; margin-bottom: 15px;";
-            btnWrap.innerHTML = `<button class="btn-toggle-past" onclick="togglePastPrograms(this)">Ver programas pasados</button>`;
+            btnWrap.innerHTML = `<button class="btn-toggle-past" onclick="togglePastPrograms(this)">Ver programas anteriores</button>`;
             list.appendChild(btnWrap);
             
             const pastWrap = document.createElement('div');
