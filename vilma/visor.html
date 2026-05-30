@@ -3,9 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EPGCL</title>
+    <title>EPGCL • Programación TV</title>
     <link rel="icon" type="image/png" href="favicon.png">
     <style>
+        /* Desactiva el molesto cuadro gris al tocar la pantalla en móviles */
+        * { -webkit-tap-highlight-color: transparent; }
+
         :root {
             /* --- PALETA DARK AQUA --- */
             --bg-body: #0b0e11;
@@ -90,10 +93,6 @@
         .card-title { font-weight: 700; font-size: 1.1rem; margin-bottom: 5px; line-height: 1.2; color: white; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;}
         .card-meta { font-size: 0.85rem; color: var(--text-dim); }
         .card-ch-logo { position: absolute; top: 12px; left: 12px; width: 36px; height: 36px; object-fit: contain; background: white; border-radius: 6px; padding: 3px; box-shadow: 0 2px 4px rgba(0,0,0,0.5); }
-        
-        /* EL NUEVO ID DEL CANAL EN LA ESQUINA INFERIOR DERECHA DE LA TARJETA */
-        .card-ch-id { position: absolute; bottom: 12px; right: 15px; font-size: 1.1rem; font-weight: 900; color: var(--accent); z-index: 5; text-shadow: 1px 1px 3px rgba(0,0,0,0.8); }
-
         .card-progress-container { position: absolute; bottom: 0; left: 0; width: 100%; height: 3px; background: rgba(255,255,255,0.1); }
         .card-progress-bar { height: 100%; background: var(--accent); width: 0%; box-shadow: 0 0 5px var(--accent-glow); transition: width 0.5s ease; }
         .card-badge { position: absolute; top: 12px; right: 12px; padding: 3px 8px; border-radius: 4px; font-size: 0.7rem; font-weight: 800; text-transform: uppercase; background: rgba(0,0,0,0.6); color: white; border: 1px solid rgba(255,255,255,0.2); backdrop-filter: blur(4px); }
@@ -102,19 +101,27 @@
         /* --- VISTAS GLOBALES --- */
         #listView, #searchView, #channelsView { display: none; flex-direction: column; min-height: 100%; background: var(--bg-body); padding: 20px 4%; box-sizing: border-box; }
 
-        /* --- LIST VIEW (OCULTA) --- */
-        .list-row { display: flex; gap: 20px; padding: 15px 0; border-bottom: 1px solid var(--border-color); align-items: center; }
+        /* --- LIST VIEW --- */
+        .list-row { display: flex; gap: 20px; padding: 15px; border-bottom: 1px solid var(--border-color); align-items: center; transition: border-color 0.2s; cursor: pointer; border-radius: 8px;}
+        .list-row:hover { border-color: var(--accent);}
         .list-ch-col { width: 90px; flex-shrink: 0; display: flex; flex-direction: column; align-items: center; gap: 8px; }
         .list-ch-logo { width: 60px; height: 60px; background: white; border-radius: 6px; object-fit: contain; padding: 4px; box-shadow: 0 2px 5px rgba(0,0,0,0.5); }
         .list-ch-name { font-size: 0.8rem; text-align: center; color: var(--text-dim); font-weight: bold;}
         .list-prog-col { flex-grow: 1; display: flex; flex-direction: column; justify-content: center; gap: 8px; overflow: hidden; }
-        .list-prog-item { display: flex; gap: 15px; align-items: center; cursor: pointer; padding: 6px 12px; border-radius: 6px; transition: background 0.2s;}
-        .list-prog-item:hover { background: var(--bg-card); }
+        
+        .list-prog-item { display: flex; gap: 10px; align-items: center; padding: 6px 12px; border-radius: 6px; transition: 0.2s;}
         .list-prog-time { font-family: monospace; font-size: 1rem; font-weight: bold; color: var(--text-dim); width: 55px; flex-shrink: 0; }
-        .list-prog-title { font-size: 0.95rem; color: var(--text-dim); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-        .list-prog-item.active { background: var(--bg-card); border-left: 3px solid var(--match-color); }
-        .list-prog-item.active .list-prog-time { color: var(--match-color); }
-        .list-prog-item.active .list-prog-title { color: var(--match-color); background: var(--match-bg); padding: 4px 10px; border-radius: 4px; font-weight: bold;}
+        /* flex: 0 1 auto asegura que el título no empuje a la i más allá del texto, dejándolos pegados */
+        .list-prog-title { font-size: 0.95rem; color: var(--text-main); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; flex: 0 1 auto; }
+        
+        /* Highlight para el programa en vivo de la lista */
+        .list-prog-item.active { background: rgba(0, 230, 118, 0.05); border-left: 3px solid var(--accent); }
+        .list-prog-item.active .list-prog-time { color: var(--accent); }
+        .list-prog-item.active .list-prog-title { color: var(--accent); font-weight: bold;}
+        
+        /* Botón de Información (Ahora pegado a la derecha del título) */
+        .btn-info-prog { background: transparent; color: var(--text-dim); border: 1px solid var(--border-color); border-radius: 50%; width: 24px; height: 24px; display: flex; align-items: center; justify-content: center; font-family: serif; font-style: italic; font-weight: bold; cursor: pointer; flex-shrink: 0; transition: 0.2s; font-size: 0.85rem; margin-right: auto;}
+        .btn-info-prog:hover { background: var(--accent); color: black; border-color: var(--accent); }
         
         /* --- NUEVA PESTAÑA DE BÚSQUEDA --- */
         .search-input-wrapper { position: sticky; top: 0; z-index: 20; background: var(--bg-body); padding-bottom: 15px; border-bottom: 1px solid var(--border-color); margin-bottom: 20px; }
@@ -124,7 +131,7 @@
         .search-section-title::after { content: ""; flex-grow: 1; height: 1px; background: var(--border-color); }
         
         .search-channels-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); gap: 15px; margin-bottom: 30px; }
-        .search-channel-item { background: white; border-radius: 12px; height: 80px; display: flex; align-items: center; justify-content: center; cursor: pointer; transition: 0.2s; padding: 5px; box-sizing: border-box; }
+        .search-channel-item { background: white; border-radius: 12px; height: 80px; display: flex; align-items: center; justify-content: center; cursor: pointer; transition: 0.2s; padding: 5px; box-sizing: border-box; position: relative; overflow: hidden; }
         .search-channel-item:hover { transform: scale(1.05); }
         .search-channel-item img { width: 100%; height: 100%; object-fit: contain; }
 
@@ -143,7 +150,7 @@
         .ch-grid-scroll::-webkit-scrollbar { display: none; }
         .ch-grid-inner { display: grid; grid-template-columns: repeat(auto-fill, minmax(80px, 1fr)); gap: 15px; }
         
-        .ch-logo-item { background: white; border-radius: 12px; height: 75px; display: flex; align-items: center; justify-content: center; cursor: pointer; transition: 0.2s; border: 2px solid transparent; padding: 5px; box-sizing: border-box; scroll-snap-align: start; position: relative; overflow: hidden; }
+        .ch-logo-item { background: white; border-radius: 12px; height: 75px; display: flex; align-items: center; justify-content: center; cursor: pointer; transition: 0.2s; border: 2px solid transparent; padding: 5px; box-sizing: border-box; scroll-snap-align: start;}
         .ch-logo-item:hover { transform: scale(1.05); }
         .ch-logo-item.selected { border-color: var(--accent); box-shadow: 0 0 12px var(--accent-glow); transform: scale(1.05); }
         .ch-logo-item img { width: 100%; height: 100%; object-fit: contain; }
@@ -203,12 +210,11 @@
         /* --- MODALS & BUTTONS --- */
         .modal-overlay { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.85); z-index: 2000; display: none; justify-content: center; align-items: center; backdrop-filter: blur(5px); }
         .modal-content { background: var(--bg-modal); width: 95%; max-width: 800px; height: 85vh; border-radius: 12px; display: flex; flex-direction: column; box-shadow: 0 25px 50px rgba(0,0,0,0.5); overflow: hidden; position: relative; border: 1px solid var(--border-color); }
-        .modal-header { padding: 15px 20px; background: var(--bg-card); border-bottom: 1px solid var(--border-color); display: flex; flex-direction: column; gap: 15px; flex-shrink: 0; }
         
         .btn-back-action { display: inline-flex; align-items: center; gap: 5px; background: rgba(255,255,255,0.1); border: 1px solid rgba(255,255,255,0.2); color: white; padding: 6px 12px; border-radius: 20px; font-size: 0.9rem; font-weight: bold; cursor: pointer; transition: 0.2s; margin-bottom: 10px; width: fit-content; }
         .btn-back-action:hover { background: var(--accent); color: black; border-color: var(--accent); }
         
-        /* Popup Detalle */
+        /* Popup Detalle Normal */
         #detailModal { z-index: 3000; }
         .detail-content { background: var(--bg-modal); width: 90%; max-width: 500px; height: auto; max-height: 90vh; animation: popUp 0.3s; border: 1px solid var(--border-color); }
         @keyframes popUp { from { transform: scale(0.95); opacity: 0; } to { transform: scale(1); opacity: 1; } }
@@ -233,8 +239,6 @@
         .spinner { width: 50px; height: 50px; border: 4px solid rgba(255,255,255,0.1); border-top: 4px solid var(--accent); border-radius: 50%; animation: spin 1s linear infinite; }
         @keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
 
-        #loading { text-align: center; padding: 50px; color: var(--text-dim); }
-
         @media (max-width: 768px) {
             .brand { font-size: 1.2rem; }
             .view-btn { padding: 6px 10px; font-size: 0.8rem; }
@@ -249,12 +253,21 @@
             :root { --card-min-width: 100%; --grid-gap: 15px; } 
             .grid { padding: 20px 4%; }
             
+            /* Ajustes Lista en Móvil */
+            .list-row { padding: 10px; gap: 10px; }
+            .list-ch-col { width: 60px; gap: 4px; }
+            .list-ch-logo { width: 45px; height: 45px; padding: 2px; }
+            .list-ch-name { font-size: 0.7rem; }
+            .list-prog-item { padding: 4px 8px; gap: 8px; }
+            .list-prog-time { font-size: 0.85rem; width: 45px; }
+            .list-prog-title { font-size: 0.85rem; }
+            .btn-info-prog { width: 20px; height: 20px; font-size: 0.75rem; }
+            
             /* Ajustes Directorio Canales en Móvil */
             .ch-nav-btn { display: none !important; } 
             .ch-selector-wrapper { padding: 15px; } 
             
             .ch-logo-item { height: 50px; border-radius: 8px; padding: 3px; }
-            
             .ch-grid-inner { grid-template-columns: repeat(auto-fill, minmax(55px, 1fr)); gap: 10px; }
             .ch-grid-scroll { height: 170px; } 
 
@@ -281,7 +294,7 @@
 
 <div id="globalLoader" class="modal-overlay" style="z-index: 9999; flex-direction: column; gap: 15px; display: flex;">
     <div class="spinner"></div>
-    <div style="color: white; font-weight: bold; letter-spacing: 1px; font-size: 1.2rem;">Obteniendo datos...</div>
+    <div style="color: white; font-weight: bold; letter-spacing: 1px; font-size: 1.2rem;">Actualizando Guía...</div>
 </div>
 
 <div id="imageViewModal" class="modal-overlay" onclick="closeModal(event, 'imageViewModal')">
@@ -294,9 +307,9 @@
     
     <div class="view-toggler">
         <button id="btnViewCards" class="view-btn active" onclick="switchView('cards')">Inicio</button>
+        <button id="btnViewList" class="view-btn" onclick="switchView('list')">Lista</button>
         <button id="btnViewDirectory" class="view-btn" onclick="switchView('directory')">Canales</button>
         <button id="btnViewSearch" class="view-btn" onclick="switchView('search')">Buscar</button>
-        <button id="btnViewList" class="view-btn" onclick="switchView('list')" style="display:none;">Lista</button>
     </div>
 
     <div class="header-actions">
@@ -307,7 +320,7 @@
 <div id="configPanel">
     <div class="config-row">
         <button class="btn-small" onclick="toggleUrlSection()">Cambiar URL de Guía</button>
-        <button class="btn-small" onclick="loadDefaultEPG()">Restaurar EPG por defecto</button>
+        <button class="btn-small" onclick="loadDefaultEPG()">Volver a Guía EPGCL</button>
     </div>
     <div class="config-row" id="urlConfigSection" style="display: none;">
         <input type="text" id="urlInput" class="url-input" placeholder="Introduce la URL de tu XML...">
@@ -323,7 +336,6 @@
             <input type="checkbox" id="adultCheck" onchange="toggleAdults()"> 
             Mostrar canales (+18)
         </label>
-        <button class="btn-small" onclick="openChannelManager()" style="margin-left:auto">Filtro Canales</button>
     </div>
 </div>
 
@@ -356,14 +368,19 @@
         </div>
     </div>
 
-    <div id="listView"></div>
+    <div id="listView">
+        <div class="search-input-wrapper" style="margin-bottom: 20px;">
+            <input type="text" id="listSearchInput" class="search-big-input" placeholder="Buscar canal por nombre o ID...">
+        </div>
+        <div id="listItemsContainer"></div>
+    </div>
 
     <div id="searchView">
         <div class="search-input-wrapper">
             <input type="text" id="mainSearchInput" class="search-big-input" placeholder="¿Qué canal o programa buscas?">
         </div>
         <div id="searchResults">
-            <div style="color:var(--text-dim); text-align:center; padding: 40px;">Buscar canales o programas...</div>
+            <div style="color:var(--text-dim); text-align:center; padding: 40px;">Escribe para buscar canales o programas...</div>
         </div>
     </div>
 
@@ -392,20 +409,29 @@
     </div>
 </div>
 
-<div id="progModal" class="modal-overlay" onclick="closeModal(event, 'progModal')">
-    <div class="modal-content">
-        <div class="modal-header">
-            <button class="btn-back-action" onclick="closeDirect('progModal')">← Volver</button>
-            <div class="header-top">
-                <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" id="m-logo" class="modal-logo">
+<div id="miniGuideModal" class="modal-overlay" onclick="closeModal(event, 'miniGuideModal')">
+    <div class="modal-content detail-content" style="max-height: auto;">
+        <div class="detail-body" style="margin-top: 0; padding-top: 25px;">
+            <div style="display:flex; align-items:center; gap: 15px; margin-bottom: 20px;">
+                <img id="mg-logo" src="" style="width:60px; height:60px; object-fit:contain; background:white; border-radius:8px; padding:4px;">
                 <div>
-                    <h2 id="m-name" style="margin:0; font-size:1.2rem; color:var(--text-main);">Canal</h2>
-                    <span style="font-size:0.85rem; color:var(--text-dim);">Guía Completa</span>
+                    <div id="mg-name" style="font-size:1.4rem; font-weight:bold; color:white;"></div>
                 </div>
             </div>
-            <div id="dayTabs" class="day-tabs"></div>
+            
+            <div style="margin-bottom: 15px;">
+                <div style="color:var(--text-dim); font-size:0.85rem; margin-bottom:5px; text-transform:uppercase;">Ahora</div>
+                <div id="mg-now" style="background:rgba(0, 230, 118, 0.05); border-left:3px solid var(--accent); padding:10px; border-radius:6px;"></div>
+            </div>
+
+            <div style="margin-bottom: 25px;">
+                <div style="color:var(--text-dim); font-size:0.85rem; margin-bottom:5px; text-transform:uppercase;">A continuación</div>
+                <div id="mg-next" style="background:var(--bg-card); border-left:3px solid var(--text-dim); padding:10px; border-radius:6px;"></div>
+            </div>
+
+            <button class="btn-small active" style="width:100%; padding:12px; font-size:1rem;" onclick="goToChannelFromMg()">Ver programación completa</button>
+            <button class="btn-small" style="width:100%; padding:12px; font-size:1rem; margin-top:10px;" onclick="closeDirect('miniGuideModal')">Cancelar</button>
         </div>
-        <div id="scheduleList" class="schedule-list"></div>
     </div>
 </div>
 
@@ -425,30 +451,11 @@
     </div>
 </div>
 
-<div id="managerModal" class="modal-overlay" onclick="closeModal(event, 'managerModal')">
-    <div class="modal-content" style="height: auto; max-height: 90vh;">
-        <div class="modal-header">
-            <button class="btn-back-action" onclick="closeDirect('managerModal')">← Volver</button>
-            <div class="header-top">
-                <h3 style="color: var(--text-main); margin:0;">Mis Canales</h3>
-            </div>
-        </div>
-        <div style="padding:15px 20px; display:flex; gap:10px; background: var(--bg-card); border-bottom:1px solid var(--border-color);">
-            <button class="btn-small" onclick="toggleAll(true)">Marcar Todos</button>
-            <button class="btn-small" onclick="toggleAll(false)">Desmarcar Todos</button>
-        </div>
-        <div id="chManagerGrid" class="ch-grid-select"></div>
-        <div style="padding:20px; text-align:right; background:var(--bg-card); border-top: 1px solid var(--border-color);">
-            <button class="btn-small active" style="font-size:1rem; padding: 10px 25px;" onclick="saveManager()">GUARDAR CAMBIOS</button>
-        </div>
-    </div>
-</div>
-
 <script>
     const CORS_PROXY = "https://api.allorigins.win/raw?url=";
-    const DEFAULT_EPG_URL = "https://puticastillo.github.io/EPGCL/vilma//guia-de-programacion.xml";
+    const DEFAULT_EPG_URL = "https://raw.githubusercontent.com/Puticastillo/EPGCL/refs/heads/main/smithers/guia-de-programacion.xml";
     
-    let state = { allChannels: [], visibleIds: new Set(), sort: 'original', showAdult: false, search: '', viewMode: 'cards', targetCardCount: 12, displayedRandomIds: [] };
+    let state = { allChannels: [], visibleIds: new Set(), sort: 'original', showAdult: false, search: '', listSearch: '', viewMode: 'cards', targetCardCount: 12, displayedRandomIds: [] };
     let dirState = { selectedChannelId: null, dateOffset: 0, search: '' };
     let heroState = { list: [], currentIndex: 0, interval: null, isPlaying: true, duration: 8000 };
     const EMPTY_IMG = "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7";
@@ -583,8 +590,8 @@
     }
 
     function refreshRandomCards() {
-        const fixedIds = ['0101', '0102', '0103', '0104', '0105', '0106', '0107'];
-        const poolIds = ['0108', '0109', '0110', '0111', '0112', '0113', '0114', '0115', '0117', '0121', '0153', '0201', '0202', '0203', '0207', '0208', '0214', '0301', '0401', '0422'];
+        const fixedIds = ['0104', '0105', '0106', '0107', '0401'];
+        const poolIds = ['0102', '0103', '0108', '0109', '0110', '0111', '0112', '0113', '0114', '0115', '0117', '0121', '0153', '0201', '0202', '0203', '0207', '0208', '0214', '0301', '0313', '0314'];
         const validIds = new Set( state.allChannels.filter(ch => state.visibleIds.has(ch.id) && (!ch.isAdult || state.showAdult)).map(ch => ch.id) );
 
         const availableFixed = fixedIds.filter(id => validIds.has(id));
@@ -644,6 +651,11 @@
             renderDirGrid();
         });
 
+        document.getElementById('listSearchInput').addEventListener('input', (e) => {
+            state.listSearch = e.target.value; 
+            renderList();
+        });
+
         let resizeTimer;
         window.addEventListener('resize', () => {
             clearTimeout(resizeTimer);
@@ -679,8 +691,9 @@
 
     function executeReload() {
         showLoader();
-        state.visibleIds.clear(); state.allChannels = []; heroState.list = []; state.displayedRandomIds = []; state.search = '';
+        state.visibleIds.clear(); state.allChannels = []; heroState.list = []; state.displayedRandomIds = []; state.search = ''; state.listSearch = '';
         document.getElementById('mainSearchInput').value = '';
+        document.getElementById('listSearchInput').value = '';
         document.getElementById('configPanel').style.display = 'none';
         loadEPG();
     }
@@ -688,7 +701,7 @@
     async function loadEPG() {
         const urlRaw = document.getElementById('urlInput').value;
         if(state.allChannels.length === 0) {
-            document.getElementById('grid').innerHTML = ''; document.getElementById('listView').innerHTML = ''; showLoader();
+            document.getElementById('grid').innerHTML = ''; document.getElementById('listItemsContainer').innerHTML = ''; showLoader();
         }
         const proxies = [ "", "https://api.allorigins.win/raw?url=", "https://corsproxy.io/?url=", "https://api.codetabs.com/v1/proxy?quest=" ];
         let success = false; let xmlText = "";
@@ -707,7 +720,7 @@
         }
         hideLoader();
         const errorMsg = `<div id="loading" style="color:var(--accent)">Error al cargar la URL. Asegúrate de que el enlace sea válido y público.</div>`;
-        document.getElementById('grid').innerHTML = errorMsg; document.getElementById('listView').innerHTML = errorMsg;
+        document.getElementById('grid').innerHTML = errorMsg; document.getElementById('listItemsContainer').innerHTML = errorMsg;
     }
 
     function parseXML(xmlStr) {
@@ -758,6 +771,7 @@
     function switchView(mode) {
         state.viewMode = mode;
         document.getElementById('btnViewCards').classList.toggle('active', mode === 'cards');
+        document.getElementById('btnViewList').classList.toggle('active', mode === 'list');
         document.getElementById('btnViewDirectory').classList.toggle('active', mode === 'directory');
         document.getElementById('btnViewSearch').classList.toggle('active', mode === 'search');
         
@@ -780,6 +794,8 @@
         } else if (mode === 'search') {
             renderSearch();
             document.getElementById('mainSearchInput').focus();
+        } else if (mode === 'list') {
+            renderList();
         } else if (mode === 'cards') {
             setTimeout(calculatePerfectGridSize, 10);
         } else {
@@ -799,13 +815,21 @@
         else if (state.viewMode === 'search') renderSearch();
     }
 
-    // --- 1. RENDER LISTA (OCULTA) ---
+    // --- 1. RENDER LISTA MEJORADA ---
     function renderList() {
-        const container = document.getElementById('listView'); container.innerHTML = '';
+        const container = document.getElementById('listItemsContainer'); 
+        container.innerHTML = '';
         const now = new Date();
+        const term = cleanStr(state.listSearch);
+        
         let filtered = state.allChannels.filter(ch => {
             if(!state.visibleIds.has(ch.id)) return false;
             if(!state.showAdult && ch.isAdult) return false;
+            if(term) {
+                const inName = fuzzyMatch(ch.name, state.listSearch);
+                const inId = ch.id.toString().includes(state.listSearch.trim());
+                if(!inName && !inId) return false;
+            }
             return true;
         });
 
@@ -819,23 +843,96 @@
             let currentIndex = ch.programs.findIndex(p => p.start <= now && p.stop > now);
             if(currentIndex === -1) currentIndex = ch.programs.findIndex(p => p.start > now);
             if(currentIndex === -1) currentIndex = 0; 
-            const displayProgs = ch.programs.slice(currentIndex, currentIndex + 3);
+            
+            const displayProgs = ch.programs.slice(currentIndex, currentIndex + 2);
             if(displayProgs.length === 0) return;
 
             const row = document.createElement('div'); row.className = 'list-row';
+            
+            row.onclick = () => { openMiniGuide(ch.id); };
+            
             const safeLogo = getValidImg(ch.icon);
-            row.innerHTML = `<div class="list-ch-col" onclick="switchView('directory'); selectDirChannel('${ch.id}')" style="cursor:pointer;"><img src="${safeLogo}" class="list-ch-logo" onerror="this.src='${EMPTY_IMG}'"><div class="list-ch-name"><span style="color:var(--accent); font-weight:bold;">${ch.id}</span><br>${ch.name}</div></div>`;
+            row.innerHTML = `<div class="list-ch-col"><img src="${safeLogo}" class="list-ch-logo" onerror="this.src='${EMPTY_IMG}'"><div class="list-ch-name">${ch.name}</div></div>`;
             const progCol = document.createElement('div'); progCol.className = 'list-prog-col';
             
             displayProgs.forEach(p => {
                 const isLive = p.start <= now && p.stop > now; 
-                const pItem = document.createElement('div'); pItem.className = `list-prog-item ${isLive ? 'active' : ''}`;
-                pItem.innerHTML = `<div class="list-prog-time">${formatTime(p.start)}</div><div class="list-prog-title">${p.title}</div>`;
-                pItem.onclick = () => openDetail(p, ch); progCol.appendChild(pItem);
+                const pItem = document.createElement('div'); 
+                pItem.className = `list-prog-item ${isLive ? 'active' : ''}`;
+                
+                // Botón i a la derecha del título, con espacio flexible administrado por margin
+                pItem.innerHTML = `
+                    <div class="list-prog-time">${formatTime(p.start)}</div>
+                    <div class="list-prog-title">${p.title}</div>
+                    <button class="btn-info-prog" title="Información">i</button>
+                `;
+                
+                const btnInfo = pItem.querySelector('.btn-info-prog');
+                btnInfo.onclick = (e) => {
+                    e.stopPropagation(); 
+                    openDetail(p, ch);
+                };
+                
+                progCol.appendChild(pItem);
             });
             row.appendChild(progCol); container.appendChild(row);
         });
     }
+
+    // Funciones para la Mini Guía (Confirmación en Lista)
+    function openMiniGuide(chId) {
+        const ch = state.allChannels.find(c => c.id === chId);
+        if (!ch) return;
+        
+        document.getElementById('mg-logo').src = getValidImg(ch.icon);
+        document.getElementById('mg-name').innerText = ch.name;
+        
+        const now = new Date();
+        let currentIndex = ch.programs.findIndex(p => p.start <= now && p.stop > now);
+        if(currentIndex === -1) currentIndex = ch.programs.findIndex(p => p.start > now);
+        if(currentIndex === -1) currentIndex = 0; 
+        
+        const progNow = ch.programs[currentIndex];
+        const progNext = ch.programs[currentIndex + 1];
+        
+        if (progNow) {
+            const imgNow = getValidImg(progNow.icon);
+            document.getElementById('mg-now').innerHTML = `
+                <div style="display:flex; gap:12px; align-items:center;">
+                    <img src="${imgNow}" onerror="this.src='${EMPTY_IMG}'" style="width:80px; height:45px; border-radius:4px; object-fit:cover; background:#222; flex-shrink:0;">
+                    <div style="min-width:0; flex-grow:1;">
+                        <div style="color:var(--accent); font-weight:bold; font-size:0.85rem; margin-bottom:2px;">${formatTime(progNow.start)} - ${formatTime(progNow.stop)}</div>
+                        <div style="color:white; font-size:1.1rem; font-weight:bold; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;">${progNow.title}</div>
+                    </div>
+                </div>`;
+        } else {
+            document.getElementById('mg-now').innerHTML = `<div style="color:var(--text-dim);">Sin información</div>`;
+        }
+
+        if (progNext) {
+            const imgNext = getValidImg(progNext.icon);
+            document.getElementById('mg-next').innerHTML = `
+                <div style="display:flex; gap:12px; align-items:center;">
+                    <img src="${imgNext}" onerror="this.src='${EMPTY_IMG}'" style="width:80px; height:45px; border-radius:4px; object-fit:cover; background:#222; flex-shrink:0;">
+                    <div style="min-width:0; flex-grow:1;">
+                        <div style="color:var(--text-dim); font-weight:bold; font-size:0.85rem; margin-bottom:2px;">${formatTime(progNext.start)} - ${formatTime(progNext.stop)}</div>
+                        <div style="color:white; font-size:1.1rem; font-weight:bold; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;">${progNext.title}</div>
+                    </div>
+                </div>`;
+        } else {
+            document.getElementById('mg-next').innerHTML = `<div style="color:var(--text-dim);">Sin información</div>`;
+        }
+        
+        window.currentMgChannelId = ch.id;
+        document.getElementById('miniGuideModal').style.display = 'flex';
+    }
+    
+    function goToChannelFromMg() {
+        closeDirect('miniGuideModal');
+        switchView('directory');
+        selectDirChannel(window.currentMgChannelId);
+    }
+
 
     // --- 2. RENDER GRID (INICIO) ---
     function renderGrid() {
@@ -893,9 +990,10 @@
                 <div class="card-bg" style="${bgStyle}"></div>
                 <div class="card-overlay">
                     <div class="card-title">${displayProg.title}</div>
-                    <div class="card-meta"><span>${formatTime(displayProg.start)} - ${formatTime(displayProg.stop)}</span></div>
+                    <div class="card-meta">
+                        <span>${formatTime(displayProg.start)} - ${formatTime(displayProg.stop)}</span>
+                    </div>
                 </div>
-                <div class="card-ch-id">${ch.id}</div>
                 ${safeLogo !== EMPTY_IMG ? `<img src="${safeLogo}" class="card-ch-logo" onerror="this.src='${EMPTY_IMG}'">` : ''}
                 ${badgeHTML}
                 ${isLive ? `<div class="card-progress-container"><div class="card-progress-bar" style="width:${progressWidth}%"></div></div>` : ''}
@@ -927,7 +1025,7 @@
             const el = document.createElement('div');
             el.className = `ch-logo-item ${ch.id === dirState.selectedChannelId ? 'selected' : ''}`;
             const safeLogo = getValidImg(ch.icon);
-            el.innerHTML = `<img src="${safeLogo}" onerror="this.src='${EMPTY_IMG}'" title="${ch.id} - ${ch.name}">`;
+            el.innerHTML = `<img src="${safeLogo}" onerror="this.src='${EMPTY_IMG}'" title="${ch.name}">`;
             el.onclick = () => selectDirChannel(ch.id);
             inner.appendChild(el);
         });
@@ -1136,7 +1234,9 @@
             list.appendChild(pastWrap);
         }
 
-        if(window.tempFutureCards) window.tempFutureCards.forEach(c => list.appendChild(c));
+        if(window.tempFutureCards) {
+            window.tempFutureCards.forEach(c => list.appendChild(c));
+        }
 
         window.tempPastCards = [];
         window.tempFutureCards = [];
@@ -1175,7 +1275,7 @@
         const container = document.getElementById('searchResults');
         const term = state.search.trim();
         if (!term) {
-            container.innerHTML = '<div style="color:var(--text-dim); text-align:center; padding: 40px;">Buscar canales o programas...</div>';
+            container.innerHTML = '<div style="color:var(--text-dim); text-align:center; padding: 40px;">Escribe para buscar canales o programas...</div>';
             return;
         }
 
@@ -1225,7 +1325,7 @@
                 const el = document.createElement('div');
                 el.className = 'search-channel-item';
                 const safeLogo = getValidImg(ch.icon);
-                el.innerHTML = `<img src="${safeLogo}" onerror="this.src='${EMPTY_IMG}'" title="${ch.id} - ${ch.name}">`;
+                el.innerHTML = `<img src="${safeLogo}" onerror="this.src='${EMPTY_IMG}'" title="${ch.name}">`;
                 el.onclick = () => { switchView('directory'); selectDirChannel(ch.id); };
                 grid.appendChild(el);
             });
@@ -1265,7 +1365,7 @@
                     progressHtml = `<div class="ch-prog-progress" style="width:${progressWidth}%"></div>`;
                     badgeHtml = `<div class="live-badge">AL AIRE</div>`;
                 } else if (isPast) {
-                    badgeHtml = `<div class="live-badge" style="background:var(--border-color); color:white;">FINALIZADOS</div>`;
+                    badgeHtml = `<div class="live-badge" style="background:var(--border-color); color:white;">FINALIZADO</div>`;
                 }
 
                 card.innerHTML = `
@@ -1279,7 +1379,7 @@
                     </div>
                     <div class="ch-prog-info">
                         <div class="ch-prog-title" style="margin-bottom: 4px;">${p.title}</div>
-                        <div class="search-prog-meta"><span style="color:var(--accent); font-weight:bold;">${ch.id}</span> | ${searchDateStr}</div>
+                        <div class="search-prog-meta">${searchDateStr}</div>
                     </div>
                 `;
                 
@@ -1321,7 +1421,7 @@
             document.getElementById('heroTitle').textContent = prog.title;
             document.getElementById('heroDesc').textContent = formatDesc(prog.desc);
             document.getElementById('heroLogo').src = getValidImg(item.icon);
-            document.getElementById('heroChName').innerHTML = `<span style="color:var(--accent); margin-right:5px;">${item.id}</span> ${item.name}`;
+            document.getElementById('heroChName').innerHTML = item.name;
             document.getElementById('heroTime').textContent = `${formatTime(prog.start)} - ${formatTime(prog.stop)}`;
             bgEl.classList.remove('fade-out'); contentEl.classList.remove('changing');
             resetProgressBar();
@@ -1349,7 +1449,7 @@
         document.getElementById('d-title').innerText = titleObj.main; 
         document.getElementById('d-extra').innerText = titleObj.extra; 
         document.getElementById('d-desc').innerText = cleanDesc; 
-        document.getElementById('d-time').innerHTML = `<span style="color:var(--text-main); font-weight:bold; margin-right:8px; padding:2px 6px; background:var(--accent); color:black; border-radius:4px;">${ch ? ch.id : ''}</span> ${getRelativeDate(prog.start)} | ${formatTime(prog.start)} - ${formatTime(prog.stop)}`;
+        document.getElementById('d-time').innerHTML = `${getRelativeDate(prog.start)} | ${formatTime(prog.start)} - ${formatTime(prog.stop)}`;
         modal.style.display = 'flex';
     }
 
