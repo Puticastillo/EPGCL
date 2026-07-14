@@ -5,174 +5,1078 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EPGCL • Programación TV</title>
     <link rel="icon" type="image/png" href="favicon.png">
+    
+    <!-- Premium Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+    
     <style>
-        /* Desactiva el molesto cuadro gris al tocar la pantalla en móviles */
-        * { -webkit-tap-highlight-color: transparent; }
-
-        :root {
-            /* --- PALETA DARK AQUA --- */
-            --bg-body: #0b0e11;
-            --bg-card: #151a1f;
-            --bg-modal: #111418;
-            --text-main: #ffffff;
-            --text-dim: #90a4ae;
-            
-            --accent: #00e676;
-            --accent-glow: rgba(0, 230, 118, 0.4);
-            --match-color: #00b0ff;
-            --match-bg: rgba(0, 176, 255, 0.15);
-            
-            --border-color: #263238;
-            --input-bg: #1c2229;
-            --radius: 12px;
-            
-            --card-min-width: 280px;
-            --grid-gap: 20px;
+        /* Base Reset & Variables */
+        * { 
+            box-sizing: border-box;
+            -webkit-tap-highlight-color: transparent; 
         }
 
-        body { background-color: var(--bg-body); color: var(--text-main); font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; margin: 0; padding: 0; overflow: hidden; height: 100vh; height: 100dvh; display: flex; flex-direction: column; }
+        :root {
+            /* --- PALETA DARK AQUA (Elevada con gradientes y sombras) --- */
+            --bg-body: #080b0e;
+            --bg-card: #10151b;
+            --bg-modal: #0d1116;
+            --bg-header: rgba(8, 11, 14, 0.85);
+            --text-main: #ffffff;
+            --text-dim: #8fa3ad;
+            --text-muted: #607d8b;
+            
+            --accent: #00e676;
+            --accent-hover: #69f0ae;
+            --accent-glow: rgba(0, 230, 118, 0.35);
+            --match-color: #00b0ff;
+            --match-bg: rgba(0, 176, 255, 0.12);
+            
+            --border-color: #1e2730;
+            --input-bg: #141b22;
+            --radius: 16px;
+            --radius-sm: 8px;
+            --radius-lg: 24px;
+            
+            --card-min-width: 290px;
+            --grid-gap: 20px;
+            --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        body { 
+            background-color: var(--bg-body); 
+            color: var(--text-main); 
+            font-family: 'Outfit', sans-serif;
+            margin: 0; 
+            padding: 0; 
+            overflow: hidden; 
+            height: 100vh; 
+            height: 100dvh; 
+            display: flex; 
+            flex-direction: column; 
+            -webkit-font-smoothing: antialiased;
+        }
+
+        #mainContainer {
+            flex-grow: 1; 
+            overflow-y: auto; 
+            position: relative; 
+            padding-bottom: 30px; 
+            scroll-behavior: smooth;
+        }
+
+        /* Custom Scrollbar */
+        ::-webkit-scrollbar {
+            width: 8px;
+            height: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: rgba(0, 0, 0, 0.1);
+        }
+        ::-webkit-scrollbar-thumb {
+            background: var(--border-color);
+            border-radius: 4px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: var(--text-muted);
+        }
 
         /* --- Header --- */
-        header { position: relative; z-index: 100; background: rgba(11, 14, 17, 0.98); border-bottom: 1px solid var(--border-color); padding: 10px 4%; display: flex; justify-content: space-between; align-items: center; backdrop-filter: blur(10px); flex-shrink: 0; }
-        .brand { font-size: 1.5rem; font-weight: 900; color: var(--text-main); letter-spacing: -0.5px; flex: 1;}
-        .brand span { color: var(--accent); }
+        header { 
+            position: relative; 
+            z-index: 100; 
+            background: var(--bg-header); 
+            border-bottom: 1px solid var(--border-color); 
+            padding: 12px 4%; 
+            display: flex; 
+            justify-content: space-between; 
+            align-items: center; 
+            backdrop-filter: blur(16px); 
+            flex-shrink: 0; 
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+        }
+        .brand { 
+            font-size: 1.6rem; 
+            font-weight: 900; 
+            color: var(--text-main); 
+            letter-spacing: -0.7px; 
+            flex: 1;
+            user-select: none;
+        }
+        .brand span { 
+            color: var(--accent); 
+            text-shadow: 0 0 10px var(--accent-glow);
+        }
 
-        .view-toggler { flex: 0 1 auto; display: flex; background: var(--input-bg); border-radius: 6px; padding: 3px; border: 1px solid var(--border-color); flex-wrap: wrap; justify-content: center; }
-        .view-btn { background: transparent; border: none; color: var(--text-dim); padding: 6px 14px; font-size: 0.85rem; font-weight: 600; cursor: pointer; border-radius: 4px; transition: 0.2s; }
-        .view-btn.active { background: var(--bg-body); color: var(--text-main); box-shadow: 0 1px 3px rgba(0,0,0,0.5); }
+        .view-toggler { 
+            flex: 0 1 auto; 
+            display: flex; 
+            background: var(--input-bg); 
+            border-radius: 30px; 
+            padding: 4px; 
+            border: 1px solid var(--border-color); 
+            justify-content: center; 
+        }
+        .view-btn { 
+            background: transparent; 
+            border: none; 
+            color: var(--text-dim); 
+            padding: 8px 18px; 
+            font-size: 0.85rem; 
+            font-weight: 600; 
+            cursor: pointer; 
+            border-radius: 20px; 
+            transition: var(--transition); 
+        }
+        .view-btn.active { 
+            background: var(--bg-body); 
+            color: var(--text-main); 
+            box-shadow: 0 4px 15px rgba(0,0,0,0.3); 
+        }
 
-        .header-actions { flex: 1; text-align: right; }
-        .btn-icon { background: none; border: none; font-size: 1.4rem; cursor: pointer; color: var(--text-dim); transition: 0.2s; margin-left: auto;}
-        .btn-icon:hover { color: var(--text-main); }
+        .header-actions { 
+            flex: 1; 
+            text-align: right; 
+        }
+        .btn-icon { 
+            background: rgba(255,255,255,0.03); 
+            border: 1px solid var(--border-color); 
+            font-size: 1.2rem; 
+            cursor: pointer; 
+            color: var(--text-dim); 
+            transition: var(--transition); 
+            margin-left: auto;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .btn-icon:hover { 
+            color: var(--text-main); 
+            background: rgba(255,255,255,0.08);
+            border-color: var(--text-dim);
+            transform: scale(1.05);
+        }
 
         /* --- Config Panel --- */
-        #configPanel { display: none; padding: 20px 4%; background: var(--bg-card); border-bottom: 1px solid var(--border-color); position:absolute; top:60px; width:100%; z-index:90; box-sizing:border-box;}
-        .config-row { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; margin-bottom: 15px; }
-        .btn-small { padding: 6px 14px; background: transparent; color: var(--text-dim); border: 1px solid var(--border-color); border-radius: 4px; cursor: pointer; font-weight: 600; font-size: 0.85rem; transition: 0.2s;}
-        .btn-small:hover { border-color: var(--text-main); color: var(--text-main); }
-        .btn-small.active { background: var(--accent); color: #000; border-color: var(--accent); }
-        .url-input { flex-grow: 1; padding: 6px; background: var(--input-bg); border: 1px solid var(--border-color); color: var(--text-main); border-radius: 4px; }
-        #urlConfigSection { background: rgba(0,0,0,0.2); padding: 12px; border-radius: 8px; width: 100%; box-sizing: border-box; border: 1px solid rgba(255,255,255,0.05); }
+        #configPanel { 
+            display: none; 
+            padding: 20px 4%; 
+            background: var(--bg-card); 
+            border-bottom: 1px solid var(--border-color); 
+            position: absolute; 
+            top: 65px; 
+            width: 100%; 
+            z-index: 90; 
+            box-sizing: border-box;
+            animation: slideDown 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+        }
+        @keyframes slideDown {
+            from { transform: translateY(-10px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+        .config-row { 
+            display: flex; 
+            gap: 12px; 
+            flex-wrap: wrap; 
+            align-items: center; 
+            margin-bottom: 15px; 
+        }
+        .config-row:last-child {
+            margin-bottom: 0;
+        }
+        .btn-small { 
+            padding: 8px 16px; 
+            background: transparent; 
+            color: var(--text-dim); 
+            border: 1px solid var(--border-color); 
+            border-radius: 30px; 
+            cursor: pointer; 
+            font-weight: 600; 
+            font-size: 0.85rem; 
+            transition: var(--transition);
+        }
+        .btn-small:hover { 
+            border-color: var(--text-main); 
+            color: var(--text-main); 
+            background: rgba(255,255,255,0.02);
+        }
+        .btn-small.active { 
+            background: var(--accent); 
+            color: #000; 
+            border-color: var(--accent); 
+            box-shadow: 0 4px 10px var(--accent-glow);
+        }
+        .url-input { 
+            flex-grow: 1; 
+            padding: 8px 14px; 
+            background: var(--input-bg); 
+            border: 1px solid var(--border-color); 
+            color: var(--text-main); 
+            border-radius: 8px; 
+            outline: none;
+            transition: var(--transition);
+        }
+        .url-input:focus {
+            border-color: var(--accent);
+        }
+        #urlConfigSection { 
+            background: rgba(0,0,0,0.15); 
+            padding: 12px; 
+            border-radius: 12px; 
+            width: 100%; 
+            box-sizing: border-box; 
+            border: 1px solid var(--border-color); 
+        }
+        .perf-badge {
+            font-size: 0.75rem;
+            color: var(--accent);
+            background: rgba(0, 230, 118, 0.08);
+            border: 1px solid rgba(0, 230, 118, 0.2);
+            padding: 4px 10px;
+            border-radius: 12px;
+            font-family: 'JetBrains Mono', monospace;
+        }
+
+        /* --- Toggle Switch Slider --- */
+        .switch {
+            position: relative;
+            display: inline-block;
+            width: 44px;
+            height: 24px;
+        }
+        .switch input {
+            opacity: 0;
+            width: 0;
+            height: 0;
+        }
+        .slider {
+            position: absolute;
+            cursor: pointer;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background-color: var(--border-color);
+            transition: .3s;
+            border-radius: 24px;
+            border: 1px solid rgba(255,255,255,0.05);
+        }
+        .slider:before {
+            position: absolute;
+            content: "";
+            height: 16px;
+            width: 16px;
+            left: 3px;
+            bottom: 3px;
+            background-color: white;
+            transition: .3s;
+            border-radius: 50%;
+        }
+        input:checked + .slider {
+            background-color: var(--accent);
+        }
+        input:checked + .slider:before {
+            transform: translateX(20px);
+            background-color: #000;
+        }
 
         /* --- MAIN --- */
-        #mainContainer { flex-grow: 1; overflow-y: auto; position: relative; padding-bottom: 20px; }
+        #mainContainer { 
+            flex-grow: 1; 
+            overflow-y: auto; 
+            position: relative; 
+            padding-bottom: 30px; 
+            scroll-behavior: smooth;
+        }
         
         /* --- CARDS VIEW (INICIO) --- */
         #cardsView { display: block; }
-        #heroSection { position: relative; width: 100%; height: 45vh; min-height: 400px; max-height: 550px; overflow: hidden; border-bottom: 1px solid var(--border-color); display: none; transition: height 0.3s ease; }
-        .hero-bg-layer { position: absolute; top:0; left:0; width:100%; height:100%; background-size: cover; background-position: center; transition: opacity 0.5s ease-in-out; }
-        .hero-bg-layer.fade-out { opacity: 0.2; }
-        .hero-overlay { position: absolute; top:0; left:0; right:0; bottom:0; background: linear-gradient(to top, var(--bg-body) 10%, rgba(11,14,17,0.8) 50%, rgba(11,14,17,0.3) 100%); display: flex; flex-direction: column; justify-content: flex-end; padding: 40px 5%; }
         
-        .hero-content { position: relative; z-index: 2; max-width: 900px; opacity: 1; transition: 0.4s; cursor: pointer; }
-        .hero-content:hover .hero-title { text-decoration: underline; }
-        .hero-content.changing { opacity: 0; transform: translateY(15px); }
+        #heroSection { 
+            position: relative; 
+            width: 100%; 
+            height: 48vh; 
+            min-height: 380px; 
+            max-height: 520px; 
+            overflow: hidden; 
+            border-bottom: 1px solid var(--border-color); 
+            display: block; 
+            transition: height 0.3s ease; 
+        }
+        .hero-bg-layer { 
+            position: absolute; 
+            top:0; 
+            left:0; 
+            width:100%; 
+            height:100%; 
+            background-size: cover; 
+            background-position: center; 
+            transition: opacity 0.6s ease-in-out; 
+            opacity: 0.45;
+        }
+        .hero-bg-layer.fade-out { opacity: 0.05; }
+        .hero-overlay { 
+            position: absolute; 
+            top:0; left:0; right:0; bottom:0; 
+            background: linear-gradient(to top, var(--bg-body) 8%, rgba(8,11,14,0.75) 45%, rgba(8,11,14,0.2) 100%); 
+            display: flex; 
+            flex-direction: column; 
+            justify-content: flex-end; 
+            padding: 40px 5%; 
+        }
         
-        .hero-meta-capsule { display: flex; align-items: center; gap: 15px; background: rgba(255,255,255,0.05); backdrop-filter: blur(5px); border: 1px solid rgba(255,255,255,0.1); padding: 10px 25px 10px 10px; border-radius: 60px; width: fit-content; margin-bottom: 15px; }
-        .hero-logo-img { width: 55px; height: 55px; background: white; border-radius: 50%; object-fit: contain; padding: 3px; }
-        .hero-text-group { display: flex; flex-direction: column; line-height: 1.2; }
-        .hero-ch-name { font-weight: 800; color: white; font-size: 1.3rem; }
-        .hero-time { color: var(--accent); font-weight: 600; font-size: 1rem; margin-top: 2px;}
+        .hero-content { 
+            position: relative; 
+            z-index: 2; 
+            max-width: 900px; 
+            opacity: 1; 
+            transition: var(--transition); 
+            cursor: pointer; 
+        }
+        .hero-content:hover .hero-title { 
+            color: var(--accent); 
+        }
+        .hero-content.changing { 
+            opacity: 0; 
+            transform: translateY(10px); 
+        }
         
-        .hero-title { font-size: 2.5rem; font-weight: 800; margin: 0 0 10px 0; line-height: 1.1; color: white; text-shadow: 0 4px 10px rgba(0,0,0,0.5); }
-        .hero-desc { font-size: 1rem; color: #b0bec5; line-height: 1.5; max-width: 700px; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+        .hero-meta-capsule { 
+            position: absolute;
+            top: 25px;
+            left: 5%;
+            display: flex; 
+            align-items: center; 
+            gap: 15px; 
+            background: rgba(255,255,255,0.03); 
+            backdrop-filter: blur(8px); 
+            border: 1px solid rgba(255,255,255,0.08); 
+            padding: 8px 20px 8px 8px; 
+            border-radius: 60px; 
+            width: fit-content; 
+            z-index: 10;
+        }
+        .hero-live-badge-pulse {
+            position: absolute;
+            top: 25px;
+            right: 5%;
+            background: var(--accent);
+            color: black;
+            font-weight: 800;
+            font-size: 0.75rem;
+            padding: 6px 14px;
+            border-radius: 20px;
+            letter-spacing: 0.5px;
+            text-transform: uppercase;
+            z-index: 10;
+            animation: heroPulse 2s infinite ease-in-out;
+            box-shadow: 0 0 15px var(--accent-glow);
+        }
+        @keyframes heroPulse {
+            0% { transform: scale(1); opacity: 0.9; box-shadow: 0 0 0 0 rgba(0, 230, 118, 0.4); }
+            50% { transform: scale(1.04); opacity: 1; box-shadow: 0 0 15px 5px rgba(0, 230, 118, 0.35); }
+            100% { transform: scale(1); opacity: 0.9; box-shadow: 0 0 0 0 rgba(0, 230, 118, 0); }
+        }
+        .hero-logo-img { 
+            width: 50px; 
+            height: 50px; 
+            background: white; 
+            border-radius: 50%; 
+            object-fit: contain; 
+            padding: 4px; 
+            box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+        }
+        .hero-text-group { 
+            display: flex; 
+            flex-direction: column; 
+            line-height: 1.2; 
+        }
+        .hero-ch-name { 
+            font-weight: 800; 
+            color: white; 
+            font-size: 1.2rem; 
+        }
+        .hero-time { 
+            color: var(--accent); 
+            font-weight: 600; 
+            font-size: 0.9rem; 
+            margin-top: 2px;
+            font-family: 'JetBrains Mono', monospace;
+        }
         
-        .hero-controls { position: absolute; bottom: 40px; right: 5%; z-index: 10; display: flex; align-items: center; gap: 10px; }
-        .hero-btn { background: rgba(255,255,255,0.1); border: 1px solid rgba(255,255,255,0.1); color: white; width: 40px; height: 40px; border-radius: 50%; cursor: pointer; display: flex; align-items: center; justify-content: center; font-size: 1rem; transition: all 0.2s; }
-        .hero-btn:hover { background: var(--accent); color: black; border-color: var(--accent); }
-        .hero-btn.play-btn { width: 50px; height: 50px; font-size: 1.2rem; background: var(--accent); color: black; border:none; }
-        .hero-progress-bar { position: absolute; bottom: 0; left: 0; height: 3px; background: var(--accent); width: 0%; z-index: 20; transition: width 0.1s linear; box-shadow: 0 -2px 10px var(--accent-glow); }
+        .hero-title { 
+            font-size: 2.6rem; 
+            font-weight: 900; 
+            margin: 0 0 12px 0; 
+            line-height: 1.15; 
+            color: white; 
+            text-shadow: 0 4px 15px rgba(0,0,0,0.6); 
+            transition: var(--transition);
+        }
+        .hero-desc { 
+            font-size: 1rem; 
+            color: #b0bec5; 
+            line-height: 1.6; 
+            max-width: 750px; 
+            display: -webkit-box; 
+            -webkit-line-clamp: 3; 
+            -webkit-box-orient: vertical; 
+            overflow: hidden; 
+            opacity: 0.85;
+        }
+        
+        .hero-controls { 
+            position: absolute; 
+            bottom: 40px; 
+            right: 5%; 
+            z-index: 10; 
+            display: flex; 
+            align-items: center; 
+            gap: 12px; 
+        }
+        .hero-btn { 
+            background: rgba(255,255,255,0.05); 
+            border: 1px solid rgba(255,255,255,0.08); 
+            color: white; 
+            width: 44px; 
+            height: 44px; 
+            border-radius: 50%; 
+            cursor: pointer; 
+            display: flex; 
+            align-items: center; 
+            justify-content: center; 
+            font-size: 1.1rem; 
+            transition: var(--transition); 
+        }
+        .hero-btn:hover { 
+            background: var(--accent); 
+            color: black; 
+            border-color: var(--accent); 
+            box-shadow: 0 0 15px var(--accent-glow);
+            transform: scale(1.05);
+        }
+        .hero-btn.play-btn { 
+            width: 52px; 
+            height: 52px; 
+            font-size: 1.3rem; 
+            background: var(--accent); 
+            color: black; 
+            border: none; 
+            box-shadow: 0 4px 12px var(--accent-glow);
+        }
+        .hero-progress-bar { 
+            position: absolute; 
+            bottom: 0; 
+            left: 0; 
+            height: 4px; 
+            background: var(--accent); 
+            width: 0%; 
+            z-index: 20; 
+            transition: width 0.1s linear; 
+            box-shadow: 0 -2px 10px var(--accent-glow); 
+        }
 
-        .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(var(--card-min-width), 1fr)); gap: var(--grid-gap); padding: 30px 4%; }
-        @media (min-width: 2200px) { .grid { grid-template-columns: repeat(7, 1fr); justify-content: center; } }
-        .card { background-color: var(--bg-card); border-radius: var(--radius); position: relative; aspect-ratio: 16/9; cursor: pointer; overflow: hidden; transition: transform 0.2s, box-shadow 0.2s, border-color 0.2s; border: 1px solid var(--border-color); }
-        .card:hover { transform: translateY(-4px); box-shadow: 0 10px 20px rgba(0,0,0,0.4); border-color: var(--text-dim); z-index: 5; }
-        .card-bg { width: 100%; height: 100%; background-size: cover; background-position: center; background-color: #222; opacity: 0.7; transition: opacity 0.3s; }
-        .card:hover .card-bg { opacity: 0.4; }
-        .card-overlay { position: absolute; bottom: 0; left: 0; right: 0; top: 0; background: linear-gradient(to top, var(--bg-card) 0%, rgba(21,26,31,0.8) 40%, rgba(21,26,31,0.1) 100%); display: flex; flex-direction: column; justify-content: flex-end; padding: 15px; }
-        .card-title { font-weight: 700; font-size: 1.1rem; margin-bottom: 5px; line-height: 1.2; color: white; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;}
-        .card-meta { font-size: 0.85rem; color: var(--text-dim); }
-        .card-ch-logo { position: absolute; top: 12px; left: 12px; width: 36px; height: 36px; object-fit: contain; background: white; border-radius: 6px; padding: 3px; box-shadow: 0 2px 4px rgba(0,0,0,0.5); }
-        .card-progress-container { position: absolute; bottom: 0; left: 0; width: 100%; height: 3px; background: rgba(255,255,255,0.1); }
-        .card-progress-bar { height: 100%; background: var(--accent); width: 0%; box-shadow: 0 0 5px var(--accent-glow); transition: width 0.5s ease; }
-        .card-badge { position: absolute; top: 12px; right: 12px; padding: 3px 8px; border-radius: 4px; font-size: 0.7rem; font-weight: 800; text-transform: uppercase; background: rgba(0,0,0,0.6); color: white; border: 1px solid rgba(255,255,255,0.2); backdrop-filter: blur(4px); }
-        .badge-live { color: var(--accent); border-color: var(--accent); }
+        .grid { 
+            display: grid; 
+            grid-template-columns: repeat(auto-fill, minmax(var(--card-min-width), 1fr)); 
+            gap: var(--grid-gap); 
+            padding: 20px 4% 30px 4%; 
+        }
+        @media (min-width: 2200px) { 
+            .grid { grid-template-columns: repeat(7, 1fr); justify-content: center; } 
+        }
+        .card { 
+            background-color: var(--bg-card); 
+            border-radius: var(--radius); 
+            position: relative; 
+            aspect-ratio: 16/9; 
+            cursor: pointer; 
+            overflow: hidden; 
+            transition: var(--transition); 
+            border: 1px solid var(--border-color); 
+        }
+        .card:hover { 
+            transform: translateY(-5px); 
+            box-shadow: 0 12px 24px rgba(0,0,0,0.5), 0 0 0 1px var(--accent); 
+            z-index: 5; 
+        }
+        
+        .card-bg { 
+            width: 100%; 
+            height: 100%; 
+            background-size: cover; 
+            background-position: center; 
+            background-color: #121820; 
+            opacity: 0.65; 
+            transition: opacity 0.3s; 
+        }
+        .grid.hide-posters .card-bg {
+            display: none !important;
+        }
+        .grid.hide-posters .card {
+            background-color: var(--bg-card);
+        }
+        .grid.hide-posters .card-overlay {
+            background: transparent;
+        }
+        
+        .card:hover .card-bg { 
+            opacity: 0.35; 
+        }
+        .card-overlay { 
+            position: absolute; 
+            bottom: 0; left: 0; right: 0; top: 0; 
+            background: linear-gradient(to top, var(--bg-card) 5%, rgba(16,21,27,0.7) 45%, rgba(16,21,27,0.1) 100%); 
+            display: flex; 
+            flex-direction: column; 
+            justify-content: flex-end; 
+            padding: 16px; 
+        }
+        .card-title { 
+            font-weight: 700; 
+            font-size: 1.1rem; 
+            margin-bottom: 6px; 
+            line-height: 1.25; 
+            color: white; 
+            display: -webkit-box; 
+            -webkit-line-clamp: 2; 
+            -webkit-box-orient: vertical; 
+            overflow: hidden;
+        }
+        .card-meta { 
+            font-size: 0.85rem; 
+            color: var(--text-dim); 
+            font-family: 'JetBrains Mono', monospace;
+        }
+        .card-ch-logo { 
+            position: absolute; 
+            top: 14px; 
+            left: 14px; 
+            width: 38px; 
+            height: 38px; 
+            object-fit: contain; 
+            background: white; 
+            border-radius: 8px; 
+            padding: 4px; 
+            box-shadow: 0 4px 10px rgba(0,0,0,0.4); 
+        }
+        .card-progress-container { 
+            position: absolute; 
+            bottom: 0; 
+            left: 0; 
+            width: 100%; 
+            height: 4px; 
+            background: rgba(255,255,255,0.08); 
+        }
+        .card-progress-bar { 
+            height: 100%; 
+            background: var(--accent); 
+            width: 0%; 
+            box-shadow: 0 0 8px var(--accent-glow); 
+            transition: width 0.5s ease; 
+        }
+        .card-badge { 
+            position: absolute; 
+            top: 14px; 
+            right: 14px; 
+            padding: 4px 10px; 
+            border-radius: 6px; 
+            font-size: 0.65rem; 
+            font-weight: 800; 
+            text-transform: uppercase; 
+            background: rgba(8,11,14,0.75); 
+            color: white; 
+            border: 1px solid rgba(255,255,255,0.15); 
+            backdrop-filter: blur(4px); 
+            letter-spacing: 0.5px;
+        }
+        .badge-live { 
+            color: var(--accent); 
+            border-color: var(--accent); 
+            box-shadow: 0 0 10px rgba(0,230,118,0.2);
+        }
 
         /* --- VISTAS GLOBALES --- */
-        #listView, #searchView, #channelsView { display: none; flex-direction: column; min-height: 100%; background: var(--bg-body); padding: 20px 4%; box-sizing: border-box; }
+        #listView, #searchView, #channelsView { 
+            display: none; 
+            flex-direction: column; 
+            min-height: 100%; 
+            background: var(--bg-body); 
+            padding: 20px 4%; 
+            box-sizing: border-box; 
+            width: 100%;
+            overflow-x: hidden;
+        }
 
-        /* --- LIST VIEW --- */
-        .list-row { display: flex; gap: 20px; padding: 15px; border-bottom: 1px solid var(--border-color); align-items: center; transition: border-color 0.2s; cursor: pointer; border-radius: 8px;}
-        .list-row:hover { border-color: var(--accent);}
-        .list-ch-col { width: 90px; flex-shrink: 0; display: flex; flex-direction: column; align-items: center; gap: 8px; }
-        .list-ch-logo { width: 60px; height: 60px; background: white; border-radius: 6px; object-fit: contain; padding: 4px; box-shadow: 0 2px 5px rgba(0,0,0,0.5); }
-        .list-ch-name { font-size: 0.8rem; text-align: center; color: var(--text-dim); font-weight: bold;}
-        .list-prog-col { flex-grow: 1; display: flex; flex-direction: column; justify-content: center; gap: 8px; overflow: hidden; }
-        
-        .list-prog-item { display: flex; gap: 10px; align-items: center; padding: 6px 12px; border-radius: 6px; transition: 0.2s;}
-        .list-prog-time { font-family: monospace; font-size: 1rem; font-weight: bold; color: var(--text-dim); width: 55px; flex-shrink: 0; }
-        /* flex: 0 1 auto asegura que el título no empuje a la i más allá del texto, dejándolos pegados */
-        .list-prog-title { font-size: 0.95rem; color: var(--text-main); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; flex: 0 1 auto; }
-        
-        /* Highlight para el programa en vivo de la lista */
-        .list-prog-item.active { background: rgba(0, 230, 118, 0.05); border-left: 3px solid var(--accent); }
-        .list-prog-item.active .list-prog-time { color: var(--accent); }
-        .list-prog-item.active .list-prog-title { color: var(--accent); font-weight: bold;}
-        
-        /* Botón de Información (Ahora pegado a la derecha del título) */
-        .btn-info-prog { background: transparent; color: var(--text-dim); border: 1px solid var(--border-color); border-radius: 50%; width: 24px; height: 24px; display: flex; align-items: center; justify-content: center; font-family: serif; font-style: italic; font-weight: bold; cursor: pointer; flex-shrink: 0; transition: 0.2s; font-size: 0.85rem; margin-right: auto;}
-        .btn-info-prog:hover { background: var(--accent); color: black; border-color: var(--accent); }
-        
-        /* --- NUEVA PESTAÑA DE BÚSQUEDA --- */
-        .search-input-wrapper { position: sticky; top: 0; z-index: 20; background: var(--bg-body); padding-bottom: 15px; border-bottom: 1px solid var(--border-color); margin-bottom: 20px; }
-        .search-big-input { width: 100%; background: var(--input-bg); border: 2px solid var(--border-color); padding: 15px 20px; border-radius: 12px; color: white; font-size: 1.1rem; box-sizing: border-box; outline: none; transition: 0.3s; }
-        .search-big-input:focus { border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-glow); }
-        .search-section-title { color: var(--text-main); font-size: 1.3rem; margin: 0 0 15px 0; display: flex; align-items: center; gap: 10px; }
-        .search-section-title::after { content: ""; flex-grow: 1; height: 1px; background: var(--border-color); }
-        
-        .search-channels-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); gap: 15px; margin-bottom: 30px; }
-        .search-channel-item { background: white; border-radius: 12px; height: 80px; display: flex; align-items: center; justify-content: center; cursor: pointer; transition: 0.2s; padding: 5px; box-sizing: border-box; position: relative; overflow: hidden; }
-        .search-channel-item:hover { transform: scale(1.05); }
-        .search-channel-item img { width: 100%; height: 100%; object-fit: contain; }
+        /* --- LIST VIEW (Single-column layout) --- */
+        #listItemsContainer {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 15px;
+            width: 100%;
+            box-sizing: border-box;
+        }
 
-        .search-result-card { gap: 15px; align-items: center; }
-        .search-ch-logo-box { width: 70px; height: 70px; flex-shrink: 0; background: white; border-radius: 8px; padding: 4px; box-shadow: 0 2px 8px rgba(0,0,0,0.5); display: flex; align-items: center; justify-content: center; }
-        .search-ch-logo-box img { width: 100%; height: 100%; object-fit: contain; }
-        .search-prog-meta { color: var(--text-dim); font-size: 0.95rem; line-height: 1.4;}
+        .list-row { 
+            display: flex; 
+            gap: 18px; 
+            padding: 14px 18px; 
+            border: 1px solid var(--border-color); 
+            align-items: center; 
+            transition: var(--transition); 
+            cursor: pointer; 
+            border-radius: 12px;
+            background: rgba(255,255,255,0.005);
+        }
+        .list-row:hover { 
+            background: rgba(255,255,255,0.02);
+            transform: translateY(-2px);
+            border-color: var(--accent);
+            box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+        }
+        .list-ch-col { 
+            width: 70px; 
+            flex-shrink: 0; 
+            display: flex; 
+            justify-content: center;
+            align-items: center; 
+        }
+        .list-ch-logo { 
+            width: 55px; 
+            height: 55px; 
+            background: white; 
+            border-radius: 10px; 
+            object-fit: contain; 
+            padding: 5px; 
+            box-shadow: 0 4px 10px rgba(0,0,0,0.3); 
+        }
+        .list-prog-col { 
+            flex-grow: 1; 
+            display: flex; 
+            flex-direction: column;
+            gap: 8px; 
+            overflow: hidden; 
+        }
+        .list-prog-item { 
+            display: flex; 
+            gap: 10px; 
+            align-items: center; 
+            background: transparent;
+            border: none;
+            min-width: 0;
+            padding: 2px 0;
+        }
+        .list-prog-item.active { 
+            background: transparent;
+            border: none;
+        }
+        .list-prog-time { 
+            font-family: 'JetBrains Mono', monospace; 
+            font-size: 0.95rem; 
+            font-weight: 600; 
+            color: var(--text-dim); 
+            width: 60px; 
+            flex-shrink: 0; 
+        }
+        .list-prog-title { 
+            font-size: 0.95rem; 
+            color: var(--text-main); 
+            white-space: nowrap; 
+            overflow: hidden; 
+            text-overflow: ellipsis; 
+        }
+        .list-prog-item.active .list-prog-time { 
+            color: var(--accent); 
+        }
+        .list-prog-item.active .list-prog-title { 
+            color: var(--accent); 
+            font-weight: 700;
+        }
+
+        /* --- LIST VIEW BADGES & MINI GUIDE STYLES --- */
+        .list-prog-badge {
+            font-size: 0.65rem;
+            font-weight: 800;
+            padding: 3px 8px;
+            border-radius: 4px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            flex-shrink: 0;
+        }
+        .list-prog-badge.live {
+            background: rgba(0, 230, 118, 0.12);
+            color: var(--accent);
+            border: 1px solid rgba(0, 230, 118, 0.25);
+        }
+        .list-prog-badge.next {
+            background: rgba(255, 255, 255, 0.05);
+            color: var(--text-dim);
+            border: 1px solid var(--border-color);
+        }
+
+        .mini-guide-content {
+            animation: popUp 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+            background: var(--bg-modal);
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius);
+        }
+        .mg-item {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            padding: 10px 14px;
+            border-radius: 8px;
+            background: rgba(255,255,255,0.015);
+            border: 1px solid var(--border-color);
+        }
+        .mg-item.active {
+            background: rgba(0, 230, 118, 0.05);
+            border-color: var(--accent);
+        }
+        .mg-time {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.9rem;
+            font-weight: 700;
+            color: var(--text-dim);
+            width: 55px;
+            flex-shrink: 0;
+        }
+        .mg-item.active .mg-time {
+            color: var(--accent);
+        }
+        .mg-info {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-grow: 1;
+            min-width: 0;
+        }
+        .mg-title {
+            font-size: 0.95rem;
+            color: var(--text-main);
+            font-weight: 500;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        .mg-item.active .mg-title {
+            font-weight: 700;
+            color: white;
+        }
+        .mg-live-tag {
+            font-size: 0.65rem;
+            font-weight: 900;
+            color: var(--accent);
+            border: 1px solid var(--accent);
+            padding: 2px 6px;
+            border-radius: 4px;
+            letter-spacing: 0.5px;
+            flex-shrink: 0;
+        }
+
+        /* --- PESTAÑA DE BÚSQUEDA --- */
+        .search-input-wrapper { 
+            position: sticky; 
+            top: 0; 
+            z-index: 20; 
+            background: var(--bg-body); 
+            padding-bottom: 18px; 
+            border-bottom: 1px solid var(--border-color); 
+            margin-bottom: 25px; 
+        }
+        .search-big-input { 
+            width: 100%; 
+            background: var(--input-bg); 
+            border: 2px solid var(--border-color); 
+            padding: 16px 22px; 
+            border-radius: 14px; 
+            color: white; 
+            font-size: 1.1rem; 
+            box-sizing: border-box; 
+            outline: none; 
+            transition: var(--transition); 
+            font-family: inherit;
+        }
+        .search-big-input:focus { 
+            border-color: var(--accent); 
+            box-shadow: 0 0 0 4px var(--accent-glow); 
+        }
+        .search-section-title { 
+            color: var(--text-main); 
+            font-size: 1.3rem; 
+            margin: 0 0 18px 0; 
+            display: flex; 
+            align-items: center; 
+            gap: 12px; 
+            font-weight: 800;
+        }
+        .search-section-title::after { 
+            content: ""; 
+            flex-grow: 1; 
+            height: 1px; 
+            background: var(--border-color); 
+        }
+        
+        .search-channels-grid { 
+            display: grid; 
+            grid-template-columns: repeat(auto-fill, minmax(110px, 1fr)); 
+            gap: 16px; 
+            margin-bottom: 35px; 
+        }
+        .search-channel-item { 
+            background: white; 
+            border-radius: 12px; 
+            height: 80px; 
+            display: flex; 
+            align-items: center; 
+            justify-content: center; 
+            cursor: pointer; 
+            transition: var(--transition); 
+            padding: 6px; 
+            box-sizing: border-box; 
+            position: relative; 
+            overflow: hidden; 
+            box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+        }
+        .search-channel-item:hover { 
+            transform: scale(1.06); 
+            box-shadow: 0 6px 15px rgba(0,0,0,0.3);
+        }
+        .search-channel-item img { 
+            width: 100%; 
+            height: 100%; 
+            object-fit: contain; 
+        }
+
+        .search-result-card { gap: 18px; align-items: center; }
+        .search-ch-logo-box { 
+            width: 70px; 
+            height: 70px; 
+            flex-shrink: 0; 
+            background: white; 
+            border-radius: 10px; 
+            padding: 5px; 
+            box-shadow: 0 4px 10px rgba(0,0,0,0.3); 
+            display: flex; 
+            align-items: center; 
+            justify-content: center; 
+        }
+        .search-ch-logo-box img { 
+            width: 100%; 
+            height: 100%; 
+            object-fit: contain; 
+        }
+        .search-prog-meta { 
+            color: var(--text-dim); 
+            font-size: 0.95rem; 
+            line-height: 1.5;
+        }
 
         /* --- PISTA CANALES (DIRECTORIO) --- */
-        .ch-selector-wrapper { background: var(--bg-card); border-radius: 16px; padding: 20px 60px 20px 20px; margin-bottom: 25px; border: 1px solid var(--border-color); position: relative; }
+        .ch-selector-wrapper { 
+            background: var(--bg-card); 
+            border-radius: 20px; 
+            padding: 20px; 
+            margin-bottom: 30px; 
+            border: 1px solid var(--border-color); 
+        }
         
-        .ch-search-bar { width: 100%; background: var(--input-bg); border: 1px solid var(--border-color); padding: 10px 15px; border-radius: 8px; color: white; margin-bottom: 15px; box-sizing: border-box; outline: none; transition: 0.3s;}
-        .ch-search-bar:focus { border-color: var(--accent); }
+        .ch-search-bar { 
+            width: 100%; 
+            background: var(--input-bg); 
+            border: 1px solid var(--border-color); 
+            padding: 12px 16px; 
+            border-radius: 10px; 
+            color: white; 
+            margin: 0; 
+            box-sizing: border-box; 
+            outline: none; 
+            transition: var(--transition);
+            font-family: inherit;
+        }
+        .ch-search-bar:focus { 
+            border-color: var(--accent); 
+        }
 
-        .ch-grid-scroll { height: 255px; overflow-y: auto; scrollbar-width: none; -ms-overflow-style: none; scroll-snap-type: y mandatory; }
-        .ch-grid-scroll::-webkit-scrollbar { display: none; }
-        .ch-grid-inner { display: grid; grid-template-columns: repeat(auto-fill, minmax(80px, 1fr)); gap: 15px; }
+        .ch-grid-scroll { 
+            height: 90px; 
+            overflow-x: auto; 
+            overflow-y: hidden; 
+            margin-top: 10px;
+            scroll-behavior: smooth;
+        }
+        .ch-grid-inner { 
+            display: flex; 
+            gap: 15px; 
+            padding-bottom: 5px;
+            width: max-content;
+        }
         
-        .ch-logo-item { background: white; border-radius: 12px; height: 75px; display: flex; align-items: center; justify-content: center; cursor: pointer; transition: 0.2s; border: 2px solid transparent; padding: 5px; box-sizing: border-box; scroll-snap-align: start;}
-        .ch-logo-item:hover { transform: scale(1.05); }
-        .ch-logo-item.selected { border-color: var(--accent); box-shadow: 0 0 12px var(--accent-glow); transform: scale(1.05); }
-        .ch-logo-item img { width: 100%; height: 100%; object-fit: contain; }
-        
-        .ch-nav-btn { position: absolute; right: 15px; width: 35px; height: 35px; background: rgba(255,255,255,0.1); border: 1px solid rgba(255,255,255,0.2); border-radius: 50%; color: white; cursor: pointer; z-index: 10; display: flex; justify-content: center; align-items: center; font-size: 1rem; transition: 0.2s;}
-        .ch-nav-btn:hover { background: var(--accent); color: black; border-color: var(--accent); }
-        .ch-nav-up { top: 100px; }
-        .ch-nav-down { bottom: 40px; }
+        .ch-logo-item { 
+            background: white; 
+            border-radius: 12px; 
+            height: 75px; 
+            width: 75px;
+            flex-shrink: 0;
+            display: flex; 
+            align-items: center; 
+            justify-content: center; 
+            cursor: pointer; 
+            transition: var(--transition); 
+            border: 2px solid transparent; 
+            padding: 5px; 
+            box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+        }
+        .ch-logo-item:hover { 
+            transform: scale(1.05); 
+        }
+        .ch-logo-item.selected { 
+            border-color: var(--accent); 
+            box-shadow: 0 0 15px var(--accent-glow); 
+            transform: scale(1.05); 
+        }
+        .ch-logo-item img { 
+            width: 100%; 
+            height: 100%; 
+            object-fit: contain; 
+        }
 
-        .dir-channel-header { display: flex; align-items: center; gap: 15px; margin-bottom: 20px; }
-        .dir-channel-header img { width: 55px; height: 55px; object-fit: contain; background: white; border-radius: 8px; padding: 4px; box-shadow: 0 2px 8px rgba(0,0,0,0.5); }
-        .dir-channel-header h2 { font-size: 1.8rem; margin: 0; color: white; letter-spacing: -0.5px;}
+        .dir-channel-header { 
+            display: flex; 
+            align-items: center; 
+            justify-content: center;
+            text-align: center;
+            gap: 18px; 
+            margin-bottom: 22px; 
+        }
+        .dir-channel-header img { 
+            width: 60px; 
+            height: 60px; 
+            object-fit: contain; 
+            background: white; 
+            border-radius: 10px; 
+            padding: 5px; 
+            box-shadow: 0 4px 12px rgba(0,0,0,0.3); 
+        }
+        .dir-channel-header h2 { 
+            font-size: 1.9rem; 
+            margin: 0; 
+            color: white; 
+            letter-spacing: -0.7px;
+            font-weight: 800;
+            display: flex;
+            align-items: center;
+        }
 
-        .ch-date-tabs { display: flex; gap: 10px; margin-bottom: 20px; flex-wrap: wrap;}
-        .ch-date-tab { background: transparent; border: 1px solid var(--border-color); color: var(--text-dim); padding: 8px 20px; border-radius: 20px; cursor: pointer; font-weight: bold; transition: 0.2s; font-family: inherit;}
-        .ch-date-tab.active { background-color: var(--accent); color: black; border-color: var(--accent); }
+        /* ID del canal como un cartel (tarjeta que selecciona todo al doble click) */
+        .ch-id-badge {
+            display: inline-block;
+            background: var(--input-bg);
+            color: var(--accent);
+            border: 1px solid var(--border-color);
+            padding: 4px 10px;
+            border-radius: 6px;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 1.1rem;
+            font-weight: 700;
+            user-select: all;
+            -webkit-user-select: all;
+            cursor: pointer;
+            margin-right: 12px;
+            line-height: 1;
+        }
+
+        .ch-date-tabs { 
+            display: flex; 
+            gap: 12px; 
+            margin-bottom: 22px; 
+            flex-wrap: wrap;
+            justify-content: center;
+            width: 100%;
+        }
+        .dir-grid-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(145px, 1fr));
+            gap: 15px;
+            width: 100%;
+            padding: 10px 0 30px 0;
+        }
+        .dir-grid-list .ch-logo-item {
+            width: 100%;
+            height: 95px;
+            background: white;
+            border-radius: 12px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            cursor: pointer;
+            transition: var(--transition);
+            border: 2px solid transparent;
+            padding: 8px 8px 24px 8px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+            position: relative;
+            overflow: hidden;
+            content-visibility: auto;
+            contain-intrinsic-size: 95px;
+        }
+        .dir-grid-list .ch-logo-item:hover {
+            transform: scale(1.06);
+            box-shadow: 0 6px 15px rgba(0,0,0,0.3);
+        }
+        .dir-grid-list .ch-logo-item img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+        .ch-feed-tag {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background: rgba(16, 21, 27, 0.75);
+            color: var(--text-dim);
+            font-size: 0.65rem;
+            font-weight: 700;
+            text-align: center;
+            padding: 2px 4px;
+            text-transform: uppercase;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            border-top: 1px solid rgba(255, 255, 255, 0.05);
+        }
+        .ch-date-tab { 
+            background: transparent; 
+            border: 1px solid var(--border-color); 
+            color: var(--text-dim); 
+            padding: 10px 22px; 
+            border-radius: 25px; 
+            cursor: pointer; 
+            font-weight: 700; 
+            transition: var(--transition); 
+            font-family: inherit;
+            font-size: 0.85rem;
+        }
+        .ch-date-tab:hover {
+            border-color: var(--text-dim);
+            color: var(--text-main);
+        }
+        .ch-date-tab.active { 
+            background-color: var(--accent); 
+            color: black; 
+            border-color: var(--accent); 
+            box-shadow: 0 4px 10px var(--accent-glow);
+        }
         
         .ch-date-select {
             -webkit-appearance: none; -moz-appearance: none; appearance: none;
-            padding-right: 35px; background-color: transparent;
+            padding-right: 38px; background-color: transparent;
             background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224%22%20height%3D%2224%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22%2390a4ae%22%3E%3Cpath%20d%3D%22M7%2010l5%205%205-5z%22%2F%3E%3C%2Fsvg%3E");
-            background-repeat: no-repeat; background-position: right 8px center; background-size: 20px; outline: none;
+            background-repeat: no-repeat; background-position: right 12px center; background-size: 20px; outline: none;
         }
         .ch-date-select::-ms-expand { display: none; }
         .ch-date-select.active {
@@ -181,127 +1085,445 @@
         }
         .ch-date-select option { background: var(--bg-card); color: var(--text-main); }
 
-        .ch-prog-list { display: flex; flex-direction: column; gap: 15px; padding-bottom: 30px;}
-        .ch-prog-card { display: flex; background: var(--bg-card); border-radius: 12px; overflow: hidden; border: 1px solid var(--border-color); padding: 15px; gap: 20px; position: relative; cursor: pointer; transition: 0.2s;}
-        .ch-prog-card:hover { border-color: var(--text-dim); }
-        .ch-prog-card.is-past { opacity: 0.4; }
-        .ch-prog-card.is-live { border-color: var(--accent); background: rgba(0, 230, 118, 0.05); }
+        /* --- PROGRAMACIÓN DE CANAL SIMPLIFICADA (Hora y Título) --- */
+        .ch-prog-list { display: flex; flex-direction: column; gap: 8px; padding-bottom: 30px;}
         
-        .ch-prog-img-box { position: relative; width: 220px; flex-shrink: 0; border-radius: 8px; overflow: hidden; background: #222; aspect-ratio: 16/9; }
-        .ch-prog-img-box img { width: 100%; height: 100%; object-fit: cover; }
-        .ch-prog-progress { position: absolute; bottom: 0; left: 0; height: 5px; background: var(--accent); width: 0%; box-shadow: 0 -1px 5px var(--accent-glow);}
-        .live-badge { position: absolute; top: 10px; left: 10px; background: var(--accent); color: black; font-size: 0.7rem; font-weight: bold; padding: 3px 8px; border-radius: 4px; text-transform: uppercase; z-index: 5;}
+        .ch-prog-card-simple { 
+            display: flex; 
+            align-items: center; 
+            background: var(--bg-card); 
+            border-radius: var(--radius-sm); 
+            overflow: hidden; 
+            border: 1px solid var(--border-color); 
+            padding: 12px 20px; 
+            gap: 20px; 
+            cursor: pointer; 
+            transition: var(--transition);
+        }
+        .ch-prog-card-simple:hover { 
+            border-color: var(--accent); 
+            background: rgba(255, 255, 255, 0.02);
+        }
+        .ch-prog-card-simple.is-past { opacity: 0.45; }
+        .ch-prog-card-simple.is-live { 
+            border-color: var(--accent); 
+            background: rgba(0, 230, 118, 0.03); 
+            box-shadow: 0 4px 15px rgba(0, 230, 118, 0.05);
+        }
+        .ch-prog-time-simple {
+            font-family: 'JetBrains Mono', monospace;
+            font-weight: 700;
+            color: var(--text-dim);
+            font-size: 1rem;
+            width: 60px;
+            flex-shrink: 0;
+        }
+        .ch-prog-card-simple.is-live .ch-prog-time-simple {
+            color: var(--accent);
+        }
+        .ch-prog-title-simple {
+            font-weight: 500;
+            color: var(--text-main);
+            font-size: 1.05rem;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+        .ch-prog-card-simple.is-live .ch-prog-title-simple {
+            font-weight: 800;
+        }
         
-        .ch-prog-info { display: flex; flex-direction: column; justify-content: center; flex-grow: 1; overflow: hidden; }
-        .ch-prog-time { color: var(--text-dim); font-family: monospace; font-size: 0.95rem; margin-bottom: 5px; display: flex; align-items: center; gap: 10px;}
-        .ch-prog-time img { height: 20px; border-radius: 4px; background: white; padding: 2px;}
-        .ch-prog-title { font-size: 1.2rem; font-weight: bold; color: white; margin-bottom: 8px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;}
-        
-        .ch-prog-desc { color: var(--text-dim); font-size: 0.9rem; line-height: 1.5; display: -webkit-box; -webkit-box-orient: vertical; overflow: hidden; transition: all 0.3s; }
-        .desc-clamp { -webkit-line-clamp: 2; }
-        .desc-expanded { -webkit-line-clamp: unset !important; display: block; }
-        
-        .btn-read-more { background: none; border: none; color: var(--accent); padding: 0; margin-top: 8px; cursor: pointer; font-size: 0.85rem; font-weight: bold; text-align: left; display: none; width: fit-content;}
-        .btn-read-more:hover { text-decoration: underline; }
-
-        .btn-toggle-past { background: var(--input-bg); border: 1px solid var(--border-color); color: var(--text-dim); padding: 10px 20px; border-radius: 20px; cursor: pointer; font-weight: bold; transition: 0.2s; width: fit-content; margin: 0 auto 15px auto; display: block;}
-        .btn-toggle-past:hover { background: var(--border-color); color: white; }
+        .btn-toggle-past { 
+            background: var(--input-bg); 
+            border: 1px solid var(--border-color); 
+            color: var(--text-dim); 
+            padding: 10px 24px; 
+            border-radius: 25px; 
+            cursor: pointer; 
+            font-weight: 700; 
+            transition: var(--transition); 
+            width: fit-content; 
+            margin: 0 auto 15px auto; 
+            display: block;
+            font-family: inherit;
+            font-size: 0.85rem;
+        }
+        .btn-toggle-past:hover { 
+            background: var(--border-color); 
+            color: white; 
+        }
 
         /* --- MODALS & BUTTONS --- */
-        .modal-overlay { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.85); z-index: 2000; display: none; justify-content: center; align-items: center; backdrop-filter: blur(5px); }
-        .modal-content { background: var(--bg-modal); width: 95%; max-width: 800px; height: 85vh; border-radius: 12px; display: flex; flex-direction: column; box-shadow: 0 25px 50px rgba(0,0,0,0.5); overflow: hidden; position: relative; border: 1px solid var(--border-color); }
+        .modal-overlay { 
+            position: fixed; 
+            top: 0; 
+            left: 0; 
+            width: 100%; 
+            height: 100%; 
+            background: rgba(4, 6, 8, 0.9); 
+            z-index: 2000; 
+            display: none; 
+            justify-content: center; 
+            align-items: center; 
+            backdrop-filter: blur(8px); 
+        }
+        .modal-content { 
+            background: var(--bg-modal); 
+            width: 95%; 
+            max-width: 800px; 
+            height: 85vh; 
+            border-radius: var(--radius); 
+            display: flex; 
+            flex-direction: column; 
+            box-shadow: 0 25px 60px rgba(0,0,0,0.6); 
+            overflow: hidden; 
+            position: relative; 
+            border: 1px solid var(--border-color); 
+        }
         
-        .btn-back-action { display: inline-flex; align-items: center; gap: 5px; background: rgba(255,255,255,0.1); border: 1px solid rgba(255,255,255,0.2); color: white; padding: 6px 12px; border-radius: 20px; font-size: 0.9rem; font-weight: bold; cursor: pointer; transition: 0.2s; margin-bottom: 10px; width: fit-content; }
-        .btn-back-action:hover { background: var(--accent); color: black; border-color: var(--accent); }
+        .btn-back-action { 
+            display: inline-flex; 
+            align-items: center; 
+            gap: 6px; 
+            background: rgba(255,255,255,0.06); 
+            border: 1px solid rgba(255,255,255,0.1); 
+            color: white; 
+            padding: 8px 16px; 
+            border-radius: 20px; 
+            font-size: 0.9rem; 
+            font-weight: 700; 
+            cursor: pointer; 
+            transition: var(--transition); 
+            margin-bottom: 10px; 
+            width: fit-content; 
+            font-family: inherit;
+        }
+        .btn-back-action:hover { 
+            background: var(--accent); 
+            color: black; 
+            border-color: var(--accent); 
+            box-shadow: 0 4px 10px var(--accent-glow);
+        }
         
         /* Popup Detalle Normal */
         #detailModal { z-index: 3000; }
-        .detail-content { background: var(--bg-modal); width: 90%; max-width: 500px; height: auto; max-height: 90vh; animation: popUp 0.3s; border: 1px solid var(--border-color); }
-        @keyframes popUp { from { transform: scale(0.95); opacity: 0; } to { transform: scale(1); opacity: 1; } }
-        .detail-hero-container { position: relative; width: 100%; height: 220px; }
-        .detail-hero { width: 100%; height: 100%; object-fit: cover; mask-image: linear-gradient(to bottom, black 50%, transparent 100%); cursor: zoom-in; }
-        .detail-ch-logo { position: absolute; top: 15px; right: 15px; width: 45px; height: 45px; background: white; border-radius: 6px; padding: 3px; object-fit: contain; box-shadow: 0 2px 10px rgba(0,0,0,0.5); cursor: zoom-in; z-index: 10; }
+        .detail-content { 
+            background: var(--bg-modal); 
+            width: 90%; 
+            max-width: 540px; 
+            height: auto; 
+            max-height: 90vh; 
+            animation: popUp 0.3s cubic-bezier(0.34, 1.56, 0.64, 1); 
+            border: 1px solid var(--border-color); 
+            border-radius: var(--radius);
+        }
+        @keyframes popUp { 
+            from { transform: scale(0.92); opacity: 0; } 
+            to { transform: scale(1); opacity: 1; } 
+        }
+        .detail-hero-container { 
+            position: relative; 
+            width: 100%; 
+            height: 240px; 
+            background-color: #121820;
+        }
+        .detail-hero { 
+            width: 100%; 
+            height: 100%; 
+            object-fit: cover; 
+            mask-image: linear-gradient(to bottom, black 50%, transparent 100%); 
+            -webkit-mask-image: linear-gradient(to bottom, black 50%, transparent 100%);
+            cursor: zoom-in; 
+            z-index: 1;
+        }
+        .detail-ch-logo { 
+            position: absolute; 
+            top: 15px; 
+            right: 15px; 
+            width: 48px; 
+            height: 48px; 
+            background: white; 
+            border-radius: 8px; 
+            padding: 4px; 
+            object-fit: contain; 
+            box-shadow: 0 4px 15px rgba(0,0,0,0.5); 
+            cursor: zoom-in; 
+            z-index: 10; 
+        }
         
-        .detail-body { padding: 20px 25px 25px 25px; margin-top: -40px; position: relative; z-index: 2; }
-        .detail-title { font-size: 1.6rem; font-weight: 800; margin-bottom: 5px; color: var(--text-main); line-height: 1.2; }
-        .detail-extra { font-size: 1rem; color: var(--text-dim); margin-bottom: 15px; font-weight: 500; opacity: 0.8; font-style: italic; }
-        .detail-time { color: var(--accent); font-weight: 700; font-size: 1rem; margin-bottom: 10px; letter-spacing: 0.5px; }
-        .detail-desc { color: var(--text-main); line-height: 1.6; font-size: 0.95rem; opacity: 0.9; overflow-y: auto; max-height: 250px;}
+        .detail-body { 
+            padding: 20px 30px 30px 30px; 
+            margin-top: -30px; 
+            position: relative; 
+            z-index: 2; 
+        }
+        .detail-title { 
+            font-size: 1.7rem; 
+            font-weight: 900; 
+            margin: 0 0 6px 0; 
+            color: var(--text-main); 
+            line-height: 1.2; 
+        }
+        .detail-extra { 
+            font-size: 1rem; 
+            color: var(--text-dim); 
+            margin-bottom: 16px; 
+            font-weight: 500; 
+            opacity: 0.8; 
+            font-style: italic; 
+        }
+        .detail-time { 
+            color: var(--accent); 
+            font-weight: 700; 
+            font-size: 1rem; 
+            margin-bottom: 12px; 
+            letter-spacing: 0.5px; 
+            font-family: 'JetBrains Mono', monospace;
+        }
+        .detail-desc { 
+            color: var(--text-main); 
+            line-height: 1.65; 
+            font-size: 0.95rem; 
+            opacity: 0.9; 
+            overflow-y: auto; 
+            max-height: 250px;
+            padding-right: 5px;
+        }
         
         .btn-back-popup { position:absolute; top:15px; left:15px; z-index: 20; }
 
+        /* --- RESTORED PROGRAM CARD STYLES FOR SEARCH --- */
+        .ch-prog-card { 
+            display: flex; 
+            background: var(--bg-card); 
+            border-radius: var(--radius); 
+            overflow: hidden; 
+            border: 1px solid var(--border-color); 
+            padding: 16px; 
+            gap: 20px; 
+            position: relative; 
+            cursor: pointer; 
+            transition: var(--transition);
+            width: 100%;
+        }
+        .ch-prog-card:hover { 
+            border-color: var(--text-dim); 
+            transform: translateY(-2px);
+            box-shadow: 0 6px 15px rgba(0,0,0,0.3);
+        }
+        .ch-prog-card.is-past { opacity: 0.45; }
+        .ch-prog-card.is-live { 
+            border-color: var(--accent); 
+            background: rgba(0, 230, 118, 0.03); 
+            box-shadow: 0 4px 15px rgba(0, 230, 118, 0.05);
+        }
+        .ch-prog-img-box { 
+            position: relative; 
+            width: 220px; 
+            flex-shrink: 0; 
+            border-radius: 10px; 
+            overflow: hidden; 
+            background: #121820; 
+            aspect-ratio: 16/9; 
+        }
+        .ch-prog-img-box img { 
+            width: 100%; 
+            height: 100%; 
+            object-fit: cover; 
+        }
+        .ch-prog-progress { 
+            position: absolute; 
+            bottom: 0; 
+            left: 0; 
+            height: 5px; 
+            background: var(--accent); 
+            width: 0%; 
+            box-shadow: 0 -1px 5px var(--accent-glow);
+        }
+        .live-badge { 
+            position: absolute; 
+            top: 10px; 
+            left: 10px; 
+            background: var(--accent); 
+            color: black; 
+            font-size: 0.65rem; 
+            font-weight: 800; 
+            padding: 4px 10px; 
+            border-radius: 6px; 
+            text-transform: uppercase; 
+            z-index: 5;
+            letter-spacing: 0.5px;
+        }
+        .ch-prog-info { 
+            display: flex; 
+            flex-direction: column; 
+            justify-content: center; 
+            flex-grow: 1; 
+            overflow: hidden; 
+        }
+        .search-result-card { gap: 18px; align-items: center; }
+        .search-ch-logo-box { 
+            width: 70px; 
+            height: 70px; 
+            flex-shrink: 0; 
+            background: white; 
+            border-radius: 10px; 
+            padding: 5px; 
+            box-shadow: 0 4px 10px rgba(0,0,0,0.3); 
+            display: flex; 
+            align-items: center; 
+            justify-content: center; 
+        }
+        .search-ch-logo-box img { 
+            width: 100%; 
+            height: 100%; 
+            object-fit: contain; 
+        }
+        .search-prog-meta { 
+            color: var(--text-dim); 
+            font-size: 0.95rem; 
+            line-height: 1.5;
+        }
+
+        /* --- POSTERS HIDDEN DYNAMIC SIMPLE LAYOUT --- */
+        .grid.hide-posters .card {
+            aspect-ratio: auto;
+            height: 90px;
+            background-color: var(--bg-card);
+        }
+        .grid.hide-posters .card-overlay {
+            background: transparent;
+            position: static;
+            padding: 14px 14px 14px 70px;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .grid.hide-posters .card-ch-logo {
+            top: 50%;
+            left: 15px;
+            transform: translateY(-50%);
+            width: 42px;
+            height: 42px;
+            margin: 0;
+        }
+        .grid.hide-posters .card-title {
+            font-size: 1.05rem;
+            -webkit-line-clamp: 1;
+            margin-bottom: 4px;
+        }
+
         /* VISOR DE IMÁGENES */
-        #imageViewModal { z-index: 4000; flex-direction: column; background: rgba(0,0,0,0.98); }
-        #fullSizeImage { max-width: 90%; max-height: 80vh; object-fit: contain; border-radius: 8px; box-shadow: 0 10px 30px rgba(0,0,0,0.8); }
-        .btn-close-image { position: absolute; top: 20px; right: 30px; font-size: 3rem; color: white; cursor: pointer; z-index: 4001; line-height: 1;}
+        #imageViewModal { z-index: 4000; flex-direction: column; background: rgba(4,6,8,0.98); }
+        #fullSizeImage { 
+            max-width: 90%; 
+            max-height: 80vh; 
+            object-fit: contain; 
+            border-radius: var(--radius-sm); 
+            box-shadow: 0 15px 40px rgba(0,0,0,0.8); 
+        }
+        .btn-close-image { 
+            position: absolute; 
+            top: 20px; 
+            right: 30px; 
+            font-size: 3rem; 
+            color: white; 
+            cursor: pointer; 
+            z-index: 4001; 
+            line-height: 1;
+            transition: var(--transition);
+        }
+        .btn-close-image:hover {
+            color: var(--accent);
+            transform: scale(1.1);
+        }
 
         /* CARGA GLOBAL */
-        .spinner { width: 50px; height: 50px; border: 4px solid rgba(255,255,255,0.1); border-top: 4px solid var(--accent); border-radius: 50%; animation: spin 1s linear infinite; }
+        .spinner { 
+            width: 55px; 
+            height: 55px; 
+            border: 4px solid rgba(255,255,255,0.05); 
+            border-top: 4px solid var(--accent); 
+            border-radius: 50%; 
+            animation: spin 0.8s cubic-bezier(0.5, 0.1, 0.4, 0.9) infinite; 
+            box-shadow: 0 0 15px rgba(0,230,118,0.1);
+        }
         @keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
 
+        /* Responsive Breakpoints */
         @media (max-width: 768px) {
-            .brand { font-size: 1.2rem; }
-            .view-btn { padding: 6px 10px; font-size: 0.8rem; }
+            .brand { font-size: 1.3rem; }
+            .view-btn { padding: 6px 12px; font-size: 0.8rem; }
+            header { padding: 10px 3%; }
             
-            .hero-title { font-size: 2rem; height: auto; -webkit-line-clamp: 3; }
+            .hero-title { font-size: 1.9rem; -webkit-line-clamp: 3; }
             .hero-desc { display: none; }
-            .hero-content { width: 90%; }
-            .hero-logo-img { width: 45px; height: 45px; }
+            .hero-content { width: 95%; }
+            .hero-logo-img { width: 44px; height: 44px; }
             .hero-ch-name { font-size: 1.1rem; }
+            #heroSection { height: 40vh; min-height: 320px; }
             
-            .card-overlay { padding: 10px; }
+            .card-overlay { padding: 12px; }
             :root { --card-min-width: 100%; --grid-gap: 15px; } 
-            .grid { padding: 20px 4%; }
+            .grid { padding: 15px 3%; }
             
             /* Ajustes Lista en Móvil */
-            .list-row { padding: 10px; gap: 10px; }
-            .list-ch-col { width: 60px; gap: 4px; }
-            .list-ch-logo { width: 45px; height: 45px; padding: 2px; }
-            .list-ch-name { font-size: 0.7rem; }
-            .list-prog-item { padding: 4px 8px; gap: 8px; }
+            .list-row { padding: 12px; gap: 12px; }
+            .list-ch-col { width: 60px; }
+            .list-ch-logo { width: 50px; height: 50px; padding: 3px; }
+            .list-prog-col { flex-direction: column; align-items: stretch; gap: 6px; }
+            .list-prog-item { padding: 6px 10px; gap: 8px; }
             .list-prog-time { font-size: 0.85rem; width: 45px; }
             .list-prog-title { font-size: 0.85rem; }
-            .btn-info-prog { width: 20px; height: 20px; font-size: 0.75rem; }
             
             /* Ajustes Directorio Canales en Móvil */
-            .ch-nav-btn { display: none !important; } 
-            .ch-selector-wrapper { padding: 15px; } 
+            .dir-grid-list {
+                grid-template-columns: repeat(auto-fill, minmax(110px, 1fr));
+                gap: 10px;
+                padding-bottom: 20px;
+            }
+            .dir-grid-list .ch-logo-item {
+                height: 75px;
+                padding: 4px;
+            }
             
-            .ch-logo-item { height: 50px; border-radius: 8px; padding: 3px; }
-            .ch-grid-inner { grid-template-columns: repeat(auto-fill, minmax(55px, 1fr)); gap: 10px; }
-            .ch-grid-scroll { height: 170px; } 
+            .ch-prog-card-simple { padding: 10px 15px; gap: 12px; }
+            .ch-prog-time-simple { font-size: 0.85rem; width: 45px; }
+            .ch-prog-title-simple { font-size: 0.95rem; }
+            .dir-channel-header h2 { font-size: 1.5rem; }
+            .dir-channel-header img { width: 50px; height: 50px; }
+            
+            .search-channels-grid { grid-template-columns: repeat(auto-fill, minmax(80px, 1fr)); }
+            .search-channel-item { height: 60px; }
+            .search-ch-logo-box { width: 50px; height: 50px; }
+            .search-prog-meta { font-size: 0.85rem; }
 
-            .ch-prog-card { flex-direction: row; gap: 12px; padding: 10px; align-items: flex-start; }
-            .ch-prog-img-box { width: 130px; height: auto; aspect-ratio: 16/9; flex-shrink: 0; }
+            .ch-prog-card { flex-direction: row; gap: 12px; padding: 12px; align-items: flex-start; }
+            .ch-prog-img-box { width: 120px; aspect-ratio: 16/9; flex-shrink: 0; }
             .ch-prog-info { justify-content: flex-start; padding-top: 2px; }
             .ch-prog-title { font-size: 1rem; margin-bottom: 4px; white-space: normal; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;}
-            .ch-prog-time { font-size: 0.85rem; margin-bottom: 2px;}
+            .ch-prog-time { font-size: 0.85rem; margin-bottom: 4px;}
             .ch-prog-time img { height: 16px; }
-            .ch-prog-desc { font-size: 0.8rem; }
-            .desc-clamp { -webkit-line-clamp: 1; } 
-            .btn-read-more { font-size: 0.75rem; margin-top: 4px;}
-            .live-badge { font-size: 0.6rem; padding: 2px 5px; }
-            .dir-channel-header h2 { font-size: 1.4rem; }
-            
-            .search-channels-grid { grid-template-columns: repeat(auto-fill, minmax(70px, 1fr)); }
-            .search-channel-item { height: 60px; }
-            .search-ch-logo-box { width: 45px; height: 45px; }
-            .search-prog-meta { font-size: 0.85rem; }
+            .ch-prog-desc { font-size: 0.85rem; }
         }
     </style>
 </head>
 <body>
 
+<!-- Loader Global -->
 <div id="globalLoader" class="modal-overlay" style="z-index: 9999; flex-direction: column; gap: 15px; display: flex;">
     <div class="spinner"></div>
-    <div style="color: white; font-weight: bold; letter-spacing: 1px; font-size: 1.2rem;">Actualizando Guía...</div>
+    <div id="loaderText" style="color: white; font-weight: bold; letter-spacing: 1.5px; font-size: 1.2rem;">Cargando visor...</div>
 </div>
 
+<!-- Modal Visor de Imágenes -->
 <div id="imageViewModal" class="modal-overlay" onclick="closeModal(event, 'imageViewModal')">
     <span class="btn-close-image" onclick="closeDirect('imageViewModal')">×</span>
     <img id="fullSizeImage" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="Pantalla Completa">
 </div>
 
+<!-- Header -->
 <header>
     <div class="brand">EPGCL<span>.</span></div>
     
@@ -317,43 +1539,48 @@
     </div>
 </header>
 
+<!-- Config Panel -->
 <div id="configPanel">
     <div class="config-row">
         <button class="btn-small" onclick="toggleUrlSection()">Cambiar URL de Guía</button>
         <button class="btn-small" onclick="loadDefaultEPG()">Volver a Guía EPGCL</button>
+        <span id="perfBadge" class="perf-badge" style="display:none;"></span>
     </div>
     <div class="config-row" id="urlConfigSection" style="display: none;">
         <input type="text" id="urlInput" class="url-input" placeholder="Introduce la URL de tu XML...">
         <button class="btn-small active" onclick="manualLoadEPG()">CARGAR</button>
     </div>
-    <div class="config-row" style="margin-top: 20px;">
+    <div class="config-row" style="margin-top: 15px;">
         <span style="color:var(--text-dim); font-size:0.9rem;">Orden:</span>
         <button class="btn-small active" id="sortOriginal" onclick="setSort('original')">Original</button>
         <button class="btn-small" id="sortAZ" onclick="setSort('az')">A-Z</button>
     </div>
     <div class="config-row">
-        <label style="display:flex; gap:10px; cursor:pointer; color: var(--text-dim); font-size: 0.9rem; align-items:center;">
+        <label style="display:flex; gap:10px; cursor:pointer; color: var(--text-dim); font-size: 0.9rem; align-items:center; user-select:none;">
             <input type="checkbox" id="adultCheck" onchange="toggleAdults()"> 
             Mostrar canales (+18)
         </label>
     </div>
 </div>
 
+<!-- Main Container -->
 <div id="mainContainer">
+    
+    <!-- Inicio / Cards View -->
     <div id="cardsView">
         <div id="heroSection">
-            <div id="heroBg" class="hero-bg-layer active"></div>
+            <div id="heroBg" class="hero-bg-layer"></div>
             <div class="hero-overlay">
-                <div id="heroContent" class="hero-content">
-                    <div class="hero-meta-capsule">
-                        <img id="heroLogo" class="hero-logo-img" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
-                        <div class="hero-text-group">
-                            <span id="heroChName" class="hero-ch-name">Nombre Canal</span>
-                            <span id="heroTime" class="hero-time">00:00 - 00:00</span>
-                        </div>
+                <div class="hero-live-badge-pulse">AHORA</div>
+                <div class="hero-meta-capsule" id="heroMetaCapsule">
+                    <img id="heroLogo" class="hero-logo-img" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="Logo">
+                    <div class="hero-text-group">
+                        <span id="heroChName" class="hero-ch-name">Cargando...</span>
                     </div>
-                    <h1 id="heroTitle" class="hero-title">Título</h1>
-                    <p id="heroDesc" class="hero-desc">Desc...</p>
+                </div>
+                <div id="heroContent" class="hero-content">
+                    <h1 id="heroTitle" class="hero-title">Cargando Guía...</h1>
+                    <p id="heroDesc" class="hero-desc">Buscando la información más actualizada para ti...</p>
                 </div>
                 <div class="hero-controls">
                     <button class="hero-btn" onclick="prevHero()">&#10094;</button>
@@ -363,18 +1590,32 @@
                 <div id="heroProgress" class="hero-progress-bar"></div>
             </div>
         </div>
+
+        <div class="destacados-header-row" style="display:flex; justify-content:space-between; align-items:center; padding: 25px 4% 5px 4%;">
+            <h2 style="margin:0; font-size:1.5rem; font-weight:800; color:white;">Canales Destacados</h2>
+            <div style="display:flex; align-items:center; gap:10px; color:var(--text-dim); font-size:0.9rem; user-select:none;">
+                <span>Mostrar Posters</span>
+                <label class="switch">
+                    <input type="checkbox" id="posterToggleCheck" onchange="togglePosterVisibility()">
+                    <span class="slider"></span>
+                </label>
+            </div>
+        </div>
+
         <div id="grid" class="grid">
-            <div id="loading">Cargando datos...</div>
+            <div id="loading">Inicializando base de datos...</div>
         </div>
     </div>
 
+    <!-- List View -->
     <div id="listView">
-        <div class="search-input-wrapper" style="margin-bottom: 20px;">
+        <div class="search-input-wrapper">
             <input type="text" id="listSearchInput" class="search-big-input" placeholder="Buscar canal por nombre o ID...">
         </div>
         <div id="listItemsContainer"></div>
     </div>
 
+    <!-- Search View (Canales & Programas Restaurados) -->
     <div id="searchView">
         <div class="search-input-wrapper">
             <input type="text" id="mainSearchInput" class="search-big-input" placeholder="¿Qué canal o programa buscas?">
@@ -384,62 +1625,46 @@
         </div>
     </div>
 
+    <!-- Directory / Channels View -->
     <div id="channelsView">
-        <div class="ch-selector-wrapper">
-            <input type="text" id="dirSearchInput" class="ch-search-bar" placeholder="Buscar canal específico...">
-            
-            <button class="ch-nav-btn ch-nav-up" onclick="scrollDirGrid(-1)">▲</button>
-            <div class="ch-grid-scroll" id="dirGridScroll">
-                <div class="ch-grid-inner" id="dirGridInner">
-                    </div>
+        <!-- Grid Selector View (When no channel is selected) -->
+        <div id="dirSelectorView" style="width: 100%;">
+            <div class="search-input-wrapper">
+                <input type="text" id="dirSearchInput" class="search-big-input" placeholder="Buscar canal por nombre...">
             </div>
-            <button class="ch-nav-btn ch-nav-down" onclick="scrollDirGrid(1)">▼</button>
+            <div id="dirGridInner" class="dir-grid-list"></div>
         </div>
 
-        <div class="dir-channel-header" id="dirChannelHeader" style="display:none;">
-            <img src="" id="dirHeaderLogo">
-            <h2 id="dirHeaderTitle">Programación</h2>
-        </div>
-
-        <div class="ch-date-tabs" id="dirDateTabs" style="display:none;">
-            </div>
-
-        <div class="ch-prog-list" id="dirProgList">
-            </div>
-    </div>
-</div>
-
-<div id="miniGuideModal" class="modal-overlay" onclick="closeModal(event, 'miniGuideModal')">
-    <div class="modal-content detail-content" style="max-height: auto;">
-        <div class="detail-body" style="margin-top: 0; padding-top: 25px;">
-            <div style="display:flex; align-items:center; gap: 15px; margin-bottom: 20px;">
-                <img id="mg-logo" src="" style="width:60px; height:60px; object-fit:contain; background:white; border-radius:8px; padding:4px;">
-                <div>
-                    <div id="mg-name" style="font-size:1.4rem; font-weight:bold; color:white;"></div>
-                </div>
+        <!-- Schedule View (When a channel is selected) -->
+        <div id="dirScheduleView" class="dir-centered-container" style="max-width: 800px; width: 100%; margin: 0 auto; display: none; flex-direction: column;">
+            <div class="dir-header-nav-row" style="display:flex; justify-content:center; align-items:center; gap:20px; margin-bottom: 20px; width:100%;">
+                <button class="btn-back-action" onclick="goBackToChannelList()" style="margin: 0; flex-shrink:0;">← Volver a Canales</button>
+                <input type="text" id="dirSearchInputActive" class="ch-search-bar" placeholder="Buscar otro canal..." style="max-width:300px; margin:0;">
             </div>
             
-            <div style="margin-bottom: 15px;">
-                <div style="color:var(--text-dim); font-size:0.85rem; margin-bottom:5px; text-transform:uppercase;">Ahora</div>
-                <div id="mg-now" style="background:rgba(0, 230, 118, 0.05); border-left:3px solid var(--accent); padding:10px; border-radius:6px;"></div>
+            <!-- Active search matching logos row -->
+            <div class="ch-grid-scroll" id="dirGridScrollActive" style="display:none; margin-top:-10px; margin-bottom:15px;">
+                <div class="ch-grid-inner" id="dirGridInnerActive"></div>
+            </div>
+            
+            <div class="dir-channel-header" id="dirChannelHeader">
+                <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" id="dirHeaderLogo" alt="Logo">
+                <h2 id="dirHeaderTitle">Programación</h2>
             </div>
 
-            <div style="margin-bottom: 25px;">
-                <div style="color:var(--text-dim); font-size:0.85rem; margin-bottom:5px; text-transform:uppercase;">A continuación</div>
-                <div id="mg-next" style="background:var(--bg-card); border-left:3px solid var(--text-dim); padding:10px; border-radius:6px;"></div>
-            </div>
+            <div class="ch-date-tabs" id="dirDateTabs" style="display:flex; justify-content:center; align-items:center; margin-bottom:22px; width:100%;"></div>
 
-            <button class="btn-small active" style="width:100%; padding:12px; font-size:1rem;" onclick="goToChannelFromMg()">Ver programación completa</button>
-            <button class="btn-small" style="width:100%; padding:12px; font-size:1rem; margin-top:10px;" onclick="closeDirect('miniGuideModal')">Cancelar</button>
+            <div class="ch-prog-list" id="dirProgList"></div>
         </div>
     </div>
 </div>
 
+<!-- Modal Detalle Completo -->
 <div id="detailModal" class="modal-overlay" onclick="closeModal(event, 'detailModal')">
     <div class="modal-content detail-content">
         <div class="detail-hero-container">
-            <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" id="d-img" class="detail-hero" onerror="this.src='data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7'" onclick="openImageViewer(this.src)">
-            <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" id="d-logo" class="detail-ch-logo" onclick="openImageViewer(this.src)">
+            <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" id="d-img" class="detail-hero" onerror="this.src='data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7'" onclick="openImageViewer(this.src)" alt="Show Backdrop">
+            <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" id="d-logo" class="detail-ch-logo" onclick="openImageViewer(this.src)" alt="Logo">
             <button class="btn-back-action btn-back-popup" onclick="closeDirect('detailModal')">← Volver</button>
         </div>
         <div class="detail-body">
@@ -451,22 +1676,344 @@
     </div>
 </div>
 
+<!-- Modal Mini Guía (Lista) -->
+<div id="miniGuideModal" class="modal-overlay" onclick="closeModal(event, 'miniGuideModal')">
+    <div class="modal-content mini-guide-content" style="max-width: 500px; height: auto; max-height: 90vh; padding: 25px; display:flex; flex-direction:column;">
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom: 20px; border-bottom:1px solid var(--border-color); padding-bottom: 15px;">
+            <div style="display:flex; align-items:center; gap:12px;">
+                <img id="mg-logo" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" style="width:40px; height:40px; object-fit:contain; background:white; border-radius:6px; padding:3px;" alt="Logo">
+                <h3 id="mg-channel-name" style="margin:0; font-weight:800; font-size:1.25rem; color:white;">Canal</h3>
+            </div>
+            <button class="btn-small active" id="mg-full-guide-btn">Guía Completa</button>
+        </div>
+        <div id="mg-list" style="display:flex; flex-direction:column; gap:10px; margin-bottom: 20px;"></div>
+        <button class="btn-back-action" onclick="closeDirect('miniGuideModal')" style="width:100%; justify-content:center; margin:0;">Cerrar</button>
+    </div>
+</div>
+
 <script>
-    const CORS_PROXY = "https://api.allorigins.win/raw?url=";
+    // Constants
     const DEFAULT_EPG_URL = "https://puticastillo.github.io/EPGCL/vilma/public/guia-de-programacion.xml";
-    
-    let state = { allChannels: [], visibleIds: new Set(), sort: 'original', showAdult: false, search: '', listSearch: '', viewMode: 'cards', targetCardCount: 12, displayedRandomIds: [] };
-    let dirState = { selectedChannelId: null, dateOffset: 0, search: '' };
-    let heroState = { list: [], currentIndex: 0, interval: null, isPlaying: true, duration: 8000 };
     const EMPTY_IMG = "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7";
 
-    // --- SANITIZACIÓN ---
+    // Intersection Observer to unload off-screen logos to boost scroll speed and release GPU memory
+    const logoObserver = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            const img = entry.target.querySelector('img');
+            if (!img) return;
+            if (entry.isIntersecting) {
+                const actualSrc = entry.target.getAttribute('data-src');
+                if (actualSrc && img.src !== actualSrc) {
+                    img.src = actualSrc;
+                }
+            } else {
+                if (img.src !== EMPTY_IMG) {
+                    img.src = EMPTY_IMG;
+                }
+            }
+        });
+    }, { rootMargin: '200px 0px 200px 0px' });
+
+    // Compare function for YXXX channel ID order
+    function compareYXXX(a, b) {
+        const idA = a.id;
+        const idB = b.id;
+        
+        const baseAStr = idA.substring(Math.max(0, idA.length - 3));
+        const variantAStr = idA.substring(0, Math.max(0, idA.length - 3));
+        
+        const baseBStr = idB.substring(Math.max(0, idB.length - 3));
+        const variantBStr = idB.substring(0, Math.max(0, idB.length - 3));
+        
+        const baseA = parseInt(baseAStr, 10);
+        const baseB = parseInt(baseBStr, 10);
+        const variantA = parseInt(variantAStr, 10);
+        const variantB = parseInt(variantBStr, 10);
+        
+        if (!isNaN(baseA) && !isNaN(baseB)) {
+            if (baseA !== baseB) {
+                return baseA - baseB;
+            }
+            if (!isNaN(variantA) && !isNaN(variantB)) {
+                return variantA - variantB;
+            }
+        }
+        return idA.localeCompare(idB);
+    }
+    
+    // IndexedDB setup
+    const DB_NAME = 'EPGCL_Visor_DB';
+    const DB_VERSION = 1;
+    const STORE_NAME = 'epg_cache';
+
+    function getDB() {
+        return new Promise((resolve, reject) => {
+            const request = indexedDB.open(DB_NAME, DB_VERSION);
+            request.onupgradeneeded = (e) => {
+                const db = e.target.result;
+                if (!db.objectStoreNames.contains(STORE_NAME)) {
+                    db.createObjectStore(STORE_NAME);
+                }
+            };
+            request.onsuccess = (e) => resolve(e.target.result);
+            request.onerror = (e) => reject(e.target.error);
+        });
+    }
+
+    async function dbGet(key) {
+        try {
+            const db = await getDB();
+            return new Promise((resolve, reject) => {
+                const tx = db.transaction(STORE_NAME, 'readonly');
+                const store = tx.objectStore(STORE_NAME);
+                const request = store.get(key);
+                request.onsuccess = () => resolve(request.result);
+                request.onerror = () => reject(request.error);
+            });
+        } catch (e) {
+            console.error("IndexedDB Get Error:", e);
+            return null;
+        }
+    }
+
+    async function dbSet(key, value) {
+        try {
+            const db = await getDB();
+            return new Promise((resolve, reject) => {
+                const tx = db.transaction(STORE_NAME, 'readwrite');
+                const store = tx.objectStore(STORE_NAME);
+                const request = store.put(value, key);
+                request.onsuccess = () => resolve();
+                request.onerror = () => reject(request.error);
+            });
+        } catch (e) {
+            console.error("IndexedDB Set Error:", e);
+        }
+    }
+
+    // App State
+    let state = { 
+        allChannels: [], 
+        visibleIds: new Set(), 
+        sort: 'original', 
+        showAdult: false, 
+        search: '', 
+        listSearch: '', 
+        viewMode: 'cards', 
+        targetCardCount: 12, 
+        displayedRandomIds: [],
+        perfTime: 0
+    };
+    
+    let dirState = { selectedChannelId: null, dateOffset: 0, search: '' };
+    let heroState = { list: [], currentIndex: 0, interval: null, isPlaying: true, duration: 8000 };
+    let searchDebounceTimer = null;
+
+    // --- Web Worker Inline Code ---
+    const workerCode = `
+        self.onmessage = function(e) {
+            const { xmlText, cutOffTime } = e.data;
+            try {
+                const parsed = parseXMLTV(xmlText, cutOffTime);
+                self.postMessage({ success: true, channels: parsed });
+            } catch (error) {
+                self.postMessage({ success: false, error: error.message });
+            }
+        };
+
+        function cleanStr(str) { 
+            if(!str) return ""; 
+            return str.toLowerCase()
+                .normalize("NFD")
+                .replace(/[\\\\u0300-\\\\u036f]/g, "")
+                .replace(/[^a-z0-9\\\\s]/g, "")
+                .replace(/\\\\s+/g, " ")
+                .trim(); 
+        }
+
+        function parseXmltvDate(s) {
+            const year = parseInt(s.substring(0, 4), 10);
+            const month = parseInt(s.substring(4, 6), 10) - 1;
+            const day = parseInt(s.substring(6, 8), 10);
+            const hour = parseInt(s.substring(8, 10), 10);
+            const min = parseInt(s.substring(10, 12), 10);
+            const sec = parseInt(s.substring(12, 14), 10) || 0;
+            
+            let offsetMinutes = 0;
+            if (s.length >= 20) {
+                const sign = s.charAt(15) === '-' ? -1 : 1;
+                const offsetHours = parseInt(s.substring(16, 18), 10);
+                const offsetMins = parseInt(s.substring(18, 20), 10);
+                offsetMinutes = sign * (offsetHours * 60 + offsetMins);
+            }
+            
+            const utcDate = Date.UTC(year, month, day, hour, min, sec);
+            return new Date(utcDate - offsetMinutes * 60 * 1000);
+        }
+
+        function decodeEntities(str) {
+            if (!str) return "";
+            return str
+                .replace(/&amp;/g, "&")
+                .replace(/&lt;/g, "<")
+                .replace(/&gt;/g, ">")
+                .replace(/&quot;/g, '"')
+                .replace(/&apos;/g, "'")
+                .replace(/&#39;/g, "'")
+                .replace(/&#x27;/g, "'");
+        }
+
+        function cleanText(text) {
+            if (!text) return "";
+            text = text.replace(/<!\\[CDATA\\[([\\s\\S]*?)\\]\\]>/g, "$1");
+            return decodeEntities(text).trim();
+        }
+
+        function parseXMLTV(xmlStr, cutOffTime) {
+            const channelsMap = {};
+            let pos = 0;
+            const dateCutoff = new Date(cutOffTime);
+            
+            // Scan channels
+            let chIndex = 0;
+            while (true) {
+                let startIdx = xmlStr.indexOf("<channel ", pos);
+                if (startIdx === -1) break;
+                let endIdx = xmlStr.indexOf("</channel>", startIdx);
+                if (endIdx === -1) break;
+                
+                const channelXml = xmlStr.substring(startIdx, endIdx + 10);
+                pos = endIdx + 10;
+                
+                const idMatch = channelXml.match(/id="([^"]+)"/);
+                if (!idMatch) continue;
+                const id = idMatch[1];
+                if (id.startsWith('000')) continue;
+                
+                const nameMatch = channelXml.match(/<display-name[^>]*>([\\\\s\\\\S]*?)<\\\\/display-name>/);
+                const name = nameMatch ? cleanText(nameMatch[1]) : id;
+                
+                const iconMatch = channelXml.match(/<icon src="([^"]+)"/);
+                const icon = iconMatch ? iconMatch[1].trim() : "";
+                
+                const isAdult = id.toLowerCase().startsWith('xxx');
+                
+                channelsMap[id] = {
+                    id,
+                    name,
+                    cleanName: cleanStr(name),
+                    icon,
+                    isAdult,
+                    index: chIndex++,
+                    programs: []
+                };
+            }
+            
+            // Scan programmes
+            pos = 0;
+            while (true) {
+                let startIdx = xmlStr.indexOf("<programme ", pos);
+                if (startIdx === -1) break;
+                let endIdx = xmlStr.indexOf("</programme>", startIdx);
+                if (endIdx === -1) break;
+                
+                const progXml = xmlStr.substring(startIdx, endIdx + 12);
+                pos = endIdx + 12;
+                
+                const chMatch = progXml.match(/channel="([^"]+)"/);
+                if (!chMatch) continue;
+                const chId = chMatch[1];
+                if (!channelsMap[chId]) continue;
+                
+                const startMatch = progXml.match(/start="([^"]+)"/);
+                const stopMatch = progXml.match(/stop="([^"]+)"/);
+                if (!startMatch || !stopMatch) continue;
+                
+                const stopDate = parseXmltvDate(stopMatch[1]);
+                if (stopDate <= dateCutoff) continue;
+                
+                const startDate = parseXmltvDate(startMatch[1]);
+                
+                const titleMatch = progXml.match(/<title[^>]*>([\\\\s\\\\S]*?)<\\\\/title>/);
+                const title = titleMatch ? cleanText(titleMatch[1]) : 'Sin Título';
+                
+                const descMatch = progXml.match(/<desc[^>]*>([\\\\s\\\\S]*?)<\\\\/desc>/);
+                const desc = descMatch ? cleanText(descMatch[1]) : '';
+                
+                const iconMatch = progXml.match(/<icon src="([^"]+)"/);
+                const icon = iconMatch ? iconMatch[1].trim() : '';
+                
+                channelsMap[chId].programs.push({
+                    title,
+                    cleanTitle: cleanStr(title),
+                    desc,
+                    cleanDesc: cleanStr(desc),
+                    start: startDate.getTime(),
+                    stop: stopDate.getTime(),
+                    icon
+                });
+            }
+            
+            const channels = Object.values(channelsMap).filter(ch => ch.programs.length > 0);
+            channels.forEach((ch) => {
+                ch.programs.sort((a, b) => a.start - b.start);
+            });
+            
+            return channels;
+        }
+    `;
+
+    // Progressive rendering manager
+    const activeProgressiveRenders = new Map();
+    function renderProgressive(containerId, items, renderItemFn, chunkSize = 15) {
+        const container = document.getElementById(containerId);
+        if (!container) return;
+        
+        if (activeProgressiveRenders.has(containerId)) {
+            cancelAnimationFrame(activeProgressiveRenders.get(containerId));
+            activeProgressiveRenders.delete(containerId);
+        }
+        
+        container.innerHTML = '';
+        if (items.length === 0) {
+            if (containerId === 'dirGridInner') {
+                container.innerHTML = '<div style="color:var(--text-dim); padding:10px;">Sin resultados</div>';
+            } else if (containerId === 'listItemsContainer') {
+                container.innerHTML = '<div id="loading">Sin resultados</div>';
+            } else if (containerId === 'searchResults') {
+                container.innerHTML = '<div style="color:var(--text-dim); text-align:center; padding: 40px;">No se encontraron resultados.</div>';
+            } else {
+                container.innerHTML = '<div id="loading">Sin resultados</div>';
+            }
+            return;
+        }
+        
+        let index = 0;
+        function renderNextChunk() {
+            const limit = Math.min(index + chunkSize, items.length);
+            const fragment = document.createDocumentFragment();
+            for (; index < limit; index++) {
+                const el = renderItemFn(items[index]);
+                if (el) fragment.appendChild(el);
+            }
+            container.appendChild(fragment);
+            
+            if (index < items.length) {
+                const animId = requestAnimationFrame(renderNextChunk);
+                activeProgressiveRenders.set(containerId, animId);
+            } else {
+                activeProgressiveRenders.delete(containerId);
+            }
+        }
+        renderNextChunk();
+    }
+
+    // --- Helper Functions ---
     function getValidImg(url) {
         if (!url || typeof url !== 'string' || url.trim() === '') return EMPTY_IMG;
         return url.trim();
     }
 
-    // --- FORMATEO DE DESCRIPCIÓN GLOBAL (LIMPIADOR) ---
     function formatDesc(desc) {
         if (!desc) return "Sin descripción disponible.";
         let d = desc;
@@ -478,24 +2025,24 @@
         return d.trim() || "Sin descripción disponible.";
     }
 
-    // --- BÚSQUEDA FUZZY ---
-    function cleanStr(str) { if(!str) return ""; return str.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/[^a-z0-9]/g, ""); }
-    function fuzzyMatch(text, search) {
-        if (!text || !search) return false;
-        const tClean = text.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/[^a-z0-9]/g, "");
-        const sClean = search.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/[^a-z0-9]/g, "");
-        if (tClean.includes(sClean)) return true;
-        const sWords = search.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/[^a-z0-9]+/g, " ").trim().split(/\s+/);
-        if (sWords.length === 0 || sWords[0] === "") return false;
-        let tempText = tClean;
-        return sWords.every(w => {
-            const idx = tempText.indexOf(w);
-            if (idx !== -1) { tempText = tempText.slice(0, idx) + tempText.slice(idx + w.length); return true; }
-            return false;
-        });
+    function cleanStr(str) { 
+        if(!str) return ""; 
+        return str.toLowerCase()
+            .normalize("NFD")
+            .replace(/[\u0300-\u036f]/g, "")
+            .replace(/[^a-z0-9\s]/g, "")
+            .replace(/\s+/g, " ")
+            .trim(); 
     }
 
-    // --- LÓGICA DÍA TELEVISIVO (06:00 a 05:59) ---
+    function fuzzyMatchPreCleaned(cleanText, searchWords) {
+        if (!cleanText || searchWords.length === 0) return false;
+        for (let i = 0; i < searchWords.length; i++) {
+            if (!cleanText.includes(searchWords[i])) return false;
+        }
+        return true;
+    }
+
     function getTvDayStart(dateObj) {
         let d = new Date(dateObj);
         if (d.getHours() < 6) d.setDate(d.getDate() - 1);
@@ -503,7 +2050,6 @@
         return d;
     }
 
-    // --- UTILIDADES ---
     function processTitle(rawTitle) {
         if (!rawTitle) return { main: 'Sin Título', extra: '' };
         const parts = rawTitle.split('•');
@@ -543,40 +2089,352 @@
         
         let dateString = p.start.toLocaleDateString('es-ES', { weekday: 'long', day: 'numeric', month: 'long' }).replace(',', '');
         dateString = dateString.charAt(0).toUpperCase() + dateString.slice(1);
-        const timeString = p.start.toLocaleTimeString('es-ES', {hour:'2-digit', minute:'2-digit', hour12: false});
+        const timeString = formatTime(p.start);
         
         return `${prefix}${dateString} en ${channelName} a las ${timeString}`;
     }
 
-    function parseDate(s) {
-        if(!s) return new Date();
-        const match = s.match(/^(\d{4})(\d{2})(\d{2})(\d{2})(\d{2})(\d{2})?\s*([+-]\d{4})?/);
-        if(!match) return new Date();
-        let iso = `${match[1]}-${match[2]}-${match[3]}T${match[4]}:${match[5]}:${match[6] || '00'}`;
-        if(match[7]) { iso += match[7].substring(0,3) + ':' + match[7].substring(3); }
-        const d = new Date(iso); return isNaN(d.getTime()) ? new Date() : d;
+    function formatTime(d) { 
+        return d.toLocaleTimeString('es-ES', {hour:'2-digit', minute:'2-digit', hour12: false}); 
     }
-    function formatTime(d) { return d.toLocaleTimeString('es-ES', {hour:'2-digit', minute:'2-digit', hour12: false}); }
+
     function openImageViewer(src) {
         if(!src || src === EMPTY_IMG) return;
         document.getElementById('fullSizeImage').src = src;
         document.getElementById('imageViewModal').style.display = 'flex';
     }
 
-    // --- CÁLCULO GRILLA ---
+    // --- Loading & Parsing Logic ---
+    async function loadEPG() {
+        const startTime = performance.now();
+        const savedUrl = localStorage.getItem('epg_url') || DEFAULT_EPG_URL;
+        document.getElementById('urlInput').value = savedUrl;
+        
+        showLoader("Buscando guía guardada...");
+        
+        try {
+            const cached = await dbGet('parsed_epg');
+            const lastFetched = await dbGet('last_fetched_time');
+            
+            let needsFetch = false;
+            if (!cached || !lastFetched) {
+                needsFetch = true;
+            } else {
+                // Restore dates and pre-cleaned fields
+                state.allChannels = restoreCachedData(cached);
+                state.visibleIds = new Set(state.allChannels.map(ch => ch.id));
+                
+                const now = new Date();
+                const lastFetchedDate = new Date(lastFetched);
+                
+                // Revalidation check:
+                // 1. More than 4 hours old
+                const hoursDiff = (now - lastFetchedDate) / (1000 * 60 * 60);
+                if (hoursDiff >= 4) {
+                    needsFetch = true;
+                } else {
+                    // 2. Custom 8:30 AM check (XML updates around 8:20 AM)
+                    const limitToday = new Date(now);
+                    limitToday.setHours(8, 30, 0, 0);
+                    if (now > limitToday && lastFetchedDate < limitToday) {
+                        needsFetch = true;
+                    }
+                }
+            }
+            
+            if (state.allChannels.length > 0) {
+                setupEPGData();
+                hideLoader();
+                state.perfTime = performance.now() - startTime;
+                updatePerfBadge(true);
+            }
+            
+            if (needsFetch) {
+                if (state.allChannels.length === 0) {
+                    showLoader("Descargando guía EPG (24MB)...");
+                }
+                fetchNewEPG(savedUrl);
+            }
+        } catch (e) {
+            console.error("Cache initialization failed. Loading directly...", e);
+            fetchNewEPG(savedUrl);
+        }
+    }
+
+    function restoreCachedData(channels) {
+        const now = new Date();
+        const cutOff = getTvDayStart(now);
+        
+        return channels.map(ch => {
+            if (!ch.cleanName) {
+                ch.cleanName = cleanStr(ch.name);
+            }
+            
+            const progs = ch.programs.map(p => {
+                if (!p.cleanTitle) p.cleanTitle = cleanStr(p.title);
+                if (!p.cleanDesc) p.cleanDesc = cleanStr(p.desc);
+                return {
+                    ...p,
+                    start: new Date(p.start),
+                    stop: new Date(p.stop)
+                };
+            }).filter(p => p.stop > cutOff); // Extra safety filter for local days offset
+            
+            const current = progs.find(p => p.start <= now && p.stop > now) || progs.find(p => p.start > now);
+            
+            return {
+                ...ch,
+                programs: progs,
+                current: current
+            };
+        }).filter(ch => ch.programs.length > 0);
+    }
+
+    async function fetchNewEPG(urlRaw) {
+        const startTime = performance.now();
+        const proxies = [ "", "https://api.allorigins.win/raw?url=", "https://corsproxy.io/?url=", "https://api.codetabs.com/v1/proxy?quest=" ];
+        let success = false; 
+        let xmlText = "";
+        
+        // Add If-Modified-Since header if cached headers exist
+        const cachedLastMod = await dbGet('xml_last_mod');
+        const headers = {};
+        if (cachedLastMod && urlRaw === DEFAULT_EPG_URL) {
+            headers['If-Modified-Since'] = cachedLastMod;
+        }
+
+        for (let proxy of proxies) {
+            try {
+                // If it's a proxy, headers might block or fail, so only direct gets them
+                const targetUrl = proxy ? proxy + encodeURIComponent(urlRaw) : urlRaw;
+                const fetchOpts = proxy ? {} : { headers };
+                
+                const resp = await fetch(targetUrl, fetchOpts);
+                
+                if (resp.status === 304) {
+                    console.log("EPG unchanged on server (304 Not Modified).");
+                    await dbSet('last_fetched_time', Date.now());
+                    hideLoader();
+                    success = true;
+                    state.perfTime = performance.now() - startTime;
+                    updatePerfBadge(true);
+                    break;
+                }
+                
+                if (resp.ok) {
+                    const etag = resp.headers.get('ETag');
+                    const lastMod = resp.headers.get('Last-Modified');
+                    
+                    const cachedEtag = await dbGet('xml_etag');
+                    if (etag && etag === cachedEtag && state.allChannels.length > 0) {
+                        console.log("EPG unchanged (matched ETag). Skipping parse.");
+                        await dbSet('last_fetched_time', Date.now());
+                        hideLoader();
+                        success = true;
+                        state.perfTime = performance.now() - startTime;
+                        updatePerfBadge(true);
+                        break;
+                    }
+                    
+                    xmlText = await resp.text();
+                    if (xmlText.includes('<?xml') || xmlText.includes('<tv')) {
+                        if (etag) await dbSet('xml_etag', etag);
+                        if (lastMod) await dbSet('xml_last_mod', lastMod);
+                        
+                        showLoader("Procesando datos en segundo plano...");
+                        parseXMLWithWorker(xmlText, startTime);
+                        success = true;
+                        break;
+                    }
+                }
+            } catch (e) { 
+                console.warn("Proxy connection failed: " + proxy); 
+            }
+        }
+        
+        if (!success) {
+            hideLoader();
+            if (state.allChannels.length === 0) {
+                const errorMsg = `<div id="loading" style="color:var(--accent)">Error al cargar la guía. Revisa la URL en configuración.</div>`;
+                document.getElementById('grid').innerHTML = errorMsg; 
+                document.getElementById('listItemsContainer').innerHTML = errorMsg;
+            }
+        }
+    }
+
+    function parseXMLWithWorker(xmlStr, startTime) {
+        const cutOffTime = getTvDayStart(new Date()).getTime();
+        
+        // Try creating a Worker
+        try {
+            const blob = new Blob([workerCode], { type: 'application/javascript' });
+            const workerURL = URL.createObjectURL(blob);
+            const worker = new Worker(workerURL);
+            
+            worker.onmessage = function(e) {
+                const { success, channels, error } = e.data;
+                worker.terminate();
+                URL.revokeObjectURL(workerURL);
+                
+                if (success) {
+                    processWorkerResult(channels, startTime);
+                } else {
+                    console.error("Worker Parsing Error:", error);
+                    fallbackParseXML(xmlStr, startTime);
+                }
+            };
+            
+            worker.postMessage({ xmlText: xmlStr, cutOffTime });
+        } catch (e) {
+            console.warn("Web Worker blocked or not supported. Falling back to main thread...", e);
+            fallbackParseXML(xmlStr, startTime);
+        }
+    }
+
+    function fallbackParseXML(xmlStr, startTime) {
+        // Simple main-thread parser using DOMParser
+        try {
+            const parser = new DOMParser(); 
+            const xml = parser.parseFromString(xmlStr, "text/xml");
+            const chNodes = xml.getElementsByTagName('channel');
+            if (chNodes.length === 0) throw new Error("Format error");
+            
+            const now = new Date(); 
+            const channelsMap = {}; 
+            let index = 0;
+            
+            for(let ch of chNodes) {
+                const id = ch.getAttribute('id');
+                if (id.startsWith('000')) continue;
+                const name = ch.getElementsByTagName('display-name')[0]?.textContent || id;
+                const icon = ch.getElementsByTagName('icon')[0]?.getAttribute('src') || '';
+                const isAdult = id.toLowerCase().startsWith('xxx');
+                channelsMap[id] = { id, name, cleanName: cleanStr(name), icon, isAdult, index: index++, programs: [] };
+            }
+            
+            const progNodes = xml.getElementsByTagName('programme');
+            const cutOff = getTvDayStart(now);
+            
+            for(let p of progNodes) {
+                const chId = p.getAttribute('channel'); 
+                if(!channelsMap[chId]) continue;
+                
+                // Fast date parser fallback
+                const startStr = p.getAttribute('start');
+                const stopStr = p.getAttribute('stop');
+                
+                const start = parseDateFallback(startStr);
+                const stop = parseDateFallback(stopStr);
+                
+                if(stop <= cutOff) continue;
+                const titleRaw = p.getElementsByTagName('title')[0]?.textContent || 'Sin Título';
+                const desc = p.getElementsByTagName('desc')[0]?.textContent || '';
+                const icon = p.getElementsByTagName('icon')[0]?.getAttribute('src') || '';
+                channelsMap[chId].programs.push({ title: titleRaw, cleanTitle: cleanStr(titleRaw), desc, cleanDesc: cleanStr(desc), start: start.getTime(), stop: stop.getTime(), icon });
+            }
+            
+            const parsedChannels = Object.values(channelsMap).filter(ch => ch.programs.length > 0);
+            parsedChannels.forEach(ch => {
+                ch.programs.sort((a,b) => a.start - b.start);
+            });
+            
+            processWorkerResult(parsedChannels, startTime);
+        } catch (err) {
+            console.error("DOMParser fallback failed too:", err);
+            hideLoader();
+        }
+    }
+
+    function parseDateFallback(s) {
+        if(!s) return new Date();
+        const match = s.match(/^(\d{4})(\d{2})(\d{2})(\d{2})(\d{2})(\d{2})?\s*([+-]\d{4})?/);
+        if(!match) return new Date();
+        let iso = `${match[1]}-${match[2]}-${match[3]}T${match[4]}:${match[5]}:${match[6] || '00'}`;
+        if(match[7]) { iso += match[7].substring(0,3) + ':' + match[7].substring(3); }
+        const d = new Date(iso); 
+        return isNaN(d.getTime()) ? new Date() : d;
+    }
+
+    async function processWorkerResult(parsedChannels, startTime) {
+        // Convert programs start/stop timestamps into full Date objects
+        const now = new Date();
+        state.allChannels = parsedChannels.map(ch => {
+            const progs = ch.programs.map(p => ({
+                ...p,
+                start: new Date(p.start),
+                stop: new Date(p.stop)
+            }));
+            
+            const current = progs.find(p => p.start <= now && p.stop > now) || progs.find(p => p.start > now);
+            
+            return {
+                ...ch,
+                programs: progs,
+                current: current
+            };
+        });
+        
+        state.visibleIds = new Set(state.allChannels.map(ch => ch.id));
+        
+        // Cache parsed channel data into IndexedDB (as pure JSON values with timestamps)
+        const toCache = state.allChannels.map(ch => ({
+            id: ch.id,
+            name: ch.name,
+            cleanName: ch.cleanName,
+            icon: ch.icon,
+            isAdult: ch.isAdult,
+            index: ch.index,
+            programs: ch.programs.map(p => ({
+                title: p.title,
+                cleanTitle: p.cleanTitle,
+                desc: p.desc,
+                cleanDesc: p.cleanDesc,
+                start: p.start.getTime(),
+                stop: p.stop.getTime(),
+                icon: p.icon
+            }))
+        }));
+        
+        await dbSet('parsed_epg', toCache);
+        await dbSet('last_fetched_time', Date.now());
+        
+        setupEPGData();
+        hideLoader();
+        
+        state.perfTime = performance.now() - startTime;
+        updatePerfBadge(false);
+    }
+
+    function setupEPGData() {
+        calculatePerfectGridSize();
+        if(state.displayedRandomIds.length === 0) refreshRandomCards(); 
+        initHero();
+        renderCurrentView();
+    }
+
+    function updatePerfBadge(fromCache) {
+        const badge = document.getElementById('perfBadge');
+        if (badge) {
+            badge.style.display = 'inline-block';
+            badge.innerText = `${fromCache ? 'Caché' : 'Parsed'}: ${state.perfTime.toFixed(0)}ms`;
+        }
+    }
+
+    // --- Grid Calculations ---
     function calculatePerfectGridSize() {
         if (state.viewMode !== 'cards') return;
         const grid = document.getElementById('grid');
         if (!grid || grid.offsetWidth === 0) return;
         const colsStr = window.getComputedStyle(grid).gridTemplateColumns;
-        let cols = 1; if (colsStr && colsStr !== 'none') cols = colsStr.split(' ').length;
+        let cols = 1; 
+        if (colsStr && colsStr !== 'none') cols = colsStr.split(' ').length;
         
         let rows = Math.round(12 / cols);
         if (rows < 2) rows = 2; 
         if (cols === 1) rows = 8; 
         
         let perfectCount = cols * rows;
-        const validChannelsCount = [...state.allChannels].filter(ch => state.visibleIds.has(ch.id) && (!ch.isAdult || state.showAdult)).length;
+        const validChannelsCount = state.allChannels.filter(ch => state.visibleIds.has(ch.id) && (!ch.isAdult || state.showAdult)).length;
         if (validChannelsCount < perfectCount) {
              let maxPossibleRows = Math.floor(validChannelsCount / cols);
              perfectCount = maxPossibleRows * cols;
@@ -592,7 +2450,7 @@
     function refreshRandomCards() {
         const fixedIds = ['0104', '0105', '0106', '0107', '0401'];
         const poolIds = ['0102', '0103', '0108', '0109', '0110', '0111', '0112', '0113', '0114', '0115', '0117', '0121', '0153', '0201', '0202', '0203', '0207', '0208', '0214', '0301', '0313', '0314'];
-        const validIds = new Set( state.allChannels.filter(ch => state.visibleIds.has(ch.id) && (!ch.isAdult || state.showAdult)).map(ch => ch.id) );
+        const validIds = new Set(state.allChannels.filter(ch => state.visibleIds.has(ch.id) && (!ch.isAdult || state.showAdult)).map(ch => ch.id));
 
         const availableFixed = fixedIds.filter(id => validIds.has(id));
         const availablePool = poolIds.filter(id => validIds.has(id));
@@ -610,164 +2468,7 @@
         state.displayedRandomIds = finalIds;
     }
 
-    // --- INICIALIZACIÓN ---
-    document.addEventListener('DOMContentLoaded', () => {
-        const savedUrl = localStorage.getItem('epg_url');
-        document.getElementById('urlInput').value = savedUrl || DEFAULT_EPG_URL;
-        loadEPG();
-        
-        setInterval(() => { 
-            if(!state.search) {
-                const container = document.getElementById('mainContainer');
-                const mainScrollPos = container.scrollTop;
-                
-                let dirScrollPos = 0;
-                if(state.viewMode === 'directory') {
-                    const dirScroll = document.getElementById('dirGridScroll');
-                    if(dirScroll) dirScrollPos = dirScroll.scrollTop;
-                }
-                
-                renderCurrentView(true); 
-                
-                setTimeout(() => { 
-                    container.scrollTop = mainScrollPos; 
-                    if(state.viewMode === 'directory') {
-                        const dirScroll = document.getElementById('dirGridScroll');
-                        if(dirScroll) dirScroll.scrollTop = dirScrollPos;
-                    }
-                }, 0); 
-            }
-        }, 60000);
-
-        setInterval(() => { loadEPG(); }, 43200000);
-        
-        document.getElementById('mainSearchInput').addEventListener('input', (e) => {
-            state.search = e.target.value; 
-            renderSearch();
-        });
-
-        document.getElementById('dirSearchInput').addEventListener('input', (e) => {
-            dirState.search = e.target.value; 
-            renderDirGrid();
-        });
-
-        document.getElementById('listSearchInput').addEventListener('input', (e) => {
-            state.listSearch = e.target.value; 
-            renderList();
-        });
-
-        let resizeTimer;
-        window.addEventListener('resize', () => {
-            clearTimeout(resizeTimer);
-            resizeTimer = setTimeout(() => {
-                if (state.viewMode === 'cards') calculatePerfectGridSize();
-            }, 250); 
-        });
-    });
-
-    function toggleConfig() { 
-        const p = document.getElementById('configPanel'); 
-        p.style.display = p.style.display === 'block' ? 'none' : 'block'; 
-        document.getElementById('urlConfigSection').style.display = 'none'; 
-    }
-    function toggleUrlSection() {
-        const sec = document.getElementById('urlConfigSection');
-        sec.style.display = sec.style.display === 'none' ? 'flex' : 'none';
-    }
-    function showLoader() { document.getElementById('globalLoader').style.display = 'flex'; }
-    function hideLoader() { document.getElementById('globalLoader').style.display = 'none'; }
-
-    function manualLoadEPG() {
-        const urlRaw = document.getElementById('urlInput').value.trim();
-        if(!urlRaw) return;
-        localStorage.setItem('epg_url', urlRaw); 
-        executeReload();
-    }
-    function loadDefaultEPG() {
-        document.getElementById('urlInput').value = DEFAULT_EPG_URL;
-        localStorage.setItem('epg_url', DEFAULT_EPG_URL);
-        executeReload();
-    }
-
-    function executeReload() {
-        showLoader();
-        state.visibleIds.clear(); state.allChannels = []; heroState.list = []; state.displayedRandomIds = []; state.search = ''; state.listSearch = '';
-        document.getElementById('mainSearchInput').value = '';
-        document.getElementById('listSearchInput').value = '';
-        document.getElementById('configPanel').style.display = 'none';
-        loadEPG();
-    }
-
-    async function loadEPG() {
-        const urlRaw = document.getElementById('urlInput').value;
-        if(state.allChannels.length === 0) {
-            document.getElementById('grid').innerHTML = ''; document.getElementById('listItemsContainer').innerHTML = ''; showLoader();
-        }
-        const proxies = [ "", "https://api.allorigins.win/raw?url=", "https://corsproxy.io/?url=", "https://api.codetabs.com/v1/proxy?quest=" ];
-        let success = false; let xmlText = "";
-        for (let proxy of proxies) {
-            try {
-                const targetUrl = proxy ? proxy + encodeURIComponent(urlRaw) : urlRaw;
-                const resp = await fetch(targetUrl);
-                if (resp.ok) {
-                    xmlText = await resp.text();
-                    if(xmlText.includes('<?xml') || xmlText.includes('<tv')) { success = true; break; }
-                }
-            } catch (e) { console.warn("Fallo con proxy: " + proxy); }
-        }
-        if (success && xmlText) {
-            try { parseXML(xmlText); hideLoader(); return; } catch(e) { console.error("Error procesando XML:", e); }
-        }
-        hideLoader();
-        const errorMsg = `<div id="loading" style="color:var(--accent)">Error al cargar la URL. Asegúrate de que el enlace sea válido y público.</div>`;
-        document.getElementById('grid').innerHTML = errorMsg; document.getElementById('listItemsContainer').innerHTML = errorMsg;
-    }
-
-    function parseXML(xmlStr) {
-        const parser = new DOMParser(); const xml = parser.parseFromString(xmlStr, "text/xml");
-        const chNodes = xml.getElementsByTagName('channel');
-        if(chNodes.length === 0) throw new Error("No hay canales en el XML");
-        const now = new Date(); const channelsMap = {}; let index = 0;
-        
-        for(let ch of chNodes) {
-            const id = ch.getAttribute('id');
-            if (id.toString().startsWith('000')) continue;
-            const name = ch.getElementsByTagName('display-name')[0]?.textContent || id;
-            const icon = ch.getElementsByTagName('icon')[0]?.getAttribute('src') || '';
-            const isAdult = id.toLowerCase().startsWith('xxx');
-            channelsMap[id] = { id, name, icon, isAdult, index: index++, programs: [] };
-        }
-        
-        const progNodes = xml.getElementsByTagName('programme');
-        const cutOff = getTvDayStart(now); 
-        
-        for(let p of progNodes) {
-            const chId = p.getAttribute('channel'); if(!channelsMap[chId]) continue;
-            const start = parseDate(p.getAttribute('start')); const stop = parseDate(p.getAttribute('stop'));
-            if(stop <= cutOff) continue;
-            const titleRaw = p.getElementsByTagName('title')[0]?.textContent || 'Sin Título';
-            const desc = p.getElementsByTagName('desc')[0]?.textContent || '';
-            const icon = p.getElementsByTagName('icon')[0]?.getAttribute('src') || '';
-            channelsMap[chId].programs.push({ title: titleRaw, desc, start, stop, icon });
-        }
-        
-        state.allChannels = Object.values(channelsMap).map(ch => {
-            ch.programs.sort((a,b) => a.start - b.start);
-            ch.current = ch.programs.find(p => p.start <= new Date() && p.stop > new Date()) || ch.programs.find(p => p.start > new Date());
-            return ch;
-        }).filter(ch => ch.programs.length > 0);
-        
-        if(state.visibleIds.size === 0) state.allChannels.forEach(ch => state.visibleIds.add(ch.id));
-        
-        setTimeout(() => {
-            calculatePerfectGridSize();
-            if(state.displayedRandomIds.length === 0) refreshRandomCards(); 
-            initHero();
-            renderCurrentView();
-        }, 50);
-    }
-    
-    // --- CONTROL DE VISTAS ---
+    // --- View Navigation & View Switching ---
     function switchView(mode) {
         state.viewMode = mode;
         document.getElementById('btnViewCards').classList.toggle('active', mode === 'cards');
@@ -781,12 +2482,13 @@
         document.getElementById('searchView').style.display = mode === 'search' ? 'flex' : 'none';
         
         if (mode === 'directory') {
-            renderDirGrid();
             if(!dirState.selectedChannelId) {
-                let defaultCh = state.allChannels.find(c => c.id === '0101' && state.visibleIds.has(c.id));
-                if(!defaultCh) defaultCh = state.allChannels.find(c => state.visibleIds.has(c.id) && (!c.isAdult || state.showAdult));
-                if(defaultCh) selectDirChannel(defaultCh.id);
+                document.getElementById('dirSelectorView').style.display = 'block';
+                document.getElementById('dirScheduleView').style.display = 'none';
+                renderDirGrid();
             } else {
+                document.getElementById('dirSelectorView').style.display = 'none';
+                document.getElementById('dirScheduleView').style.display = 'flex';
                 const ch = state.allChannels.find(c => c.id === dirState.selectedChannelId);
                 if(ch) renderDirDateTabs(ch);
                 renderDirSchedule();
@@ -798,8 +2500,7 @@
             renderList();
         } else if (mode === 'cards') {
             setTimeout(calculatePerfectGridSize, 10);
-        } else {
-            renderCurrentView();
+            renderGrid();
         }
     }
 
@@ -807,136 +2508,120 @@
         if (state.viewMode === 'cards') renderGrid(); 
         else if (state.viewMode === 'list') renderList();
         else if (state.viewMode === 'directory') { 
-            renderDirGrid(); 
-            const ch = state.allChannels.find(c => c.id === dirState.selectedChannelId);
-            if(ch) renderDirDateTabs(ch);
-            renderDirSchedule(isAutoRefresh); 
+            if(!dirState.selectedChannelId) {
+                document.getElementById('dirSelectorView').style.display = 'block';
+                document.getElementById('dirScheduleView').style.display = 'none';
+                renderDirGrid();
+            } else {
+                document.getElementById('dirSelectorView').style.display = 'none';
+                document.getElementById('dirScheduleView').style.display = 'flex';
+                const ch = state.allChannels.find(c => c.id === dirState.selectedChannelId);
+                if(ch) renderDirDateTabs(ch);
+                renderDirSchedule(isAutoRefresh); 
+            }
         }
         else if (state.viewMode === 'search') renderSearch();
     }
 
-    // --- 1. RENDER LISTA MEJORADA ---
+    // --- 1. RENDER LIST (Logo en vez de nombre, actual y siguiente al lado con mini guía) ---
     function renderList() {
-        const container = document.getElementById('listItemsContainer'); 
-        container.innerHTML = '';
         const now = new Date();
         const term = cleanStr(state.listSearch);
+        const searchWords = term.split(" ").filter(w => w !== "");
         
         let filtered = state.allChannels.filter(ch => {
             if(!state.visibleIds.has(ch.id)) return false;
             if(!state.showAdult && ch.isAdult) return false;
             if(term) {
-                const inName = fuzzyMatch(ch.name, state.listSearch);
-                const inId = ch.id.toString().includes(state.listSearch.trim());
+                const inName = fuzzyMatchPreCleaned(ch.cleanName, searchWords);
+                const inId = ch.id.toString().includes(term);
                 if(!inName && !inId) return false;
             }
             return true;
         });
 
         if(state.sort === 'az') filtered.sort((a,b) => a.name.localeCompare(b.name));
-        else if(state.sort === 'za') filtered.sort((a,b) => b.name.localeCompare(a.name));
-        else filtered.sort((a,b) => a.index - b.index);
+        else filtered.sort((a,b) => compareYXXX(a, b));
 
-        if(filtered.length === 0) { container.innerHTML = '<div id="loading">Sin resultados</div>'; return; }
-
-        filtered.forEach(ch => {
+        const renderRow = (ch) => {
             let currentIndex = ch.programs.findIndex(p => p.start <= now && p.stop > now);
             if(currentIndex === -1) currentIndex = ch.programs.findIndex(p => p.start > now);
             if(currentIndex === -1) currentIndex = 0; 
             
             const displayProgs = ch.programs.slice(currentIndex, currentIndex + 2);
-            if(displayProgs.length === 0) return;
+            if(displayProgs.length === 0) return null;
 
-            const row = document.createElement('div'); row.className = 'list-row';
-            
+            const row = document.createElement('div'); 
+            row.className = 'list-row';
             row.onclick = () => { openMiniGuide(ch.id); };
             
             const safeLogo = getValidImg(ch.icon);
-            row.innerHTML = `<div class="list-ch-col"><img src="${safeLogo}" class="list-ch-logo" onerror="this.src='${EMPTY_IMG}'"><div class="list-ch-name">${ch.name}</div></div>`;
-            const progCol = document.createElement('div'); progCol.className = 'list-prog-col';
+            row.innerHTML = `<div class="list-ch-col"><img src="${safeLogo}" class="list-ch-logo" loading="lazy" onerror="this.src='${EMPTY_IMG}'"></div>`;
             
-            displayProgs.forEach(p => {
-                const isLive = p.start <= now && p.stop > now; 
+            const progCol = document.createElement('div'); 
+            progCol.className = 'list-prog-col';
+            
+            displayProgs.forEach((p, idx) => {
+                const isLive = idx === 0 && p.start <= now && p.stop > now; 
                 const pItem = document.createElement('div'); 
                 pItem.className = `list-prog-item ${isLive ? 'active' : ''}`;
                 
-                // Botón i a la derecha del título, con espacio flexible administrado por margin
                 pItem.innerHTML = `
                     <div class="list-prog-time">${formatTime(p.start)}</div>
                     <div class="list-prog-title">${p.title}</div>
-                    <button class="btn-info-prog" title="Información">i</button>
                 `;
-                
-                const btnInfo = pItem.querySelector('.btn-info-prog');
-                btnInfo.onclick = (e) => {
-                    e.stopPropagation(); 
-                    openDetail(p, ch);
-                };
-                
                 progCol.appendChild(pItem);
             });
-            row.appendChild(progCol); container.appendChild(row);
-        });
+            row.appendChild(progCol); 
+            return row;
+        };
+
+        renderProgressive('listItemsContainer', filtered, renderRow, 15);
     }
 
-    // Funciones para la Mini Guía (Confirmación en Lista)
     function openMiniGuide(chId) {
         const ch = state.allChannels.find(c => c.id === chId);
         if (!ch) return;
         
         document.getElementById('mg-logo').src = getValidImg(ch.icon);
-        document.getElementById('mg-name').innerText = ch.name;
+        document.getElementById('mg-channel-name').innerText = ch.name;
+        
+        document.getElementById('mg-full-guide-btn').onclick = () => {
+            closeDirect('miniGuideModal');
+            switchView('directory');
+            selectDirChannel(ch.id);
+        };
         
         const now = new Date();
         let currentIndex = ch.programs.findIndex(p => p.start <= now && p.stop > now);
         if(currentIndex === -1) currentIndex = ch.programs.findIndex(p => p.start > now);
-        if(currentIndex === -1) currentIndex = 0; 
+        if(currentIndex === -1) currentIndex = 0;
         
-        const progNow = ch.programs[currentIndex];
-        const progNext = ch.programs[currentIndex + 1];
+        const next5 = ch.programs.slice(currentIndex, currentIndex + 5);
+        const mgList = document.getElementById('mg-list');
+        mgList.innerHTML = '';
         
-        if (progNow) {
-            const imgNow = getValidImg(progNow.icon);
-            document.getElementById('mg-now').innerHTML = `
-                <div style="display:flex; gap:12px; align-items:center;">
-                    <img src="${imgNow}" onerror="this.src='${EMPTY_IMG}'" style="width:80px; height:45px; border-radius:4px; object-fit:cover; background:#222; flex-shrink:0;">
-                    <div style="min-width:0; flex-grow:1;">
-                        <div style="color:var(--accent); font-weight:bold; font-size:0.85rem; margin-bottom:2px;">${formatTime(progNow.start)} - ${formatTime(progNow.stop)}</div>
-                        <div style="color:white; font-size:1.1rem; font-weight:bold; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;">${progNow.title}</div>
-                    </div>
-                </div>`;
-        } else {
-            document.getElementById('mg-now').innerHTML = `<div style="color:var(--text-dim);">Sin información</div>`;
-        }
-
-        if (progNext) {
-            const imgNext = getValidImg(progNext.icon);
-            document.getElementById('mg-next').innerHTML = `
-                <div style="display:flex; gap:12px; align-items:center;">
-                    <img src="${imgNext}" onerror="this.src='${EMPTY_IMG}'" style="width:80px; height:45px; border-radius:4px; object-fit:cover; background:#222; flex-shrink:0;">
-                    <div style="min-width:0; flex-grow:1;">
-                        <div style="color:var(--text-dim); font-weight:bold; font-size:0.85rem; margin-bottom:2px;">${formatTime(progNext.start)} - ${formatTime(progNext.stop)}</div>
-                        <div style="color:white; font-size:1.1rem; font-weight:bold; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;">${progNext.title}</div>
-                    </div>
-                </div>`;
-        } else {
-            document.getElementById('mg-next').innerHTML = `<div style="color:var(--text-dim);">Sin información</div>`;
-        }
+        next5.forEach((p, idx) => {
+            const isLive = idx === 0 && p.start <= now && p.stop > now;
+            const item = document.createElement('div');
+            item.className = `mg-item ${isLive ? 'active' : ''}`;
+            item.innerHTML = `
+                <span class="mg-time">${formatTime(p.start)}</span>
+                <div class="mg-info">
+                    <div class="mg-title">${p.title}</div>
+                    ${isLive ? '<span class="mg-live-tag">AL AIRE</span>' : ''}
+                </div>
+            `;
+            mgList.appendChild(item);
+        });
         
-        window.currentMgChannelId = ch.id;
         document.getElementById('miniGuideModal').style.display = 'flex';
     }
-    
-    function goToChannelFromMg() {
-        closeDirect('miniGuideModal');
-        switchView('directory');
-        selectDirChannel(window.currentMgChannelId);
-    }
 
-
-    // --- 2. RENDER GRID (INICIO) ---
+    // --- 2. RENDER GRID (Inicio) ---
     function renderGrid() {
-        const grid = document.getElementById('grid'); grid.innerHTML = '';
+        const grid = document.getElementById('grid'); 
+        grid.innerHTML = '';
         const now = new Date();
         
         let mapped = state.allChannels.map(ch => {
@@ -954,24 +2639,28 @@
         });
 
         if(state.sort === 'az') filtered.sort((a,b) => a.ch.name.localeCompare(b.ch.name));
-        else if(state.sort === 'za') filtered.sort((a,b) => b.ch.name.localeCompare(a.ch.name));
         else {
             filtered.sort((a,b) => {
                 const idxA = state.displayedRandomIds.indexOf(a.ch.id);
                 const idxB = state.displayedRandomIds.indexOf(b.ch.id);
                 if(idxA !== -1 && idxB !== -1) return idxA - idxB;
-                return a.ch.index - b.ch.index; 
+                return compareYXXX(a.ch, b.ch); 
             });
         }
 
-        if(filtered.length === 0) { grid.innerHTML = '<div id="loading">Sin resultados</div>'; return; }
+        if(filtered.length === 0) { 
+            grid.innerHTML = '<div id="loading">Sin resultados</div>'; 
+            return; 
+        }
 
         filtered.forEach(item => {
-            const ch = item.ch; const displayProg = item.displayProg;
+            const ch = item.ch; 
+            const displayProg = item.displayProg;
             const isLive = (displayProg === ch.current && displayProg.start <= now && displayProg.stop > now);
             const imgUrl = getValidImg(displayProg.icon || ch.icon); 
             
-            const card = document.createElement('div'); card.className = 'card';
+            const card = document.createElement('div'); 
+            card.className = 'card';
             card.onclick = () => { switchView('directory'); selectDirChannel(ch.id); }; 
             
             let progressWidth = 0;
@@ -981,7 +2670,6 @@
                 if(total > 0) progressWidth = Math.min(100, Math.max(0, (elapsed/total)*100)); 
             }
             let badgeHTML = '';
-            if (isLive) badgeHTML = '<div class="card-badge badge-live">AL AIRE</div>';
             
             const bgStyle = imgUrl !== EMPTY_IMG ? `background-image: url('${imgUrl}'), url('${EMPTY_IMG}');` : `background-image: url('${EMPTY_IMG}');`;
             const safeLogo = getValidImg(ch.icon);
@@ -994,7 +2682,7 @@
                         <span>${formatTime(displayProg.start)} - ${formatTime(displayProg.stop)}</span>
                     </div>
                 </div>
-                ${safeLogo !== EMPTY_IMG ? `<img src="${safeLogo}" class="card-ch-logo" onerror="this.src='${EMPTY_IMG}'">` : ''}
+                ${safeLogo !== EMPTY_IMG ? `<img src="${safeLogo}" class="card-ch-logo" loading="lazy" onerror="this.src='${EMPTY_IMG}'">` : ''}
                 ${badgeHTML}
                 ${isLive ? `<div class="card-progress-container"><div class="card-progress-bar" style="width:${progressWidth}%"></div></div>` : ''}
             `;
@@ -1002,52 +2690,112 @@
         });
     }
 
-    // --- 3. VISTA DIRECTORIO (CANALES) ---
+    // --- 3. RENDER DIRECTORY ---
     function renderDirGrid() {
-        const inner = document.getElementById('dirGridInner');
-        inner.innerHTML = '';
         const term = cleanStr(dirState.search);
+        const searchWords = term.split(" ").filter(w => w !== "");
         
         let filtered = state.allChannels.filter(ch => {
             if(!state.visibleIds.has(ch.id)) return false;
             if(!state.showAdult && ch.isAdult) return false;
-            if(term && !fuzzyMatch(ch.name, term)) return false;
+            if(term) {
+                return fuzzyMatchPreCleaned(ch.cleanName, searchWords);
+            }
             return true;
         });
 
         if(state.sort === 'az') filtered.sort((a,b) => a.name.localeCompare(b.name));
-        else if(state.sort === 'za') filtered.sort((a,b) => b.name.localeCompare(a.name));
-        else filtered.sort((a,b) => a.index - b.index);
+        else filtered.sort((a,b) => compareYXXX(a, b));
 
-        if(filtered.length === 0) { inner.innerHTML = '<div style="color:var(--text-dim); padding:10px;">Sin resultados</div>'; return; }
-
-        filtered.forEach(ch => {
+        const renderItem = (ch) => {
             const el = document.createElement('div');
-            el.className = `ch-logo-item ${ch.id === dirState.selectedChannelId ? 'selected' : ''}`;
-            const safeLogo = getValidImg(ch.icon);
-            el.innerHTML = `<img src="${safeLogo}" onerror="this.src='${EMPTY_IMG}'" title="${ch.name}">`;
-            el.onclick = () => selectDirChannel(ch.id);
-            inner.appendChild(el);
-        });
+            el.className = 'ch-logo-item';
+            el.setAttribute('data-src', getValidImg(ch.icon));
+            
+            let labelText = ch.name;
+            if (ch.name.includes('•')) {
+                labelText = ch.name.split('•')[1].trim();
+            }
+            
+            el.innerHTML = `
+                <img src="${EMPTY_IMG}" onerror="this.src='${EMPTY_IMG}'" title="${ch.name}">
+                <div class="ch-feed-tag">${labelText}</div>
+            `;
+            el.onclick = () => {
+                selectDirChannel(ch.id);
+            };
+            logoObserver.observe(el);
+            return el;
+        };
+
+        renderProgressive('dirGridInner', filtered, renderItem, 30);
     }
 
-    function scrollDirGrid(dir) {
-        const scrollArea = document.getElementById('dirGridScroll');
-        scrollArea.scrollBy({top: dir * 180, behavior: 'smooth'});
+    function renderDirGridActive() {
+        const term = cleanStr(dirState.searchActive);
+        const scrollArea = document.getElementById('dirGridScrollActive');
+        
+        if (!term) {
+            scrollArea.style.display = 'none';
+            return;
+        }
+        
+        const searchWords = term.split(" ").filter(w => w !== "");
+        let filtered = state.allChannels.filter(ch => {
+            if(!state.visibleIds.has(ch.id)) return false;
+            if(!state.showAdult && ch.isAdult) return false;
+            return fuzzyMatchPreCleaned(ch.cleanName, searchWords);
+        });
+
+        if(state.sort === 'az') filtered.sort((a,b) => a.name.localeCompare(b.name));
+        else filtered.sort((a,b) => compareYXXX(a, b));
+
+        const renderItem = (ch) => {
+            const el = document.createElement('div');
+            el.className = 'ch-logo-item';
+            el.setAttribute('data-src', getValidImg(ch.icon));
+            
+            let labelText = ch.name;
+            if (ch.name.includes('•')) {
+                labelText = ch.name.split('•')[1].trim();
+            }
+            
+            el.innerHTML = `
+                <img src="${EMPTY_IMG}" onerror="this.src='${EMPTY_IMG}'" title="${ch.name}">
+                <div class="ch-feed-tag">${labelText}</div>
+            `;
+            el.onclick = () => {
+                selectDirChannel(ch.id);
+                dirState.searchActive = '';
+                document.getElementById('dirSearchInputActive').value = '';
+                renderDirGridActive();
+            };
+            logoObserver.observe(el);
+            return el;
+        };
+
+        scrollArea.style.display = 'block';
+        renderProgressive('dirGridInnerActive', filtered, renderItem, 25);
     }
 
     function selectDirChannel(id) {
         dirState.selectedChannelId = id;
         dirState.dateOffset = 0; 
         
-        document.querySelectorAll('.ch-logo-item').forEach(el => el.classList.remove('selected'));
-        renderDirGrid(); 
+        dirState.searchActive = '';
+        const searchInputActive = document.getElementById('dirSearchInputActive');
+        if (searchInputActive) searchInputActive.value = '';
+        const gridScrollActive = document.getElementById('dirGridScrollActive');
+        if (gridScrollActive) gridScrollActive.style.display = 'none';
+        
+        document.getElementById('dirSelectorView').style.display = 'none';
+        document.getElementById('dirScheduleView').style.display = 'flex';
         
         const ch = state.allChannels.find(c => c.id === id);
         if(ch) {
             const header = document.getElementById('dirChannelHeader');
             document.getElementById('dirHeaderLogo').src = getValidImg(ch.icon);
-            document.getElementById('dirHeaderTitle').innerHTML = `<span style="color:var(--accent); margin-right:8px;">${ch.id}</span> Programación ${ch.name}`;
+            document.getElementById('dirHeaderTitle').innerHTML = `<span class="ch-id-badge">${ch.id}</span>Programación de ${ch.name}`;
             header.style.display = 'flex';
             renderDirDateTabs(ch); 
         }
@@ -1055,6 +2803,22 @@
         renderDirSchedule();
     }
 
+    function goBackToChannelList() {
+        dirState.selectedChannelId = null;
+        dirState.search = '';
+        dirState.searchActive = '';
+        document.getElementById('dirSearchInput').value = '';
+        const searchInputActive = document.getElementById('dirSearchInputActive');
+        if (searchInputActive) searchInputActive.value = '';
+        const gridScrollActive = document.getElementById('dirGridScrollActive');
+        if (gridScrollActive) gridScrollActive.style.display = 'none';
+        
+        document.getElementById('dirSelectorView').style.display = 'block';
+        document.getElementById('dirScheduleView').style.display = 'none';
+        renderDirGrid();
+    }
+
+    // Select date tabs in Directory
     function renderDirDateTabs(ch) {
         const tabsContainer = document.getElementById('dirDateTabs');
         tabsContainer.innerHTML = '';
@@ -1101,7 +2865,7 @@
             
             const defaultOpt = document.createElement('option');
             defaultOpt.value = "";
-            defaultOpt.innerText = "MÁS";
+            defaultOpt.innerText = "MÁS DÍAS";
             defaultOpt.disabled = true;
             if (dirState.dateOffset <= 1) defaultOpt.selected = true;
             defaultOpt.style.display = 'none'; 
@@ -1144,6 +2908,7 @@
         }
     }
 
+    // --- RENDER DIRECTORIO SIMPLIFICADO (Sólo Hora y Título) ---
     function renderDirSchedule(isAutoRefresh = false) {
         const list = document.getElementById('dirProgList');
         list.innerHTML = '';
@@ -1164,60 +2929,36 @@
         const dayProgs = ch.programs.filter(p => (p.stop > startOfDay && p.start < endOfDay));
 
         if(dayProgs.length === 0) {
-            list.innerHTML = '<div style="color:var(--text-dim);">No hay programación disponible para este día.</div>';
+            list.innerHTML = '<div style="color:var(--text-dim); padding: 15px;">No hay programación disponible para este día.</div>';
             return;
         }
 
         let hasPast = false;
+        const pastCards = [];
+        const futureCards = [];
         
         dayProgs.forEach(p => {
             const isLive = p.start <= now && p.stop > now;
             const isPast = p.stop <= now;
             
-            let classes = 'ch-prog-card';
+            let classes = 'ch-prog-card-simple';
             if(isLive) classes += ' is-live';
             else if(isPast) classes += ' is-past';
-
-            const imgUrl = getValidImg(p.icon);
-            let progressHtml = ''; let badgeHtml = '';
-            
-            if(isLive) {
-                const total = p.stop - p.start; const elapsed = now - p.start; 
-                let progressWidth = 0; if(total > 0) progressWidth = Math.min(100, Math.max(0, (elapsed/total)*100));
-                progressHtml = `<div class="ch-prog-progress" style="width:${progressWidth}%"></div>`;
-                badgeHtml = `<div class="live-badge">AL AIRE</div>`;
-            }
-
-            const cleanDesc = formatDesc(p.desc);
-            const descId = `desc-${Math.random().toString(36).substr(2, 9)}`;
 
             const card = document.createElement('div');
             card.className = classes;
             card.innerHTML = `
-                <div class="ch-prog-img-box">
-                    ${badgeHtml}
-                    <img src="${imgUrl}" onerror="this.src='${EMPTY_IMG}'">
-                    ${progressHtml}
-                </div>
-                <div class="ch-prog-info">
-                    <div class="ch-prog-time">${formatTime(p.start)} - ${formatTime(p.stop)}</div>
-                    <div class="ch-prog-title">${p.title}</div>
-                    <div class="ch-prog-desc desc-clamp" id="${descId}">${cleanDesc}</div>
-                    <button class="btn-read-more" onclick="toggleDirDesc(this, '${descId}')">Ver más...</button>
-                </div>
+                <div class="ch-prog-time-simple">${formatTime(p.start)}</div>
+                <div class="ch-prog-title-simple">${isLive ? '<span class="live-dot" style="display:inline-block; width:8px; height:8px; background:var(--accent); border-radius:50%; margin-right:8px; box-shadow:0 0 8px var(--accent);"></span>' : ''}${p.title}</div>
             `;
             
-            card.addEventListener('click', (e) => {
-                if(!e.target.classList.contains('btn-read-more')) openDetail(p, ch);
-            });
+            card.addEventListener('click', () => openDetail(p, ch));
 
             if (isPast && dirState.dateOffset === 0) { 
                 hasPast = true;
-                if(!window.tempPastCards) window.tempPastCards = [];
-                window.tempPastCards.push(card);
+                pastCards.push(card);
             } else {
-                if(!window.tempFutureCards) window.tempFutureCards = [];
-                window.tempFutureCards.push(card);
+                futureCards.push(card);
             }
         });
 
@@ -1229,55 +2970,41 @@
             
             const pastWrap = document.createElement('div');
             pastWrap.id = 'pastProgramsWrapper';
-            pastWrap.style = "display:none; flex-direction:column; gap:15px; margin-bottom:15px;";
-            window.tempPastCards.forEach(c => pastWrap.appendChild(c));
+            pastWrap.style = "display:none; flex-direction:column; gap:8px; margin-bottom:8px;";
+            pastCards.forEach(c => pastWrap.appendChild(c));
             list.appendChild(pastWrap);
         }
 
-        if(window.tempFutureCards) {
-            window.tempFutureCards.forEach(c => list.appendChild(c));
-        }
-
-        window.tempPastCards = [];
-        window.tempFutureCards = [];
+        futureCards.forEach(c => list.appendChild(c));
 
         setTimeout(() => {
-            const descs = list.querySelectorAll('.ch-prog-desc');
-            descs.forEach(desc => {
-                if (desc.scrollHeight > desc.clientHeight + 2) { 
-                    const btn = desc.nextElementSibling;
-                    if(btn) btn.style.display = 'block';
-                }
-            });
             if(!isAutoRefresh) {
                 const liveItem = list.querySelector('.is-live');
-                if(liveItem && dirState.dateOffset === 0) liveItem.scrollIntoView({behavior: 'smooth', block: 'center'});
+                if(liveItem && dirState.dateOffset === 0) {
+                    liveItem.scrollIntoView({behavior: 'smooth', block: 'center'});
+                }
             }
-        }, 50);
+        }, 80);
     }
 
-    function toggleDirDesc(btn, descId) {
-        const desc = document.getElementById(descId);
-        if(!desc) return;
-        if (desc.classList.contains('desc-expanded')) {
-            desc.classList.remove('desc-expanded');
-            desc.classList.add('desc-clamp');
-            btn.innerText = 'Ver más...';
-        } else {
-            desc.classList.remove('desc-clamp');
-            desc.classList.add('desc-expanded');
-            btn.innerText = 'Ver menos';
-        }
+    // --- 4. RENDER SEARCH (Canales & Programas Restaurado Completo) ---
+    function triggerSearch(e) {
+        state.search = e.target.value;
+        if (searchDebounceTimer) clearTimeout(searchDebounceTimer);
+        searchDebounceTimer = setTimeout(() => {
+            renderSearch();
+        }, 150);
     }
 
-    // --- 4. NUEVA VISTA BÚSQUEDA ---
     function renderSearch() {
-        const container = document.getElementById('searchResults');
         const term = state.search.trim();
         if (!term) {
-            container.innerHTML = '<div style="color:var(--text-dim); text-align:center; padding: 40px;">Escribe para buscar canales o programas...</div>';
+            document.getElementById('searchResults').innerHTML = '<div style="color:var(--text-dim); text-align:center; padding: 40px;">Escribe para buscar canales o programas...</div>';
             return;
         }
+
+        const sClean = cleanStr(term);
+        const searchWords = sClean.split(" ").filter(w => w !== "");
 
         const matchedChannels = [];
         const matchedPrograms = [];
@@ -1287,12 +3014,13 @@
             if (ch.isAdult && !state.showAdult) return;
             if (!state.visibleIds.has(ch.id)) return;
             
-            if (fuzzyMatch(ch.name, term)) {
+            if (fuzzyMatchPreCleaned(ch.cleanName, searchWords)) {
                 matchedChannels.push(ch);
             }
 
             ch.programs.forEach(p => {
-                if (fuzzyMatch(p.title, term) || fuzzyMatch(p.desc, term)) {
+                if (fuzzyMatchPreCleaned(p.cleanTitle, searchWords) || 
+                    fuzzyMatchPreCleaned(p.cleanDesc, searchWords)) {
                     matchedPrograms.push({ ch, prog: p });
                 }
             });
@@ -1307,17 +3035,19 @@
         });
 
         if (matchedChannels.length === 0 && matchedPrograms.length === 0) {
-            container.innerHTML = '<div style="color:var(--text-dim); text-align:center; padding: 40px;">No se encontraron resultados para "'+term+'".</div>';
+            document.getElementById('searchResults').innerHTML = '<div style="color:var(--text-dim); text-align:center; padding: 40px;">No se encontraron resultados para "'+term+'".</div>';
             return;
         }
 
-        container.innerHTML = '';
+        // Setup layouts
+        const searchResultsDiv = document.getElementById('searchResults');
+        searchResultsDiv.innerHTML = '';
         
         if (matchedChannels.length > 0) {
             const title = document.createElement('h3');
             title.className = 'search-section-title';
             title.innerText = 'Canales Encontrados';
-            container.appendChild(title);
+            searchResultsDiv.appendChild(title);
             
             const grid = document.createElement('div');
             grid.className = 'search-channels-grid';
@@ -1325,24 +3055,27 @@
                 const el = document.createElement('div');
                 el.className = 'search-channel-item';
                 const safeLogo = getValidImg(ch.icon);
-                el.innerHTML = `<img src="${safeLogo}" onerror="this.src='${EMPTY_IMG}'" title="${ch.name}">`;
+                el.innerHTML = `<img src="${safeLogo}" loading="lazy" onerror="this.src='${EMPTY_IMG}'" title="${ch.name}">`;
                 el.onclick = () => { switchView('directory'); selectDirChannel(ch.id); };
                 grid.appendChild(el);
             });
-            container.appendChild(grid);
+            searchResultsDiv.appendChild(grid);
         }
 
         if (matchedPrograms.length > 0) {
             const title = document.createElement('h3');
             title.className = 'search-section-title';
             title.innerText = 'Programas Encontrados';
-            container.appendChild(title);
+            searchResultsDiv.appendChild(title);
             
-            const list = document.createElement('div');
-            list.className = 'search-programs-list';
+            const listContainer = document.createElement('div');
+            listContainer.id = 'searchProgramsListContainer';
+            listContainer.className = 'search-programs-list';
+            searchResultsDiv.appendChild(listContainer);
             
             const limitProgs = matchedPrograms.slice(0, 50); 
-            limitProgs.forEach(item => {
+            
+            const renderSearchItem = (item) => {
                 const ch = item.ch;
                 const p = item.prog;
                 const isLive = p.start <= now && p.stop > now;
@@ -1358,58 +3091,74 @@
                 const safeLogo = getValidImg(ch.icon);
                 const searchDateStr = getSearchDateString(p, ch.name);
                 
-                let progressHtml = ''; let badgeHtml = '';
+                let badgeHtml = '';
                 if(isLive) {
-                    const total = p.stop - p.start; const elapsed = now - p.start; 
-                    let progressWidth = 0; if(total > 0) progressWidth = Math.min(100, Math.max(0, (elapsed/total)*100));
-                    progressHtml = `<div class="ch-prog-progress" style="width:${progressWidth}%"></div>`;
-                    badgeHtml = `<div class="live-badge">AL AIRE</div>`;
+                    badgeHtml = `<span class="list-prog-badge live" style="margin-right:8px; display:inline-block; vertical-align:middle;">Al Aire</span>`;
                 } else if (isPast) {
-                    badgeHtml = `<div class="live-badge" style="background:var(--border-color); color:white;">FINALIZADO</div>`;
+                    badgeHtml = `<span class="list-prog-badge next" style="margin-right:8px; display:inline-block; vertical-align:middle; background:rgba(255,255,255,0.03);">Finalizado</span>`;
                 }
 
                 card.innerHTML = `
-                    <div class="ch-prog-img-box">
-                        ${badgeHtml}
-                        <img src="${imgUrl}" onerror="this.src='${EMPTY_IMG}'">
-                        ${progressHtml}
-                    </div>
                     <div class="search-ch-logo-box">
                         <img src="${safeLogo}" onerror="this.src='${EMPTY_IMG}'">
                     </div>
                     <div class="ch-prog-info">
-                        <div class="ch-prog-title" style="margin-bottom: 4px;">${p.title}</div>
+                        <div class="ch-prog-title" style="margin-bottom: 4px; font-weight:700;">
+                            ${badgeHtml}${p.title}
+                        </div>
                         <div class="search-prog-meta">${searchDateStr}</div>
                     </div>
                 `;
                 
                 card.addEventListener('click', () => openDetail(p, ch));
-                list.appendChild(card);
-            });
-            container.appendChild(list);
+                return card;
+            };
+            
+            renderProgressive('searchProgramsListContainer', limitProgs, renderSearchItem, 10);
         }
     }
 
+    function togglePosterVisibility() {
+        const showPosters = document.getElementById('posterToggleCheck').checked;
+        localStorage.setItem('show_posters', showPosters);
+        document.getElementById('grid').classList.toggle('hide-posters', !showPosters);
+    }
 
-    // --- HERO & MODALS BASE ---
+    // --- Hero Slider Logic (Siempre Disponible) ---
     function initHero() {
         const candidates = state.allChannels.filter(ch => {
             const hasProg = ch.current && (ch.current.icon || ch.icon);
-            const notAdult = !ch.isAdult; return hasProg && notAdult;
+            return hasProg && !ch.isAdult;
         });
-        if(heroState.list.length === 0) { heroState.list = candidates.sort(() => 0.5 - Math.random()); heroState.currentIndex = 0; }
+        if(heroState.list.length === 0) { 
+            heroState.list = candidates.sort(() => 0.5 - Math.random()); 
+            heroState.currentIndex = 0; 
+        }
         if (heroState.list.length > 0 && state.search.trim() === '') {
             document.getElementById('heroSection').style.display = 'block';
-            if(!heroState.interval) { showHeroSlide(); startHeroTimer(); }
-        } else { document.getElementById('heroSection').style.display = 'none'; }
+            if(!heroState.interval) { 
+                showHeroSlide(); 
+                startHeroTimer(); 
+            }
+        } else { 
+            document.getElementById('heroSection').style.display = 'none'; 
+        }
     }
+
     function showHeroSlide() {
-        const contentEl = document.getElementById('heroContent'); const bgEl = document.getElementById('heroBg');
-        contentEl.classList.add('changing'); bgEl.classList.add('fade-out');
+        const contentEl = document.getElementById('heroContent'); 
+        const bgEl = document.getElementById('heroBg');
+        contentEl.classList.add('changing'); 
+        bgEl.classList.add('fade-out');
+        
         setTimeout(() => {
             if(heroState.list.length === 0) return;
-            const item = heroState.list[heroState.currentIndex]; const prog = item.current;
-            if(!prog) { nextHero(); return; } 
+            const item = heroState.list[heroState.currentIndex]; 
+            const prog = item.current;
+            if(!prog) { 
+                nextHero(); 
+                return; 
+            } 
             
             contentEl.onclick = () => {
                 switchView('directory');
@@ -1422,17 +3171,59 @@
             document.getElementById('heroDesc').textContent = formatDesc(prog.desc);
             document.getElementById('heroLogo').src = getValidImg(item.icon);
             document.getElementById('heroChName').innerHTML = item.name;
-            document.getElementById('heroTime').textContent = `${formatTime(prog.start)} - ${formatTime(prog.stop)}`;
-            bgEl.classList.remove('fade-out'); contentEl.classList.remove('changing');
+            bgEl.classList.remove('fade-out'); 
+            contentEl.classList.remove('changing');
             resetProgressBar();
         }, 400);
     }
-    function resetProgressBar() { const bar = document.getElementById('heroProgress'); bar.style.transition = 'none'; bar.style.width = '0%'; if(heroState.isPlaying) { setTimeout(() => { bar.style.transition = `width ${heroState.duration}ms linear`; bar.style.width = '100%'; }, 50); } }
-    function startHeroTimer() { clearInterval(heroState.interval); if(heroState.isPlaying) { heroState.interval = setInterval(nextHero, heroState.duration); resetProgressBar(); } }
-    function nextHero() { heroState.currentIndex = (heroState.currentIndex + 1) % heroState.list.length; showHeroSlide(); }
-    function prevHero() { heroState.currentIndex = (heroState.currentIndex - 1 + heroState.list.length) % heroState.list.length; showHeroSlide(); startHeroTimer(); }
-    function toggleHeroPlay() { heroState.isPlaying = !heroState.isPlaying; const btn = document.getElementById('heroPlayBtn'); if(heroState.isPlaying) { btn.innerHTML = '&#10074;&#10074;'; startHeroTimer(); } else { btn.innerHTML = '&#9658;'; clearInterval(heroState.interval); document.getElementById('heroProgress').style.width = '0%'; } }
+
+    function resetProgressBar() { 
+        const bar = document.getElementById('heroProgress'); 
+        bar.style.transition = 'none'; 
+        bar.style.width = '0%'; 
+        if(heroState.isPlaying) { 
+            setTimeout(() => { 
+                bar.style.transition = `width ${heroState.duration}ms linear`; 
+                bar.style.width = '100%'; 
+            }, 50); 
+        } 
+    }
+
+    function startHeroTimer() { 
+        clearInterval(heroState.interval); 
+        if(heroState.isPlaying) { 
+            heroState.interval = setInterval(nextHero, heroState.duration); 
+            resetProgressBar(); 
+        } 
+    }
+
+    function nextHero() { 
+        if (heroState.list.length === 0) return;
+        heroState.currentIndex = (heroState.currentIndex + 1) % heroState.list.length; 
+        showHeroSlide(); 
+    }
+
+    function prevHero() { 
+        if (heroState.list.length === 0) return;
+        heroState.currentIndex = (heroState.currentIndex - 1 + heroState.list.length) % heroState.list.length; 
+        showHeroSlide(); 
+        startHeroTimer(); 
+    }
+
+    function toggleHeroPlay() { 
+        heroState.isPlaying = !heroState.isPlaying; 
+        const btn = document.getElementById('heroPlayBtn'); 
+        if(heroState.isPlaying) { 
+            btn.innerHTML = '&#10074;&#10074;'; 
+            startHeroTimer(); 
+        } else { 
+            btn.innerHTML = '&#9658;'; 
+            clearInterval(heroState.interval); 
+            document.getElementById('heroProgress').style.width = '0%'; 
+        } 
+    }
     
+    // --- Modals Control ---
     function openDetail(prog, ch = null) {
         const modal = document.getElementById('detailModal'); 
         const img = document.getElementById('d-img'); 
@@ -1443,8 +3234,12 @@
         
         img.src = getValidImg(prog.icon);
         const safeLogo = ch ? getValidImg(ch.icon) : EMPTY_IMG;
-        if(safeLogo !== EMPTY_IMG) { logo.src = safeLogo; logo.style.display = 'block'; } 
-        else { logo.style.display = 'none'; }
+        if(safeLogo !== EMPTY_IMG) { 
+            logo.src = safeLogo; 
+            logo.style.display = 'block'; 
+        } else { 
+            logo.style.display = 'none'; 
+        }
 
         document.getElementById('d-title').innerText = titleObj.main; 
         document.getElementById('d-extra').innerText = titleObj.extra; 
@@ -1458,10 +3253,130 @@
         calculatePerfectGridSize();
         renderCurrentView(); 
     }
-    function setSort(s) { state.sort = s; document.querySelectorAll('#configPanel button').forEach(b=>b.classList.remove('active')); event.target.classList.add('active'); renderCurrentView(); }
-    function closeModal(e, id){ if(e.target.id === id) closeDirect(id); }
-    function closeDirect(id){ document.getElementById(id).style.display='none'; }
-</script>
 
+    // Toggle sort order
+    function setSort(s) { 
+        state.sort = s; 
+        document.getElementById('sortOriginal').classList.toggle('active', s === 'original');
+        document.getElementById('sortAZ').classList.toggle('active', s === 'az');
+        renderCurrentView(); 
+    }
+
+    function closeModal(e, id){ 
+        if(e.target.id === id) closeDirect(id); 
+    }
+
+    function closeDirect(id){ 
+        document.getElementById(id).style.display = 'none'; 
+    }
+
+    // --- Configuration Panel ---
+    function toggleConfig() { 
+        const p = document.getElementById('configPanel'); 
+        p.style.display = p.style.display === 'block' ? 'none' : 'block'; 
+        document.getElementById('urlConfigSection').style.display = 'none'; 
+    }
+
+    function toggleUrlSection() {
+        const sec = document.getElementById('urlConfigSection');
+        sec.style.display = sec.style.display === 'none' ? 'flex' : 'none';
+    }
+
+    // Global loading mask
+    function showLoader(txt = "Cargando...") { 
+        document.getElementById('loaderText').innerText = txt;
+        document.getElementById('globalLoader').style.display = 'flex'; 
+    }
+
+    function hideLoader() { 
+        document.getElementById('loaderText').innerText = "Actualizando Guía...";
+        document.getElementById('globalLoader').style.display = 'none'; 
+    }
+
+    function manualLoadEPG() {
+        const urlRaw = document.getElementById('urlInput').value.trim();
+        if(!urlRaw) return;
+        localStorage.setItem('epg_url', urlRaw); 
+        toggleConfig();
+        showLoader("Descargando guía...");
+        fetchNewEPG(urlRaw);
+    }
+
+    function loadDefaultEPG() {
+        document.getElementById('urlInput').value = DEFAULT_EPG_URL;
+        localStorage.setItem('epg_url', DEFAULT_EPG_URL);
+        toggleConfig();
+        showLoader("Restaurando guía base...");
+        fetchNewEPG(DEFAULT_EPG_URL);
+    }
+
+    // --- Initial Event Listeners ---
+    document.addEventListener('DOMContentLoaded', () => {
+        // Load settings
+        const savedUrl = localStorage.getItem('epg_url');
+        document.getElementById('urlInput').value = savedUrl || DEFAULT_EPG_URL;
+        
+        // Show/hide grid card backdrop posters from settings
+        const showPosters = localStorage.getItem('show_posters') !== 'false';
+        document.getElementById('posterToggleCheck').checked = showPosters;
+        document.getElementById('grid').classList.toggle('hide-posters', !showPosters);
+        
+        loadEPG();
+        
+        // Setup background auto-refresh every 60s
+        setInterval(() => { 
+            if(!state.search) {
+                const container = document.getElementById('mainContainer');
+                const mainScrollPos = container.scrollTop;
+                
+                let dirScrollPos = 0;
+                if(state.viewMode === 'directory') {
+                    const dirScroll = document.getElementById('dirGridScroll');
+                    if(dirScroll) dirScrollPos = dirScroll.scrollTop;
+                }
+                
+                renderCurrentView(true); 
+                
+                setTimeout(() => { 
+                    container.scrollTop = mainScrollPos; 
+                    if(state.viewMode === 'directory') {
+                        const dirScroll = document.getElementById('dirGridScroll');
+                        if(dirScroll) dirScroll.scrollTop = dirScrollPos;
+                    }
+                }, 10); 
+            }
+        }, 60000);
+
+        // Fetch EPG updates from server in background every 6 hours
+        setInterval(() => { 
+            const savedUrl = localStorage.getItem('epg_url') || DEFAULT_EPG_URL;
+            fetchNewEPG(savedUrl);
+        }, 21600000);
+        
+        // Listeners for searches
+        document.getElementById('mainSearchInput').addEventListener('input', triggerSearch);
+        document.getElementById('dirSearchInput').addEventListener('input', (e) => {
+            dirState.search = e.target.value; 
+            renderDirGrid();
+        });
+        document.getElementById('dirSearchInputActive').addEventListener('input', (e) => {
+            dirState.searchActive = e.target.value; 
+            renderDirGridActive();
+        });
+        document.getElementById('listSearchInput').addEventListener('input', (e) => {
+            state.listSearch = e.target.value; 
+            renderList();
+        });
+
+        // Resize handler to optimize grid cards count dynamically
+        let resizeTimer;
+        window.addEventListener('resize', () => {
+            clearTimeout(resizeTimer);
+            resizeTimer = setTimeout(() => {
+                if (state.viewMode === 'cards') calculatePerfectGridSize();
+            }, 250); 
+        });
+    });
+</script>
 </body>
 </html>
