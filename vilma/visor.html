@@ -1825,9 +1825,9 @@
             if(!str) return ""; 
             return str.toLowerCase()
                 .normalize("NFD")
-                .replace(/[\\\\u0300-\\\\u036f]/g, "")
-                .replace(/[^a-z0-9\\\\s]/g, "")
-                .replace(/\\\\s+/g, " ")
+                .replace(/[\\u0300-\\u036f]/g, "")
+                .replace(/[^a-z0-9\\s]/g, "")
+                .replace(/\\s+/g, " ")
                 .trim(); 
         }
 
@@ -1890,7 +1890,7 @@
                 const id = idMatch[1];
                 if (id.startsWith('000')) continue;
                 
-                const nameMatch = channelXml.match(/<display-name[^>]*>([\\\\s\\\\S]*?)<\\\\/display-name>/);
+                const nameMatch = channelXml.match(/<display-name[^>]*>([\\s\\S]*?)<\\/display-name>/);
                 const name = nameMatch ? cleanText(nameMatch[1]) : id;
                 
                 const iconMatch = channelXml.match(/<icon src="([^"]+)"/);
@@ -1934,10 +1934,10 @@
                 
                 const startDate = parseXmltvDate(startMatch[1]);
                 
-                const titleMatch = progXml.match(/<title[^>]*>([\\\\s\\\\S]*?)<\\\\/title>/);
+                const titleMatch = progXml.match(/<title[^>]*>([\\s\\S]*?)<\\/title>/);
                 const title = titleMatch ? cleanText(titleMatch[1]) : 'Sin Título';
                 
-                const descMatch = progXml.match(/<desc[^>]*>([\\\\s\\\\S]*?)<\\\\/desc>/);
+                const descMatch = progXml.match(/<desc[^>]*>([\\s\\S]*?)<\\/desc>/);
                 const desc = descMatch ? cleanText(descMatch[1]) : '';
                 
                 const iconMatch = progXml.match(/<icon src="([^"]+)"/);
@@ -2282,6 +2282,13 @@
                     console.error("Worker Parsing Error:", error);
                     fallbackParseXML(xmlStr, startTime);
                 }
+            };
+
+            worker.onerror = function(err) {
+                console.error("Worker Execution Error:", err);
+                worker.terminate();
+                URL.revokeObjectURL(workerURL);
+                fallbackParseXML(xmlStr, startTime);
             };
             
             worker.postMessage({ xmlText: xmlStr, cutOffTime });
