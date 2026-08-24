@@ -23204,20 +23204,15 @@
     <desc>A confirmar</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20260824040000 -0400" stop="20260824063400 -0400" channel="0139">
+  <programme start="20260824040000 -0400" stop="20260824060400 -0400" channel="0139">
     <title>ContiVisión</title>
     <desc>A confirmar</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20260824063400 -0400" stop="20260824083000 -0400" channel="0139">
+  <programme start="20260824060400 -0400" stop="20260824083000 -0400" channel="0139">
     <title>Cine</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
-  </programme>
-  <programme start="20260824083000 -0400" stop="20260824083000 -0400" channel="0139">
-    <title>Portavoz noticias</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/portavoznoticias.jpg" />
   </programme>
   <programme start="20260824083000 -0400" stop="20260824090000 -0400" channel="0139">
     <title>Portavoz noticias</title>
@@ -23229,12 +23224,12 @@
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/enforma.jpg" />
   </programme>
-  <programme start="20260824092500 -0400" stop="20260824104500 -0400" channel="0139">
+  <programme start="20260824092500 -0400" stop="20260824105000 -0400" channel="0139">
     <title>Cine infantil</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20260824104500 -0400" stop="20260824120800 -0400" channel="0139">
+  <programme start="20260824105000 -0400" stop="20260824120800 -0400" channel="0139">
     <title>Documentales DW</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/documentalesdw.jpg" />
@@ -23254,85 +23249,70 @@
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/portavoznoticias.jpg" />
   </programme>
-  <programme start="20260824133000 -0400" stop="20260824161700 -0400" channel="0139">
-    <title>Cine en casa</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
-  </programme>
-  <programme start="20260824161700 -0400" stop="20260824183200 -0400" channel="0139">
-    <title>Documentales DW</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/documentalesdw.jpg" />
-  </programme>
-  <programme start="20260824183200 -0400" stop="20260824190500 -0400" channel="0139">
-    <title>Cultura.21</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/cultura21.jpg" />
-  </programme>
-  <programme start="20260824190500 -0400" stop="20260824210000 -0400" channel="0139">
+  <programme start="20260824133000 -0400" stop="20260824162300 -0400" channel="0139">
     <title>Cine familiar</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20260824210000 -0400" stop="20260824212200 -0400" channel="0139">
+  <programme start="20260824162300 -0400" stop="20260824190400 -0400" channel="0139">
+    <title>Documentales DW</title>
+    <desc>La información de este programa no se encuentra disponible.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/documentalesdw.jpg" />
+  </programme>
+  <programme start="20260824190400 -0400" stop="20260824193000 -0400" channel="0139">
+    <title>Cultura.21</title>
+    <desc>La información de este programa no se encuentra disponible.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/cultura21.jpg" />
+  </programme>
+  <programme start="20260824193000 -0400" stop="20260824210000 -0400" channel="0139">
+    <title>Cine familiar</title>
+    <desc>La información de este programa no se encuentra disponible.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20260824210000 -0400" stop="20260824212500 -0400" channel="0139">
     <title>Noticias Central</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20260824212200 -0400" stop="20260824220000 -0400" channel="0139">
+  <programme start="20260824212500 -0400" stop="20260824220000 -0400" channel="0139">
     <title>Portavoz noticias</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/portavoznoticias.jpg" />
   </programme>
-  <programme start="20260824220000 -0400" stop="20260824235100 -0400" channel="0139">
+  <programme start="20260824220000 -0400" stop="20260825000000 -0400" channel="0139">
     <title>Cine Prime</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20260824235100 -0400" stop="20260824235100 -0400" channel="0139">
-    <title>Repe Hablemos</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
-  </programme>
-  <programme start="20260824235100 -0400" stop="20260825000000 -0400" channel="0139">
-    <title>Repe Hablemos</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
-  </programme>
-  <programme start="20260825000000 -0400" stop="20260825001500 -0400" channel="0139">
+  <programme start="20260825000000 -0400" stop="20260825001600 -0400" channel="0139">
     <title>Cine Prime</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20260825001500 -0400" stop="20260825011300 -0400" channel="0139">
+  <programme start="20260825001600 -0400" stop="20260825011500 -0400" channel="0139">
     <title>Mentes Brillante</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20260825011300 -0400" stop="20260825021800 -0400" channel="0139">
-    <title>Noticias Cierre</title>
+  <programme start="20260825011500 -0400" stop="20260825021100 -0400" channel="0139">
+    <title>Noticias Domingo</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20260825021800 -0400" stop="20260825035500 -0400" channel="0139">
+  <programme start="20260825021100 -0400" stop="20260825041800 -0400" channel="0139">
     <title>Cine Trasnoche</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/cinetrasnoche.jpg" />
   </programme>
-  <programme start="20260825035500 -0400" stop="20260825064000 -0400" channel="0139">
+  <programme start="20260825041800 -0400" stop="20260825070000 -0400" channel="0139">
     <title>Cierre de transmisiones</title>
     <desc>Fin de emisión diaria del canal.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/cierredetransmisiones.jpg" />
   </programme>
-  <programme start="20260825064000 -0400" stop="20260825083000 -0400" channel="0139">
+  <programme start="20260825070000 -0400" stop="20260825083000 -0400" channel="0139">
     <title>Cine</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
-  </programme>
-  <programme start="20260825083000 -0400" stop="20260825083000 -0400" channel="0139">
-    <title>Portavoz noticias</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/portavoznoticias.jpg" />
   </programme>
   <programme start="20260825083000 -0400" stop="20260825090000 -0400" channel="0139">
     <title>Portavoz noticias</title>
@@ -23349,47 +23329,47 @@
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
+  <programme start="20260825110000 -0400" stop="20260825110000 -0400" channel="0139">
+    <title>Documentales DW</title>
+    <desc>La información de este programa no se encuentra disponible.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/documentalesdw.jpg" />
+  </programme>
   <programme start="20260825110000 -0400" stop="20260825120800 -0400" channel="0139">
     <title>Documentales DW</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/documentalesdw.jpg" />
   </programme>
   <programme start="20260825120800 -0400" stop="20260825123400 -0400" channel="0139">
-    <title>Fuerza latina</title>
-    <desc>Las periodistas Natalia Orozco y Yoani Sánchez conversan cada semana con mujeres extraordinarias de América Latina, quienes nos acercan sus fascinantes historias y nos muestran el entorno en el que viven y trabajan. Son mujeres que, con tenacidad y perseverancia, se proponen cambiar la sociedad y alzan su voz para reclamar derechos y denunciar injusticias.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fuerzalatina.jpg" />
+    <title>Documentales DW</title>
+    <desc>La información de este programa no se encuentra disponible.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/documentalesdw.jpg" />
   </programme>
   <programme start="20260825123400 -0400" stop="20260825130000 -0400" channel="0139">
-    <title>Enlaces</title>
+    <title>Documentales DW</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/enlaces.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/documentalesdw.jpg" />
   </programme>
   <programme start="20260825130000 -0400" stop="20260825133000 -0400" channel="0139">
     <title>Portavoz noticias</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/portavoznoticias.jpg" />
   </programme>
-  <programme start="20260825133000 -0400" stop="20260825165000 -0400" channel="0139">
-    <title>Cine en casa</title>
+  <programme start="20260825133000 -0400" stop="20260825170000 -0400" channel="0139">
+    <title>Cine familiar</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20260825165000 -0400" stop="20260825170200 -0400" channel="0139">
-    <title>Patrimonio Mundi</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
-  </programme>
-  <programme start="20260825170200 -0400" stop="20260825185000 -0400" channel="0139">
+  <programme start="20260825170000 -0400" stop="20260825183400 -0400" channel="0139">
     <title>Documentales DW</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/documentalesdw.jpg" />
   </programme>
-  <programme start="20260825185000 -0400" stop="20260825191500 -0400" channel="0139">
-    <title>RPM</title>
+  <programme start="20260825183400 -0400" stop="20260825190000 -0400" channel="0139">
+    <title>Documentales DW</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/documentalesdw.jpg" />
   </programme>
-  <programme start="20260825191500 -0400" stop="20260825210000 -0400" channel="0139">
+  <programme start="20260825190000 -0400" stop="20260825210000 -0400" channel="0139">
     <title>Cine familiar</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
@@ -23404,45 +23384,40 @@
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/portavoznoticias.jpg" />
   </programme>
-  <programme start="20260825220000 -0400" stop="20260825234000 -0400" channel="0139">
+  <programme start="20260825220000 -0400" stop="20260826000000 -0400" channel="0139">
     <title>Cine Prime</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20260825234000 -0400" stop="20260826000000 -0400" channel="0139">
-    <title>Ritmo &amp; Sabor</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
-  </programme>
-  <programme start="20260826000000 -0400" stop="20260826003700 -0400" channel="0139">
+  <programme start="20260826000000 -0400" stop="20260826020000 -0400" channel="0139">
     <title>Repe Hablemos</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20260826003700 -0400" stop="20260826010000 -0400" channel="0139">
+  <programme start="20260826020000 -0400" stop="20260826023000 -0400" channel="0139">
     <title>Noticias Cierre</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20260826010000 -0400" stop="20260826025400 -0400" channel="0139">
+  <programme start="20260826023000 -0400" stop="20260826040000 -0400" channel="0139">
     <title>Cine Trasnoche</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/cinetrasnoche.jpg" />
   </programme>
-  <programme start="20260826025400 -0400" stop="20260826065000 -0400" channel="0139">
+  <programme start="20260826040000 -0400" stop="20260826040000 -0400" channel="0139">
     <title>Cierre de transmisiones</title>
     <desc>Fin de emisión diaria del canal.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/cierredetransmisiones.jpg" />
   </programme>
-  <programme start="20260826065000 -0400" stop="20260826083000 -0400" channel="0139">
+  <programme start="20260826040000 -0400" stop="20260826070000 -0400" channel="0139">
+    <title>Cierre de transmisiones</title>
+    <desc>Fin de emisión diaria del canal.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/cierredetransmisiones.jpg" />
+  </programme>
+  <programme start="20260826070000 -0400" stop="20260826083000 -0400" channel="0139">
     <title>Cine</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
-  </programme>
-  <programme start="20260826083000 -0400" stop="20260826083000 -0400" channel="0139">
-    <title>Portavoz noticias</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/portavoznoticias.jpg" />
   </programme>
   <programme start="20260826083000 -0400" stop="20260826090000 -0400" channel="0139">
     <title>Portavoz noticias</title>
@@ -23459,237 +23434,257 @@
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
+  <programme start="20260826110000 -0400" stop="20260826110000 -0400" channel="0139">
+    <title>Documentales DW</title>
+    <desc>La información de este programa no se encuentra disponible.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/documentalesdw.jpg" />
+  </programme>
   <programme start="20260826110000 -0400" stop="20260826120800 -0400" channel="0139">
     <title>Documentales DW</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/documentalesdw.jpg" />
   </programme>
   <programme start="20260826120800 -0400" stop="20260826123400 -0400" channel="0139">
-    <title>¡Escápate!</title>
+    <title>Documentales DW</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/escapate.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/documentalesdw.jpg" />
   </programme>
   <programme start="20260826123400 -0400" stop="20260826130000 -0400" channel="0139">
-    <title>Ecolatinoamérica</title>
+    <title>Documentales DW</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/ecolatinoamerica.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/documentalesdw.jpg" />
   </programme>
   <programme start="20260826130000 -0400" stop="20260826133000 -0400" channel="0139">
     <title>Portavoz noticias</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/portavoznoticias.jpg" />
   </programme>
-  <programme start="20260826133000 -0400" stop="20260826163900 -0400" channel="0139">
-    <title>Cine en casa</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
-  </programme>
-  <programme start="20260826163900 -0400" stop="20260826185400 -0400" channel="0139">
-    <title>Documentales DW</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/documentalesdw.jpg" />
-  </programme>
-  <programme start="20260826185400 -0400" stop="20260826192100 -0400" channel="0139">
-    <title>Enlaces</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/enlaces.jpg" />
-  </programme>
-  <programme start="20260826192100 -0400" stop="20260826210000 -0400" channel="0139">
+  <programme start="20260826133000 -0400" stop="20260826170000 -0400" channel="0139">
     <title>Cine familiar</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20260826210000 -0400" stop="20260826214000 -0400" channel="0139">
+  <programme start="20260826170000 -0400" stop="20260826183400 -0400" channel="0139">
+    <title>Documentales DW</title>
+    <desc>La información de este programa no se encuentra disponible.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/documentalesdw.jpg" />
+  </programme>
+  <programme start="20260826183400 -0400" stop="20260826190000 -0400" channel="0139">
+    <title>Documentales DW</title>
+    <desc>La información de este programa no se encuentra disponible.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/documentalesdw.jpg" />
+  </programme>
+  <programme start="20260826190000 -0400" stop="20260826210000 -0400" channel="0139">
+    <title>Cine familiar</title>
+    <desc>La información de este programa no se encuentra disponible.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20260826210000 -0400" stop="20260826215000 -0400" channel="0139">
     <title>Noticias Central</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20260826214000 -0400" stop="20260826221500 -0400" channel="0139">
+  <programme start="20260826215000 -0400" stop="20260826222000 -0400" channel="0139">
     <title>Portavoz noticias</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/portavoznoticias.jpg" />
   </programme>
-  <programme start="20260826221500 -0400" stop="20260826232000 -0400" channel="0139">
+  <programme start="20260826222000 -0400" stop="20260827000000 -0400" channel="0139">
     <title>Mentes Brillante</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20260826232000 -0400" stop="20260826233800 -0400" channel="0139">
-    <title>Noticias Cierre</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
-  </programme>
-  <programme start="20260826233800 -0400" stop="20260827000000 -0400" channel="0139">
-    <title>Cine Trasnoche</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/cinetrasnoche.jpg" />
-  </programme>
-  <programme start="20260827000000 -0400" stop="20260827011700 -0400" channel="0139">
+  <programme start="20260827000000 -0400" stop="20260827020000 -0400" channel="0139">
     <title>Ritmo &amp; Sabor</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20260827011700 -0400" stop="20260827014100 -0400" channel="0139">
+  <programme start="20260827020000 -0400" stop="20260827023000 -0400" channel="0139">
     <title>Noticias Cierre</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20260827014100 -0400" stop="20260827031400 -0400" channel="0139">
+  <programme start="20260827023000 -0400" stop="20260827040000 -0400" channel="0139">
     <title>Cine Trasnoche</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/cinetrasnoche.jpg" />
   </programme>
-  <programme start="20260827031400 -0400" stop="20260827065500 -0400" channel="0139">
+  <programme start="20260827040000 -0400" stop="20260827040000 -0400" channel="0139">
     <title>Cierre de transmisiones</title>
     <desc>Fin de emisión diaria del canal.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/cierredetransmisiones.jpg" />
   </programme>
-  <programme start="20260827065500 -0400" stop="20260827083000 -0400" channel="0139">
+  <programme start="20260827040000 -0400" stop="20260827070000 -0400" channel="0139">
+    <title>Cierre de transmisiones</title>
+    <desc>Fin de emisión diaria del canal.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/cierredetransmisiones.jpg" />
+  </programme>
+  <programme start="20260827070000 -0400" stop="20260827083000 -0400" channel="0139">
     <title>Cine</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20260827083000 -0400" stop="20260827090100 -0400" channel="0139">
+  <programme start="20260827083000 -0400" stop="20260827090000 -0400" channel="0139">
     <title>Portavoz noticias</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/portavoznoticias.jpg" />
   </programme>
-  <programme start="20260827090100 -0400" stop="20260827092000 -0400" channel="0139">
+  <programme start="20260827090000 -0400" stop="20260827092500 -0400" channel="0139">
     <title>Noticias Primera</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20260827092000 -0400" stop="20260827104600 -0400" channel="0139">
+  <programme start="20260827092500 -0400" stop="20260827110000 -0400" channel="0139">
     <title>Cine infantil</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20260827104600 -0400" stop="20260827120800 -0400" channel="0139">
+  <programme start="20260827110000 -0400" stop="20260827110000 -0400" channel="0139">
+    <title>Documentales DW</title>
+    <desc>La información de este programa no se encuentra disponible.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/documentalesdw.jpg" />
+  </programme>
+  <programme start="20260827110000 -0400" stop="20260827120800 -0400" channel="0139">
     <title>Documentales DW</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/documentalesdw.jpg" />
   </programme>
   <programme start="20260827120800 -0400" stop="20260827123400 -0400" channel="0139">
-    <title>Aquí estoy</title>
+    <title>Documentales DW</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/aquiestoy.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/documentalesdw.jpg" />
   </programme>
   <programme start="20260827123400 -0400" stop="20260827130000 -0400" channel="0139">
-    <title>RPM</title>
+    <title>Documentales DW</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/documentalesdw.jpg" />
   </programme>
   <programme start="20260827130000 -0400" stop="20260827133000 -0400" channel="0139">
     <title>Portavoz noticias</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/portavoznoticias.jpg" />
   </programme>
-  <programme start="20260827133000 -0400" stop="20260827162500 -0400" channel="0139">
-    <title>Cine en casa</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
-  </programme>
-  <programme start="20260827162500 -0400" stop="20260827190400 -0400" channel="0139">
-    <title>Documentales DW</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/documentalesdw.jpg" />
-  </programme>
-  <programme start="20260827190400 -0400" stop="20260827193000 -0400" channel="0139">
-    <title>Euromaxx</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/euromaxx.jpg" />
-  </programme>
-  <programme start="20260827193000 -0400" stop="20260827210000 -0400" channel="0139">
+  <programme start="20260827133000 -0400" stop="20260827170000 -0400" channel="0139">
     <title>Cine familiar</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20260827210000 -0400" stop="20260827212400 -0400" channel="0139">
+  <programme start="20260827170000 -0400" stop="20260827183400 -0400" channel="0139">
+    <title>Documentales DW</title>
+    <desc>La información de este programa no se encuentra disponible.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/documentalesdw.jpg" />
+  </programme>
+  <programme start="20260827183400 -0400" stop="20260827190000 -0400" channel="0139">
+    <title>Documentales DW</title>
+    <desc>La información de este programa no se encuentra disponible.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/documentalesdw.jpg" />
+  </programme>
+  <programme start="20260827190000 -0400" stop="20260827210000 -0400" channel="0139">
+    <title>Cine familiar</title>
+    <desc>La información de este programa no se encuentra disponible.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20260827210000 -0400" stop="20260827212500 -0400" channel="0139">
     <title>Noticias Central</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20260827212400 -0400" stop="20260827220000 -0400" channel="0139">
+  <programme start="20260827212500 -0400" stop="20260827220000 -0400" channel="0139">
     <title>Portavoz noticias</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/portavoznoticias.jpg" />
   </programme>
-  <programme start="20260827220000 -0400" stop="20260827230200 -0400" channel="0139">
+  <programme start="20260827220000 -0400" stop="20260827230000 -0400" channel="0139">
     <title>Hablemos</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20260827230200 -0400" stop="20260828000000 -0400" channel="0139">
+  <programme start="20260827230000 -0400" stop="20260828020000 -0400" channel="0139">
     <title>Cine Prime</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20260828000000 -0400" stop="20260828012900 -0400" channel="0139">
+  <programme start="20260828020000 -0400" stop="20260828023000 -0400" channel="0139">
+    <title>Noticias Cierre</title>
+    <desc>La información de este programa no se encuentra disponible.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20260828023000 -0400" stop="20260828040000 -0400" channel="0139">
     <title>Cine Trasnoche</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/cinetrasnoche.jpg" />
   </programme>
-  <programme start="20260828012900 -0400" stop="20260828070300 -0400" channel="0139">
+  <programme start="20260828040000 -0400" stop="20260828040000 -0400" channel="0139">
     <title>Cierre de transmisiones</title>
     <desc>Fin de emisión diaria del canal.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/cierredetransmisiones.jpg" />
   </programme>
-  <programme start="20260828070300 -0400" stop="20260828083000 -0400" channel="0139">
+  <programme start="20260828040000 -0400" stop="20260828070000 -0400" channel="0139">
+    <title>Cierre de transmisiones</title>
+    <desc>Fin de emisión diaria del canal.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/cierredetransmisiones.jpg" />
+  </programme>
+  <programme start="20260828070000 -0400" stop="20260828083000 -0400" channel="0139">
     <title>Cine</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20260828083000 -0400" stop="20260828090300 -0400" channel="0139">
+  <programme start="20260828083000 -0400" stop="20260828090000 -0400" channel="0139">
     <title>Portavoz noticias</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/portavoznoticias.jpg" />
   </programme>
-  <programme start="20260828090300 -0400" stop="20260828092500 -0400" channel="0139">
+  <programme start="20260828090000 -0400" stop="20260828092500 -0400" channel="0139">
     <title>Noticias Primera</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20260828092500 -0400" stop="20260828104600 -0400" channel="0139">
+  <programme start="20260828092500 -0400" stop="20260828110000 -0400" channel="0139">
     <title>Cine infantil</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20260828104600 -0400" stop="20260828120800 -0400" channel="0139">
+  <programme start="20260828110000 -0400" stop="20260828110000 -0400" channel="0139">
+    <title>Documentales DW</title>
+    <desc>La información de este programa no se encuentra disponible.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/documentalesdw.jpg" />
+  </programme>
+  <programme start="20260828110000 -0400" stop="20260828120800 -0400" channel="0139">
     <title>Documentales DW</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/documentalesdw.jpg" />
   </programme>
   <programme start="20260828120800 -0400" stop="20260828123400 -0400" channel="0139">
-    <title>¿Cómo te afecta?</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
-  </programme>
-  <programme start="20260828123400 -0400" stop="20260828130000 -0400" channel="0139">
-    <title>Cultura.21</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/cultura21.jpg" />
-  </programme>
-  <programme start="20260828130000 -0400" stop="20260828133200 -0400" channel="0139">
-    <title>Portavoz noticias</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/portavoznoticias.jpg" />
-  </programme>
-  <programme start="20260828133200 -0400" stop="20260828161600 -0400" channel="0139">
-    <title>Cine en casa</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
-  </programme>
-  <programme start="20260828161600 -0400" stop="20260828190300 -0400" channel="0139">
     <title>Documentales DW</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/documentalesdw.jpg" />
   </programme>
-  <programme start="20260828190300 -0400" stop="20260828193000 -0400" channel="0139">
-    <title>Ecolatinoamérica</title>
+  <programme start="20260828123400 -0400" stop="20260828130000 -0400" channel="0139">
+    <title>Documentales DW</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/ecolatinoamerica.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/documentalesdw.jpg" />
   </programme>
-  <programme start="20260828193000 -0400" stop="20260828210000 -0400" channel="0139">
+  <programme start="20260828130000 -0400" stop="20260828133000 -0400" channel="0139">
+    <title>Portavoz noticias</title>
+    <desc>La información de este programa no se encuentra disponible.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/portavoznoticias.jpg" />
+  </programme>
+  <programme start="20260828133000 -0400" stop="20260828170000 -0400" channel="0139">
+    <title>Cine familiar</title>
+    <desc>La información de este programa no se encuentra disponible.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20260828170000 -0400" stop="20260828183400 -0400" channel="0139">
+    <title>Documentales DW</title>
+    <desc>La información de este programa no se encuentra disponible.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/documentalesdw.jpg" />
+  </programme>
+  <programme start="20260828183400 -0400" stop="20260828190000 -0400" channel="0139">
+    <title>Documentales DW</title>
+    <desc>La información de este programa no se encuentra disponible.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/documentalesdw.jpg" />
+  </programme>
+  <programme start="20260828190000 -0400" stop="20260828210000 -0400" channel="0139">
     <title>Cine familiar</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
@@ -23704,132 +23699,147 @@
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/portavoznoticias.jpg" />
   </programme>
-  <programme start="20260828220000 -0400" stop="20260828223400 -0400" channel="0139">
+  <programme start="20260828220000 -0400" stop="20260828222000 -0400" channel="0139">
     <title>En palco</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20260828223400 -0400" stop="20260829000000 -0400" channel="0139">
+  <programme start="20260828222000 -0400" stop="20260829000000 -0400" channel="0139">
     <title>Cine Prime</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20260829000000 -0400" stop="20260829005000 -0400" channel="0139">
+  <programme start="20260829000000 -0400" stop="20260829020000 -0400" channel="0139">
     <title>Cine Prime</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20260829005000 -0400" stop="20260829011200 -0400" channel="0139">
+  <programme start="20260829020000 -0400" stop="20260829023000 -0400" channel="0139">
     <title>Noticias Cierre</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20260829011200 -0400" stop="20260829025800 -0400" channel="0139">
+  <programme start="20260829023000 -0400" stop="20260829040000 -0400" channel="0139">
     <title>Cine Trasnoche</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/cinetrasnoche.jpg" />
   </programme>
-  <programme start="20260829025800 -0400" stop="20260829070400 -0400" channel="0139">
+  <programme start="20260829040000 -0400" stop="20260829040000 -0400" channel="0139">
     <title>Cierre de transmisiones</title>
     <desc>Fin de emisión diaria del canal.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/cierredetransmisiones.jpg" />
   </programme>
-  <programme start="20260829070400 -0400" stop="20260829083000 -0400" channel="0139">
+  <programme start="20260829040000 -0400" stop="20260829070000 -0400" channel="0139">
+    <title>Cierre de transmisiones</title>
+    <desc>Fin de emisión diaria del canal.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/cierredetransmisiones.jpg" />
+  </programme>
+  <programme start="20260829070000 -0400" stop="20260829083000 -0400" channel="0139">
     <title>Cine</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20260829083000 -0400" stop="20260829090400 -0400" channel="0139">
+  <programme start="20260829083000 -0400" stop="20260829090000 -0400" channel="0139">
     <title>Portavoz noticias</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/portavoznoticias.jpg" />
   </programme>
-  <programme start="20260829090400 -0400" stop="20260829093200 -0400" channel="0139">
+  <programme start="20260829090000 -0400" stop="20260829092500 -0400" channel="0139">
     <title>Noticias Primera</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20260829093200 -0400" stop="20260829122100 -0400" channel="0139">
+  <programme start="20260829092500 -0400" stop="20260829110000 -0400" channel="0139">
     <title>Cine infantil</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20260829122100 -0400" stop="20260829130000 -0400" channel="0139">
+  <programme start="20260829110000 -0400" stop="20260829123000 -0400" channel="0139">
+    <title>Cine infantil</title>
+    <desc>La información de este programa no se encuentra disponible.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20260829123000 -0400" stop="20260829123000 -0400" channel="0139">
     <title>Documentales DW</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/documentalesdw.jpg" />
   </programme>
-  <programme start="20260829130000 -0400" stop="20260829133200 -0400" channel="0139">
+  <programme start="20260829123000 -0400" stop="20260829130000 -0400" channel="0139">
+    <title>Documentales DW</title>
+    <desc>La información de este programa no se encuentra disponible.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/documentalesdw.jpg" />
+  </programme>
+  <programme start="20260829130000 -0400" stop="20260829133000 -0400" channel="0139">
     <title>Portavoz noticias</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/portavoznoticias.jpg" />
   </programme>
-  <programme start="20260829133200 -0400" stop="20260829143200 -0400" channel="0139">
+  <programme start="20260829133000 -0400" stop="20260829143000 -0400" channel="0139">
     <title>Mentes Brillante</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20260829143200 -0400" stop="20260829160600 -0400" channel="0139">
+  <programme start="20260829143000 -0400" stop="20260829160000 -0400" channel="0139">
     <title>Documentales DW</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/documentalesdw.jpg" />
   </programme>
-  <programme start="20260829160600 -0400" stop="20260829173500 -0400" channel="0139">
-    <title>Cine familiar</title>
+  <programme start="20260829160000 -0400" stop="20260829173000 -0400" channel="0139">
+    <title>Cine en casa</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20260829173500 -0400" stop="20260829191400 -0400" channel="0139">
+  <programme start="20260829173000 -0400" stop="20260829173000 -0400" channel="0139">
     <title>Ritmo &amp; Sabor</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20260829191400 -0400" stop="20260829192700 -0400" channel="0139">
-    <title>Patrimonio Mundi</title>
+  <programme start="20260829173000 -0400" stop="20260829190000 -0400" channel="0139">
+    <title>Ritmo &amp; Sabor</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20260829192700 -0400" stop="20260829210000 -0400" channel="0139">
+  <programme start="20260829190000 -0400" stop="20260829210000 -0400" channel="0139">
     <title>Cine familiar</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20260829210000 -0400" stop="20260829212300 -0400" channel="0139">
+  <programme start="20260829210000 -0400" stop="20260829212500 -0400" channel="0139">
     <title>Noticias Central</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20260829212300 -0400" stop="20260829214200 -0400" channel="0139">
+  <programme start="20260829212500 -0400" stop="20260829215000 -0400" channel="0139">
     <title>Agenda Comunal</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20260829214200 -0400" stop="20260829222000 -0400" channel="0139">
+  <programme start="20260829215000 -0400" stop="20260829222000 -0400" channel="0139">
     <title>Portavoz noticias</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/portavoznoticias.jpg" />
   </programme>
-  <programme start="20260829222000 -0400" stop="20260830000000 -0400" channel="0139">
+  <programme start="20260829222000 -0400" stop="20260830020000 -0400" channel="0139">
     <title>Only Classics</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20260830000000 -0400" stop="20260830002600 -0400" channel="0139">
-    <title>Cine Prime</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
-  </programme>
-  <programme start="20260830002600 -0400" stop="20260830005100 -0400" channel="0139">
+  <programme start="20260830020000 -0400" stop="20260830023000 -0400" channel="0139">
     <title>Noticias Cierre</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20260830005100 -0400" stop="20260830023800 -0400" channel="0139">
+  <programme start="20260830023000 -0400" stop="20260830040000 -0400" channel="0139">
     <title>Cine Trasnoche</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/cinetrasnoche.jpg" />
   </programme>
-  <programme start="20260830023800 -0400" stop="20260830070000 -0400" channel="0139">
+  <programme start="20260830040000 -0400" stop="20260830040000 -0400" channel="0139">
+    <title>Cierre de transmisiones</title>
+    <desc>Fin de emisión diaria del canal.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/cierredetransmisiones.jpg" />
+  </programme>
+  <programme start="20260830040000 -0400" stop="20260830070000 -0400" channel="0139">
     <title>Cierre de transmisiones</title>
     <desc>Fin de emisión diaria del canal.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/cierredetransmisiones.jpg" />
@@ -23850,9 +23860,9 @@
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20260830103000 -0400" stop="20260830110000 -0400" channel="0139">
-    <title>Euromaxx</title>
+    <title>Documentales DW</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/euromaxx.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/documentalesdw.jpg" />
   </programme>
   <programme start="20260830110000 -0400" stop="20260830120000 -0400" channel="0139">
     <title>Culto Evangélico</title>
@@ -23874,27 +23884,27 @@
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20260830151500 -0400" stop="20260830165200 -0400" channel="0139">
+  <programme start="20260830151500 -0400" stop="20260830173000 -0400" channel="0139">
     <title>Documentales DW</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/documentalesdw.jpg" />
   </programme>
-  <programme start="20260830165200 -0400" stop="20260830182900 -0400" channel="0139">
+  <programme start="20260830173000 -0400" stop="20260830190000 -0400" channel="0139">
     <title>Ritmo &amp; Sabor</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20260830182900 -0400" stop="20260830210000 -0400" channel="0139">
+  <programme start="20260830190000 -0400" stop="20260830210000 -0400" channel="0139">
     <title>Cine Wester</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20260830210000 -0400" stop="20260830215900 -0400" channel="0139">
+  <programme start="20260830210000 -0400" stop="20260830220000 -0400" channel="0139">
     <title>Noticias Central</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20260830215900 -0400" stop="20260830225900 -0400" channel="0139">
+  <programme start="20260830220000 -0400" stop="20260830230000 -0400" channel="0139">
     <title>Cine Prime</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
