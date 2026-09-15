@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>EPG — Guía de Programación TV</title>
+  <meta name="description" content="Visor web ultraliviano y de alta velocidad para la Guía Electrónica de Programación de TV (EPG XMLTV).">
+  
+  <!-- Preconnect & Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Cabecera Principal Fija -->
+  <header id="mainHeader">
+    <div class="header-left">
+      <!-- Botón Atrás (visible al navegar a guía o detalle desde otra vista) -->
+      <button id="btnBack" class="btn-icon hidden" title="Volver a la vista anterior" aria-label="Volver">
+        <svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2.5" fill="none">
+          <path d="M19 12H5M12 19l-7-7 7-7" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        <span class="back-text">Atrás</span>
+      </button>
+
+      <div class="brand" id="brandLogo">
+        <span class="brand-badge">EPG</span>
+        <span class="brand-title">Guía TV</span>
+      </div>
+      
+      <div id="cacheStatus" class="cache-pill" title="Estado de la guía">En línea</div>
+    </div>
+
+    <!-- Buscador Integrado -->
+    <div class="search-box">
+      <svg class="search-icon" viewBox="0 0 24 24" width="18" height="18" stroke="currentColor" stroke-width="2" fill="none">
+        <circle cx="11" cy="11" r="8"/>
+        <path d="M21 21l-4.35-4.35"/>
+      </svg>
+      <input type="text" id="searchInput" placeholder="Buscar canal o programa..." autocomplete="off" spellcheck="false">
+      <button id="btnClearSearch" class="btn-clear hidden" aria-label="Limpiar búsqueda">&times;</button>
+    </div>
+
+    <!-- Acciones y Controles de Vista -->
+    <div class="header-right">
+      <nav class="view-tabs" aria-label="Cambio de vista">
+        <button class="tab-btn active" data-view="cards" title="Inicio con Canales Destacados">
+          <svg viewBox="0 0 24 24" width="18" height="18" stroke="currentColor" stroke-width="2" fill="none"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+          <span>Inicio</span>
+        </button>
+        <button class="tab-btn" data-view="list" title="Vista Lista">
+          <svg viewBox="0 0 24 24" width="18" height="18" stroke="currentColor" stroke-width="2" fill="none"><line x1="8" y1="6" x2="21" y2="6"/><line x1="8" y1="12" x2="21" y2="12"/><line x1="8" y1="18" x2="21" y2="18"/><line x1="3" y1="6" x2="3.01" y2="6"/><line x1="3" y1="12" x2="3.01" y2="12"/><line x1="3" y1="18" x2="3.01" y2="18"/></svg>
+          <span>Lista</span>
+        </button>
+        <button class="tab-btn" data-view="grid" title="Grilla de Programación tipo Deco">
+          <svg viewBox="0 0 24 24" width="18" height="18" stroke="currentColor" stroke-width="2" fill="none"><rect x="3" y="3" width="18" height="18" rx="2"/><line x1="3" y1="9" x2="21" y2="9"/><line x1="3" y1="15" x2="21" y2="15"/><line x1="9" y1="3" x2="9" y2="21"/><line x1="15" y1="3" x2="15" y2="21"/></svg>
+          <span>Grilla</span>
+        </button>
+        <button class="tab-btn" data-view="guide" title="Guía por Canales">
+          <svg viewBox="0 0 24 24" width="18" height="18" stroke="currentColor" stroke-width="2" fill="none"><rect x="2" y="7" width="20" height="15" rx="2" ry="2"/><polyline points="17 2 12 7 7 2"/></svg>
+          <span>Canales</span>
+        </button>
+      </nav>
+
+      <div class="header-menu">
+        <button id="btnSettings" class="btn-icon" title="Ajustes y Configuración" aria-label="Ajustes">
+          <svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2" fill="none">
+            <circle cx="12" cy="12" r="3"/>
+            <path d="M19.4 15a1.65 1.65 0 00.33 1.82l.06.06a2 2 0 010 2.83 2 2 0 01-2.83 0l-.06-.06a1.65 1.65 0 00-1.82-.33 1.65 1.65 0 00-1 1.51V21a2 2 0 01-2 2 2 2 0 01-2-2v-.09A1.65 1.65 0 009 19.4a1.65 1.65 0 00-1.82.33l-.06.06a2 2 0 01-2.83 0 2 2 0 010-2.83l.06-.06a1.65 1.65 0 00.33-1.82 1.65 1.65 0 00-1.51-1H3a2 2 0 01-2-2 2 2 0 012-2h.09A1.65 1.65 0 004.6 9a1.65 1.65 0 00-.33-1.82l-.06-.06a2 2 0 010-2.83 2 2 0 012.83 0l.06.06a1.65 1.65 0 001.82.33H9a1.65 1.65 0 001-1.51V3a2 2 0 012-2 2 2 0 012 2v.09a1.65 1.65 0 001 1.51 1.65 1.65 0 001.82-.33l.06-.06a2 2 0 012.83 0 2 2 0 010 2.83l-.06.06a1.65 1.65 0 00-.33 1.82V9a1.65 1.65 0 001.51 1H21a2 2 0 012 2 2 2 0 01-2 2h-.09a1.65 1.65 0 00-1.51 1z"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Barra de Filtros Rápida (Sub-header) -->
+  <div id="subHeader" class="sub-header">
+    <div class="filter-group">
+      <button class="filter-chip active" data-filter="all">Todos</button>
+      <button class="filter-chip" data-filter="favorites" id="chipFavorites">★ Favoritos (<span id="favCount">0</span>)</button>
+      <button class="filter-chip" data-filter="adults" id="chipAdults">+18</button>
+    </div>
+    <div class="meta-info">
+      <span id="channelCounter" class="channel-count">0 canales</span>
+      <span class="meta-separator">•</span>
+      <span class="clock-display" id="liveClock">--:--:--</span>
+    </div>
+  </div>
+
+  <!-- Contenedor Principal de Vistas -->
+  <main id="appContainer">
+
+    <!-- Indicador de Carga / Spinner -->
+    <div id="loader" class="loader-overlay hidden">
+      <div class="spinner"></div>
+      <div id="loaderText" class="loader-text">Descargando guía de programación...</div>
+      <div id="loaderProgress" class="loader-sub">Por favor espera un momento</div>
+    </div>
+
+    <!-- 1. VISTA INICIO (Hero Banner + Tarjetas con límite) -->
+    <section id="viewCards" class="view-section active">
+      
+      <!-- Banner Hero Destacado -->
+      <div id="heroSection" class="hero-section">
+        <div id="heroBg" class="hero-bg"></div>
+        <div class="hero-overlay">
+          <div class="hero-top-meta">
+            <span id="heroLiveBadge" class="live-pill badge-al-aire">AL AIRE</span>
+            <div class="hero-channel-badge">
+              <img id="heroChLogo" src="" alt="" class="hero-ch-logo">
+              <span id="heroChName" class="hero-ch-name">Cargando canal...</span>
+            </div>
+            <span id="heroTime" class="hero-time-badge">--:-- - --:--</span>
+          </div>
+          <div class="hero-content" id="heroContentBox">
+            <h1 id="heroTitle" class="hero-title">Cargando guía...</h1>
+            <div id="heroEpisode" class="hero-episode"></div>
+            <p id="heroDesc" class="hero-desc">Buscando la programación más actualizada...</p>
+          </div>
+          <div class="hero-controls">
+            <button id="heroBtnPrev" class="hero-btn" title="Canal anterior" aria-label="Anterior">&#10094;</button>
+            <button id="heroBtnPlay" class="hero-btn" title="Pausar rotación" id="heroPlayBtn" aria-label="Pausa">&#10074;&#10074;</button>
+            <button id="heroBtnNext" class="hero-btn" title="Siguiente canal" aria-label="Siguiente">&#10095;</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="section-header-row">
+        <h2 class="section-title">Canales en Emisión</h2>
+        <span id="cardsCounterText" class="section-sub"></span>
+      </div>
+
+      <div id="cardsGrid" class="cards-grid">
+        <!-- Renderizado dinámico ultra-liviano con límite de tarjetas -->
+      </div>
+      <div id="emptyCards" class="empty-state hidden">No se encontraron canales que coincidan.</div>
+      
+      <!-- Botón Cargar Más Canales en Inicio -->
+      <div class="load-more-box" id="cardsLoadMoreBox">
+        <button id="btnLoadMoreCards" class="btn-load-more">
+          <span>Cargar más canales</span>
+          <svg viewBox="0 0 24 24" width="18" height="18" stroke="currentColor" stroke-width="2.5" fill="none"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+      </div>
+    </section>
+
+    <!-- 2. VISTA LISTA COMPACTA (Logo, actual en verde/negrita, siguiente atenuado) -->
+    <section id="viewList" class="view-section hidden">
+      <div id="listContainer" class="list-container">
+        <!-- Filas de canales -->
+      </div>
+      <div id="emptyList" class="empty-state hidden">No hay canales para mostrar en la lista.</div>
+    </section>
+
+    <!-- 3. VISTA GRILLA DE PROGRAMACIÓN (Estilo Decodificador TV) -->
+    <section id="viewGrid" class="view-section hidden">
+      <div class="grid-controls-bar">
+        <div class="grid-controls-left">
+          <button id="btnGridNow" class="btn-grid-action" title="Desplazar a la hora actual">
+            <span class="pulse-dot"></span>
+            <span>Ahora</span>
+          </button>
+          <div id="gridDateSelector" class="grid-date-selector">
+            <!-- Pestañas de día televisivo (Hoy, Mañana...) -->
+          </div>
+        </div>
+        <div class="grid-controls-right">
+          <span class="grid-hint">Desplazamiento horizontal</span>
+        </div>
+      </div>
+
+      <div id="decoGridWrapper" class="deco-grid-wrapper">
+        <div id="decoGridTimeline" class="deco-grid-timeline">
+          <!-- Cabecera de horas fija (Sticky) -->
+          <div class="deco-time-ruler" id="decoTimeRuler">
+            <div class="deco-ruler-corner">Canal</div>
+            <div class="deco-ruler-hours" id="decoRulerHours">
+              <!-- Horas generadas dinámicamente -->
+            </div>
+          </div>
+
+          <!-- Filas de programación y línea de tiempo -->
+          <div class="deco-grid-body" id="decoGridBody">
+            <div id="decoNowLine" class="deco-now-line">
+              <span class="now-badge">AHORA</span>
+            </div>
+            <div id="decoGridRows" class="deco-grid-rows">
+              <!-- Filas de canales con bloques de programas -->
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="emptyGrid" class="empty-state hidden">No hay canales para la grilla.</div>
+    </section>
+
+    <!-- 4. VISTA CANALES (Selector lateral y cronograma con banner a la derecha) -->
+    <section id="viewGuide" class="view-section hidden">
+      <div class="guide-layout">
+        <!-- Selector lateral de canales -->
+        <aside class="guide-sidebar">
+          <div class="sidebar-header">
+            <input type="text" id="guideChSearch" placeholder="Filtrar canal..." class="sidebar-search">
+          </div>
+          <div id="guideChList" class="guide-channel-list">
+            <!-- Canales para seleccionar -->
+          </div>
+        </aside>
+
+        <!-- Cronograma del Canal Seleccionado -->
+        <div class="guide-main">
+          <div class="guide-channel-header" id="guideChHeader">
+            <img id="guideSelectedLogo" src="" alt="Logo" class="guide-ch-logo">
+            <div class="guide-ch-info">
+              <h2 id="guideSelectedName">Selecciona un canal</h2>
+              <p id="guideSelectedMeta" class="text-muted">Visualiza el cronograma completo de emisión</p>
+            </div>
+          </div>
+
+          <!-- Pestañas de Fecha Televisiva -->
+          <div id="guideDateTabs" class="date-tabs">
+            <!-- Días disponibles -->
+          </div>
+
+          <!-- Lista de Programas (Banner a la derecha y solo hora de inicio) -->
+          <div id="guideTimeline" class="guide-timeline">
+            <!-- Tarjetas detalladas -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ================= MODALES Y POPUPS ================= -->
+
+  <!-- POPUP RÁPIDO PARA VISTA LISTA (Solo Hora y Título: Ahora hasta fin del día televisivo 06:00) -->
+  <div id="popupQuickList" class="modal-overlay hidden" role="dialog" aria-modal="true">
+    <div class="quick-popup-content">
+      <div class="quick-popup-header">
+        <div class="quick-ch-info">
+          <img id="quickChLogo" src="" alt="" class="quick-logo">
+          <div>
+            <h3 id="quickChName" class="quick-title">Canal</h3>
+            <span class="quick-badge" id="quickTvDayBadge">Día televisivo (hasta las 06:00)</span>
+          </div>
+        </div>
+        <button id="btnCloseQuick" class="btn-close" aria-label="Cerrar">&times;</button>
+      </div>
+      
+      <!-- Lista ultraliviana: Solo Hora y Título (Sin banner ni capítulos) -->
+      <div id="quickProgramsList" class="quick-prog-list">
+        <!-- Renderizado: [18:00] Título del programa -->
+      </div>
+
+      <div class="quick-popup-footer">
+        <button id="btnOpenFullGuideFromQuick" class="btn-secondary">
+          <svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2" fill="none"><rect x="2" y="7" width="20" height="15" rx="2" ry="2"/><polyline points="17 2 12 7 7 2"/></svg>
+          <span>Ver Programación Completa del Canal</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- MODAL DE DETALLE COMPLETO DEL PROGRAMA (Click en tarjeta o programa) -->
+  <div id="modalDetail" class="modal-overlay hidden" role="dialog" aria-modal="true">
+    <div class="modal-content">
+      <div class="modal-banner-container" id="modalBannerBox">
+        <img id="modalBannerImg" src="" alt="Banner del programa" class="modal-banner">
+        <button id="btnCloseDetail" class="btn-close-banner" aria-label="Cerrar">&times;</button>
+      </div>
+      
+      <div class="modal-body">
+        <div class="modal-channel-row">
+          <img id="modalChLogo" src="" alt="Logo" class="modal-ch-logo">
+          <span id="modalChName" class="modal-ch-name">Canal</span>
+          <span id="modalLiveBadge" class="live-pill hidden">EN VIVO</span>
+          <span id="modalTagBadge" class="tag-pill hidden"></span>
+        </div>
+
+        <h2 id="modalTitle" class="modal-title">Título del Programa</h2>
+        <div id="modalEpisode" class="modal-episode text-accent"></div>
+
+        <div class="modal-metadata">
+          <span class="meta-item" id="modalTime">
+            <svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2" fill="none"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            <span id="modalTimeText">--:-- - --:--</span>
+          </span>
+          <span class="meta-item" id="modalDuration">-- min</span>
+          <span class="meta-item" id="modalCategory">General</span>
+        </div>
+
+        <div class="modal-desc-box">
+          <p id="modalDescription" class="modal-desc">Sin descripción disponible.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- MODAL DE AJUSTES Y CONFIGURACIÓN -->
+  <div id="modalSettings" class="modal-overlay hidden" role="dialog" aria-modal="true">
+    <div class="settings-content">
+      <div class="settings-header">
+        <h3>Ajustes del Visor</h3>
+        <button id="btnCloseSettings" class="btn-close" aria-label="Cerrar">&times;</button>
+      </div>
+
+      <div class="settings-body">
+        <div class="setting-item">
+          <div class="setting-text">
+            <label for="chkShowPosters" class="setting-title">Mostrar Banners e Imágenes</label>
+            <p class="setting-sub">Desactívalo para maximizar la fluidez y ahorrar datos en conexiones móviles.</p>
+          </div>
+          <label class="toggle-switch">
+            <input type="checkbox" id="chkShowPosters" checked>
+            <span class="slider"></span>
+          </label>
+        </div>
+
+        <div class="setting-item">
+          <div class="setting-text">
+            <label for="chkShowAdults" class="setting-title">Canales para Adultos (+18)</label>
+            <p class="setting-sub">Muestra u oculta canales con contenido para adultos.</p>
+          </div>
+          <label class="toggle-switch">
+            <input type="checkbox" id="chkShowAdults">
+            <span class="slider"></span>
+          </label>
+        </div>
+
+        <div class="setting-item-vertical">
+          <label for="customEpgUrl" class="setting-title">URL de la Guía EPG (XMLTV):</label>
+          <input type="text" id="customEpgUrl" class="input-url" placeholder="https://...">
+          <div class="url-actions">
+            <button id="btnLoadCustomUrl" class="btn-primary">Recargar Guía</button>
+            <button id="btnRestoreDefaultUrl" class="btn-secondary">Restaurar Oficial</button>
+          </div>
+        </div>
+
+        <div class="settings-footer-info">
+          <span>Versión 2.0</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
