@@ -92,32 +92,23 @@ body.hide-banners .modal-banner-container {
   user-select: none;
 }
 
-.brand-badge {
-  background: linear-gradient(135deg, #3b82f6, #6366f1);
-  color: #fff;
-  font-weight: 800;
-  font-size: 0.85rem;
-  padding: 3px 8px;
-  border-radius: 6px;
-  letter-spacing: 0.5px;
-}
-
-.brand-title {
-  font-size: 1.3rem;
-  font-weight: 800;
+.brand-logo-text {
+  font-size: 1.7rem;
+  font-weight: 900;
+  color: #ffffff;
   letter-spacing: -0.5px;
-  color: #fff;
+  line-height: 1;
+  display: inline-flex;
+  align-items: baseline;
+  user-select: none;
 }
 
-.cache-pill {
-  font-size: 0.8rem;
-  font-weight: 600;
-  color: var(--live-green);
-  background: rgba(16, 185, 129, 0.12);
-  border: 1px solid rgba(16, 185, 129, 0.3);
-  padding: 3px 10px;
-  border-radius: 20px;
-  white-space: nowrap;
+.brand-logo-dot {
+  color: #00e676;
+  font-weight: 900;
+  font-size: 1.9rem;
+  line-height: 0.8;
+  margin-left: 2px;
 }
 
 /* Buscador */

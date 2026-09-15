@@ -56,7 +56,6 @@
     el.mainHeader = document.getElementById('mainHeader');
     el.btnBack = document.getElementById('btnBack');
     el.brandLogo = document.getElementById('brandLogo');
-    el.cacheStatus = document.getElementById('cacheStatus');
     el.searchInput = document.getElementById('searchInput');
     el.btnClearSearch = document.getElementById('btnClearSearch');
     el.tabButtons = document.querySelectorAll('.tab-btn');
@@ -140,6 +139,7 @@
     el.modalDuration = document.getElementById('modalDuration');
     el.modalCategory = document.getElementById('modalCategory');
     el.modalDescription = document.getElementById('modalDescription');
+    el.btnModalGoToChannel = document.getElementById('btnModalGoToChannel');
 
     // Modal Ajustes
     el.modalSettings = document.getElementById('modalSettings');
@@ -244,6 +244,16 @@
     const start = new Date(now.getFullYear(), now.getMonth(), now.getDate(), 6, 0, 0, 0).getTime();
     const end = start + 24 * 60 * 60 * 1000;
     return { start, end };
+  }
+
+  function getDayTabLabel(dayOffset) {
+    if (dayOffset === 0) return "Hoy";
+    if (dayOffset === 1) return "Mañana";
+
+    const tvDay = getTvDayRange(dayOffset);
+    const d = new Date(tvDay.start);
+    const daysOfWeek = ["Domingo", "Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado"];
+    return daysOfWeek[d.getDay()];
   }
 
   function formatTime(ms) {
@@ -420,14 +430,50 @@
   // ==========================================================================
   // 4. VISTA INICIO — HERO BANNER & TARJETAS
   // ==========================================================================
+  const FIXED_CARDS_IDS = ['0102', '0103', '0104', '0105', '0106', '0107', '0401', '0403'];
+
+  function isGenericDesc(desc) {
+    if (!desc) return true;
+    const d = cleanStr(desc);
+    if (d.length < 15) return true;
+    return d.includes("sin descripcion") ||
+           d.includes("sin informacion") ||
+           d.includes("programacion diaria") ||
+           d.includes("transmision diaria") ||
+           d.includes("no disponible") ||
+           d.includes("sin info");
+  }
+
   function setupHeroChannels() {
     const now = Date.now();
+    // REQUERIMIENTO: Solo programas con BANNER REAL (no fallback) y DESCRIPCIÓN REAL
     state.heroChannels = state.channels.filter(ch => {
-      const cur = ch.programs.find(p => p.start <= now && p.stop > now);
-      return cur && (cur.icon || ch.icon);
-    }).slice(0, 15);
+      // Ocultar canales 000x
+      if (ch.id.startsWith('000')) return false;
+      if (!state.showAdults && ch.isAdult) return false;
+
+      const cur = ch.programs.find(p => p.start <= now && p.stop > now) ||
+                  ch.programs.find(p => p.start > now && p.start <= now + 3 * 3600000);
+      if (!cur) return false;
+
+      // Banner REAL del programa (no logo de canal, no vacío)
+      const hasRealBanner = cur.icon &&
+                            cur.icon.trim() !== '' &&
+                            cur.icon !== ch.icon &&
+                            cur.icon !== EMPTY_IMG;
+      if (!hasRealBanner) return false;
+
+      // Descripción REAL
+      if (isGenericDesc(cur.desc)) return false;
+
+      return true;
+    });
+
+    // Barajar aleatoriamente para variedad
+    state.heroChannels.sort(() => Math.random() - 0.5);
 
     if (state.heroChannels.length > 0) {
+      el.heroSection.classList.remove('hidden');
       state.heroIndex = 0;
       updateHeroBanner();
       startHeroAutoPlay();
@@ -437,13 +483,19 @@
   }
 
   function updateHeroBanner() {
-    if (state.heroChannels.length === 0) return;
+    if (state.heroChannels.length === 0) {
+      el.heroSection.classList.add('hidden');
+      return;
+    }
     const ch = state.heroChannels[state.heroIndex];
     const now = Date.now();
-    const cur = getCurrentProgram(ch, now);
+    const cur = ch.programs.find(p => p.start <= now && p.stop > now) ||
+                ch.programs.find(p => p.start > now) ||
+                ch.programs[0];
     if (!cur) return;
 
-    const bannerSrc = cur.icon || ch.icon || '';
+    // Solo banner real del programa (sin fallback a logo)
+    const bannerSrc = cur.icon;
     if (bannerSrc && state.showBanners) {
       el.heroBg.style.backgroundImage = `url('${bannerSrc}')`;
     } else {
@@ -471,7 +523,7 @@
       el.heroEpisode.classList.add('hidden');
     }
 
-    el.heroDesc.innerText = cur.desc || 'Disfruta de la programación en emisión.';
+    el.heroDesc.innerText = cur.desc;
 
     // Click en Hero abre el detalle del programa
     el.heroSection.onclick = (e) => {
@@ -491,28 +543,61 @@
     }, 8000);
   }
 
+  function initCardsPool() {
+    const fixedSet = new Set(FIXED_CARDS_IDS);
+    // Filtrar piscina aleatoria: excluir canales 000x y los fijos
+    const pool = state.channels.filter(ch => {
+      if (ch.id.startsWith('000')) return false;
+      if (fixedSet.has(ch.id)) return false;
+      if (!state.showAdults && ch.isAdult) return false;
+      return true;
+    });
+
+    pool.sort(() => Math.random() - 0.5);
+    state.randomCardsPool = pool;
+  }
+
   function renderCardsView() {
-    const channels = getFilteredChannels();
     const grid = el.cardsGrid;
     grid.innerHTML = '';
 
-    if (channels.length === 0) {
-      el.emptyCards.classList.remove('hidden');
+    const query = cleanStr(state.searchQuery);
+    let displayedChannels = [];
+
+    if (query || state.filter !== 'all') {
+      // Si el usuario busca o filtra, mostrar los que coincidan (ocultando 000x)
+      displayedChannels = getFilteredChannels().filter(ch => !ch.id.startsWith('000'));
+      el.cardsCounterText.innerText = `Resultados: ${displayedChannels.length} canales`;
       el.cardsLoadMoreBox.classList.add('hidden');
-      el.cardsCounterText.innerText = '';
+    } else {
+      // Vista Inicio normal:
+      // 1. Canales fijos siempre: 0102 al 0107, 0401 y 0403
+      const fixedChannels = FIXED_CARDS_IDS.map(id => state.channelsMap[id]).filter(Boolean);
+      
+      // 2. Rellenar el resto al azar hasta cardsLimit
+      if (!state.randomCardsPool || state.randomCardsPool.length === 0) {
+        initCardsPool();
+      }
+      const neededRandom = Math.max(0, state.cardsLimit - fixedChannels.length);
+      const randomChannels = (state.randomCardsPool || []).slice(0, neededRandom);
+
+      displayedChannels = [...fixedChannels, ...randomChannels];
+
+      el.cardsCounterText.innerText = `Mostrando ${displayedChannels.length} canales destacados y aleatorios`;
+
+      const totalAvailable = fixedChannels.length + (state.randomCardsPool ? state.randomCardsPool.length : 0);
+      if (displayedChannels.length < totalAvailable) {
+        el.cardsLoadMoreBox.classList.remove('hidden');
+      } else {
+        el.cardsLoadMoreBox.classList.add('hidden');
+      }
+    }
+
+    if (displayedChannels.length === 0) {
+      el.emptyCards.classList.remove('hidden');
       return;
     }
     el.emptyCards.classList.add('hidden');
-
-    const total = channels.length;
-    const displayedChannels = channels.slice(0, state.cardsLimit);
-    el.cardsCounterText.innerText = `Mostrando ${displayedChannels.length} de ${total} canales`;
-
-    if (displayedChannels.length < total) {
-      el.cardsLoadMoreBox.classList.remove('hidden');
-    } else {
-      el.cardsLoadMoreBox.classList.add('hidden');
-    }
 
     const now = Date.now();
     const fragment = document.createDocumentFragment();
@@ -817,11 +902,10 @@
     const container = el.gridDateSelector;
     container.innerHTML = '';
 
-    const labels = ["Hoy", "Mañana", "En 2 días", "En 3 días"];
-    for (let i = 0; i < 4; i++) {
+    for (let i = 0; i < 5; i++) {
       const btn = document.createElement('button');
       btn.className = `grid-date-chip ${state.gridDayOffset === i ? 'active' : ''}`;
-      btn.innerText = labels[i];
+      btn.innerText = getDayTabLabel(i);
       btn.onclick = () => {
         state.gridDayOffset = i;
         renderGridView();
@@ -883,7 +967,11 @@
     const items = el.guideChList.querySelectorAll('.guide-ch-item');
     const channels = getFilteredChannels();
     items.forEach((it, idx) => {
-      it.classList.toggle('active', channels[idx] && channels[idx].id === chId);
+      const isActive = channels[idx] && channels[idx].id === chId;
+      it.classList.toggle('active', isActive);
+      if (isActive) {
+        it.scrollIntoView({ block: 'nearest', behavior: 'smooth' });
+      }
     });
     renderSelectedGuideSchedule();
   }
@@ -911,23 +999,43 @@
 
     const now = Date.now();
     const fragment = document.createDocumentFragment();
+    let liveCardElement = null;
 
     for (let i = 0; i < dayProgs.length; i++) {
       const prog = dayProgs[i];
       const isLive = prog.start <= now && prog.stop > now;
 
+      // Línea de la izquierda (borde): SOLO para el programa que está al aire en este momento
+      let cardBorderClass = '';
+      if (isLive) {
+        cardBorderClass = prog.isBroadcastLive ? 'is-broadcast-live' : 'is-live';
+      }
+
+      // Insignias:
+      // - Si es transmisión en vivo (prog.isBroadcastLive), SIEMPRE muestra su badge rojo "EN VIVO"
+      // - Si no es en vivo pero está al aire en este momento (isLive), muestra el badge verde "AL AIRE"
+      let badgeHtml = '';
+      if (prog.isBroadcastLive) {
+        badgeHtml = '<span class="live-pill badge-en-vivo" style="font-size:0.75rem; padding:2px 8px;">EN VIVO</span>';
+      } else if (isLive) {
+        badgeHtml = '<span class="live-pill badge-al-aire" style="font-size:0.75rem; padding:2px 8px;">AL AIRE</span>';
+      }
+
       const card = document.createElement('div');
-      card.className = `guide-prog-card ${prog.isBroadcastLive ? 'is-broadcast-live' : (isLive ? 'is-live' : '')}`;
+      card.className = `guide-prog-card ${cardBorderClass}`;
+      if (isLive) {
+        liveCardElement = card;
+      } else if (!liveCardElement && prog.start > now && state.selectedGuideDayOffset === 0) {
+        liveCardElement = card;
+      }
       card.onclick = () => openProgramDetail(ch, prog);
 
       const bannerSrc = prog.icon || ch.icon || '';
 
-      // Insignia
-      let badgeHtml = '';
-      if (prog.isBroadcastLive) {
-        badgeHtml = '<span class="live-pill badge-en-vivo" style="font-size:0.7rem; padding:2px 6px;">EN VIVO</span>';
-      } else if (isLive) {
-        badgeHtml = '<span class="live-pill badge-al-aire" style="font-size:0.7rem; padding:2px 6px;">AL AIRE</span>';
+      // REQUERIMIENTO: Quitar el cartel duplicado en vivo (el azul)
+      let tagHtml = '';
+      if (prog.tag && !/en\s*vivo/i.test(prog.tag)) {
+        tagHtml = `<span class="tag-pill">${escapeHtml(prog.tag)}</span>`;
       }
 
       // REQUERIMIENTO: Banner a la derecha y solo hora de inicio (sin hora de fin)
@@ -936,7 +1044,7 @@
           <div class="guide-prog-time-row">
             <span class="guide-prog-start-time">${formatTime(prog.start)}</span>
             ${badgeHtml}
-            ${prog.tag ? `<span class="tag-pill">${escapeHtml(prog.tag)}</span>` : ''}
+            ${tagHtml}
           </div>
           <h3 class="guide-prog-title">${escapeHtml(prog.title)}</h3>
           ${prog.episode ? `<div class="guide-prog-episode">${escapeHtml(prog.episode)}</div>` : ''}
@@ -956,17 +1064,25 @@
     }
 
     timeline.appendChild(fragment);
+
+    // REQUERIMIENTO: En canales, hacer scroll automático al programa que está al aire
+    if (liveCardElement && state.selectedGuideDayOffset === 0) {
+      setTimeout(() => {
+        liveCardElement.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      }, 80);
+    } else {
+      timeline.scrollTop = 0;
+    }
   }
 
   function renderGuideDateTabs() {
     const tabs = el.guideDateTabs;
     tabs.innerHTML = '';
 
-    const labels = ["Hoy", "Mañana", "En 2 días", "En 3 días"];
-    for (let i = 0; i < 4; i++) {
+    for (let i = 0; i < 5; i++) {
       const btn = document.createElement('button');
       btn.className = `date-tab-btn ${state.selectedGuideDayOffset === i ? 'active' : ''}`;
-      btn.innerText = labels[i];
+      btn.innerText = getDayTabLabel(i);
       btn.onclick = () => {
         state.selectedGuideDayOffset = i;
         renderSelectedGuideSchedule();
@@ -980,6 +1096,7 @@
   // ==========================================================================
   function openProgramDetail(ch, prog) {
     state.activeModalProg = prog;
+    state.modalActiveChannel = ch;
 
     el.modalChLogo.src = ch.icon || EMPTY_IMG;
     el.modalChName.innerText = ch.name;
@@ -999,7 +1116,7 @@
       el.modalLiveBadge.classList.add('hidden');
     }
 
-    if (prog.tag) {
+    if (prog.tag && !/en\s*vivo/i.test(prog.tag)) {
       el.modalTagBadge.innerText = prog.tag;
       el.modalTagBadge.classList.remove('hidden');
     } else {
@@ -1234,7 +1351,6 @@
         state.channelsMap = cached.channelsMap;
         setupHeroChannels();
         renderActiveView();
-        el.cacheStatus.innerText = "En línea";
       }
     }
 
@@ -1255,17 +1371,13 @@
       await saveToIndexedDB("parsed_epg", parsed);
 
       el.loader.classList.add('hidden');
-      el.cacheStatus.innerText = "Actualizado";
 
       setupHeroChannels();
       renderActiveView();
     } catch (err) {
       el.loader.classList.add('hidden');
       if (state.channels.length === 0) {
-        el.cacheStatus.innerText = "Error de red";
         alert("No se pudo descargar la guía. Verifica tu conexión o la URL en Ajustes.");
-      } else {
-        el.cacheStatus.innerText = "Caché sin conexión";
       }
     }
   }
@@ -1379,6 +1491,15 @@
     };
 
     el.btnCloseDetail.onclick = closeModalDetail;
+    el.btnModalGoToChannel.onclick = () => {
+      const ch = state.modalActiveChannel;
+      if (ch) {
+        closeModalDetail();
+        state.selectedGuideChId = ch.id;
+        state.selectedGuideDayOffset = 0;
+        switchView('guide', true);
+      }
+    };
     el.modalDetail.onclick = (e) => {
       if (e.target === el.modalDetail) closeModalDetail();
     };
