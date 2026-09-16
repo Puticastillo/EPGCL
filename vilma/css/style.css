@@ -52,7 +52,7 @@ html, body {
 /* Ocultar banners globalmente cuando esté desactivado en ajustes */
 body.hide-banners .card-banner-wrapper,
 body.hide-banners .guide-prog-banner,
-body.hide-banners .hero-bg,
+body.hide-banners .hero-banner-side,
 body.hide-banners .modal-banner-container {
   display: none !important;
 }
@@ -62,9 +62,7 @@ body.hide-banners .modal-banner-container {
    ========================================================================== */
 #mainHeader {
   height: var(--header-height);
-  background-color: rgba(19, 22, 32, 0.92);
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
+  background-color: var(--bg-surface);
   border-bottom: 1px solid var(--border-subtle);
   display: flex;
   align-items: center;
@@ -315,6 +313,18 @@ body.hide-banners .modal-banner-container {
   display: block;
   max-width: 1600px;
   margin: 0 auto;
+  animation: viewFadeIn 0.22s ease-out;
+}
+
+@keyframes viewFadeIn {
+  from {
+    opacity: 0.85;
+    transform: translateY(3px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .view-section.hidden,
@@ -342,15 +352,12 @@ body.hide-banners .modal-banner-container {
 .live-pill:not(.badge-en-vivo) {
   background-color: var(--live-green);
   color: #ffffff;
-  box-shadow: 0 0 10px rgba(16, 185, 129, 0.4);
 }
 
 /* Rojo exclusivo para transmisiones en directo ([En vivo]) */
 .badge-en-vivo {
   background-color: var(--live-red) !important;
   color: #ffffff !important;
-  box-shadow: 0 0 12px rgba(239, 68, 68, 0.6) !important;
-  animation: pulseRed 1.8s infinite;
 }
 
 @keyframes pulseRed {
@@ -372,136 +379,234 @@ body.hide-banners .modal-banner-container {
 }
 
 /* ==========================================================================
-   1. VISTA INICIO — HERO BANNER SIMPLIFICADO
+   1. VISTA INICIO — HERO BANNER REDISEÑADO (PLANO, NÍTIDO, CENTRADO Y PROGRESO)
    ========================================================================== */
 .hero-section {
-  position: relative;
-  width: 100%;
-  min-height: 290px;
-  border-radius: 16px;
-  overflow: hidden;
-  margin-bottom: 30px;
-  border: 1px solid var(--border-subtle);
   background: var(--bg-surface);
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
-  cursor: pointer;
+  border: 1px solid var(--border-subtle);
+  border-radius: 12px;
+  padding: 24px 24px 16px 24px;
+  margin-bottom: 28px;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  transition: border-color 0.2s ease;
 }
 
-.hero-bg {
-  position: absolute;
-  inset: 0;
-  background-size: cover;
-  background-position: center;
-  filter: blur(2px) brightness(0.45);
-  transform: scale(1.02);
-  transition: opacity 0.4s ease;
+.hero-main-layout {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  gap: 28px;
+  width: 100%;
 }
 
-.hero-overlay {
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(90deg, rgba(11, 13, 19, 0.95) 0%, rgba(11, 13, 19, 0.8) 45%, rgba(11, 13, 19, 0.3) 100%),
-              linear-gradient(0deg, rgba(11, 13, 19, 0.95) 0%, transparent 60%);
+.hero-info-side {
+  flex: 1;
+  min-width: 0;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: 26px 32px;
+  gap: 16px;
 }
 
 .hero-top-meta {
   display: flex;
   align-items: center;
-  gap: 14px;
+  gap: 12px;
   flex-wrap: wrap;
 }
 
 .hero-channel-badge {
   display: flex;
   align-items: center;
-  gap: 10px;
-  background: rgba(255, 255, 255, 0.1);
-  backdrop-filter: blur(8px);
+  gap: 8px;
+  background: rgba(255, 255, 255, 0.06);
   padding: 4px 12px;
-  border-radius: 20px;
-  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 6px;
+  border: 1px solid var(--border-subtle);
+  transition: background 0.18s ease;
 }
 
 .hero-ch-logo {
-  width: 26px;
-  height: 26px;
+  width: 22px;
+  height: 22px;
   object-fit: contain;
 }
 
 .hero-ch-name {
   font-size: 0.95rem;
   font-weight: 700;
-  color: #fff;
-}
-
-.hero-time-badge {
-  font-family: var(--font-mono);
-  font-size: 0.9rem;
-  font-weight: 700;
-  color: #d1d5db;
+  color: var(--text-main);
 }
 
 .hero-content {
-  max-width: 800px;
-  margin: 14px 0;
+  cursor: pointer;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+.hero-content.is-fading {
+  opacity: 0.1;
+  transform: translateY(4px);
 }
 
 .hero-title {
-  font-size: 2.2rem;
-  font-weight: 800;
-  color: #fff;
+  font-size: 1.85rem;
+  font-weight: 900;
+  color: #ffffff;
   line-height: 1.2;
   margin-bottom: 6px;
-  letter-spacing: -0.5px;
+  letter-spacing: -0.02em;
+  transition: color 0.18s ease;
+}
+
+.hero-content:hover .hero-title {
+  color: var(--accent-cyan);
 }
 
 .hero-episode {
-  font-size: 1.15rem;
-  font-weight: 600;
-  color: #60a5fa;
+  font-size: 0.95rem;
+  color: #93c5fd;
   margin-bottom: 8px;
+  font-weight: 600;
 }
 
 .hero-desc {
-  font-size: 1rem;
-  color: #d1d5db;
-  line-height: 1.45;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: var(--text-muted);
   display: -webkit-box;
-  -webkit-line-clamp: 2;
+  -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
   overflow: hidden;
+  max-width: 800px;
 }
 
-.hero-controls {
+.hero-action-row {
   display: flex;
   align-items: center;
-  gap: 8px;
-  align-self: flex-end;
+  gap: 12px;
 }
 
-.hero-btn {
-  background: rgba(255, 255, 255, 0.15);
-  backdrop-filter: blur(8px);
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  color: #fff;
-  width: 38px;
-  height: 38px;
-  border-radius: 50%;
+.hero-action-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--accent-blue);
+  color: #ffffff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background 0.18s ease, transform 0.15s ease;
+}
+
+.hero-action-btn:hover {
+  background: var(--accent-blue-hover);
+  transform: translateY(-1px);
+}
+
+.hero-banner-side {
+  width: 440px;
+  max-width: 48%;
+  flex-shrink: 0;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 0.95rem;
   cursor: pointer;
-  transition: all 0.2s;
+}
+
+.hero-banner-img {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  border-radius: 8px;
+  border: 1px solid var(--border-subtle);
+  background: #090c10;
+  display: block;
+  transition: opacity 0.22s ease, transform 0.22s ease;
+}
+
+.hero-banner-img.is-fading {
+  opacity: 0.15;
+  transform: scale(0.98);
+}
+
+/* Controles Centrados */
+.hero-bottom-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding-top: 2px;
+}
+
+.hero-controls {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+
+.hero-btn {
+  width: 36px;
+  height: 36px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid var(--border-subtle);
+  color: var(--text-main);
+  font-size: 0.85rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.18s ease, border-color 0.18s ease, transform 0.15s ease;
 }
 
 .hero-btn:hover {
-  background: rgba(255, 255, 255, 0.3);
-  transform: scale(1.08);
+  background: rgba(255, 255, 255, 0.18);
+  border-color: rgba(255, 255, 255, 0.35);
+  transform: translateY(-1px);
+}
+
+.hero-btn:active {
+  transform: translateY(0) scale(0.95);
+}
+
+/* Barra de progreso de rotación */
+.hero-progress-track {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: rgba(255, 255, 255, 0.06);
+  overflow: hidden;
+}
+
+.hero-progress-bar {
+  height: 100%;
+  width: 0%;
+  background: linear-gradient(90deg, #3b82f6, #00e676);
+  transition: width 0.1s linear;
+}
+
+@media (max-width: 900px) {
+  .hero-main-layout {
+    flex-direction: column-reverse;
+    gap: 16px;
+  }
+  .hero-banner-side {
+    width: 100%;
+    max-width: 100%;
+  }
+  .hero-title {
+    font-size: 1.45rem;
+  }
 }
 
 /* ==========================================================================
@@ -545,9 +650,8 @@ body.hide-banners .modal-banner-container {
 }
 
 .card-item:hover {
-  transform: translateY(-4px);
-  border-color: rgba(255, 255, 255, 0.2);
-  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.4);
+  transform: translateY(-2px);
+  border-color: #3b82f6;
 }
 
 .card-banner-wrapper {
@@ -583,8 +687,7 @@ body.hide-banners .modal-banner-container {
   position: absolute;
   bottom: 10px;
   right: 10px;
-  background: rgba(0, 0, 0, 0.8);
-  backdrop-filter: blur(4px);
+  background: rgba(0, 0, 0, 0.85);
   color: #fff;
   font-family: var(--font-mono);
   font-size: 0.78rem;
@@ -1066,12 +1169,12 @@ body.hide-banners .modal-banner-container {
 
 .deco-prog-block.is-live {
   border-color: var(--live-green);
-  background: linear-gradient(135deg, rgba(16, 185, 129, 0.16), #1b1e2b);
+  background: #172a24;
 }
 
 .deco-prog-block.is-broadcast-live {
   border-color: var(--live-red);
-  background: linear-gradient(135deg, rgba(239, 68, 68, 0.2), #1b1e2b);
+  background: #2d181c;
 }
 
 .deco-block-title {
@@ -1253,12 +1356,12 @@ body.hide-banners .modal-banner-container {
 
 .guide-prog-card.is-live {
   border-left: 4px solid var(--live-green);
-  background: linear-gradient(90deg, rgba(16, 185, 129, 0.1) 0%, var(--bg-card) 50%);
+  background: #162320;
 }
 
 .guide-prog-card.is-broadcast-live {
   border-left: 4px solid var(--live-red);
-  background: linear-gradient(90deg, rgba(239, 68, 68, 0.12) 0%, var(--bg-card) 50%);
+  background: #241619;
 }
 
 .guide-prog-content {
@@ -1321,14 +1424,29 @@ body.hide-banners .modal-banner-container {
 .modal-overlay {
   position: fixed;
   inset: 0;
-  background: rgba(0, 0, 0, 0.75);
-  backdrop-filter: blur(8px);
-  -webkit-backdrop-filter: blur(8px);
+  background: rgba(0, 0, 0, 0.85);
   display: flex;
   align-items: center;
   justify-content: center;
   z-index: 200;
   padding: 20px;
+  animation: modalOverlayFade 0.18s ease-out;
+}
+
+@keyframes modalOverlayFade {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes modalContentPop {
+  from {
+    opacity: 0;
+    transform: scale(0.96) translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
 }
 
 .quick-popup-content {
@@ -1342,6 +1460,7 @@ body.hide-banners .modal-banner-container {
   flex-direction: column;
   overflow: hidden;
   box-shadow: 0 16px 40px rgba(0, 0, 0, 0.6);
+  animation: modalContentPop 0.22s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
 .quick-popup-header {
@@ -1468,6 +1587,7 @@ body.hide-banners .modal-banner-container {
   max-height: 90vh;
   overflow-y: auto;
   box-shadow: 0 20px 50px rgba(0, 0, 0, 0.7);
+  animation: modalContentPop 0.22s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
 .modal-banner-container {
@@ -1570,6 +1690,7 @@ body.hide-banners .modal-banner-container {
   width: 100%;
   max-width: 500px;
   padding: 24px;
+  animation: modalContentPop 0.22s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
 .settings-header {

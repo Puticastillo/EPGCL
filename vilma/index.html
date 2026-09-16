@@ -100,28 +100,46 @@
     <!-- 1. VISTA INICIO (Hero Banner + Tarjetas con límite) -->
     <section id="viewCards" class="view-section active">
       
-      <!-- Banner Hero Destacado -->
+      <!-- Banner Hero Destacado (Diseño Plano, Controles Centrados y Barra de Progreso) -->
       <div id="heroSection" class="hero-section">
-        <div id="heroBg" class="hero-bg"></div>
-        <div class="hero-overlay">
-          <div class="hero-top-meta">
-            <span id="heroLiveBadge" class="live-pill badge-al-aire">AL AIRE</span>
-            <div class="hero-channel-badge">
-              <img id="heroChLogo" src="" alt="" class="hero-ch-logo">
-              <span id="heroChName" class="hero-ch-name">Cargando canal...</span>
+        <div class="hero-main-layout">
+          <div class="hero-info-side">
+            <div class="hero-top-meta">
+              <span id="heroLiveBadge" class="live-pill badge-al-aire">AL AIRE</span>
+              <div class="hero-channel-badge">
+                <img id="heroChLogo" src="" alt="" class="hero-ch-logo">
+                <span id="heroChName" class="hero-ch-name">Cargando canal...</span>
+              </div>
             </div>
-            <span id="heroTime" class="hero-time-badge">--:-- - --:--</span>
+            <div class="hero-content" id="heroContentBox">
+              <h2 id="heroTitle" class="hero-title">Cargando guía...</h2>
+              <div id="heroEpisode" class="hero-episode hidden"></div>
+              <p id="heroDesc" class="hero-desc">Buscando la programación más actualizada...</p>
+            </div>
+            <div class="hero-action-row">
+              <button id="heroBtnGoChannel" class="hero-action-btn" type="button">
+                <svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2" fill="none"><rect x="2" y="7" width="20" height="15" rx="2" ry="2"/><polyline points="17 2 12 7 7 2"/></svg>
+                <span>Ver programación</span>
+              </button>
+            </div>
           </div>
-          <div class="hero-content" id="heroContentBox">
-            <h1 id="heroTitle" class="hero-title">Cargando guía...</h1>
-            <div id="heroEpisode" class="hero-episode"></div>
-            <p id="heroDesc" class="hero-desc">Buscando la programación más actualizada...</p>
+          <div class="hero-banner-side" id="heroBannerSide">
+            <img id="heroBannerImg" class="hero-banner-img" src="" alt="Banner">
           </div>
+        </div>
+
+        <!-- Controles Centrados en la parte inferior del Hero -->
+        <div class="hero-bottom-bar">
           <div class="hero-controls">
             <button id="heroBtnPrev" class="hero-btn" title="Canal anterior" aria-label="Anterior">&#10094;</button>
-            <button id="heroBtnPlay" class="hero-btn" title="Pausar rotación" id="heroPlayBtn" aria-label="Pausa">&#10074;&#10074;</button>
+            <button id="heroBtnPlay" class="hero-btn" title="Pausar rotación" aria-label="Pausa">&#10074;&#10074;</button>
             <button id="heroBtnNext" class="hero-btn" title="Siguiente canal" aria-label="Siguiente">&#10095;</button>
           </div>
+        </div>
+
+        <!-- Barra de Progreso de Rotación del Hero -->
+        <div class="hero-progress-track">
+          <div id="heroProgressBar" class="hero-progress-bar"></div>
         </div>
       </div>
 
@@ -191,6 +209,12 @@
         </div>
       </div>
       <div id="emptyGrid" class="empty-state hidden">No hay canales para la grilla.</div>
+      <div class="load-more-box" id="gridLoadMoreBox">
+        <button id="btnLoadMoreGrid" class="btn-load-more">
+          <span>Cargar más canales en la grilla</span>
+          <svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2" fill="none"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+      </div>
     </section>
 
     <!-- 4. VISTA CANALES (Selector lateral y cronograma con banner a la derecha) -->
@@ -241,7 +265,7 @@
           <img id="quickChLogo" src="" alt="" class="quick-logo">
           <div>
             <h3 id="quickChName" class="quick-title">Canal</h3>
-            <span class="quick-badge" id="quickTvDayBadge">Día televisivo (hasta las 06:00)</span>
+            <span class="quick-badge" id="quickTvDayBadge">Próximos programas</span>
           </div>
         </div>
         <button id="btnCloseQuick" class="btn-close" aria-label="Cerrar">&times;</button>

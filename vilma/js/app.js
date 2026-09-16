@@ -30,6 +30,7 @@
     showAdults: false,
     favorites: new Set(),
     cardsLimit: CARDS_INITIAL_LIMIT,
+    gridVisibleCount: 35,
     
     // Hero Banner
     heroChannels: [],
@@ -59,12 +60,11 @@
     el.searchInput = document.getElementById('searchInput');
     el.btnClearSearch = document.getElementById('btnClearSearch');
     el.tabButtons = document.querySelectorAll('.tab-btn');
-    el.btnSettings = document.getElementById('btnSettings');
-    
-    el.filterChips = document.querySelectorAll('.filter-chip');
+    el.filterChips = document.querySelectorAll('.chip-btn');
     el.favCount = document.getElementById('favCount');
     el.channelCounter = document.getElementById('channelCounter');
     el.liveClock = document.getElementById('liveClock');
+    el.btnSettings = document.getElementById('btnSettings');
     
     el.appContainer = document.getElementById('appContainer');
     el.loader = document.getElementById('loader');
@@ -74,17 +74,20 @@
     // 1. Inicio
     el.viewCards = document.getElementById('viewCards');
     el.heroSection = document.getElementById('heroSection');
-    el.heroBg = document.getElementById('heroBg');
+    el.heroContentBox = document.getElementById('heroContentBox');
     el.heroLiveBadge = document.getElementById('heroLiveBadge');
     el.heroChLogo = document.getElementById('heroChLogo');
     el.heroChName = document.getElementById('heroChName');
-    el.heroTime = document.getElementById('heroTime');
+    el.heroProgressBar = document.getElementById('heroProgressBar');
     el.heroTitle = document.getElementById('heroTitle');
     el.heroEpisode = document.getElementById('heroEpisode');
     el.heroDesc = document.getElementById('heroDesc');
+    el.heroBtnGoChannel = document.getElementById('heroBtnGoChannel');
     el.heroBtnPrev = document.getElementById('heroBtnPrev');
     el.heroBtnPlay = document.getElementById('heroBtnPlay');
     el.heroBtnNext = document.getElementById('heroBtnNext');
+    el.heroBannerSide = document.getElementById('heroBannerSide');
+    el.heroBannerImg = document.getElementById('heroBannerImg');
     el.cardsGrid = document.getElementById('cardsGrid');
     el.cardsCounterText = document.getElementById('cardsCounterText');
     el.emptyCards = document.getElementById('emptyCards');
@@ -105,6 +108,8 @@
     el.decoNowLine = document.getElementById('decoNowLine');
     el.decoGridRows = document.getElementById('decoGridRows');
     el.emptyGrid = document.getElementById('emptyGrid');
+    el.gridLoadMoreBox = document.getElementById('gridLoadMoreBox');
+    el.btnLoadMoreGrid = document.getElementById('btnLoadMoreGrid');
 
     // 4. Canales (Guía)
     el.viewGuide = document.getElementById('viewGuide');
@@ -303,20 +308,74 @@
   }, { rootMargin: '200px 0px' });
 
   // ==========================================================================
-  // 3. NAVEGACIÓN, PESTAÑAS E HISTORIAL
+  // 3. NAVEGACIÓN INDEPENDIENTE, URL HASH ROUTING E HISTORIAL
   // ==========================================================================
-  function switchView(targetView, saveHistory = true) {
-    if (state.currentView === targetView) return;
+  const VIEW_MAP = {
+    'inicio': 'cards',
+    'lista': 'list',
+    'grilla': 'grid',
+    'canales': 'guide'
+  };
 
-    if (saveHistory) {
-      state.navHistory.push({
-        view: state.currentView,
-        scrollY: el.appContainer.scrollTop,
-        selectedGuideChId: state.selectedGuideChId
-      });
+  const REVERSE_VIEW_MAP = {
+    'cards': 'inicio',
+    'list': 'lista',
+    'grid': 'grilla',
+    'guide': 'canales'
+  };
+
+  function parseCurrentHash() {
+    const raw = window.location.hash.replace(/^#\/?/, '').trim();
+    if (!raw) return { view: 'cards', channelId: null };
+
+    const [path, query] = raw.split('?');
+    const parts = path.split('/');
+    const section = (parts[0] || '').toLowerCase();
+    const view = VIEW_MAP[section] || 'cards';
+
+    let channelId = parts[1] || null;
+    if (query) {
+      const params = new URLSearchParams(query);
+      channelId = params.get('canal') || params.get('id') || params.get('ch') || channelId;
+    }
+
+    return { view, channelId };
+  }
+
+  function updateRouteHash(targetView, channelId = null, pushState = false) {
+    const hashName = REVERSE_VIEW_MAP[targetView] || 'inicio';
+    let targetHash = `#${hashName}`;
+    if (targetView === 'guide' && channelId) {
+      targetHash += `?canal=${encodeURIComponent(channelId)}`;
+    }
+
+    if (window.location.hash !== targetHash) {
+      if (pushState) {
+        window.history.pushState({ view: targetView, channelId }, '', targetHash);
+      } else {
+        window.history.replaceState({ view: targetView, channelId }, '', targetHash);
+      }
+    }
+  }
+
+  function navigateTo(targetView, channelId = null, pushState = true) {
+    const previousView = state.currentView;
+
+    // Pausar timer de hero si salimos de Inicio
+    if (previousView === 'cards' && targetView !== 'cards') {
+      stopHeroAutoPlay();
+    }
+
+    // Limpiar DOM pesado de Grilla al salir de ella para rendimiento óptimo
+    if (previousView === 'grid' && targetView !== 'grid') {
+      if (el.decoGridRows) el.decoGridRows.innerHTML = '';
     }
 
     state.currentView = targetView;
+    if (channelId) {
+      state.selectedGuideChId = channelId;
+    }
+
     updateNavButtonsUI();
 
     // Alternar visibilidad de vistas
@@ -330,48 +389,35 @@
       btn.classList.toggle('active', btn.getAttribute('data-view') === targetView);
     });
 
+    updateRouteHash(targetView, channelId || state.selectedGuideChId, pushState);
+
     renderActiveView();
+
+    // Si volvemos a Inicio, reactivar Hero autoplay si estaba activo
+    if (targetView === 'cards' && state.heroPlaying) {
+      startHeroAutoPlay();
+    }
 
     // Si entramos a la Grilla, centrar en la hora actual
     if (targetView === 'grid') {
-      setTimeout(centerGridOnNow, 100);
+      setTimeout(centerGridOnNow, 80);
     }
   }
 
+  function switchView(targetView, channelId = null, updateHash = true) {
+    navigateTo(targetView, channelId, false);
+  }
+
   function goBack() {
-    if (state.navHistory.length === 0) {
-      switchView('cards', false);
-      return;
-    }
-
-    const prev = state.navHistory.pop();
-    state.currentView = prev.view;
-    if (prev.selectedGuideChId) {
-      state.selectedGuideChId = prev.selectedGuideChId;
-    }
-
-    updateNavButtonsUI();
-
-    el.viewCards.classList.toggle('hidden', prev.view !== 'cards');
-    el.viewList.classList.toggle('hidden', prev.view !== 'list');
-    el.viewGrid.classList.toggle('hidden', prev.view !== 'grid');
-    el.viewGuide.classList.toggle('hidden', prev.view !== 'guide');
-
-    el.tabButtons.forEach(btn => {
-      btn.classList.toggle('active', btn.getAttribute('data-view') === prev.view);
-    });
-
-    renderActiveView();
-
-    if (prev.scrollY) {
-      requestAnimationFrame(() => {
-        el.appContainer.scrollTop = prev.scrollY;
-      });
+    if (window.history.length > 1) {
+      window.history.back();
+    } else {
+      navigateTo('cards', null, true);
     }
   }
 
   function updateNavButtonsUI() {
-    if (state.navHistory.length > 0) {
+    if (state.currentView !== 'cards') {
       el.btnBack.classList.remove('hidden');
     } else {
       el.btnBack.classList.add('hidden');
@@ -431,6 +477,7 @@
   // 4. VISTA INICIO — HERO BANNER & TARJETAS
   // ==========================================================================
   const FIXED_CARDS_IDS = ['0102', '0103', '0104', '0105', '0106', '0107', '0401', '0403'];
+  const HERO_CYCLE_DURATION = 7000; // 7 segundos de rotación por programa
 
   function isGenericDesc(desc) {
     if (!desc) return true;
@@ -444,103 +491,217 @@
            d.includes("sin info");
   }
 
+  function isRealBannerProg(p, ch) {
+    if (!p || !p.icon) return false;
+    const icon = p.icon.trim();
+    if (!icon || icon === EMPTY_IMG) return false;
+    if (icon.toLowerCase().includes('fallback')) return false;
+    if (icon === ch.icon) return false;
+    if (isGenericDesc(p.desc)) return false;
+    return true;
+  }
+
+  function isChannelFallbackProg(p, ch) {
+    if (!p || !p.icon) return false;
+    const icon = p.icon.trim().toLowerCase();
+    if (!icon || icon === EMPTY_IMG) return false;
+    return icon.includes(`${ch.id.toLowerCase()}_fallback`) || icon.includes('fallback');
+  }
+
   function setupHeroChannels() {
     const now = Date.now();
-    // REQUERIMIENTO: Solo programas con BANNER REAL (no fallback) y DESCRIPCIÓN REAL
-    state.heroChannels = state.channels.filter(ch => {
-      // Ocultar canales 000x
+
+    // Canales base elegibles (excluyendo 000x y adultos si no están permitidos)
+    const baseChannels = state.channels.filter(ch => {
       if (ch.id.startsWith('000')) return false;
       if (!state.showAdults && ch.isAdult) return false;
-
-      const cur = ch.programs.find(p => p.start <= now && p.stop > now) ||
-                  ch.programs.find(p => p.start > now && p.start <= now + 3 * 3600000);
-      if (!cur) return false;
-
-      // Banner REAL del programa (no logo de canal, no vacío)
-      const hasRealBanner = cur.icon &&
-                            cur.icon.trim() !== '' &&
-                            cur.icon !== ch.icon &&
-                            cur.icon !== EMPTY_IMG;
-      if (!hasRealBanner) return false;
-
-      // Descripción REAL
-      if (isGenericDesc(cur.desc)) return false;
-
-      return true;
+      return ch.programs && ch.programs.length > 0;
     });
 
-    // Barajar aleatoriamente para variedad
-    state.heroChannels.sort(() => Math.random() - 0.5);
+    // NIVEL 1: Programas con BANNER REAL (no fallback, no logo de canal) y descripción real
+    let candidateList = [];
+    const seenIdsTier1 = new Set();
 
-    if (state.heroChannels.length > 0) {
+    for (const ch of baseChannels) {
+      if (seenIdsTier1.has(ch.id)) continue;
+      // 1. Probar con el programa que está al aire ahora mismo
+      const cur = ch.programs.find(p => p.start <= now && p.stop > now);
+      if (cur && isRealBannerProg(cur, ch)) {
+        seenIdsTier1.add(ch.id);
+        candidateList.push({ channel: ch, program: cur });
+        continue;
+      }
+      // 2. Si el actual no califica, buscar en los próximos programas (dentro de 4 horas)
+      const nextProg = ch.programs.find(p => p.start > now && p.start <= now + 4 * 3600000 && isRealBannerProg(p, ch));
+      if (nextProg) {
+        seenIdsTier1.add(ch.id);
+        candidateList.push({ channel: ch, program: nextProg });
+      }
+    }
+
+    // NIVEL 2: Si por algún error o actualización no hay programas con banners reales,
+    // buscar los canales con fallback de los propios canales (con el id del canal)
+    if (candidateList.length === 0) {
+      const seenIdsTier2 = new Set();
+      for (const ch of baseChannels) {
+        if (seenIdsTier2.has(ch.id)) continue;
+        const cur = ch.programs.find(p => p.start <= now && p.stop > now) ||
+                    ch.programs.find(p => p.start > now && p.start <= now + 4 * 3600000);
+        if (cur && isChannelFallbackProg(cur, ch)) {
+          seenIdsTier2.add(ch.id);
+          candidateList.push({ channel: ch, program: cur });
+        }
+      }
+    }
+
+    // NIVEL 3: Si aún no hay nada disponible, usar todo lo que haya disponible
+    if (candidateList.length === 0) {
+      const seenIdsTier3 = new Set();
+      for (const ch of baseChannels) {
+        if (seenIdsTier3.has(ch.id)) continue;
+        const cur = ch.programs.find(p => p.start <= now && p.stop > now) ||
+                    ch.programs.find(p => p.start > now) ||
+                    ch.programs[0];
+        if (cur) {
+          seenIdsTier3.add(ch.id);
+          candidateList.push({ channel: ch, program: cur });
+        }
+      }
+    }
+
+    // REQUERIMIENTO: Los canales de banner hero no deben repetirse hasta haber pasado por todos
+    // Barajar aleatoriamente para una rotación fresca y sin duplicados por ciclo
+    candidateList.sort(() => Math.random() - 0.5);
+
+    state.heroList = candidateList;
+    state.heroChannels = candidateList.map(item => item.channel);
+    state.heroIndex = 0;
+
+    if (state.heroList.length > 0) {
       el.heroSection.classList.remove('hidden');
-      state.heroIndex = 0;
-      updateHeroBanner();
+      updateHeroBanner(false);
       startHeroAutoPlay();
     } else {
       el.heroSection.classList.add('hidden');
+      stopHeroAutoPlay();
     }
   }
 
-  function updateHeroBanner() {
-    if (state.heroChannels.length === 0) {
+  function updateHeroBanner(withTransition = true) {
+    if (!state.heroList || state.heroList.length === 0) {
       el.heroSection.classList.add('hidden');
       return;
     }
-    const ch = state.heroChannels[state.heroIndex];
+    const item = state.heroList[state.heroIndex];
+    if (!item) return;
+
+    const ch = item.channel;
     const now = Date.now();
-    const cur = ch.programs.find(p => p.start <= now && p.stop > now) ||
-                ch.programs.find(p => p.start > now) ||
-                ch.programs[0];
+
+    // Obtener el programa más fresco (si el actual al aire tiene banner real, usarlo; sino el guardado; sino el actual)
+    let cur = ch.programs.find(p => p.start <= now && p.stop > now);
+    if (!cur || !isRealBannerProg(cur, ch)) {
+      if (item.program && item.program.stop > now) {
+        cur = item.program;
+      } else {
+        cur = cur || ch.programs.find(p => p.start > now) || ch.programs[0];
+      }
+    }
     if (!cur) return;
 
-    // Solo banner real del programa (sin fallback a logo)
-    const bannerSrc = cur.icon;
-    if (bannerSrc && state.showBanners) {
-      el.heroBg.style.backgroundImage = `url('${bannerSrc}')`;
-    } else {
-      el.heroBg.style.backgroundImage = 'none';
-    }
+    const applyData = () => {
+      // Banner nítido 16:9 del programa (sin fallback a logo)
+      const bannerSrc = cur.icon;
+      if (bannerSrc && state.showBanners) {
+        el.heroBannerSide.classList.remove('hidden');
+        el.heroBannerImg.src = bannerSrc;
+      } else {
+        el.heroBannerSide.classList.add('hidden');
+      }
 
-    el.heroChLogo.src = ch.icon || EMPTY_IMG;
-    el.heroChName.innerText = ch.name;
-    el.heroTime.innerText = `${formatTime(cur.start)} - ${formatTime(cur.stop)}`;
+      el.heroChLogo.src = ch.icon || EMPTY_IMG;
+      el.heroChName.innerText = ch.name;
 
-    // Regla de Insignias: Rojo EN VIVO exclusivo para [En vivo], Verde AL AIRE para los demás
-    if (cur.isBroadcastLive) {
-      el.heroLiveBadge.className = 'live-pill badge-en-vivo';
-      el.heroLiveBadge.innerText = 'EN VIVO';
-    } else {
-      el.heroLiveBadge.className = 'live-pill badge-al-aire';
-      el.heroLiveBadge.innerText = 'AL AIRE';
-    }
+      // Regla de Insignias: Rojo EN VIVO exclusivo para [En vivo], Verde AL AIRE para los demás
+      if (cur.isBroadcastLive) {
+        el.heroLiveBadge.className = 'live-pill badge-en-vivo';
+        el.heroLiveBadge.innerText = 'EN VIVO';
+      } else {
+        el.heroLiveBadge.className = 'live-pill badge-al-aire';
+        el.heroLiveBadge.innerText = 'AL AIRE';
+      }
 
-    el.heroTitle.innerText = cur.title;
-    if (cur.episode) {
-      el.heroEpisode.innerText = cur.episode;
-      el.heroEpisode.classList.remove('hidden');
-    } else {
-      el.heroEpisode.classList.add('hidden');
-    }
+      el.heroTitle.innerText = cur.title;
+      if (cur.episode) {
+        el.heroEpisode.innerText = cur.episode;
+        el.heroEpisode.classList.remove('hidden');
+      } else {
+        el.heroEpisode.classList.add('hidden');
+      }
 
-    el.heroDesc.innerText = cur.desc;
+      el.heroDesc.innerText = cur.desc;
 
-    // Click en Hero abre el detalle del programa
-    el.heroSection.onclick = (e) => {
-      if (e.target.closest('.hero-btn')) return;
-      openProgramDetail(ch, cur);
+      // Botón para ir directo a la programación del canal
+      el.heroBtnGoChannel.onclick = (e) => {
+        e.stopPropagation();
+        navigateTo('guide', ch.id);
+      };
+
+      // Click en el contenido o banner abre el detalle del programa
+      el.heroContentBox.onclick = () => openProgramDetail(ch, cur);
+      el.heroBannerSide.onclick = () => openProgramDetail(ch, cur);
     };
+
+    // Transición suave al cambiar de programa
+    if (withTransition && el.heroContentBox && el.heroBannerImg) {
+      el.heroContentBox.classList.add('is-fading');
+      el.heroBannerImg.classList.add('is-fading');
+      setTimeout(() => {
+        applyData();
+        el.heroContentBox.classList.remove('is-fading');
+        el.heroBannerImg.classList.remove('is-fading');
+      }, 160);
+    } else {
+      applyData();
+    }
+  }
+
+  function resetHeroProgressBar() {
+    if (!el.heroProgressBar) return;
+    el.heroProgressBar.style.transition = 'none';
+    el.heroProgressBar.style.width = '0%';
+    void el.heroProgressBar.offsetWidth; // Forzar reflow en el navegador
+    if (state.heroPlaying && state.heroList && state.heroList.length > 1) {
+      el.heroProgressBar.style.transition = `width ${HERO_CYCLE_DURATION}ms linear`;
+      el.heroProgressBar.style.width = '100%';
+    }
+  }
+
+  function stopHeroProgressBar() {
+    if (!el.heroProgressBar) return;
+    el.heroProgressBar.style.transition = 'none';
+    el.heroProgressBar.style.width = '0%';
   }
 
   function startHeroAutoPlay() {
     clearInterval(state.heroTimer);
-    if (!state.heroPlaying) return;
+    if (!state.heroPlaying || !state.heroList || state.heroList.length <= 1) {
+      stopHeroProgressBar();
+      return;
+    }
+    resetHeroProgressBar();
     state.heroTimer = setInterval(() => {
-      if (state.heroChannels.length > 1) {
-        state.heroIndex = (state.heroIndex + 1) % state.heroChannels.length;
-        updateHeroBanner();
+      if (state.heroList.length > 1) {
+        state.heroIndex = (state.heroIndex + 1) % state.heroList.length;
+        updateHeroBanner(true);
+        resetHeroProgressBar();
       }
-    }, 8000);
+    }, HERO_CYCLE_DURATION);
+  }
+
+  function stopHeroAutoPlay() {
+    clearInterval(state.heroTimer);
+    stopHeroProgressBar();
   }
 
   function initCardsPool() {
@@ -837,17 +998,22 @@
       el.decoNowLine.classList.add('hidden');
     }
 
-    // 3. Renderizar Filas de Canales y Bloques
+    // 3. Renderizar Filas de Canales y Bloques (Paginación de 35 canales para rendimiento óptimo)
+    const maxChannels = state.gridVisibleCount || 35;
+    const displayedChannels = channels.slice(0, maxChannels);
+
     const fragment = document.createDocumentFragment();
 
-    for (let i = 0; i < channels.length; i++) {
-      const ch = channels[i];
+    for (let i = 0; i < displayedChannels.length; i++) {
+      const ch = displayedChannels[i];
       const row = document.createElement('div');
       row.className = 'deco-channel-row';
 
       // Columna fija de canal
       const chInfo = document.createElement('div');
       chInfo.className = 'deco-ch-info';
+      chInfo.title = `Ver guía de ${ch.name}`;
+      chInfo.onclick = () => navigateTo('guide', ch.id);
       chInfo.innerHTML = `
         <img class="deco-ch-logo" src="${ch.icon || EMPTY_IMG}" alt="" loading="lazy">
         <div class="deco-ch-details">
@@ -896,6 +1062,14 @@
     }
 
     rowsContainer.appendChild(fragment);
+
+    if (channels.length > maxChannels) {
+      el.gridLoadMoreBox.classList.remove('hidden');
+      const span = el.btnLoadMoreGrid.querySelector('span');
+      if (span) span.innerText = `Cargar más canales en la grilla (${displayedChannels.length} de ${channels.length})`;
+    } else {
+      el.gridLoadMoreBox.classList.add('hidden');
+    }
   }
 
   function renderGridDateSelector() {
@@ -962,7 +1136,7 @@
     renderSelectedGuideSchedule();
   }
 
-  function selectGuideChannel(chId) {
+  function selectGuideChannel(chId, updateHash = true) {
     state.selectedGuideChId = chId;
     const items = el.guideChList.querySelectorAll('.guide-ch-item');
     const channels = getFilteredChannels();
@@ -973,6 +1147,9 @@
         it.scrollIntoView({ block: 'nearest', behavior: 'smooth' });
       }
     });
+    if (updateHash) {
+      updateRouteHash('guide', chId, false);
+    }
     renderSelectedGuideSchedule();
   }
 
@@ -1389,14 +1566,13 @@
     el.btnBack.onclick = goBack;
 
     el.brandLogo.onclick = () => {
-      state.navHistory = [];
-      switchView('cards', false);
+      navigateTo('cards', null, true);
     };
 
     el.tabButtons.forEach(btn => {
       btn.onclick = () => {
         const target = btn.getAttribute('data-view');
-        switchView(target, true);
+        navigateTo(target, null, true);
       };
     });
 
@@ -1405,6 +1581,7 @@
         el.filterChips.forEach(c => c.classList.remove('active'));
         chip.classList.add('active');
         state.filter = chip.getAttribute('data-filter');
+        state.gridVisibleCount = 35;
         renderActiveView();
       };
     });
@@ -1417,6 +1594,7 @@
       el.btnClearSearch.classList.toggle('hidden', val.length === 0);
       searchDebounce = setTimeout(() => {
         state.searchQuery = val;
+        state.gridVisibleCount = 35;
         renderActiveView();
       }, 150);
     };
@@ -1425,30 +1603,44 @@
       el.searchInput.value = '';
       el.btnClearSearch.classList.add('hidden');
       state.searchQuery = '';
+      state.gridVisibleCount = 35;
       renderActiveView();
     };
 
     // Hero controles
     el.heroBtnPrev.onclick = (e) => {
       e.stopPropagation();
-      if (state.heroChannels.length === 0) return;
-      state.heroIndex = (state.heroIndex - 1 + state.heroChannels.length) % state.heroChannels.length;
-      updateHeroBanner();
+      if (!state.heroList || state.heroList.length === 0) return;
+      state.heroIndex = (state.heroIndex - 1 + state.heroList.length) % state.heroList.length;
+      updateHeroBanner(true);
+      if (state.heroPlaying) {
+        startHeroAutoPlay();
+      } else {
+        stopHeroProgressBar();
+      }
     };
 
     el.heroBtnNext.onclick = (e) => {
       e.stopPropagation();
-      if (state.heroChannels.length === 0) return;
-      state.heroIndex = (state.heroIndex + 1) % state.heroChannels.length;
-      updateHeroBanner();
+      if (!state.heroList || state.heroList.length === 0) return;
+      state.heroIndex = (state.heroIndex + 1) % state.heroList.length;
+      updateHeroBanner(true);
+      if (state.heroPlaying) {
+        startHeroAutoPlay();
+      } else {
+        stopHeroProgressBar();
+      }
     };
 
     el.heroBtnPlay.onclick = (e) => {
       e.stopPropagation();
       state.heroPlaying = !state.heroPlaying;
       el.heroBtnPlay.innerHTML = state.heroPlaying ? '&#10074;&#10074;' : '&#9658;';
-      if (state.heroPlaying) startHeroAutoPlay();
-      else clearInterval(state.heroTimer);
+      if (state.heroPlaying) {
+        startHeroAutoPlay();
+      } else {
+        stopHeroAutoPlay();
+      }
     };
 
     // Botón Cargar Más Canales
@@ -1456,6 +1648,14 @@
       state.cardsLimit += CARDS_STEP;
       renderCardsView();
     };
+
+    // Botón Cargar Más Canales en Grilla
+    if (el.btnLoadMoreGrid) {
+      el.btnLoadMoreGrid.onclick = () => {
+        state.gridVisibleCount = (state.gridVisibleCount || 35) + 35;
+        renderGridView();
+      };
+    }
 
     // Botón Ir a Ahora en Grilla
     el.btnGridNow.onclick = centerGridOnNow;
@@ -1477,10 +1677,8 @@
       const ch = state.activeChannelForQuick;
       if (ch) {
         closeQuickPopup();
-        state.selectedGuideChId = ch.id;
         state.selectedGuideDayOffset = 0;
-        // Al venir de Lista, presionar Atrás devolverá a Lista
-        switchView('guide', true);
+        navigateTo('guide', ch.id, true);
       }
     };
 
@@ -1495,9 +1693,8 @@
       const ch = state.modalActiveChannel;
       if (ch) {
         closeModalDetail();
-        state.selectedGuideChId = ch.id;
         state.selectedGuideDayOffset = 0;
-        switchView('guide', true);
+        navigateTo('guide', ch.id, true);
       }
     };
     el.modalDetail.onclick = (e) => {
@@ -1540,6 +1737,12 @@
       fetchAndProcessEPG(true);
     };
 
+    // Soporte para botones Atrás/Adelante del navegador con URL Hash
+    window.addEventListener('popstate', () => {
+      const route = parseCurrentHash();
+      switchView(route.view, route.channelId, false);
+    });
+
     // Tecla Escape para cerrar modales
     window.addEventListener('keydown', (e) => {
       if (e.key === 'Escape') {
@@ -1562,6 +1765,21 @@
   // ==========================================================================
   function init() {
     initDOMElements();
+
+    // Restaurar vista desde URL hash si existe
+    const initialRoute = parseCurrentHash();
+    state.currentView = initialRoute.view;
+    if (initialRoute.channelId) {
+      state.selectedGuideChId = initialRoute.channelId;
+    }
+    updateNavButtonsUI();
+    el.tabButtons.forEach(btn => {
+      btn.classList.toggle('active', btn.getAttribute('data-view') === initialRoute.view);
+    });
+    el.viewCards.classList.toggle('hidden', initialRoute.view !== 'cards');
+    el.viewList.classList.toggle('hidden', initialRoute.view !== 'list');
+    el.viewGrid.classList.toggle('hidden', initialRoute.view !== 'grid');
+    el.viewGuide.classList.toggle('hidden', initialRoute.view !== 'guide');
 
     // Cargar preferencias
     try {
