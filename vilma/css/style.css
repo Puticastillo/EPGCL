@@ -345,6 +345,8 @@ body.hide-banners .modal-banner-container {
   border-radius: 4px;
   letter-spacing: 0.6px;
   text-transform: uppercase;
+  white-space: nowrap;
+  flex-shrink: 0;
 }
 
 /* Verde para programas que están emitiéndose en este momento */
@@ -2115,26 +2117,222 @@ input:checked + .slider:before {
     font-size: 1.35rem;
   }
 
-  /* 8. Vista Lista en Móvil */
-  .list-item {
+  /* 8. Vista Lista en Móvil: Solo Logo del Canal */
+  .list-row {
     padding: 10px 12px;
-    min-height: 60px;
+    gap: 12px;
+    border-radius: 10px;
+  }
+
+  .list-ch-col {
+    width: 44px !important;
+    min-width: 44px !important;
+    padding: 0 !important;
+    gap: 0 !important;
+    justify-content: center;
+  }
+
+  .list-ch-name-group {
+    display: none !important;
   }
 
   .list-ch-logo {
-    width: 34px;
-    height: 34px;
+    width: 42px !important;
+    height: 42px !important;
   }
 
-  .list-cur-title {
-    font-size: 0.95rem;
+  .list-programs-col {
+    flex: 1;
+    min-width: 0;
+    gap: 3px;
   }
 
-  .list-next-title {
-    font-size: 0.82rem;
+  .list-prog-now {
+    gap: 8px;
   }
 
-  /* 9. Botón Cargar Más */
+  .list-time-now {
+    font-size: 0.98rem;
+  }
+
+  .list-title-now {
+    font-size: 1rem;
+    font-weight: 700;
+  }
+
+  .list-episode-now {
+    font-size: 0.88rem;
+  }
+
+  .list-prog-next {
+    gap: 8px;
+  }
+
+  .list-time-next {
+    font-size: 0.84rem;
+  }
+
+  .list-title-next {
+    font-size: 0.88rem;
+  }
+
+  /* 9. Vista Grilla en Móvil: Solo Logo del Canal */
+  .grid-controls-right {
+    display: none;
+  }
+
+  .grid-controls-bar {
+    margin-bottom: 10px;
+  }
+
+  .grid-controls-left {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .deco-ruler-corner {
+    width: 56px !important;
+    min-width: 56px !important;
+    padding: 8px 2px !important;
+    justify-content: center !important;
+    font-size: 0.72rem !important;
+    text-align: center;
+  }
+
+  .deco-ch-info {
+    width: 56px !important;
+    min-width: 56px !important;
+    padding: 6px 4px !important;
+    justify-content: center !important;
+    gap: 0 !important;
+  }
+
+  .deco-ch-details {
+    display: none !important;
+  }
+
+  .deco-ch-logo {
+    width: 40px !important;
+    height: 40px !important;
+    margin: 0 auto;
+  }
+
+  .deco-hour-cell {
+    padding: 8px 6px;
+    font-size: 0.8rem;
+  }
+
+  /* 10. Vista Canales en Móvil: Banners 1:1, Solo Hora de Inicio, AL AIRE, Título y Capítulo */
+  #guideSelectedMeta {
+    display: none !important;
+  }
+
+  .guide-sidebar {
+    max-height: 180px;
+  }
+
+  .guide-channel-header {
+    padding: 10px 12px;
+    gap: 12px;
+  }
+
+  .guide-ch-logo {
+    width: 44px;
+    height: 44px;
+  }
+
+  #guideSelectedName {
+    font-size: 1.15rem;
+    margin: 0;
+  }
+
+  .guide-timeline {
+    gap: 10px;
+    padding-bottom: 24px;
+  }
+
+  .guide-prog-card {
+    padding: 10px 12px;
+    gap: 12px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 84px;
+  }
+
+  .guide-prog-content {
+    flex: 1;
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3px;
+  }
+
+  .guide-prog-time-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-wrap: nowrap;
+    margin-bottom: 2px;
+  }
+
+  .guide-prog-start-time {
+    font-family: var(--font-mono);
+    font-size: 1rem;
+    font-weight: 800;
+    color: var(--live-green);
+    white-space: nowrap;
+  }
+
+  .guide-prog-card .live-pill {
+    font-size: 0.7rem !important;
+    padding: 2px 6px !important;
+    letter-spacing: 0.4px !important;
+    white-space: nowrap !important;
+    flex-shrink: 0 !important;
+  }
+
+  .guide-prog-title {
+    font-size: 0.98rem;
+    font-weight: 700;
+    line-height: 1.3;
+    margin-bottom: 2px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    color: #ffffff;
+  }
+
+  .guide-prog-episode {
+    font-size: 0.84rem;
+    font-weight: 600;
+    color: #60a5fa;
+    margin-bottom: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  /* Ocultar descripción en móvil para no apretar la tarjeta */
+  .guide-prog-desc {
+    display: none !important;
+  }
+
+  /* Banner en formato cuadrado 1:1 */
+  .guide-prog-banner {
+    width: 72px !important;
+    min-width: 72px !important;
+    height: 72px !important;
+    aspect-ratio: 1 / 1 !important;
+    border-radius: 8px !important;
+    object-fit: cover !important;
+    flex-shrink: 0 !important;
+  }
+
+  /* 11. Botón Cargar Más */
   .btn-load-more {
     width: 100%;
     padding: 12px;
