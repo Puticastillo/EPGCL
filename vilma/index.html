@@ -9,7 +9,7 @@
   <!-- Preconnect & Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
   
   <link rel="stylesheet" href="css/style.css">
 </head>
@@ -78,7 +78,6 @@
     <div class="filter-group">
       <button class="filter-chip active" data-filter="all">Todos</button>
       <button class="filter-chip" data-filter="favorites" id="chipFavorites">★ Favoritos (<span id="favCount">0</span>)</button>
-      <button class="filter-chip" data-filter="adults" id="chipAdults">+18</button>
     </div>
     <div class="meta-info">
       <span id="channelCounter" class="channel-count">0 canales</span>
@@ -260,6 +259,7 @@
   <!-- POPUP RÁPIDO PARA VISTA LISTA (Solo Hora y Título: Ahora hasta fin del día televisivo 06:00) -->
   <div id="popupQuickList" class="modal-overlay hidden" role="dialog" aria-modal="true">
     <div class="quick-popup-content">
+      <div class="sheet-handle"></div>
       <div class="quick-popup-header">
         <div class="quick-ch-info">
           <img id="quickChLogo" src="" alt="" class="quick-logo">
@@ -288,6 +288,7 @@
   <!-- MODAL DE DETALLE COMPLETO DEL PROGRAMA (Click en tarjeta o programa) -->
   <div id="modalDetail" class="modal-overlay hidden" role="dialog" aria-modal="true">
     <div class="modal-content">
+      <div class="sheet-handle"></div>
       <div class="modal-banner-container" id="modalBannerBox">
         <img id="modalBannerImg" src="" alt="Banner del programa" class="modal-banner">
         <button id="btnCloseDetail" class="btn-close-banner" aria-label="Cerrar">&times;</button>
@@ -330,6 +331,7 @@
   <!-- MODAL DE AJUSTES Y CONFIGURACIÓN -->
   <div id="modalSettings" class="modal-overlay hidden" role="dialog" aria-modal="true">
     <div class="settings-content">
+      <div class="sheet-handle"></div>
       <div class="settings-header">
         <h3>Ajustes del Visor</h3>
         <button id="btnCloseSettings" class="btn-close" aria-label="Cerrar">&times;</button>

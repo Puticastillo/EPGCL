@@ -60,7 +60,7 @@
     el.searchInput = document.getElementById('searchInput');
     el.btnClearSearch = document.getElementById('btnClearSearch');
     el.tabButtons = document.querySelectorAll('.tab-btn');
-    el.filterChips = document.querySelectorAll('.chip-btn');
+    el.filterChips = document.querySelectorAll('.filter-chip');
     el.favCount = document.getElementById('favCount');
     el.channelCounter = document.getElementById('channelCounter');
     el.liveClock = document.getElementById('liveClock');
@@ -706,16 +706,44 @@
 
   function initCardsPool() {
     const fixedSet = new Set(FIXED_CARDS_IDS);
-    // Filtrar piscina aleatoria: excluir canales 000x y los fijos
+    const now = Date.now();
+
+    // Filtrar piscina base: excluir canales 000x y los fijos
     const pool = state.channels.filter(ch => {
       if (ch.id.startsWith('000')) return false;
       if (fixedSet.has(ch.id)) return false;
       if (!state.showAdults && ch.isAdult) return false;
-      return true;
+      return ch.programs && ch.programs.length > 0;
     });
 
-    pool.sort(() => Math.random() - 0.5);
-    state.randomCardsPool = pool;
+    // NIVEL 1: Canales con banner REAL del programa (no fallback, no logo de canal) y descripción real
+    const tier1 = [];
+    // NIVEL 2: Canales con banner fallback propio del canal (id_fallback)
+    const tier2 = [];
+    // NIVEL 3: Canales restantes disponibles
+    const tier3 = [];
+
+    for (const ch of pool) {
+      const cur = ch.programs.find(p => p.start <= now && p.stop > now) ||
+                  ch.programs.find(p => p.start > now && p.start <= now + 4 * 3600000) ||
+                  ch.programs[0];
+
+      if (cur && isRealBannerProg(cur, ch)) {
+        tier1.push(ch);
+      } else if (cur && isChannelFallbackProg(cur, ch)) {
+        tier2.push(ch);
+      } else {
+        tier3.push(ch);
+      }
+    }
+
+    // Barajar aleatoriamente cada nivel para garantizar frescura y variedad
+    tier1.sort(() => Math.random() - 0.5);
+    tier2.sort(() => Math.random() - 0.5);
+    tier3.sort(() => Math.random() - 0.5);
+
+    // REQUERIMIENTO: Misma lógica del hero (banners reales primero, luego fallback de canal, luego disponibles)
+    state.randomCardsPool = [...tier1, ...tier2, ...tier3];
   }
 
   function renderCardsView() {
@@ -735,7 +763,7 @@
       // 1. Canales fijos siempre: 0102 al 0107, 0401 y 0403
       const fixedChannels = FIXED_CARDS_IDS.map(id => state.channelsMap[id]).filter(Boolean);
       
-      // 2. Rellenar el resto al azar hasta cardsLimit
+      // 2. Rellenar el resto con la piscina priorizada hasta cardsLimit
       if (!state.randomCardsPool || state.randomCardsPool.length === 0) {
         initCardsPool();
       }
@@ -744,7 +772,8 @@
 
       displayedChannels = [...fixedChannels, ...randomChannels];
 
-      el.cardsCounterText.innerText = `Mostrando ${displayedChannels.length} canales destacados y aleatorios`;
+      // REQUERIMIENTO: Quitar el texto de "Mostrando 28 canales destacados y aleatorios"
+      el.cardsCounterText.innerText = '';
 
       const totalAvailable = fixedChannels.length + (state.randomCardsPool ? state.randomCardsPool.length : 0);
       if (displayedChannels.length < totalAvailable) {
@@ -755,6 +784,11 @@
     }
 
     if (displayedChannels.length === 0) {
+      if (state.filter === 'favorites') {
+        el.emptyCards.innerText = 'No tienes canales en favoritos. Toca la estrella (☆) en cualquier canal para agregarlo aquí.';
+      } else {
+        el.emptyCards.innerText = 'No se encontraron canales que coincidan.';
+      }
       el.emptyCards.classList.remove('hidden');
       return;
     }
@@ -844,6 +878,11 @@
     container.innerHTML = '';
 
     if (channels.length === 0) {
+      if (state.filter === 'favorites') {
+        el.emptyList.innerText = 'No tienes canales en favoritos. Toca la estrella (☆) en cualquier canal para agregarlo aquí.';
+      } else {
+        el.emptyList.innerText = 'No se encontraron canales.';
+      }
       el.emptyList.classList.remove('hidden');
       return;
     }
