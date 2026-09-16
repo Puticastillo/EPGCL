@@ -32,13 +32,18 @@
     </div>
 
     <!-- Buscador Integrado -->
-    <div class="search-box">
+    <div class="search-box" id="searchBox">
+      <button id="btnCloseMobileSearch" class="btn-close-mobile-search" aria-label="Cerrar búsqueda" type="button">
+        <svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2" fill="none">
+          <polyline points="15 18 9 12 15 6"/>
+        </svg>
+      </button>
       <svg class="search-icon" viewBox="0 0 24 24" width="18" height="18" stroke="currentColor" stroke-width="2" fill="none">
         <circle cx="11" cy="11" r="8"/>
         <path d="M21 21l-4.35-4.35"/>
       </svg>
       <input type="text" id="searchInput" placeholder="Buscar canal o programa..." autocomplete="off" spellcheck="false">
-      <button id="btnClearSearch" class="btn-clear hidden" aria-label="Limpiar búsqueda">&times;</button>
+      <button id="btnClearSearch" class="btn-clear hidden" aria-label="Limpiar búsqueda" type="button">&times;</button>
     </div>
 
     <!-- Acciones y Controles de Vista -->
@@ -63,6 +68,12 @@
       </nav>
 
       <div class="header-menu">
+        <button id="btnSearchToggle" class="btn-icon btn-search-toggle" title="Buscar" aria-label="Abrir búsqueda" type="button">
+          <svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2" fill="none">
+            <circle cx="11" cy="11" r="8"/>
+            <path d="M21 21l-4.35-4.35"/>
+          </svg>
+        </button>
         <button id="btnSettings" class="btn-icon" title="Ajustes y Configuración" aria-label="Ajustes">
           <svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2" fill="none">
             <circle cx="12" cy="12" r="3"/>
@@ -218,9 +229,26 @@
 
     <!-- 4. VISTA CANALES (Selector lateral y cronograma con banner a la derecha) -->
     <section id="viewGuide" class="view-section hidden">
+      <!-- Selector Desplegable de Canales para Móvil -->
+      <div class="guide-mobile-ch-picker" id="guideMobileChPicker">
+        <div class="picker-current-ch">
+          <img id="guidePickerLogo" src="" alt="" class="picker-ch-logo">
+          <div class="picker-ch-text">
+            <span class="picker-label">Canal actual</span>
+            <span class="picker-ch-name" id="guidePickerName">Selecciona un canal</span>
+          </div>
+        </div>
+        <button class="picker-toggle-btn" id="btnToggleGuideChannels" type="button" aria-expanded="false" aria-label="Desplegar canales">
+          <span class="picker-toggle-text">Cambiar</span>
+          <svg class="picker-chevron" viewBox="0 0 24 24" width="18" height="18" stroke="currentColor" stroke-width="2.5" fill="none">
+            <polyline points="6 9 12 15 18 9"/>
+          </svg>
+        </button>
+      </div>
+
       <div class="guide-layout">
-        <!-- Selector lateral de canales -->
-        <aside class="guide-sidebar">
+        <!-- Selector lateral de canales (Desktop fijo, Móvil desplegable) -->
+        <aside class="guide-sidebar" id="guideSidebar">
           <div class="sidebar-header">
             <input type="text" id="guideChSearch" placeholder="Filtrar canal..." class="sidebar-search">
           </div>

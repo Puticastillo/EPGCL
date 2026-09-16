@@ -156,6 +156,12 @@ body.hide-banners .modal-banner-container {
   line-height: 1;
 }
 
+.btn-search-toggle,
+.btn-close-mobile-search,
+.guide-mobile-ch-picker {
+  display: none !important;
+}
+
 /* Tabs de navegación */
 .header-right {
   display: flex;
@@ -873,11 +879,13 @@ body.hide-banners .modal-banner-container {
   gap: 4px;
 }
 
-/* Programa Actual: Hora en verde, Título en blanco negrita */
+/* Programa Actual: Hora en verde, Título en blanco negrita, prioridad de espacio */
 .list-prog-now {
   display: flex;
   align-items: baseline;
-  gap: 12px;
+  gap: 8px;
+  min-width: 0;
+  width: 100%;
 }
 
 .list-time-now {
@@ -886,29 +894,27 @@ body.hide-banners .modal-banner-container {
   font-weight: 800;
   font-size: 1.1rem;
   white-space: nowrap;
+  flex-shrink: 0;
 }
 
 .list-title-now {
-  font-size: 1.15rem;
+  font-size: 1.12rem;
   font-weight: 800;
   color: #ffffff;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-}
-
-.list-episode-now {
-  font-size: 0.95rem;
-  color: #60a5fa;
-  font-weight: 500;
-  white-space: nowrap;
+  flex: 0 1 auto;
+  min-width: 0;
 }
 
 /* Siguiente Programa: Hora y título atenuados */
 .list-prog-next {
   display: flex;
   align-items: baseline;
-  gap: 12px;
+  gap: 8px;
+  min-width: 0;
+  width: 100%;
 }
 
 .list-time-next {
@@ -917,14 +923,114 @@ body.hide-banners .modal-banner-container {
   font-weight: 600;
   font-size: 0.95rem;
   white-space: nowrap;
+  flex-shrink: 0;
 }
 
 .list-title-next {
-  font-size: 0.98rem;
+  font-size: 0.96rem;
   color: var(--text-dimmed);
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+  flex: 0 1 auto;
+  min-width: 0;
+}
+
+/* Indicador de Capítulo (Punto azul siempre visible, texto solo si cabe) */
+.list-chapter-badge {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 4px;
+  flex: 0 1 auto;
+  min-width: 14px;
+  overflow: hidden;
+}
+
+.chapter-dot {
+  color: #38bdf8; /* Punto azul brillante */
+  font-weight: 900;
+  font-size: 1.15rem;
+  line-height: 1;
+  flex-shrink: 0;
+  user-select: none;
+}
+
+.chapter-name {
+  font-size: 0.92rem;
+  color: #93c5fd;
+  font-weight: 500;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  flex-shrink: 10;
+  min-width: 0;
+}
+
+.list-chapter-badge.dot-only .chapter-name {
+  display: none !important;
+}
+
+.list-chapter-badge.muted .chapter-dot {
+  color: #64748b;
+}
+
+.list-chapter-badge.muted .chapter-name {
+  color: var(--text-dimmed);
+}
+
+/* Indicador EN VIVO Compacto / Adaptativo */
+.live-indicator-compact {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  background: var(--live-red);
+  color: #ffffff;
+  font-size: 0.7rem;
+  font-weight: 800;
+  padding: 2px 6px;
+  border-radius: 4px;
+  white-space: nowrap;
+  flex-shrink: 0;
+  line-height: 1.2;
+}
+
+.live-indicator-compact .live-red-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  display: inline-block;
+  flex-shrink: 0;
+}
+
+@keyframes pulseRedDot {
+  0% { transform: scale(1); opacity: 1; box-shadow: 0 0 0 0 rgba(239, 68, 68, 0.7); }
+  70% { transform: scale(1.15); opacity: 0.9; box-shadow: 0 0 0 5px rgba(239, 68, 68, 0); }
+  100% { transform: scale(1); opacity: 1; box-shadow: 0 0 0 0 rgba(239, 68, 68, 0); }
+}
+
+/* En el popup de Próximos Programas (vista compacta), usar siempre el punto rojo */
+.quick-item .live-indicator-compact {
+  background: transparent !important;
+  padding: 0 !important;
+  gap: 0 !important;
+  border-radius: 0 !important;
+}
+
+.quick-item .live-indicator-compact .live-label-text {
+  display: none !important;
+}
+
+.quick-item .live-indicator-compact .live-red-dot {
+  width: 8px !important;
+  height: 8px !important;
+  background-color: #ef4444 !important;
+  box-shadow: 0 0 6px rgba(239, 68, 68, 0.8) !important;
+  animation: pulseRedDot 1.8s infinite ease-in-out !important;
+}
+
+.quick-item .chapter-dot {
+  margin-left: 2px;
 }
 
 /* ==========================================================================
@@ -1549,6 +1655,11 @@ body.hide-banners .modal-banner-container {
   font-size: 1.05rem;
   font-weight: 700;
   color: #fff;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  flex: 0 1 auto;
+  min-width: 0;
 }
 
 .quick-popup-footer {
@@ -1905,23 +2016,107 @@ input:checked + .slider:before {
     font-size: 1.65rem;
   }
 
-  .search-box {
-    flex: 1;
-    max-width: none;
-    margin: 0 4px;
-  }
-
-  .search-box input {
+  /* Botón Lupa en Móvil: aspecto limpio de App */
+  .btn-search-toggle {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
     height: 36px;
-    font-size: 0.88rem;
-    padding: 0 28px 0 34px;
-    border-radius: 18px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.06);
+    border: 1px solid var(--border-subtle);
+    color: var(--text-primary);
+    cursor: pointer;
+    transition: background 0.15s, transform 0.15s;
+    padding: 0;
   }
 
-  .search-icon {
-    width: 15px;
-    height: 15px;
-    left: 11px;
+  .btn-search-toggle:active {
+    transform: scale(0.92);
+    background: rgba(255, 255, 255, 0.15);
+  }
+
+  /* Barra de Búsqueda Móvil: oculta por defecto, se despliega al presionar la lupa */
+  .search-box {
+    display: none;
+  }
+
+  .search-box.mobile-open {
+    display: flex !important;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0 10px;
+    background: #0f121a;
+    z-index: 150;
+    align-items: center;
+    gap: 8px;
+    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.85);
+    animation: searchExpand 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+
+  @keyframes searchExpand {
+    from {
+      opacity: 0;
+      transform: translateY(-8px) scale(0.98);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0) scale(1);
+    }
+  }
+
+  .btn-close-mobile-search {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    min-width: 36px;
+    border-radius: 50%;
+    background: transparent;
+    border: none;
+    color: #94a3b8;
+    cursor: pointer;
+    padding: 0;
+  }
+
+  .btn-close-mobile-search:active {
+    color: #fff;
+    background: rgba(255, 255, 255, 0.1);
+  }
+
+  .search-box.mobile-open input {
+    flex: 1;
+    height: 38px;
+    background: #181d2a;
+    border: 1px solid var(--border-subtle);
+    border-radius: 20px;
+    padding: 0 34px 0 38px;
+    font-size: 0.92rem;
+    color: #fff;
+  }
+
+  .search-box.mobile-open input:focus {
+    border-color: var(--accent-primary);
+    box-shadow: 0 0 0 2px rgba(56, 189, 248, 0.25);
+  }
+
+  .search-box.mobile-open .search-icon {
+    left: 54px;
+    width: 16px;
+    height: 16px;
+    color: #94a3b8;
+  }
+
+  .search-box.mobile-open .btn-clear {
+    right: 18px;
   }
 
   .header-right {
@@ -2160,8 +2355,32 @@ input:checked + .slider:before {
     font-weight: 700;
   }
 
-  .list-episode-now {
-    font-size: 0.88rem;
+  /* REQUERIMIENTO: En móvil ocultar el texto del capítulo y mostrar solo el punto azul */
+  .list-chapter-badge .chapter-name {
+    display: none !important;
+  }
+
+  /* REQUERIMIENTO: En móvil en vista lista, mostrar 'EN VIVO' con un punto rojo pulsante */
+  .list-prog-now .live-indicator-compact,
+  .list-prog-next .live-indicator-compact {
+    background: transparent !important;
+    padding: 0 !important;
+    gap: 0 !important;
+    border-radius: 0 !important;
+  }
+
+  .list-prog-now .live-indicator-compact .live-label-text,
+  .list-prog-next .live-indicator-compact .live-label-text {
+    display: none !important;
+  }
+
+  .list-prog-now .live-indicator-compact .live-red-dot,
+  .list-prog-next .live-indicator-compact .live-red-dot {
+    width: 8px !important;
+    height: 8px !important;
+    background-color: #ef4444 !important;
+    box-shadow: 0 0 6px rgba(239, 68, 68, 0.8) !important;
+    animation: pulseRedDot 1.8s infinite ease-in-out !important;
   }
 
   .list-prog-next {
@@ -2222,13 +2441,167 @@ input:checked + .slider:before {
     font-size: 0.8rem;
   }
 
-  /* 10. Vista Canales en Móvil: Banners 1:1, Solo Hora de Inicio, AL AIRE, Título y Capítulo */
+  /* 10. Vista Canales en Móvil: Banners 1:1, Selector Desplegable de Canales */
   #guideSelectedMeta {
     display: none !important;
   }
 
+  /* Barra de selección de canal para móvil (Trigger del Menú Desplegable) */
+  .guide-mobile-ch-picker {
+    display: flex !important;
+    align-items: center;
+    justify-content: space-between;
+    background: #151924;
+    border: 1px solid var(--border-subtle);
+    border-radius: 12px;
+    padding: 8px 12px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    user-select: none;
+    transition: all 0.18s ease;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  }
+
+  .guide-mobile-ch-picker:active {
+    background: #1c2232;
+    border-color: rgba(56, 189, 248, 0.4);
+  }
+
+  .picker-current-ch {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    min-width: 0;
+    flex: 1;
+  }
+
+  .picker-ch-logo {
+    width: 36px;
+    height: 36px;
+    object-fit: contain;
+    border-radius: 6px;
+    background: rgba(255, 255, 255, 0.05);
+    padding: 2px;
+    flex-shrink: 0;
+  }
+
+  .picker-ch-text {
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+  }
+
+  .picker-label {
+    font-size: 0.68rem;
+    color: var(--text-dimmed);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-weight: 600;
+  }
+
+  .picker-ch-name {
+    font-size: 0.95rem;
+    font-weight: 700;
+    color: #ffffff;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .picker-toggle-btn {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    background: rgba(56, 189, 248, 0.12);
+    border: 1px solid rgba(56, 189, 248, 0.3);
+    color: #38bdf8;
+    padding: 6px 12px;
+    border-radius: 8px;
+    font-size: 0.82rem;
+    font-weight: 700;
+    cursor: pointer;
+    flex-shrink: 0;
+    transition: all 0.2s ease;
+  }
+
+  .picker-chevron {
+    transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+
+  .picker-chevron.open {
+    transform: rotate(180deg);
+  }
+
+  /* Contenedor relativo en móvil para posicionar el menú desplegable */
+  .guide-layout {
+    display: block !important;
+    position: relative;
+    height: auto !important;
+  }
+
+  /* Menú desplegable móvil (oculto por defecto, se despliega al tocar 'Cambiar') */
   .guide-sidebar {
-    max-height: 180px;
+    display: none !important;
+  }
+
+  .guide-sidebar.mobile-open {
+    display: flex !important;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 95;
+    background: #141824;
+    border: 1px solid rgba(56, 189, 248, 0.4);
+    border-radius: 12px;
+    box-shadow: 0 16px 40px rgba(0, 0, 0, 0.9), 0 0 0 1px rgba(255, 255, 255, 0.06);
+    max-height: 380px;
+    overflow: hidden;
+    animation: dropdownSlideDown 0.22s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+
+  @keyframes dropdownSlideDown {
+    from {
+      opacity: 0;
+      transform: translateY(-8px) scale(0.98);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0) scale(1);
+    }
+  }
+
+  .guide-sidebar.mobile-open .sidebar-header {
+    padding: 10px 12px;
+    background: #191f2e;
+    border-bottom: 1px solid var(--border-subtle);
+  }
+
+  .guide-sidebar.mobile-open .sidebar-search {
+    height: 38px;
+    font-size: 0.9rem;
+    border-radius: 8px;
+  }
+
+  .guide-sidebar.mobile-open .guide-channel-list {
+    max-height: 310px;
+    padding: 6px;
+    overscroll-behavior: contain;
+  }
+
+  .guide-sidebar.mobile-open .guide-ch-item {
+    padding: 10px 12px;
+    border-radius: 8px;
+    gap: 12px;
+  }
+
+  .guide-sidebar.mobile-open .guide-ch-item img {
+    width: 34px;
+    height: 34px;
+  }
+
+  .guide-sidebar.mobile-open .guide-ch-item span {
+    font-size: 0.94rem;
   }
 
   .guide-channel-header {

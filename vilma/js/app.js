@@ -59,6 +59,9 @@
     el.brandLogo = document.getElementById('brandLogo');
     el.searchInput = document.getElementById('searchInput');
     el.btnClearSearch = document.getElementById('btnClearSearch');
+    el.searchBox = document.getElementById('searchBox');
+    el.btnSearchToggle = document.getElementById('btnSearchToggle');
+    el.btnCloseMobileSearch = document.getElementById('btnCloseMobileSearch');
     el.tabButtons = document.querySelectorAll('.tab-btn');
     el.filterChips = document.querySelectorAll('.filter-chip');
     el.favCount = document.getElementById('favCount');
@@ -120,6 +123,12 @@
     el.guideSelectedMeta = document.getElementById('guideSelectedMeta');
     el.guideDateTabs = document.getElementById('guideDateTabs');
     el.guideTimeline = document.getElementById('guideTimeline');
+    el.guideMobileChPicker = document.getElementById('guideMobileChPicker');
+    el.guidePickerLogo = document.getElementById('guidePickerLogo');
+    el.guidePickerName = document.getElementById('guidePickerName');
+    el.btnToggleGuideChannels = document.getElementById('btnToggleGuideChannels');
+    el.guideSidebar = document.getElementById('guideSidebar');
+    el.guideChHeader = document.getElementById('guideChHeader');
 
     // Popup Rápido Lista
     el.popupQuickList = document.getElementById('popupQuickList');
@@ -375,6 +384,8 @@
     if (channelId) {
       state.selectedGuideChId = channelId;
     }
+
+    closeGuideChDropdown();
 
     updateNavButtonsUI();
 
@@ -902,10 +913,25 @@
       row.className = 'list-row';
       row.onclick = () => openQuickTodayPopup(ch);
 
-      // Insignia en vivo
-      let badgeHtml = '';
+      // Insignia en vivo compacta / adaptativa (punto rojo en móvil, badge en desktop)
+      let curLiveHtml = '';
       if (curProg.isBroadcastLive) {
-        badgeHtml = '<span class="live-pill badge-en-vivo" style="margin-left:8px; font-size:0.7rem; padding:2px 6px;">EN VIVO</span>';
+        curLiveHtml = `
+          <span class="live-indicator-compact" title="Transmisión En Vivo">
+            <span class="live-red-dot"></span>
+            <span class="live-label-text">EN VIVO</span>
+          </span>
+        `;
+      }
+
+      let nextLiveHtml = '';
+      if (nextProg && nextProg.isBroadcastLive) {
+        nextLiveHtml = `
+          <span class="live-indicator-compact" title="Transmisión En Vivo">
+            <span class="live-red-dot"></span>
+            <span class="live-label-text">EN VIVO</span>
+          </span>
+        `;
       }
 
       row.innerHTML = `
@@ -917,18 +943,30 @@
           </div>
         </div>
         <div class="list-programs-col">
-          <!-- Programa Actual: Hora en verde y Título en blanco negrita -->
+          <!-- Programa Actual: Prioridad al título completo -->
           <div class="list-prog-now">
             <span class="list-time-now">${formatTime(curProg.start)}</span>
+            ${curLiveHtml}
             <span class="list-title-now">${escapeHtml(curProg.title)}</span>
-            ${curProg.episode ? `<span class="list-episode-now">• ${escapeHtml(curProg.episode)}</span>` : ''}
-            ${badgeHtml}
+            ${curProg.episode ? `
+              <span class="list-chapter-badge">
+                <span class="chapter-dot" title="Capítulo: ${escapeHtml(curProg.episode)}">•</span>
+                <span class="chapter-name">${escapeHtml(curProg.episode)}</span>
+              </span>
+            ` : ''}
           </div>
-          <!-- Siguiente Programa: Hora y título atenuados -->
+          <!-- Siguiente Programa -->
           ${nextProg ? `
             <div class="list-prog-next">
               <span class="list-time-next">${formatTime(nextProg.start)}</span>
+              ${nextLiveHtml}
               <span class="list-title-next">${escapeHtml(nextProg.title)}</span>
+              ${nextProg.episode ? `
+                <span class="list-chapter-badge muted">
+                  <span class="chapter-dot" title="Capítulo: ${escapeHtml(nextProg.episode)}">•</span>
+                  <span class="chapter-name">${escapeHtml(nextProg.episode)}</span>
+                </span>
+              ` : ''}
             </div>
           ` : ''}
         </div>
@@ -938,6 +976,37 @@
     }
 
     container.appendChild(fragment);
+    requestAnimationFrame(() => adjustListChapters());
+  }
+
+  /**
+   * Ajusta la visibilidad del nombre del capítulo en la Vista Lista.
+   * Si no hay espacio suficiente para mostrar el título y el capítulo completo sin
+   * recortar el título o el nombre del capítulo, se oculta el texto del capítulo y
+   * se mantiene únicamente el punto azul (•), priorizando siempre el título completo.
+   */
+  function adjustListChapters() {
+    if (!el.listContainer) return;
+    if (window.innerWidth <= 768) return; // En móvil se fuerza por CSS
+
+    const badges = el.listContainer.querySelectorAll('.list-chapter-badge');
+    if (badges.length === 0) return;
+
+    badges.forEach(badge => {
+      const parent = badge.parentElement;
+      if (!parent) return;
+
+      badge.classList.remove('dot-only');
+
+      const nameEl = badge.querySelector('.chapter-name');
+      const titleEl = parent.querySelector('.list-title-now, .list-title-next');
+      if (!nameEl || !titleEl) return;
+
+      // Si el contenedor desborda o el texto del capítulo se comprime, dejamos solo el punto
+      if (parent.scrollWidth > parent.clientWidth || (nameEl.offsetWidth < nameEl.scrollWidth - 1)) {
+        badge.classList.add('dot-only');
+      }
+    });
   }
 
   // ==========================================================================
@@ -973,10 +1042,23 @@
           openProgramDetail(ch, p);
         };
 
-        // REQUERIMIENTO ESTRICTO: Solo hora y título (sin banner ni capítulo)
+        const liveHtml = p.isBroadcastLive ? `
+          <span class="live-indicator-compact" title="Transmisión En Vivo">
+            <span class="live-red-dot"></span>
+            <span class="live-label-text">EN VIVO</span>
+          </span>
+        ` : '';
+
+        // REQUERIMIENTO: Solo mostrar el punto azul en caso de tener capítulo
+        const chapterDotHtml = p.episode ? `
+          <span class="chapter-dot" title="Capítulo: ${escapeHtml(p.episode)}">•</span>
+        ` : '';
+
         item.innerHTML = `
           <span class="quick-time">${formatTime(p.start)}</span>
+          ${liveHtml}
           <span class="quick-item-title">${escapeHtml(p.title)}</span>
+          ${chapterDotHtml}
         `;
 
         fragment.appendChild(item);
@@ -1175,8 +1257,36 @@
     renderSelectedGuideSchedule();
   }
 
+  function toggleGuideChDropdown() {
+    if (!el.guideSidebar) return;
+    const isOpen = el.guideSidebar.classList.toggle('mobile-open');
+    if (el.btnToggleGuideChannels) {
+      el.btnToggleGuideChannels.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+      const chevron = el.btnToggleGuideChannels.querySelector('.picker-chevron');
+      if (chevron) chevron.classList.toggle('open', isOpen);
+      const text = el.btnToggleGuideChannels.querySelector('.picker-toggle-text');
+      if (text) text.innerText = isOpen ? 'Cerrar' : 'Cambiar';
+    }
+    if (isOpen && el.guideChSearch) {
+      setTimeout(() => el.guideChSearch.focus(), 80);
+    }
+  }
+
+  function closeGuideChDropdown() {
+    if (!el.guideSidebar) return;
+    el.guideSidebar.classList.remove('mobile-open');
+    if (el.btnToggleGuideChannels) {
+      el.btnToggleGuideChannels.setAttribute('aria-expanded', 'false');
+      const chevron = el.btnToggleGuideChannels.querySelector('.picker-chevron');
+      if (chevron) chevron.classList.remove('open');
+      const text = el.btnToggleGuideChannels.querySelector('.picker-toggle-text');
+      if (text) text.innerText = 'Cambiar';
+    }
+  }
+
   function selectGuideChannel(chId, updateHash = true) {
     state.selectedGuideChId = chId;
+    closeGuideChDropdown();
     const items = el.guideChList.querySelectorAll('.guide-ch-item');
     const channels = getFilteredChannels();
     items.forEach((it, idx) => {
@@ -1199,6 +1309,10 @@
     el.guideSelectedLogo.src = ch.icon || EMPTY_IMG;
     el.guideSelectedName.innerText = ch.name;
     el.guideSelectedMeta.innerText = `Canal ${ch.id} • ${ch.programs ? ch.programs.length : 0} programas en guía`;
+
+    // Actualizar el selector desplegable móvil
+    if (el.guidePickerLogo) el.guidePickerLogo.src = ch.icon || EMPTY_IMG;
+    if (el.guidePickerName) el.guidePickerName.innerText = `${ch.id} • ${ch.name}`;
 
     renderGuideDateTabs();
 
@@ -1646,6 +1760,30 @@
       renderActiveView();
     };
 
+    // Toggle barra de búsqueda en móvil
+    if (el.btnSearchToggle) {
+      el.btnSearchToggle.onclick = (e) => {
+        e.stopPropagation();
+        const isOpen = el.searchBox.classList.toggle('mobile-open');
+        if (isOpen) {
+          el.searchInput.focus();
+        }
+      };
+    }
+
+    if (el.btnCloseMobileSearch) {
+      el.btnCloseMobileSearch.onclick = () => {
+        el.searchBox.classList.remove('mobile-open');
+        if (el.searchInput.value.trim().length > 0) {
+          el.searchInput.value = '';
+          el.btnClearSearch.classList.add('hidden');
+          state.searchQuery = '';
+          state.gridVisibleCount = 35;
+          renderActiveView();
+        }
+      };
+    }
+
     // Hero controles
     el.heroBtnPrev.onclick = (e) => {
       e.stopPropagation();
@@ -1710,6 +1848,40 @@
         it.style.display = match ? 'flex' : 'none';
       });
     };
+
+    // Toggle menú desplegable de canales en móvil
+    if (el.btnToggleGuideChannels) {
+      el.btnToggleGuideChannels.onclick = (e) => {
+        e.stopPropagation();
+        toggleGuideChDropdown();
+      };
+    }
+    if (el.guideMobileChPicker) {
+      el.guideMobileChPicker.onclick = (e) => {
+        if (!e.target.closest('#btnToggleGuideChannels')) {
+          toggleGuideChDropdown();
+        }
+      };
+    }
+    if (el.guideChHeader) {
+      el.guideChHeader.onclick = () => {
+        if (window.innerWidth <= 768) {
+          toggleGuideChDropdown();
+        }
+      };
+    }
+
+    // Cerrar menú desplegable de canales si se hace clic fuera
+    document.addEventListener('click', (e) => {
+      if (el.guideSidebar && el.guideSidebar.classList.contains('mobile-open')) {
+        if (!el.guideSidebar.contains(e.target) &&
+            (!el.btnToggleGuideChannels || !el.btnToggleGuideChannels.contains(e.target)) &&
+            (!el.guideMobileChPicker || !el.guideMobileChPicker.contains(e.target)) &&
+            (!el.guideChHeader || !el.guideChHeader.contains(e.target))) {
+          closeGuideChDropdown();
+        }
+      }
+    });
 
     // Ir a Guía completa desde el popup de Lista
     el.btnOpenFullGuideFromQuick.onclick = () => {
@@ -1782,11 +1954,13 @@
       switchView(route.view, route.channelId, false);
     });
 
-    // Tecla Escape para cerrar modales
+    // Tecla Escape para cerrar modales y menús desplegables
     window.addEventListener('keydown', (e) => {
       if (e.key === 'Escape') {
         closeModalDetail();
         closeQuickPopup();
+        closeGuideChDropdown();
+        if (el.searchBox) el.searchBox.classList.remove('mobile-open');
         el.modalSettings.classList.add('hidden');
       }
     });
@@ -1795,6 +1969,13 @@
     document.addEventListener('visibilitychange', () => {
       if (!document.hidden) {
         renderActiveView();
+      }
+    });
+
+    // Ajustar capítulos en vista lista ante cambios de tamaño de ventana
+    window.addEventListener('resize', () => {
+      if (state.currentView === 'list') {
+        adjustListChapters();
       }
     });
   }
