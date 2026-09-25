@@ -1983,6 +1983,345 @@ input:checked + .slider:before {
 }
 
 /* ==========================================================================
+   VISTA BÚSQUEDA Y RESULTADOS (CANALES, AL AIRE, PRÓXIMOS Y FINALIZADOS)
+   ========================================================================== */
+.search-results-container {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  padding: 10px 0 60px 0;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.search-results-section {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.search-section-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--border-subtle);
+  padding-bottom: 10px;
+}
+
+.search-section-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--text-main);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.search-section-title.past-header {
+  color: var(--text-muted);
+}
+
+.search-count-pill {
+  font-size: 0.76rem;
+  font-weight: 700;
+  padding: 2px 9px;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.1);
+  color: var(--text-muted);
+}
+
+.search-count-pill.live {
+  background: rgba(16, 185, 129, 0.2);
+  color: var(--live-green);
+}
+
+.search-count-pill.upcoming {
+  background: rgba(59, 130, 246, 0.2);
+  color: #60a5fa;
+}
+
+.search-count-pill.past {
+  background: rgba(255, 255, 255, 0.07);
+  color: var(--text-dimmed);
+}
+
+.live-pulse-dot {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: var(--live-green);
+  box-shadow: 0 0 10px var(--live-green);
+  display: inline-block;
+  animation: liveDotPulse 1.8s infinite;
+}
+
+@keyframes liveDotPulse {
+  0% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.7); }
+  70% { transform: scale(1.1); box-shadow: 0 0 0 8px rgba(16, 185, 129, 0); }
+  100% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(16, 185, 129, 0); }
+}
+
+/* 1. Grid de canales encontrados */
+.search-channels-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+  gap: 14px;
+}
+
+.search-ch-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  border-radius: 12px;
+  padding: 14px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  cursor: pointer;
+  transition: transform 0.18s ease, border-color 0.18s ease, background 0.18s ease, box-shadow 0.18s ease;
+  text-align: center;
+}
+
+.search-ch-card:hover {
+  transform: translateY(-3px);
+  background: var(--bg-card-hover);
+  border-color: var(--accent-primary);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.35);
+}
+
+.search-ch-logo-wrap {
+  width: 58px;
+  height: 58px;
+  background: #ffffff;
+  border-radius: 8px;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
+}
+
+.search-ch-logo-wrap img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.search-ch-card-name {
+  font-size: 0.88rem;
+  font-weight: 700;
+  color: var(--text-main);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 100%;
+}
+
+.search-ch-card-id {
+  font-size: 0.74rem;
+  color: var(--text-dimmed);
+  font-family: var(--font-mono);
+  font-weight: 600;
+}
+
+/* 2. Lista de tarjetas de programas */
+.search-prog-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.search-prog-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  border-radius: 10px;
+  padding: 12px 18px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  cursor: pointer;
+  transition: transform 0.15s ease, border-color 0.15s ease, background 0.15s ease, opacity 0.15s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.search-prog-card:hover {
+  transform: translateY(-1px);
+  background: var(--bg-card-hover);
+  border-color: rgba(255, 255, 255, 0.22);
+}
+
+.search-prog-card.is-live {
+  border-left: 4px solid var(--live-green);
+  background: rgba(16, 185, 129, 0.05);
+}
+
+.search-prog-card.is-broadcast-live {
+  border-left: 4px solid var(--live-red);
+  background: rgba(239, 68, 68, 0.06);
+}
+
+.search-prog-card.is-upcoming {
+  border-left: 4px solid #3b82f6;
+  background: var(--bg-card);
+}
+
+.search-prog-card.is-past {
+  opacity: 0.52;
+  background: rgba(255, 255, 255, 0.015);
+  border-left: 4px solid rgba(255, 255, 255, 0.15);
+}
+
+.search-prog-card.is-past:hover {
+  opacity: 0.85;
+}
+
+.search-prog-ch-logo {
+  width: 48px;
+  height: 48px;
+  background: #ffffff;
+  border-radius: 8px;
+  padding: 4px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.search-prog-ch-logo img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.search-prog-main {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.search-prog-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.search-status-badge {
+  font-size: 0.72rem;
+  font-weight: 800;
+  padding: 2px 7px;
+  border-radius: 4px;
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
+  white-space: nowrap;
+}
+
+.search-status-badge.live {
+  background: var(--live-green);
+  color: #ffffff;
+}
+
+.search-status-badge.en-vivo {
+  background: var(--live-red);
+  color: #ffffff;
+}
+
+.search-status-badge.upcoming {
+  background: rgba(59, 130, 246, 0.18);
+  color: #93c5fd;
+  border: 1px solid rgba(59, 130, 246, 0.35);
+}
+
+.search-status-badge.past {
+  background: rgba(255, 255, 255, 0.07);
+  color: var(--text-dimmed);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.search-prog-title {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--text-main);
+  line-height: 1.3;
+}
+
+.search-prog-episode {
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: #60a5fa;
+}
+
+.search-prog-meta-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  flex-wrap: wrap;
+}
+
+.search-prog-meta-text {
+  line-height: 1.4;
+}
+
+.search-prog-progress-track {
+  height: 3px;
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 2px;
+  overflow: hidden;
+  margin-top: 5px;
+  max-width: 260px;
+}
+
+.search-prog-progress-bar {
+  height: 100%;
+  background: var(--live-green);
+  border-radius: 2px;
+  transition: width 0.3s ease;
+}
+
+.search-prog-banner {
+  width: 96px;
+  aspect-ratio: 16 / 9;
+  border-radius: 6px;
+  overflow: hidden;
+  background: #1f2432;
+  flex-shrink: 0;
+}
+
+.search-prog-banner img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.search-empty-state {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 80px 20px;
+  gap: 16px;
+  color: var(--text-muted);
+  text-align: center;
+}
+
+.search-empty-icon {
+  color: var(--text-dimmed);
+  opacity: 0.6;
+}
+
+.search-empty-text {
+  font-size: 1.1rem;
+  color: var(--text-muted);
+}
+
+/* ==========================================================================
    RESPONSIVE DESIGN — EXPERIENCIA MÓVIL TIPO APP (< 768px)
    ========================================================================== */
 @media (max-width: 900px) {
@@ -2710,5 +3049,57 @@ input:checked + .slider:before {
     width: 100%;
     padding: 12px;
     font-size: 0.92rem;
+  }
+
+  /* 12. Vista Búsqueda en Móvil */
+  .search-results-container {
+    gap: 22px;
+    padding: 6px 0 40px 0;
+  }
+
+  .search-section-title {
+    font-size: 1.08rem;
+  }
+
+  .search-channels-grid {
+    grid-template-columns: repeat(auto-fill, minmax(95px, 1fr));
+    gap: 8px;
+  }
+
+  .search-ch-card {
+    padding: 10px 6px;
+    border-radius: 10px;
+  }
+
+  .search-ch-logo-wrap {
+    width: 44px;
+    height: 44px;
+  }
+
+  .search-ch-card-name {
+    font-size: 0.78rem;
+  }
+
+  .search-prog-card {
+    padding: 10px 12px;
+    gap: 12px;
+    border-radius: 8px;
+  }
+
+  .search-prog-ch-logo {
+    width: 40px;
+    height: 40px;
+  }
+
+  .search-prog-title {
+    font-size: 0.95rem;
+  }
+
+  .search-prog-meta-row {
+    font-size: 0.78rem;
+  }
+
+  .search-prog-banner {
+    display: none !important;
   }
 }

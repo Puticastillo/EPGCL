@@ -26,6 +26,7 @@
     navHistory: [],       // Pila de navegación para retorno exacto
     filter: 'all',        // 'all', 'favorites', 'adults'
     searchQuery: '',
+    activeViewBeforeSearch: null,
     showBanners: true,
     showAdults: false,
     favorites: new Set(),
@@ -129,6 +130,10 @@
     el.btnToggleGuideChannels = document.getElementById('btnToggleGuideChannels');
     el.guideSidebar = document.getElementById('guideSidebar');
     el.guideChHeader = document.getElementById('guideChHeader');
+
+    // 5. Búsqueda
+    el.viewSearch = document.getElementById('viewSearch');
+    el.searchResults = document.getElementById('searchResults');
 
     // Popup Rápido Lista
     el.popupQuickList = document.getElementById('popupQuickList');
@@ -295,6 +300,54 @@
       .trim();
   }
 
+  function fuzzyMatchPreCleaned(cleanText, searchWords) {
+    if (!cleanText || !searchWords || searchWords.length === 0) return false;
+    for (let i = 0; i < searchWords.length; i++) {
+      if (!cleanText.includes(searchWords[i])) return false;
+    }
+    return true;
+  }
+
+  function getSearchDateString(p, chName) {
+    const now = Date.now();
+    const isLive = p.start <= now && p.stop > now;
+    const isPast = p.stop <= now;
+
+    const startDate = new Date(p.start);
+    const nowDate = new Date(now);
+
+    const startDay = new Date(startDate.getFullYear(), startDate.getMonth(), startDate.getDate()).getTime();
+    const nowDay = new Date(nowDate.getFullYear(), nowDate.getMonth(), nowDate.getDate()).getTime();
+    const diffDays = Math.round((startDay - nowDay) / 86400000);
+
+    const timeRange = `${formatTime(p.start)} - ${formatTime(p.stop)}`;
+    let datePrefix = "";
+
+    if (diffDays === 0) {
+      if (isLive) {
+        datePrefix = "Al aire ahora";
+      } else if (isPast) {
+        datePrefix = `Se emitió hoy a las ${formatTime(p.start)}`;
+      } else {
+        datePrefix = `Hoy a las ${formatTime(p.start)}`;
+      }
+    } else if (diffDays === 1) {
+      datePrefix = `Mañana a las ${formatTime(p.start)}`;
+    } else if (diffDays === -1) {
+      datePrefix = `Se emitió ayer a las ${formatTime(p.start)}`;
+    } else if (diffDays > 1) {
+      const dayName = startDate.toLocaleDateString('es-ES', { weekday: 'long', day: 'numeric', month: 'short' });
+      const capDay = dayName.charAt(0).toUpperCase() + dayName.slice(1);
+      datePrefix = `${capDay} a las ${formatTime(p.start)}`;
+    } else {
+      const dayName = startDate.toLocaleDateString('es-ES', { weekday: 'long', day: 'numeric', month: 'short' });
+      const capDay = dayName.charAt(0).toUpperCase() + dayName.slice(1);
+      datePrefix = `Se emitió el ${capDay} a las ${formatTime(p.start)}`;
+    }
+
+    return `${datePrefix} en ${chName} (${timeRange})`;
+  }
+
   // ==========================================================================
   // 2. INTERSECTION OBSERVER PARA BANNERS (Cero Lag)
   // ==========================================================================
@@ -370,6 +423,15 @@
   function navigateTo(targetView, channelId = null, pushState = true) {
     const previousView = state.currentView;
 
+    // Si la búsqueda estaba activa, limpiarla al navegar por tabs o enlaces
+    if (state.searchQuery) {
+      state.searchQuery = '';
+      if (el.searchInput) el.searchInput.value = '';
+      if (el.btnClearSearch) el.btnClearSearch.classList.add('hidden');
+      if (el.viewSearch) el.viewSearch.classList.add('hidden');
+      state.activeViewBeforeSearch = null;
+    }
+
     // Pausar timer de hero si salimos de Inicio
     if (previousView === 'cards' && targetView !== 'cards') {
       stopHeroAutoPlay();
@@ -390,6 +452,7 @@
     updateNavButtonsUI();
 
     // Alternar visibilidad de vistas
+    if (el.viewSearch) el.viewSearch.classList.add('hidden');
     el.viewCards.classList.toggle('hidden', targetView !== 'cards');
     el.viewList.classList.toggle('hidden', targetView !== 'list');
     el.viewGrid.classList.toggle('hidden', targetView !== 'grid');
@@ -420,6 +483,10 @@
   }
 
   function goBack() {
+    if (state.searchQuery) {
+      clearSearchState();
+      return;
+    }
     if (window.history.length > 1) {
       window.history.back();
     } else {
@@ -428,7 +495,7 @@
   }
 
   function updateNavButtonsUI() {
-    if (state.currentView !== 'cards') {
+    if (state.currentView !== 'cards' || state.searchQuery) {
       el.btnBack.classList.remove('hidden');
     } else {
       el.btnBack.classList.add('hidden');
@@ -437,6 +504,15 @@
 
   function renderActiveView() {
     updateChannelCounter();
+    if (state.searchQuery) {
+      if (el.viewSearch) el.viewSearch.classList.remove('hidden');
+      el.viewCards.classList.add('hidden');
+      el.viewList.classList.add('hidden');
+      el.viewGrid.classList.add('hidden');
+      el.viewGuide.classList.add('hidden');
+      renderSearchView();
+      return;
+    }
     if (state.currentView === 'cards') {
       renderCardsView();
     } else if (state.currentView === 'list') {
@@ -1422,6 +1498,356 @@
   }
 
   // ==========================================================================
+  // 8B. VISTA BÚSQUEDA Y RESULTADOS
+  // Canales primero, luego programas al aire, luego próximos y finalizados
+  // ==========================================================================
+  function clearSearchState() {
+    state.searchQuery = '';
+    if (el.searchInput) el.searchInput.value = '';
+    if (el.btnClearSearch) el.btnClearSearch.classList.add('hidden');
+    if (el.viewSearch) el.viewSearch.classList.add('hidden');
+    if (el.searchBox) el.searchBox.classList.remove('mobile-open');
+
+    const targetView = state.activeViewBeforeSearch || state.currentView || 'cards';
+    state.activeViewBeforeSearch = null;
+
+    el.viewCards.classList.toggle('hidden', targetView !== 'cards');
+    el.viewList.classList.toggle('hidden', targetView !== 'list');
+    el.viewGrid.classList.toggle('hidden', targetView !== 'grid');
+    el.viewGuide.classList.toggle('hidden', targetView !== 'guide');
+
+    updateNavButtonsUI();
+    renderActiveView();
+
+    if (targetView === 'cards' && state.heroPlaying) {
+      startHeroAutoPlay();
+    }
+  }
+
+  function createSearchProgramCard(ch, p, type, now) {
+    const card = document.createElement('div');
+    const isLive = type === 'live';
+    const isUpcoming = type === 'upcoming';
+    const isPast = type === 'past';
+
+    let cardClasses = 'search-prog-card';
+    if (isLive) {
+      cardClasses += p.isBroadcastLive ? ' is-broadcast-live is-live' : ' is-live';
+    } else if (isUpcoming) {
+      cardClasses += ' is-upcoming';
+    } else if (isPast) {
+      cardClasses += ' is-past';
+    }
+    card.className = cardClasses;
+
+    // Badges de estado diferenciados
+    let badgeHtml = '';
+    if (isLive) {
+      if (p.isBroadcastLive) {
+        badgeHtml = '<span class="search-status-badge en-vivo">EN VIVO</span>';
+      } else {
+        badgeHtml = '<span class="search-status-badge live">AL AIRE</span>';
+      }
+    } else if (isUpcoming) {
+      badgeHtml = '<span class="search-status-badge upcoming">PRÓXIMO</span>';
+    } else if (isPast) {
+      badgeHtml = '<span class="search-status-badge past">FINALIZADO</span>';
+    }
+
+    const metaString = getSearchDateString(p, ch.name);
+    const posterSrc = state.showBanners ? (p.icon || '') : '';
+
+    // Barra de progreso si está al aire
+    let progressBarHtml = '';
+    if (isLive && p.stop > p.start) {
+      const pct = Math.min(100, Math.max(0, ((now - p.start) / (p.stop - p.start)) * 100));
+      progressBarHtml = `
+        <div class="search-prog-progress-track">
+          <div class="search-prog-progress-bar" style="width: ${pct}%"></div>
+        </div>
+      `;
+    }
+
+    card.innerHTML = `
+      <div class="search-prog-ch-logo" title="${escapeHtml(ch.name)} (${escapeHtml(ch.id)})">
+        <img src="${ch.icon || EMPTY_IMG}" alt="" loading="lazy" onerror="this.src='${EMPTY_IMG}'">
+      </div>
+      <div class="search-prog-main">
+        <div class="search-prog-header">
+          ${badgeHtml}
+          <span class="search-prog-title">${escapeHtml(p.title)}</span>
+          ${p.episode ? `<span class="search-prog-episode">• ${escapeHtml(p.episode)}</span>` : ''}
+        </div>
+        <div class="search-prog-meta-row">
+          <span class="search-prog-meta-text">${escapeHtml(metaString)}</span>
+        </div>
+        ${progressBarHtml}
+      </div>
+      ${posterSrc ? `
+        <div class="search-prog-banner">
+          <img src="${posterSrc}" alt="" loading="lazy" onerror="this.parentElement.style.display='none'">
+        </div>
+      ` : ''}
+    `;
+
+    card.onclick = () => {
+      openProgramDetail(ch, p);
+    };
+
+    return card;
+  }
+
+  function renderSearchView() {
+    const term = state.searchQuery.trim();
+    const container = el.searchResults;
+    if (!container) return;
+
+    if (!term) {
+      container.innerHTML = `
+        <div class="search-empty-state">
+          <svg viewBox="0 0 24 24" width="48" height="48" stroke="currentColor" stroke-width="1.5" fill="none" class="search-empty-icon">
+            <circle cx="11" cy="11" r="8"/>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"/>
+          </svg>
+          <p class="search-empty-text">Escribe para buscar canales o programas...</p>
+        </div>
+      `;
+      return;
+    }
+
+    const cleanTerm = cleanStr(term);
+    const searchWords = cleanTerm.split(/\s+/).filter(Boolean);
+
+    const now = Date.now();
+    const matchedChannels = [];
+    const livePrograms = [];
+    const upcomingPrograms = [];
+    const pastPrograms = [];
+
+    // 1. Buscar canales y programas en el catálogo completo
+    state.channels.forEach(ch => {
+      if (!state.showAdults && ch.isAdult) return;
+      if (state.filter === 'favorites' && !state.favorites.has(ch.id)) return;
+      if (state.filter === 'adults' && !ch.isAdult) return;
+
+      // Coincidencia de canal (por nombre o dial/id)
+      const isChMatch = fuzzyMatchPreCleaned(ch.cleanName, searchWords) ||
+                        ch.id.toLowerCase().includes(cleanTerm);
+      if (isChMatch) {
+        matchedChannels.push(ch);
+      }
+
+      // Coincidencia en programas del canal
+      if (ch.programs && ch.programs.length > 0) {
+        ch.programs.forEach(p => {
+          const cTitle = p.cleanTitle || (p.cleanTitle = cleanStr(p.title));
+          const cDesc = p.cleanDesc || (p.cleanDesc = cleanStr(p.desc));
+          const cEp = p.cleanEpisode || (p.cleanEpisode = cleanStr(p.episode));
+
+          if (fuzzyMatchPreCleaned(cTitle, searchWords) ||
+              fuzzyMatchPreCleaned(cDesc, searchWords) ||
+              fuzzyMatchPreCleaned(cEp, searchWords)) {
+
+            const item = { ch, prog: p };
+            if (p.start <= now && p.stop > now) {
+              livePrograms.push(item);
+            } else if (p.start > now) {
+              upcomingPrograms.push(item);
+            } else {
+              pastPrograms.push(item);
+            }
+          }
+        });
+      }
+    });
+
+    // 2. Ordenamiento específico
+    matchedChannels.sort(compareYXXX);
+    livePrograms.sort((a, b) => a.prog.start - b.prog.start);
+    upcomingPrograms.sort((a, b) => a.prog.start - b.prog.start);
+    pastPrograms.sort((a, b) => b.prog.stop - a.prog.stop);
+
+    // 3. Estado vacío si no hay nada
+    if (matchedChannels.length === 0 && livePrograms.length === 0 && upcomingPrograms.length === 0 && pastPrograms.length === 0) {
+      container.innerHTML = `
+        <div class="search-empty-state">
+          <svg viewBox="0 0 24 24" width="48" height="48" stroke="currentColor" stroke-width="1.5" fill="none" class="search-empty-icon">
+            <circle cx="11" cy="11" r="8"/>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"/>
+          </svg>
+          <p class="search-empty-text">No se encontraron resultados para "<strong>${escapeHtml(term)}</strong>".</p>
+        </div>
+      `;
+      return;
+    }
+
+    container.innerHTML = '';
+
+    // =========================================================
+    // SECCIÓN 1: CANALES ENCONTRADOS (PRIMERO)
+    // =========================================================
+    if (matchedChannels.length > 0) {
+      const chSec = document.createElement('div');
+      chSec.className = 'search-results-section';
+      chSec.innerHTML = `
+        <div class="search-section-header">
+          <h3 class="search-section-title">
+            <svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2" fill="none"><rect x="2" y="7" width="20" height="15" rx="2" ry="2"/><polyline points="17 2 12 7 7 2"/></svg>
+            <span>Canales Encontrados</span>
+            <span class="search-count-pill">${matchedChannels.length}</span>
+          </h3>
+        </div>
+      `;
+
+      const grid = document.createElement('div');
+      grid.className = 'search-channels-grid';
+
+      matchedChannels.forEach(ch => {
+        const item = document.createElement('div');
+        item.className = 'search-ch-card';
+        item.title = `${ch.name} (Dial ${ch.id})`;
+        item.innerHTML = `
+          <div class="search-ch-logo-wrap">
+            <img src="${ch.icon || EMPTY_IMG}" alt="" loading="lazy" onerror="this.src='${EMPTY_IMG}'">
+          </div>
+          <span class="search-ch-card-name">${escapeHtml(ch.name)}</span>
+          <span class="search-ch-card-id">${escapeHtml(ch.id)}</span>
+        `;
+        item.onclick = () => {
+          clearSearchState();
+          state.selectedGuideDayOffset = 0;
+          navigateTo('guide', ch.id, true);
+        };
+        grid.appendChild(item);
+      });
+
+      chSec.appendChild(grid);
+      container.appendChild(chSec);
+    }
+
+    // =========================================================
+    // SECCIÓN 2: PROGRAMAS AL AIRE (SEGUNDO)
+    // =========================================================
+    if (livePrograms.length > 0) {
+      const liveSec = document.createElement('div');
+      liveSec.className = 'search-results-section';
+      liveSec.innerHTML = `
+        <div class="search-section-header">
+          <h3 class="search-section-title">
+            <span class="live-pulse-dot"></span>
+            <span>Programas Al Aire</span>
+            <span class="search-count-pill live">${livePrograms.length}</span>
+          </h3>
+        </div>
+      `;
+
+      const list = document.createElement('div');
+      list.className = 'search-prog-list';
+
+      livePrograms.forEach(item => {
+        list.appendChild(createSearchProgramCard(item.ch, item.prog, 'live', now));
+      });
+
+      liveSec.appendChild(list);
+      container.appendChild(liveSec);
+    }
+
+    // =========================================================
+    // SECCIÓN 3: PROGRAMAS QUE SE TRANSMITIRÁN (PRÓXIMOS)
+    // =========================================================
+    if (upcomingPrograms.length > 0) {
+      const upSec = document.createElement('div');
+      upSec.className = 'search-results-section';
+      
+      const count = upcomingPrograms.length;
+      upSec.innerHTML = `
+        <div class="search-section-header">
+          <h3 class="search-section-title">
+            <svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2" fill="none"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            <span>Próximas Emisiones</span>
+            <span class="search-count-pill upcoming">${count}</span>
+          </h3>
+        </div>
+      `;
+
+      const list = document.createElement('div');
+      list.className = 'search-prog-list';
+
+      const initialUpcoming = upcomingPrograms.slice(0, 40);
+      initialUpcoming.forEach(item => {
+        list.appendChild(createSearchProgramCard(item.ch, item.prog, 'upcoming', now));
+      });
+
+      upSec.appendChild(list);
+
+      if (upcomingPrograms.length > 40) {
+        const moreBox = document.createElement('div');
+        moreBox.className = 'load-more-box';
+        const moreBtn = document.createElement('button');
+        moreBtn.className = 'btn-load-more';
+        moreBtn.innerHTML = `<span>Ver ${upcomingPrograms.length - 40} programas próximos más</span>`;
+        moreBtn.onclick = () => {
+          upcomingPrograms.slice(40).forEach(item => {
+            list.appendChild(createSearchProgramCard(item.ch, item.prog, 'upcoming', now));
+          });
+          moreBox.remove();
+        };
+        moreBox.appendChild(moreBtn);
+        upSec.appendChild(moreBox);
+      }
+
+      container.appendChild(upSec);
+    }
+
+    // =========================================================
+    // SECCIÓN 4: PROGRAMAS YA TRANSMITIDOS (FINALIZADOS)
+    // =========================================================
+    if (pastPrograms.length > 0) {
+      const pastSec = document.createElement('div');
+      pastSec.className = 'search-results-section';
+      
+      const count = pastPrograms.length;
+      pastSec.innerHTML = `
+        <div class="search-section-header">
+          <h3 class="search-section-title past-header">
+            <svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2" fill="none"><polyline points="20 6 9 17 4 12"/></svg>
+            <span>Ya Transmitidos (Finalizados)</span>
+            <span class="search-count-pill past">${count}</span>
+          </h3>
+        </div>
+      `;
+
+      const list = document.createElement('div');
+      list.className = 'search-prog-list';
+
+      const initialPast = pastPrograms.slice(0, 30);
+      initialPast.forEach(item => {
+        list.appendChild(createSearchProgramCard(item.ch, item.prog, 'past', now));
+      });
+
+      pastSec.appendChild(list);
+
+      if (pastPrograms.length > 30) {
+        const moreBox = document.createElement('div');
+        moreBox.className = 'load-more-box';
+        const moreBtn = document.createElement('button');
+        moreBtn.className = 'btn-load-more';
+        moreBtn.innerHTML = `<span>Ver ${pastPrograms.length - 30} programas anteriores más</span>`;
+        moreBtn.onclick = () => {
+          pastPrograms.slice(30).forEach(item => {
+            list.appendChild(createSearchProgramCard(item.ch, item.prog, 'past', now));
+          });
+          moreBox.remove();
+        };
+        moreBox.appendChild(moreBtn);
+        pastSec.appendChild(moreBox);
+      }
+
+      container.appendChild(pastSec);
+    }
+  }
+
+  // ==========================================================================
   // 9. MODAL DETALLE COMPLETO
   // ==========================================================================
   function openProgramDetail(ch, prog) {
@@ -1587,8 +2013,11 @@
         start,
         stop,
         title: parsed.title,
+        cleanTitle: cleanStr(parsed.title),
         desc: parsed.desc,
+        cleanDesc: cleanStr(parsed.desc),
         episode: parsed.episode,
+        cleanEpisode: cleanStr(parsed.episode),
         tag: parsed.tag,
         isBroadcastLive: parsed.isBroadcastLive,
         icon,
@@ -1746,18 +2175,27 @@
       const val = e.target.value.trim();
       el.btnClearSearch.classList.toggle('hidden', val.length === 0);
       searchDebounce = setTimeout(() => {
-        state.searchQuery = val;
-        state.gridVisibleCount = 35;
-        renderActiveView();
+        if (val.length > 0) {
+          if (!state.searchQuery && !state.activeViewBeforeSearch) {
+            state.activeViewBeforeSearch = state.currentView;
+          }
+          state.searchQuery = val;
+          el.viewCards.classList.add('hidden');
+          el.viewList.classList.add('hidden');
+          el.viewGrid.classList.add('hidden');
+          el.viewGuide.classList.add('hidden');
+          if (el.viewSearch) el.viewSearch.classList.remove('hidden');
+          updateNavButtonsUI();
+          renderSearchView();
+        } else {
+          clearSearchState();
+        }
       }, 150);
     };
 
     el.btnClearSearch.onclick = () => {
-      el.searchInput.value = '';
-      el.btnClearSearch.classList.add('hidden');
-      state.searchQuery = '';
-      state.gridVisibleCount = 35;
-      renderActiveView();
+      clearSearchState();
+      el.searchInput.focus();
     };
 
     // Toggle barra de búsqueda en móvil
@@ -1774,13 +2212,7 @@
     if (el.btnCloseMobileSearch) {
       el.btnCloseMobileSearch.onclick = () => {
         el.searchBox.classList.remove('mobile-open');
-        if (el.searchInput.value.trim().length > 0) {
-          el.searchInput.value = '';
-          el.btnClearSearch.classList.add('hidden');
-          state.searchQuery = '';
-          state.gridVisibleCount = 35;
-          renderActiveView();
-        }
+        clearSearchState();
       };
     }
 
@@ -1950,6 +2382,13 @@
 
     // Soporte para botones Atrás/Adelante del navegador con URL Hash
     window.addEventListener('popstate', () => {
+      if (state.searchQuery) {
+        state.searchQuery = '';
+        if (el.searchInput) el.searchInput.value = '';
+        if (el.btnClearSearch) el.btnClearSearch.classList.add('hidden');
+        if (el.viewSearch) el.viewSearch.classList.add('hidden');
+        state.activeViewBeforeSearch = null;
+      }
       const route = parseCurrentHash();
       switchView(route.view, route.channelId, false);
     });
@@ -1957,6 +2396,10 @@
     // Tecla Escape para cerrar modales y menús desplegables
     window.addEventListener('keydown', (e) => {
       if (e.key === 'Escape') {
+        if (state.searchQuery) {
+          clearSearchState();
+          return;
+        }
         closeModalDetail();
         closeQuickPopup();
         closeGuideChDropdown();
