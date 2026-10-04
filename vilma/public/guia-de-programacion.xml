@@ -2148,6 +2148,22 @@
     <display-name lang="es">TEST TRACE LATINA FEED CL7302</display-name>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/homero/0965.jpg" />
   </channel>
+  <channel id="0966">
+    <display-name lang="es">TEST DITU REDBULL</display-name>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/homero/0000.jpg" />
+  </channel>
+  <channel id="0967">
+    <display-name lang="es">TEST DITU CARACOL KIDS</display-name>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/homero/0000.jpg" />
+  </channel>
+  <channel id="0968">
+    <display-name lang="es">TEST DITU CARACOL SPORTS</display-name>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/homero/0000.jpg" />
+  </channel>
+  <channel id="0969">
+    <display-name lang="es">TEST DITU CARACOL MIX</display-name>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/homero/0969.jpg" />
+  </channel>
   <channel id="0970">
     <display-name lang="es">AMERICA2 FEED PY SRC MTVPRGY</display-name>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/homero/0970.jpg" />
@@ -189615,167 +189631,167 @@ La serie narra los acontecimientos de la Biblia, del Antiguo y Nuevo Testamento 
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261004170000 -0300" stop="20261004180000 -0300" channel="0901">
+  <programme start="20261004170000 -0300" stop="20261004210000 -0300" channel="0901">
     <title>MLB</title>
     <desc>Vive los partidos de la temporada 2026 de la MLB, con las emociones de la liga de béisbol más importante del mundo.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261004180000 -0300" stop="20261004220000 -0300" channel="0901">
+  <programme start="20261004210000 -0300" stop="20261005000000 -0300" channel="0901">
+    <title>MLB</title>
+    <desc>Vive los partidos de la temporada 2026 de la MLB, con las emociones de la liga de béisbol más importante del mundo.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261005000000 -0300" stop="20261005010000 -0300" channel="0901">
+    <title>El Curubito Internacional</title>
+    <desc>La información de este programa no se encuentra disponible.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261005010000 -0300" stop="20261005050000 -0300" channel="0901">
     <title>TV Max</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261004220000 -0300" stop="20261005020000 -0300" channel="0901">
+  <programme start="20261005050000 -0300" stop="20261005090000 -0300" channel="0901">
     <title>TV Max</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261005020000 -0300" stop="20261005060000 -0300" channel="0901">
+  <programme start="20261005090000 -0300" stop="20261005130000 -0300" channel="0901">
     <title>TV Max</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261005060000 -0300" stop="20261005100000 -0300" channel="0901">
+  <programme start="20261005130000 -0300" stop="20261005170000 -0300" channel="0901">
     <title>TV Max</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261005100000 -0300" stop="20261005140000 -0300" channel="0901">
+  <programme start="20261005170000 -0300" stop="20261005210000 -0300" channel="0901">
     <title>TV Max</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261005140000 -0300" stop="20261005180000 -0300" channel="0901">
+  <programme start="20261005210000 -0300" stop="20261006010000 -0300" channel="0901">
     <title>TV Max</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261005180000 -0300" stop="20261005220000 -0300" channel="0901">
+  <programme start="20261006010000 -0300" stop="20261006050000 -0300" channel="0901">
     <title>TV Max</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261005220000 -0300" stop="20261006020000 -0300" channel="0901">
+  <programme start="20261006050000 -0300" stop="20261006090000 -0300" channel="0901">
     <title>TV Max</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261006020000 -0300" stop="20261006060000 -0300" channel="0901">
+  <programme start="20261006090000 -0300" stop="20261006130000 -0300" channel="0901">
     <title>TV Max</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261006060000 -0300" stop="20261006100000 -0300" channel="0901">
+  <programme start="20261006130000 -0300" stop="20261006170000 -0300" channel="0901">
     <title>TV Max</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261006100000 -0300" stop="20261006140000 -0300" channel="0901">
+  <programme start="20261006170000 -0300" stop="20261006210000 -0300" channel="0901">
     <title>TV Max</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261006140000 -0300" stop="20261006180000 -0300" channel="0901">
+  <programme start="20261006210000 -0300" stop="20261007010000 -0300" channel="0901">
     <title>TV Max</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261006180000 -0300" stop="20261006220000 -0300" channel="0901">
+  <programme start="20261007010000 -0300" stop="20261007050000 -0300" channel="0901">
     <title>TV Max</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261006220000 -0300" stop="20261007020000 -0300" channel="0901">
+  <programme start="20261007050000 -0300" stop="20261007090000 -0300" channel="0901">
     <title>TV Max</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261007020000 -0300" stop="20261007060000 -0300" channel="0901">
+  <programme start="20261007090000 -0300" stop="20261007130000 -0300" channel="0901">
     <title>TV Max</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261007060000 -0300" stop="20261007100000 -0300" channel="0901">
+  <programme start="20261007130000 -0300" stop="20261007170000 -0300" channel="0901">
     <title>TV Max</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261007100000 -0300" stop="20261007140000 -0300" channel="0901">
+  <programme start="20261007170000 -0300" stop="20261007210000 -0300" channel="0901">
     <title>TV Max</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261007140000 -0300" stop="20261007180000 -0300" channel="0901">
+  <programme start="20261007210000 -0300" stop="20261008010000 -0300" channel="0901">
     <title>TV Max</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261007180000 -0300" stop="20261007220000 -0300" channel="0901">
+  <programme start="20261008010000 -0300" stop="20261008050000 -0300" channel="0901">
     <title>TV Max</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261007220000 -0300" stop="20261008020000 -0300" channel="0901">
+  <programme start="20261008050000 -0300" stop="20261008090000 -0300" channel="0901">
     <title>TV Max</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261008020000 -0300" stop="20261008060000 -0300" channel="0901">
+  <programme start="20261008090000 -0300" stop="20261008130000 -0300" channel="0901">
     <title>TV Max</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261008060000 -0300" stop="20261008100000 -0300" channel="0901">
+  <programme start="20261008130000 -0300" stop="20261008170000 -0300" channel="0901">
     <title>TV Max</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261008100000 -0300" stop="20261008140000 -0300" channel="0901">
+  <programme start="20261008170000 -0300" stop="20261008210000 -0300" channel="0901">
     <title>TV Max</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261008140000 -0300" stop="20261008180000 -0300" channel="0901">
+  <programme start="20261008210000 -0300" stop="20261009010000 -0300" channel="0901">
     <title>TV Max</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261008180000 -0300" stop="20261008220000 -0300" channel="0901">
+  <programme start="20261009010000 -0300" stop="20261009050000 -0300" channel="0901">
     <title>TV Max</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261008220000 -0300" stop="20261009020000 -0300" channel="0901">
+  <programme start="20261009050000 -0300" stop="20261009090000 -0300" channel="0901">
     <title>TV Max</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261009020000 -0300" stop="20261009060000 -0300" channel="0901">
+  <programme start="20261009090000 -0300" stop="20261009130000 -0300" channel="0901">
     <title>TV Max</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261009060000 -0300" stop="20261009100000 -0300" channel="0901">
+  <programme start="20261009130000 -0300" stop="20261009170000 -0300" channel="0901">
     <title>TV Max</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261009100000 -0300" stop="20261009140000 -0300" channel="0901">
+  <programme start="20261009170000 -0300" stop="20261009210000 -0300" channel="0901">
     <title>TV Max</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261009140000 -0300" stop="20261009180000 -0300" channel="0901">
-    <title>TV Max</title>
-    <desc>La informacion de este programa no se encuentra disponible.</desc>
-    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
-  </programme>
-  <programme start="20261009180000 -0300" stop="20261009220000 -0300" channel="0901">
-    <title>TV Max</title>
-    <desc>La informacion de este programa no se encuentra disponible.</desc>
-    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
-  </programme>
-  <programme start="20261009220000 -0300" stop="20261009235959 -0300" channel="0901">
+  <programme start="20261009210000 -0300" stop="20261009235959 -0300" channel="0901">
     <title>TV Max</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
@@ -216303,6 +216319,1466 @@ El brujo Gargamel y su gato Azrael, intentan siempre y por todos los medios capt
   <programme start="20261010220000 -0300" stop="20261010230000 -0300" channel="0965">
     <title>Viva Latina</title>
     <desc>Vous avez une insomnie ? Ou vous voulez vous ambiancer sur de la musique latino ? Passez la nuit avec VIVA LATINA !</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261004000000 -0300" stop="20261004002900 -0300" channel="0966">
+    <title>TEST DITU REDBULL</title>
+    <desc>A confirmar</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261004002900 -0300" stop="20261004023300 -0300" channel="0966">
+    <title>Red Bull Rampage 2025 - Competición Femenina</title>
+    <desc>12 atletas femeninas de MTB compiten en este evento de freeride al que sólo se puede acceder por invitación, mostrando su habilidad y creatividad.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261004023300 -0300" stop="20261004030000 -0300" channel="0966">
+    <title>For Reals - Volando sobre un volcán activo</title>
+    <desc>Los atletas de Red Bull lo hacen todo, volar con un traje de alas sobre un volcán activo, saltar en camión sobre una ciudad fantasma y enfrentarse a desafíos extremos en cada rincón del planeta.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261004030000 -0300" stop="20261004064300 -0300" channel="0966">
+    <title>Red Bull Rampage 2025 – Competencia Masculina</title>
+    <desc>Dieciocho de los mejores riders de mountain bike compiten por invitación en un evento único de freeride, creando sus propias líneas en el desafiante paisaje de rocas rojas de Utah.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261004064300 -0300" stop="20261004074900 -0300" channel="0966">
+    <title>Red Bull MotoGP™ Rookies Cup 2026 Spielberg</title>
+    <desc>Los pilotos novatos se enfrentan en Spielberg, Austria en la Red Bull MotoGP™ Rookies Cup 2026.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/redbullmotogprookiescup2026spielberg.jpg" />
+  </programme>
+  <programme start="20261004074900 -0300" stop="20261004081300 -0300" channel="0966">
+    <title>Fairy Flight - Speedflying desde un globo en Capadocia</title>
+    <desc>El francés Valentin Delluc lleva el speedflying a nuevas alturas al lanzarse desde un globo aerostático sobre la mágica Capadocia, en Turquía, para vivir una aventura aérea tan visual como extrema.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261004081300 -0300" stop="20261004083900 -0300" channel="0966">
+    <title>Searching El Salvador - Kai Lenny y Natxo González</title>
+    <desc>Kai Lenny y Natxo González recorren El Salvador en busca de olas nunca antes surfeadas.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261004083900 -0300" stop="20261004090700 -0300" channel="0966">
+    <title>Chasing the Inca II - Mountain bike en los Andes</title>
+    <desc>Mountain bike en los Andes peruanos mientras cuatro ciclistas profesionales vuelven en busca de un camino inca perdido, enfrentando terrenos extremos y reviviendo una expedición épica.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261004090700 -0300" stop="20261004100400 -0300" channel="0966">
+    <title>Life &amp; Basketball: The Rise of Lethal Shooter</title>
+    <desc>Conoce la historia de Chris Matthews, alias Lethal Shooter, el entrenador de tiro más solicitado del mundo, cuya pasión y perseverancia lo llevaron de jugador a mentor clave en el baloncesto global.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/lifebasketballtheriseoflethalshooter.jpg" />
+  </programme>
+  <programme start="20261004100400 -0300" stop="20261004103300 -0300" channel="0966">
+    <title>Premier Padel Valencia 2026 | Highlights</title>
+    <desc>Revive lo más destacado del Valencia Premier Padel P1 con los mejores jugadores de pádel del mundo en acción.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261004103300 -0300" stop="20261004110000 -0300" channel="0966">
+    <title>Padel Life – Conociendo a las estrellas del juego</title>
+    <desc>Cuatro figuras del pádel —Arturo Coello, Ariana Sánchez, Fede Chingotto y Ale Salazar— comparten sus viajes, sacrificios y la pasión que impulsa su éxito dentro y fuera de la pista.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261004110000 -0300" stop="20261004160200 -0300" channel="0966">
+    <title>EN VIVO: EN VIVO Premier Padel Rotterdam P2 Final</title>
+    <desc>Las grandes estrellas del pádel mundial llegan a Róterdam para disputar la final del Premier Padel P2, en uno de los deportes de mayor crecimiento en los Países Bajos.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261004160200 -0300" stop="20261004162200 -0300" channel="0966">
+    <title>Red Bull Conquer the Castle 2019: Resumen</title>
+    <desc>Los participantes enfrentan una desafiante carrera de obstáculos ambientada en el histórico Castillo de Rosenholm, en Dinamarca.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/redbullconquerthecastle2019resumen.jpg" />
+  </programme>
+  <programme start="20261004162200 -0300" stop="20261004165100 -0300" channel="0966">
+    <title>Red Bull Rapids 2022: Whitewater highlights</title>
+    <desc>Equipos construyen embarcaciones caseras para descender 234 metros de rápidos, en una carrera donde solo los más ingeniosos logran llegar a la meta.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261004165100 -0300" stop="20261004172300 -0300" channel="0966">
+    <title>Bicis personalizadas desafían obstáculos en Suiza</title>
+    <desc>Las parejas afrontan el recorrido más largo con sus bicis personalizadas, pero ¿podrán con el queso?</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/bicispersonalizadasdesafianobstaculosensuiza.jpg" />
+  </programme>
+  <programme start="20261004172300 -0300" stop="20261004175300 -0300" channel="0966">
+    <title>Red Bull Stalen Ros Series | Las bicicletas más locas</title>
+    <desc>Una bici con diseño de serpiente, una de caja de herramientas y un duelo entre bicis de montaña y de carretera personalizadas: ¿cuál podrá superar el reto?</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/redbullstalenrosserieslasbicicletasmaslocas.jpg" />
+  </programme>
+  <programme start="20261004175300 -0300" stop="20261004182500 -0300" channel="0966">
+    <title>Las bicis más creativas se enfrentan en Copenhagen</title>
+    <desc>Competencia de bicis personalizadas y una pista de obstáculos. Con tres premios diferentes en juego, el público va a disfrutar de un buen espectáculo, pero ¿quién acabará en lo más alto?</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/lasbicismascreativasseenfrentanencopenhagen.jpg" />
+  </programme>
+  <programme start="20261004182500 -0300" stop="20261004213600 -0300" channel="0966">
+    <title>Red Bull Batalla 2025 Final Nacional de España</title>
+    <desc>En el año del 20º aniversario de Red Bull Batalla, los mejores MCs de España se enfrentan en la Final Nacional 2025 para definir quién representará al país en la Final Internacional 2026.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/redbullbatalla2025finalnacionaldeespana.jpg" />
+  </programme>
+  <programme start="20261004213600 -0300" stop="20261004231300 -0300" channel="0966">
+    <title>Sandro Dias en la rampa de skate más grande del mundo</title>
+    <desc>Repasa la carrera de Sandro Dias, una de las mayores leyendas del skate brasileño, mientras realiza el salto de su vida en la rampa de skate más grande del mundo.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261004231300 -0300" stop="20261004233400 -0300" channel="0966">
+    <title>Chrysalis - Surfeando las olas más grandes del mundo</title>
+    <desc>La surfista de olas gigantes Izzi Gómez viaja de Jaws a Mavericks junto a amigos y mentores para enfrentarse a enormes olas y reconectar con su pasión por el surf extremo.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261004233400 -0300" stop="20261005002900 -0300" channel="0966">
+    <title>Ludwig&#x27;s Streamer Games 2026 - Highlights</title>
+    <desc>Disfruta de los mejores momentos del mayor evento deportivo del mundo impulsado por creadores.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261005002900 -0300" stop="20261005011300 -0300" channel="0966">
+    <title>Una campeona mundial de MTB lucha por volver a la cima</title>
+    <desc>La campeona mundial Kate Courtney regresa a la Cape Epic en busca del maillot arcoíris, mientras supera nuevos desafíos y redefine su camino en la élite del mountain bike.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261005011300 -0300" stop="20261005030000 -0300" channel="0966">
+    <title>Reverence</title>
+    <desc>Esta película profundiza en la psique de los atletas de élite de MTB con el objetivo de entender su motivación para no rendirse nunca.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261005030000 -0300" stop="20261005062200 -0300" channel="0966">
+    <title>Red Bull Batalla Final Nacional Argentina</title>
+    <desc>La próxima leyenda del freestyle reclama su lugar en el escenario internacional.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261005062200 -0300" stop="20261005070700 -0300" channel="0966">
+    <title>Red Bull Batalla Nueva Historia: 20 Años de Rimas</title>
+    <desc>20 años de freestyle en español, desde la primera Final Internacional de Red Bull Batalla hasta el aniversario celebrado en Buenos Aires.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/redbullbatallanuevahistoria20anosderimas.jpg" />
+  </programme>
+  <programme start="20261005070700 -0300" stop="20261005074500 -0300" channel="0966">
+    <title>Volando en parapente sobre la montaña K2 en Pakistán</title>
+    <desc>Tom de Dorlodot y Horacio Llorens, pilotos de parapente, surcaron los cielos de Pakistán, sobrevolando cuatro picos, incluido el K2, la segunda montaña más alta del mundo.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261005074500 -0300" stop="20261005091000 -0300" channel="0966">
+    <title>The Last Ascent: El regreso de Will Gadd al Kilimanjaro</title>
+    <desc>Will Gadd regresa al Kilimanjaro para un último ascenso a sus torres de hielo, mientras las capas de hielo de la montaña desaparecen.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/thelastascentelregresodewillgaddalkilimanjaro.jpg" />
+  </programme>
+  <programme start="20261005091000 -0300" stop="20261005101000 -0300" channel="0966">
+    <title>Fabio Wibmer – Video Game: detrás de cámaras</title>
+    <desc>Fabio Wibmer y su equipo revelan el proceso detrás de Video Game, una de las producciones de bike más creativas de 2022, filmada durante 70 días y llena de retos técnicos y visuales.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261005101000 -0300" stop="20261005105700 -0300" channel="0966">
+    <title>Inside Pro Surfing – legendarias olas australianas</title>
+    <desc>Los mejores surfistas compiten en el Rip Curl Pro Bells Beach, una parada icónica del circuito mundial donde buscan dominar las legendarias olas australianas.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261005105700 -0300" stop="20261005111900 -0300" channel="0966">
+    <title>Reel Rock: Mallorca, España</title>
+    <desc>La prodigio australiana de la escalada Angie Scarth-Johnson y Hazel Findlay exploran las rutas en solitario en aguas profundas de Mallorca.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261005111900 -0300" stop="20261005113900 -0300" channel="0966">
+    <title>Reel Rock: Mallorca, España - Parte 2</title>
+    <desc>La escaladora Angie Scarth-Johnson se enfrenta al reto mental de la competición de escalada en psicobloc, superando los miedos a las aguas profundas.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261005113900 -0300" stop="20261005120200 -0300" channel="0966">
+    <title>Reel Rock: Sierra Nevada</title>
+    <desc>El atleta de aventura ciego Erik Weihenmayer asciende una enorme pared rocosa en las profundidades de Sierra Nevada.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261005120200 -0300" stop="20261005123100 -0300" channel="0966">
+    <title>Reel Rock: monte Mizugaki, Japón</title>
+    <desc>La leyenda japonesa de la escalada Sachi Amma pasa de ser tricampeona mundial a purista, culminando con una primera ascensión audaz y visionaria en el monte Mizugaki de Japón.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261005123100 -0300" stop="20261005130700 -0300" channel="0966">
+    <title>Reel Rock: Perla Negra en Mallorca</title>
+    <desc>A los 42 años, Chris Sharma conquista la Perla Negra en Mallorca, su escalada en solitario en aguas profundas más difícil hasta la fecha.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261005130700 -0300" stop="20261005133100 -0300" channel="0966">
+    <title>Reel Rock: Muralla China</title>
+    <desc>El escalador Brette Harrington completa una ruta inacabada en la remota Muralla China como homenaje a su compañero Marc-André LeClerc, retomando la escalada que él inició años atrás.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261005133100 -0300" stop="20261005140700 -0300" channel="0966">
+    <title>Reel Rock: Crank-it de Boulder Canyon</title>
+    <desc>La escaladora Molly Mitchell persigue un raro ascenso con todo tipo de marchas a la peligrosa Crank-it de Boulder Canyon.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261005140700 -0300" stop="20261005155900 -0300" channel="0966">
+    <title>50 años desafiando los límites de la escalada</title>
+    <desc>Durante más de 50 años, generaciones de escaladores llevan la escalada en roca de Yosemite a nuevos límites mientras construyen un estilo de vida contracultural en el parque.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/50anosdesafiandoloslimitesdelaescalada.jpg" />
+  </programme>
+  <programme start="20261005155900 -0300" stop="20261005172700 -0300" channel="0966">
+    <title>The Art of Flight - Snowboard freestyle al límite</title>
+    <desc>Morgan y Rice llevan el snowboard freestyle a nuevos límites combinando maniobras innovadoras, escenarios extremos y una cinematografía de vanguardia.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261005172700 -0300" stop="20261005183500 -0300" channel="0966">
+    <title>Ice Waterfalls: expedición de kayak en el ártico</title>
+    <desc>El kayakista de élite Aniol Serrasolses rompe fronteras en su expedición ártica al descender una cascada de hielo de 20 metros, el mayor descenso en kayak registrado desde una cascada glaciar.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/icewaterfallsexpediciondekayakenelartico.jpg" />
+  </programme>
+  <programme start="20261005183500 -0300" stop="20261005205200 -0300" channel="0966">
+    <title>EN VIVO Red Bull Cliff Diving World Series 2026: Italia</title>
+    <desc>Los impresionantes acantilados de Polignano a Mare, en Italia, son el escenario de la penúltima parada de la Red Bull Cliff Diving 2026.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261005205200 -0300" stop="20261005212300 -0300" channel="0966">
+    <title>For Reals - parkour en islas griegas y esquí en Streif</title>
+    <desc>Los atletas de Red Bull lo hacen todo, desde esquiar de noche en las pendientes más empinadas hasta practicar slacklining durante un eclipse.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261005212300 -0300" stop="20261005215400 -0300" channel="0966">
+    <title>For Reals - paracaidismo con una moto FMX</title>
+    <desc>Los atletas de Red Bull hacen de todo, desde saltar en moto desde el cielo hasta derrapar en hielo con autos de rally.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261005215400 -0300" stop="20261005222700 -0300" channel="0966">
+    <title>For Reals: Aviones de papel y clavados entre ruinas</title>
+    <desc>Un vistazo a las disciplinas más inusuales y desafiantes que enfrentan los atletas de Red Bull, desde clavados en ruinas antiguas hasta duelos en competiciones de aviones de papel.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/forrealsavionesdepapelyclavadosentreruinas.jpg" />
+  </programme>
+  <programme start="20261005222700 -0300" stop="20261005230000 -0300" channel="0966">
+    <title>For Reals: saltando desde la estratósfera en paracaídas</title>
+    <desc>Los atletas de Red Bull rompen récords a diario, desde Felix Baumgartner saltando desde el espacio, 65 mujeres saltando en paracaídas juntas, hasta un BMXer conquistando el loop más grande del mundo.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261005230000 -0300" stop="20261006002100 -0300" channel="0966">
+    <title>The Old World - Mountain bike y BMX por toda Europa</title>
+    <desc>15 atletas, 8 disciplinas, 7 países y 100% Europa. La conexión entre mountain biking y BMX se demuestra mientras riders europeos dominan la escena mundial, llevando sus habilidades a nuevos límites.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261006002100 -0300" stop="20261006005400 -0300" channel="0966">
+    <title>Chasing the Inca II - Mountain bike en los Andes</title>
+    <desc>Mountain bike en los Andes peruanos mientras cuatro ciclistas profesionales vuelven en busca de un camino inca perdido, enfrentando terrenos extremos y reviviendo una expedición épica.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261006005400 -0300" stop="20261006030000 -0300" channel="0966">
+    <title>Red Bull Rampage 2025 - Competición Femenina</title>
+    <desc>12 atletas femeninas de MTB compiten en este evento de freeride al que sólo se puede acceder por invitación, mostrando su habilidad y creatividad.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261006030000 -0300" stop="20261006075500 -0300" channel="0966">
+    <title>Red Bull Erzbergrodeo 2026 | Hard Enduro</title>
+    <desc>500 riders enfrentan la Red Bull Erzbergrodeo en una montaña extrema, superando 23 puntos de control en una de las carreras de hard enduro más duras del motociclismo.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261006075500 -0300" stop="20261006084600 -0300" channel="0966">
+    <title>Red Bull Soapbox Race São Paulo: coches caseros</title>
+    <desc>Equipos construyen sus propios coches sin motor para desafiar una pista empinada llena de obstáculos en São Paulo, Brasil, donde la competencia se basa en velocidad y creatividad de diseño.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/redbullsoapboxracesopaulocochescaseros.jpg" />
+  </programme>
+  <programme start="20261006084600 -0300" stop="20261006093700 -0300" channel="0966">
+    <title>Red Bull Soapbox Race: máquinas caseras en Tokio</title>
+    <desc>Equipos construyen sus propios coches sin motor para desafiar una pista empinada llena de obstáculos en Tokio, Japón, donde la competencia se basa en velocidad y creatividad de diseño.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261006093700 -0300" stop="20261006103700 -0300" channel="0966">
+    <title>Red Bull Soapbox Race San Marino: descenso sin motor</title>
+    <desc>Equipos compiten en Red Bull Soapbox Race San Marino con coches caseros sin motor, enfrentándose a una pista llena de obstáculos donde la velocidad, la creatividad y el diseño son clave.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261006103700 -0300" stop="20261006110000 -0300" channel="0966">
+    <title>TEST DITU REDBULL</title>
+    <desc>La informacion de este programa no se encuentra disponible.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261006110000 -0300" stop="20261006150000 -0300" channel="0966">
+    <title>TEST DITU REDBULL</title>
+    <desc>La informacion de este programa no se encuentra disponible.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261006150000 -0300" stop="20261006190000 -0300" channel="0966">
+    <title>TEST DITU REDBULL</title>
+    <desc>La informacion de este programa no se encuentra disponible.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261006190000 -0300" stop="20261006230000 -0300" channel="0966">
+    <title>TEST DITU REDBULL</title>
+    <desc>La informacion de este programa no se encuentra disponible.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261006230000 -0300" stop="20261007030000 -0300" channel="0966">
+    <title>TEST DITU REDBULL</title>
+    <desc>La informacion de este programa no se encuentra disponible.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261007030000 -0300" stop="20261007070000 -0300" channel="0966">
+    <title>TEST DITU REDBULL</title>
+    <desc>La informacion de este programa no se encuentra disponible.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261007070000 -0300" stop="20261007110000 -0300" channel="0966">
+    <title>TEST DITU REDBULL</title>
+    <desc>La informacion de este programa no se encuentra disponible.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261007110000 -0300" stop="20261007150000 -0300" channel="0966">
+    <title>TEST DITU REDBULL</title>
+    <desc>La informacion de este programa no se encuentra disponible.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261007150000 -0300" stop="20261007190000 -0300" channel="0966">
+    <title>TEST DITU REDBULL</title>
+    <desc>La informacion de este programa no se encuentra disponible.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261007190000 -0300" stop="20261007230000 -0300" channel="0966">
+    <title>TEST DITU REDBULL</title>
+    <desc>La informacion de este programa no se encuentra disponible.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261007230000 -0300" stop="20261008030000 -0300" channel="0966">
+    <title>TEST DITU REDBULL</title>
+    <desc>La informacion de este programa no se encuentra disponible.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261008030000 -0300" stop="20261008070000 -0300" channel="0966">
+    <title>TEST DITU REDBULL</title>
+    <desc>La informacion de este programa no se encuentra disponible.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261008070000 -0300" stop="20261008110000 -0300" channel="0966">
+    <title>TEST DITU REDBULL</title>
+    <desc>La informacion de este programa no se encuentra disponible.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261008110000 -0300" stop="20261008150000 -0300" channel="0966">
+    <title>TEST DITU REDBULL</title>
+    <desc>La informacion de este programa no se encuentra disponible.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261008150000 -0300" stop="20261008190000 -0300" channel="0966">
+    <title>TEST DITU REDBULL</title>
+    <desc>La informacion de este programa no se encuentra disponible.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261008190000 -0300" stop="20261008230000 -0300" channel="0966">
+    <title>TEST DITU REDBULL</title>
+    <desc>La informacion de este programa no se encuentra disponible.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261008230000 -0300" stop="20261009030000 -0300" channel="0966">
+    <title>TEST DITU REDBULL</title>
+    <desc>La informacion de este programa no se encuentra disponible.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261009030000 -0300" stop="20261009070000 -0300" channel="0966">
+    <title>TEST DITU REDBULL</title>
+    <desc>La informacion de este programa no se encuentra disponible.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261009070000 -0300" stop="20261009110000 -0300" channel="0966">
+    <title>TEST DITU REDBULL</title>
+    <desc>La informacion de este programa no se encuentra disponible.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261009110000 -0300" stop="20261009150000 -0300" channel="0966">
+    <title>TEST DITU REDBULL</title>
+    <desc>La informacion de este programa no se encuentra disponible.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261009150000 -0300" stop="20261009190000 -0300" channel="0966">
+    <title>TEST DITU REDBULL</title>
+    <desc>La informacion de este programa no se encuentra disponible.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261009190000 -0300" stop="20261009230000 -0300" channel="0966">
+    <title>TEST DITU REDBULL</title>
+    <desc>La informacion de este programa no se encuentra disponible.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261009230000 -0300" stop="20261009235959 -0300" channel="0966">
+    <title>TEST DITU REDBULL</title>
+    <desc>La informacion de este programa no se encuentra disponible.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261004000000 -0300" stop="20261004003000 -0300" channel="0967">
+    <title>TEST DITU CARACOL KIDS</title>
+    <desc>A confirmar</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261004003000 -0300" stop="20261004011800 -0300" channel="0967">
+    <title>X6- Episodio 13</title>
+    <desc>Una familia unida por la música enfrenta retos educativos mientras sus hijos forman la banda &quot;X-6&quot; con apoyo de sus padres.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261004011800 -0300" stop="20261004020700 -0300" channel="0967">
+    <title>X6- Episodio 14</title>
+    <desc>Una familia unida por la música enfrenta retos educativos mientras sus hijos forman la banda &quot;X-6&quot; con apoyo de sus padres.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261004020700 -0300" stop="20261004023200 -0300" channel="0967">
+    <title>La Familia Cheveroni- Episodio 85</title>
+    <desc>Aurelio y su familia viven aventuras llenas de humor y valores en la divertida serie La Familia Cheveroni.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261004023200 -0300" stop="20261004025700 -0300" channel="0967">
+    <title>La Familia Cheveroni- Episodio 86</title>
+    <desc>Aurelio y su familia viven aventuras llenas de humor y valores en la divertida serie La Familia Cheveroni.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261004025700 -0300" stop="20261004032100 -0300" channel="0967">
+    <title>La Familia Cheveroni- Episodio 87</title>
+    <desc>Aurelio y su familia viven aventuras llenas de humor y valores en la divertida serie La Familia Cheveroni.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261004032100 -0300" stop="20261004034400 -0300" channel="0967">
+    <title>La Familia Cheveroni- Episodio 88</title>
+    <desc>Aurelio y su familia viven aventuras llenas de humor y valores en la divertida serie La Familia Cheveroni.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261004034400 -0300" stop="20261004041000 -0300" channel="0967">
+    <title>La Familia Cheveroni- Episodio 89</title>
+    <desc>Aurelio y su familia viven aventuras llenas de humor y valores en la divertida serie La Familia Cheveroni.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261004041000 -0300" stop="20261004043500 -0300" channel="0967">
+    <title>La Familia Cheveroni- Episodio 90</title>
+    <desc>Aurelio y su familia viven aventuras llenas de humor y valores en la divertida serie La Familia Cheveroni.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261004043500 -0300" stop="20261004045800 -0300" channel="0967">
+    <title>La Familia Cheveroni- Episodio 91</title>
+    <desc>Aurelio y su familia viven aventuras llenas de humor y valores en la divertida serie La Familia Cheveroni.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261004045800 -0300" stop="20261004052900 -0300" channel="0967">
+    <title>Club 10 - Año 11- - Episodio 246</title>
+    <desc>Un grupo de niños y su amigo Dinodoro viven emocionantes aventuras llenas de humor, aprendizaje y diversión en Club 10.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261004052900 -0300" stop="20261004060100 -0300" channel="0967">
+    <title>Club 10 - Año 11- - Episodio 247</title>
+    <desc>Un grupo de niños y su amigo Dinodoro viven emocionantes aventuras llenas de humor, aprendizaje y diversión en Club 10.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261004060100 -0300" stop="20261004060400 -0300" channel="0967">
+    <title>Roberta Quiere Cacao T2 - Ep. 1. La llegada y el silencio</title>
+    <desc>Roberta y Fausto, marcados por el destino, enfrentan secretos, traiciones y un reencuentro que cambiará sus vidas para siempre.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261004060400 -0300" stop="20261004060700 -0300" channel="0967">
+    <title>Roberta Quiere Cacao T2 - Ep.2. Una fiesta bajo la lluvia</title>
+    <desc>Roberta y Fausto, marcados por el destino, enfrentan secretos, traiciones y un reencuentro que cambiará sus vidas para siempre.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261004060700 -0300" stop="20261004063100 -0300" channel="0967">
+    <title>Cuentos de los Hermanos Grimm - Episodio 6. El gato con botas, Parte 1</title>
+    <desc>Emitida por Caracol desde 1988, esta serie trajo los cuentos Grimm a la TV con emoción, valores y estilo inolvidable.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261004063100 -0300" stop="20261004065400 -0300" channel="0967">
+    <title>Cuentos de los Hermanos Grimm - Episodio 7. El gato con botas, Parte 2</title>
+    <desc>Emitida por Caracol desde 1988, esta serie trajo los cuentos Grimm a la TV con emoción, valores y estilo inolvidable.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261004065400 -0300" stop="20261004074200 -0300" channel="0967">
+    <title>X6- Episodio 13</title>
+    <desc>Una familia unida por la música enfrenta retos educativos mientras sus hijos forman la banda &quot;X-6&quot; con apoyo de sus padres.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261004074200 -0300" stop="20261004083000 -0300" channel="0967">
+    <title>X6- Episodio 14</title>
+    <desc>Una familia unida por la música enfrenta retos educativos mientras sus hijos forman la banda &quot;X-6&quot; con apoyo de sus padres.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261004083000 -0300" stop="20261004085500 -0300" channel="0967">
+    <title>La Familia Cheveroni- Episodio 93</title>
+    <desc>Aurelio y su familia viven aventuras llenas de humor y valores en la divertida serie La Familia Cheveroni.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261004085500 -0300" stop="20261004091900 -0300" channel="0967">
+    <title>La Familia Cheveroni- Episodio 94</title>
+    <desc>Aurelio y su familia viven aventuras llenas de humor y valores en la divertida serie La Familia Cheveroni.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261004091900 -0300" stop="20261004094500 -0300" channel="0967">
+    <title>Cuentos de los Hermanos Grimm - Episodio 43. El rey pájaro y el oso</title>
+    <desc>Emitida por Caracol desde 1988, esta serie trajo los cuentos Grimm a la TV con emoción, valores y estilo inolvidable.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261004094500 -0300" stop="20261004101000 -0300" channel="0967">
+    <title>Cuentos de los Hermanos Grimm - Episodio 44. Rumpelstiltskin</title>
+    <desc>Emitida por Caracol desde 1988, esta serie trajo los cuentos Grimm a la TV con emoción, valores y estilo inolvidable.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261004101000 -0300" stop="20261004103500 -0300" channel="0967">
+    <title>Cuentos de los Hermanos Grimm - Episodio 45. La ninfa del estanque</title>
+    <desc>Emitida por Caracol desde 1988, esta serie trajo los cuentos Grimm a la TV con emoción, valores y estilo inolvidable.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261004103500 -0300" stop="20261004110100 -0300" channel="0967">
+    <title>Cuentos de los Hermanos Grimm - Episodio 46. El ahijado de la muerte</title>
+    <desc>Emitida por Caracol desde 1988, esta serie trajo los cuentos Grimm a la TV con emoción, valores y estilo inolvidable.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261004110100 -0300" stop="20261004112500 -0300" channel="0967">
+    <title>Cuentos de los Hermanos Grimm - Episodio 1. Hansel y Gretel</title>
+    <desc>Emitida por Caracol desde 1988, esta serie trajo los cuentos Grimm a la TV con emoción, valores y estilo inolvidable.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261004112500 -0300" stop="20261004115000 -0300" channel="0967">
+    <title>Cuentos de los Hermanos Grimm - Episodio 2. El sapo y la princesa, Parte 1</title>
+    <desc>Emitida por Caracol desde 1988, esta serie trajo los cuentos Grimm a la TV con emoción, valores y estilo inolvidable.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261004115000 -0300" stop="20261004121500 -0300" channel="0967">
+    <title>Cuentos de los Hermanos Grimm - Episodio  4. Caperucita roja</title>
+    <desc>Emitida por Caracol desde 1988, esta serie trajo los cuentos Grimm a la TV con emoción, valores y estilo inolvidable.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261004121500 -0300" stop="20261004123900 -0300" channel="0967">
+    <title>Cuentos de los Hermanos Grimm - Episodio  3. El sapo y la princesa, Parte 2</title>
+    <desc>Emitida por Caracol desde 1988, esta serie trajo los cuentos Grimm a la TV con emoción, valores y estilo inolvidable.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261004123900 -0300" stop="20261004133900 -0300" channel="0967">
+    <title>Cuentos de los Hermanos Grimm - Episodio 6. El gato con botas, Parte 1</title>
+    <desc>Emitida por Caracol desde 1988, esta serie trajo los cuentos Grimm a la TV con emoción, valores y estilo inolvidable.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261004133900 -0300" stop="20261004140000 -0300" channel="0967">
+    <title>TEST DITU CARACOL KIDS</title>
+    <desc>La informacion de este programa no se encuentra disponible.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261004140000 -0300" stop="20261004180000 -0300" channel="0967">
+    <title>TEST DITU CARACOL KIDS</title>
+    <desc>La informacion de este programa no se encuentra disponible.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261004180000 -0300" stop="20261004220000 -0300" channel="0967">
+    <title>TEST DITU CARACOL KIDS</title>
+    <desc>La informacion de este programa no se encuentra disponible.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261004220000 -0300" stop="20261005020000 -0300" channel="0967">
+    <title>TEST DITU CARACOL KIDS</title>
+    <desc>La informacion de este programa no se encuentra disponible.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261005020000 -0300" stop="20261005060000 -0300" channel="0967">
+    <title>TEST DITU CARACOL KIDS</title>
+    <desc>La informacion de este programa no se encuentra disponible.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261005060000 -0300" stop="20261005100000 -0300" channel="0967">
+    <title>TEST DITU CARACOL KIDS</title>
+    <desc>La informacion de este programa no se encuentra disponible.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261005100000 -0300" stop="20261005140000 -0300" channel="0967">
+    <title>TEST DITU CARACOL KIDS</title>
+    <desc>La informacion de este programa no se encuentra disponible.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261005140000 -0300" stop="20261005180000 -0300" channel="0967">
+    <title>TEST DITU CARACOL KIDS</title>
+    <desc>La informacion de este programa no se encuentra disponible.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261005180000 -0300" stop="20261005220000 -0300" channel="0967">
+    <title>TEST DITU CARACOL KIDS</title>
+    <desc>La informacion de este programa no se encuentra disponible.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261005220000 -0300" stop="20261006020000 -0300" channel="0967">
+    <title>TEST DITU CARACOL KIDS</title>
+    <desc>La informacion de este programa no se encuentra disponible.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261006020000 -0300" stop="20261006060000 -0300" channel="0967">
+    <title>TEST DITU CARACOL KIDS</title>
+    <desc>La informacion de este programa no se encuentra disponible.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261006060000 -0300" stop="20261006100000 -0300" channel="0967">
+    <title>TEST DITU CARACOL KIDS</title>
+    <desc>La informacion de este programa no se encuentra disponible.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261006100000 -0300" stop="20261006140000 -0300" channel="0967">
+    <title>TEST DITU CARACOL KIDS</title>
+    <desc>La informacion de este programa no se encuentra disponible.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261006140000 -0300" stop="20261006180000 -0300" channel="0967">
+    <title>TEST DITU CARACOL KIDS</title>
+    <desc>La informacion de este programa no se encuentra disponible.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261006180000 -0300" stop="20261006220000 -0300" channel="0967">
+    <title>TEST DITU CARACOL KIDS</title>
+    <desc>La informacion de este programa no se encuentra disponible.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261006220000 -0300" stop="20261007020000 -0300" channel="0967">
+    <title>TEST DITU CARACOL KIDS</title>
+    <desc>La informacion de este programa no se encuentra disponible.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261007020000 -0300" stop="20261007060000 -0300" channel="0967">
+    <title>TEST DITU CARACOL KIDS</title>
+    <desc>La informacion de este programa no se encuentra disponible.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261007060000 -0300" stop="20261007100000 -0300" channel="0967">
+    <title>TEST DITU CARACOL KIDS</title>
+    <desc>La informacion de este programa no se encuentra disponible.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261007100000 -0300" stop="20261007140000 -0300" channel="0967">
+    <title>TEST DITU CARACOL KIDS</title>
+    <desc>La informacion de este programa no se encuentra disponible.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261007140000 -0300" stop="20261007180000 -0300" channel="0967">
+    <title>TEST DITU CARACOL KIDS</title>
+    <desc>La informacion de este programa no se encuentra disponible.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261007180000 -0300" stop="20261007220000 -0300" channel="0967">
+    <title>TEST DITU CARACOL KIDS</title>
+    <desc>La informacion de este programa no se encuentra disponible.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261007220000 -0300" stop="20261008020000 -0300" channel="0967">
+    <title>TEST DITU CARACOL KIDS</title>
+    <desc>La informacion de este programa no se encuentra disponible.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261008020000 -0300" stop="20261008060000 -0300" channel="0967">
+    <title>TEST DITU CARACOL KIDS</title>
+    <desc>La informacion de este programa no se encuentra disponible.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261008060000 -0300" stop="20261008100000 -0300" channel="0967">
+    <title>TEST DITU CARACOL KIDS</title>
+    <desc>La informacion de este programa no se encuentra disponible.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261008100000 -0300" stop="20261008140000 -0300" channel="0967">
+    <title>TEST DITU CARACOL KIDS</title>
+    <desc>La informacion de este programa no se encuentra disponible.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261008140000 -0300" stop="20261008180000 -0300" channel="0967">
+    <title>TEST DITU CARACOL KIDS</title>
+    <desc>La informacion de este programa no se encuentra disponible.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261008180000 -0300" stop="20261008220000 -0300" channel="0967">
+    <title>TEST DITU CARACOL KIDS</title>
+    <desc>La informacion de este programa no se encuentra disponible.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261008220000 -0300" stop="20261009020000 -0300" channel="0967">
+    <title>TEST DITU CARACOL KIDS</title>
+    <desc>La informacion de este programa no se encuentra disponible.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261009020000 -0300" stop="20261009060000 -0300" channel="0967">
+    <title>TEST DITU CARACOL KIDS</title>
+    <desc>La informacion de este programa no se encuentra disponible.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261009060000 -0300" stop="20261009100000 -0300" channel="0967">
+    <title>TEST DITU CARACOL KIDS</title>
+    <desc>La informacion de este programa no se encuentra disponible.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261009100000 -0300" stop="20261009140000 -0300" channel="0967">
+    <title>TEST DITU CARACOL KIDS</title>
+    <desc>La informacion de este programa no se encuentra disponible.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261009140000 -0300" stop="20261009180000 -0300" channel="0967">
+    <title>TEST DITU CARACOL KIDS</title>
+    <desc>La informacion de este programa no se encuentra disponible.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261009180000 -0300" stop="20261009220000 -0300" channel="0967">
+    <title>TEST DITU CARACOL KIDS</title>
+    <desc>La informacion de este programa no se encuentra disponible.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261009220000 -0300" stop="20261009235959 -0300" channel="0967">
+    <title>TEST DITU CARACOL KIDS</title>
+    <desc>La informacion de este programa no se encuentra disponible.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261004000000 -0300" stop="20261004010000 -0300" channel="0968">
+    <title>TEST DITU CARACOL SPORTS</title>
+    <desc>A confirmar</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261004010000 -0300" stop="20261004013000 -0300" channel="0968">
+    <title>Noticias Caracol Sports (Repetición)</title>
+    <desc>Noticias Sports ofrece la mejor cobertura deportiva de Colombia y el mundo, con información precisa, ágil y exclusiva.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261004013000 -0300" stop="20261004030000 -0300" channel="0968">
+    <title>Brasil vs Colombia</title>
+    <desc>Futbol Olímpico Femenino: COLOMBIA VS FRANCIA</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261004030000 -0300" stop="20261004033000 -0300" channel="0968">
+    <title>Noticias Caracol Sports (Repetición)</title>
+    <desc>Noticias Sports ofrece la mejor cobertura deportiva de Colombia y el mundo, con información precisa, ágil y exclusiva.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261004033000 -0300" stop="20261004053000 -0300" channel="0968">
+    <title>Colombia vs. Paraguay</title>
+    <desc>Descripción no disponible</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261004053000 -0300" stop="20261004060000 -0300" channel="0968">
+    <title>Noticias Caracol Sports (Repetición)</title>
+    <desc>Noticias Sports ofrece la mejor cobertura deportiva de Colombia y el mundo, con información precisa, ágil y exclusiva.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261004060000 -0300" stop="20261004073000 -0300" channel="0968">
+    <title>Brasil vs Colombia</title>
+    <desc>Futbol Olímpico Femenino: COLOMBIA VS FRANCIA</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261004073000 -0300" stop="20261004083000 -0300" channel="0968">
+    <title>Noticias Caracol Sports (Repetición)</title>
+    <desc>Noticias Sports ofrece la mejor cobertura deportiva de Colombia y el mundo, con información precisa, ágil y exclusiva.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261004083000 -0300" stop="20261004103000 -0300" channel="0968">
+    <title>Colombia vs. Paraguay</title>
+    <desc>Descripción no disponible</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261004103000 -0300" stop="20261004110000 -0300" channel="0968">
+    <title>Noticias Caracol Sports (Repetición)</title>
+    <desc>Noticias Sports ofrece la mejor cobertura deportiva de Colombia y el mundo, con información precisa, ágil y exclusiva.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261004110000 -0300" stop="20261004123000 -0300" channel="0968">
+    <title>Brasil vs Colombia</title>
+    <desc>Futbol Olímpico Femenino: COLOMBIA VS FRANCIA</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261004123000 -0300" stop="20261004130000 -0300" channel="0968">
+    <title>Noticias Caracol Sports (Repetición)</title>
+    <desc>Noticias Sports ofrece la mejor cobertura deportiva de Colombia y el mundo, con información precisa, ágil y exclusiva.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261004130000 -0300" stop="20261004150000 -0300" channel="0968">
+    <title>Colombia vs. Paraguay</title>
+    <desc>Descripción no disponible</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261004150000 -0300" stop="20261004160000 -0300" channel="0968">
+    <title>Caracol Extremo (E)</title>
+    <desc>Gol Caracol Retro revive las hazañas inolvidables de la Selección Colombia y los grandes momentos del fútbol nacional.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261004160000 -0300" stop="20261004163000 -0300" channel="0968">
+    <title>Noticias Caracol Sports (En Vivo)</title>
+    <desc>Noticias Sports ofrece la mejor cobertura deportiva de Colombia y el mundo, con información precisa, ágil y exclusiva.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261004163000 -0300" stop="20261004170000 -0300" channel="0968">
+    <title>Noticias Caracol Sports (Repetición)</title>
+    <desc>Noticias Sports ofrece la mejor cobertura deportiva de Colombia y el mundo, con información precisa, ágil y exclusiva.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261004170000 -0300" stop="20261004183000 -0300" channel="0968">
+    <title>Sudamericano Masculino  de Futsal Sub 20</title>
+    <desc>Descripción no disponible</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261004183000 -0300" stop="20261004191500 -0300" channel="0968">
+    <title>Caracol Sportcast (Repetición)</title>
+    <desc>Caracol Sportcast explora el alma del deporte con charlas únicas junto a sus protagonistas. Historias que inspiran y sorprenden.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261004191500 -0300" stop="20261004210000 -0300" channel="0968">
+    <title>Sudamericano Masculino  de Futsal Sub 20</title>
+    <desc>Descripción no disponible</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261004210000 -0300" stop="20261004221500 -0300" channel="0968">
+    <title>Tribuna Caliente (En Vivo)</title>
+    <desc>Tribuna Caliente prende la pantalla con debates intensos, análisis directo y la mejor actualidad deportiva en vivo.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261004221500 -0300" stop="20261005001500 -0300" channel="0968">
+    <title>Liga Colombiana</title>
+    <desc>Descripción no disponible</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261005001500 -0300" stop="20261005004500 -0300" channel="0968">
+    <title>Noticias Caracol Sports (En Vivo)</title>
+    <desc>Noticias Sports ofrece la mejor cobertura deportiva de Colombia y el mundo, con información precisa, ágil y exclusiva.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261005004500 -0300" stop="20261005011500 -0300" channel="0968">
+    <title>Noticias Caracol Sports (Repetición)</title>
+    <desc>Noticias Sports ofrece la mejor cobertura deportiva de Colombia y el mundo, con información precisa, ágil y exclusiva.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261005011500 -0300" stop="20261005033000 -0300" channel="0968">
+    <title>Sudamericano Masculino  de Futsal Sub 20</title>
+    <desc>Descripción no disponible</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261005033000 -0300" stop="20261005053000 -0300" channel="0968">
+    <title>Colombia vs. Paraguay</title>
+    <desc>Descripción no disponible</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261005053000 -0300" stop="20261005060000 -0300" channel="0968">
+    <title>Noticias Caracol Sports (Repetición)</title>
+    <desc>Noticias Sports ofrece la mejor cobertura deportiva de Colombia y el mundo, con información precisa, ágil y exclusiva.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261005060000 -0300" stop="20261005080000 -0300" channel="0968">
+    <title>Sudamericano Masculino  de Futsal Sub 20</title>
+    <desc>Descripción no disponible</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261005080000 -0300" stop="20261005083000 -0300" channel="0968">
+    <title>Noticias Caracol Sports (Repetición)</title>
+    <desc>Noticias Sports ofrece la mejor cobertura deportiva de Colombia y el mundo, con información precisa, ágil y exclusiva.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261005083000 -0300" stop="20261005103000 -0300" channel="0968">
+    <title>Sudamericano Masculino  de Futsal Sub 20</title>
+    <desc>Descripción no disponible</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261005103000 -0300" stop="20261005110000 -0300" channel="0968">
+    <title>Noticias Caracol Sports (Repetición)</title>
+    <desc>Noticias Sports ofrece la mejor cobertura deportiva de Colombia y el mundo, con información precisa, ágil y exclusiva.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261005110000 -0300" stop="20261005130000 -0300" channel="0968">
+    <title>Colombia vs. Paraguay</title>
+    <desc>Descripción no disponible</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261005130000 -0300" stop="20261005140000 -0300" channel="0968">
+    <title>Tribuna Caliente (Repetición)</title>
+    <desc>Tribuna Caliente prende la pantalla con debates intensos, análisis directo y la mejor actualidad deportiva en vivo.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261005140000 -0300" stop="20261005150000 -0300" channel="0968">
+    <title>Jugada Maestra (En Vivo)</title>
+    <desc>Jugada Maestra reúne a Hernández, Castell y De la Pava en un análisis profundo del fútbol con experiencia y visión experta.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261005150000 -0300" stop="20261005153000 -0300" channel="0968">
+    <title>Noticias Caracol Sports (En Vivo)</title>
+    <desc>Noticias Sports ofrece la mejor cobertura deportiva de Colombia y el mundo, con información precisa, ágil y exclusiva.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261005153000 -0300" stop="20261005160000 -0300" channel="0968">
+    <title>Noticias Caracol Sports (Repetición)</title>
+    <desc>Noticias Sports ofrece la mejor cobertura deportiva de Colombia y el mundo, con información precisa, ágil y exclusiva.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261005160000 -0300" stop="20261005180000 -0300" channel="0968">
+    <title>Blog Deportivo (En Vivo)</title>
+    <desc>Descripción no disponible</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261005180000 -0300" stop="20261005200000 -0300" channel="0968">
+    <title>Colombia vs. Paraguay</title>
+    <desc>Descripción no disponible</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261005200000 -0300" stop="20261005210000 -0300" channel="0968">
+    <title>Tribuna Caliente (En Vivo)</title>
+    <desc>Tribuna Caliente prende la pantalla con debates intensos, análisis directo y la mejor actualidad deportiva en vivo.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261005210000 -0300" stop="20261005220000 -0300" channel="0968">
+    <title>Foto finish (E)</title>
+    <desc>Resume la actualidad del ciclismo con enfoque ágil en las hazañas y rostros colombianos que marcan el pelotón mundial.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261005220000 -0300" stop="20261005230000 -0300" channel="0968">
+    <title>Jugada Maestra (Repetición)</title>
+    <desc>Jugada Maestra reúne a Hernández, Castell y De la Pava en un análisis profundo del fútbol con experiencia y visión experta.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261005230000 -0300" stop="20261005233000 -0300" channel="0968">
+    <title>Noticias Caracol Sports (En Vivo)</title>
+    <desc>Noticias Sports ofrece la mejor cobertura deportiva de Colombia y el mundo, con información precisa, ágil y exclusiva.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261005233000 -0300" stop="20261006000000 -0300" channel="0968">
+    <title>Noticias Caracol Sports (Repetición)</title>
+    <desc>Noticias Sports ofrece la mejor cobertura deportiva de Colombia y el mundo, con información precisa, ágil y exclusiva.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261006000000 -0300" stop="20261006010000 -0300" channel="0968">
+    <title>Tribuna Caliente (Repetición)</title>
+    <desc>Tribuna Caliente prende la pantalla con debates intensos, análisis directo y la mejor actualidad deportiva en vivo.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261006010000 -0300" stop="20261006020000 -0300" channel="0968">
+    <title>Foto finish (Repetición)</title>
+    <desc>Resume la actualidad del ciclismo con enfoque ágil en las hazañas y rostros colombianos que marcan el pelotón mundial.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261006020000 -0300" stop="20261006023000 -0300" channel="0968">
+    <title>Noticias Caracol Sports (Repetición)</title>
+    <desc>Noticias Sports ofrece la mejor cobertura deportiva de Colombia y el mundo, con información precisa, ágil y exclusiva.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261006023000 -0300" stop="20261006043000 -0300" channel="0968">
+    <title>Sudamericano Masculino  de Futsal Sub 20</title>
+    <desc>Descripción no disponible</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261006043000 -0300" stop="20261006053000 -0300" channel="0968">
+    <title>Foto finish (Repetición)</title>
+    <desc>Resume la actualidad del ciclismo con enfoque ágil en las hazañas y rostros colombianos que marcan el pelotón mundial.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261006053000 -0300" stop="20261006060000 -0300" channel="0968">
+    <title>Noticias Caracol Sports (Repetición)</title>
+    <desc>Noticias Sports ofrece la mejor cobertura deportiva de Colombia y el mundo, con información precisa, ágil y exclusiva.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261006060000 -0300" stop="20261006070000 -0300" channel="0968">
+    <title>Tribuna Caliente (Repetición)</title>
+    <desc>Tribuna Caliente prende la pantalla con debates intensos, análisis directo y la mejor actualidad deportiva en vivo.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261006070000 -0300" stop="20261006080000 -0300" channel="0968">
+    <title>Jugada Maestra (Repetición)</title>
+    <desc>Jugada Maestra reúne a Hernández, Castell y De la Pava en un análisis profundo del fútbol con experiencia y visión experta.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261006080000 -0300" stop="20261006083000 -0300" channel="0968">
+    <title>Noticias Caracol Sports (Repetición)</title>
+    <desc>Noticias Sports ofrece la mejor cobertura deportiva de Colombia y el mundo, con información precisa, ágil y exclusiva.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261006083000 -0300" stop="20261006093000 -0300" channel="0968">
+    <title>Colombia vs. México</title>
+    <desc>Futbol Olímpico Femenino: COLOMBIA VS NUEVA ZELANDA</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261006093000 -0300" stop="20261006100000 -0300" channel="0968">
+    <title>TEST DITU CARACOL SPORTS</title>
+    <desc>La informacion de este programa no se encuentra disponible.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261006100000 -0300" stop="20261006140000 -0300" channel="0968">
+    <title>TEST DITU CARACOL SPORTS</title>
+    <desc>La informacion de este programa no se encuentra disponible.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261006140000 -0300" stop="20261006180000 -0300" channel="0968">
+    <title>TEST DITU CARACOL SPORTS</title>
+    <desc>La informacion de este programa no se encuentra disponible.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261006180000 -0300" stop="20261006220000 -0300" channel="0968">
+    <title>TEST DITU CARACOL SPORTS</title>
+    <desc>La informacion de este programa no se encuentra disponible.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261006220000 -0300" stop="20261007020000 -0300" channel="0968">
+    <title>TEST DITU CARACOL SPORTS</title>
+    <desc>La informacion de este programa no se encuentra disponible.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261007020000 -0300" stop="20261007060000 -0300" channel="0968">
+    <title>TEST DITU CARACOL SPORTS</title>
+    <desc>La informacion de este programa no se encuentra disponible.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261007060000 -0300" stop="20261007100000 -0300" channel="0968">
+    <title>TEST DITU CARACOL SPORTS</title>
+    <desc>La informacion de este programa no se encuentra disponible.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261007100000 -0300" stop="20261007140000 -0300" channel="0968">
+    <title>TEST DITU CARACOL SPORTS</title>
+    <desc>La informacion de este programa no se encuentra disponible.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261007140000 -0300" stop="20261007180000 -0300" channel="0968">
+    <title>TEST DITU CARACOL SPORTS</title>
+    <desc>La informacion de este programa no se encuentra disponible.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261007180000 -0300" stop="20261007220000 -0300" channel="0968">
+    <title>TEST DITU CARACOL SPORTS</title>
+    <desc>La informacion de este programa no se encuentra disponible.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261007220000 -0300" stop="20261008020000 -0300" channel="0968">
+    <title>TEST DITU CARACOL SPORTS</title>
+    <desc>La informacion de este programa no se encuentra disponible.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261008020000 -0300" stop="20261008060000 -0300" channel="0968">
+    <title>TEST DITU CARACOL SPORTS</title>
+    <desc>La informacion de este programa no se encuentra disponible.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261008060000 -0300" stop="20261008100000 -0300" channel="0968">
+    <title>TEST DITU CARACOL SPORTS</title>
+    <desc>La informacion de este programa no se encuentra disponible.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261008100000 -0300" stop="20261008140000 -0300" channel="0968">
+    <title>TEST DITU CARACOL SPORTS</title>
+    <desc>La informacion de este programa no se encuentra disponible.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261008140000 -0300" stop="20261008180000 -0300" channel="0968">
+    <title>TEST DITU CARACOL SPORTS</title>
+    <desc>La informacion de este programa no se encuentra disponible.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261008180000 -0300" stop="20261008220000 -0300" channel="0968">
+    <title>TEST DITU CARACOL SPORTS</title>
+    <desc>La informacion de este programa no se encuentra disponible.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261008220000 -0300" stop="20261009020000 -0300" channel="0968">
+    <title>TEST DITU CARACOL SPORTS</title>
+    <desc>La informacion de este programa no se encuentra disponible.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261009020000 -0300" stop="20261009060000 -0300" channel="0968">
+    <title>TEST DITU CARACOL SPORTS</title>
+    <desc>La informacion de este programa no se encuentra disponible.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261009060000 -0300" stop="20261009100000 -0300" channel="0968">
+    <title>TEST DITU CARACOL SPORTS</title>
+    <desc>La informacion de este programa no se encuentra disponible.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261009100000 -0300" stop="20261009140000 -0300" channel="0968">
+    <title>TEST DITU CARACOL SPORTS</title>
+    <desc>La informacion de este programa no se encuentra disponible.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261009140000 -0300" stop="20261009180000 -0300" channel="0968">
+    <title>TEST DITU CARACOL SPORTS</title>
+    <desc>La informacion de este programa no se encuentra disponible.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261009180000 -0300" stop="20261009220000 -0300" channel="0968">
+    <title>TEST DITU CARACOL SPORTS</title>
+    <desc>La informacion de este programa no se encuentra disponible.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261009220000 -0300" stop="20261009235959 -0300" channel="0968">
+    <title>TEST DITU CARACOL SPORTS</title>
+    <desc>La informacion de este programa no se encuentra disponible.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261004000000 -0300" stop="20261004010000 -0300" channel="0969">
+    <title>TEST DITU CARACOL MIX</title>
+    <desc>A confirmar</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261004010000 -0300" stop="20261004020000 -0300" channel="0969">
+    <title>Tu Voz Estéreo - Capitulo 0728</title>
+    <desc>La amistad de toda una vida entre Juan Diego y Felipe se tambalea cuando ambos entregan su corazón a María. Entre sentimientos, rivalidades y decisiones difíciles, deberán elegir entre el amor o una amistad invaluable.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261004020000 -0300" stop="20261004030000 -0300" channel="0969">
+    <title>Tu Voz Estéreo - Capitulo 0729</title>
+    <desc>Al encontrar a su madre biológica, Ricardo intenta ayudarla y recuperar el tiempo perdido. Sin embargo, Macario utiliza mentiras y chantajes para obtener dinero, provocando conflictos que solo se resolverán cuando toda la verdad salga a la luz.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261004030000 -0300" stop="20261004040000 -0300" channel="0969">
+    <title>Tu Voz Estéreo - Capitulo 0722</title>
+    <desc>Impulsada por extrañas señales, Mariana investiga la desaparición de su hermana gemela. Las pistas conducen a una verdad impactante que expone una obsesión enfermiza y un crimen oculto durante años.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261004040000 -0300" stop="20261004050000 -0300" channel="0969">
+    <title>La Ex - Capitulo 115</title>
+    <desc>La familia Otero vive una noche de sucesos misteriosos que los llena de temor. Sergio anuncia la compra de Cosméticos Continental, mientras Amada comparte con sus amigas los resultados de la fallida terapia con Leonardo.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261004050000 -0300" stop="20261004060000 -0300" channel="0969">
+    <title>¿Dónde está Umaña? - Capitulo 073</title>
+    <desc>El pueblo vive la emoción de los concursos para viajar a San Benito. Reina comienza a desconfiar de Juancho Feria por sus evasivas respuestas, mientras Ángela observa con preocupación la cercanía entre Reina y Sabas.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261004060000 -0300" stop="20261004070000 -0300" channel="0969">
+    <title>Confidencial - Capitulo 4</title>
+    <desc>La pérdida de Kevin genera dolor, indignación y exigencias de justicia. Familiares, amigos y vecinos se unen para pedir respuestas y castigo para los responsables de la tragedia.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261004070000 -0300" stop="20261004080000 -0300" channel="0969">
+    <title>Vecinos - Capitulo 191</title>
+    <desc>Un motín e incendio en la cárcel hacen creer que Álvaro murió. Sin embargo, él y Peláez logran escapar y reencontrarse con Rodolfo, quien organizó la fuga para recuperar un dinero oculto. Clara y los vecinos lamentan la supuesta pérdida.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261004080000 -0300" stop="20261004090000 -0300" channel="0969">
+    <title>La Nocturna - Capitulo 069</title>
+    <desc>Muriel continúa ocultando la verdadera identidad del padre de su hijo mientras Amelia se distancia de ella. Paralelamente, Raúl es elegido para representar a la universidad, generando diferencias entre Mario, Esther y Doña Pilar.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261004090000 -0300" stop="20261004100000 -0300" channel="0969">
+    <title>El Secretario - Capitulo 52</title>
+    <desc>La ceremonia de matrimonio termina en escándalo cuando Félix es arrestado frente a todos los invitados. Antonia no entiende lo que ocurre y busca apoyo en Emilio, mientras en Industrias Copito crecen las dudas sobre la verdadera identidad de su jefe.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261004100000 -0300" stop="20261004110000 -0300" channel="0969">
+    <title>La Mamá del 10 - Capitulo 56</title>
+    <desc>Mientras el coronel Dangond lucha por recuperarse tras el infarto, Víctor brilla con la Selección Colombia y le dedica un gol. Leonor decide permanecer a su lado durante la rehabilitación, mientras Lucelly avanza con sus engaños comerciales.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261004110000 -0300" stop="20261004120000 -0300" channel="0969">
+    <title>La Ex - Capitulo 115</title>
+    <desc>La familia Otero vive una noche de sucesos misteriosos que los llena de temor. Sergio anuncia la compra de Cosméticos Continental, mientras Amada comparte con sus amigas los resultados de la fallida terapia con Leonardo.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261004120000 -0300" stop="20261004130000 -0300" channel="0969">
+    <title>¿Dónde está Umaña? - Capitulo 073</title>
+    <desc>El pueblo vive la emoción de los concursos para viajar a San Benito. Reina comienza a desconfiar de Juancho Feria por sus evasivas respuestas, mientras Ángela observa con preocupación la cercanía entre Reina y Sabas.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261004130000 -0300" stop="20261004140000 -0300" channel="0969">
+    <title>Confidencial - Capitulo 4</title>
+    <desc>La pérdida de Kevin genera dolor, indignación y exigencias de justicia. Familiares, amigos y vecinos se unen para pedir respuestas y castigo para los responsables de la tragedia.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261004140000 -0300" stop="20261004150000 -0300" channel="0969">
+    <title>Vecinos - Capitulo 191</title>
+    <desc>Un motín e incendio en la cárcel hacen creer que Álvaro murió. Sin embargo, él y Peláez logran escapar y reencontrarse con Rodolfo, quien organizó la fuga para recuperar un dinero oculto. Clara y los vecinos lamentan la supuesta pérdida.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261004150000 -0300" stop="20261004160000 -0300" channel="0969">
+    <title>La Nocturna - Capitulo 069</title>
+    <desc>Muriel continúa ocultando la verdadera identidad del padre de su hijo mientras Amelia se distancia de ella. Paralelamente, Raúl es elegido para representar a la universidad, generando diferencias entre Mario, Esther y Doña Pilar.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261004160000 -0300" stop="20261004170000 -0300" channel="0969">
+    <title>El Secretario - Capitulo 52</title>
+    <desc>La ceremonia de matrimonio termina en escándalo cuando Félix es arrestado frente a todos los invitados. Antonia no entiende lo que ocurre y busca apoyo en Emilio, mientras en Industrias Copito crecen las dudas sobre la verdadera identidad de su jefe.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261004170000 -0300" stop="20261004180000 -0300" channel="0969">
+    <title>La Mamá del 10 - Capitulo 56</title>
+    <desc>Mientras el coronel Dangond lucha por recuperarse tras el infarto, Víctor brilla con la Selección Colombia y le dedica un gol. Leonor decide permanecer a su lado durante la rehabilitación, mientras Lucelly avanza con sus engaños comerciales.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261004180000 -0300" stop="20261004190000 -0300" channel="0969">
+    <title>La Ex - Capitulo 116</title>
+    <desc>Amada y Leonardo oficializan su divorcio en el juzgado y ponen fin a su matrimonio. Mientras ella celebra junto a su familia, Leonardo recuerda con nostalgia el pasado, y Martín impulsa su proyecto musical con la tuna All Stars.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261004190000 -0300" stop="20261004200000 -0300" channel="0969">
+    <title>¿Dónde está Umaña? - Capitulo 074</title>
+    <desc>Se revela que Lorenza es la impulsora del club social del Caribe. Mientras Felipe y Lataman fracasan por hacer trampa, Susy recibe una carta que la preselecciona para integrar la prestigiosa sociedad de las damas del Caribe.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261004200000 -0300" stop="20261004210000 -0300" channel="0969">
+    <title>Confidencial - Capitulo 5</title>
+    <desc>Cuando la verdad finalmente se conoce, las consecuencias resultan devastadoras. Incapaz de afrontar la realidad y la presión de los hechos, Jota toma una decisión que marcará un desenlace fatal.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261004210000 -0300" stop="20261004220000 -0300" channel="0969">
+    <title>Vecinos - Capitulo 192</title>
+    <desc>Álvaro desafía a Rodolfo y visita a Clara, quien se desmaya al verlo vivo. Mientras tanto, Nicol fortalece su relación con Alberto y los habitantes del edificio continúan confundidos por las extrañas apariciones del supuesto difunto.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261004220000 -0300" stop="20261004230000 -0300" channel="0969">
+    <title>Capitulo 070</title>
+    <desc>Durante un congreso universitario, Raúl presenta una ponencia con errores de citación y responsabiliza a Mario. El incidente afecta la reputación del profesor y provoca que Doña Pilar nombre al profesor Guarito como nuevo director de carrera.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261004230000 -0300" stop="20261005000000 -0300" channel="0969">
+    <title>El Secretario - Capitulo 53</title>
+    <desc>Tras la captura de Félix, Antonia intenta sobrellevar la situación refugiándose en Emilio. Mientras tanto, se desarrolla la audiencia por lavado de activos y Mario admite que denunció a su hermano como venganza por hechos del pasado.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261005000000 -0300" stop="20261005010000 -0300" channel="0969">
+    <title>La Mamá del 10 - Capitulo 57</title>
+    <desc>Guati recibe apoyo del coronel para volver al fútbol, mientras Rojitas aprovecha su oportunidad y anota con Los Suricatos. Al mismo tiempo, Floro descubre que Lucelly engaña a Miguel Ángel con el negocio de Chao Fit.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261005010000 -0300" stop="20261005020000 -0300" channel="0969">
+    <title>Tu Voz Estéreo - Capitulo 0724</title>
+    <desc>Obsesionada con tener un hijo, Marcela acepta una decisión que cambia para siempre la vida de su familia. Con el tiempo comprenderá que su anhelo la alejó de quienes más quería y buscará reconstruir sus vínculos.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261005020000 -0300" stop="20261005030000 -0300" channel="0969">
+    <title>Tu Voz Estéreo - Capitulo 0725</title>
+    <desc>Mariana desafía las exigencias de su padre para vivir su romance con Jorge. Mientras antiguos amores y ambiciones intentan separarlos, un accidente cambiará el rumbo de sus vidas y romperá la relación familiar.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261005030000 -0300" stop="20261005040000 -0300" channel="0969">
+    <title>Tu Voz Estéreo - Capitulo 0726</title>
+    <desc>La celebración de aniversario de Antonio se convierte en una crisis familiar cuando sale a la luz la existencia de un hijo extramatrimonial. Viejas infidelidades, mentiras y secretos enfrentan a todos, hasta abrir el camino hacia el perdón y la reconciliación.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261005040000 -0300" stop="20261005050000 -0300" channel="0969">
+    <title>La Ex - Capitulo 116</title>
+    <desc>Amada y Leonardo oficializan su divorcio en el juzgado y ponen fin a su matrimonio. Mientras ella celebra junto a su familia, Leonardo recuerda con nostalgia el pasado, y Martín impulsa su proyecto musical con la tuna All Stars.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261005050000 -0300" stop="20261005060000 -0300" channel="0969">
+    <title>¿Dónde está Umaña? - Capitulo 074</title>
+    <desc>Se revela que Lorenza es la impulsora del club social del Caribe. Mientras Felipe y Lataman fracasan por hacer trampa, Susy recibe una carta que la preselecciona para integrar la prestigiosa sociedad de las damas del Caribe.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261005060000 -0300" stop="20261005070000 -0300" channel="0969">
+    <title>Confidencial - Capitulo 5</title>
+    <desc>Cuando la verdad finalmente se conoce, las consecuencias resultan devastadoras. Incapaz de afrontar la realidad y la presión de los hechos, Jota toma una decisión que marcará un desenlace fatal.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261005070000 -0300" stop="20261005080000 -0300" channel="0969">
+    <title>Vecinos - Capitulo 192</title>
+    <desc>Álvaro desafía a Rodolfo y visita a Clara, quien se desmaya al verlo vivo. Mientras tanto, Nicol fortalece su relación con Alberto y los habitantes del edificio continúan confundidos por las extrañas apariciones del supuesto difunto.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261005080000 -0300" stop="20261005090000 -0300" channel="0969">
+    <title>Capitulo 070</title>
+    <desc>Durante un congreso universitario, Raúl presenta una ponencia con errores de citación y responsabiliza a Mario. El incidente afecta la reputación del profesor y provoca que Doña Pilar nombre al profesor Guarito como nuevo director de carrera.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261005090000 -0300" stop="20261005100000 -0300" channel="0969">
+    <title>El Secretario - Capitulo 53</title>
+    <desc>Tras la captura de Félix, Antonia intenta sobrellevar la situación refugiándose en Emilio. Mientras tanto, se desarrolla la audiencia por lavado de activos y Mario admite que denunció a su hermano como venganza por hechos del pasado.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261005100000 -0300" stop="20261005110000 -0300" channel="0969">
+    <title>La Mamá del 10 - Capitulo 57</title>
+    <desc>Guati recibe apoyo del coronel para volver al fútbol, mientras Rojitas aprovecha su oportunidad y anota con Los Suricatos. Al mismo tiempo, Floro descubre que Lucelly engaña a Miguel Ángel con el negocio de Chao Fit.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261005110000 -0300" stop="20261005120000 -0300" channel="0969">
+    <title>La Ex - Capitulo 116</title>
+    <desc>Amada y Leonardo oficializan su divorcio en el juzgado y ponen fin a su matrimonio. Mientras ella celebra junto a su familia, Leonardo recuerda con nostalgia el pasado, y Martín impulsa su proyecto musical con la tuna All Stars.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261005120000 -0300" stop="20261005130000 -0300" channel="0969">
+    <title>¿Dónde está Umaña? - Capitulo 074</title>
+    <desc>Se revela que Lorenza es la impulsora del club social del Caribe. Mientras Felipe y Lataman fracasan por hacer trampa, Susy recibe una carta que la preselecciona para integrar la prestigiosa sociedad de las damas del Caribe.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261005130000 -0300" stop="20261005140000 -0300" channel="0969">
+    <title>Confidencial - Capitulo 5</title>
+    <desc>Cuando la verdad finalmente se conoce, las consecuencias resultan devastadoras. Incapaz de afrontar la realidad y la presión de los hechos, Jota toma una decisión que marcará un desenlace fatal.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261005140000 -0300" stop="20261005150000 -0300" channel="0969">
+    <title>Vecinos - Capitulo 192</title>
+    <desc>Álvaro desafía a Rodolfo y visita a Clara, quien se desmaya al verlo vivo. Mientras tanto, Nicol fortalece su relación con Alberto y los habitantes del edificio continúan confundidos por las extrañas apariciones del supuesto difunto.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261005150000 -0300" stop="20261005160000 -0300" channel="0969">
+    <title>Capitulo 070</title>
+    <desc>Durante un congreso universitario, Raúl presenta una ponencia con errores de citación y responsabiliza a Mario. El incidente afecta la reputación del profesor y provoca que Doña Pilar nombre al profesor Guarito como nuevo director de carrera.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261005160000 -0300" stop="20261005170000 -0300" channel="0969">
+    <title>El Secretario - Capitulo 53</title>
+    <desc>Tras la captura de Félix, Antonia intenta sobrellevar la situación refugiándose en Emilio. Mientras tanto, se desarrolla la audiencia por lavado de activos y Mario admite que denunció a su hermano como venganza por hechos del pasado.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261005170000 -0300" stop="20261005180000 -0300" channel="0969">
+    <title>La Mamá del 10 - Capitulo 57</title>
+    <desc>Guati recibe apoyo del coronel para volver al fútbol, mientras Rojitas aprovecha su oportunidad y anota con Los Suricatos. Al mismo tiempo, Floro descubre que Lucelly engaña a Miguel Ángel con el negocio de Chao Fit.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261005180000 -0300" stop="20261005190000 -0300" channel="0969">
+    <title>La Ex - Capitulo 117</title>
+    <desc>Tras firmar el divorcio, Amada rechaza una oferta laboral y concentra sus esfuerzos en adquirir Cosméticos Continental. Leonardo busca competir por la compra, mientras fenómenos paranormales siguen inquietando a la familia Otero.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261005190000 -0300" stop="20261005200000 -0300" channel="0969">
+    <title>¿Dónde está Umaña? - Capitulo 075</title>
+    <desc>La disputa por representar a La Oportunidad en San Benito obliga a Felipe y Lataman a enfrentarse. Al mismo tiempo, Daniela y Payares deciden tomar caminos separados, mientras Belinda recibe una atractiva oferta laboral.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261005200000 -0300" stop="20261005210000 -0300" channel="0969">
+    <title>Dulce Amor - Capitulo 001</title>
+    <desc>Durante los 30 años de Dulces Toledo, Rodrigo sorprende a todos al anunciar su compromiso con Natalia. Mientras tanto, Martín y Julián enfrentan problemas laborales y una importante carrera termina en derrota debido a una falla mecánica.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261005210000 -0300" stop="20261005220000 -0300" channel="0969">
+    <title>Vecinos - Capitulo 193</title>
+    <desc>Oscar y Tatiana consideran aplazar su boda, pero Frank los convence de continuar. Rodolfo amenaza a Oscar usando a Jessica como rehén y exige que rompa con Tatiana. Al mismo tiempo, Álvaro vuelve a visitar a Clara en secreto.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261005220000 -0300" stop="20261005230000 -0300" channel="0969">
+    <title>La Nocturna - Capitulo 071</title>
+    <desc>Íngrid fortalece su vínculo con la Fundación Beatriz Morat y viaja a Brasil por trabajo. Al mismo tiempo, Amelia atraviesa una fuerte crisis emocional, se refugia en nuevas amistades y aumenta la distancia con José Hernando.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261005230000 -0300" stop="20261006000000 -0300" channel="0969">
+    <title>El Secretario - Capitulo 54</title>
+    <desc>Paola intenta obtener el celular privado de Félix para entregarlo a la Fiscalía y fortalecer la investigación. Mientras Milady consigue la custodia compartida de su hijo, el abogado de Félix mueve sus influencias y consigue que sea liberado por falta de pruebas.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261006000000 -0300" stop="20261006010000 -0300" channel="0969">
+    <title>La Mamá del 10 - Capitulo 58</title>
+    <desc>Juan Camilo organiza un partido benéfico para apoyar la fundación de Tina. Víctor se consolida en Europa con grandes actuaciones, mientras Edwin, Lucelly y Pilar se acercan peligrosamente para sacar provecho económico de Los Suricatos.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261006010000 -0300" stop="20261006020000 -0300" channel="0969">
+    <title>Tu Voz Estéreo - Capitulo 0727</title>
+    <desc>Luisa decide vivir con Humberto ignorando las advertencias de su madre. Todo cambia cuando reaparece Diego, un amor del pasado que despierta sentimientos ocultos y desencadena una relación secreta que destruye vínculos familiares.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261006020000 -0300" stop="20261006030000 -0300" channel="0969">
+    <title>Tu Voz Estéreo - Capitulo 0728</title>
+    <desc>La amistad de toda una vida entre Juan Diego y Felipe se tambalea cuando ambos entregan su corazón a María. Entre sentimientos, rivalidades y decisiones difíciles, deberán elegir entre el amor o una amistad invaluable.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261006030000 -0300" stop="20261006040000 -0300" channel="0969">
+    <title>Tu Voz Estéreo - Capitulo 0729</title>
+    <desc>Al encontrar a su madre biológica, Ricardo intenta ayudarla y recuperar el tiempo perdido. Sin embargo, Macario utiliza mentiras y chantajes para obtener dinero, provocando conflictos que solo se resolverán cuando toda la verdad salga a la luz.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261006040000 -0300" stop="20261006050000 -0300" channel="0969">
+    <title>La Ex - Capitulo 117</title>
+    <desc>Tras firmar el divorcio, Amada rechaza una oferta laboral y concentra sus esfuerzos en adquirir Cosméticos Continental. Leonardo busca competir por la compra, mientras fenómenos paranormales siguen inquietando a la familia Otero.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261006050000 -0300" stop="20261006060000 -0300" channel="0969">
+    <title>¿Dónde está Umaña? - Capitulo 075</title>
+    <desc>La disputa por representar a La Oportunidad en San Benito obliga a Felipe y Lataman a enfrentarse. Al mismo tiempo, Daniela y Payares deciden tomar caminos separados, mientras Belinda recibe una atractiva oferta laboral.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261006060000 -0300" stop="20261006070000 -0300" channel="0969">
+    <title>Dulce Amor - Capitulo 001</title>
+    <desc>Durante los 30 años de Dulces Toledo, Rodrigo sorprende a todos al anunciar su compromiso con Natalia. Mientras tanto, Martín y Julián enfrentan problemas laborales y una importante carrera termina en derrota debido a una falla mecánica.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261006070000 -0300" stop="20261006080000 -0300" channel="0969">
+    <title>Vecinos - Capitulo 193</title>
+    <desc>Oscar y Tatiana consideran aplazar su boda, pero Frank los convence de continuar. Rodolfo amenaza a Oscar usando a Jessica como rehén y exige que rompa con Tatiana. Al mismo tiempo, Álvaro vuelve a visitar a Clara en secreto.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261006080000 -0300" stop="20261006090000 -0300" channel="0969">
+    <title>La Nocturna - Capitulo 071</title>
+    <desc>Íngrid fortalece su vínculo con la Fundación Beatriz Morat y viaja a Brasil por trabajo. Al mismo tiempo, Amelia atraviesa una fuerte crisis emocional, se refugia en nuevas amistades y aumenta la distancia con José Hernando.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261006090000 -0300" stop="20261006100000 -0300" channel="0969">
+    <title>El Secretario - Capitulo 54</title>
+    <desc>Paola intenta obtener el celular privado de Félix para entregarlo a la Fiscalía y fortalecer la investigación. Mientras Milady consigue la custodia compartida de su hijo, el abogado de Félix mueve sus influencias y consigue que sea liberado por falta de pruebas.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261006100000 -0300" stop="20261006140000 -0300" channel="0969">
+    <title>TEST DITU CARACOL MIX</title>
+    <desc>La informacion de este programa no se encuentra disponible.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261006140000 -0300" stop="20261006180000 -0300" channel="0969">
+    <title>TEST DITU CARACOL MIX</title>
+    <desc>La informacion de este programa no se encuentra disponible.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261006180000 -0300" stop="20261006220000 -0300" channel="0969">
+    <title>TEST DITU CARACOL MIX</title>
+    <desc>La informacion de este programa no se encuentra disponible.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261006220000 -0300" stop="20261007020000 -0300" channel="0969">
+    <title>TEST DITU CARACOL MIX</title>
+    <desc>La informacion de este programa no se encuentra disponible.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261007020000 -0300" stop="20261007060000 -0300" channel="0969">
+    <title>TEST DITU CARACOL MIX</title>
+    <desc>La informacion de este programa no se encuentra disponible.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261007060000 -0300" stop="20261007100000 -0300" channel="0969">
+    <title>TEST DITU CARACOL MIX</title>
+    <desc>La informacion de este programa no se encuentra disponible.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261007100000 -0300" stop="20261007140000 -0300" channel="0969">
+    <title>TEST DITU CARACOL MIX</title>
+    <desc>La informacion de este programa no se encuentra disponible.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261007140000 -0300" stop="20261007180000 -0300" channel="0969">
+    <title>TEST DITU CARACOL MIX</title>
+    <desc>La informacion de este programa no se encuentra disponible.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261007180000 -0300" stop="20261007220000 -0300" channel="0969">
+    <title>TEST DITU CARACOL MIX</title>
+    <desc>La informacion de este programa no se encuentra disponible.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261007220000 -0300" stop="20261008020000 -0300" channel="0969">
+    <title>TEST DITU CARACOL MIX</title>
+    <desc>La informacion de este programa no se encuentra disponible.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261008020000 -0300" stop="20261008060000 -0300" channel="0969">
+    <title>TEST DITU CARACOL MIX</title>
+    <desc>La informacion de este programa no se encuentra disponible.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261008060000 -0300" stop="20261008100000 -0300" channel="0969">
+    <title>TEST DITU CARACOL MIX</title>
+    <desc>La informacion de este programa no se encuentra disponible.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261008100000 -0300" stop="20261008140000 -0300" channel="0969">
+    <title>TEST DITU CARACOL MIX</title>
+    <desc>La informacion de este programa no se encuentra disponible.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261008140000 -0300" stop="20261008180000 -0300" channel="0969">
+    <title>TEST DITU CARACOL MIX</title>
+    <desc>La informacion de este programa no se encuentra disponible.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261008180000 -0300" stop="20261008220000 -0300" channel="0969">
+    <title>TEST DITU CARACOL MIX</title>
+    <desc>La informacion de este programa no se encuentra disponible.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261008220000 -0300" stop="20261009020000 -0300" channel="0969">
+    <title>TEST DITU CARACOL MIX</title>
+    <desc>La informacion de este programa no se encuentra disponible.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261009020000 -0300" stop="20261009060000 -0300" channel="0969">
+    <title>TEST DITU CARACOL MIX</title>
+    <desc>La informacion de este programa no se encuentra disponible.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261009060000 -0300" stop="20261009100000 -0300" channel="0969">
+    <title>TEST DITU CARACOL MIX</title>
+    <desc>La informacion de este programa no se encuentra disponible.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261009100000 -0300" stop="20261009140000 -0300" channel="0969">
+    <title>TEST DITU CARACOL MIX</title>
+    <desc>La informacion de este programa no se encuentra disponible.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261009140000 -0300" stop="20261009180000 -0300" channel="0969">
+    <title>TEST DITU CARACOL MIX</title>
+    <desc>La informacion de este programa no se encuentra disponible.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261009180000 -0300" stop="20261009220000 -0300" channel="0969">
+    <title>TEST DITU CARACOL MIX</title>
+    <desc>La informacion de este programa no se encuentra disponible.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261009220000 -0300" stop="20261009235959 -0300" channel="0969">
+    <title>TEST DITU CARACOL MIX</title>
+    <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261003130000 -0300" stop="20261003140000 -0300" channel="0970">
