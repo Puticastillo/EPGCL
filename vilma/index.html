@@ -154,7 +154,7 @@
       </div>
 
       <div class="section-header-row">
-        <h2 class="section-title">Canales en Emisión</h2>
+        <h2 class="section-title">Al aire</h2>
         <span id="cardsCounterText" class="section-sub"></span>
       </div>
 
@@ -330,7 +330,7 @@
       </div>
       
       <div class="modal-body">
-        <div class="modal-channel-row">
+        <div class="modal-channel-row hidden">
           <img id="modalChLogo" src="" alt="Logo" class="modal-ch-logo">
           <span id="modalChName" class="modal-ch-name">Canal</span>
           <span id="modalLiveBadge" class="live-pill hidden">EN VIVO</span>
@@ -340,7 +340,7 @@
         <h2 id="modalTitle" class="modal-title">Título del Programa</h2>
         <div id="modalEpisode" class="modal-episode text-accent"></div>
 
-        <div class="modal-metadata">
+        <div class="modal-metadata hidden">
           <span class="meta-item" id="modalTime">
             <svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2" fill="none"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
             <span id="modalTimeText">--:-- - --:--</span>
@@ -353,7 +353,7 @@
           <p id="modalDescription" class="modal-desc">Sin descripción disponible.</p>
         </div>
 
-        <div class="modal-actions" style="margin-top: 20px; padding-top: 14px; border-top: 1px solid var(--border-subtle);">
+        <div class="modal-actions hidden" style="margin-top: 20px; padding-top: 14px; border-top: 1px solid var(--border-subtle);">
           <button id="btnModalGoToChannel" class="btn-secondary">
             <svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2" fill="none"><rect x="2" y="7" width="20" height="15" rx="2" ry="2"/><polyline points="17 2 12 7 7 2"/></svg>
             <span>Ver programación completa del canal</span>
@@ -410,6 +410,20 @@
       </div>
     </div>
   </div>
+
+
+    <!-- Menu Contextual -->
+    <div id="contextMenu" class="context-menu hidden">
+      <ul id="contextMenuList"></ul>
+    </div>
+    
+    <!-- Modal de Imagen en Pantalla Completa -->
+    <div id="modalFullscreenImg" class="modal hidden">
+      <div class="modal-content fullscreen-img-content">
+        <button id="btnCloseFullscreenImg" class="btn-close-modal">✕</button>
+        <img id="fullscreenImg" src="" alt="Fullscreen Image">
+      </div>
+    </div>
 
   <script src="js/app.js"></script>
 </body>

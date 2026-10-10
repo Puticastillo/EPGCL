@@ -2365,7 +2365,7 @@ input:checked + .slider:before {
     border-radius: 50%;
     background: rgba(255, 255, 255, 0.06);
     border: 1px solid var(--border-subtle);
-    color: var(--text-primary);
+    color: var(--text-main);
     cursor: pointer;
     transition: background 0.15s, transform 0.15s;
     padding: 0;
@@ -3102,4 +3102,158 @@ input:checked + .slider:before {
   .search-prog-banner {
     display: none !important;
   }
+}
+
+
+/* Context Menu */
+.context-menu {
+  position: absolute;
+  background: var(--bg-surface);
+  border: 1px solid var(--border-subtle);
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+  z-index: 10000;
+  min-width: 180px;
+  overflow: hidden;
+}
+.context-menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.context-menu li {
+  padding: 12px 16px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  color: var(--text-main);
+  border-bottom: 1px solid var(--border-subtle);
+}
+.context-menu li:last-child {
+  border-bottom: none;
+}
+.context-menu li:hover {
+  background: var(--bg-card-hover);
+}
+
+/* Pantallazo Cards */
+.card-item-pantallazo {
+  background: var(--bg-surface);
+  border: 1px solid var(--border-subtle);
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  gap: 12px;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+  height: 80px;
+}
+.card-item-pantallazo:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
+.pantallazo-logo {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  background: transparent;
+  border-radius: 4px;
+  flex-shrink: 0;
+}
+.pantallazo-info {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  overflow: hidden;
+}
+.pantallazo-prog {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  font-size: 0.85rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.pantallazo-time {
+  font-weight: 700;
+  color: var(--accent-primary);
+}
+.pantallazo-title {
+  color: var(--text-main);
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Fullscreen Img */
+.fullscreen-img-content {
+  background: transparent;
+  box-shadow: none;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+}
+#fullscreenImg {
+  max-width: 90vw;
+  max-height: 90vh;
+  object-fit: contain;
+  border-radius: 8px;
+}
+
+/* Grilla Tweak for AHORA overlap */
+.grid-time-line {
+  z-index: 10;
+}
+.ch-row-header {
+  z-index: 15;
+}
+
+
+/* Mobile Header Layout Fixes */
+.header-menu {
+  display: flex !important;
+  align-items: center;
+  gap: 8px;
+}
+@media (max-width: 768px) {
+  .header-menu {
+    position: static;
+    display: flex !important;
+  }
+  .btn-search-toggle, .btn-settings {
+    position: static !important;
+  }
+  
+  /* Make Channel Selector Sticky in Mobile */
+  .guide-mobile-ch-picker {
+    position: sticky;
+    top: 60px; /* Below header */
+    z-index: 50;
+    background: var(--bg-surface);
+    border-bottom: 1px solid var(--border-subtle);
+  }
+}
+
+.btn-only-arrow {
+  padding: 8px !important;
+  border-radius: 50% !important;
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn-only-arrow svg {
+  margin: 0 !important;
+}
+
+
+/* Fix Grilla Overlap */
+.deco-ch-info {
+  z-index: 20 !important;
 }

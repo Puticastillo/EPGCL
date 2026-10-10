@@ -739,14 +739,27 @@
       el.heroBannerSide.onclick = () => openProgramDetail(ch, cur);
     };
 
-    // Transición suave al cambiar de programa
+        // Transición suave al cambiar de programa
     if (withTransition && el.heroContentBox && el.heroBannerImg) {
       el.heroContentBox.classList.add('is-fading');
       el.heroBannerImg.classList.add('is-fading');
       setTimeout(() => {
         applyData();
-        el.heroContentBox.classList.remove('is-fading');
-        el.heroBannerImg.classList.remove('is-fading');
+        if (el.heroBannerImg.src && !el.heroBannerSide.classList.contains('hidden')) {
+          el.heroBannerImg.onload = () => {
+            el.heroContentBox.classList.remove('is-fading');
+            el.heroBannerImg.classList.remove('is-fading');
+            el.heroBannerImg.onload = null;
+          };
+          el.heroBannerImg.onerror = () => {
+            el.heroContentBox.classList.remove('is-fading');
+            el.heroBannerImg.classList.remove('is-fading');
+            el.heroBannerImg.onerror = null;
+          };
+        } else {
+          el.heroContentBox.classList.remove('is-fading');
+          el.heroBannerImg.classList.remove('is-fading');
+        }
       }, 160);
     } else {
       applyData();
@@ -895,59 +908,35 @@
         progressPercent = Math.min(100, Math.max(0, ((now - prog.start) / (prog.stop - prog.start)) * 100));
       }
 
+      const nextProg = ch.programs[ch.programs.indexOf(prog) + 1];
+      const currentStart = formatTime(prog.start);
+      const nextStart = nextProg ? formatTime(nextProg.start) : '--:--';
+      const nextTitle = nextProg ? escapeHtml(nextProg.title) : 'Sin información';
+
       const card = document.createElement('div');
-      card.className = 'card-item';
-      card.onclick = () => openProgramDetail(ch, prog);
-
-      const timeRange = `${formatTime(prog.start)} - ${formatTime(prog.stop)}`;
-      const bannerSrc = prog.icon || ch.icon || '';
-
-      // Insignia: Rojo exclusivo para [En vivo], verde para el resto al aire
-      let badgeHtml = '';
-      if (prog.isBroadcastLive) {
-        badgeHtml = '<span class="live-pill badge-en-vivo">EN VIVO</span>';
-      } else if (isLive) {
-        badgeHtml = '<span class="live-pill badge-al-aire">AL AIRE</span>';
-      }
-
+      card.className = 'card-item-pantallazo';
       card.innerHTML = `
-        <div class="card-banner-wrapper">
-          <img class="card-banner" data-src="${bannerSrc || EMPTY_IMG}" alt="" loading="lazy" src="${EMPTY_IMG}">
-          <div class="card-badge-container">${badgeHtml}</div>
-          <span class="card-time-badge">${timeRange}</span>
-        </div>
-        <div class="card-content">
-          <div class="card-header-ch">
-            <img class="ch-logo-tiny" src="${ch.icon || EMPTY_IMG}" alt="" loading="lazy">
-            <div class="ch-title-bar">
-              <span class="ch-name">${escapeHtml(ch.name)}</span>
-            </div>
-            <button class="btn-fav" data-id="${ch.id}" title="Favorito">
-              ${state.favorites.has(ch.id) ? '★' : '☆'}
-            </button>
+        <img class="pantallazo-logo" src="${ch.icon || EMPTY_IMG}" alt="" loading="lazy">
+        <div class="pantallazo-info">
+          <div class="pantallazo-prog" style="font-weight: 700;">
+            <span class="pantallazo-time">${currentStart}</span>
+            <span class="pantallazo-title">${escapeHtml(prog.title)}</span>
           </div>
-          <div class="card-prog-title">${escapeHtml(prog.title)}</div>
-          ${prog.episode ? `<div class="card-prog-sub">${escapeHtml(prog.episode)}</div>` : ''}
-          <div class="card-progress-bar">
-            <div class="card-progress-fill" style="width: ${progressPercent}%;"></div>
+          <div class="pantallazo-prog" style="color:var(--text-muted);">
+            <span class="pantallazo-time" style="color:var(--text-muted);">${nextStart}</span>
+            <span class="pantallazo-title">${nextTitle}</span>
           </div>
         </div>
       `;
 
-      // Observador de banner
-      const bannerImg = card.querySelector('.card-banner');
-      if (bannerImg && bannerSrc) {
-        imageObserver.observe(bannerImg);
-      }
-
-      // Favoritos
-      const favBtn = card.querySelector('.btn-fav');
-      if (favBtn) {
-        favBtn.onclick = (e) => {
-          e.stopPropagation();
-          toggleFavorite(ch.id);
-        };
-      }
+      card.onclick = (e) => {
+        e.stopPropagation();
+        openContextMenu(e, [
+          { label: '<b>' + escapeHtml(ch.name) + '</b>', action: () => {} },
+          { label: 'Ver programación', action: () => navigateTo('guide', ch.id) },
+          { label: 'Más info del programa', action: () => openProgramDetail(ch, prog) }
+        ]);
+      };
 
       fragment.appendChild(card);
     }
@@ -1209,12 +1198,17 @@
       // Columna fija de canal
       const chInfo = document.createElement('div');
       chInfo.className = 'deco-ch-info';
-      chInfo.title = `Ver guía de ${ch.name}`;
-      chInfo.onclick = () => navigateTo('guide', ch.id);
+      chInfo.title = `Opciones de ${ch.name}`;
+      chInfo.onclick = (e) => {
+        e.stopPropagation();
+        openContextMenu(e, [
+          { label: '<b>' + escapeHtml(ch.name) + '</b>', action: () => {} },
+          { label: 'Ver guía de ' + escapeHtml(ch.name), action: () => navigateTo('guide', ch.id) }
+        ]);
+      };
       chInfo.innerHTML = `
         <img class="deco-ch-logo" src="${ch.icon || EMPTY_IMG}" alt="" loading="lazy">
         <div class="deco-ch-details">
-          <span class="deco-ch-num">${escapeHtml(ch.id)}</span>
           <span class="deco-ch-name">${escapeHtml(ch.name)}</span>
         </div>
       `;
@@ -1343,7 +1337,7 @@
       const text = el.btnToggleGuideChannels.querySelector('.picker-toggle-text');
       if (text) text.innerText = isOpen ? 'Cerrar' : 'Cambiar';
     }
-    if (isOpen && el.guideChSearch) {
+    if (isOpen && el.guideChSearch && window.innerWidth > 768) {
       setTimeout(() => el.guideChSearch.focus(), 80);
     }
   }
@@ -2408,12 +2402,7 @@
       }
     });
 
-    // Auto-refresh al volver a la pestaña
-    document.addEventListener('visibilitychange', () => {
-      if (!document.hidden) {
-        renderActiveView();
-      }
-    });
+    // Auto-refresh removido para evitar resets indeseados
 
     // Ajustar capítulos en vista lista ante cambios de tamaño de ventana
     window.addEventListener('resize', () => {
@@ -2423,8 +2412,54 @@
     });
   }
 
+  
   // ==========================================================================
-  // 13. INICIALIZACIÓN
+  // CONTEXT MENU LOGIC
+  // ==========================================================================
+  function openContextMenu(e, options) {
+    e.preventDefault();
+    e.stopPropagation();
+    const menu = document.getElementById('contextMenu');
+    const list = document.getElementById('contextMenuList');
+    if (!menu || !list) return;
+    list.innerHTML = '';
+    options.forEach(opt => {
+      const li = document.createElement('li');
+      li.innerHTML = opt.label;
+      li.onclick = (ev) => {
+        ev.stopPropagation();
+        menu.classList.add('hidden');
+        if (opt.action) opt.action();
+      };
+      list.appendChild(li);
+    });
+    
+    menu.classList.remove('hidden');
+    
+    let x = e.clientX || (e.touches && e.touches[0] ? e.touches[0].clientX : 0);
+    let y = e.clientY || (e.touches && e.touches[0] ? e.touches[0].clientY : 0);
+    const menuWidth = menu.offsetWidth || 180;
+    const menuHeight = menu.offsetHeight || 150;
+    
+    if (x + menuWidth > window.innerWidth) x = window.innerWidth - menuWidth - 10;
+    if (y + menuHeight > window.innerHeight) y = window.innerHeight - menuHeight - 10;
+    
+    menu.style.left = `${x}px`;
+    menu.style.top = `${y}px`;
+    
+    const closeFn = () => {
+      menu.classList.add('hidden');
+      document.removeEventListener('click', closeFn);
+      document.removeEventListener('touchstart', closeFn);
+    };
+    setTimeout(() => {
+      document.addEventListener('click', closeFn);
+      document.addEventListener('touchstart', closeFn);
+    }, 10);
+  }
+
+  // ==========================================================================
+  // 13. INICIALIZACI
   // ==========================================================================
   function init() {
     initDOMElements();
