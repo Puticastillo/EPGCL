@@ -4848,42 +4848,87 @@
     <desc>Una revisión de las noticias sobre espectáculos, cine, tecnología y virales para despertar de buen ánimo.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/elladobdelasnoticias.jpg" />
   </programme>
-  <programme start="20261015053000 -0300" stop="20261015063000 -0300" channel="0106">
+  <programme start="20261015053000 -0300" stop="20261015060000 -0300" channel="0106">
     <title>Primera página</title>
     <desc>Resumen noticioso para iniciar el día con ánimo y bien informado.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/primerapagina.jpg" />
   </programme>
-  <programme start="20261015063000 -0300" stop="20261015070000 -0300" channel="0106">
-    <title>Chilevisión</title>
-    <desc>La informacion de este programa no se encuentra disponible.</desc>
+  <programme start="20261015060000 -0300" stop="20261015080000 -0300" channel="0106">
+    <title>Contigo CHV noticias AM</title>
+    <desc>Es un noticiero cuyo principal objetivo es convertirse en la mejor compañía de aquellos que comienzan a levantarse y que necesitan salir informados de sus hogares.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/contigochvnoticiasam.jpg" />
+  </programme>
+  <programme start="20261015080000 -0300" stop="20261015130000 -0300" channel="0106">
+    <title>Contigo en la mañana</title>
+    <desc>Información y entretención para mantenerse al día sobre los temas que mueven la vida.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/contigoenlamanana.jpg" />
+  </programme>
+  <programme start="20261015130000 -0300" stop="20261015153000 -0300" channel="0106">
+    <title>CHV noticias tarde</title>
+    <desc>La más completa información de los principales acontecimientos que están marcando la jornada, con despachos y móviles en directo desde el lugar de los hechos.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/chvnoticiastarde.jpg" />
+  </programme>
+  <programme start="20261015153000 -0300" stop="20261015163000 -0300" channel="0106">
+    <title>Contigo en directo</title>
+    <desc>Análisis de la contingencia, con una amplia cobertura de los temas más relevantes del día a día.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/contigoendirecto.jpg" />
+  </programme>
+  <programme start="20261015163000 -0300" stop="20261015170000 -0300" channel="0106">
+    <title>Copa Libertadores Femenina • Colo-Colo vs Corinthians</title>
+    <desc>Colo-Colo vs Corinthians | La información de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/0106_fallback.jpg" />
   </programme>
-  <programme start="20261015070000 -0300" stop="20261015110000 -0300" channel="0106">
-    <title>Chilevisión</title>
-    <desc>La informacion de este programa no se encuentra disponible.</desc>
-    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/0106_fallback.jpg" />
+  <programme start="20261015170000 -0300" stop="20261015200000 -0300" channel="0106">
+    <title>Plan perfecto</title>
+    <desc>Un programa donde la entretención y el espectáculo son protagonistas.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/planperfecto.jpg" />
   </programme>
-  <programme start="20261015110000 -0300" stop="20261015150000 -0300" channel="0106">
-    <title>Chilevisión</title>
-    <desc>La informacion de este programa no se encuentra disponible.</desc>
-    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/0106_fallback.jpg" />
+  <programme start="20261015200000 -0300" stop="20261015223000 -0300" channel="0106">
+    <title>CHV noticias central</title>
+    <desc>Todas las noticias de Chile y el mundo tratadas con seriedad, rigurosidad, profundidad y objetividad, con los temas que de verdad le interesan a la gente y un punto de vista crítico e independiente.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/chvnoticiascentral.jpg" />
   </programme>
-  <programme start="20261015150000 -0300" stop="20261015190000 -0300" channel="0106">
-    <title>Chilevisión</title>
-    <desc>La informacion de este programa no se encuentra disponible.</desc>
-    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/0106_fallback.jpg" />
+  <programme start="20261015223000 -0300" stop="20261015223500 -0300" channel="0106">
+    <title>El tiempo CHV</title>
+    <desc>Conoce los detalles del tiempo a lo largo de todo el territorio nacional, con el informe metorológico completo junto a Chilevisión.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/eltiempochv.jpg" />
   </programme>
-  <programme start="20261015190000 -0300" stop="20261015230000 -0300" channel="0106">
-    <title>Chilevisión</title>
-    <desc>La informacion de este programa no se encuentra disponible.</desc>
-    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/0106_fallback.jpg" />
+  <programme start="20261015223500 -0300" stop="20261016004500 -0300" channel="0106">
+    <title>Fiebre de canto</title>
+    <desc>Famosos compiten poniendo a prueba todo su talento, evaluados por un estricto jurado.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fiebredecanto.jpg" />
   </programme>
-  <programme start="20261015230000 -0300" stop="20261016030000 -0300" channel="0106">
-    <title>Chilevisión</title>
-    <desc>La informacion de este programa no se encuentra disponible.</desc>
-    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/0106_fallback.jpg" />
+  <programme start="20261016004500 -0300" stop="20261016013000 -0300" channel="0106">
+    <title>El VAR de Fiebre de canto</title>
+    <desc>Espacio de conversación y análisis tras cada capítulo del reality Fiebre de canto.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/elvardefiebredecanto.jpg" />
   </programme>
-  <programme start="20261016030000 -0300" stop="20261016070000 -0300" channel="0106">
+  <programme start="20261016013000 -0300" stop="20261016023000 -0300" channel="0106">
+    <title>Traicionada</title>
+    <desc>La vida perfecta de Asya se desmorona cuando, impulsada por una sospecha, desnuda una red de mentiras y confirma que Volkan, su esposo y padre de su hijo, vive una relación extramatrimonial.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/traicionada.jpg" />
+  </programme>
+  <programme start="20261016023000 -0300" stop="20261016043000 -0300" channel="0106">
+    <title>Fiebre de canto</title>
+    <desc>Famosos compiten poniendo a prueba todo su talento, evaluados por un estricto jurado.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fiebredecanto.jpg" />
+  </programme>
+  <programme start="20261016043000 -0300" stop="20261016050000 -0300" channel="0106">
+    <title>Contigo en directo</title>
+    <desc>Análisis de la contingencia, con una amplia cobertura de los temas más relevantes del día a día.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/contigoendirecto.jpg" />
+  </programme>
+  <programme start="20261016050000 -0300" stop="20261016053000 -0300" channel="0106">
+    <title>El Lado B de las Noticias</title>
+    <desc>Una revisión de las noticias sobre espectáculos, cine, tecnología y virales para despertar de buen ánimo.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/elladobdelasnoticias.jpg" />
+  </programme>
+  <programme start="20261016053000 -0300" stop="20261016063000 -0300" channel="0106">
+    <title>Primera página</title>
+    <desc>Resumen noticioso para iniciar el día con ánimo y bien informado.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/primerapagina.jpg" />
+  </programme>
+  <programme start="20261016063000 -0300" stop="20261016070000 -0300" channel="0106">
     <title>Chilevisión</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/0106_fallback.jpg" />
@@ -6793,7 +6838,7 @@ Profesor Jorquel Es el responsable del perfeccionamiento cibernético de Galáct
   <programme start="20261016030000 -0300" stop="20261016040000 -0300" channel="0109">
     <title>Los Carsongs</title>
     <desc>Siempre inspirados en alguna canción nos vamos de gira con los Carsongs para vivir experiencias únicas y redescubrir Chile.</desc>
-    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/0109_fallback.jpg" />
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/loscarsongs.jpg" />
   </programme>
   <programme start="20261016040000 -0300" stop="20261016050000 -0300" channel="0109">
     <title>Azul profundo</title>
@@ -6803,7 +6848,7 @@ Profesor Jorquel Es el responsable del perfeccionamiento cibernético de Galáct
   <programme start="20261016050000 -0300" stop="20261016053000 -0300" channel="0109">
     <title>Las sorprendentes picadas de Koke</title>
     <desc>Un recorrido por diferentes picadas y restaurantes unidos por una temática en común y que está conducido por Koke Santa Ana. A través de la comida, el programa explora la diversidad cultural del país así como la conservación de tradiciones y la fusión de sabores, destacando el ingenio de nuevos emprendedores y la influencia de la migración. Cada episodio presenta historias de esfuerzo y pasión de los dueños de estos locales, que combinan gastronomía con experiencias únicas, ofreciendo un vistazo a la riqueza cultural del país.</desc>
-    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/0109_fallback.jpg" />
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/lassorprendentespicadasdekoke.jpg" />
   </programme>
   <programme start="20261016053000 -0300" stop="20261016060000 -0300" channel="0109">
     <title>Viajar por menos</title>
@@ -6838,7 +6883,7 @@ Profesor Jorquel Es el responsable del perfeccionamiento cibernético de Galáct
   <programme start="20261016130000 -0300" stop="20261016140000 -0300" channel="0109">
     <title>Los Carsongs</title>
     <desc>Siempre inspirados en alguna canción nos vamos de gira con los Carsongs para vivir experiencias únicas y redescubrir Chile.</desc>
-    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/0109_fallback.jpg" />
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/loscarsongs.jpg" />
   </programme>
   <programme start="20261016140000 -0300" stop="20261016150000 -0300" channel="0109">
     <title>Viajando ando</title>
@@ -8888,12 +8933,12 @@ Profesor Jorquel Es el responsable del perfeccionamiento cibernético de Galáct
   <programme start="20261015150000 -0300" stop="20261015163000 -0300" channel="0114">
     <title>El triciclo</title>
     <desc>Repetición ║ La producción que se transmitió en Canal 13 desde 1999 hasta el 2001 y que fue conducida por Iván Valenzuela, Marcelo Comparini, Fernando Paulsen, entre otros, contó con invitados estelares que mostraron en profundidad parte de su vida. Uno de los programas destacados fue cuando Valenzuela visitó la parcela de Colina del fallecido animador Felipe Camiroaga, quien mostró parte de sus tierras, animales y sus sencillos pasatiempos conectado con la naturaleza.</desc>
-    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/0114_fallback.jpg" />
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/eltriciclo.jpg" />
   </programme>
   <programme start="20261015163000 -0300" stop="20261015170000 -0300" channel="0114">
     <title>El niño que yo fui</title>
     <desc>Repetición ║ Un programa de entrevistas a diversas personalidades y que pone el foco en sus vidas. Las figuras invitadas dan cuenta de sus sueños truncados o cumplidos, su carrera y, de manera muy central, los recuerdos de su propia infancia.</desc>
-    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/0114_fallback.jpg" />
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/elninoqueyofui.jpg" />
   </programme>
   <programme start="20261015170000 -0300" stop="20261015190000 -0300" channel="0114">
     <title>Venga conmigo</title>
@@ -119348,7 +119393,7 @@ de Billy y Mandy</title>
   <programme start="20261012150100 -0300" stop="20261012153000 -0300" channel="0329">
     <title>Crocadoo • La gran excavación</title>
     <desc>La gran excavación | Cuando Cruelón construye una represa en el riachuelo para llevar agua a su nuevo Mundo Acuático, la poza se seca. Los consejos vacilantes del viejo Vern llevan a los cocodrilos a una corriente subterránea y un templo antiguo.</desc>
-    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/crocadoo.jpg" />
   </programme>
   <programme start="20261012153000 -0300" stop="20261012154400 -0300" channel="0329">
     <title>Recipes for Kids • Idea de decoración de pastel de luna /... ¡y más!</title>
@@ -119518,7 +119563,7 @@ de Billy y Mandy</title>
   <programme start="20261013080000 -0300" stop="20261013083000 -0300" channel="0329">
     <title>Crocadoo • La gran excavación</title>
     <desc>La gran excavación | Cuando Cruelón construye una represa en el riachuelo para llevar agua a su nuevo Mundo Acuático, la poza se seca. Los consejos vacilantes del viejo Vern llevan a los cocodrilos a una corriente subterránea y un templo antiguo.</desc>
-    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/crocadoo.jpg" />
   </programme>
   <programme start="20261013083000 -0300" stop="20261013090000 -0300" channel="0329">
     <title>MP4ORCE • Planeta alienigena</title>
@@ -119623,7 +119668,7 @@ de Billy y Mandy</title>
   <programme start="20261013150000 -0300" stop="20261013153000 -0300" channel="0329">
     <title>Crocadoo • Magia cocodrilo</title>
     <desc>Magia cocodrilo | Una tarde, el viejo Vern le echa una antigua maldición de los cocodrilos llamada &#x27;Fuego solar&#x27; a Cruelón y su hotel, pero el único éxito que tiene es el mismo fracaso. Los cocodrilos no se rinden y usan sus propios recursos para que la maldición tenga efecto.</desc>
-    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/crocadoo.jpg" />
   </programme>
   <programme start="20261013153000 -0300" stop="20261013154200 -0300" channel="0329">
     <title>Recipes for Kids • Postre de pudín de tres sabores /... ¡y más!</title>
@@ -119733,7 +119778,7 @@ de Billy y Mandy</title>
   <programme start="20261014010000 -0300" stop="20261014013100 -0300" channel="0329">
     <title>Crocadoo • La gran excavación</title>
     <desc>La gran excavación | Cuando Cruelón construye una represa en el riachuelo para llevar agua a su nuevo Mundo Acuático, la poza se seca. Los consejos vacilantes del viejo Vern llevan a los cocodrilos a una corriente subterránea y un templo antiguo.</desc>
-    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/crocadoo.jpg" />
   </programme>
   <programme start="20261014013100 -0300" stop="20261014020100 -0300" channel="0329">
     <title>MP4ORCE • Planeta alienigena</title>
@@ -119813,7 +119858,7 @@ de Billy y Mandy</title>
   <programme start="20261014080000 -0300" stop="20261014083000 -0300" channel="0329">
     <title>Crocadoo • Magia cocodrilo</title>
     <desc>Magia cocodrilo | Una tarde, el viejo Vern le echa una antigua maldición de los cocodrilos llamada &#x27;Fuego solar&#x27; a Cruelón y su hotel, pero el único éxito que tiene es el mismo fracaso. Los cocodrilos no se rinden y usan sus propios recursos para que la maldición tenga efecto.</desc>
-    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/crocadoo.jpg" />
   </programme>
   <programme start="20261014083000 -0300" stop="20261014090000 -0300" channel="0329">
     <title>MP4ORCE • Miedo pesado</title>
@@ -119918,7 +119963,7 @@ de Billy y Mandy</title>
   <programme start="20261014150100 -0300" stop="20261014153000 -0300" channel="0329">
     <title>Crocadoo • Robodrilo</title>
     <desc>Robodrilo | Cruelón consigue un cocodrilo robótico y lo envía con los cocodrilos. Su intención es que se gane su confianza y los lleve a su perdición. El único que piensa que algo no anda bien es Jazz.</desc>
-    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/crocadoo.jpg" />
   </programme>
   <programme start="20261014153000 -0300" stop="20261014154400 -0300" channel="0329">
     <title>Recipes for Kids • Smoothie Gato /... ¡y más!</title>
@@ -120028,7 +120073,7 @@ de Billy y Mandy</title>
   <programme start="20261015010000 -0300" stop="20261015013100 -0300" channel="0329">
     <title>Crocadoo • Magia cocodrilo</title>
     <desc>Magia cocodrilo | Una tarde, el viejo Vern le echa una antigua maldición de los cocodrilos llamada &#x27;Fuego solar&#x27; a Cruelón y su hotel, pero el único éxito que tiene es el mismo fracaso. Los cocodrilos no se rinden y usan sus propios recursos para que la maldición tenga efecto.</desc>
-    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/crocadoo.jpg" />
   </programme>
   <programme start="20261015013100 -0300" stop="20261015020000 -0300" channel="0329">
     <title>MP4ORCE • Miedo pesado</title>
@@ -120108,7 +120153,7 @@ de Billy y Mandy</title>
   <programme start="20261015080000 -0300" stop="20261015083100 -0300" channel="0329">
     <title>Crocadoo • Robodrilo</title>
     <desc>Robodrilo | Cruelón consigue un cocodrilo robótico y lo envía con los cocodrilos. Su intención es que se gane su confianza y los lleve a su perdición. El único que piensa que algo no anda bien es Jazz.</desc>
-    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/crocadoo.jpg" />
   </programme>
   <programme start="20261015083100 -0300" stop="20261015090000 -0300" channel="0329">
     <title>MP4ORCE • Rápida caída libre</title>
@@ -120213,7 +120258,7 @@ de Billy y Mandy</title>
   <programme start="20261015150000 -0300" stop="20261015153000 -0300" channel="0329">
     <title>Crocadoo • Bebé a bordo</title>
     <desc>Bebé a bordo | Kevin encuentra un huevo de cocodrilo a punto de romper el cascarón. Lo lleva a escondidas al hotel y cría al bebé como si fuera suyo. Cuando Cruelón se entera de esto, trata de separarlos.</desc>
-    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/crocadoo.jpg" />
   </programme>
   <programme start="20261015153000 -0300" stop="20261015154300 -0300" channel="0329">
     <title>Recipes for Kids • 4 maneras de hacer sorbete /... / Cakesicles de avengers /..</title>
@@ -120323,7 +120368,7 @@ de Billy y Mandy</title>
   <programme start="20261016010000 -0300" stop="20261016013100 -0300" channel="0329">
     <title>Crocadoo • Robodrilo</title>
     <desc>Robodrilo | Cruelón consigue un cocodrilo robótico y lo envía con los cocodrilos. Su intención es que se gane su confianza y los lleve a su perdición. El único que piensa que algo no anda bien es Jazz.</desc>
-    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/crocadoo.jpg" />
   </programme>
   <programme start="20261016013100 -0300" stop="20261016020100 -0300" channel="0329">
     <title>MP4ORCE • Rápida caída libre</title>
@@ -120403,7 +120448,7 @@ de Billy y Mandy</title>
   <programme start="20261016080000 -0300" stop="20261016083100 -0300" channel="0329">
     <title>Crocadoo • Bebé a bordo</title>
     <desc>Bebé a bordo | Kevin encuentra un huevo de cocodrilo a punto de romper el cascarón. Lo lleva a escondidas al hotel y cría al bebé como si fuera suyo. Cuando Cruelón se entera de esto, trata de separarlos.</desc>
-    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/crocadoo.jpg" />
   </programme>
   <programme start="20261016083100 -0300" stop="20261016090100 -0300" channel="0329">
     <title>MP4ORCE • Arenas del destino - Parte 1</title>
@@ -120508,7 +120553,7 @@ de Billy y Mandy</title>
   <programme start="20261016150100 -0300" stop="20261016153100 -0300" channel="0329">
     <title>Crocadoo • Perro espacial</title>
     <desc>Perro espacial | Una noche, un meteorito que se dirigía hacia la tierra se estrella en Crocadoo. Los cocodrilos descubren que en realidad se trata de una nave espacial que proviene del hogar de un perro alienígena muy extraño. Cruelón trata de capturar al perro para conseguir una recompensa, pero los cocodrilos lo protegen.</desc>
-    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/crocadoo.jpg" />
   </programme>
   <programme start="20261016153100 -0300" stop="20261016154300 -0300" channel="0329">
     <title>Recipes for Kids • Cakesicles de gato y perro / Pastel con lazo de celebración</title>
@@ -120618,7 +120663,7 @@ de Billy y Mandy</title>
   <programme start="20261017010000 -0300" stop="20261017013000 -0300" channel="0329">
     <title>Crocadoo • Bebé a bordo</title>
     <desc>Bebé a bordo | Kevin encuentra un huevo de cocodrilo a punto de romper el cascarón. Lo lleva a escondidas al hotel y cría al bebé como si fuera suyo. Cuando Cruelón se entera de esto, trata de separarlos.</desc>
-    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/crocadoo.jpg" />
   </programme>
   <programme start="20261017013000 -0300" stop="20261017020000 -0300" channel="0329">
     <title>MP4ORCE • Arenas del destino - Parte 1</title>
@@ -328698,162 +328743,197 @@ Andrés Gil</desc>
     <desc>Una familia unida por la música enfrenta retos educativos mientras sus hijos forman la banda &quot;X-6&quot; con apoyo de sus padres.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261014012200 -0300" stop="20261014022200 -0300" channel="0967">
+  <programme start="20261014012200 -0300" stop="20261014014400 -0300" channel="0967">
     <title>La Familia Cheveroni- Episodio 109</title>
     <desc>Aurelio y su familia viven aventuras llenas de humor y valores en la divertida serie La Familia Cheveroni.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261014022200 -0300" stop="20261014030000 -0300" channel="0967">
+  <programme start="20261014014400 -0300" stop="20261014020700 -0300" channel="0967">
+    <title>La Familia Cheveroni- Episodio 110</title>
+    <desc>Aurelio y su familia viven aventuras llenas de humor y valores en la divertida serie La Familia Cheveroni.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261014020700 -0300" stop="20261014023100 -0300" channel="0967">
+    <title>Club 10 - Año 11- - Episodio 260</title>
+    <desc>Un grupo de niños y su amigo Dinodoro viven emocionantes aventuras llenas de humor, aprendizaje y diversión en Club 10.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261014023100 -0300" stop="20261014030000 -0300" channel="0967">
+    <title>Club 10 - Año 11- - Episodio 261</title>
+    <desc>Un grupo de niños y su amigo Dinodoro viven emocionantes aventuras llenas de humor, aprendizaje y diversión en Club 10.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261014030000 -0300" stop="20261014032500 -0300" channel="0967">
+    <title>Cuentos de los Hermanos Grimm - Episodio 20. Los tres acertijos del diablo</title>
+    <desc>Emitida por Caracol desde 1988, esta serie trajo los cuentos Grimm a la TV con emoción, valores y estilo inolvidable.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261014032500 -0300" stop="20261014034900 -0300" channel="0967">
+    <title>Cuentos de los Hermanos Grimm - Episodio 21. Las zapatillas rotas de las tres princesas</title>
+    <desc>Emitida por Caracol desde 1988, esta serie trajo los cuentos Grimm a la TV con emoción, valores y estilo inolvidable.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261014034900 -0300" stop="20261014043700 -0300" channel="0967">
+    <title>X6- Episodio 28</title>
+    <desc>Una familia unida por la música enfrenta retos educativos mientras sus hijos forman la banda &quot;X-6&quot; con apoyo de sus padres.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261014043700 -0300" stop="20261014045900 -0300" channel="0967">
+    <title>La Familia Cheveroni- Episodio 109</title>
+    <desc>Aurelio y su familia viven aventuras llenas de humor y valores en la divertida serie La Familia Cheveroni.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261014045900 -0300" stop="20261014055900 -0300" channel="0967">
+    <title>La Familia Cheveroni- Episodio 110</title>
+    <desc>Aurelio y su familia viven aventuras llenas de humor y valores en la divertida serie La Familia Cheveroni.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261014055900 -0300" stop="20261014060000 -0300" channel="0967">
     <title>TEST DITU CARACOL KIDS</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261014030000 -0300" stop="20261014070000 -0300" channel="0967">
+  <programme start="20261014060000 -0300" stop="20261014100000 -0300" channel="0967">
     <title>TEST DITU CARACOL KIDS</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261014070000 -0300" stop="20261014110000 -0300" channel="0967">
+  <programme start="20261014100000 -0300" stop="20261014140000 -0300" channel="0967">
     <title>TEST DITU CARACOL KIDS</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261014110000 -0300" stop="20261014150000 -0300" channel="0967">
+  <programme start="20261014140000 -0300" stop="20261014180000 -0300" channel="0967">
     <title>TEST DITU CARACOL KIDS</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261014150000 -0300" stop="20261014190000 -0300" channel="0967">
+  <programme start="20261014180000 -0300" stop="20261014220000 -0300" channel="0967">
     <title>TEST DITU CARACOL KIDS</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261014190000 -0300" stop="20261014230000 -0300" channel="0967">
+  <programme start="20261014220000 -0300" stop="20261015020000 -0300" channel="0967">
     <title>TEST DITU CARACOL KIDS</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261014230000 -0300" stop="20261015030000 -0300" channel="0967">
+  <programme start="20261015020000 -0300" stop="20261015060000 -0300" channel="0967">
     <title>TEST DITU CARACOL KIDS</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261015030000 -0300" stop="20261015070000 -0300" channel="0967">
+  <programme start="20261015060000 -0300" stop="20261015100000 -0300" channel="0967">
     <title>TEST DITU CARACOL KIDS</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261015070000 -0300" stop="20261015110000 -0300" channel="0967">
+  <programme start="20261015100000 -0300" stop="20261015140000 -0300" channel="0967">
     <title>TEST DITU CARACOL KIDS</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261015110000 -0300" stop="20261015150000 -0300" channel="0967">
+  <programme start="20261015140000 -0300" stop="20261015180000 -0300" channel="0967">
     <title>TEST DITU CARACOL KIDS</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261015150000 -0300" stop="20261015190000 -0300" channel="0967">
+  <programme start="20261015180000 -0300" stop="20261015220000 -0300" channel="0967">
     <title>TEST DITU CARACOL KIDS</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261015190000 -0300" stop="20261015230000 -0300" channel="0967">
+  <programme start="20261015220000 -0300" stop="20261016020000 -0300" channel="0967">
     <title>TEST DITU CARACOL KIDS</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261015230000 -0300" stop="20261016030000 -0300" channel="0967">
+  <programme start="20261016020000 -0300" stop="20261016060000 -0300" channel="0967">
     <title>TEST DITU CARACOL KIDS</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261016030000 -0300" stop="20261016070000 -0300" channel="0967">
+  <programme start="20261016060000 -0300" stop="20261016100000 -0300" channel="0967">
     <title>TEST DITU CARACOL KIDS</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261016070000 -0300" stop="20261016110000 -0300" channel="0967">
+  <programme start="20261016100000 -0300" stop="20261016140000 -0300" channel="0967">
     <title>TEST DITU CARACOL KIDS</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261016110000 -0300" stop="20261016150000 -0300" channel="0967">
+  <programme start="20261016140000 -0300" stop="20261016180000 -0300" channel="0967">
     <title>TEST DITU CARACOL KIDS</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261016150000 -0300" stop="20261016190000 -0300" channel="0967">
+  <programme start="20261016180000 -0300" stop="20261016220000 -0300" channel="0967">
     <title>TEST DITU CARACOL KIDS</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261016190000 -0300" stop="20261016230000 -0300" channel="0967">
+  <programme start="20261016220000 -0300" stop="20261017020000 -0300" channel="0967">
     <title>TEST DITU CARACOL KIDS</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261016230000 -0300" stop="20261017030000 -0300" channel="0967">
+  <programme start="20261017020000 -0300" stop="20261017060000 -0300" channel="0967">
     <title>TEST DITU CARACOL KIDS</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261017030000 -0300" stop="20261017070000 -0300" channel="0967">
+  <programme start="20261017060000 -0300" stop="20261017100000 -0300" channel="0967">
     <title>TEST DITU CARACOL KIDS</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261017070000 -0300" stop="20261017110000 -0300" channel="0967">
+  <programme start="20261017100000 -0300" stop="20261017140000 -0300" channel="0967">
     <title>TEST DITU CARACOL KIDS</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261017110000 -0300" stop="20261017150000 -0300" channel="0967">
+  <programme start="20261017140000 -0300" stop="20261017180000 -0300" channel="0967">
     <title>TEST DITU CARACOL KIDS</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261017150000 -0300" stop="20261017190000 -0300" channel="0967">
+  <programme start="20261017180000 -0300" stop="20261017220000 -0300" channel="0967">
     <title>TEST DITU CARACOL KIDS</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261017190000 -0300" stop="20261017230000 -0300" channel="0967">
+  <programme start="20261017220000 -0300" stop="20261018020000 -0300" channel="0967">
     <title>TEST DITU CARACOL KIDS</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261017230000 -0300" stop="20261018030000 -0300" channel="0967">
+  <programme start="20261018020000 -0300" stop="20261018060000 -0300" channel="0967">
     <title>TEST DITU CARACOL KIDS</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261018030000 -0300" stop="20261018070000 -0300" channel="0967">
+  <programme start="20261018060000 -0300" stop="20261018100000 -0300" channel="0967">
     <title>TEST DITU CARACOL KIDS</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261018070000 -0300" stop="20261018110000 -0300" channel="0967">
+  <programme start="20261018100000 -0300" stop="20261018140000 -0300" channel="0967">
     <title>TEST DITU CARACOL KIDS</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261018110000 -0300" stop="20261018150000 -0300" channel="0967">
+  <programme start="20261018140000 -0300" stop="20261018180000 -0300" channel="0967">
     <title>TEST DITU CARACOL KIDS</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261018150000 -0300" stop="20261018190000 -0300" channel="0967">
+  <programme start="20261018180000 -0300" stop="20261018220000 -0300" channel="0967">
     <title>TEST DITU CARACOL KIDS</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261018190000 -0300" stop="20261018230000 -0300" channel="0967">
-    <title>TEST DITU CARACOL KIDS</title>
-    <desc>La informacion de este programa no se encuentra disponible.</desc>
-    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
-  </programme>
-  <programme start="20261018230000 -0300" stop="20261018235959 -0300" channel="0967">
+  <programme start="20261018220000 -0300" stop="20261018235959 -0300" channel="0967">
     <title>TEST DITU CARACOL KIDS</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
@@ -331020,8 +331100,8 @@ Andrés Gil</desc>
   </programme>
   <programme start="20261013103500 -0300" stop="20261013110300 -0300" channel="0973">
     <title>Violet Evergarden: Recuerdos</title>
-    <desc>Una ex niña soldado con profundas heridas emocionales se convierte en escritora de cartas en este condensado resumen de la conmovedora y galardonada serie animada.</desc>
-    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+    <desc>En este resumen de la conmovedora y premiada serie de animación, una antigua niña soldado con un trauma emocional empieza a trabajar como escritora de cartas.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/violetevergardenrecuerdos.jpg" />
   </programme>
   <programme start="20261013110300 -0300" stop="20261013121000 -0300" channel="0973">
     <title>Fullmetal Alchemist: La estrella sagrada de Milos</title>
@@ -339241,7 +339321,7 @@ Andrés Gil</desc>
   <programme start="20261016084100 -0300" stop="20261016090200 -0300" channel="0978">
     <title>Elemental</title>
     <desc>En una ciudad donde los residentes del fuego, el agua, la tierra y el aire viven juntos, una joven apasionada y un chico que se deja llevar por la corriente descubrirán algo elemental: cuánto tienen en común.</desc>
-    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/elemental.jpg" />
   </programme>
   <programme start="20261016090200 -0300" stop="20261016092800 -0300" channel="0978">
     <title>He-Man &amp; She-Ra: El secreto de la espada</title>
@@ -339296,7 +339376,7 @@ Andrés Gil</desc>
   <programme start="20261016134200 -0300" stop="20261016141000 -0300" channel="0978">
     <title>Elemental</title>
     <desc>En una ciudad donde los residentes del fuego, el agua, la tierra y el aire viven juntos, una joven apasionada y un chico que se deja llevar por la corriente descubrirán algo elemental: cuánto tienen en común.</desc>
-    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/elemental.jpg" />
   </programme>
   <programme start="20261016141000 -0300" stop="20261016144300 -0300" channel="0978">
     <title>La familia Addams La tradición continua</title>
@@ -339306,7 +339386,7 @@ Andrés Gil</desc>
   <programme start="20261016144300 -0300" stop="20261016152400 -0300" channel="0978">
     <title>Elemental</title>
     <desc>En una ciudad donde los residentes del fuego, el agua, la tierra y el aire viven juntos, una joven apasionada y un chico que se deja llevar por la corriente descubrirán algo elemental: cuánto tienen en común.</desc>
-    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/elemental.jpg" />
   </programme>
   <programme start="20261016152400 -0300" stop="20261016154300 -0300" channel="0978">
     <title>Los supersónicos conocen a los Picapiedra</title>
