@@ -22489,20 +22489,15 @@ En un formato innovador, el espectador presencia la acción &quot;en tiempo real
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261015104500 -0300" stop="20261015120800 -0300" channel="0139">
+  <programme start="20261015104500 -0300" stop="20261015120000 -0300" channel="0139">
     <title>Documentales DW</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/documentalesdw.jpg" />
   </programme>
-  <programme start="20261015120800 -0300" stop="20261015123400 -0300" channel="0139">
-    <title>Aquí estoy</title>
+  <programme start="20261015120000 -0300" stop="20261015130000 -0300" channel="0139">
+    <title>Unidos En Famili</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
-    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/aquiestoy.jpg" />
-  </programme>
-  <programme start="20261015123400 -0300" stop="20261015130000 -0300" channel="0139">
-    <title>RPM</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
-    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/rpm.jpg" />
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261015130000 -0300" stop="20261015133000 -0300" channel="0139">
     <title>Portavoz noticias</title>
@@ -128058,12 +128053,12 @@ de Billy y Mandy</title>
     <desc>Los fines de semana se llenan de fútbol. Tras la finalización del partido de la fecha de la Copa de la Liga Profesional del fútbol argentino, llega el mejor análisis.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261015000000 -0300" stop="20261015060000 -0300" channel="1411">
+  <programme start="20261015000000 -0300" stop="20261015050000 -0300" channel="1411">
     <title>SportsCenter</title>
     <desc>El noticiero de ESPN con la más amplia cobertura y noticias de los eventos deportivos.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261015060000 -0300" stop="20261015090000 -0300" channel="1411">
+  <programme start="20261015050000 -0300" stop="20261015090000 -0300" channel="1411">
     <title>SportsCenter</title>
     <desc>El noticiero de ESPN con la más amplia cobertura y noticias de los eventos deportivos.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
@@ -128128,14 +128123,24 @@ de Billy y Mandy</title>
     <desc>Análisis detallados de jugadores profesionales, equipos, entrenadores y su trayectoria deportiva en el fútbol.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261016030000 -0300" stop="20261016090000 -0300" channel="1411">
+  <programme start="20261016030000 -0300" stop="20261016082000 -0300" channel="1411">
     <title>SportsCenter</title>
     <desc>El noticiero de ESPN con la más amplia cobertura y noticias de los eventos deportivos.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261016090000 -0300" stop="20261016110000 -0300" channel="1411">
+  <programme start="20261016082000 -0300" stop="20261016090000 -0300" channel="1411">
+    <title>Fútbol Premier League • Aston Villa vs Manchester City</title>
+    <desc>Aston Villa vs Manchester City | Jornada 8 de la temporada 2026-27 de la Premier League. Aston Villa se enfrenta a Manchester City. Desde el estadio Villa Park.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261016090000 -0300" stop="20261016102500 -0300" channel="1411">
     <title>Buen día ESPN</title>
     <desc>Cobertura de la actualidad deportiva con entrevistas, protagonistas y la mejor onda.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261016102500 -0300" stop="20261016110000 -0300" channel="1411">
+    <title>ESPN Argentina</title>
+    <desc>Programación de ESPN Argentina con lo más relevante del mundo del deporte de la actualidad.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261016110000 -0300" stop="20261016130000 -0300" channel="1411">
@@ -128143,9 +128148,14 @@ de Billy y Mandy</title>
     <desc>Una nueva propuesta informativa a puro fútbol con un panel destacado. Además, periodistas en vivo desde los entrenamientos de los equipos más destacados del fútbol argentino.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261016130000 -0300" stop="20261016150000 -0300" channel="1411">
+  <programme start="20261016130000 -0300" stop="20261016140000 -0300" channel="1411">
     <title>ESPN F90</title>
     <desc>Un clásico de la televisión con toda la actualidad, el mejor análisis y un muy rico debate futbolístico.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261016140000 -0300" stop="20261016150000 -0300" channel="1411">
+    <title>ESPN Argentina</title>
+    <desc>Programación de ESPN Argentina con lo más relevante del mundo del deporte de la actualidad.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261016150000 -0300" stop="20261016163000 -0300" channel="1411">
@@ -128159,8 +128169,8 @@ de Billy y Mandy</title>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261016180000 -0300" stop="20261016190000 -0300" channel="1411">
-    <title>ESPN F360</title>
-    <desc>Con lo mejor de la actualidad del fútbol argentino y del exterior, con la noticia al instante, goles, curiosidades, entrevistas y la indispensable cuota de humor.</desc>
+    <title>ESPN Argentina</title>
+    <desc>Programación de ESPN Argentina con lo más relevante del mundo del deporte de la actualidad.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261016190000 -0300" stop="20261016203000 -0300" channel="1411">
@@ -128168,9 +128178,14 @@ de Billy y Mandy</title>
     <desc>El debate de cada fecha llega a la pantalla. El mejor equipo para analizar todo lo que pasó el fin de semana.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261016203000 -0300" stop="20261016232500 -0300" channel="1411">
+  <programme start="20261016203000 -0300" stop="20261016220000 -0300" channel="1411">
     <title>SportsCenter</title>
     <desc>El noticiero de ESPN con la más amplia cobertura y noticias de los eventos deportivos.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261016220000 -0300" stop="20261016232500 -0300" channel="1411">
+    <title>ESPN Argentina</title>
+    <desc>Programación de ESPN Argentina con lo más relevante del mundo del deporte de la actualidad.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261016232500 -0300" stop="20261017003000 -0300" channel="1411">
@@ -128183,19 +128198,39 @@ de Billy y Mandy</title>
     <desc>El noticiero de ESPN con la más amplia cobertura y noticias de los eventos deportivos.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261017013000 -0300" stop="20261017034500 -0300" channel="1411">
+  <programme start="20261017013000 -0300" stop="20261017020000 -0300" channel="1411">
     <title>Rugby Internacional • Australia vs Nueva Zelanda</title>
     <desc>Australia vs Nueva Zelanda | Cobertura de la Copa Bledisloe 2026. Australia se enfrenta a Nueva Zelanda. Desde el Accor Stadium, en Sídney, Australia.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261017034500 -0300" stop="20261017082000 -0300" channel="1411">
+  <programme start="20261017020000 -0300" stop="20261017034500 -0300" channel="1411">
+    <title>ESPN Argentina</title>
+    <desc>Programación de ESPN Argentina con lo más relevante del mundo del deporte de la actualidad.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261017034500 -0300" stop="20261017060000 -0300" channel="1411">
     <title>SportsCenter</title>
     <desc>El noticiero de ESPN con la más amplia cobertura y noticias de los eventos deportivos.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261017082000 -0300" stop="20261017102500 -0300" channel="1411">
+  <programme start="20261017060000 -0300" stop="20261017063000 -0300" channel="1411">
+    <title>ESPN Argentina</title>
+    <desc>Programación de ESPN Argentina con lo más relevante del mundo del deporte de la actualidad.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261017063000 -0300" stop="20261017082000 -0300" channel="1411">
+    <title>SportsCenter</title>
+    <desc>El noticiero de ESPN con la más amplia cobertura y noticias de los eventos deportivos.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261017082000 -0300" stop="20261017100000 -0300" channel="1411">
     <title>Fútbol Premier League • Everton vs Chelsea</title>
     <desc>Everton vs Chelsea | Jornada 7 de la temporada 2026-27 de la Premier League. Desde el estadio Hill Dickinson. El conjunto londinense llega con la intención de vengar la derrota por 3-0 sufrida en marzo, tras haber ganado tres de los últimos cinco enfrentamientos.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261017100000 -0300" stop="20261017102500 -0300" channel="1411">
+    <title>ESPN Argentina</title>
+    <desc>Programación de ESPN Argentina con lo más relevante del mundo del deporte de la actualidad.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261017102500 -0300" stop="20261017105000 -0300" channel="1411">
@@ -128213,9 +128248,14 @@ de Billy y Mandy</title>
     <desc>Programación exclusiva del noticiero deportivo más visto en el mundo.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261017131500 -0300" stop="20261017153000 -0300" channel="1411">
+  <programme start="20261017131500 -0300" stop="20261017140000 -0300" channel="1411">
     <title>Fútbol Premier League • Newcastle United vs Aston Villa</title>
     <desc>Newcastle United vs Aston Villa | Jornada 7 de la temporada 2026-27 de la Premier League. Desde el estadio St. James&#x27; Park. El Newcastle llega tras perder 4-1 ante el Coventry, mientras que el Villa ocupa el decimosexto puesto después de empatar 2-2 en casa frente al Brentford.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261017140000 -0300" stop="20261017153000 -0300" channel="1411">
+    <title>ESPN Argentina</title>
+    <desc>Programación de ESPN Argentina con lo más relevante del mundo del deporte de la actualidad.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261017153000 -0300" stop="20261017171500 -0300" channel="1411">
@@ -128223,17 +128263,37 @@ de Billy y Mandy</title>
     <desc>El noticiero de ESPN con la más amplia cobertura y noticias de los eventos deportivos.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261017171500 -0300" stop="20261017192500 -0300" channel="1411">
+  <programme start="20261017171500 -0300" stop="20261017180000 -0300" channel="1411">
     <title>Fútbol Argentino Primera División • Platense vs Lanús</title>
     <desc>Platense vs Lanús | Encuentros de la Asociación de Fútbol Argentino de la Primera División.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261017192500 -0300" stop="20261018000000 -0300" channel="1411">
+  <programme start="20261017180000 -0300" stop="20261017192500 -0300" channel="1411">
+    <title>ESPN Argentina</title>
+    <desc>Programación de ESPN Argentina con lo más relevante del mundo del deporte de la actualidad.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261017192500 -0300" stop="20261017220000 -0300" channel="1411">
     <title>SportsCenter</title>
     <desc>El noticiero de ESPN con la más amplia cobertura y noticias de los eventos deportivos.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261018000000 -0300" stop="20261018040000 -0300" channel="1411">
+  <programme start="20261017220000 -0300" stop="20261018000000 -0300" channel="1411">
+    <title>ESPN Argentina</title>
+    <desc>Programación de ESPN Argentina con lo más relevante del mundo del deporte de la actualidad.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261018000000 -0300" stop="20261018020000 -0300" channel="1411">
+    <title>SportsCenter</title>
+    <desc>El noticiero de ESPN con la más amplia cobertura y noticias de los eventos deportivos.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261018020000 -0300" stop="20261018030000 -0300" channel="1411">
+    <title>ESPN Argentina</title>
+    <desc>Programación de ESPN Argentina con lo más relevante del mundo del deporte de la actualidad.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261018030000 -0300" stop="20261018040000 -0300" channel="1411">
     <title>SportsCenter</title>
     <desc>El noticiero de ESPN con la más amplia cobertura y noticias de los eventos deportivos.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
@@ -128248,9 +128308,14 @@ de Billy y Mandy</title>
     <desc>El noticiero de ESPN con la más amplia cobertura y noticias de los eventos deportivos.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261018053000 -0300" stop="20261018073000 -0300" channel="1411">
+  <programme start="20261018053000 -0300" stop="20261018060000 -0300" channel="1411">
     <title>Tenis ATP Rolex Shanghai Masters 2026 • Final</title>
     <desc>Final | Cobertura de la gran final del Shangai Masters 2026 de la ATP. Desde la Qizhong Forest Sports City Arena.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261018060000 -0300" stop="20261018073000 -0300" channel="1411">
+    <title>ESPN Argentina</title>
+    <desc>Programación de ESPN Argentina con lo más relevante del mundo del deporte de la actualidad.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261018073000 -0300" stop="20261018095000 -0300" channel="1411">
@@ -128258,9 +128323,14 @@ de Billy y Mandy</title>
     <desc>Programación exclusiva del noticiero deportivo más visto en el mundo.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261018095000 -0300" stop="20261018115500 -0300" channel="1411">
+  <programme start="20261018095000 -0300" stop="20261018100000 -0300" channel="1411">
     <title>Fútbol Serie A • Fiorentina vs Como</title>
     <desc>Fiorentina vs Como | Acción de la fecha 7. Fiorentina enfrenta a Como. Desde el Stadio Artemio Franchi. Los locales buscan salir de la zona de descenso.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261018100000 -0300" stop="20261018115500 -0300" channel="1411">
+    <title>ESPN Argentina</title>
+    <desc>Programación de ESPN Argentina con lo más relevante del mundo del deporte de la actualidad.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261018115500 -0300" stop="20261018122000 -0300" channel="1411">
@@ -128268,9 +128338,14 @@ de Billy y Mandy</title>
     <desc>Programación exclusiva del noticiero deportivo más visto en el mundo.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261018122000 -0300" stop="20261018143000 -0300" channel="1411">
+  <programme start="20261018122000 -0300" stop="20261018140000 -0300" channel="1411">
     <title>Fútbol Premier League • Nottingham Forest vs Arsenal</title>
     <desc>Nottingham Forest vs Arsenal | Jornada 7 de la temporada 2026-27 de la Premier League. Nottingham Forest se enfrenta a Arsenal. Desde el estadio City Ground.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261018140000 -0300" stop="20261018143000 -0300" channel="1411">
+    <title>ESPN Argentina</title>
+    <desc>Programación de ESPN Argentina con lo más relevante del mundo del deporte de la actualidad.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261018143000 -0300" stop="20261018164000 -0300" channel="1411">
@@ -128278,14 +128353,24 @@ de Billy y Mandy</title>
     <desc>El noticiero de ESPN con la más amplia cobertura y noticias de los eventos deportivos.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261018164000 -0300" stop="20261018200000 -0300" channel="1411">
+  <programme start="20261018164000 -0300" stop="20261018180000 -0300" channel="1411">
     <title>SportsCenter</title>
     <desc>El noticiero de ESPN con la más amplia cobertura y noticias de los eventos deportivos.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261018200000 -0300" stop="20261018221000 -0300" channel="1411">
+  <programme start="20261018180000 -0300" stop="20261018200000 -0300" channel="1411">
+    <title>ESPN Argentina</title>
+    <desc>Programación de ESPN Argentina con lo más relevante del mundo del deporte de la actualidad.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261018200000 -0300" stop="20261018220000 -0300" channel="1411">
     <title>SportsCenter</title>
     <desc>El noticiero de ESPN con la más amplia cobertura y noticias de los eventos deportivos.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261018220000 -0300" stop="20261018221000 -0300" channel="1411">
+    <title>ESPN Argentina</title>
+    <desc>Programación de ESPN Argentina con lo más relevante del mundo del deporte de la actualidad.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261018221000 -0300" stop="20261019000000 -0300" channel="1411">
@@ -128303,9 +128388,19 @@ de Billy y Mandy</title>
     <desc>Un programa de discusión sobre el fútbol de ascenso de Argentina.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261019020000 -0300" stop="20261019070000 -0300" channel="1411">
+  <programme start="20261019020000 -0300" stop="20261019030000 -0300" channel="1411">
+    <title>ESPN Argentina</title>
+    <desc>Programación de ESPN Argentina con lo más relevante del mundo del deporte de la actualidad.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261019030000 -0300" stop="20261019060000 -0300" channel="1411">
     <title>SportsCenter</title>
     <desc>El noticiero de ESPN con la más amplia cobertura y noticias de los eventos deportivos.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261019060000 -0300" stop="20261019070000 -0300" channel="1411">
+    <title>ESPN Argentina</title>
+    <desc>Programación de ESPN Argentina con lo más relevante del mundo del deporte de la actualidad.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261019070000 -0300" stop="20261019090000 -0300" channel="1411">
@@ -128313,9 +128408,14 @@ de Billy y Mandy</title>
     <desc>El noticiero de ESPN con la más amplia cobertura y noticias de los eventos deportivos.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261019090000 -0300" stop="20261019110000 -0300" channel="1411">
+  <programme start="20261019090000 -0300" stop="20261019100000 -0300" channel="1411">
     <title>Buen día ESPN</title>
     <desc>Cobertura de la actualidad deportiva con entrevistas, protagonistas y la mejor onda.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261019100000 -0300" stop="20261019110000 -0300" channel="1411">
+    <title>ESPN Argentina</title>
+    <desc>Programación de ESPN Argentina con lo más relevante del mundo del deporte de la actualidad.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261019110000 -0300" stop="20261019130000 -0300" channel="1411">
@@ -128323,9 +128423,14 @@ de Billy y Mandy</title>
     <desc>Una nueva propuesta informativa a puro fútbol con un panel destacado. Además, periodistas en vivo desde los entrenamientos de los equipos más destacados del fútbol argentino.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261019130000 -0300" stop="20261019150000 -0300" channel="1411">
+  <programme start="20261019130000 -0300" stop="20261019140000 -0300" channel="1411">
     <title>ESPN F90</title>
     <desc>Un clásico de la televisión con toda la actualidad, el mejor análisis y un muy rico debate futbolístico.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261019140000 -0300" stop="20261019150000 -0300" channel="1411">
+    <title>ESPN Argentina</title>
+    <desc>Programación de ESPN Argentina con lo más relevante del mundo del deporte de la actualidad.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261019150000 -0300" stop="20261019155000 -0300" channel="1411">
@@ -128338,9 +128443,14 @@ de Billy y Mandy</title>
     <desc>Tottenham Hotspur vs Coventry City | Jornada 7 de la temporada 2026-27 de la Premier League. Tottenham Hotspur se enfrenta a Coventry City. Desde el estadio Tottenham Hotspur.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261019175500 -0300" stop="20261019190000 -0300" channel="1411">
+  <programme start="20261019175500 -0300" stop="20261019180000 -0300" channel="1411">
     <title>ESPN F360</title>
     <desc>Con lo mejor de la actualidad del fútbol argentino y del exterior, con la noticia al instante, goles, curiosidades, entrevistas y la indispensable cuota de humor.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261019180000 -0300" stop="20261019190000 -0300" channel="1411">
+    <title>ESPN Argentina</title>
+    <desc>Programación de ESPN Argentina con lo más relevante del mundo del deporte de la actualidad.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261019190000 -0300" stop="20261019203000 -0300" channel="1411">
@@ -134083,14 +134193,19 @@ de Billy y Mandy</title>
     <desc>Aston Villa vs Fenerbahçe | Jornada 2 de la fase de liga de la UEFA Champions League 2026-27. Aston Villa busca su segunda victoria al hilo y Fenerbahce ganar por primera vez.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261015040000 -0300" stop="20261015060000 -0300" channel="2413">
+  <programme start="20261015040000 -0300" stop="20261015070000 -0300" channel="2413">
     <title>Rugby Test Match • Nueva Zelanda vs Australia</title>
     <desc>Nueva Zelanda vs Australia | Cobertura de los amistosos internacionales de rugby.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261015060000 -0300" stop="20261015080000 -0300" channel="2413">
+  <programme start="20261015070000 -0300" stop="20261015075500 -0300" channel="2413">
     <title>Fútbol UEFA Champions League • LASK vs Liverpool</title>
     <desc>LASK vs Liverpool | Jornada 2 de la fase de liga de la UEFA Champions League 2026-27. LASK busca sus primeros puntos y los Reds su segunda victoria al hilo.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261015075500 -0300" stop="20261015080000 -0300" channel="2413">
+    <title>ESPN 3 Argentina</title>
+    <desc>Programación deportiva.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261015080000 -0300" stop="20261015090000 -0300" channel="2413">
@@ -145430,7 +145545,7 @@ de Billy y Mandy</title>
   </programme>
   <programme start="20261016103000 -0300" stop="20261016110000 -0300" channel="1431">
     <title>Todo en 30 • LaLiga: Levante UD vs Sevilla FC</title>
-    <desc>LaLiga: Levante UD vs Sevilla FC | Los momentos más destacados del partido de la jornada 10 de LaLiga 2026-27. Levante y Sevilla. Desde el Estadio Ciudad de Valencia, en la Comunidad Valenciana. Disputado el 12 de octubre de 2026.</desc>
+    <desc>LaLiga: Levante UD vs Sevilla FC | Los momentos más destacados del partido de la jornada 10 de LaLiga 2026-27. Se enfrentan Levante y Sevilla. Desde el Estadio Ciudad de Valencia, en la Comunidad Valenciana. Disputado el 12 de octubre de 2026.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261016110000 -0300" stop="20261016130000 -0300" channel="1431">
@@ -145998,59 +146113,39 @@ de Billy y Mandy</title>
     <desc>Un resumen de la información deportiva del día.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261015000000 -0300" stop="20261015080000 -0300" channel="2431">
+  <programme start="20261015000000 -0300" stop="20261015160000 -0300" channel="2431">
     <title>Por confirmar</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261015080000 -0300" stop="20261015100000 -0300" channel="2431">
-    <title>CONMEBOL Sudamericana 2026: Atlético Mineiro vs Mvd City Torque</title>
-    <desc>Atletico MG se enfrenta a Montevideo City Torque en Copa Sudamericana. Semifinales.</desc>
-    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
-  </programme>
-  <programme start="20261015100000 -0300" stop="20261015103000 -0300" channel="2431">
-    <title>Argentina Campeón Del Mundo 1986</title>
-    <desc>Programa documental que repasa las grandes hazañas del deporte.</desc>
-    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
-  </programme>
-  <programme start="20261015103000 -0300" stop="20261015110000 -0300" channel="2431">
-    <title>Conmebol Sudamericana - Atl. Mineiro vs Mvd City Torque</title>
-    <desc>Resumen en 30 minutos de los mejores partidos emitidos en DSPORTS.</desc>
-    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
-  </programme>
-  <programme start="20261015110000 -0300" stop="20261015130000 -0300" channel="2431">
-    <title>DSports Noticias Lite</title>
-    <desc>Columnistas especiales, entrevistas, el minuto a minuto de todos los deportes y, sobre todo, mucha información de la mano de Sol Rivas y Manu Olivari.</desc>
-    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
-  </programme>
-  <programme start="20261015130000 -0300" stop="20261015140000 -0300" channel="2431">
-    <title>De fútbol se habla así</title>
-    <desc>El debate futbolero más caliente del fútbol chileno de la mano de Pablo Flamm y un gran equipo.</desc>
-    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
-  </programme>
-  <programme start="20261015140000 -0300" stop="20261015143000 -0300" channel="2431">
-    <title>España Campeón Del Mundo 2026</title>
-    <desc>Programa documental que repasa las grandes hazañas del deporte.</desc>
-    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
-  </programme>
-  <programme start="20261015143000 -0300" stop="20261015160000 -0300" channel="2431">
-    <title>DSports noticias</title>
-    <desc>El noticiero más completo de la región con toda la actualidad deportiva y las novedades más importantes.</desc>
-    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
-  </programme>
-  <programme start="20261015160000 -0300" stop="20261015180000 -0300" channel="2431">
+  <programme start="20261015160000 -0300" stop="20261015170000 -0300" channel="2431">
     <title>Puede pasar</title>
     <desc>Gustavo Kuffner y un gran plantel debaten sobre todo lo que ocurre en las ligas del fútbol sudamericano.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261015180000 -0300" stop="20261015190000 -0300" channel="2431">
-    <title>Por confirmar</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
+  <programme start="20261015170000 -0300" stop="20261015183000 -0300" channel="2431">
+    <title>DSports Noticias Lite - Tarde</title>
+    <desc>Todo el acontecer deportivo en un solo lugar.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261015190000 -0300" stop="20261015230000 -0300" channel="2431">
-    <title>DSports</title>
-    <desc>La informacion de este programa no se encuentra disponible.</desc>
+  <programme start="20261015183000 -0300" stop="20261015200000 -0300" channel="2431">
+    <title>Fútbol total</title>
+    <desc>El show futbolero número uno de Latinoamérica.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261015200000 -0300" stop="20261015210000 -0300" channel="2431">
+    <title>El juego</title>
+    <desc>Víctor (Nico Furtado) y Eva (Maggie Civantos) son una pareja que tras siete años de relación decide separarse el día que se decreta el estado de alarma. Debido al confinamiento, se ven obligados a seguir conviviendo y, para no volverse locos y hacer el encierro más llevadero, deciden jugar a un juego que tiene dos reglas: empezar de cero como si sus años juntos no hubieran existido y terminar la relación cuando acabe el encierro.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/eljuego.jpg" />
+  </programme>
+  <programme start="20261015210000 -0300" stop="20261015220000 -0300" channel="2431">
+    <title>De fútbol se habla así</title>
+    <desc>El debate futbolero más caliente del fútbol chileno de la mano de Pablo Flamm y un gran equipo.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261015220000 -0300" stop="20261015230000 -0300" channel="2431">
+    <title>DSports Noticias Nite</title>
+    <desc>Un resumen de la información deportiva del día.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261015230000 -0300" stop="20261016030000 -0300" channel="2431">
@@ -147065,7 +147160,7 @@ de Billy y Mandy</title>
   </programme>
   <programme start="20261017033000 -0300" stop="20261017040000 -0300" channel="1432">
     <title>Todo en 30 • LaLiga: Levante UD vs Sevilla FC</title>
-    <desc>LaLiga: Levante UD vs Sevilla FC | Los momentos más destacados del partido de la jornada 10 de LaLiga 2026-27. Levante y Sevilla. Desde el Estadio Ciudad de Valencia, en la Comunidad Valenciana. Disputado el 12 de octubre de 2026.</desc>
+    <desc>LaLiga: Levante UD vs Sevilla FC | Los momentos más destacados del partido de la jornada 10 de LaLiga 2026-27. Se enfrentan Levante y Sevilla. Desde el Estadio Ciudad de Valencia, en la Comunidad Valenciana. Disputado el 12 de octubre de 2026.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261017040000 -0300" stop="20261017060000 -0300" channel="1432">
@@ -147643,44 +147738,9 @@ de Billy y Mandy</title>
     <desc>Boca Juniors se enfrenta a Vasco da Gama en Copa Sudamericana. Semifinales.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261015000000 -0300" stop="20261015080000 -0300" channel="2432">
+  <programme start="20261015000000 -0300" stop="20261015144000 -0300" channel="2432">
     <title>Por confirmar</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
-    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
-  </programme>
-  <programme start="20261015080000 -0300" stop="20261015100000 -0300" channel="2432">
-    <title>Uci Track World Championships - Shanghai: Day 2 (Def) Col Hd Prod</title>
-    <desc>Una mirada a la edición de Ciclismo en pista en el Campeonato del Mundo Santiago de Chile.</desc>
-    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
-  </programme>
-  <programme start="20261015100000 -0300" stop="20261015110000 -0300" channel="2432">
-    <title>Por confirmar</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
-    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
-  </programme>
-  <programme start="20261015110000 -0300" stop="20261015120000 -0300" channel="2432">
-    <title>Ciclismo: Eneco Tour Women - Stage #3 (Def) Col Hd Prod</title>
-    <desc>Transmisión de las emocionantes pruebas de ciclismo alrededor del mundo.</desc>
-    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
-  </programme>
-  <programme start="20261015120000 -0300" stop="20261015122500 -0300" channel="2432">
-    <title>Ciclismo: Soldier Hollow</title>
-    <desc>Transmisión de las emocionantes pruebas de ciclismo alrededor del mundo.</desc>
-    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
-  </programme>
-  <programme start="20261015122500 -0300" stop="20261015142500 -0300" channel="2432">
-    <title>Copa De Rusia 26/27: Rubin Kazan vs Orenburg</title>
-    <desc>Acción de la Copa de Rusia.</desc>
-    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
-  </programme>
-  <programme start="20261015142500 -0300" stop="20261015143000 -0300" channel="2432">
-    <title>Por confirmar</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
-    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
-  </programme>
-  <programme start="20261015143000 -0300" stop="20261015144000 -0300" channel="2432">
-    <title>Shane Larkin</title>
-    <desc>Programación DSports.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261015144000 -0300" stop="20261015164000 -0300" channel="2432">
@@ -147688,172 +147748,197 @@ de Billy y Mandy</title>
     <desc>Fenerbahce se enfrenta a Partizan en Euroleague. Ronda 6.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261015164000 -0300" stop="20261015174000 -0300" channel="2432">
+  <programme start="20261015164000 -0300" stop="20261015164500 -0300" channel="2432">
     <title>Por confirmar</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261015174000 -0300" stop="20261015180000 -0300" channel="2432">
+  <programme start="20261015164500 -0300" stop="20261015170000 -0300" channel="2432">
+    <title>Justin Anderson</title>
+    <desc>Programación DSports.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261015170000 -0300" stop="20261015173000 -0300" channel="2432">
+    <title>Boca Juniors Campeón Copa Sudamericana 2005</title>
+    <desc>Programa documental que repasa las grandes hazañas del deporte.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261015173000 -0300" stop="20261015193000 -0300" channel="2432">
+    <title>CONMEBOL Sudamericana 2026: Boca Juniors vs Vasco Da Gama</title>
+    <desc>Boca Juniors se enfrenta a Vasco da Gama en Copa Sudamericana. Semifinales.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261015193000 -0300" stop="20261015200000 -0300" channel="2432">
+    <title>Boca Juniors Campeón Sudamericana 2004</title>
+    <desc>Programa documental que repasa las grandes hazañas del deporte.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261015200000 -0300" stop="20261015220000 -0300" channel="2432">
+    <title>CONMEBOL Sudamericana 2026: Atlético Mineiro vs Mvd City Torque</title>
+    <desc>Atletico MG se enfrenta a Montevideo City Torque en Copa Sudamericana. Semifinales.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261015220000 -0300" stop="20261015223000 -0300" channel="2432">
+    <title>LaLiga Show: Laliga Show</title>
+    <desc>La previa de cada jornada de LaLiga. Además, el espacio se complementa con entrevistas a los protagonistas de la competición y reportajes sobre temas de actualidad.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261015223000 -0300" stop="20261015230000 -0300" channel="2432">
+    <title>Guillermo Coria</title>
+    <desc>Juan Pablo Varsky recorre los perfiles e historias de las grandes figuras del deporte mundial, mediante una narración innovadora.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261015230000 -0300" stop="20261016000000 -0300" channel="2432">
+    <title>CONMEBOL Sudamericana 2026: Boca Juniors vs Vasco Da Gama</title>
+    <desc>Boca Juniors se enfrenta a Vasco da Gama en Copa Sudamericana. Semifinales.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261016000000 -0300" stop="20261016040000 -0300" channel="2432">
     <title>DSports 2</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261015180000 -0300" stop="20261015220000 -0300" channel="2432">
+  <programme start="20261016040000 -0300" stop="20261016080000 -0300" channel="2432">
     <title>DSports 2</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261015220000 -0300" stop="20261016020000 -0300" channel="2432">
+  <programme start="20261016080000 -0300" stop="20261016120000 -0300" channel="2432">
     <title>DSports 2</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261016020000 -0300" stop="20261016060000 -0300" channel="2432">
+  <programme start="20261016120000 -0300" stop="20261016160000 -0300" channel="2432">
     <title>DSports 2</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261016060000 -0300" stop="20261016100000 -0300" channel="2432">
+  <programme start="20261016160000 -0300" stop="20261016200000 -0300" channel="2432">
     <title>DSports 2</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261016100000 -0300" stop="20261016140000 -0300" channel="2432">
+  <programme start="20261016200000 -0300" stop="20261017000000 -0300" channel="2432">
     <title>DSports 2</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261016140000 -0300" stop="20261016180000 -0300" channel="2432">
+  <programme start="20261017000000 -0300" stop="20261017040000 -0300" channel="2432">
     <title>DSports 2</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261016180000 -0300" stop="20261016220000 -0300" channel="2432">
+  <programme start="20261017040000 -0300" stop="20261017080000 -0300" channel="2432">
     <title>DSports 2</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261016220000 -0300" stop="20261017020000 -0300" channel="2432">
+  <programme start="20261017080000 -0300" stop="20261017120000 -0300" channel="2432">
     <title>DSports 2</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261017020000 -0300" stop="20261017060000 -0300" channel="2432">
+  <programme start="20261017120000 -0300" stop="20261017160000 -0300" channel="2432">
     <title>DSports 2</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261017060000 -0300" stop="20261017100000 -0300" channel="2432">
+  <programme start="20261017160000 -0300" stop="20261017200000 -0300" channel="2432">
     <title>DSports 2</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261017100000 -0300" stop="20261017140000 -0300" channel="2432">
+  <programme start="20261017200000 -0300" stop="20261018000000 -0300" channel="2432">
     <title>DSports 2</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261017140000 -0300" stop="20261017180000 -0300" channel="2432">
+  <programme start="20261018000000 -0300" stop="20261018040000 -0300" channel="2432">
     <title>DSports 2</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261017180000 -0300" stop="20261017220000 -0300" channel="2432">
+  <programme start="20261018040000 -0300" stop="20261018080000 -0300" channel="2432">
     <title>DSports 2</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261017220000 -0300" stop="20261018020000 -0300" channel="2432">
+  <programme start="20261018080000 -0300" stop="20261018120000 -0300" channel="2432">
     <title>DSports 2</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261018020000 -0300" stop="20261018060000 -0300" channel="2432">
+  <programme start="20261018120000 -0300" stop="20261018160000 -0300" channel="2432">
     <title>DSports 2</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261018060000 -0300" stop="20261018100000 -0300" channel="2432">
+  <programme start="20261018160000 -0300" stop="20261018200000 -0300" channel="2432">
     <title>DSports 2</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261018100000 -0300" stop="20261018140000 -0300" channel="2432">
+  <programme start="20261018200000 -0300" stop="20261019000000 -0300" channel="2432">
     <title>DSports 2</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261018140000 -0300" stop="20261018180000 -0300" channel="2432">
+  <programme start="20261019000000 -0300" stop="20261019040000 -0300" channel="2432">
     <title>DSports 2</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261018180000 -0300" stop="20261018220000 -0300" channel="2432">
+  <programme start="20261019040000 -0300" stop="20261019080000 -0300" channel="2432">
     <title>DSports 2</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261018220000 -0300" stop="20261019020000 -0300" channel="2432">
+  <programme start="20261019080000 -0300" stop="20261019120000 -0300" channel="2432">
     <title>DSports 2</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261019020000 -0300" stop="20261019060000 -0300" channel="2432">
+  <programme start="20261019120000 -0300" stop="20261019160000 -0300" channel="2432">
     <title>DSports 2</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261019060000 -0300" stop="20261019100000 -0300" channel="2432">
+  <programme start="20261019160000 -0300" stop="20261019200000 -0300" channel="2432">
     <title>DSports 2</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261019100000 -0300" stop="20261019140000 -0300" channel="2432">
+  <programme start="20261019200000 -0300" stop="20261020000000 -0300" channel="2432">
     <title>DSports 2</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261019140000 -0300" stop="20261019180000 -0300" channel="2432">
+  <programme start="20261020000000 -0300" stop="20261020040000 -0300" channel="2432">
     <title>DSports 2</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261019180000 -0300" stop="20261019220000 -0300" channel="2432">
+  <programme start="20261020040000 -0300" stop="20261020080000 -0300" channel="2432">
     <title>DSports 2</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261019220000 -0300" stop="20261020020000 -0300" channel="2432">
+  <programme start="20261020080000 -0300" stop="20261020120000 -0300" channel="2432">
     <title>DSports 2</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261020020000 -0300" stop="20261020060000 -0300" channel="2432">
+  <programme start="20261020120000 -0300" stop="20261020160000 -0300" channel="2432">
     <title>DSports 2</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261020060000 -0300" stop="20261020100000 -0300" channel="2432">
+  <programme start="20261020160000 -0300" stop="20261020200000 -0300" channel="2432">
     <title>DSports 2</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261020100000 -0300" stop="20261020140000 -0300" channel="2432">
-    <title>DSports 2</title>
-    <desc>La informacion de este programa no se encuentra disponible.</desc>
-    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
-  </programme>
-  <programme start="20261020140000 -0300" stop="20261020180000 -0300" channel="2432">
-    <title>DSports 2</title>
-    <desc>La informacion de este programa no se encuentra disponible.</desc>
-    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
-  </programme>
-  <programme start="20261020180000 -0300" stop="20261020220000 -0300" channel="2432">
-    <title>DSports 2</title>
-    <desc>La informacion de este programa no se encuentra disponible.</desc>
-    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
-  </programme>
-  <programme start="20261020220000 -0300" stop="20261020235959 -0300" channel="2432">
+  <programme start="20261020200000 -0300" stop="20261020235959 -0300" channel="2432">
     <title>DSports 2</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
@@ -148338,54 +148423,9 @@ de Billy y Mandy</title>
     <desc>Anadolu Efes se enfrenta a FC Bayern Munchen en Euroleague. Ronda 5.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261015000000 -0300" stop="20261015080000 -0300" channel="1433">
+  <programme start="20261015000000 -0300" stop="20261015144000 -0300" channel="1433">
     <title>Por confirmar</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
-    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
-  </programme>
-  <programme start="20261015080000 -0300" stop="20261015090000 -0300" channel="1433">
-    <title>DSports Básquet</title>
-    <desc>Un programa dedicado a informar, analizar y debatir todo acerca del mundo de la pelota naranja. Conducido por Carlos Altamirano y acompañado por un gran equipo.</desc>
-    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
-  </programme>
-  <programme start="20261015090000 -0300" stop="20261015093000 -0300" channel="1433">
-    <title>Ryan Lochte</title>
-    <desc>Juan Pablo Varsky recorre los perfiles e historias de las grandes figuras del deporte mundial, mediante una narración innovadora.</desc>
-    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
-  </programme>
-  <programme start="20261015093000 -0300" stop="20261015100000 -0300" channel="1433">
-    <title>Michael Phelps</title>
-    <desc>Juan Pablo Varsky recorre los perfiles e historias de las grandes figuras del deporte mundial, mediante una narración innovadora.</desc>
-    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
-  </programme>
-  <programme start="20261015100000 -0300" stop="20261015111500 -0300" channel="1433">
-    <title>World Aquatics Swimming: Wc 2026 - Astana Stop 3: Day #1 Evening Sessions - Finals</title>
-    <desc>Acción de la Copa del Mundo de Natación.</desc>
-    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
-  </programme>
-  <programme start="20261015111500 -0300" stop="20261015113000 -0300" channel="1433">
-    <title>Bolt (Filler)</title>
-    <desc>Juan Pablo Varsky recorre los perfiles e historias de las grandes figuras del deporte mundial, mediante una narración innovadora.</desc>
-    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
-  </programme>
-  <programme start="20261015113000 -0300" stop="20261015120000 -0300" channel="1433">
-    <title>Manu Ginobili, The Last Dance En La Selección</title>
-    <desc>Programa documental que repasa las grandes hazañas del deporte.</desc>
-    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
-  </programme>
-  <programme start="20261015120000 -0300" stop="20261015140000 -0300" channel="1433">
-    <title>Euroleague 26/27: Anadolu Efes vs Bayern Munich</title>
-    <desc>Anadolu Efes se enfrenta a FC Bayern Munchen en Euroleague. Ronda 5.</desc>
-    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
-  </programme>
-  <programme start="20261015140000 -0300" stop="20261015143000 -0300" channel="1433">
-    <title>Dirk Nowitzki</title>
-    <desc>Juan Pablo Varsky recorre los perfiles e historias de las grandes figuras del deporte mundial, mediante una narración innovadora.</desc>
-    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
-  </programme>
-  <programme start="20261015143000 -0300" stop="20261015144000 -0300" channel="1433">
-    <title>Perlas Sudamericana (Filler)</title>
-    <desc>Programa documental que repasa las grandes hazañas del deporte.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261015144000 -0300" stop="20261015164000 -0300" channel="1433">
@@ -148393,172 +148433,202 @@ de Billy y Mandy</title>
     <desc>Acción de la Copa de Rusia.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261015164000 -0300" stop="20261015174000 -0300" channel="1433">
+  <programme start="20261015164000 -0300" stop="20261015164500 -0300" channel="1433">
     <title>Por confirmar</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261015174000 -0300" stop="20261015180000 -0300" channel="1433">
+  <programme start="20261015164500 -0300" stop="20261015170000 -0300" channel="1433">
+    <title>Simplemente Diego - El Pelusa De La Paternal</title>
+    <desc>Programa documental que repasa las grandes hazañas del deporte.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261015170000 -0300" stop="20261015180000 -0300" channel="1433">
+    <title>Ciclismo: Czech Cycling Tour 2026</title>
+    <desc>Transmisión de las emocionantes pruebas de ciclismo alrededor del mundo.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261015180000 -0300" stop="20261015183000 -0300" channel="1433">
+    <title>Dcsha: Dcsha - Especial Nairo Quintana (Parte 1)</title>
+    <desc>El programa más completo del mundo del ciclismo, con informes, debate, entrevistas y mucho más de la mano de Camilo Castellanos.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261015183000 -0300" stop="20261015193000 -0300" channel="1433">
+    <title>Ciclismo: Eneco Tour Women - Stage #2</title>
+    <desc>Transmisión de las emocionantes pruebas de ciclismo alrededor del mundo.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261015193000 -0300" stop="20261015200000 -0300" channel="1433">
+    <title>Dcsha: Dcsha - Especial Nairo Quintana (Parte 1)</title>
+    <desc>El programa más completo del mundo del ciclismo, con informes, debate, entrevistas y mucho más de la mano de Camilo Castellanos.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261015200000 -0300" stop="20261015220000 -0300" channel="1433">
+    <title>Euroleague 26/27: Fenerbahce vs Partizan</title>
+    <desc>Fenerbahce se enfrenta a Partizan en Euroleague. Ronda 6.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261015220000 -0300" stop="20261016000000 -0300" channel="1433">
+    <title>Uci Gravel World Championships - Nannup: Day 1 &amp; 2</title>
+    <desc>Imágenes del Campeonato Mundial de Gravel de la UCI.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261016000000 -0300" stop="20261016020000 -0300" channel="1433">
+    <title>Ciclismo: Eschborn Frankfurt</title>
+    <desc>Transmisión de las emocionantes pruebas de ciclismo alrededor del mundo.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261016020000 -0300" stop="20261016030000 -0300" channel="1433">
+    <title>Por confirmar</title>
+    <desc>La información de este programa no se encuentra disponible.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261016030000 -0300" stop="20261016070000 -0300" channel="1433">
     <title>DSports Plus</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261015180000 -0300" stop="20261015220000 -0300" channel="1433">
+  <programme start="20261016070000 -0300" stop="20261016110000 -0300" channel="1433">
     <title>DSports Plus</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261015220000 -0300" stop="20261016020000 -0300" channel="1433">
+  <programme start="20261016110000 -0300" stop="20261016150000 -0300" channel="1433">
     <title>DSports Plus</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261016020000 -0300" stop="20261016060000 -0300" channel="1433">
+  <programme start="20261016150000 -0300" stop="20261016190000 -0300" channel="1433">
     <title>DSports Plus</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261016060000 -0300" stop="20261016100000 -0300" channel="1433">
+  <programme start="20261016190000 -0300" stop="20261016230000 -0300" channel="1433">
     <title>DSports Plus</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261016100000 -0300" stop="20261016140000 -0300" channel="1433">
+  <programme start="20261016230000 -0300" stop="20261017030000 -0300" channel="1433">
     <title>DSports Plus</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261016140000 -0300" stop="20261016180000 -0300" channel="1433">
+  <programme start="20261017030000 -0300" stop="20261017070000 -0300" channel="1433">
     <title>DSports Plus</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261016180000 -0300" stop="20261016220000 -0300" channel="1433">
+  <programme start="20261017070000 -0300" stop="20261017110000 -0300" channel="1433">
     <title>DSports Plus</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261016220000 -0300" stop="20261017020000 -0300" channel="1433">
+  <programme start="20261017110000 -0300" stop="20261017150000 -0300" channel="1433">
     <title>DSports Plus</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261017020000 -0300" stop="20261017060000 -0300" channel="1433">
+  <programme start="20261017150000 -0300" stop="20261017190000 -0300" channel="1433">
     <title>DSports Plus</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261017060000 -0300" stop="20261017100000 -0300" channel="1433">
+  <programme start="20261017190000 -0300" stop="20261017230000 -0300" channel="1433">
     <title>DSports Plus</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261017100000 -0300" stop="20261017140000 -0300" channel="1433">
+  <programme start="20261017230000 -0300" stop="20261018030000 -0300" channel="1433">
     <title>DSports Plus</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261017140000 -0300" stop="20261017180000 -0300" channel="1433">
+  <programme start="20261018030000 -0300" stop="20261018070000 -0300" channel="1433">
     <title>DSports Plus</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261017180000 -0300" stop="20261017220000 -0300" channel="1433">
+  <programme start="20261018070000 -0300" stop="20261018110000 -0300" channel="1433">
     <title>DSports Plus</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261017220000 -0300" stop="20261018020000 -0300" channel="1433">
+  <programme start="20261018110000 -0300" stop="20261018150000 -0300" channel="1433">
     <title>DSports Plus</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261018020000 -0300" stop="20261018060000 -0300" channel="1433">
+  <programme start="20261018150000 -0300" stop="20261018190000 -0300" channel="1433">
     <title>DSports Plus</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261018060000 -0300" stop="20261018100000 -0300" channel="1433">
+  <programme start="20261018190000 -0300" stop="20261018230000 -0300" channel="1433">
     <title>DSports Plus</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261018100000 -0300" stop="20261018140000 -0300" channel="1433">
+  <programme start="20261018230000 -0300" stop="20261019030000 -0300" channel="1433">
     <title>DSports Plus</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261018140000 -0300" stop="20261018180000 -0300" channel="1433">
+  <programme start="20261019030000 -0300" stop="20261019070000 -0300" channel="1433">
     <title>DSports Plus</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261018180000 -0300" stop="20261018220000 -0300" channel="1433">
+  <programme start="20261019070000 -0300" stop="20261019110000 -0300" channel="1433">
     <title>DSports Plus</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261018220000 -0300" stop="20261019020000 -0300" channel="1433">
+  <programme start="20261019110000 -0300" stop="20261019150000 -0300" channel="1433">
     <title>DSports Plus</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261019020000 -0300" stop="20261019060000 -0300" channel="1433">
+  <programme start="20261019150000 -0300" stop="20261019190000 -0300" channel="1433">
     <title>DSports Plus</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261019060000 -0300" stop="20261019100000 -0300" channel="1433">
+  <programme start="20261019190000 -0300" stop="20261019230000 -0300" channel="1433">
     <title>DSports Plus</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261019100000 -0300" stop="20261019140000 -0300" channel="1433">
+  <programme start="20261019230000 -0300" stop="20261020030000 -0300" channel="1433">
     <title>DSports Plus</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261019140000 -0300" stop="20261019180000 -0300" channel="1433">
+  <programme start="20261020030000 -0300" stop="20261020070000 -0300" channel="1433">
     <title>DSports Plus</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261019180000 -0300" stop="20261019220000 -0300" channel="1433">
+  <programme start="20261020070000 -0300" stop="20261020110000 -0300" channel="1433">
     <title>DSports Plus</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261019220000 -0300" stop="20261020020000 -0300" channel="1433">
+  <programme start="20261020110000 -0300" stop="20261020150000 -0300" channel="1433">
     <title>DSports Plus</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261020020000 -0300" stop="20261020060000 -0300" channel="1433">
+  <programme start="20261020150000 -0300" stop="20261020190000 -0300" channel="1433">
     <title>DSports Plus</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261020060000 -0300" stop="20261020100000 -0300" channel="1433">
+  <programme start="20261020190000 -0300" stop="20261020230000 -0300" channel="1433">
     <title>DSports Plus</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261020100000 -0300" stop="20261020140000 -0300" channel="1433">
-    <title>DSports Plus</title>
-    <desc>La informacion de este programa no se encuentra disponible.</desc>
-    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
-  </programme>
-  <programme start="20261020140000 -0300" stop="20261020180000 -0300" channel="1433">
-    <title>DSports Plus</title>
-    <desc>La informacion de este programa no se encuentra disponible.</desc>
-    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
-  </programme>
-  <programme start="20261020180000 -0300" stop="20261020220000 -0300" channel="1433">
-    <title>DSports Plus</title>
-    <desc>La informacion de este programa no se encuentra disponible.</desc>
-    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
-  </programme>
-  <programme start="20261020220000 -0300" stop="20261020235959 -0300" channel="1433">
+  <programme start="20261020230000 -0300" stop="20261020235959 -0300" channel="1433">
     <title>DSports Plus</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
@@ -270738,62 +270808,57 @@ Han Yeo Reum acaba de comenzar su nueva relación con Nam Ha Jin pero su ex-novi
     <desc>Sigue a una exitosa empresaria solitaria en su matrimonio, mientras su hija y su joven guardaespaldas transforman su rebeldía en pasión, mientras personas malvadas y ambiciosas intentan entrometerse en sus caminos hacia el amor.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/guardiandemivida.jpg" />
   </programme>
-  <programme start="20261015000000 -0300" stop="20261015062000 -0300" channel="3837">
+  <programme start="20261015000000 -0300" stop="20261015152000 -0300" channel="3837">
     <title>Por confirmar</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261015062000 -0300" stop="20261015081000 -0300" channel="3837">
-    <title>Mujer, casos de la vida real</title>
-    <desc>Representación de historias verdaderas enviadas por el público a la actriz Silvia Pinal.</desc>
-    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/mujercasosdelavidareal.jpg" />
-  </programme>
-  <programme start="20261015081000 -0300" stop="20261015090000 -0300" channel="3837">
-    <title>La rosa de Guadalupe</title>
-    <desc>La Virgen de Guadalupe se ha convertido en estandarte de millones de mexicanos. Cada uno de sus milagros se traducen en historias, de amor, desamor, esperanza, lucha e intriga. Este espacio abordará temas como la prostitución, violencia intrafamiliar, drogadicción, entre otros. Una rosa blanca aparecerá como símbolo de las peticiones, que el personaje o protagonista invocará, siempre ante la imagen de ella.</desc>
-    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/larosadeguadalupe.jpg" />
-  </programme>
-  <programme start="20261015090000 -0300" stop="20261015100000 -0300" channel="3837">
-    <title>Las noticias</title>
-    <desc>Noticiero con todas las novedades y la información.</desc>
-    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
-  </programme>
-  <programme start="20261015100000 -0300" stop="20261015120000 -0300" channel="3837">
-    <title>Despierta</title>
-    <desc>Una nueva perspectiva de la información, con comentarios sobre los hechos más destacados.</desc>
-    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
-  </programme>
-  <programme start="20261015120000 -0300" stop="20261015125000 -0300" channel="3837">
-    <title>Como dice el dicho</title>
-    <desc>Dramatización de situaciones de la vida real y las historias que se relacionan con dichos populares, por Don Tomas.</desc>
-    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/comodiceeldicho.jpg" />
-  </programme>
-  <programme start="20261015125000 -0300" stop="20261015134000 -0300" channel="3837">
-    <title>El renacer de Luna</title>
-    <desc>Tras divorciarse de su violento esposo Pancho Cadena, Maya encuentra apoyo y la esperanza de un nuevo amor en Sebastián. Juntos enfrentarán las intrigas de Pancho y Dalila, que buscan separarlos.</desc>
-    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/elrenacerdeluna.jpg" />
-  </programme>
-  <programme start="20261015134000 -0300" stop="20261015143000 -0300" channel="3837">
-    <title>La rosa de Guadalupe</title>
-    <desc>La Virgen de Guadalupe se ha convertido en estandarte de millones de mexicanos. Cada uno de sus milagros se traducen en historias, de amor, desamor, esperanza, lucha e intriga. Este espacio abordará temas como la prostitución, violencia intrafamiliar, drogadicción, entre otros. Una rosa blanca aparecerá como símbolo de las peticiones, que el personaje o protagonista invocará, siempre ante la imagen de ella.</desc>
-    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/larosadeguadalupe.jpg" />
-  </programme>
-  <programme start="20261015143000 -0300" stop="20261015152000 -0300" channel="3837">
-    <title>Tan cerca de ti, nace el amor</title>
-    <desc>Verónica, marcada por haber entregado a su hija en adopción, cruza su destino con Joaquín, pero la muerte de los padres adoptivos desata una red de secretos, traiciones y amores prohibidos que hacen que el pasado vuelva para exigir la verdad.</desc>
-    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/tancercadetinaceelamor.jpg" />
-  </programme>
-  <programme start="20261015152000 -0300" stop="20261015172000 -0300" channel="3837">
+  <programme start="20261015152000 -0300" stop="20261015161000 -0300" channel="3837">
     <title>Guardián de mi vida</title>
     <desc>Sigue a una exitosa empresaria solitaria en su matrimonio, mientras su hija y su joven guardaespaldas transforman su rebeldía en pasión, mientras personas malvadas y ambiciosas intentan entrometerse en sus caminos hacia el amor.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/guardiandemivida.jpg" />
   </programme>
-  <programme start="20261015172000 -0300" stop="20261016000000 -0300" channel="3837">
-    <title>Por confirmar</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
-    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  <programme start="20261015161000 -0300" stop="20261015170000 -0300" channel="3837">
+    <title>Como dice el dicho</title>
+    <desc>Dramatización de situaciones de la vida real y las historias que se relacionan con dichos populares, por Don Tomas.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/comodiceeldicho.jpg" />
   </programme>
-  <programme start="20261016000000 -0300" stop="20261017000000 -0300" channel="3837">
+  <programme start="20261015170000 -0300" stop="20261015190000 -0300" channel="3837">
+    <title>El Chavo del 8</title>
+    <desc>Las vivencias de un grupo de personas que habitan en una vecindad mexicana, donde el Chavo junto con sus amigos, llevan a cabo travesuras que ocasionan malentendidos y discusiones entre los mismos vecinos.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/elchavodel8.jpg" />
+  </programme>
+  <programme start="20261015190000 -0300" stop="20261015204000 -0300" channel="3837">
+    <title>Rubí</title>
+    <desc>Rubí es una bella joven universitaria que vive junto con su madre Doña Refugio y su hermana Cristina en una pobre vecindad. ... Maribel es hija del millonario hombre de negocios llamado Arturo De La Fuente. Ella le entrega su amistad a Rubí, sin saber que esta está envenenada por la envidia y los celos</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/rubi.jpg" />
+  </programme>
+  <programme start="20261015204000 -0300" stop="20261015213000 -0300" channel="3837">
+    <title>El renacer de Luna</title>
+    <desc>Tras divorciarse de su violento esposo Pancho Cadena, Maya encuentra apoyo y la esperanza de un nuevo amor en Sebastián. Juntos enfrentarán las intrigas de Pancho y Dalila, que buscan separarlos.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/elrenacerdeluna.jpg" />
+  </programme>
+  <programme start="20261015213000 -0300" stop="20261015222000 -0300" channel="3837">
+    <title>La rosa de Guadalupe</title>
+    <desc>La Virgen de Guadalupe se ha convertido en estandarte de millones de mexicanos. Cada uno de sus milagros se traducen en historias, de amor, desamor, esperanza, lucha e intriga. Este espacio abordará temas como la prostitución, violencia intrafamiliar, drogadicción, entre otros. Una rosa blanca aparecerá como símbolo de las peticiones, que el personaje o protagonista invocará, siempre ante la imagen de ella.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/larosadeguadalupe.jpg" />
+  </programme>
+  <programme start="20261015222000 -0300" stop="20261015231000 -0300" channel="3837">
+    <title>Tan cerca de ti, nace el amor</title>
+    <desc>Verónica, marcada por haber entregado a su hija en adopción, cruza su destino con Joaquín, pero la muerte de los padres adoptivos desata una red de secretos, traiciones y amores prohibidos que hacen que el pasado vuelva para exigir la verdad.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/tancercadetinaceelamor.jpg" />
+  </programme>
+  <programme start="20261015231000 -0300" stop="20261016000000 -0300" channel="3837">
+    <title>Guardián de mi vida</title>
+    <desc>Sigue a una exitosa empresaria solitaria en su matrimonio, mientras su hija y su joven guardaespaldas transforman su rebeldía en pasión, mientras personas malvadas y ambiciosas intentan entrometerse en sus caminos hacia el amor.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/guardiandemivida.jpg" />
+  </programme>
+  <programme start="20261016000000 -0300" stop="20261016020000 -0300" channel="3837">
+    <title>Muero por Marilú</title>
+    <desc>Marilú es una secretaria que hereda de su jefe, don Anselmo, un porcentaje de Funerales Garza Gallardo. Este porcentaje la convierte en la socia de Matías, hijo de don Anselmo.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/mueropormarilu.jpg" />
+  </programme>
+  <programme start="20261016020000 -0300" stop="20261017000000 -0300" channel="3837">
     <title>Por confirmar</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
@@ -289730,44 +289795,9 @@ El programa está compuesto por Ana Morgade, Anna Simon, Cristina Pedroche, Miki
     <desc>Un vistazo a unos jóvenes que frecuentan una discoteca.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261015000000 -0300" stop="20261015063000 -0300" channel="0858">
+  <programme start="20261015000000 -0300" stop="20261015153000 -0300" channel="0858">
     <title>Por confirmar</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
-    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
-  </programme>
-  <programme start="20261015063000 -0300" stop="20261015083000 -0300" channel="0858">
-    <title>Tres balas perdidas</title>
-    <desc>Tres hermanas deben casarse para cobrar su herencia.</desc>
-    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
-  </programme>
-  <programme start="20261015083000 -0300" stop="20261015090000 -0300" channel="0858">
-    <title>Mónica Dionne</title>
-    <desc>Entrevista con la reconocida actriz.</desc>
-    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
-  </programme>
-  <programme start="20261015090000 -0300" stop="20261015110000 -0300" channel="0858">
-    <title>La razón de la culpa</title>
-    <desc>Un español viaja a México para cobrar una herencia.</desc>
-    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
-  </programme>
-  <programme start="20261015110000 -0300" stop="20261015130000 -0300" channel="0858">
-    <title>No niego mi pasado</title>
-    <desc>Un estafador y su hermosa amante engañan a hombres ricos.</desc>
-    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
-  </programme>
-  <programme start="20261015130000 -0300" stop="20261015143000 -0300" channel="0858">
-    <title>En cada feria un amor</title>
-    <desc>Tres Don Juanes andan de pueblo a pueblo viviendo del juego.</desc>
-    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
-  </programme>
-  <programme start="20261015143000 -0300" stop="20261015150000 -0300" channel="0858">
-    <title>Mónica Dionne</title>
-    <desc>Entrevista con la reconocida actriz.</desc>
-    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
-  </programme>
-  <programme start="20261015150000 -0300" stop="20261015153000 -0300" channel="0858">
-    <title>El sonógrafo</title>
-    <desc>Un homenaje a los clásicos que hicieron historia a través de un recorrido musical por el cine.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261015153000 -0300" stop="20261015173000 -0300" channel="0858">
@@ -289775,172 +289805,177 @@ El programa está compuesto por Ana Morgade, Anna Simon, Cristina Pedroche, Miki
     <desc>&#x27;El Santo&#x27; debe enfrentarse a un médico psicópata.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261015173000 -0300" stop="20261015183000 -0300" channel="0858">
-    <title>Por confirmar</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
+  <programme start="20261015173000 -0300" stop="20261015193000 -0300" channel="0858">
+    <title>¡Olé... Cuba!</title>
+    <desc>Dos pillos de buen corazón tratan de ayudar a un polizón.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261015183000 -0300" stop="20261015190000 -0300" channel="0858">
+  <programme start="20261015193000 -0300" stop="20261015213000 -0300" channel="0858">
+    <title>Tres desgraciados con suerte</title>
+    <desc>Tres bandidos fugitivos se enamoran de tres jóvenes bellas.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261015213000 -0300" stop="20261015233000 -0300" channel="0858">
+    <title>Pequeños jaguares</title>
+    <desc>Seis niños disfrazados de tigrillos se escapan y se pierden.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261015233000 -0300" stop="20261016003000 -0300" channel="0858">
+    <title>La oveja negra</title>
+    <desc>Un padre gana el desprecio de su hijo.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261016003000 -0300" stop="20261016010000 -0300" channel="0858">
     <title>Claro Cinema</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261015190000 -0300" stop="20261015230000 -0300" channel="0858">
+  <programme start="20261016010000 -0300" stop="20261016050000 -0300" channel="0858">
     <title>Claro Cinema</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261015230000 -0300" stop="20261016030000 -0300" channel="0858">
+  <programme start="20261016050000 -0300" stop="20261016090000 -0300" channel="0858">
     <title>Claro Cinema</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261016030000 -0300" stop="20261016070000 -0300" channel="0858">
+  <programme start="20261016090000 -0300" stop="20261016130000 -0300" channel="0858">
     <title>Claro Cinema</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261016070000 -0300" stop="20261016110000 -0300" channel="0858">
+  <programme start="20261016130000 -0300" stop="20261016170000 -0300" channel="0858">
     <title>Claro Cinema</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261016110000 -0300" stop="20261016150000 -0300" channel="0858">
+  <programme start="20261016170000 -0300" stop="20261016210000 -0300" channel="0858">
     <title>Claro Cinema</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261016150000 -0300" stop="20261016190000 -0300" channel="0858">
+  <programme start="20261016210000 -0300" stop="20261017010000 -0300" channel="0858">
     <title>Claro Cinema</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261016190000 -0300" stop="20261016230000 -0300" channel="0858">
+  <programme start="20261017010000 -0300" stop="20261017050000 -0300" channel="0858">
     <title>Claro Cinema</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261016230000 -0300" stop="20261017030000 -0300" channel="0858">
+  <programme start="20261017050000 -0300" stop="20261017090000 -0300" channel="0858">
     <title>Claro Cinema</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261017030000 -0300" stop="20261017070000 -0300" channel="0858">
+  <programme start="20261017090000 -0300" stop="20261017130000 -0300" channel="0858">
     <title>Claro Cinema</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261017070000 -0300" stop="20261017110000 -0300" channel="0858">
+  <programme start="20261017130000 -0300" stop="20261017170000 -0300" channel="0858">
     <title>Claro Cinema</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261017110000 -0300" stop="20261017150000 -0300" channel="0858">
+  <programme start="20261017170000 -0300" stop="20261017210000 -0300" channel="0858">
     <title>Claro Cinema</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261017150000 -0300" stop="20261017190000 -0300" channel="0858">
+  <programme start="20261017210000 -0300" stop="20261018010000 -0300" channel="0858">
     <title>Claro Cinema</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261017190000 -0300" stop="20261017230000 -0300" channel="0858">
+  <programme start="20261018010000 -0300" stop="20261018050000 -0300" channel="0858">
     <title>Claro Cinema</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261017230000 -0300" stop="20261018030000 -0300" channel="0858">
+  <programme start="20261018050000 -0300" stop="20261018090000 -0300" channel="0858">
     <title>Claro Cinema</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261018030000 -0300" stop="20261018070000 -0300" channel="0858">
+  <programme start="20261018090000 -0300" stop="20261018130000 -0300" channel="0858">
     <title>Claro Cinema</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261018070000 -0300" stop="20261018110000 -0300" channel="0858">
+  <programme start="20261018130000 -0300" stop="20261018170000 -0300" channel="0858">
     <title>Claro Cinema</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261018110000 -0300" stop="20261018150000 -0300" channel="0858">
+  <programme start="20261018170000 -0300" stop="20261018210000 -0300" channel="0858">
     <title>Claro Cinema</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261018150000 -0300" stop="20261018190000 -0300" channel="0858">
+  <programme start="20261018210000 -0300" stop="20261019010000 -0300" channel="0858">
     <title>Claro Cinema</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261018190000 -0300" stop="20261018230000 -0300" channel="0858">
+  <programme start="20261019010000 -0300" stop="20261019050000 -0300" channel="0858">
     <title>Claro Cinema</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261018230000 -0300" stop="20261019030000 -0300" channel="0858">
+  <programme start="20261019050000 -0300" stop="20261019090000 -0300" channel="0858">
     <title>Claro Cinema</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261019030000 -0300" stop="20261019070000 -0300" channel="0858">
+  <programme start="20261019090000 -0300" stop="20261019130000 -0300" channel="0858">
     <title>Claro Cinema</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261019070000 -0300" stop="20261019110000 -0300" channel="0858">
+  <programme start="20261019130000 -0300" stop="20261019170000 -0300" channel="0858">
     <title>Claro Cinema</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261019110000 -0300" stop="20261019150000 -0300" channel="0858">
+  <programme start="20261019170000 -0300" stop="20261019210000 -0300" channel="0858">
     <title>Claro Cinema</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261019150000 -0300" stop="20261019190000 -0300" channel="0858">
+  <programme start="20261019210000 -0300" stop="20261020010000 -0300" channel="0858">
     <title>Claro Cinema</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261019190000 -0300" stop="20261019230000 -0300" channel="0858">
+  <programme start="20261020010000 -0300" stop="20261020050000 -0300" channel="0858">
     <title>Claro Cinema</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261019230000 -0300" stop="20261020030000 -0300" channel="0858">
+  <programme start="20261020050000 -0300" stop="20261020090000 -0300" channel="0858">
     <title>Claro Cinema</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261020030000 -0300" stop="20261020070000 -0300" channel="0858">
+  <programme start="20261020090000 -0300" stop="20261020130000 -0300" channel="0858">
     <title>Claro Cinema</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261020070000 -0300" stop="20261020110000 -0300" channel="0858">
+  <programme start="20261020130000 -0300" stop="20261020170000 -0300" channel="0858">
     <title>Claro Cinema</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261020110000 -0300" stop="20261020150000 -0300" channel="0858">
+  <programme start="20261020170000 -0300" stop="20261020210000 -0300" channel="0858">
     <title>Claro Cinema</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261020150000 -0300" stop="20261020190000 -0300" channel="0858">
-    <title>Claro Cinema</title>
-    <desc>La informacion de este programa no se encuentra disponible.</desc>
-    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
-  </programme>
-  <programme start="20261020190000 -0300" stop="20261020230000 -0300" channel="0858">
-    <title>Claro Cinema</title>
-    <desc>La informacion de este programa no se encuentra disponible.</desc>
-    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
-  </programme>
-  <programme start="20261020230000 -0300" stop="20261020235959 -0300" channel="0858">
+  <programme start="20261020210000 -0300" stop="20261020235959 -0300" channel="0858">
     <title>Claro Cinema</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
@@ -293349,8 +293384,8 @@ La serie narra los acontecimientos de la Biblia, del Antiguo y Nuevo Testamento 
   </programme>
   <programme start="20261018225300 -0300" stop="20261019003300 -0300" channel="0868">
     <title>Como si fuéramos novios</title>
-    <desc>Un niño ahorra dinero para ayudar a su amiguita ciega, de la cual está enamorado, dado que necesita ser operada.</desc>
-    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+    <desc>Es la historia de dos niños que siempre están discutiendo: una niña ciega que desesperadamente necesita una operación para recuperar la vista y un niño pobre que la acompaña en sus aventuras.</desc>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/comosifueramosnovios.jpg" />
   </programme>
   <programme start="20261019003300 -0300" stop="20261019022800 -0300" channel="0868">
     <title>Mi esposa y la otra</title>
