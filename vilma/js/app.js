@@ -17,6 +17,7 @@
   const CARDS_INITIAL_LIMIT = 28;
   const CARDS_STEP = 28;
   const MINUTE_WIDTH_PX = 2.4; // Pixels por minuto para la Grilla Deco (144px por hora)
+  const VALID_TAG_REGEX = /^(en\s*vivo|al\s*aire|estreno|repetici[oó]n|grabado|diferido|vivo|nuevo|live|premiere|repeat|recorded)$/i;
 
   // --- ESTADO DE LA APLICACIÓN ---
   const state = {
@@ -213,10 +214,16 @@
     // 3. Extraer etiqueta de transmisión de la descripción (separador ║)
     if (desc.includes('║')) {
       const parts = desc.split('║');
-      tag = parts[0].trim();
-      desc = parts.slice(1).join('║').trim();
-      if (/en\s+vivo/i.test(tag)) {
-        isBroadcastLive = true;
+      const candidateTag = parts[0].trim();
+      if (VALID_TAG_REGEX.test(candidateTag)) {
+        tag = candidateTag;
+        desc = parts.slice(1).join('║').trim();
+        if (/en\s+vivo/i.test(tag)) {
+          isBroadcastLive = true;
+        }
+      } else {
+        // No es una etiqueta de emisión (ej. descripción de episodio ║ sinopsis de serie, o elenco colado)
+        desc = parts.map(p => p.trim()).filter(Boolean).join('. ');
       }
     }
 
@@ -1447,7 +1454,7 @@
 
       // REQUERIMIENTO: Quitar el cartel duplicado en vivo (el azul)
       let tagHtml = '';
-      if (prog.tag && !/en\s*vivo/i.test(prog.tag)) {
+      if (prog.tag && VALID_TAG_REGEX.test(prog.tag) && !/en\s*vivo/i.test(prog.tag)) {
         tagHtml = `<span class="tag-pill">${escapeHtml(prog.tag)}</span>`;
       }
 
@@ -1890,7 +1897,7 @@
       el.modalLiveBadge.classList.add('hidden');
     }
 
-    if (prog.tag && !/en\s*vivo/i.test(prog.tag)) {
+    if (prog.tag && VALID_TAG_REGEX.test(prog.tag) && !/en\s*vivo/i.test(prog.tag)) {
       el.modalTagBadge.innerText = prog.tag;
       el.modalTagBadge.classList.remove('hidden');
     } else {
