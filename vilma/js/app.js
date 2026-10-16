@@ -424,6 +424,11 @@
         if (src && src !== EMPTY_IMG) {
           img.src = src;
           img.onload = () => {
+            if (img.naturalHeight > img.naturalWidth || (img.naturalWidth / img.naturalHeight) < 1.1) {
+              img.style.display = 'none';
+              img.classList.remove('loaded');
+              return;
+            }
             img.classList.add('loaded');
             img.style.display = '';
           };
@@ -2053,7 +2058,11 @@
     if (banner && state.showBanners) {
       el.modalBannerBox.classList.add('hidden');
       el.modalBannerImg.onload = () => {
-        el.modalBannerBox.classList.remove('hidden');
+        if (el.modalBannerImg.naturalHeight > el.modalBannerImg.naturalWidth || (el.modalBannerImg.naturalWidth / el.modalBannerImg.naturalHeight) < 1.1) {
+          el.modalBannerBox.classList.add('hidden');
+        } else {
+          el.modalBannerBox.classList.remove('hidden');
+        }
         el.modalBannerImg.onload = null;
       };
       el.modalBannerImg.onerror = () => {
@@ -2173,13 +2182,17 @@
       const iconEl = p.getElementsByTagName("icon")[0];
       let icon = iconEl ? iconEl.getAttribute("src") : "";
       if (icon && icon.includes("tmsimg.com")) {
-        icon = icon.replace(/_v\d+_/i, "_h8_");
-        if (/[?&]w=\d+/.test(icon)) {
-          icon = icon.replace(/([?&]w=)\d+/, "$11280");
-        } else if (icon.includes("?")) {
-          icon += "&w=1280";
+        if (/\/assets\/GNL[A-Z0-9]+\.jpg/i.test(icon)) {
+          icon = "";
         } else {
-          icon += "?w=1280";
+          icon = icon.replace(/_(?:v\d+|v)_/i, "_h8_");
+          if (/[?&]w=\d+/.test(icon)) {
+            icon = icon.replace(/([?&]w=)\d+/, "$11280");
+          } else if (icon.includes("?")) {
+            icon += "&w=1280";
+          } else {
+            icon += "?w=1280";
+          }
         }
       }
 
