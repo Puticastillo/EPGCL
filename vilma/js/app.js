@@ -189,6 +189,14 @@
   // ==========================================================================
 
   /**
+   * Limpia emojis, símbolos decorativos y caracteres de formato especial.
+   */
+  function cleanEmojisAndSymbols(str) {
+    if (!str) return '';
+    return str.replace(/[\u{10000}-\u{10FFFF}\u2600-\u27BF\u2300-\u23FF\uFE00-\uFE0F\u200B-\u200F\u202A-\u202E]/gu, '').replace(/\s+/g, ' ').trim();
+  }
+
+  /**
    * Extrae y limpia título, capítulo, etiqueta de transmisión e indicador en vivo.
    */
   function parseProgramInfo(rawTitle, rawDesc) {
@@ -198,10 +206,21 @@
     let tag = '';
     let isBroadcastLive = false;
 
-    // 1. Detectar y quitar [En vivo] del título
-    if (/\[\s*en\s+vivo\s*\]/i.test(title)) {
-      isBroadcastLive = true;
-      title = title.replace(/\[\s*en\s+vivo\s*\]/gi, '').trim();
+    // 1. Detectar tags de transmisión entre corchetes ([NEW], [LIVE], [EN VIVO], [REPLAY], etc.)
+    const transMatches = title.match(/\[\s*(NEW|PREMIERE|ESTRENO|NUEVO|LIVE|EN\s+VIVO|VIVO|REPLAY|REPETICI[OÓ]N)\s*\]/gi);
+    if (transMatches) {
+      for (let i = 0; i < transMatches.length; i++) {
+        const tNorm = transMatches[i].replace(/[\[\]]/g, '').trim().toUpperCase();
+        if (tNorm.includes('VIVO') || tNorm.includes('LIVE')) {
+          tag = 'En vivo';
+          isBroadcastLive = true;
+          break;
+        } else if (['NEW', 'PREMIERE', 'ESTRENO', 'NUEVO'].includes(tNorm) || tNorm.includes('ESTRENO')) {
+          if (!tag) tag = 'Estreno';
+        } else if (tNorm.includes('REPLAY') || tNorm.includes('REPETICI')) {
+          if (!tag) tag = 'Repetición';
+        }
+      }
     }
 
     // 2. Extraer capítulo del título con punto ("•" o "·")
@@ -211,12 +230,21 @@
       episode = dotMatch[2].trim();
     }
 
-    // 3. Extraer etiqueta de transmisión de la descripción (separador ║)
+    // 3. Limpiar todos los corchetes [...] y emojis de título y episodio
+    title = cleanEmojisAndSymbols(title.replace(/\[.*?\]/g, ''));
+    if (episode) {
+      episode = cleanEmojisAndSymbols(episode.replace(/\[.*?\]/g, ''));
+      if (/^(SH|EP|MV|SP)\d+\./i.test(episode)) {
+        episode = '';
+      }
+    }
+
+    // 4. Extraer etiqueta de transmisión de la descripción (separador ║)
     if (desc.includes('║')) {
       const parts = desc.split('║');
       const candidateTag = parts[0].trim();
       if (VALID_TAG_REGEX.test(candidateTag)) {
-        tag = candidateTag;
+        if (!tag) tag = candidateTag;
         desc = parts.slice(1).join('║').trim();
         if (/en\s+vivo/i.test(tag)) {
           isBroadcastLive = true;
@@ -227,7 +255,7 @@
       }
     }
 
-    // 4. Si aún no hay capítulo o si desc tiene formato "Capítulo | Sinopsis"
+    // 5. Si aún no hay capítulo o si desc tiene formato "Capítulo | Sinopsis"
     if (desc.includes('|')) {
       const pipeIdx = desc.indexOf('|');
       if (pipeIdx > 0 && pipeIdx < 65) {
@@ -238,6 +266,10 @@
         }
         desc = remainder;
       }
+    }
+
+    if (episode && /^(SH|EP|MV|SP)\d+\./i.test(episode)) {
+      episode = '';
     }
 
     return {
@@ -369,8 +401,21 @@
   }
 
   // ==========================================================================
-  // 2. INTERSECTION OBSERVER PARA BANNERS (Cero Lag)
+  // 2. INTERSECTION OBSERVER PARA BANNERS & MANEJO TMS (Cero Lag)
   // ==========================================================================
+  function handleTmsImageError(img) {
+    if (!img) return false;
+    const currentSrc = img.src || '';
+    if (currentSrc.includes('tmsimg.com')) {
+      if (currentSrc.includes('_h8_')) {
+        img.src = currentSrc.replace('_h8_', '_h10_');
+        return true;
+      }
+    }
+    return false;
+  }
+  window.handleTmsImgErr = handleTmsImageError;
+
   const imageObserver = new IntersectionObserver((entries, observer) => {
     entries.forEach(entry => {
       if (entry.isIntersecting) {
@@ -380,6 +425,9 @@
           img.src = src;
           img.onload = () => img.classList.add('loaded');
           img.onerror = () => {
+            if (handleTmsImageError(img)) {
+              return;
+            }
             img.src = EMPTY_IMG;
             img.classList.remove('loaded');
           };
@@ -772,6 +820,9 @@
             el.heroBannerImg.onload = null;
           };
           el.heroBannerImg.onerror = () => {
+            if (handleTmsImageError(el.heroBannerImg)) {
+              return;
+            }
             el.heroContentBox.classList.remove('is-fading');
             el.heroBannerImg.classList.remove('is-fading');
             el.heroBannerImg.onerror = null;
@@ -1610,7 +1661,7 @@
       </div>
       ${posterSrc ? `
         <div class="search-prog-banner">
-          <img src="${posterSrc}" alt="" loading="lazy" onerror="this.parentElement.style.display='none'">
+          <img src="${posterSrc}" alt="" loading="lazy" onerror="if (window.handleTmsImgErr && window.handleTmsImgErr(this)) return; this.parentElement.style.display='none'">
         </div>
       ` : ''}
     `;
@@ -1997,6 +2048,13 @@
     const banner = prog.icon || ch.icon || '';
     if (banner && state.showBanners) {
       el.modalBannerImg.src = banner;
+      el.modalBannerImg.onerror = () => {
+        if (handleTmsImageError(el.modalBannerImg)) {
+          return;
+        }
+        el.modalBannerBox.classList.add('hidden');
+        el.modalBannerImg.onerror = null;
+      };
       el.modalBannerBox.classList.remove('hidden');
     } else {
       el.modalBannerBox.classList.add('hidden');
@@ -2105,7 +2163,17 @@
       const rawDesc = descEl ? descEl.textContent : '';
 
       const iconEl = p.getElementsByTagName("icon")[0];
-      const icon = iconEl ? iconEl.getAttribute("src") : "";
+      let icon = iconEl ? iconEl.getAttribute("src") : "";
+      if (icon && icon.includes("tmsimg.com")) {
+        icon = icon.replace(/_v\d+_/i, "_h8_");
+        if (/[?&]w=\d+/.test(icon)) {
+          icon = icon.replace(/([?&]w=)\d+/, "$11280");
+        } else if (icon.includes("?")) {
+          icon += "&w=1280";
+        } else {
+          icon += "?w=1280";
+        }
+      }
 
       // Categorías múltiples
       const catEls = p.getElementsByTagName("category");
@@ -2116,9 +2184,17 @@
       }
       const category = categories[0] || "";
 
-      // Año de lanzamiento (<date>)
+      // Año de lanzamiento (<date>) - extraer solo 4 dígitos
       const dateEl = p.getElementsByTagName("date")[0];
-      const year = dateEl ? dateEl.textContent.trim() : "";
+      let year = dateEl ? dateEl.textContent.trim() : "";
+      if (year) {
+        const mYear = year.match(/(19\d\d|20\d\d)/);
+        if (mYear) {
+          year = mYear[1];
+        } else if (year.length >= 4 && /^\d{4}/.test(year)) {
+          year = year.substring(0, 4);
+        }
+      }
 
       // País de origen (<country>)
       const countryEl = p.getElementsByTagName("country")[0];
@@ -2166,9 +2242,36 @@
 
       // Si no detectó capítulo en texto pero viene <sub-title> o <episode-num>
       const subTitleEl = p.getElementsByTagName("sub-title")[0];
-      const epNumEl = p.getElementsByTagName("episode-num")[0];
-      const extraEp = (subTitleEl ? subTitleEl.textContent.trim() : '') || (epNumEl ? epNumEl.textContent.trim() : '');
-      if (!parsed.episode && extraEp) {
+      let cleanSub = subTitleEl ? subTitleEl.textContent.trim() : '';
+      if (cleanSub) {
+        cleanSub = cleanEmojisAndSymbols(cleanSub.replace(/\[.*?\]/g, ''));
+        if (/^(SH|EP|MV|SP)\d+\./i.test(cleanSub)) {
+          cleanSub = '';
+        }
+      }
+
+      const epNumEls = p.getElementsByTagName("episode-num");
+      let validEpNum = '';
+      for (let eIdx = 0; eIdx < epNumEls.length; eIdx++) {
+        const epVal = epNumEls[eIdx].textContent.trim();
+        const sysVal = epNumEls[eIdx].getAttribute("system") || "";
+        if (sysVal === "dd_progid" || /^(SH|EP|MV|SP)\d+\./i.test(epVal)) {
+          continue;
+        }
+        if (sysVal === "xmltv_ns" || /^\d+\.\d+\./.test(epVal)) {
+          const mNs = epVal.match(/^(\d+)\.(\d+)\./);
+          if (mNs && parseInt(mNs[1], 10) < 100) {
+            validEpNum = `T${parseInt(mNs[1], 10) + 1} E${parseInt(mNs[2], 10) + 1}`;
+            break;
+          }
+          continue;
+        }
+        validEpNum = epVal;
+        break;
+      }
+
+      const extraEp = cleanSub || validEpNum;
+      if (!parsed.episode && extraEp && !/^(SH|EP|MV|SP)\d+\./i.test(extraEp)) {
         parsed.episode = extraEp;
       }
 
