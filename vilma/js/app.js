@@ -423,12 +423,15 @@
         const src = img.getAttribute('data-src');
         if (src && src !== EMPTY_IMG) {
           img.src = src;
-          img.onload = () => img.classList.add('loaded');
+          img.onload = () => {
+            img.classList.add('loaded');
+            img.style.display = '';
+          };
           img.onerror = () => {
             if (handleTmsImageError(img)) {
               return;
             }
-            img.src = EMPTY_IMG;
+            img.style.display = 'none';
             img.classList.remove('loaded');
           };
         }
@@ -823,6 +826,7 @@
             if (handleTmsImageError(el.heroBannerImg)) {
               return;
             }
+            el.heroBannerSide.classList.add('hidden');
             el.heroContentBox.classList.remove('is-fading');
             el.heroBannerImg.classList.remove('is-fading');
             el.heroBannerImg.onerror = null;
@@ -2047,7 +2051,11 @@
 
     const banner = prog.icon || ch.icon || '';
     if (banner && state.showBanners) {
-      el.modalBannerImg.src = banner;
+      el.modalBannerBox.classList.add('hidden');
+      el.modalBannerImg.onload = () => {
+        el.modalBannerBox.classList.remove('hidden');
+        el.modalBannerImg.onload = null;
+      };
       el.modalBannerImg.onerror = () => {
         if (handleTmsImageError(el.modalBannerImg)) {
           return;
@@ -2055,7 +2063,7 @@
         el.modalBannerBox.classList.add('hidden');
         el.modalBannerImg.onerror = null;
       };
-      el.modalBannerBox.classList.remove('hidden');
+      el.modalBannerImg.src = banner;
     } else {
       el.modalBannerBox.classList.add('hidden');
     }
@@ -2175,12 +2183,32 @@
         }
       }
 
-      // Categorías múltiples
+      // Categorías múltiples y filtrado de episodios colados (ej: mitv)
       const catEls = p.getElementsByTagName("category");
       const categories = [];
+      let catEpRescued = '';
+      let catSubRescued = '';
       for (let c = 0; c < catEls.length; c++) {
         const val = catEls[c].textContent.trim();
-        if (val && !categories.includes(val)) categories.push(val);
+        if (!val) continue;
+
+        if (/^(?:temporada|episodio|cap[ií]tulo)\b/i.test(val) || /^[\-–—]\s*/.test(val) || /\/\s*(?:19|20)\d\d/.test(val) || /\b(?:temporada\s+\d+|episodio\s+\d+)\b/i.test(val)) {
+          if (!catEpRescued) {
+            const mEp = val.match(/(?:Temporada\s+(\d+)\s+)?(?:Episodio|Cap[ií]tulo)\s+(\d+)/i);
+            if (mEp) {
+              catEpRescued = mEp[1] ? `T${mEp[1]} E${mEp[2]}` : `E${mEp[2]}`;
+            }
+          }
+          if (!catSubRescued) {
+            const mSub = val.match(/(?:Temporada\s+\d+\s+)?(?:Episodio\s+\d+\s*)?[\-–—]\s*(.+)/i);
+            if (mSub) {
+              catSubRescued = mSub[1].trim();
+            }
+          }
+          continue;
+        }
+
+        if (!categories.includes(val)) categories.push(val);
       }
       const category = categories[0] || "";
 
@@ -2243,6 +2271,9 @@
       // Si no detectó capítulo en texto pero viene <sub-title> o <episode-num>
       const subTitleEl = p.getElementsByTagName("sub-title")[0];
       let cleanSub = subTitleEl ? subTitleEl.textContent.trim() : '';
+      if (!cleanSub && catSubRescued) {
+        cleanSub = catSubRescued;
+      }
       if (cleanSub) {
         cleanSub = cleanEmojisAndSymbols(cleanSub.replace(/\[.*?\]/g, ''));
         if (/^(SH|EP|MV|SP)\d+\./i.test(cleanSub)) {
@@ -2268,6 +2299,9 @@
         }
         validEpNum = epVal;
         break;
+      }
+      if (!validEpNum && catEpRescued) {
+        validEpNum = catEpRescued;
       }
 
       const extraEp = cleanSub || validEpNum;
