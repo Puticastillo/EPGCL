@@ -156,8 +156,21 @@
     el.modalEpisode = document.getElementById('modalEpisode');
     el.modalTimeText = document.getElementById('modalTimeText');
     el.modalDuration = document.getElementById('modalDuration');
-    el.modalCategory = document.getElementById('modalCategory');
+    el.modalYear = document.getElementById('modalYear');
+    el.modalCountry = document.getElementById('modalCountry');
+    el.modalRating = document.getElementById('modalRating');
+    el.modalCategoriesRow = document.getElementById('modalCategoriesRow');
+    el.modalCategoriesList = document.getElementById('modalCategoriesList');
     el.modalDescription = document.getElementById('modalDescription');
+    el.modalCreditsSection = document.getElementById('modalCreditsSection');
+    el.modalDirectorRow = document.getElementById('modalDirectorRow');
+    el.modalDirectorText = document.getElementById('modalDirectorText');
+    el.modalPresenterRow = document.getElementById('modalPresenterRow');
+    el.modalPresenterText = document.getElementById('modalPresenterText');
+    el.modalWriterRow = document.getElementById('modalWriterRow');
+    el.modalWriterText = document.getElementById('modalWriterText');
+    el.modalActorsRow = document.getElementById('modalActorsRow');
+    el.modalActorsList = document.getElementById('modalActorsList');
     el.btnModalGoToChannel = document.getElementById('btnModalGoToChannel');
 
     // Modal Ajustes
@@ -1438,6 +1451,16 @@
         tagHtml = `<span class="tag-pill">${escapeHtml(prog.tag)}</span>`;
       }
 
+      // Etiquetas de metadatos rápidos (Año, Clasificación, Género)
+      let metaExtraHtml = '';
+      const metaItems = [];
+      if (prog.year) metaItems.push(`<span class="guide-chip-year">${escapeHtml(prog.year)}</span>`);
+      if (prog.rating) metaItems.push(`<span class="guide-chip-rating">${escapeHtml(prog.rating)}</span>`);
+      if (prog.category) metaItems.push(`<span class="guide-chip-cat">${escapeHtml(prog.category)}</span>`);
+      if (metaItems.length > 0) {
+        metaExtraHtml = `<div class="guide-prog-chips-row">${metaItems.join('')}</div>`;
+      }
+
       // REQUERIMIENTO: Banner a la derecha y solo hora de inicio (sin hora de fin)
       card.innerHTML = `
         <div class="guide-prog-content">
@@ -1448,6 +1471,7 @@
           </div>
           <h3 class="guide-prog-title">${escapeHtml(prog.title)}</h3>
           ${prog.episode ? `<div class="guide-prog-episode">${escapeHtml(prog.episode)}</div>` : ''}
+          ${metaExtraHtml}
           <p class="guide-prog-desc">${escapeHtml(prog.desc || 'Sin descripción disponible.')}</p>
         </div>
         ${bannerSrc ? `
@@ -1880,9 +1904,88 @@
     el.modalTimeText.innerText = `${formatTime(prog.start)} - ${formatTime(prog.stop)}`;
     const durationMins = Math.round((prog.stop - prog.start) / 60000);
     el.modalDuration.innerText = `${durationMins} min`;
-    el.modalCategory.innerText = prog.category || 'General';
+
+    // Año y País
+    if (prog.year) {
+      el.modalYear.innerText = prog.year;
+      el.modalYear.classList.remove('hidden');
+    } else {
+      el.modalYear.classList.add('hidden');
+    }
+
+    if (prog.country) {
+      el.modalCountry.innerText = prog.country;
+      el.modalCountry.classList.remove('hidden');
+    } else {
+      el.modalCountry.classList.add('hidden');
+    }
+
+    // Clasificación / Rating
+    if (prog.rating) {
+      el.modalRating.innerText = prog.rating;
+      el.modalRating.classList.remove('hidden');
+    } else {
+      el.modalRating.classList.add('hidden');
+    }
+
+    // Categorías / Géneros (chips)
+    const cats = (prog.categories && prog.categories.length > 0) ? prog.categories : (prog.category ? [prog.category] : []);
+    if (cats.length > 0) {
+      el.modalCategoriesList.innerHTML = '';
+      cats.forEach(cat => {
+        const chip = document.createElement('span');
+        chip.className = 'category-chip';
+        chip.innerText = cat;
+        el.modalCategoriesList.appendChild(chip);
+      });
+      el.modalCategoriesRow.classList.remove('hidden');
+    } else {
+      el.modalCategoriesRow.classList.add('hidden');
+    }
 
     el.modalDescription.innerText = prog.desc || 'No hay descripción disponible para este programa.';
+
+    // Créditos y Reparto
+    let hasCredits = false;
+    if (prog.directors && prog.directors.length > 0) {
+      el.modalDirectorText.innerText = prog.directors.join(', ');
+      el.modalDirectorRow.classList.remove('hidden');
+      hasCredits = true;
+    } else {
+      el.modalDirectorRow.classList.add('hidden');
+    }
+
+    if (prog.presenters && prog.presenters.length > 0) {
+      el.modalPresenterText.innerText = prog.presenters.join(', ');
+      el.modalPresenterRow.classList.remove('hidden');
+      hasCredits = true;
+    } else {
+      el.modalPresenterRow.classList.add('hidden');
+    }
+
+    if (prog.writers && prog.writers.length > 0) {
+      el.modalWriterText.innerText = prog.writers.join(', ');
+      el.modalWriterRow.classList.remove('hidden');
+      hasCredits = true;
+    } else {
+      el.modalWriterRow.classList.add('hidden');
+    }
+
+    if (prog.actors && prog.actors.length > 0) {
+      el.modalActorsList.innerHTML = '';
+      prog.actors.forEach(actor => {
+        const aChip = document.createElement('span');
+        aChip.className = 'actor-chip';
+        aChip.innerText = actor;
+        el.modalActorsList.appendChild(aChip);
+      });
+      el.modalActorsRow.classList.remove('hidden');
+      hasCredits = true;
+    } else {
+      el.modalActorsRow.classList.add('hidden');
+    }
+
+    el.modalCreditsSection.classList.toggle('hidden', !hasCredits);
 
     const banner = prog.icon || ch.icon || '';
     if (banner && state.showBanners) {
@@ -1997,11 +2100,70 @@
       const iconEl = p.getElementsByTagName("icon")[0];
       const icon = iconEl ? iconEl.getAttribute("src") : "";
 
-      const catEl = p.getElementsByTagName("category")[0];
-      const category = catEl ? catEl.textContent.trim() : "";
+      // Categorías múltiples
+      const catEls = p.getElementsByTagName("category");
+      const categories = [];
+      for (let c = 0; c < catEls.length; c++) {
+        const val = catEls[c].textContent.trim();
+        if (val && !categories.includes(val)) categories.push(val);
+      }
+      const category = categories[0] || "";
+
+      // Año de lanzamiento (<date>)
+      const dateEl = p.getElementsByTagName("date")[0];
+      const year = dateEl ? dateEl.textContent.trim() : "";
+
+      // País de origen (<country>)
+      const countryEl = p.getElementsByTagName("country")[0];
+      const country = countryEl ? countryEl.textContent.trim() : "";
+
+      // Clasificación por edad (<rating><value>)
+      const ratingEl = p.getElementsByTagName("rating")[0];
+      let rating = "";
+      if (ratingEl) {
+        const valEl = ratingEl.getElementsByTagName("value")[0];
+        rating = valEl ? valEl.textContent.trim() : ratingEl.textContent.trim();
+      }
+
+      // Créditos (<credits>: director, actor, presenter, writer)
+      const creditsEl = p.getElementsByTagName("credits")[0];
+      const directors = [];
+      const actors = [];
+      const presenters = [];
+      const writers = [];
+      if (creditsEl) {
+        const dNodes = creditsEl.getElementsByTagName("director");
+        for (let d = 0; d < dNodes.length; d++) {
+          const v = dNodes[d].textContent.trim();
+          if (v && !directors.includes(v)) directors.push(v);
+        }
+        const aNodes = creditsEl.getElementsByTagName("actor");
+        for (let a = 0; a < aNodes.length; a++) {
+          const v = aNodes[a].textContent.trim();
+          if (v && !actors.includes(v)) actors.push(v);
+        }
+        const prNodes = creditsEl.getElementsByTagName("presenter");
+        for (let pr = 0; pr < prNodes.length; pr++) {
+          const v = prNodes[pr].textContent.trim();
+          if (v && !presenters.includes(v)) presenters.push(v);
+        }
+        const wNodes = creditsEl.getElementsByTagName("writer");
+        for (let w = 0; w < wNodes.length; w++) {
+          const v = wNodes[w].textContent.trim();
+          if (v && !writers.includes(v)) writers.push(v);
+        }
+      }
 
       // Extracción limpia de título, capítulo y etiquetas
       const parsed = parseProgramInfo(rawTitle, rawDesc);
+
+      // Si no detectó capítulo en texto pero viene <sub-title> o <episode-num>
+      const subTitleEl = p.getElementsByTagName("sub-title")[0];
+      const epNumEl = p.getElementsByTagName("episode-num")[0];
+      const extraEp = (subTitleEl ? subTitleEl.textContent.trim() : '') || (epNumEl ? epNumEl.textContent.trim() : '');
+      if (!parsed.episode && extraEp) {
+        parsed.episode = extraEp;
+      }
 
       chObj.programs.push({
         start,
@@ -2015,7 +2177,15 @@
         tag: parsed.tag,
         isBroadcastLive: parsed.isBroadcastLive,
         icon,
-        category
+        category,
+        categories,
+        year,
+        country,
+        rating,
+        directors,
+        actors,
+        presenters,
+        writers
       });
     }
 

@@ -1506,6 +1506,36 @@ body.hide-banners .modal-banner-container {
   margin-bottom: 6px;
 }
 
+.guide-prog-chips-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+  margin-top: 4px;
+  margin-bottom: 6px;
+}
+
+.guide-chip-year,
+.guide-chip-cat {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--text-muted);
+  background: rgba(255, 255, 255, 0.05);
+  padding: 2px 7px;
+  border-radius: 4px;
+}
+
+.guide-chip-rating {
+  font-size: 0.72rem;
+  font-weight: 700;
+  font-family: var(--font-mono);
+  color: #f87171;
+  background: rgba(239, 68, 68, 0.12);
+  border: 1px solid rgba(239, 68, 68, 0.25);
+  padding: 1px 6px;
+  border-radius: 4px;
+}
+
 .guide-prog-desc {
   font-size: 0.9rem;
   color: var(--text-muted);
@@ -1771,12 +1801,13 @@ body.hide-banners .modal-banner-container {
 .modal-metadata {
   display: flex;
   align-items: center;
-  gap: 14px;
+  flex-wrap: wrap;
+  gap: 12px;
   font-size: 0.95rem;
   color: var(--text-muted);
   font-weight: 600;
-  margin-bottom: 18px;
-  padding-bottom: 14px;
+  margin-bottom: 14px;
+  padding-bottom: 12px;
   border-bottom: 1px solid var(--border-subtle);
 }
 
@@ -1787,10 +1818,118 @@ body.hide-banners .modal-banner-container {
   font-family: var(--font-mono);
 }
 
+.meta-badge-rating {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px 7px;
+  font-size: 0.78rem;
+  font-weight: 700;
+  font-family: var(--font-mono);
+  background: rgba(239, 68, 68, 0.12);
+  color: #f87171;
+  border: 1px solid rgba(239, 68, 68, 0.3);
+  border-radius: 5px;
+  letter-spacing: 0.03em;
+}
+
+/* Categorías / Chips */
+.modal-categories-row {
+  margin-bottom: 14px;
+}
+
+.categories-chips-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.category-chip {
+  display: inline-flex;
+  align-items: center;
+  background: rgba(99, 102, 241, 0.12);
+  border: 1px solid rgba(99, 102, 241, 0.25);
+  color: #c7d2fe;
+  font-size: 0.8rem;
+  font-weight: 600;
+  padding: 3px 10px;
+  border-radius: 999px;
+  transition: all 0.15s ease;
+}
+
+.category-chip:hover {
+  background: rgba(99, 102, 241, 0.2);
+  border-color: rgba(99, 102, 241, 0.4);
+}
+
 .modal-desc {
   font-size: 1.05rem;
   color: #e5e7eb;
   line-height: 1.6;
+}
+
+/* Sección de Créditos y Reparto */
+.modal-credits-section {
+  margin-top: 18px;
+  padding-top: 16px;
+  border-top: 1px solid var(--border-subtle);
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.credit-row {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+@media (min-width: 600px) {
+  .credit-row {
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    align-items: baseline;
+    gap: 12px;
+  }
+}
+
+.credit-label {
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text-muted);
+}
+
+.credit-val {
+  font-size: 0.95rem;
+  color: #e5e7eb;
+  line-height: 1.45;
+}
+
+.actors-chips-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.actor-chip {
+  display: inline-flex;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: #e2e8f0;
+  font-size: 0.85rem;
+  font-weight: 500;
+  padding: 3px 9px;
+  border-radius: 6px;
+  transition: all 0.15s ease;
+}
+
+.actor-chip:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.2);
+  color: #fff;
 }
 
 /* ==========================================================================

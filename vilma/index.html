@@ -330,7 +330,7 @@
       </div>
       
       <div class="modal-body">
-        <div class="modal-channel-row hidden">
+        <div class="modal-channel-row">
           <img id="modalChLogo" src="" alt="Logo" class="modal-ch-logo">
           <span id="modalChName" class="modal-ch-name">Canal</span>
           <span id="modalLiveBadge" class="live-pill hidden">EN VIVO</span>
@@ -338,22 +338,49 @@
         </div>
 
         <h2 id="modalTitle" class="modal-title">Título del Programa</h2>
-        <div id="modalEpisode" class="modal-episode text-accent"></div>
+        <div id="modalEpisode" class="modal-episode text-accent hidden"></div>
 
-        <div class="modal-metadata hidden">
+        <div class="modal-metadata">
           <span class="meta-item" id="modalTime">
             <svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2" fill="none"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
             <span id="modalTimeText">--:-- - --:--</span>
           </span>
           <span class="meta-item" id="modalDuration">-- min</span>
-          <span class="meta-item" id="modalCategory">General</span>
+          <span class="meta-item hidden" id="modalYear"></span>
+          <span class="meta-item hidden" id="modalCountry"></span>
+          <span class="meta-badge-rating hidden" id="modalRating"></span>
+        </div>
+
+        <!-- Categorías / Géneros (chips) -->
+        <div class="modal-categories-row hidden" id="modalCategoriesRow">
+          <div class="categories-chips-list" id="modalCategoriesList"></div>
         </div>
 
         <div class="modal-desc-box">
           <p id="modalDescription" class="modal-desc">Sin descripción disponible.</p>
         </div>
 
-        <div class="modal-actions hidden" style="margin-top: 20px; padding-top: 14px; border-top: 1px solid var(--border-subtle);">
+        <!-- Sección de Créditos y Reparto -->
+        <div id="modalCreditsSection" class="modal-credits-section hidden">
+          <div id="modalDirectorRow" class="credit-row hidden">
+            <span class="credit-label">Dirección:</span>
+            <span id="modalDirectorText" class="credit-val"></span>
+          </div>
+          <div id="modalPresenterRow" class="credit-row hidden">
+            <span class="credit-label">Conducción:</span>
+            <span id="modalPresenterText" class="credit-val"></span>
+          </div>
+          <div id="modalWriterRow" class="credit-row hidden">
+            <span class="credit-label">Guión:</span>
+            <span id="modalWriterText" class="credit-val"></span>
+          </div>
+          <div id="modalActorsRow" class="credit-row hidden">
+            <span class="credit-label">Reparto:</span>
+            <div id="modalActorsList" class="actors-chips-list"></div>
+          </div>
+        </div>
+
+        <div class="modal-actions" style="margin-top: 20px; padding-top: 14px; border-top: 1px solid var(--border-subtle);">
           <button id="btnModalGoToChannel" class="btn-secondary">
             <svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2" fill="none"><rect x="2" y="7" width="20" height="15" rx="2" ry="2"/><polyline points="17 2 12 7 7 2"/></svg>
             <span>Ver programación completa del canal</span>
