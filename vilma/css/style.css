@@ -1034,271 +1034,162 @@ body.hide-banners .modal-banner-container {
 }
 
 /* ==========================================================================
-   3. VISTA GRILLA DE PROGRAMACIÓN (Estilo Decodificador de TV)
+   CARTAS DE CANALES EN EMISIÓN (Pestaña Inicio)
    ========================================================================== */
-.grid-controls-bar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 14px;
-}
-
-.grid-controls-left {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-}
-
-.btn-grid-action {
-  background: var(--bg-card);
-  border: 1px solid var(--border-subtle);
-  color: #fff;
-  padding: 6px 14px;
-  border-radius: 8px;
-  font-weight: 700;
-  font-size: 0.92rem;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  transition: all 0.2s;
-  font-family: inherit;
-}
-
-.btn-grid-action:hover,
-.btn-grid-action.active {
-  border-color: var(--live-green);
-  color: var(--live-green);
-  background: rgba(16, 185, 129, 0.1);
-}
-
-.pulse-dot {
-  width: 8px;
-  height: 8px;
-  border-radius: 50%;
-  background: var(--live-green);
-  box-shadow: 0 0 8px var(--live-green);
-}
-
-.grid-date-selector {
-  display: flex;
-  gap: 6px;
-}
-
-.grid-date-chip {
-  background: transparent;
-  border: 1px solid var(--border-subtle);
-  color: var(--text-muted);
-  padding: 5px 12px;
-  border-radius: 8px;
-  font-size: 0.88rem;
-  font-weight: 600;
-  cursor: pointer;
-}
-
-.grid-date-chip.active {
-  background: #232736;
-  color: #fff;
-  border-color: var(--accent-primary);
-}
-
-.grid-hint {
-  font-size: 0.85rem;
-  color: var(--text-dimmed);
-}
-
-.deco-grid-wrapper {
+.card-item-emision {
   background: var(--bg-surface);
   border: 1px solid var(--border-subtle);
   border-radius: 12px;
-  overflow: auto;
-  max-height: calc(100vh - 210px);
-  position: relative;
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
-}
-
-.deco-grid-timeline {
-  min-width: max-content;
-  position: relative;
-}
-
-/* Regla de Tiempo Fija */
-.deco-time-ruler {
-  display: flex;
-  position: sticky;
-  top: 0;
-  z-index: 40;
-  background: #171a25;
-  border-bottom: 2px solid rgba(255, 255, 255, 0.1);
-}
-
-.deco-ruler-corner {
-  position: sticky;
-  left: 0;
-  z-index: 50;
-  width: 220px;
-  min-width: 220px;
-  padding: 12px 18px;
-  background: #131622;
-  font-weight: 800;
-  color: #fff;
-  border-right: 1px solid rgba(255, 255, 255, 0.1);
-  display: flex;
-  align-items: center;
-}
-
-.deco-ruler-hours {
-  display: flex;
-  position: relative;
-}
-
-.deco-hour-cell {
-  width: 140px; /* 70px por cada 30 min */
-  min-width: 140px;
-  padding: 10px 8px;
-  font-family: var(--font-mono);
-  font-size: 0.85rem;
-  font-weight: 700;
-  color: var(--text-muted);
-  border-right: 1px dashed rgba(255, 255, 255, 0.08);
-  user-select: none;
-}
-
-/* Cuerpo de la Grilla */
-.deco-grid-body {
-  position: relative;
-}
-
-.deco-now-line {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  width: 2px;
-  background: var(--live-red);
-  z-index: 35;
-  pointer-events: none;
-  box-shadow: 0 0 10px var(--live-red);
-}
-
-.now-badge {
-  position: absolute;
-  top: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  background: var(--live-red);
-  color: #fff;
-  font-size: 0.65rem;
-  font-weight: 900;
-  padding: 2px 4px;
-  border-radius: 2px;
-  white-space: nowrap;
-}
-
-.deco-grid-rows {
+  overflow: hidden;
   display: flex;
   flex-direction: column;
-}
-
-.deco-channel-row {
-  display: flex;
-  height: 68px;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  cursor: pointer;
+  transition: transform 0.22s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.22s ease, box-shadow 0.22s ease;
   position: relative;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.25);
 }
 
-.deco-ch-info {
-  position: sticky;
-  left: 0;
-  z-index: 30;
-  width: 220px;
-  min-width: 220px;
-  background: #131622;
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  padding: 8px 16px;
-  border-right: 1px solid rgba(255, 255, 255, 0.1);
-  box-shadow: 4px 0 10px rgba(0, 0, 0, 0.2);
+.card-item-emision:hover {
+  transform: translateY(-4px);
+  border-color: rgba(59, 130, 246, 0.6);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.5), 0 0 15px rgba(59, 130, 246, 0.2);
 }
 
-.deco-ch-logo {
-  width: 38px;
-  height: 38px;
-  object-fit: contain;
-}
-
-.deco-ch-details {
-  min-width: 0;
-}
-
-.deco-ch-name {
-  font-size: 0.95rem;
-  font-weight: 700;
-  color: #fff;
-  white-space: nowrap;
+.emision-banner-container {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  background: #111420;
   overflow: hidden;
-  text-overflow: ellipsis;
+}
+
+.emision-banner-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.35s ease, filter 0.35s ease;
   display: block;
 }
 
-.deco-ch-num {
-  font-family: var(--font-mono);
-  font-size: 0.75rem;
-  color: var(--text-muted);
+.card-item-emision:hover .emision-banner-img {
+  transform: scale(1.04);
 }
 
-.deco-programs-track {
-  position: relative;
-  flex: 1;
-  height: 100%;
+.emision-banner-img.fallback-img {
+  object-fit: contain !important;
+  padding: 24px;
+  background: radial-gradient(circle at center, rgba(30, 41, 59, 0.9), #0f172a);
 }
 
-.deco-prog-block {
+.emision-banner-gradient {
   position: absolute;
-  top: 6px;
-  bottom: 6px;
-  background: #1b1e2b;
-  border: 1px solid rgba(255, 255, 255, 0.08);
+  inset: 0;
+  background: linear-gradient(to top, rgba(17, 20, 32, 0.95) 0%, rgba(17, 20, 32, 0.25) 45%, transparent 70%);
+  pointer-events: none;
+}
+
+.emision-ch-logo-badge {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 2;
+  background: rgba(15, 23, 42, 0.8);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: 8px;
+  padding: 4px 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+}
+
+.emision-ch-logo {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+}
+
+.emision-live-badge {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 2;
+  background: #ef4444;
+  color: #fff;
+  font-size: 0.7rem;
+  font-weight: 800;
+  padding: 3px 8px;
   border-radius: 6px;
-  padding: 6px 10px;
-  overflow: hidden;
-  cursor: pointer;
+  letter-spacing: 0.5px;
+  box-shadow: 0 2px 8px rgba(239, 68, 68, 0.4);
+}
+
+.emision-progress-track {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: rgba(255, 255, 255, 0.15);
+  z-index: 3;
+}
+
+.emision-progress-bar {
+  height: 100%;
+  background: linear-gradient(90deg, #3b82f6, #60a5fa);
+  transition: width 0.3s ease;
+}
+
+.emision-info {
+  padding: 12px 14px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  transition: background 0.15s, border-color 0.15s;
+  gap: 8px;
+  flex: 1;
 }
 
-.deco-prog-block:hover {
-  background: #272c3d;
-  border-color: rgba(255, 255, 255, 0.25);
-  z-index: 10;
+.emision-row {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  min-width: 0;
 }
 
-.deco-prog-block.is-live {
-  border-color: var(--live-green);
-  background: #172a24;
+.emision-label {
+  font-size: 0.82rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  flex-shrink: 0;
 }
 
-.deco-prog-block.is-broadcast-live {
-  border-color: var(--live-red);
-  background: #2d181c;
+.label-ahora {
+  color: #38bdf8;
 }
 
-.deco-block-title {
-  font-size: 0.92rem;
-  font-weight: 700;
-  color: #fff;
+.label-despues {
+  color: #94a3b8;
+}
+
+.emision-title {
+  font-size: 0.94rem;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+  flex: 1;
 }
 
-.deco-block-time {
-  font-family: var(--font-mono);
-  font-size: 0.75rem;
-  color: var(--text-muted);
-  margin-top: 2px;
+.title-now {
+  font-weight: 700;
+  color: #f8fafc;
+}
+
+.title-next {
+  font-weight: 500;
+  color: #94a3b8;
+  font-size: 0.88rem;
 }
 
 /* ==========================================================================
@@ -1737,50 +1628,123 @@ body.hide-banners .modal-banner-container {
   position: relative;
   width: 100%;
   aspect-ratio: 16 / 9;
-  background: #1f2432;
+  background: linear-gradient(135deg, #1e293b, #0f172a);
+  overflow: hidden;
 }
 
 .modal-banner {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  display: block;
+}
+
+.modal-banner-gradient-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(15, 23, 42, 0.95) 0%, rgba(15, 23, 42, 0.3) 40%, transparent 65%),
+              linear-gradient(to bottom, rgba(15, 23, 42, 0.75) 0%, transparent 45%);
+  pointer-events: none;
+  z-index: 1;
 }
 
 .btn-close-banner {
   position: absolute;
-  top: 12px;
-  right: 12px;
-  background: rgba(0, 0, 0, 0.6);
-  border: none;
+  top: 14px;
+  right: 14px;
+  z-index: 5;
+  background: rgba(15, 23, 42, 0.75);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.15);
   color: #fff;
-  width: 34px;
-  height: 34px;
+  width: 36px;
+  height: 36px;
   border-radius: 50%;
-  font-size: 1.3rem;
+  font-size: 1.4rem;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   cursor: pointer;
+  transition: background 0.2s, transform 0.2s;
+}
+
+.btn-close-banner:hover {
+  background: rgba(239, 68, 68, 0.85);
+  transform: scale(1.08);
+}
+
+.modal-banner-ch-badge {
+  position: absolute;
+  top: 14px;
+  left: 14px;
+  z-index: 4;
+  background: rgba(15, 23, 42, 0.8);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 10px;
+  padding: 6px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.45);
+}
+
+.modal-banner-ch-logo {
+  width: 44px;
+  height: 44px;
+  object-fit: contain;
+}
+
+.modal-banner-time-badge {
+  position: absolute;
+  bottom: 14px;
+  left: 14px;
+  z-index: 4;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  background: rgba(15, 23, 42, 0.85);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 8px;
+  padding: 6px 12px;
+  color: #f1f5f9;
+  font-family: var(--font-mono);
+  font-size: 0.88rem;
+  font-weight: 700;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);
+}
+
+.modal-banner-remaining-badge {
+  position: absolute;
+  bottom: 14px;
+  right: 14px;
+  z-index: 4;
+  background: rgba(59, 130, 246, 0.9);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
+  padding: 6px 12px;
+  color: #fff;
+  font-size: 0.84rem;
+  font-weight: 700;
+  box-shadow: 0 3px 12px rgba(59, 130, 246, 0.45);
 }
 
 .modal-body {
   padding: 24px;
 }
 
-.modal-channel-row {
+.modal-badges-row {
   display: flex;
   align-items: center;
-  gap: 12px;
+  gap: 8px;
   margin-bottom: 12px;
-}
-
-.modal-ch-logo {
-  width: 36px;
-  height: 36px;
-  object-fit: contain;
-}
-
-.modal-ch-name {
-  font-size: 1.1rem;
-  font-weight: 700;
-  color: #d1d5db;
 }
 
 .modal-title {
@@ -2873,51 +2837,7 @@ input:checked + .slider:before {
     font-size: 0.88rem;
   }
 
-  /* 9. Vista Grilla en Móvil: Solo Logo del Canal */
-  .grid-controls-right {
-    display: none;
-  }
 
-  .grid-controls-bar {
-    margin-bottom: 10px;
-  }
-
-  .grid-controls-left {
-    width: 100%;
-    justify-content: space-between;
-  }
-
-  .deco-ruler-corner {
-    width: 56px !important;
-    min-width: 56px !important;
-    padding: 8px 2px !important;
-    justify-content: center !important;
-    font-size: 0.72rem !important;
-    text-align: center;
-  }
-
-  .deco-ch-info {
-    width: 56px !important;
-    min-width: 56px !important;
-    padding: 6px 4px !important;
-    justify-content: center !important;
-    gap: 0 !important;
-  }
-
-  .deco-ch-details {
-    display: none !important;
-  }
-
-  .deco-ch-logo {
-    width: 40px !important;
-    height: 40px !important;
-    margin: 0 auto;
-  }
-
-  .deco-hour-cell {
-    padding: 8px 6px;
-    font-size: 0.8rem;
-  }
 
   /* 10. Vista Canales en Móvil: Banners 1:1, Selector Desplegable de Canales */
   #guideSelectedMeta {
@@ -3274,56 +3194,7 @@ input:checked + .slider:before {
   background: var(--bg-card-hover);
 }
 
-/* Pantallazo Cards */
-.card-item-pantallazo {
-  background: var(--bg-surface);
-  border: 1px solid var(--border-subtle);
-  border-radius: 8px;
-  display: flex;
-  align-items: center;
-  padding: 10px;
-  gap: 12px;
-  cursor: pointer;
-  transition: transform 0.2s, box-shadow 0.2s;
-  height: 80px;
-}
-.card-item-pantallazo:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
-}
-.pantallazo-logo {
-  width: 60px;
-  height: 60px;
-  object-fit: contain;
-  background: transparent;
-  border-radius: 4px;
-  flex-shrink: 0;
-}
-.pantallazo-info {
-  flex-grow: 1;
-  display: flex;
-  flex-direction: column;
-  gap: 6px;
-  overflow: hidden;
-}
-.pantallazo-prog {
-  display: flex;
-  gap: 8px;
-  align-items: center;
-  font-size: 0.85rem;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-.pantallazo-time {
-  font-weight: 700;
-  color: var(--accent-primary);
-}
-.pantallazo-title {
-  color: var(--text-main);
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
+
 
 /* Fullscreen Img */
 .fullscreen-img-content {
@@ -3344,10 +3215,7 @@ input:checked + .slider:before {
   border-radius: 8px;
 }
 
-/* Grilla Tweak for AHORA overlap */
-.grid-time-line {
-  z-index: 10;
-}
+
 .ch-row-header {
   z-index: 15;
 }
@@ -3392,7 +3260,3 @@ input:checked + .slider:before {
 }
 
 
-/* Fix Grilla Overlap */
-.deco-ch-info {
-  z-index: 20 !important;
-}

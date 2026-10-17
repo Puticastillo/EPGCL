@@ -1,7 +1,7 @@
 /**
  * ============================================================================
  * EPG VISOR PRO V2.0 — MOTOR JAVASCRIPT
- * Alto Rendimiento, Parser Inteligente, Grilla Deco y Persistencia IndexedDB
+ * Alto Rendimiento, Parser Inteligente y Persistencia IndexedDB
  * ============================================================================
  */
 
@@ -16,14 +16,13 @@
   const EMPTY_IMG = "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7";
   const CARDS_INITIAL_LIMIT = 28;
   const CARDS_STEP = 28;
-  const MINUTE_WIDTH_PX = 2.4; // Pixels por minuto para la Grilla Deco (144px por hora)
   const VALID_TAG_REGEX = /^(en\s*vivo|al\s*aire|estreno|repetici[oó]n|grabado|diferido|vivo|nuevo|live|premiere|repeat|recorded)$/i;
 
   // --- ESTADO DE LA APLICACIÓN ---
   const state = {
     channels: [],
     channelsMap: {},
-    currentView: 'cards', // 'cards' (Inicio), 'list', 'grid', 'guide' (Canales)
+    currentView: 'cards', // 'cards' (Inicio), 'list', 'guide' (Canales)
     navHistory: [],       // Pila de navegación para retorno exacto
     filter: 'all',        // 'all', 'favorites', 'adults'
     searchQuery: '',
@@ -32,7 +31,6 @@
     showAdults: false,
     favorites: new Set(),
     cardsLimit: CARDS_INITIAL_LIMIT,
-    gridVisibleCount: 35,
     
     // Hero Banner
     heroChannels: [],
@@ -43,9 +41,6 @@
     // Vista Canales
     selectedGuideChId: null,
     selectedGuideDayOffset: 0,
-
-    // Vista Grilla
-    gridDayOffset: 0,
 
     // Modales activos
     activeModalProg: null,
@@ -104,17 +99,7 @@
     el.listContainer = document.getElementById('listContainer');
     el.emptyList = document.getElementById('emptyList');
 
-    // 3. Grilla Deco
-    el.viewGrid = document.getElementById('viewGrid');
-    el.btnGridNow = document.getElementById('btnGridNow');
-    el.gridDateSelector = document.getElementById('gridDateSelector');
-    el.decoGridWrapper = document.getElementById('decoGridWrapper');
-    el.decoRulerHours = document.getElementById('decoRulerHours');
-    el.decoNowLine = document.getElementById('decoNowLine');
-    el.decoGridRows = document.getElementById('decoGridRows');
-    el.emptyGrid = document.getElementById('emptyGrid');
-    el.gridLoadMoreBox = document.getElementById('gridLoadMoreBox');
-    el.btnLoadMoreGrid = document.getElementById('btnLoadMoreGrid');
+
 
     // 4. Canales (Guía)
     el.viewGuide = document.getElementById('viewGuide');
@@ -148,6 +133,12 @@
     el.modalDetail = document.getElementById('modalDetail');
     el.modalBannerBox = document.getElementById('modalBannerBox');
     el.modalBannerImg = document.getElementById('modalBannerImg');
+    el.modalBannerChBadge = document.getElementById('modalBannerChBadge');
+    el.modalBannerChLogo = document.getElementById('modalBannerChLogo');
+    el.modalBannerTimeBadge = document.getElementById('modalBannerTimeBadge');
+    el.modalBannerTimeText = document.getElementById('modalBannerTimeText');
+    el.modalBannerRemainingBadge = document.getElementById('modalBannerRemainingBadge');
+    el.modalBannerRemainingText = document.getElementById('modalBannerRemainingText');
     el.btnCloseDetail = document.getElementById('btnCloseDetail');
     el.modalChLogo = document.getElementById('modalChLogo');
     el.modalChName = document.getElementById('modalChName');
@@ -451,14 +442,14 @@
   const VIEW_MAP = {
     'inicio': 'cards',
     'lista': 'list',
-    'grilla': 'grid',
+    'grilla': 'cards',
+    'grid': 'cards',
     'canales': 'guide'
   };
 
   const REVERSE_VIEW_MAP = {
     'cards': 'inicio',
     'list': 'lista',
-    'grid': 'grilla',
     'guide': 'canales'
   };
 
@@ -513,11 +504,6 @@
       stopHeroAutoPlay();
     }
 
-    // Limpiar DOM pesado de Grilla al salir de ella para rendimiento óptimo
-    if (previousView === 'grid' && targetView !== 'grid') {
-      if (el.decoGridRows) el.decoGridRows.innerHTML = '';
-    }
-
     state.currentView = targetView;
     if (channelId) {
       state.selectedGuideChId = channelId;
@@ -531,7 +517,6 @@
     if (el.viewSearch) el.viewSearch.classList.add('hidden');
     el.viewCards.classList.toggle('hidden', targetView !== 'cards');
     el.viewList.classList.toggle('hidden', targetView !== 'list');
-    el.viewGrid.classList.toggle('hidden', targetView !== 'grid');
     el.viewGuide.classList.toggle('hidden', targetView !== 'guide');
 
     // Actualizar tabs en el header
@@ -546,11 +531,6 @@
     // Si volvemos a Inicio, reactivar Hero autoplay si estaba activo
     if (targetView === 'cards' && state.heroPlaying) {
       startHeroAutoPlay();
-    }
-
-    // Si entramos a la Grilla, centrar en la hora actual
-    if (targetView === 'grid') {
-      setTimeout(centerGridOnNow, 80);
     }
   }
 
@@ -584,7 +564,6 @@
       if (el.viewSearch) el.viewSearch.classList.remove('hidden');
       el.viewCards.classList.add('hidden');
       el.viewList.classList.add('hidden');
-      el.viewGrid.classList.add('hidden');
       el.viewGuide.classList.add('hidden');
       renderSearchView();
       return;
@@ -593,8 +572,6 @@
       renderCardsView();
     } else if (state.currentView === 'list') {
       renderListView();
-    } else if (state.currentView === 'grid') {
-      renderGridView();
     } else if (state.currentView === 'guide') {
       renderGuideView();
     }
@@ -989,32 +966,46 @@
       }
 
       const nextProg = ch.programs[ch.programs.indexOf(prog) + 1];
-      const currentStart = formatTime(prog.start);
-      const nextStart = nextProg ? formatTime(nextProg.start) : '--:--';
       const nextTitle = nextProg ? escapeHtml(nextProg.title) : 'Sin información';
+      const bannerSrc = prog.icon || ch.icon || '';
+      const isFallback = !prog.icon;
 
       const card = document.createElement('div');
-      card.className = 'card-item-pantallazo';
+      card.className = 'card-item-emision';
+      card.setAttribute('data-ch-id', ch.id);
       card.innerHTML = `
-        <img class="pantallazo-logo" src="${ch.icon || EMPTY_IMG}" alt="" loading="lazy">
-        <div class="pantallazo-info">
-          <div class="pantallazo-prog" style="font-weight: 700;">
-            <span class="pantallazo-time">${currentStart}</span>
-            <span class="pantallazo-title">${escapeHtml(prog.title)}</span>
+        <div class="emision-banner-container">
+          <img class="emision-banner-img ${isFallback ? 'fallback-img' : ''}" src="${bannerSrc || EMPTY_IMG}" alt="${escapeHtml(prog.title)}" loading="lazy" onerror="this.onerror=null;this.classList.add('fallback-img');this.src='${ch.icon || EMPTY_IMG}';">
+          <div class="emision-banner-gradient"></div>
+          <div class="emision-ch-logo-badge" title="${escapeHtml(ch.name)}">
+            <img class="emision-ch-logo" src="${ch.icon || EMPTY_IMG}" alt="" loading="lazy">
           </div>
-          <div class="pantallazo-prog" style="color:var(--text-muted);">
-            <span class="pantallazo-time" style="color:var(--text-muted);">${nextStart}</span>
-            <span class="pantallazo-title">${nextTitle}</span>
+          ${isLive ? '<span class="emision-live-badge">AL AIRE</span>' : ''}
+          ${progressPercent > 0 ? `<div class="emision-progress-track"><div class="emision-progress-bar" style="width: ${progressPercent}%;"></div></div>` : ''}
+        </div>
+        <div class="emision-info">
+          <div class="emision-row emision-now">
+            <span class="emision-label label-ahora">Ahora:</span>
+            <span class="emision-title title-now" title="${escapeHtml(prog.title)}">${escapeHtml(prog.title)}</span>
+          </div>
+          <div class="emision-row emision-next">
+            <span class="emision-label label-despues">Después:</span>
+            <span class="emision-title title-next" title="${escapeHtml(nextTitle)}">${nextTitle}</span>
           </div>
         </div>
       `;
 
-      card.onclick = (e) => {
+      card.onclick = () => {
+        openProgramDetail(ch, prog);
+      };
+
+      card.oncontextmenu = (e) => {
+        e.preventDefault();
         e.stopPropagation();
         openContextMenu(e, [
           { label: '<b>' + escapeHtml(ch.name) + '</b>', action: () => {} },
-          { label: 'Ver programación', action: () => navigateTo('guide', ch.id) },
-          { label: 'Más info del programa', action: () => openProgramDetail(ch, prog) }
+          { label: 'Ver programación de este canal', action: () => navigateTo('guide', ch.id) },
+          { label: 'Detalles del programa', action: () => openProgramDetail(ch, prog) }
         ]);
       };
 
@@ -1219,158 +1210,7 @@
     state.activeChannelForQuick = null;
   }
 
-  // ==========================================================================
-  // 7. VISTA GRILLA DE PROGRAMACIÓN (Estilo Decodificador de TV)
-  // ==========================================================================
-  function renderGridView() {
-    renderGridDateSelector();
 
-    const channels = getFilteredChannels();
-    const rowsContainer = el.decoGridRows;
-    const rulerHours = el.decoRulerHours;
-    rowsContainer.innerHTML = '';
-    rulerHours.innerHTML = '';
-
-    if (channels.length === 0) {
-      el.emptyGrid.classList.remove('hidden');
-      return;
-    }
-    el.emptyGrid.classList.add('hidden');
-
-    const tvDay = getTvDayRange(state.gridDayOffset);
-    const dayStart = tvDay.start;
-    const dayEnd = tvDay.end;
-    const totalMinutes = 24 * 60; // 1440 min
-    const totalWidthPx = totalMinutes * MINUTE_WIDTH_PX;
-
-    // 1. Renderizar Regla de Horas (06:00 a 05:00 del día siguiente)
-    for (let m = 0; m < totalMinutes; m += 60) {
-      const cell = document.createElement('div');
-      cell.className = 'deco-hour-cell';
-      cell.style.width = `${60 * MINUTE_WIDTH_PX}px`;
-      const timeMs = dayStart + m * 60000;
-      cell.innerText = formatTime(timeMs);
-      rulerHours.appendChild(cell);
-    }
-
-    // 2. Posicionar línea roja de la hora actual
-    const now = Date.now();
-    if (now >= dayStart && now <= dayEnd) {
-      const offsetMin = (now - dayStart) / 60000;
-      const lineLeft = offsetMin * MINUTE_WIDTH_PX + 220; // 220px corner
-      el.decoNowLine.style.left = `${lineLeft}px`;
-      el.decoNowLine.classList.remove('hidden');
-    } else {
-      el.decoNowLine.classList.add('hidden');
-    }
-
-    // 3. Renderizar Filas de Canales y Bloques (Paginación de 35 canales para rendimiento óptimo)
-    const maxChannels = state.gridVisibleCount || 35;
-    const displayedChannels = channels.slice(0, maxChannels);
-
-    const fragment = document.createDocumentFragment();
-
-    for (let i = 0; i < displayedChannels.length; i++) {
-      const ch = displayedChannels[i];
-      const row = document.createElement('div');
-      row.className = 'deco-channel-row';
-
-      // Columna fija de canal
-      const chInfo = document.createElement('div');
-      chInfo.className = 'deco-ch-info';
-      chInfo.title = `Opciones de ${ch.name}`;
-      chInfo.onclick = (e) => {
-        e.stopPropagation();
-        openContextMenu(e, [
-          { label: '<b>' + escapeHtml(ch.name) + '</b>', action: () => {} },
-          { label: 'Ver guía de ' + escapeHtml(ch.name), action: () => navigateTo('guide', ch.id) }
-        ]);
-      };
-      chInfo.innerHTML = `
-        <img class="deco-ch-logo" src="${ch.icon || EMPTY_IMG}" alt="" loading="lazy">
-        <div class="deco-ch-details">
-          <span class="deco-ch-name">${escapeHtml(ch.name)}</span>
-        </div>
-      `;
-      row.appendChild(chInfo);
-
-      // Track horizontal de programas
-      const track = document.createElement('div');
-      track.className = 'deco-programs-track';
-      track.style.width = `${totalWidthPx}px`;
-
-      const dayProgs = (ch.programs || []).filter(p => p.stop > dayStart && p.start < dayEnd);
-
-      for (let j = 0; j < dayProgs.length; j++) {
-        const p = dayProgs[j];
-        const progStart = Math.max(dayStart, p.start);
-        const progStop = Math.min(dayEnd, p.stop);
-        const durationMin = (progStop - progStart) / 60000;
-        if (durationMin <= 1) continue;
-
-        const leftPx = ((progStart - dayStart) / 60000) * MINUTE_WIDTH_PX;
-        const widthPx = durationMin * MINUTE_WIDTH_PX;
-
-        const isCurrent = p.start <= now && p.stop > now;
-
-        const block = document.createElement('div');
-        block.className = `deco-prog-block ${p.isBroadcastLive ? 'is-broadcast-live' : (isCurrent ? 'is-live' : '')}`;
-        block.style.left = `${leftPx}px`;
-        block.style.width = `${Math.max(30, widthPx - 4)}px`;
-        block.title = `${p.title} (${formatTime(p.start)} - ${formatTime(p.stop)})`;
-        block.onclick = () => openProgramDetail(ch, p);
-
-        block.innerHTML = `
-          <span class="deco-block-title">${escapeHtml(p.title)}</span>
-          <span class="deco-block-time">${formatTime(p.start)} - ${formatTime(p.stop)}</span>
-        `;
-
-        track.appendChild(block);
-      }
-
-      row.appendChild(track);
-      fragment.appendChild(row);
-    }
-
-    rowsContainer.appendChild(fragment);
-
-    if (channels.length > maxChannels) {
-      el.gridLoadMoreBox.classList.remove('hidden');
-      const span = el.btnLoadMoreGrid.querySelector('span');
-      if (span) span.innerText = `Cargar más canales en la grilla (${displayedChannels.length} de ${channels.length})`;
-    } else {
-      el.gridLoadMoreBox.classList.add('hidden');
-    }
-  }
-
-  function renderGridDateSelector() {
-    const container = el.gridDateSelector;
-    container.innerHTML = '';
-
-    for (let i = 0; i < 5; i++) {
-      const btn = document.createElement('button');
-      btn.className = `grid-date-chip ${state.gridDayOffset === i ? 'active' : ''}`;
-      btn.innerText = getDayTabLabel(i);
-      btn.onclick = () => {
-        state.gridDayOffset = i;
-        renderGridView();
-      };
-      container.appendChild(btn);
-    }
-  }
-
-  function centerGridOnNow() {
-    const tvDay = getTvDayRange(state.gridDayOffset);
-    const now = Date.now();
-    if (now >= tvDay.start && now <= tvDay.end) {
-      const offsetMin = (now - tvDay.start) / 60000;
-      const targetX = offsetMin * MINUTE_WIDTH_PX;
-      el.decoGridWrapper.scrollTo({
-        left: Math.max(0, targetX - 300),
-        behavior: 'smooth'
-      });
-    }
-  }
 
   // ==========================================================================
   // 8. VISTA CANALES (was Guía: Banner a la derecha y solo hora de inicio)
@@ -1598,7 +1438,6 @@
 
     el.viewCards.classList.toggle('hidden', targetView !== 'cards');
     el.viewList.classList.toggle('hidden', targetView !== 'list');
-    el.viewGrid.classList.toggle('hidden', targetView !== 'grid');
     el.viewGuide.classList.toggle('hidden', targetView !== 'guide');
 
     updateNavButtonsUI();
@@ -1939,8 +1778,15 @@
     state.activeModalProg = prog;
     state.modalActiveChannel = ch;
 
-    el.modalChLogo.src = ch.icon || EMPTY_IMG;
-    el.modalChName.innerText = ch.name;
+    if (el.modalBannerChLogo) {
+      el.modalBannerChLogo.src = ch.icon || EMPTY_IMG;
+    }
+    if (el.modalChLogo) {
+      el.modalChLogo.src = ch.icon || EMPTY_IMG;
+    }
+    if (el.modalChName) {
+      el.modalChName.innerText = ch.name;
+    }
     
     const now = Date.now();
     const isLive = prog.start <= now && prog.stop > now;
@@ -1968,7 +1814,37 @@
     el.modalEpisode.innerText = prog.episode || '';
     el.modalEpisode.classList.toggle('hidden', !prog.episode);
 
-    el.modalTimeText.innerText = `${formatTime(prog.start)} - ${formatTime(prog.stop)}`;
+    // Hora de inicio y fin sobre el banner (abajo a la izquierda)
+    const timeFormatted = `${formatTime(prog.start)} - ${formatTime(prog.stop)}`;
+    if (el.modalBannerTimeText) {
+      el.modalBannerTimeText.innerText = timeFormatted;
+    }
+    if (el.modalTimeText) {
+      el.modalTimeText.innerText = timeFormatted;
+    }
+
+    // Cuántos minutos quedan sobre el banner (abajo a la derecha)
+    if (el.modalBannerRemainingText) {
+      if (now >= prog.start && now < prog.stop) {
+        const minsLeft = Math.max(1, Math.round((prog.stop - now) / 60000));
+        el.modalBannerRemainingText.innerText = `Quedan ${minsLeft} min`;
+        if (el.modalBannerRemainingBadge) el.modalBannerRemainingBadge.classList.remove('hidden');
+      } else if (now < prog.start) {
+        const minsToStart = Math.round((prog.start - now) / 60000);
+        if (minsToStart < 60) {
+          el.modalBannerRemainingText.innerText = `Empieza en ${minsToStart} min`;
+        } else {
+          const h = Math.floor(minsToStart / 60);
+          const m = minsToStart % 60;
+          el.modalBannerRemainingText.innerText = m > 0 ? `En ${h}h ${m}m` : `En ${h}h`;
+        }
+        if (el.modalBannerRemainingBadge) el.modalBannerRemainingBadge.classList.remove('hidden');
+      } else {
+        el.modalBannerRemainingText.innerText = 'Finalizado';
+        if (el.modalBannerRemainingBadge) el.modalBannerRemainingBadge.classList.remove('hidden');
+      }
+    }
+
     const durationMins = Math.round((prog.stop - prog.start) / 60000);
     el.modalDuration.innerText = `${durationMins} min`;
 
@@ -2055,26 +1931,19 @@
     el.modalCreditsSection.classList.toggle('hidden', !hasCredits);
 
     const banner = prog.icon || ch.icon || '';
+    if (el.modalBannerBox) {
+      el.modalBannerBox.classList.remove('hidden');
+    }
     if (banner && state.showBanners) {
-      el.modalBannerBox.classList.add('hidden');
-      el.modalBannerImg.onload = () => {
-        if (el.modalBannerImg.naturalHeight > el.modalBannerImg.naturalWidth || (el.modalBannerImg.naturalWidth / el.modalBannerImg.naturalHeight) < 1.1) {
-          el.modalBannerBox.classList.add('hidden');
-        } else {
-          el.modalBannerBox.classList.remove('hidden');
-        }
-        el.modalBannerImg.onload = null;
-      };
+      el.modalBannerImg.classList.remove('hidden');
       el.modalBannerImg.onerror = () => {
-        if (handleTmsImageError(el.modalBannerImg)) {
-          return;
-        }
-        el.modalBannerBox.classList.add('hidden');
+        if (handleTmsImageError(el.modalBannerImg)) return;
+        el.modalBannerImg.classList.add('hidden');
         el.modalBannerImg.onerror = null;
       };
       el.modalBannerImg.src = banner;
     } else {
-      el.modalBannerBox.classList.add('hidden');
+      el.modalBannerImg.classList.add('hidden');
     }
 
     el.modalDetail.classList.remove('hidden');
@@ -2484,7 +2353,6 @@
         el.filterChips.forEach(c => c.classList.remove('active'));
         chip.classList.add('active');
         state.filter = chip.getAttribute('data-filter');
-        state.gridVisibleCount = 35;
         renderActiveView();
       };
     });
@@ -2503,7 +2371,6 @@
           state.searchQuery = val;
           el.viewCards.classList.add('hidden');
           el.viewList.classList.add('hidden');
-          el.viewGrid.classList.add('hidden');
           el.viewGuide.classList.add('hidden');
           if (el.viewSearch) el.viewSearch.classList.remove('hidden');
           updateNavButtonsUI();
@@ -2578,17 +2445,6 @@
       state.cardsLimit += CARDS_STEP;
       renderCardsView();
     };
-
-    // Botón Cargar Más Canales en Grilla
-    if (el.btnLoadMoreGrid) {
-      el.btnLoadMoreGrid.onclick = () => {
-        state.gridVisibleCount = (state.gridVisibleCount || 35) + 35;
-        renderGridView();
-      };
-    }
-
-    // Botón Ir a Ahora en Grilla
-    el.btnGridNow.onclick = centerGridOnNow;
 
     // Buscador en Canales
     el.guideChSearch.oninput = (e) => {
@@ -2803,7 +2659,6 @@
     });
     el.viewCards.classList.toggle('hidden', initialRoute.view !== 'cards');
     el.viewList.classList.toggle('hidden', initialRoute.view !== 'list');
-    el.viewGrid.classList.toggle('hidden', initialRoute.view !== 'grid');
     el.viewGuide.classList.toggle('hidden', initialRoute.view !== 'guide');
 
     // Cargar preferencias
