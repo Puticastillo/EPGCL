@@ -139,21 +139,13 @@
     el.modalBannerTimeText = document.getElementById('modalBannerTimeText');
     el.modalBannerRemainingBadge = document.getElementById('modalBannerRemainingBadge');
     el.modalBannerRemainingText = document.getElementById('modalBannerRemainingText');
+    el.modalBannerLiveBadge = document.getElementById('modalBannerLiveBadge');
     el.btnCloseDetail = document.getElementById('btnCloseDetail');
-    el.modalChLogo = document.getElementById('modalChLogo');
-    el.modalChName = document.getElementById('modalChName');
-    el.modalLiveBadge = document.getElementById('modalLiveBadge');
-    el.modalTagBadge = document.getElementById('modalTagBadge');
     el.modalTitle = document.getElementById('modalTitle');
     el.modalEpisode = document.getElementById('modalEpisode');
-    el.modalTimeText = document.getElementById('modalTimeText');
-    el.modalDuration = document.getElementById('modalDuration');
-    el.modalYear = document.getElementById('modalYear');
-    el.modalCountry = document.getElementById('modalCountry');
-    el.modalRating = document.getElementById('modalRating');
+    el.modalDescription = document.getElementById('modalDescription');
     el.modalCategoriesRow = document.getElementById('modalCategoriesRow');
     el.modalCategoriesList = document.getElementById('modalCategoriesList');
-    el.modalDescription = document.getElementById('modalDescription');
     el.modalCreditsSection = document.getElementById('modalCreditsSection');
     el.modalDirectorRow = document.getElementById('modalDirectorRow');
     el.modalDirectorText = document.getElementById('modalDirectorText');
@@ -163,6 +155,14 @@
     el.modalWriterText = document.getElementById('modalWriterText');
     el.modalActorsRow = document.getElementById('modalActorsRow');
     el.modalActorsList = document.getElementById('modalActorsList');
+    el.modalExtraInfo = document.getElementById('modalExtraInfo');
+    el.modalDuration = document.getElementById('modalDuration');
+    el.modalDurationVal = document.getElementById('modalDurationVal');
+    el.modalYear = document.getElementById('modalYear');
+    el.modalYearVal = document.getElementById('modalYearVal');
+    el.modalCountry = document.getElementById('modalCountry');
+    el.modalCountryVal = document.getElementById('modalCountryVal');
+    el.modalRating = document.getElementById('modalRating');
     el.btnModalGoToChannel = document.getElementById('btnModalGoToChannel');
 
     // Modal Ajustes
@@ -980,7 +980,6 @@
           <div class="emision-ch-logo-badge" title="${escapeHtml(ch.name)}">
             <img class="emision-ch-logo" src="${ch.icon || EMPTY_IMG}" alt="" loading="lazy">
           </div>
-          ${isLive ? '<span class="emision-live-badge">AL AIRE</span>' : ''}
           ${progressPercent > 0 ? `<div class="emision-progress-track"><div class="emision-progress-bar" style="width: ${progressPercent}%;"></div></div>` : ''}
         </div>
         <div class="emision-info">
@@ -1778,52 +1777,36 @@
     state.activeModalProg = prog;
     state.modalActiveChannel = ch;
 
+    // Logo del canal en la esquina inferior izquierda
     if (el.modalBannerChLogo) {
       el.modalBannerChLogo.src = ch.icon || EMPTY_IMG;
     }
-    if (el.modalChLogo) {
-      el.modalChLogo.src = ch.icon || EMPTY_IMG;
-    }
-    if (el.modalChName) {
-      el.modalChName.innerText = ch.name;
-    }
-    
+
     const now = Date.now();
     const isLive = prog.start <= now && prog.stop > now;
 
-    if (prog.isBroadcastLive) {
-      el.modalLiveBadge.className = 'live-pill badge-en-vivo';
-      el.modalLiveBadge.innerText = 'EN VIVO';
-      el.modalLiveBadge.classList.remove('hidden');
-    } else if (isLive) {
-      el.modalLiveBadge.className = 'live-pill badge-al-aire';
-      el.modalLiveBadge.innerText = 'AL AIRE';
-      el.modalLiveBadge.classList.remove('hidden');
-    } else {
-      el.modalLiveBadge.classList.add('hidden');
+    // Badge de AL AIRE / EN VIVO en la esquina inferior derecha del banner (arriba del tiempo restante)
+    if (el.modalBannerLiveBadge) {
+      if (prog.isBroadcastLive) {
+        el.modalBannerLiveBadge.className = 'live-pill badge-en-vivo';
+        el.modalBannerLiveBadge.innerText = 'EN VIVO';
+        el.modalBannerLiveBadge.classList.remove('hidden');
+      } else if (isLive) {
+        el.modalBannerLiveBadge.className = 'live-pill badge-al-aire';
+        el.modalBannerLiveBadge.innerText = 'AL AIRE';
+        el.modalBannerLiveBadge.classList.remove('hidden');
+      } else {
+        el.modalBannerLiveBadge.classList.add('hidden');
+      }
     }
 
-    if (prog.tag && VALID_TAG_REGEX.test(prog.tag) && !/en\s*vivo/i.test(prog.tag)) {
-      el.modalTagBadge.innerText = prog.tag;
-      el.modalTagBadge.classList.remove('hidden');
-    } else {
-      el.modalTagBadge.classList.add('hidden');
-    }
-
-    el.modalTitle.innerText = prog.title;
-    el.modalEpisode.innerText = prog.episode || '';
-    el.modalEpisode.classList.toggle('hidden', !prog.episode);
-
-    // Hora de inicio y fin sobre el banner (abajo a la izquierda)
+    // Hora de inicio y fin sobre el banner (abajo a la izquierda junto al logo)
     const timeFormatted = `${formatTime(prog.start)} - ${formatTime(prog.stop)}`;
     if (el.modalBannerTimeText) {
       el.modalBannerTimeText.innerText = timeFormatted;
     }
-    if (el.modalTimeText) {
-      el.modalTimeText.innerText = timeFormatted;
-    }
 
-    // Cuántos minutos quedan sobre el banner (abajo a la derecha)
+    // Cuántos minutos quedan sobre el banner (abajo a la derecha, debajo del badge al aire)
     if (el.modalBannerRemainingText) {
       if (now >= prog.start && now < prog.stop) {
         const minsLeft = Math.max(1, Math.round((prog.stop - now) / 60000));
@@ -1845,50 +1828,53 @@
       }
     }
 
-    const durationMins = Math.round((prog.stop - prog.start) / 60000);
-    el.modalDuration.innerText = `${durationMins} min`;
+    // 1. TÍTULO
+    el.modalTitle.innerText = prog.title;
 
-    // Año y País
-    if (prog.year) {
-      el.modalYear.innerText = prog.year;
-      el.modalYear.classList.remove('hidden');
-    } else {
-      el.modalYear.classList.add('hidden');
+    // 2. CAPÍTULO (si existe)
+    if (el.modalEpisode) {
+      if (prog.episode) {
+        el.modalEpisode.innerText = prog.episode;
+        el.modalEpisode.classList.remove('hidden');
+      } else {
+        el.modalEpisode.innerText = '';
+        el.modalEpisode.classList.add('hidden');
+      }
     }
 
-    if (prog.country) {
-      el.modalCountry.innerText = prog.country;
-      el.modalCountry.classList.remove('hidden');
-    } else {
-      el.modalCountry.classList.add('hidden');
-    }
+    // 3. DESCRIPCIÓN
+    el.modalDescription.innerText = prog.desc || 'Sin descripción disponible para este programa.';
 
-    // Clasificación / Rating
-    if (prog.rating) {
-      el.modalRating.innerText = prog.rating;
-      el.modalRating.classList.remove('hidden');
-    } else {
-      el.modalRating.classList.add('hidden');
-    }
+    // 4. CATEGORÍAS (con la etiqueta de emisión saliendo de primero en la misma línea)
+    const cats = (prog.categories && prog.categories.length > 0) ? [...prog.categories] : (prog.category ? [prog.category] : []);
+    const hasTag = prog.tag && VALID_TAG_REGEX.test(prog.tag) && !/en\s*vivo/i.test(prog.tag);
 
-    // Categorías / Géneros (chips)
-    const cats = (prog.categories && prog.categories.length > 0) ? prog.categories : (prog.category ? [prog.category] : []);
-    if (cats.length > 0) {
+    if (hasTag || cats.length > 0) {
       el.modalCategoriesList.innerHTML = '';
+
+      // Si hay etiqueta (ej: Estreno, Película, Especial), se muestra primero
+      if (hasTag) {
+        const tagChip = document.createElement('span');
+        tagChip.className = 'category-chip tag-chip';
+        tagChip.innerText = prog.tag;
+        el.modalCategoriesList.appendChild(tagChip);
+      }
+
+      // Luego el resto de categorías
       cats.forEach(cat => {
+        if (hasTag && cat.toLowerCase() === prog.tag.toLowerCase()) return;
         const chip = document.createElement('span');
         chip.className = 'category-chip';
         chip.innerText = cat;
         el.modalCategoriesList.appendChild(chip);
       });
+
       el.modalCategoriesRow.classList.remove('hidden');
     } else {
       el.modalCategoriesRow.classList.add('hidden');
     }
 
-    el.modalDescription.innerText = prog.desc || 'No hay descripción disponible para este programa.';
-
-    // Créditos y Reparto
+    // 5. REPARTO
     let hasCredits = false;
     if (prog.directors && prog.directors.length > 0) {
       el.modalDirectorText.innerText = prog.directors.join(', ');
@@ -1929,6 +1915,47 @@
     }
 
     el.modalCreditsSection.classList.toggle('hidden', !hasCredits);
+
+    // 6. OTRA INFO (duración, año, país, etc.)
+    let hasExtra = false;
+    const durationMins = Math.round((prog.stop - prog.start) / 60000);
+    if (durationMins > 0) {
+      if (el.modalDurationVal) el.modalDurationVal.innerText = `${durationMins} min`;
+      if (el.modalDuration) el.modalDuration.classList.remove('hidden');
+      hasExtra = true;
+    } else if (el.modalDuration) {
+      el.modalDuration.classList.add('hidden');
+    }
+
+    if (prog.year) {
+      if (el.modalYearVal) el.modalYearVal.innerText = prog.year;
+      if (el.modalYear) el.modalYear.classList.remove('hidden');
+      hasExtra = true;
+    } else if (el.modalYear) {
+      el.modalYear.classList.add('hidden');
+    }
+
+    if (prog.country) {
+      if (el.modalCountryVal) el.modalCountryVal.innerText = prog.country;
+      if (el.modalCountry) el.modalCountry.classList.remove('hidden');
+      hasExtra = true;
+    } else if (el.modalCountry) {
+      el.modalCountry.classList.add('hidden');
+    }
+
+    if (prog.rating) {
+      if (el.modalRating) {
+        el.modalRating.innerText = prog.rating;
+        el.modalRating.classList.remove('hidden');
+      }
+      hasExtra = true;
+    } else if (el.modalRating) {
+      el.modalRating.classList.add('hidden');
+    }
+
+    if (el.modalExtraInfo) {
+      el.modalExtraInfo.classList.toggle('hidden', !hasExtra);
+    }
 
     const banner = prog.icon || ch.icon || '';
     if (el.modalBannerBox) {

@@ -1093,37 +1093,28 @@ body.hide-banners .modal-banner-container {
   top: 10px;
   left: 10px;
   z-index: 2;
-  background: rgba(15, 23, 42, 0.8);
+  width: 40px;
+  height: 40px;
+  aspect-ratio: 1 / 1;
+  background: rgba(15, 23, 42, 0.85);
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
-  border: 1px solid rgba(255, 255, 255, 0.14);
+  border: 1px solid rgba(255, 255, 255, 0.16);
   border-radius: 8px;
-  padding: 4px 8px;
+  padding: 4px;
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.45);
+  box-sizing: border-box;
 }
 
 .emision-ch-logo {
-  width: 32px;
-  height: 32px;
+  width: 100%;
+  height: 100%;
+  max-width: 30px;
+  max-height: 30px;
   object-fit: contain;
-}
-
-.emision-live-badge {
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  z-index: 2;
-  background: #ef4444;
-  color: #fff;
-  font-size: 0.7rem;
-  font-weight: 800;
-  padding: 3px 8px;
-  border-radius: 6px;
-  letter-spacing: 0.5px;
-  box-shadow: 0 2px 8px rgba(239, 68, 68, 0.4);
 }
 
 .emision-progress-track {
@@ -1675,55 +1666,74 @@ body.hide-banners .modal-banner-container {
   transform: scale(1.08);
 }
 
-.modal-banner-ch-badge {
-  position: absolute;
-  top: 14px;
-  left: 14px;
-  z-index: 4;
-  background: rgba(15, 23, 42, 0.8);
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
-  border: 1px solid rgba(255, 255, 255, 0.15);
-  border-radius: 10px;
-  padding: 6px 10px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.45);
-}
-
-.modal-banner-ch-logo {
-  width: 44px;
-  height: 44px;
-  object-fit: contain;
-}
-
-.modal-banner-time-badge {
+/* Modal Banner Overlays */
+.modal-banner-bottom-left {
   position: absolute;
   bottom: 14px;
   left: 14px;
   z-index: 4;
   display: flex;
   align-items: center;
-  gap: 7px;
+  gap: 8px;
+}
+
+.modal-banner-ch-badge {
+  width: 44px;
+  height: 44px;
+  aspect-ratio: 1 / 1;
   background: rgba(15, 23, 42, 0.85);
-  backdrop-filter: blur(8px);
-  -webkit-backdrop-filter: blur(8px);
-  border: 1px solid rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
   border-radius: 8px;
-  padding: 6px 12px;
+  padding: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.45);
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+
+.modal-banner-ch-logo {
+  width: 100%;
+  height: 100%;
+  max-width: 36px;
+  max-height: 36px;
+  object-fit: contain;
+}
+
+.modal-banner-time-badge {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  height: 44px;
+  background: rgba(15, 23, 42, 0.85);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 8px;
+  padding: 0 12px;
   color: #f1f5f9;
   font-family: var(--font-mono);
   font-size: 0.88rem;
   font-weight: 700;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);
+  box-sizing: border-box;
 }
 
-.modal-banner-remaining-badge {
+.modal-banner-bottom-right {
   position: absolute;
   bottom: 14px;
   right: 14px;
   z-index: 4;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 6px;
+}
+
+.modal-banner-remaining-badge {
   background: rgba(59, 130, 246, 0.9);
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
@@ -1734,72 +1744,83 @@ body.hide-banners .modal-banner-container {
   font-size: 0.84rem;
   font-weight: 700;
   box-shadow: 0 3px 12px rgba(59, 130, 246, 0.45);
+  white-space: nowrap;
 }
 
+@media (max-width: 480px) {
+  .modal-banner-bottom-left {
+    bottom: 10px;
+    left: 10px;
+    gap: 6px;
+  }
+  .modal-banner-ch-badge {
+    width: 36px;
+    height: 36px;
+  }
+  .modal-banner-ch-logo {
+    max-width: 28px;
+    max-height: 28px;
+  }
+  .modal-banner-time-badge {
+    height: 36px;
+    padding: 0 8px;
+    font-size: 0.78rem;
+    gap: 5px;
+  }
+  .modal-banner-bottom-right {
+    bottom: 10px;
+    right: 10px;
+    gap: 4px;
+  }
+  .modal-banner-remaining-badge {
+    padding: 4px 8px;
+    font-size: 0.75rem;
+  }
+}
+
+/* Modal Body (Texto Debajo del Banner) */
 .modal-body {
   padding: 24px;
-}
-
-.modal-badges-row {
   display: flex;
-  align-items: center;
-  gap: 8px;
-  margin-bottom: 12px;
+  flex-direction: column;
+  gap: 14px;
 }
 
+/* 1. Título */
 .modal-title {
-  font-size: 1.7rem;
+  font-size: 1.65rem;
   font-weight: 800;
   color: #fff;
   line-height: 1.25;
-  margin-bottom: 6px;
+  margin: 0;
 }
 
+/* 2. Capítulo */
 .modal-episode {
-  font-size: 1.1rem;
-  font-weight: 600;
-  color: #60a5fa;
-  margin-bottom: 14px;
-}
-
-.modal-metadata {
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 12px;
-  font-size: 0.95rem;
-  color: var(--text-muted);
-  font-weight: 600;
-  margin-bottom: 14px;
-  padding-bottom: 12px;
-  border-bottom: 1px solid var(--border-subtle);
-}
-
-.meta-item {
-  display: flex;
-  align-items: center;
-  gap: 6px;
-  font-family: var(--font-mono);
-}
-
-.meta-badge-rating {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  padding: 2px 7px;
-  font-size: 0.78rem;
+  font-size: 1.05rem;
   font-weight: 700;
-  font-family: var(--font-mono);
-  background: rgba(239, 68, 68, 0.12);
-  color: #f87171;
-  border: 1px solid rgba(239, 68, 68, 0.3);
-  border-radius: 5px;
-  letter-spacing: 0.03em;
+  color: #38bdf8;
+  margin: -4px 0 0 0;
 }
 
-/* Categorías / Chips */
+/* 3. Descripción */
+.modal-desc-box {
+  margin: 0;
+}
+
+.modal-desc {
+  font-size: 1.02rem;
+  color: #e2e8f0;
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* 4. Categorías */
 .modal-categories-row {
-  margin-bottom: 14px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  padding-top: 2px;
 }
 
 .categories-chips-list {
@@ -1826,20 +1847,77 @@ body.hide-banners .modal-banner-container {
   border-color: rgba(99, 102, 241, 0.4);
 }
 
-.modal-desc {
-  font-size: 1.05rem;
-  color: #e5e7eb;
-  line-height: 1.6;
+.category-chip.tag-chip {
+  background: rgba(245, 158, 11, 0.18);
+  border-color: rgba(245, 158, 11, 0.45);
+  color: #fbbf24;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  font-size: 0.78rem;
 }
 
-/* Sección de Créditos y Reparto */
+.category-chip.tag-chip:hover {
+  background: rgba(245, 158, 11, 0.28);
+  border-color: rgba(245, 158, 11, 0.65);
+}
+
+/* 5. Reparto y Créditos */
 .modal-credits-section {
-  margin-top: 18px;
-  padding-top: 16px;
+  padding-top: 14px;
   border-top: 1px solid var(--border-subtle);
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 10px;
+}
+
+/* 6. Otra Información (Año, País, etc.) */
+.modal-extra-info-section {
+  padding-top: 14px;
+  border-top: 1px solid var(--border-subtle);
+}
+
+.extra-info-items {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px;
+  font-size: 0.92rem;
+  color: var(--text-muted);
+}
+
+.extra-info-items .meta-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.extra-info-items .meta-label {
+  color: #64748b;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+}
+
+.extra-info-items strong {
+  color: #e2e8f0;
+  font-weight: 600;
+}
+
+.meta-badge-rating {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px 7px;
+  font-size: 0.78rem;
+  font-weight: 700;
+  font-family: var(--font-mono);
+  background: rgba(239, 68, 68, 0.12);
+  color: #f87171;
+  border: 1px solid rgba(239, 68, 68, 0.3);
+  border-radius: 5px;
+  letter-spacing: 0.03em;
 }
 
 .credit-row {

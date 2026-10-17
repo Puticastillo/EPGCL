@@ -281,53 +281,44 @@
         <div class="modal-banner-gradient-overlay"></div>
         <button id="btnCloseDetail" class="btn-close-banner" aria-label="Cerrar">&times;</button>
         
-        <!-- Logo del canal en la esquina de arriba a la izquierda -->
-        <div class="modal-banner-ch-badge" id="modalBannerChBadge">
-          <img id="modalBannerChLogo" src="" alt="" class="modal-banner-ch-logo">
+        <!-- Logo del canal 1:1 y hora de inicio/fin abajo a la izquierda -->
+        <div class="modal-banner-bottom-left">
+          <div class="modal-banner-ch-badge" id="modalBannerChBadge" title="Canal">
+            <img id="modalBannerChLogo" src="" alt="" class="modal-banner-ch-logo">
+          </div>
+          <div class="modal-banner-time-badge" id="modalBannerTimeBadge">
+            <svg viewBox="0 0 24 24" width="14" height="14" stroke="currentColor" stroke-width="2.2" fill="none"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            <span id="modalBannerTimeText">--:-- - --:--</span>
+          </div>
         </div>
 
-        <!-- Hora inicio y fin abajo a la izquierda -->
-        <div class="modal-banner-time-badge" id="modalBannerTimeBadge">
-          <svg viewBox="0 0 24 24" width="14" height="14" stroke="currentColor" stroke-width="2.2" fill="none"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
-          <span id="modalBannerTimeText">--:-- - --:--</span>
-        </div>
-
-        <!-- Cuántos minutos quedan abajo a la derecha -->
-        <div class="modal-banner-remaining-badge" id="modalBannerRemainingBadge">
-          <span id="modalBannerRemainingText">-- min</span>
+        <!-- Badge de al aire y tiempo restante abajo a la derecha -->
+        <div class="modal-banner-bottom-right">
+          <span id="modalBannerLiveBadge" class="live-pill hidden">AL AIRE</span>
+          <div class="modal-banner-remaining-badge" id="modalBannerRemainingBadge">
+            <span id="modalBannerRemainingText">-- min</span>
+          </div>
         </div>
       </div>
       
       <div class="modal-body">
-        <div class="modal-badges-row" id="modalBadgesRow">
-          <span id="modalLiveBadge" class="live-pill hidden">EN VIVO</span>
-          <span id="modalTagBadge" class="tag-pill hidden"></span>
-        </div>
-
+        <!-- 1. TÍTULO -->
         <h2 id="modalTitle" class="modal-title">Título del Programa</h2>
+
+        <!-- 2. CAPÍTULO (si existe) -->
         <div id="modalEpisode" class="modal-episode text-accent hidden"></div>
 
-        <div class="modal-metadata">
-          <span class="meta-item" id="modalTime">
-            <svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2" fill="none"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
-            <span id="modalTimeText">--:-- - --:--</span>
-          </span>
-          <span class="meta-item" id="modalDuration">-- min</span>
-          <span class="meta-item hidden" id="modalYear"></span>
-          <span class="meta-item hidden" id="modalCountry"></span>
-          <span class="meta-badge-rating hidden" id="modalRating"></span>
-        </div>
-
-        <!-- Categorías / Géneros (chips) -->
-        <div class="modal-categories-row hidden" id="modalCategoriesRow">
-          <div class="categories-chips-list" id="modalCategoriesList"></div>
-        </div>
-
+        <!-- 3. DESCRIPCIÓN -->
         <div class="modal-desc-box">
           <p id="modalDescription" class="modal-desc">Sin descripción disponible.</p>
         </div>
 
-        <!-- Sección de Créditos y Reparto -->
+        <!-- 4. ETIQUETA Y CATEGORÍAS (Etiqueta primero, luego categorías en la misma línea) -->
+        <div class="modal-categories-row hidden" id="modalCategoriesRow">
+          <div class="categories-chips-list" id="modalCategoriesList"></div>
+        </div>
+
+        <!-- 5. REPARTO -->
         <div id="modalCreditsSection" class="modal-credits-section hidden">
           <div id="modalDirectorRow" class="credit-row hidden">
             <span class="credit-label">Dirección:</span>
@@ -344,6 +335,25 @@
           <div id="modalActorsRow" class="credit-row hidden">
             <span class="credit-label">Reparto:</span>
             <div id="modalActorsList" class="actors-chips-list"></div>
+          </div>
+        </div>
+
+        <!-- 6. OTRA INFO (duración, año, país, etc.) -->
+        <div id="modalExtraInfo" class="modal-extra-info-section hidden">
+          <div class="extra-info-items">
+            <span class="meta-item hidden" id="modalDuration">
+              <span class="meta-label">Duración:</span>
+              <strong id="modalDurationVal"></strong>
+            </span>
+            <span class="meta-item hidden" id="modalYear">
+              <span class="meta-label">Año:</span>
+              <strong id="modalYearVal"></strong>
+            </span>
+            <span class="meta-item hidden" id="modalCountry">
+              <span class="meta-label">País:</span>
+              <strong id="modalCountryVal"></strong>
+            </span>
+            <span class="meta-badge-rating hidden" id="modalRating"></span>
           </div>
         </div>
 
