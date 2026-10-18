@@ -1813,6 +1813,7 @@ body.hide-banners .modal-banner-container {
   color: #e2e8f0;
   line-height: 1.6;
   margin: 0;
+  white-space: pre-line;
 }
 
 /* 4. Categorías */
