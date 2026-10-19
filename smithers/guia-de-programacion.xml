@@ -263037,7 +263037,7 @@ de Billy y Mandy</title>
     <date>2026</date>
     <category>Playoff sports</category>
     <category>Baseball</category>
-    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/beisbolmlb.jpg" />
   </programme>
   <programme start="20261021000000 -0300" stop="20261021020000 -0300" channel="5411">
     <title>SportsCenter</title>
@@ -263687,7 +263687,7 @@ de Billy y Mandy</title>
     <date>2000</date>
     <category>Baseball</category>
     <rating><value>A</value></rating>
-    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/beisbolmlb.jpg" />
   </programme>
   <programme start="20261024000000 -0300" stop="20261024040000 -0300" channel="5411">
     <title>SportsCenter</title>
@@ -263863,7 +263863,7 @@ de Billy y Mandy</title>
     <date>2000</date>
     <category>Baseball</category>
     <rating><value>A</value></rating>
-    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/beisbolmlb.jpg" />
   </programme>
   <programme start="20261025000000 -0300" stop="20261025020000 -0300" channel="5411">
     <title>SportsCenter</title>
@@ -266155,7 +266155,7 @@ de Billy y Mandy</title>
     <date>2026</date>
     <category>Playoff sports</category>
     <category>Baseball</category>
-    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/beisbolmlb.jpg" />
   </programme>
   <programme start="20261018195000 -0300" stop="20261018210000 -0300" channel="5412">
     <title>Fútbol Mexicano Femenino Primera División • Atlético San Luis vs FC Juárez</title>
@@ -266348,7 +266348,7 @@ de Billy y Mandy</title>
     <date>2026</date>
     <category>Playoff sports</category>
     <category>Baseball</category>
-    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/beisbolmlb.jpg" />
   </programme>
   <programme start="20261020000000 -0300" stop="20261020010000 -0300" channel="5412">
     <title>SportsCenter</title>
@@ -266614,7 +266614,7 @@ de Billy y Mandy</title>
     <date>2026</date>
     <category>Playoff sports</category>
     <category>Baseball</category>
-    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/beisbolmlb.jpg" />
   </programme>
   <programme start="20261021190000 -0300" stop="20261021200000 -0300" channel="5412">
     <title>Goles de la Eredivisie • Dutch League Highlights</title>
@@ -267185,7 +267185,7 @@ de Billy y Mandy</title>
     <date>2026</date>
     <category>Béisbol</category>
     <rating><value>TE</value></rating>
-    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/beisbolmlb.jpg" />
   </programme>
   <programme start="20261018210000 -0300" stop="20261019003000 -0300" channel="6412">
     <title>Fútbol Americano NFL • Dallas Cowboys vs Green Bay Packers</title>
@@ -284692,13 +284692,145 @@ de Billy y Mandy</title>
     <rating><value>TE</value></rating>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/loshijosdelosandes.jpg" />
   </programme>
-  <programme start="20261024233000 -0300" stop="20261025003000 -0300" channel="0429">
+  <programme start="20261024233000 -0300" stop="20261025010000 -0300" channel="0429">
     <title>WIN Noticias</title>
     <desc>La más completa información y todas las novedades del mundo deportivo nacional e internacional. Además, se tiene la más amplia cobertura de los deportistas colombianos en todo el mundo.</desc>
     <date>2014</date>
     <category>Reportaje</category>
     <rating><value>TE</value></rating>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/winnoticias.jpg" />
+  </programme>
+  <programme start="20261025010000 -0300" stop="20261025030000 -0300" channel="0429">
+    <title>Fútbol Colombiano Primera División • América de Cali vs Cúcuta Deportivo</title>
+    <sub-title>América de Cali vs. Cúcuta Deportivo</sub-title>
+    <desc>América de Cali vs Cúcuta Deportivo | Desde el estadio Pascual Guerrero, en Cali, Valle del Cauca, Colombia.</desc>
+    <date>2026</date>
+    <category>Fútbol</category>
+    <rating><value>+15</value></rating>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/futbolcolombianoprimeradivision.jpg" />
+  </programme>
+  <programme start="20261025030000 -0300" stop="20261025050000 -0300" channel="0429">
+    <title>Fútbol Colombiano</title>
+    <desc>Cobertura de los partidos de diversas categorías del fútbol colombiano.</desc>
+    <date>2016</date>
+    <category>Fútbol</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/futbolcolombiano.jpg" />
+  </programme>
+  <programme start="20261025050000 -0300" stop="20261025070000 -0300" channel="0429">
+    <title>Fútbol Colombiano Primera División • Once Caldas vs Deportivo Pereira</title>
+    <sub-title>Once Caldas vs. Deportivo Pereira</sub-title>
+    <desc>Once Caldas vs Deportivo Pereira | Desde el estadio Palogrande en Manizales, Caldas, Colombia.</desc>
+    <date>2026</date>
+    <category>Fútbol</category>
+    <rating><value>+15</value></rating>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/futbolcolombianoprimeradivision.jpg" />
+  </programme>
+  <programme start="20261025070000 -0300" stop="20261025073000 -0300" channel="0429">
+    <title>Los Hijos de los Andes</title>
+    <desc>Serie que recorre 75 años de historia del ciclismo colombiano.</desc>
+    <date>2026</date>
+    <category>Otros</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/loshijosdelosandes.jpg" />
+  </programme>
+  <programme start="20261025073000 -0300" stop="20261025080000 -0300" channel="0429">
+    <title>Una cancha llamada Colombia</title>
+    <desc>Proyecto social, deportivo, artístico, documental e integral de la Fundación Arte para el Cambio que evidencia cómo el fútbol se convierte en un eje de transformación social en cada rincón de Colombia.</desc>
+    <date>2021</date>
+    <category>Noticias</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/unacanchallamadacolombia.jpg" />
+  </programme>
+  <programme start="20261025080000 -0300" stop="20261025110000 -0300" channel="0429">
+    <title>Reto WIN</title>
+    <desc>Reto WIN llega como una nueva experiencia deportiva en Colombia, reuniendo a más de 3.000 corredores en sus categorías 7K y 11K, una jornada que combinará alto rendimiento, recreación y pasión por el deporte.</desc>
+    <date>2026</date>
+    <category>Otros</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/retowin.jpg" />
+  </programme>
+  <programme start="20261025110000 -0300" stop="20261025123000 -0300" channel="0429">
+    <title>Los Hijos de los Andes</title>
+    <desc>Serie que recorre 75 años de historia del ciclismo colombiano.</desc>
+    <date>2026</date>
+    <category>Otros</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/loshijosdelosandes.jpg" />
+  </programme>
+  <programme start="20261025123000 -0300" stop="20261025130000 -0300" channel="0429">
+    <title>Fútbol: Previa</title>
+    <desc>Reportajes, análisis y comentarios previo al gran evento deportivo.</desc>
+    <date>2003</date>
+    <category>Fútbol</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/futbol.jpg" />
+  </programme>
+  <programme start="20261025130000 -0300" stop="20261025150000 -0300" channel="0429">
+    <title>Fútbol Colombiano Primera División</title>
+    <desc>Toda la emoción, la acción y los goles, con el recuerdo de los mejores partidos de la Primera División del fútbol colombiano.</desc>
+    <date>2016</date>
+    <category>Fútbol</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/futbolcolombianoprimeradivision.jpg" />
+  </programme>
+  <programme start="20261025150000 -0300" stop="20261025160000 -0300" channel="0429">
+    <title>Fútbol: Previa</title>
+    <desc>Reportajes, análisis y comentarios previo al gran evento deportivo.</desc>
+    <date>2003</date>
+    <category>Fútbol</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/futbol.jpg" />
+  </programme>
+  <programme start="20261025160000 -0300" stop="20261025170000 -0300" channel="0429">
+    <title>WIN Noticias</title>
+    <desc>La más completa información y todas las novedades del mundo deportivo nacional e internacional. Además, se tiene la más amplia cobertura de los deportistas colombianos en todo el mundo.</desc>
+    <date>2014</date>
+    <category>Reportaje</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/winnoticias.jpg" />
+  </programme>
+  <programme start="20261025170000 -0300" stop="20261025190000 -0300" channel="0429">
+    <title>Fútbol Colombiano Primera División</title>
+    <desc>Toda la emoción, la acción y los goles, con el recuerdo de los mejores partidos de la Primera División del fútbol colombiano.</desc>
+    <date>2016</date>
+    <category>Fútbol</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/futbolcolombianoprimeradivision.jpg" />
+  </programme>
+  <programme start="20261025190000 -0300" stop="20261025193000 -0300" channel="0429">
+    <title>Sueños de cancha</title>
+    <desc>Más de mil jóvenes de entre 11 y 13 años se reúnen para encontrar a las futuras estrellas del fútbol de Bogotá. Darán muestra de su talento, disciplina y pasión por el fútbol.</desc>
+    <date>2025</date>
+    <category>Reality</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/suenosdecancha.jpg" />
+  </programme>
+  <programme start="20261025193000 -0300" stop="20261025200000 -0300" channel="0429">
+    <title>Fútbol: Previa</title>
+    <desc>Reportajes, análisis y comentarios previo al gran evento deportivo.</desc>
+    <date>2003</date>
+    <category>Fútbol</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/futbol.jpg" />
+  </programme>
+  <programme start="20261025200000 -0300" stop="20261025223000 -0300" channel="0429">
+    <title>[En vivo] Juego al aire • Atlético Nacional vs Independiente Medellín</title>
+    <sub-title>Atlético Nacional vs. Independiente Medellín</sub-title>
+    <desc>En vivo ║ Atlético Nacional vs Independiente Medellín | Otra forma de escuchar, ver y sentir el fútbol colombiano. Narración detallada, cámaras con otro punto de vista, estadísticas e información para disfrutar un partido y las reacciones durante el encuentro en otra dimensión.</desc>
+    <date>2026</date>
+    <category>Fútbol</category>
+    <rating><value>+15</value></rating>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261025223000 -0300" stop="20261025233000 -0300" channel="0429">
+    <title>Fútbol Colombiano Primera División • Deportes Tolima vs Deportivo Pasto</title>
+    <sub-title>Deportes Tolima vs. Deportivo Pasto</sub-title>
+    <desc>Deportes Tolima vs Deportivo Pasto | Acción del partido de ida de los cuartos de final del Torneo Apertura 2026 de la Categoría Primera A. Deportes Tolima se enfrenta a Deportivo Pasto. Desde el estadio Manuel Murillo Toro, en Ibagué, Colombia.</desc>
+    <date>2026</date>
+    <category>Fútbol</category>
+    <rating><value>+15</value></rating>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/futbolcolombianoprimeradivision.jpg" />
   </programme>
   <programme start="20261018120000 -0300" stop="20261018140000 -0300" channel="0430">
     <title>Fútbol Colombiano Primera División • Boyacá Chicó FC vs Atlético Nacional</title>
@@ -285583,7 +285715,7 @@ de Billy y Mandy</title>
     <rating><value>+15</value></rating>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/futbolcolombianoprimeradivision.jpg" />
   </programme>
-  <programme start="20261024223000 -0300" stop="20261024233000 -0300" channel="0430">
+  <programme start="20261024223000 -0300" stop="20261025003000 -0300" channel="0430">
     <title>Fútbol Colombiano Primera División • Once Caldas vs Deportivo Pereira</title>
     <sub-title>Once Caldas vs. Deportivo Pereira</sub-title>
     <desc>Once Caldas vs Deportivo Pereira | Desde el estadio Palogrande en Manizales, Caldas, Colombia.</desc>
@@ -285592,10 +285724,132 @@ de Billy y Mandy</title>
     <rating><value>+15</value></rating>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/futbolcolombianoprimeradivision.jpg" />
   </programme>
-  <programme start="20261024233000 -0300" stop="20261024235959 -0300" channel="0430">
-    <title>Win Sports Plus</title>
-    <desc>La informacion de este programa no se encuentra disponible.</desc>
-    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+  <programme start="20261025003000 -0300" stop="20261025010000 -0300" channel="0430">
+    <title>Win Noticias Noche</title>
+    <desc>Un completo recorrido por el deporte nacional e internacional en un show dinámico e informativo, con las mejores noticias.</desc>
+    <date>2014</date>
+    <category>Reportaje</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/winnoticiasnoche.jpg" />
+  </programme>
+  <programme start="20261025010000 -0300" stop="20261025030000 -0300" channel="0430">
+    <title>Fútbol Colombiano Primera División • Once Caldas vs Deportivo Pereira</title>
+    <sub-title>Once Caldas vs. Deportivo Pereira</sub-title>
+    <desc>Once Caldas vs Deportivo Pereira | Desde el estadio Palogrande en Manizales, Caldas, Colombia.</desc>
+    <date>2026</date>
+    <category>Fútbol</category>
+    <rating><value>+15</value></rating>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/futbolcolombianoprimeradivision.jpg" />
+  </programme>
+  <programme start="20261025030000 -0300" stop="20261025043000 -0300" channel="0430">
+    <title>WIN Noticias</title>
+    <desc>La más completa información y todas las novedades del mundo deportivo nacional e internacional. Además, se tiene la más amplia cobertura de los deportistas colombianos en todo el mundo.</desc>
+    <date>2014</date>
+    <category>Reportaje</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/winnoticias.jpg" />
+  </programme>
+  <programme start="20261025043000 -0300" stop="20261025050000 -0300" channel="0430">
+    <title>Una cancha llamada Colombia</title>
+    <desc>Proyecto social, deportivo, artístico, documental e integral de la Fundación Arte para el Cambio que evidencia cómo el fútbol se convierte en un eje de transformación social en cada rincón de Colombia.</desc>
+    <date>2021</date>
+    <category>Noticias</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/unacanchallamadacolombia.jpg" />
+  </programme>
+  <programme start="20261025050000 -0300" stop="20261025070000 -0300" channel="0430">
+    <title>Fútbol Brasileirao • Santos vs Bahía</title>
+    <sub-title>Santos vs. Bahía</sub-title>
+    <desc>Santos vs Bahía | Toda la acción con los partidos del campeonato brasileño de fútbol de Primera División.</desc>
+    <date>2026</date>
+    <category>Fútbol</category>
+    <rating><value>+15</value></rating>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/futbolbrasileirao.jpg" />
+  </programme>
+  <programme start="20261025070000 -0300" stop="20261025080000 -0300" channel="0430">
+    <title>Creyentes</title>
+    <desc>Vive las historias y hazañas de los clubes más importantes en el fútbol colombiano.</desc>
+    <date>2025</date>
+    <category>Fútbol</category>
+    <rating><value>18</value></rating>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/creyentes.jpg" />
+  </programme>
+  <programme start="20261025080000 -0300" stop="20261025100000 -0300" channel="0430">
+    <title>Fútbol Colombiano</title>
+    <desc>Cobertura de los partidos de diversas categorías del fútbol colombiano.</desc>
+    <date>2016</date>
+    <category>Fútbol</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/futbolcolombiano.jpg" />
+  </programme>
+  <programme start="20261025100000 -0300" stop="20261025103000 -0300" channel="0430">
+    <title>Sueños de cancha</title>
+    <desc>Más de mil jóvenes de entre 11 y 13 años se reúnen para encontrar a las futuras estrellas del fútbol de Bogotá. Darán muestra de su talento, disciplina y pasión por el fútbol.</desc>
+    <date>2025</date>
+    <category>Reality</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/suenosdecancha.jpg" />
+  </programme>
+  <programme start="20261025103000 -0300" stop="20261025120000 -0300" channel="0430">
+    <title>WIN Noticias</title>
+    <desc>La más completa información y todas las novedades del mundo deportivo nacional e internacional. Además, se tiene la más amplia cobertura de los deportistas colombianos en todo el mundo.</desc>
+    <date>2014</date>
+    <category>Reportaje</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/winnoticias.jpg" />
+  </programme>
+  <programme start="20261025120000 -0300" stop="20261025140000 -0300" channel="0430">
+    <title>Fútbol Colombiano Primera División • América de Cali vs Cúcuta Deportivo</title>
+    <sub-title>América de Cali vs. Cúcuta Deportivo</sub-title>
+    <desc>América de Cali vs Cúcuta Deportivo | Desde el estadio Pascual Guerrero, en Cali, Valle del Cauca, Colombia.</desc>
+    <date>2026</date>
+    <category>Fútbol</category>
+    <rating><value>+15</value></rating>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/futbolcolombianoprimeradivision.jpg" />
+  </programme>
+  <programme start="20261025140000 -0300" stop="20261025160000 -0300" channel="0430">
+    <title>Fútbol: Previa</title>
+    <desc>Reportajes, análisis y comentarios previo al gran evento deportivo.</desc>
+    <date>2003</date>
+    <category>Fútbol</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/futbol.jpg" />
+  </programme>
+  <programme start="20261025160000 -0300" stop="20261025180000 -0300" channel="0430">
+    <title>[En vivo] Fútbol Colombiano Primera División • Fortaleza vs Deportivo Cali</title>
+    <sub-title>Fortaleza vs. Deportivo Cali</sub-title>
+    <desc>En vivo ║ Fortaleza vs Deportivo Cali | Desde el Estadio Metropolitano de Techo, en Bogotá, Colombia.</desc>
+    <date>2026</date>
+    <category>Fútbol</category>
+    <rating><value>+15</value></rating>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/futbolcolombianoprimeradivision.jpg" />
+  </programme>
+  <programme start="20261025180000 -0300" stop="20261025200000 -0300" channel="0430">
+    <title>Fútbol Colombiano Primera División • Alianza FC vs Internacional de Bogotá</title>
+    <sub-title>Alianza FC vs. Internacional de Bogotá</sub-title>
+    <desc>Alianza FC vs Internacional de Bogotá | Desde el Estadio Armando Maestre Pavajeau en Valledupar, Colombia.</desc>
+    <date>2026</date>
+    <category>Fútbol</category>
+    <rating><value>+15</value></rating>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/futbolcolombianoprimeradivision.jpg" />
+  </programme>
+  <programme start="20261025200000 -0300" stop="20261025223000 -0300" channel="0430">
+    <title>Fútbol Colombiano Primera División • Atlético Nacional vs Independiente Medellín</title>
+    <sub-title>Atlético Nacional vs. Independiente Medellín</sub-title>
+    <desc>Atlético Nacional vs Independiente Medellín | Desde el estadio Atanasio Girardot en Medellín, Colombia.</desc>
+    <date>2026</date>
+    <category>Fútbol</category>
+    <rating><value>+15</value></rating>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/futbolcolombianoprimeradivision.jpg" />
+  </programme>
+  <programme start="20261025223000 -0300" stop="20261025233000 -0300" channel="0430">
+    <title>Fútbol Colombiano Primera División • Deportes Tolima vs Deportivo Pasto</title>
+    <sub-title>Deportes Tolima vs. Deportivo Pasto</sub-title>
+    <desc>Deportes Tolima vs Deportivo Pasto | Acción del partido de ida de los cuartos de final del Torneo Apertura 2026 de la Categoría Primera A. Deportes Tolima se enfrenta a Deportivo Pasto. Desde el estadio Manuel Murillo Toro, en Ibagué, Colombia.</desc>
+    <date>2026</date>
+    <category>Fútbol</category>
+    <rating><value>+15</value></rating>
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/futbolcolombianoprimeradivision.jpg" />
   </programme>
   <programme start="20261018131500 -0300" stop="20261018132500 -0300" channel="0431">
     <title>[En vivo] La previa - LaLiga • Málaga vs Real Sociedad, Fecha 9, Estadio La Rosaleda</title>
@@ -386718,7 +386972,7 @@ Y mientras la vida de Iñaki transcurre plácidamente, un día se ve obligado a 
   </programme>
   <programme start="20261019123500 -0300" stop="20261019141500 -0300" channel="0621">
     <title>Muerte en el alma</title>
-    <desc>Un hombre admite haber matado a su amado hijo sin dar explicación. Su abogado, decidido a descubrir la verdad, destapa oscuros secretos familiares y una inquietante conexión con una serie de asesinatos sin resolver.</desc>
+    <desc>Marc Lagnier se confiesa como el autor material del asesinato de su adorado hijo. Se auto inculpa, pero no explica sus razones. Tristan Delmas, un ambicioso joven abogado, se encargará de defender a Marc, en contra de la voluntad de éste. Buscando la verdad, Tristan investiga a la familia Lagnier, desvelando oscuros secretos.</desc>
     <credits>
       <director>Xavier Durringer</director>
       <actor>Didier Bourdon</actor>
@@ -387606,7 +387860,7 @@ Y mientras la vida de Iñaki transcurre plácidamente, un día se ve obligado a 
   </programme>
   <programme start="20261022011000 -0300" stop="20261022025000 -0300" channel="0621">
     <title>Muerte en el alma</title>
-    <desc>Un hombre admite haber matado a su amado hijo sin dar explicación. Su abogado, decidido a descubrir la verdad, destapa oscuros secretos familiares y una inquietante conexión con una serie de asesinatos sin resolver.</desc>
+    <desc>Marc Lagnier se confiesa como el autor material del asesinato de su adorado hijo. Se auto inculpa, pero no explica sus razones. Tristan Delmas, un ambicioso joven abogado, se encargará de defender a Marc, en contra de la voluntad de éste. Buscando la verdad, Tristan investiga a la familia Lagnier, desvelando oscuros secretos.</desc>
     <credits>
       <director>Xavier Durringer</director>
       <actor>Didier Bourdon</actor>
@@ -542288,7 +542542,7 @@ El brujo Gargamel y su gato Azrael, intentan siempre y por todos los medios capt
     <category>Terror</category>
     <episode-num system="onscreen">T1 E1</episode-num>
     <rating><value>18</value></rating>
-    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/thelastofus.jpg" />
   </programme>
   <programme start="20261024153800 -0300" stop="20261024163200 -0300" channel="0817">
     <title>The Last of Us • Infectados</title>
@@ -542308,7 +542562,7 @@ El brujo Gargamel y su gato Azrael, intentan siempre y por todos los medios capt
     <category>Terror</category>
     <episode-num system="onscreen">T1 E2</episode-num>
     <rating><value>18</value></rating>
-    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/thelastofus.jpg" />
   </programme>
   <programme start="20261024163200 -0300" stop="20261024175000 -0300" channel="0817">
     <title>The Last of Us • Mucho mucho tiempo</title>
@@ -542327,7 +542581,7 @@ El brujo Gargamel y su gato Azrael, intentan siempre y por todos los medios capt
     <category>Terror</category>
     <episode-num system="onscreen">T1 E3</episode-num>
     <rating><value>18</value></rating>
-    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/thelastofus.jpg" />
   </programme>
   <programme start="20261024175000 -0300" stop="20261024183800 -0300" channel="0817">
     <title>The Last of Us • Por favor, toma mi mano</title>
@@ -542346,7 +542600,7 @@ El brujo Gargamel y su gato Azrael, intentan siempre y por todos los medios capt
     <category>Terror</category>
     <episode-num system="onscreen">T1 E4</episode-num>
     <rating><value>18</value></rating>
-    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/thelastofus.jpg" />
   </programme>
   <programme start="20261024183800 -0300" stop="20261024194000 -0300" channel="0817">
     <title>The Last of Us • Resistir y sobrevivir</title>
@@ -542365,7 +542619,7 @@ El brujo Gargamel y su gato Azrael, intentan siempre y por todos los medios capt
     <category>Terror</category>
     <episode-num system="onscreen">T1 E5</episode-num>
     <rating><value>18</value></rating>
-    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/thelastofus.jpg" />
   </programme>
   <programme start="20261024194000 -0300" stop="20261024204000 -0300" channel="0817">
     <title>The Last of Us • Parentesco</title>
@@ -542384,7 +542638,7 @@ El brujo Gargamel y su gato Azrael, intentan siempre y por todos los medios capt
     <category>Terror</category>
     <episode-num system="onscreen">T1 E6</episode-num>
     <rating><value>18</value></rating>
-    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/thelastofus.jpg" />
   </programme>
   <programme start="20261024204000 -0300" stop="20261024213800 -0300" channel="0817">
     <title>The Last of Us • Lo que dejamos atrás</title>
@@ -542403,7 +542657,7 @@ El brujo Gargamel y su gato Azrael, intentan siempre y por todos los medios capt
     <category>Terror</category>
     <episode-num system="onscreen">T1 E7</episode-num>
     <rating><value>18</value></rating>
-    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/thelastofus.jpg" />
   </programme>
   <programme start="20261024213800 -0300" stop="20261024223800 -0300" channel="0817">
     <title>The Last of Us • Cuando más necesitamos</title>
@@ -542423,7 +542677,7 @@ El brujo Gargamel y su gato Azrael, intentan siempre y por todos los medios capt
     <category>Terror</category>
     <episode-num system="onscreen">T1 E8</episode-num>
     <rating><value>18</value></rating>
-    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/thelastofus.jpg" />
   </programme>
   <programme start="20261024223800 -0300" stop="20261024233000 -0300" channel="0817">
     <title>The Last of Us • Busca la luz</title>
@@ -542442,7 +542696,7 @@ El brujo Gargamel y su gato Azrael, intentan siempre y por todos los medios capt
     <category>Terror</category>
     <episode-num system="onscreen">T1 E9</episode-num>
     <rating><value>18</value></rating>
-    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/thelastofus.jpg" />
   </programme>
   <programme start="20261024233000 -0300" stop="20261025000000 -0300" channel="0817">
     <title>Youth</title>
@@ -562869,7 +563123,7 @@ El brujo Gargamel y su gato Azrael, intentan siempre y por todos los medios capt
   </programme>
   <programme start="20261023190300 -0300" stop="20261023205600 -0300" channel="1824">
     <title>Secretos ocultos</title>
-    <desc>En 1969, los cuatro hermanos Jack, Billy, Jane y Sam llegan a Marrowbone junto a su madre después de haber escapado de Inglaterra. En la nueva casa intentan empezar una nueva vida lejos de su padre, un hombre violento y con un pasado criminal. Poco después de su llegada, su madre fallece repentinamente y los chicos deciden esconder el asunto para que no los separen. Se esconden en su granja, donde son acechados por una siniestra presencia.</desc>
+    <desc>Fingiendo tener 18 años en lugar de 16, Amara utiliza una aplicación de citas para encontrar a su novio Shane, aunque su madre, Diane, lo desaprueba. Pronto, Diane y Amara son acechadas y acosadas. Cuando Diane indaga un poco más en el pasado de Shane, descubre que es la pesadilla de cualquier madre.</desc>
     <credits>
       <director>Sergio G. Sánchez</director>
       <actor>George MacKay</actor>
@@ -563755,7 +564009,7 @@ El brujo Gargamel y su gato Azrael, intentan siempre y por todos los medios capt
   </programme>
   <programme start="20261019093700 -0300" stop="20261019111400 -0300" channel="0825">
     <title>Entonces llegaste tú</title>
-    <desc>Una viuda solitaria planea un viaje alrededor del mundo con las cenizas de su esposo, para visitar los lugares que amaban en las películas. Durante su primera parada en Escocia, en la hermosa finca en la que se queda, conoce al posadero, quien cambiará su vida para siempre.</desc>
+    <desc>Una viuda solitaria planea un viaje alrededor del mundo con las cenizas de su esposo, para visitar los lugares que amaban en las películas. Durante su primera parada en Escocia en la hermosa finca en la que se queda, conoce al posadero que cambia su vida para siempre.</desc>
     <credits>
       <director>Adriana Trigiani</director>
       <actor>Elizabeth Hurley</actor>
@@ -563772,7 +564026,7 @@ El brujo Gargamel y su gato Azrael, intentan siempre y por todos los medios capt
     <date>2020</date>
     <category>Comedia</category>
     <country>EE. UU</country>
-    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/entoncesllegastetu.jpg" />
   </programme>
   <programme start="20261019111400 -0300" stop="20261019124000 -0300" channel="0825">
     <title>Rock Dog 3</title>
@@ -723705,9 +723959,9 @@ Andrés Gil</desc>
   </programme>
   <programme start="20261021004800 -0300" stop="20261021021500 -0300" channel="0973">
     <title>Hiroshima</title>
-    <desc>Una poderosa declaración contra la guerra, Hiroshima es una historia sobre el efecto de la bomba atómica sobre la vida de un niño y la vida del pueblo japonés.</desc>
+    <desc>Desgarradora, intensa y conmovedora película antibelicista, &quot;Hiroshima&quot; es un &#x27;anime&#x27; de culto que narra, desde el punto de vista de un niño, las devastadoras consecuencias de la explosión de la primera bomba atómica de la historia sobre la ciudad japonesa.Tras casi cuatro años de guerra en el Pacífico, Gen, su familia y el resto de ciudadanos de Hiroshima están acostumbrados a buscar refugio cuando los aviones aliados sobrevuelan la ciudad. En realidad, nunca han sido bombardeados... hasta el 6 de agosto de 1945.Basada en el manga homónimo de Keiji Nakazawa -en el que el &#x27;mangaka&#x27; narraba sus propias experiencias durante la explosión nuclear en Hiroshima-, la película ofrece imágenes muy gráficas -y, a veces, incluso, brutales- sobre aquellos acontecimientos hasta llegar a un final extraña y hermosamente esperanzador.</desc>
     <category>MOVIES</category>
-    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/hiroshima.jpg" />
   </programme>
   <programme start="20261021021500 -0300" stop="20261021041400 -0300" channel="0973">
     <title>Macross Frontier, La Falsa Diva</title>
@@ -723855,9 +724109,9 @@ Andrés Gil</desc>
   </programme>
   <programme start="20261022153900 -0300" stop="20261022171200 -0300" channel="0973">
     <title>Lupin III vs Ojos de Gato</title>
-    <desc>Hitomi, Rui y Ai son hermanas y ladronas. Roban una pintura de un museo casi al mismo tiempo que Lupin III aparece y roba otro cuadro. Ambas pinturas son parte de la serie de Michael Heinz titulada &quot;La chica y las flores&quot;. Para ellas, los cuadros son pistas valiosas para averiguar el paradero de su padre. Cuando descubren que Lupin tiene el mismo objetivo, se enciende una llama en su interior.</desc>
+    <desc>Hitomi, Rui y Ai son hermanas y ladronas de gatos. Roban una pintura de un museo casi al mismo tiempo que Lupin III parece robar otra pintura él mismo. Ambas pinturas son parte de la serie de Michael Heinz titulada La niña y las flores. Para las niñas, las pinturas son pistas sobre el paradero de su padre desaparecido. Cuando se enteran de que Lupin persigue el mismo objetivo, se enciende un fuego dentro de ellos.</desc>
     <category>MOVIES</category>
-    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/lupiniiivsojosdegato.jpg" />
   </programme>
   <programme start="20261022171200 -0300" stop="20261022183500 -0300" channel="0973">
     <title>Earwig y la bruja</title>
@@ -730453,9 +730707,9 @@ Andrés Gil</desc>
   </programme>
   <programme start="20261021214100 -0300" stop="20261021234200 -0300" channel="0976">
     <title>Bajo el hechizo del deseo</title>
-    <desc>Siguiendo la estela de &quot;Bombay Talkies&quot; de 2013, cuatro de los directores más importantes del país analizan el amor, el sexo y las relaciones en la India actual.</desc>
+    <desc>Cuatro cortometrajes exploran historias acerca de quienes se atreven a soñar y desear, y también de quienes están decididos a interponerse en su camino.</desc>
     <category>MOVIES</category>
-    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
+    <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/bajoelhechizodeldeseo.jpg" />
   </programme>
   <programme start="20261021234200 -0300" stop="20261022025500 -0300" channel="0976">
     <title>Avatar: El camino del agua</title>
@@ -731422,7 +731676,7 @@ Andrés Gil</desc>
   </programme>
   <programme start="20261021032300 -0300" stop="20261021050900 -0300" channel="0978">
     <title>Metegol</title>
-    <desc>Amadeo es un fenómeno jugando al futbolín y está enamorado de Laura, su mejor amiga, aunque nunca se ha atrevido a decírselo. Desde pequeño se ha pasado la vida jugando al futbolín en el bar que su padre regenta en un pueblo pequeño, donde el tiempo pasa sin sobresaltos. Su vida tranquila se termina el día en el que &quot;el Crack&quot;, un joven del pueblo convertido en el mejor futbolista del mundo, vuelve dispuesto a vengarse de la única derrota de su vida: la que sufrió frente a Amadeo jugando al futbolín siendo niños. Con el futbolín, el bar y su corazón hechos pedazos, Amadeo descubre algo mágico: los jugadores de su querido futbolín hablan ¡y mucho! Guiados por su líder, el carismático Capi, los jugadores del futboliín y Amadeo se embarcarán en una fantástica aventura para salvar a Laura y al pueblo. En este camino se convertirán en un verdadero equipo y conocerán el amor, el respeto, la amistad y la pasión. Pero, ¿hay en el mundo y en el fútbol lugar para los milagros?</desc>
+    <desc>Eduardo Sacheri, el autor y guionista de El secreto de sus ojos, estará a cargo del guión de la secuela de Metegol que será producida por Juan José Campanella. Aún no se conoce al director ni cuál será la fecha de estreno para &quot;Futbolín 2&quot;</desc>
     <category>Movies</category>
     <icon src="https://cdn.jsdelivr.net/gh/Puticastillo/EPGCL@main/zoidberg/fallback.jpg" />
   </programme>
