@@ -65,6 +65,7 @@
     el.channelCounter = document.getElementById('channelCounter');
     el.liveClock = document.getElementById('liveClock');
     el.btnSettings = document.getElementById('btnSettings');
+    el.chkFilterFavorites = document.getElementById('chkFilterFavorites');
     
     el.appContainer = document.getElementById('appContainer');
     el.loader = document.getElementById('loader');
@@ -526,6 +527,8 @@
     }
 
     closeGuideChDropdown();
+    document.body.classList.remove('header-hidden');
+    if (el.appContainer) el.appContainer.scrollTop = 0;
 
     updateNavButtonsUI();
 
@@ -567,10 +570,12 @@
   }
 
   function updateNavButtonsUI() {
-    if (state.currentView !== 'cards' || state.searchQuery) {
-      el.btnBack.classList.remove('hidden');
-    } else {
-      el.btnBack.classList.add('hidden');
+    if (el.btnBack) {
+      if (state.currentView !== 'cards' || state.searchQuery) {
+        el.btnBack.classList.remove('hidden');
+      } else {
+        el.btnBack.classList.add('hidden');
+      }
     }
   }
 
@@ -1366,12 +1371,10 @@
         tagHtml = `<span class="tag-pill">${escapeHtml(prog.tag)}</span>`;
       }
 
-      // Etiquetas de metadatos rápidos (Año, Clasificación, Género)
+      // Etiquetas de metadatos rápidos (Solo Clasificación de edad, quitando año y categoría)
       let metaExtraHtml = '';
       const metaItems = [];
-      if (prog.year) metaItems.push(`<span class="guide-chip-year">${escapeHtml(prog.year)}</span>`);
       if (prog.rating) metaItems.push(`<span class="guide-chip-rating">${escapeHtml(prog.rating)}</span>`);
-      if (prog.category) metaItems.push(`<span class="guide-chip-cat">${escapeHtml(prog.category)}</span>`);
       if (metaItems.length > 0) {
         metaExtraHtml = `<div class="guide-prog-chips-row">${metaItems.join('')}</div>`;
       }
@@ -2005,16 +2008,19 @@
   }
 
   function updateFavCount() {
-    el.favCount.innerText = state.favorites.size;
+    if (el.favCount) el.favCount.innerText = state.favorites.size;
   }
 
   function updateChannelCounter() {
-    const total = state.channels.length;
-    el.channelCounter.innerText = `${total} canales`;
+    if (el.channelCounter) {
+      const total = state.channels.length;
+      el.channelCounter.innerText = `${total} canales`;
+    }
   }
 
   function startLiveClock() {
     function tick() {
+      if (!el.liveClock) return;
       const d = new Date();
       const h = String(d.getHours()).padStart(2, '0');
       const m = String(d.getMinutes()).padStart(2, '0');
@@ -2516,7 +2522,7 @@
   // 12. EVENT LISTENERS
   // ==========================================================================
   function setupEventListeners() {
-    el.btnBack.onclick = goBack;
+    if (el.btnBack) el.btnBack.onclick = goBack;
 
     el.brandLogo.onclick = () => {
       navigateTo('cards', null, true);
@@ -2797,11 +2803,24 @@
     };
 
     // Modal Ajustes
-    el.btnSettings.onclick = () => el.modalSettings.classList.remove('hidden');
+    el.btnSettings.onclick = () => {
+      if (el.chkFilterFavorites) {
+        el.chkFilterFavorites.checked = (state.filter === 'favorites');
+      }
+      el.modalSettings.classList.remove('hidden');
+    };
     el.btnCloseSettings.onclick = () => el.modalSettings.classList.add('hidden');
     el.modalSettings.onclick = (e) => {
       if (e.target === el.modalSettings) el.modalSettings.classList.add('hidden');
     };
+
+    if (el.chkFilterFavorites) {
+      el.chkFilterFavorites.checked = (state.filter === 'favorites');
+      el.chkFilterFavorites.onchange = (e) => {
+        state.filter = e.target.checked ? 'favorites' : 'all';
+        renderActiveView();
+      };
+    }
 
     el.chkShowPosters.onchange = (e) => {
       state.showBanners = e.target.checked;
@@ -2868,6 +2887,32 @@
         adjustListChapters();
       }
     });
+
+    // Ocultar barra principal (#mainHeader) al deslizar hacia abajo y restaurar al deslizar hacia arriba
+    let lastScrollTop = 0;
+    let isHeaderHidden = false;
+    if (el.appContainer) {
+      el.appContainer.addEventListener('scroll', () => {
+        if (el.guideSidebar && el.guideSidebar.classList.contains('mobile-open')) return;
+        if (el.searchBox && el.searchBox.classList.contains('mobile-open')) return;
+
+        const st = el.appContainer.scrollTop;
+        if (st < 0) return;
+
+        if (st > 40 && st > lastScrollTop + 8) {
+          if (!isHeaderHidden) {
+            document.body.classList.add('header-hidden');
+            isHeaderHidden = true;
+          }
+        } else if (st < lastScrollTop - 12 || st <= 15) {
+          if (isHeaderHidden) {
+            document.body.classList.remove('header-hidden');
+            isHeaderHidden = false;
+          }
+        }
+        lastScrollTop = st;
+      }, { passive: true });
+    }
   }
 
   

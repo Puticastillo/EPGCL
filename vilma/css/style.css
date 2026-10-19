@@ -25,7 +25,7 @@
   --star-gold: #f59e0b;
 
   --header-height: 64px;
-  --subheader-height: 48px;
+  --subheader-height: 0px;
   --font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
   --font-mono: 'JetBrains Mono', monospace;
 }
@@ -74,6 +74,11 @@ body.hide-banners .modal-banner-container {
   right: 0;
   z-index: 100;
   gap: 16px;
+  transition: transform 0.28s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+body.header-hidden #mainHeader {
+  transform: translateY(-100%);
 }
 
 .header-left {
@@ -234,22 +239,8 @@ body.hide-banners .modal-banner-container {
   border-color: rgba(255, 255, 255, 0.15);
 }
 
-/* ==========================================================================
-   SUBHEADER / FILTROS RÁPIDOS
-   ========================================================================== */
 .sub-header {
-  height: var(--subheader-height);
-  background: var(--bg-surface);
-  border-bottom: 1px solid var(--border-subtle);
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0 24px;
-  position: fixed;
-  top: var(--header-height);
-  left: 0;
-  right: 0;
-  z-index: 90;
+  display: none !important;
 }
 
 .filter-group {
@@ -305,13 +296,18 @@ body.hide-banners .modal-banner-container {
    ========================================================================== */
 #appContainer {
   position: fixed;
-  top: calc(var(--header-height) + var(--subheader-height));
+  top: var(--header-height);
   left: 0;
   right: 0;
   bottom: 0;
   overflow-y: auto;
   overflow-x: hidden;
   padding: 24px;
+  transition: top 0.28s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+body.header-hidden #appContainer {
+  top: 0;
 }
 
 .view-section {
@@ -1266,6 +1262,13 @@ body.hide-banners .modal-banner-container {
   display: flex;
   flex-direction: column;
   overflow: hidden;
+}
+
+.guide-header-sticky-wrap {
+  display: flex;
+  flex-direction: column;
+  background: var(--bg-surface);
+  z-index: 10;
 }
 
 .guide-channel-header {
@@ -2532,7 +2535,7 @@ input:checked + .slider:before {
 @media (max-width: 768px) {
   :root {
     --header-height: 56px;
-    --subheader-height: 44px;
+    --subheader-height: 0px;
   }
 
   /* 1. Cabecera Móvil Compacta */
@@ -2745,10 +2748,15 @@ input:checked + .slider:before {
 
   /* 4. Contenedor Principal Ajustado al Bottom Bar */
   #appContainer {
-    top: calc(var(--header-height) + var(--subheader-height));
+    top: var(--header-height);
     bottom: calc(58px + env(safe-area-inset-bottom, 0px));
-    padding: 14px 12px calc(20px + env(safe-area-inset-bottom, 0px)) 12px;
+    padding: 8px 12px calc(20px + env(safe-area-inset-bottom, 0px)) 12px;
     -webkit-overflow-scrolling: touch;
+    transition: top 0.28s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+
+  body.header-hidden #appContainer {
+    top: 0;
   }
 
   /* 5. Banner Hero en Móvil */
@@ -3019,6 +3027,51 @@ input:checked + .slider:before {
     display: block !important;
     position: relative;
     height: auto !important;
+    overflow: visible !important;
+  }
+
+  .guide-main {
+    display: block !important;
+    background: transparent !important;
+    border: none !important;
+    border-radius: 0 !important;
+    overflow: visible !important;
+    height: auto !important;
+  }
+
+  /* Bloque anclado (sticky) con cabecera de canal y pestañas de fecha */
+  .guide-header-sticky-wrap {
+    position: sticky;
+    top: 0;
+    z-index: 85;
+    background: #0b0d13;
+    margin: -8px -12px 10px -12px;
+    padding: 8px 12px 6px 12px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4);
+  }
+
+  /* Cortina superior opaca que bloquea completamente los programas que suben al deslizar */
+  .guide-header-sticky-wrap::before {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: -20px;
+    right: -20px;
+    height: 150px;
+    background: #0b0d13;
+    pointer-events: none;
+  }
+
+  .guide-header-sticky-wrap .guide-channel-header {
+    margin-bottom: 6px !important;
+  }
+
+  .guide-header-sticky-wrap .date-tabs {
+    padding: 2px 0 4px 0 !important;
+    background: transparent !important;
+    border-bottom: none !important;
+    gap: 6px !important;
   }
 
   /* Menú desplegable móvil (oculto por defecto, se despliega al tocar 'Cambiar') */
@@ -3028,11 +3081,11 @@ input:checked + .slider:before {
 
   .guide-sidebar.mobile-open {
     display: flex !important;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 95;
+    position: fixed;
+    top: calc(var(--header-height) + 8px);
+    left: 12px;
+    right: 12px;
+    z-index: 160;
     background: #141824;
     border: 1px solid rgba(56, 189, 248, 0.4);
     border-radius: 12px;
@@ -3040,6 +3093,10 @@ input:checked + .slider:before {
     max-height: 380px;
     overflow: hidden;
     animation: dropdownSlideDown 0.22s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+
+  body.header-hidden .guide-sidebar.mobile-open {
+    top: 8px;
   }
 
   @keyframes dropdownSlideDown {
@@ -3112,8 +3169,12 @@ input:checked + .slider:before {
   }
 
   .guide-timeline {
+    display: flex !important;
+    flex-direction: column !important;
+    overflow: visible !important;
+    height: auto !important;
     gap: 10px;
-    padding-bottom: 24px;
+    padding-bottom: 32px;
   }
 
   .guide-prog-card {
