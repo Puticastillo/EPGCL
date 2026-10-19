@@ -173,6 +173,14 @@ body.header-hidden #mainHeader {
   gap: 12px;
 }
 
+.desktop-only {
+  display: flex !important;
+}
+
+.mobile-bottom-nav {
+  display: none !important;
+}
+
 .view-tabs {
   display: flex;
   background: var(--bg-input);
@@ -2665,23 +2673,28 @@ input:checked + .slider:before {
     height: 36px;
   }
 
-  /* 2. Barra de Navegación Inferior Nativa (Bottom App Bar) */
-  .view-tabs {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: calc(58px + env(safe-area-inset-bottom, 0px));
-    padding-bottom: env(safe-area-inset-bottom, 0px);
-    background: #11141e;
-    border-top: 1px solid var(--border-subtle);
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    z-index: 150;
-    box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.5);
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
+  .desktop-only {
+    display: none !important;
+  }
+
+  /* 2. Barra de Navegación Inferior Nativa (Bottom App Bar Fijo e Independiente) */
+  .mobile-bottom-nav {
+    display: flex !important;
+    position: fixed !important;
+    bottom: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    height: calc(58px + env(safe-area-inset-bottom, 0px)) !important;
+    padding-bottom: env(safe-area-inset-bottom, 0px) !important;
+    background: #11141e !important;
+    border-top: 1px solid var(--border-subtle) !important;
+    border-radius: 0 !important;
+    align-items: center !important;
+    justify-content: space-around !important;
+    z-index: 150 !important;
+    box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.5) !important;
+    backdrop-filter: blur(10px) !important;
+    -webkit-backdrop-filter: blur(10px) !important;
   }
 
   .view-tabs .tab-btn {
