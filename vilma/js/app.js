@@ -110,12 +110,28 @@
     el.guideSelectedMeta = document.getElementById('guideSelectedMeta');
     el.guideDateTabs = document.getElementById('guideDateTabs');
     el.guideTimeline = document.getElementById('guideTimeline');
-    el.guideMobileChPicker = document.getElementById('guideMobileChPicker');
-    el.guidePickerLogo = document.getElementById('guidePickerLogo');
-    el.guidePickerName = document.getElementById('guidePickerName');
     el.btnToggleGuideChannels = document.getElementById('btnToggleGuideChannels');
     el.guideSidebar = document.getElementById('guideSidebar');
     el.guideChHeader = document.getElementById('guideChHeader');
+    el.guideChHeaderMain = document.getElementById('guideChHeaderMain');
+    el.btnCloseGuideSidebar = document.getElementById('btnCloseGuideSidebar');
+
+    // Modal de Opciones del Canal (Long-press)
+    el.modalChannelActions = document.getElementById('modalChannelActions');
+    el.modalActionChLogo = document.getElementById('modalActionChLogo');
+    el.modalActionChName = document.getElementById('modalActionChName');
+    el.btnCloseChannelActions = document.getElementById('btnCloseChannelActions');
+    el.btnActionCopyName = document.getElementById('btnActionCopyName');
+    el.btnActionCopyId = document.getElementById('btnActionCopyId');
+    el.btnActionSearchFeeds = document.getElementById('btnActionSearchFeeds');
+    el.actionCopyNameDesc = document.getElementById('actionCopyNameDesc');
+    el.actionCopyIdDesc = document.getElementById('actionCopyIdDesc');
+    el.actionSearchFeedsDesc = document.getElementById('actionSearchFeedsDesc');
+    el.actionFeedsCountBadge = document.getElementById('actionFeedsCountBadge');
+
+    // Toast
+    el.toastNotification = document.getElementById('toastNotification');
+    el.toastMessage = document.getElementById('toastMessage');
 
     // 5. Búsqueda
     el.viewSearch = document.getElementById('viewSearch');
@@ -1253,10 +1269,8 @@
       el.btnToggleGuideChannels.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
       const chevron = el.btnToggleGuideChannels.querySelector('.picker-chevron');
       if (chevron) chevron.classList.toggle('open', isOpen);
-      const text = el.btnToggleGuideChannels.querySelector('.picker-toggle-text');
-      if (text) text.innerText = isOpen ? 'Cerrar' : 'Cambiar';
     }
-    if (isOpen && el.guideChSearch && window.innerWidth > 768) {
+    if (isOpen && el.guideChSearch) {
       setTimeout(() => el.guideChSearch.focus(), 80);
     }
   }
@@ -1268,8 +1282,6 @@
       el.btnToggleGuideChannels.setAttribute('aria-expanded', 'false');
       const chevron = el.btnToggleGuideChannels.querySelector('.picker-chevron');
       if (chevron) chevron.classList.remove('open');
-      const text = el.btnToggleGuideChannels.querySelector('.picker-toggle-text');
-      if (text) text.innerText = 'Cambiar';
     }
   }
 
@@ -1297,11 +1309,8 @@
 
     el.guideSelectedLogo.src = ch.icon || EMPTY_IMG;
     el.guideSelectedName.innerText = ch.name;
-    el.guideSelectedMeta.innerText = `Canal ${ch.id} • ${ch.programs ? ch.programs.length : 0} programas en guía`;
-
-    // Actualizar el selector desplegable móvil
-    if (el.guidePickerLogo) el.guidePickerLogo.src = ch.icon || EMPTY_IMG;
-    if (el.guidePickerName) el.guidePickerName.innerText = `${ch.id} • ${ch.name}`;
+    // Ocultar ID del canal por completo
+    el.guideSelectedMeta.innerText = `${ch.programs ? ch.programs.length : 0} programas en guía`;
 
     renderGuideDateTabs();
 
@@ -2359,6 +2368,151 @@
   }
 
   // ==========================================================================
+  // 11B. TOAST Y OPCIONES DE CANAL (LONG-PRESS / MANTENER PRESIONADO)
+  // ==========================================================================
+  let toastTimer = null;
+  function showToast(message) {
+    if (!el.toastNotification || !el.toastMessage) return;
+    el.toastMessage.innerText = message;
+    el.toastNotification.classList.remove('hidden');
+    void el.toastNotification.offsetWidth;
+    el.toastNotification.classList.add('visible');
+    if (toastTimer) clearTimeout(toastTimer);
+    toastTimer = setTimeout(() => {
+      el.toastNotification.classList.remove('visible');
+      setTimeout(() => {
+        el.toastNotification.classList.add('hidden');
+      }, 240);
+    }, 2200);
+  }
+
+  function getChannelBaseName(name) {
+    if (!name) return '';
+    if (name.includes('•')) return name.split('•')[0].trim();
+    if (name.includes('·')) return name.split('·')[0].trim();
+    if (name.includes('-')) {
+      const p = name.split('-');
+      if (p.length === 2 && /feed|señal|chile|latam|sur|norte|panregional|hdi/i.test(p[1])) {
+        return p[0].trim();
+      }
+    }
+    return name.trim();
+  }
+
+  function getOtherFeedsForChannel(ch) {
+    if (!ch) return [];
+    const base = getChannelBaseName(ch.name);
+    const cleanBase = cleanStr(base);
+    const dial = (ch.id && ch.id.length >= 4) ? ch.id.slice(-3) : null;
+
+    return state.channels.filter(c => {
+      if (c.id === ch.id) return false;
+      if (cleanBase.length >= 3 && c.cleanName.includes(cleanBase)) return true;
+      if (dial && c.id && c.id.length >= 4 && c.id.slice(-3) === dial) return true;
+      return false;
+    });
+  }
+
+  function openChannelActionsModal(ch) {
+    const channel = ch || state.channelsMap[state.selectedGuideChId];
+    if (!channel) return;
+    state.activeChannelForActions = channel;
+
+    if (el.modalActionChLogo) el.modalActionChLogo.src = channel.icon || EMPTY_IMG;
+    if (el.modalActionChName) el.modalActionChName.innerText = channel.name;
+    if (el.actionCopyNameDesc) el.actionCopyNameDesc.innerText = channel.name;
+    if (el.actionCopyIdDesc) el.actionCopyIdDesc.innerText = `ID: ${channel.id}`;
+
+    const otherFeeds = getOtherFeedsForChannel(channel);
+    if (el.btnActionSearchFeeds) {
+      if (otherFeeds.length > 0) {
+        el.btnActionSearchFeeds.classList.remove('hidden');
+        const baseName = getChannelBaseName(channel.name);
+        if (el.actionSearchFeedsDesc) {
+          el.actionSearchFeedsDesc.innerText = `Filtrar "${baseName}" en selector`;
+        }
+        if (el.actionFeedsCountBadge) {
+          const total = otherFeeds.length + 1;
+          el.actionFeedsCountBadge.innerText = `${total} feeds`;
+        }
+      } else {
+        el.btnActionSearchFeeds.classList.add('hidden');
+      }
+    }
+
+    if (el.modalChannelActions) {
+      el.modalChannelActions.classList.remove('hidden');
+    }
+  }
+
+  function closeChannelActionsModal() {
+    if (el.modalChannelActions) {
+      el.modalChannelActions.classList.add('hidden');
+    }
+    state.activeChannelForActions = null;
+  }
+
+  function copyChannelName() {
+    const ch = state.activeChannelForActions || state.channelsMap[state.selectedGuideChId];
+    if (!ch) return;
+    closeChannelActionsModal();
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(ch.name).then(() => {
+        showToast(`Nombre copiado: ${ch.name}`);
+      }).catch(() => {
+        showToast(`Nombre: ${ch.name}`);
+      });
+    } else {
+      showToast(`Nombre: ${ch.name}`);
+    }
+  }
+
+  function copyChannelId() {
+    const ch = state.activeChannelForActions || state.channelsMap[state.selectedGuideChId];
+    if (!ch) return;
+    closeChannelActionsModal();
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(ch.id).then(() => {
+        showToast(`ID copiado: ${ch.id}`);
+      }).catch(() => {
+        showToast(`ID: ${ch.id}`);
+      });
+    } else {
+      showToast(`ID: ${ch.id}`);
+    }
+  }
+
+  function searchChannelOtherFeeds() {
+    const ch = state.activeChannelForActions || state.channelsMap[state.selectedGuideChId];
+    if (!ch) return;
+    closeChannelActionsModal();
+
+    const base = getChannelBaseName(ch.name);
+
+    if (state.currentView !== 'guide') {
+      navigateTo('guide', ch.id, true);
+    }
+
+    if (el.guideSidebar && !el.guideSidebar.classList.contains('mobile-open')) {
+      toggleGuideChDropdown();
+    }
+
+    if (el.guideChSearch) {
+      el.guideChSearch.value = base;
+      el.guideChSearch.dispatchEvent(new Event('input', { bubbles: true }));
+      setTimeout(() => {
+        el.guideChSearch.focus();
+        if (el.guideChSearch.select) el.guideChSearch.select();
+      }, 100);
+    }
+
+    if (el.guideChList) {
+      el.guideChList.scrollTop = 0;
+    }
+    showToast(`Filtrando feeds de "${base}"`);
+  }
+
+  // ==========================================================================
   // 12. EVENT LISTENERS
   // ==========================================================================
   function setupEventListeners() {
@@ -2492,19 +2646,114 @@
         toggleGuideChDropdown();
       };
     }
-    if (el.guideMobileChPicker) {
-      el.guideMobileChPicker.onclick = (e) => {
-        if (!e.target.closest('#btnToggleGuideChannels')) {
-          toggleGuideChDropdown();
+
+    if (el.btnCloseGuideSidebar) {
+      el.btnCloseGuideSidebar.onclick = (e) => {
+        e.stopPropagation();
+        closeGuideChDropdown();
+      };
+    }
+
+    // Modal de Opciones del Canal
+    if (el.btnCloseChannelActions) {
+      el.btnCloseChannelActions.onclick = closeChannelActionsModal;
+    }
+    if (el.modalChannelActions) {
+      el.modalChannelActions.onclick = (e) => {
+        if (e.target === el.modalChannelActions) {
+          closeChannelActionsModal();
         }
       };
     }
-    if (el.guideChHeader) {
-      el.guideChHeader.onclick = () => {
+    if (el.btnActionCopyName) {
+      el.btnActionCopyName.onclick = copyChannelName;
+    }
+    if (el.btnActionCopyId) {
+      el.btnActionCopyId.onclick = copyChannelId;
+    }
+    if (el.btnActionSearchFeeds) {
+      el.btnActionSearchFeeds.onclick = searchChannelOtherFeeds;
+    }
+
+    // Long press y click en la cabecera del canal
+    let longPressTimer = null;
+    let isLongPressTriggered = false;
+    let touchStartX = 0;
+    let touchStartY = 0;
+
+    const startChannelHold = (x, y) => {
+      touchStartX = x;
+      touchStartY = y;
+      isLongPressTriggered = false;
+      clearTimeout(longPressTimer);
+      longPressTimer = setTimeout(() => {
+        isLongPressTriggered = true;
+        if (navigator.vibrate) {
+          try { navigator.vibrate(45); } catch (err) {}
+        }
+        openChannelActionsModal();
+      }, 500);
+    };
+
+    const cancelChannelHold = () => {
+      clearTimeout(longPressTimer);
+    };
+
+    const targetHeader = el.guideChHeaderMain || el.guideChHeader;
+    if (targetHeader) {
+      // Touch events (Móvil)
+      targetHeader.addEventListener('touchstart', (e) => {
+        if (e.target.closest('#btnToggleGuideChannels')) return;
+        if (e.touches && e.touches[0]) {
+          startChannelHold(e.touches[0].clientX, e.touches[0].clientY);
+        }
+      }, { passive: true });
+
+      targetHeader.addEventListener('touchmove', (e) => {
+        if (e.touches && e.touches[0]) {
+          if (Math.abs(e.touches[0].clientX - touchStartX) > 10 || Math.abs(e.touches[0].clientY - touchStartY) > 10) {
+            cancelChannelHold();
+          }
+        }
+      }, { passive: true });
+
+      targetHeader.addEventListener('touchend', cancelChannelHold);
+      targetHeader.addEventListener('touchcancel', cancelChannelHold);
+
+      // Mouse events (Desktop)
+      targetHeader.addEventListener('mousedown', (e) => {
+        if (e.target.closest('#btnToggleGuideChannels')) return;
+        if (e.button === 0) {
+          startChannelHold(e.clientX, e.clientY);
+        }
+      });
+      targetHeader.addEventListener('mousemove', (e) => {
+        if (Math.abs(e.clientX - touchStartX) > 10 || Math.abs(e.clientY - touchStartY) > 10) {
+          cancelChannelHold();
+        }
+      });
+      targetHeader.addEventListener('mouseup', cancelChannelHold);
+      targetHeader.addEventListener('mouseleave', cancelChannelHold);
+
+      // Clic derecho (Desktop)
+      targetHeader.addEventListener('contextmenu', (e) => {
+        if (e.target.closest('#btnToggleGuideChannels')) return;
+        e.preventDefault();
+        cancelChannelHold();
+        openChannelActionsModal();
+      });
+
+      // Clic normal
+      targetHeader.addEventListener('click', (e) => {
+        if (isLongPressTriggered) {
+          isLongPressTriggered = false;
+          return;
+        }
+        if (e.target.closest('#btnToggleGuideChannels')) return;
         if (window.innerWidth <= 768) {
           toggleGuideChDropdown();
         }
-      };
+      });
     }
 
     // Cerrar menú desplegable de canales si se hace clic fuera
@@ -2512,7 +2761,6 @@
       if (el.guideSidebar && el.guideSidebar.classList.contains('mobile-open')) {
         if (!el.guideSidebar.contains(e.target) &&
             (!el.btnToggleGuideChannels || !el.btnToggleGuideChannels.contains(e.target)) &&
-            (!el.guideMobileChPicker || !el.guideMobileChPicker.contains(e.target)) &&
             (!el.guideChHeader || !el.guideChHeader.contains(e.target))) {
           closeGuideChDropdown();
         }
