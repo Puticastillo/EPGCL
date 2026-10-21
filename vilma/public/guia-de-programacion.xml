@@ -40856,35 +40856,190 @@ El programa era protagonizado por Paul Zaloom como Beakman, un científico excé
     <desc>Sonidos Porteños es un programa de televisión que se sumerge en la escena musical de Valparaíso en todas sus facetas de estilos, potenciando la creación artística de las bandas y solistas regionales.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/sonidosportenos.jpg" />
   </programme>
-  <programme start="20261022030000 -0300" stop="20261022070000 -0300" channel="0147">
-    <title>Santiago TV</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/santiagotv.jpg" />
+  <programme start="20261022030000 -0300" stop="20261022033000 -0300" channel="0147">
+    <title>Miniseries</title>
+    <desc>Espacio con producciones variadas.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/miniseries.jpg" />
   </programme>
-  <programme start="20261022070000 -0300" stop="20261022110000 -0300" channel="0147">
-    <title>Santiago TV</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/santiagotv.jpg" />
+  <programme start="20261022033000 -0300" stop="20261022040000 -0300" channel="0147">
+    <title>Arte vivo</title>
+    <desc>Una serie que busca ser el reflejo de las miradas de quienes a través del arte abonan nuevas formas de interpretar el mundo.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/artevivo.jpg" />
   </programme>
-  <programme start="20261022110000 -0300" stop="20261022150000 -0300" channel="0147">
-    <title>Santiago TV</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/santiagotv.jpg" />
+  <programme start="20261022040000 -0300" stop="20261022043000 -0300" channel="0147">
+    <title>A recorrer el mundo</title>
+    <desc>Recorremos el mundo con Edu y Cami.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/arecorrerelmundo.jpg" />
   </programme>
-  <programme start="20261022150000 -0300" stop="20261022190000 -0300" channel="0147">
-    <title>Santiago TV</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/santiagotv.jpg" />
+  <programme start="20261022043000 -0300" stop="20261022050000 -0300" channel="0147">
+    <title>Las palabras y el viento</title>
+    <desc>Una serie que recorre la Patagonia chilena desde la literatura, dando voz a autoras y autores contemporáneos que transforman el territorio en experiencia y palabra.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/laspalabrasyelviento.jpg" />
   </programme>
-  <programme start="20261022190000 -0300" stop="20261022200000 -0300" channel="0147">
-    <title>Santiago TV</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/santiagotv.jpg" />
+  <programme start="20261022050000 -0300" stop="20261022053000 -0300" channel="0147">
+    <title>Habitar</title>
+    <desc>Miniserie documental sobre formas actuales de vivir en Chile</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/habitar.jpg" />
   </programme>
-  <programme start="20261022200000 -0300" stop="20261023000000 -0300" channel="0147">
-    <title>TV USACH</title>
-    <desc>La informacion de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  <programme start="20261022053000 -0300" stop="20261022054500 -0300" channel="0147">
+    <title>De cantora a cantora</title>
+    <desc>Mauricia Saavedra se encamina al encuentro con otras cantoras de las zonas, rescatando su trabajo y canciones.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/decantoraacantora.jpg" />
+  </programme>
+  <programme start="20261022054500 -0300" stop="20261022060000 -0300" channel="0147">
+    <title>Educadores</title>
+    <desc>Una serie documental que cuenta historias de docentes que desde el corazón del sistema son capaces de generar cambios en la vida de sus estudiantes.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/educadores.jpg" />
+  </programme>
+  <programme start="20261022060000 -0300" stop="20261022070000 -0300" channel="0147">
+    <title>Conciertos USACH</title>
+    <desc>Conciertos Universidad de Santiago de Chile.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/conciertosusach.jpg" />
+  </programme>
+  <programme start="20261022070000 -0300" stop="20261022073000 -0300" channel="0147">
+    <title>Las palabras y el viento</title>
+    <desc>Una serie que recorre la Patagonia chilena desde la literatura, dando voz a autoras y autores contemporáneos que transforman el territorio en experiencia y palabra.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/laspalabrasyelviento.jpg" />
+  </programme>
+  <programme start="20261022073000 -0300" stop="20261022090000 -0300" channel="0147">
+    <title>Línea uno</title>
+    <desc>“Línea Uno” te acompañará todas las mañanas con la contingencia e información de Chile y el mundo, con una mirada distinta, con opinión, comentarios y entrevistas.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/lineauno.jpg" />
+  </programme>
+  <programme start="20261022090000 -0300" stop="20261022093000 -0300" channel="0147">
+    <title>Visión futuro</title>
+    <desc>Visión futuro es la emisión de DW sobre ciencia. Este magazín va dirigido a todos los que se interesan por la investigación en Alemania y Europa. Con un lenguaje comprensible y una presentación atractiva, sus dinámicos reportajes cubren un amplio espectro de temas cruciales para el futuro: desde la astronáutica hasta la protección medioambiental, pasando por la ingeniería genética, los descubrimientos en la medicina y las propuestas urbanísticas del mañana. Visión futuro transmite las ideas de personas que piensan más allá: científicos destacados, cerebros únicos y visionarios.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/visionfuturo.jpg" />
+  </programme>
+  <programme start="20261022093000 -0300" stop="20261022100000 -0300" channel="0147">
+    <title>Cuestión de género</title>
+    <desc>Una serie que entrevista en primera persona a mujeres de diversas disciplinas de la cultura. Una reflexión sobre el rol de la mujer que aporta una mirada inclusiva y cultural al país.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/cuestiondegenero.jpg" />
+  </programme>
+  <programme start="20261022100000 -0300" stop="20261022110000 -0300" channel="0147">
+    <title>Conciertos USACH</title>
+    <desc>Conciertos Universidad de Santiago de Chile.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/conciertosusach.jpg" />
+  </programme>
+  <programme start="20261022110000 -0300" stop="20261022120000 -0300" channel="0147">
+    <title>All you need is lab</title>
+    <desc>Te contamos todo lo que tienes que saber sobre ciencia y tecnología de una manera atractiva.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/allyouneedislab.jpg" />
+  </programme>
+  <programme start="20261022120000 -0300" stop="20261022122500 -0300" channel="0147">
+    <title>Intersesiones</title>
+    <desc>Un ciclo de música en vivo creado por la Corporación Cultural Usach, que busca relevar proyectos musicales chilenos en formato semidesenchufado y conectar la música con diferentes disciplinas culturales.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/intersesiones.jpg" />
+  </programme>
+  <programme start="20261022122500 -0300" stop="20261022123000 -0300" channel="0147">
+    <title>Saica te cuenta</title>
+    <desc>Un recorrido por el cine, la música y los videojuegos.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/saicatecuenta.jpg" />
+  </programme>
+  <programme start="20261022123000 -0300" stop="20261022130000 -0300" channel="0147">
+    <title>A recorrer el mundo</title>
+    <desc>Recorremos el mundo con Edu y Cami.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/arecorrerelmundo.jpg" />
+  </programme>
+  <programme start="20261022130000 -0300" stop="20261022133000 -0300" channel="0147">
+    <title>Enlaces</title>
+    <desc>Riguroso y entretenido a la vez, presenta temas relevantes del mundo digital con un profundo enfoque periodístico: los desafíos de las redes sociales, la seguridad en Internet o la red como plataforma de agitación política.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/enlaces.jpg" />
+  </programme>
+  <programme start="20261022133000 -0300" stop="20261022140000 -0300" channel="0147">
+    <title>Voces del futuro</title>
+    <desc>Programa de entrevista con expertos participantes de Congreso Futuro. Neurociencia, oceanografía, democracia digital, y más son los temas propuestos.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/vocesdelfuturo.jpg" />
+  </programme>
+  <programme start="20261022140000 -0300" stop="20261022143000 -0300" channel="0147">
+    <title>Singulares</title>
+    <desc>Serie documental que acompaña a estudiantes y protagonistas de proyectos en innovación, ciencia, sociedad y cultura que están marcando pauta a nivel nacional e internacional.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/singulares.jpg" />
+  </programme>
+  <programme start="20261022143000 -0300" stop="20261022150000 -0300" channel="0147">
+    <title>Fuerza latina</title>
+    <desc>Las periodistas Natalia Orozco y Yoani Sánchez conversan cada semana con mujeres extraordinarias de América Latina, quienes nos acercan sus fascinantes historias y nos muestran el entorno en el que viven y trabajan. Son mujeres que, con tenacidad y perseverancia, se proponen cambiar la sociedad y alzan su voz para reclamar derechos y denunciar injusticias.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fuerzalatina.jpg" />
+  </programme>
+  <programme start="20261022150000 -0300" stop="20261022153000 -0300" channel="0147">
+    <title>Raíz Manual De Saberes</title>
+    <desc>Serie documental protagonizada por las mujeres integrantes del club de adulto mayor Las Violetas de Rinconada de Parral.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/raizmanualdesaberes.jpg" />
+  </programme>
+  <programme start="20261022153000 -0300" stop="20261022154500 -0300" channel="0147">
+    <title>Chile gráfico</title>
+    <desc>Una serie que nos acerca al patrimonio cultural del arte gráfico chileno.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/chilegrafico.jpg" />
+  </programme>
+  <programme start="20261022154500 -0300" stop="20261022160000 -0300" channel="0147">
+    <title>Cultura corral</title>
+    <desc>Un proyecto que busca dar continuidad al rescate de identidades culturales de la localidad de Corral que se encuentran vinculadas a las expresiones musicales locales.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/culturacorral.jpg" />
+  </programme>
+  <programme start="20261022160000 -0300" stop="20261022163000 -0300" channel="0147">
+    <title>Alquimistas</title>
+    <desc>Una serie protagonizada por niños, niñas y adolescentes, que nos presentan un nuevo universo de creación, participación y transformación, desde múltiples y diversas expresiones.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/alquimistas.jpg" />
+  </programme>
+  <programme start="20261022163000 -0300" stop="20261022170000 -0300" channel="0147">
+    <title>Arte vivo</title>
+    <desc>Una serie que busca ser el reflejo de las miradas de quienes a través del arte abonan nuevas formas de interpretar el mundo.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/artevivo.jpg" />
+  </programme>
+  <programme start="20261022170000 -0300" stop="20261022173000 -0300" channel="0147">
+    <title>Miniseries</title>
+    <desc>Espacio con producciones variadas.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/miniseries.jpg" />
+  </programme>
+  <programme start="20261022173000 -0300" stop="20261022180000 -0300" channel="0147">
+    <title>Cultura.21</title>
+    <desc>Espacio que presenta a los protagonistas, detecta las ideas nuevas, explica los grandes debates y está presente en los eventos más destacados de la temporada. Un periodismo que examina con atención el espíritu del momento.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/cultura21.jpg" />
+  </programme>
+  <programme start="20261022180000 -0300" stop="20261022183000 -0300" channel="0147">
+    <title>En Forma</title>
+    <desc>Magazine informativo que brinda al espectador conocimientos acerca de cómo llevar una vida sana y prevenir enfermedades, a través de la medicina tradicional en la cual figuran las terapias alternativas.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/enforma.jpg" />
+  </programme>
+  <programme start="20261022183000 -0300" stop="20261022184500 -0300" channel="0147">
+    <title>All you need is lab: En la calle</title>
+    <desc>Te contamos todo lo que tienes que saber sobre ciencia y tecnología de una manera atractiva.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/allyouneedislabenlacalle.jpg" />
+  </programme>
+  <programme start="20261022184500 -0300" stop="20261022190000 -0300" channel="0147">
+    <title>Educadores</title>
+    <desc>Una serie documental que cuenta historias de docentes que desde el corazón del sistema son capaces de generar cambios en la vida de sus estudiantes.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/educadores.jpg" />
+  </programme>
+  <programme start="20261022190000 -0300" stop="20261022193000 -0300" channel="0147">
+    <title>Intersesiones</title>
+    <desc>Un ciclo de música en vivo creado por la Corporación Cultural Usach, que busca relevar proyectos musicales chilenos en formato semidesenchufado y conectar la música con diferentes disciplinas culturales.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/intersesiones.jpg" />
+  </programme>
+  <programme start="20261022193000 -0300" stop="20261022203000 -0300" channel="0147">
+    <title>All you need is lab</title>
+    <desc>Te contamos todo lo que tienes que saber sobre ciencia y tecnología de una manera atractiva.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/allyouneedislab.jpg" />
+  </programme>
+  <programme start="20261022203000 -0300" stop="20261022210000 -0300" channel="0147">
+    <title>Sonidos porteños</title>
+    <desc>Sonidos Porteños es un programa de televisión que se sumerge en la escena musical de Valparaíso en todas sus facetas de estilos, potenciando la creación artística de las bandas y solistas regionales.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/sonidosportenos.jpg" />
+  </programme>
+  <programme start="20261022210000 -0300" stop="20261022220000 -0300" channel="0147">
+    <title>Luz, cámara y pasión</title>
+    <desc>Un espacio, para conversar y reflexionar de cine, con actores y actrices nacionales en torno al trabajo interpretativo y la creación de personajes para la pantalla grande.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/luzcamaraypasion.jpg" />
+  </programme>
+  <programme start="20261022220000 -0300" stop="20261022230000 -0300" channel="0147">
+    <title>Mirada global</title>
+    <desc>Analizamos junto a expertos y expertas la actualidad internacional.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/miradaglobal.jpg" />
+  </programme>
+  <programme start="20261022230000 -0300" stop="20261023000000 -0300" channel="0147">
+    <title>Detallistas</title>
+    <desc>Una serie que muestra que la diferencia radica en los detalles. Una mirada a oficios poco conocidos o en vías de extinción que guardan ciertos secretos.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/detallistas.jpg" />
   </programme>
   <programme start="20261023000000 -0300" stop="20261023040000 -0300" channel="0147">
     <title>TV USACH</title>
@@ -44951,127 +45106,132 @@ El programa era protagonizado por Paul Zaloom como Beakman, un científico excé
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/tvunoticiascentral.jpg" />
   </programme>
-  <programme start="20261022233000 -0300" stop="20261023000000 -0300" channel="0155">
+  <programme start="20261022233000 -0300" stop="20261023003000 -0300" channel="0155">
+    <title>Cartelera nocturna</title>
+    <desc>La información de este programa no se encuentra disponible.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/carteleranocturna.jpg" />
+  </programme>
+  <programme start="20261023003000 -0300" stop="20261023010000 -0300" channel="0155">
     <title>Canal TVU</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261023000000 -0300" stop="20261023040000 -0300" channel="0155">
+  <programme start="20261023010000 -0300" stop="20261023050000 -0300" channel="0155">
     <title>Canal TVU</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261023040000 -0300" stop="20261023080000 -0300" channel="0155">
+  <programme start="20261023050000 -0300" stop="20261023090000 -0300" channel="0155">
     <title>Canal TVU</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261023080000 -0300" stop="20261023120000 -0300" channel="0155">
+  <programme start="20261023090000 -0300" stop="20261023130000 -0300" channel="0155">
     <title>Canal TVU</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261023120000 -0300" stop="20261023160000 -0300" channel="0155">
+  <programme start="20261023130000 -0300" stop="20261023170000 -0300" channel="0155">
     <title>Canal TVU</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261023160000 -0300" stop="20261023200000 -0300" channel="0155">
+  <programme start="20261023170000 -0300" stop="20261023210000 -0300" channel="0155">
     <title>Canal TVU</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261023200000 -0300" stop="20261024000000 -0300" channel="0155">
+  <programme start="20261023210000 -0300" stop="20261024010000 -0300" channel="0155">
     <title>Canal TVU</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261024000000 -0300" stop="20261024040000 -0300" channel="0155">
+  <programme start="20261024010000 -0300" stop="20261024050000 -0300" channel="0155">
     <title>Canal TVU</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261024040000 -0300" stop="20261024080000 -0300" channel="0155">
+  <programme start="20261024050000 -0300" stop="20261024090000 -0300" channel="0155">
     <title>Canal TVU</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261024080000 -0300" stop="20261024120000 -0300" channel="0155">
+  <programme start="20261024090000 -0300" stop="20261024130000 -0300" channel="0155">
     <title>Canal TVU</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261024120000 -0300" stop="20261024160000 -0300" channel="0155">
+  <programme start="20261024130000 -0300" stop="20261024170000 -0300" channel="0155">
     <title>Canal TVU</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261024160000 -0300" stop="20261024200000 -0300" channel="0155">
+  <programme start="20261024170000 -0300" stop="20261024210000 -0300" channel="0155">
     <title>Canal TVU</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261024200000 -0300" stop="20261025000000 -0300" channel="0155">
+  <programme start="20261024210000 -0300" stop="20261025010000 -0300" channel="0155">
     <title>Canal TVU</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261025000000 -0300" stop="20261025040000 -0300" channel="0155">
+  <programme start="20261025010000 -0300" stop="20261025050000 -0300" channel="0155">
     <title>Canal TVU</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261025040000 -0300" stop="20261025080000 -0300" channel="0155">
+  <programme start="20261025050000 -0300" stop="20261025090000 -0300" channel="0155">
     <title>Canal TVU</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261025080000 -0300" stop="20261025120000 -0300" channel="0155">
+  <programme start="20261025090000 -0300" stop="20261025130000 -0300" channel="0155">
     <title>Canal TVU</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261025120000 -0300" stop="20261025160000 -0300" channel="0155">
+  <programme start="20261025130000 -0300" stop="20261025170000 -0300" channel="0155">
     <title>Canal TVU</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261025160000 -0300" stop="20261025200000 -0300" channel="0155">
+  <programme start="20261025170000 -0300" stop="20261025210000 -0300" channel="0155">
     <title>Canal TVU</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261025200000 -0300" stop="20261026000000 -0300" channel="0155">
+  <programme start="20261025210000 -0300" stop="20261026010000 -0300" channel="0155">
     <title>Canal TVU</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261026000000 -0300" stop="20261026040000 -0300" channel="0155">
+  <programme start="20261026010000 -0300" stop="20261026050000 -0300" channel="0155">
     <title>Canal TVU</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261026040000 -0300" stop="20261026080000 -0300" channel="0155">
+  <programme start="20261026050000 -0300" stop="20261026090000 -0300" channel="0155">
     <title>Canal TVU</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261026080000 -0300" stop="20261026120000 -0300" channel="0155">
+  <programme start="20261026090000 -0300" stop="20261026130000 -0300" channel="0155">
     <title>Canal TVU</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261026120000 -0300" stop="20261026160000 -0300" channel="0155">
+  <programme start="20261026130000 -0300" stop="20261026170000 -0300" channel="0155">
     <title>Canal TVU</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261026160000 -0300" stop="20261026200000 -0300" channel="0155">
+  <programme start="20261026170000 -0300" stop="20261026210000 -0300" channel="0155">
     <title>Canal TVU</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261026200000 -0300" stop="20261026235959 -0300" channel="0155">
+  <programme start="20261026210000 -0300" stop="20261026235959 -0300" channel="0155">
     <title>Canal TVU</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
@@ -56141,152 +56301,192 @@ Ernesto Andrés Fuenmayor y Tamara Rivera Castro serán los YouTubers que analic
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/madrugadaenaeradio.jpg" />
   </programme>
-  <programme start="20261022060000 -0300" stop="20261022100000 -0300" channel="0182">
+  <programme start="20261022060000 -0300" stop="20261022070000 -0300" channel="0182">
+    <title>La mañana de AE Radio</title>
+    <desc>La información de este programa no se encuentra disponible.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/lamananadeaeradio.jpg" />
+  </programme>
+  <programme start="20261022070000 -0300" stop="20261022090000 -0300" channel="0182">
+    <title>Producto chileno</title>
+    <desc>La información de este programa no se encuentra disponible.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/productochileno.jpg" />
+  </programme>
+  <programme start="20261022090000 -0300" stop="20261022100000 -0300" channel="0182">
+    <title>La mañana de AE Radio</title>
+    <desc>La información de este programa no se encuentra disponible.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/lamananadeaeradio.jpg" />
+  </programme>
+  <programme start="20261022100000 -0300" stop="20261022103000 -0300" channel="0182">
     <title>AE Radio</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261022100000 -0300" stop="20261022140000 -0300" channel="0182">
-    <title>AE Radio</title>
+  <programme start="20261022103000 -0300" stop="20261022113000 -0300" channel="0182">
+    <title>Te acompañamos</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/teacompanamos.jpg" />
   </programme>
-  <programme start="20261022140000 -0300" stop="20261022180000 -0300" channel="0182">
-    <title>AE Radio</title>
+  <programme start="20261022113000 -0300" stop="20261022130000 -0300" channel="0182">
+    <title>La mañana de AE Radio</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/lamananadeaeradio.jpg" />
   </programme>
-  <programme start="20261022180000 -0300" stop="20261022190000 -0300" channel="0182">
-    <title>AE Radio</title>
+  <programme start="20261022130000 -0300" stop="20261022140000 -0300" channel="0182">
+    <title>Viaje sin rumbo</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/viajesinrumbo.jpg" />
   </programme>
-  <programme start="20261022190000 -0300" stop="20261022230000 -0300" channel="0182">
+  <programme start="20261022140000 -0300" stop="20261022143000 -0300" channel="0182">
+    <title>La tarde en AE Radio</title>
+    <desc>La información de este programa no se encuentra disponible.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/latardeenaeradio.jpg" />
+  </programme>
+  <programme start="20261022143000 -0300" stop="20261022163000 -0300" channel="0182">
+    <title>Retrocompatible</title>
+    <desc>La información de este programa no se encuentra disponible.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/retrocompatible.jpg" />
+  </programme>
+  <programme start="20261022163000 -0300" stop="20261022180000 -0300" channel="0182">
+    <title>Prohibido detenerse</title>
+    <desc>La información de este programa no se encuentra disponible.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/prodhibidodetenerse.jpg" />
+  </programme>
+  <programme start="20261022180000 -0300" stop="20261022183000 -0300" channel="0182">
+    <title>La tarde en AE Radio</title>
+    <desc>La información de este programa no se encuentra disponible.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/latardeenaeradio.jpg" />
+  </programme>
+  <programme start="20261022183000 -0300" stop="20261022200000 -0300" channel="0182">
+    <title>Disco eterno</title>
+    <desc>La información de este programa no se encuentra disponible.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/discoeterno.jpg" />
+  </programme>
+  <programme start="20261022200000 -0300" stop="20261022210000 -0300" channel="0182">
+    <title>Música en AE Radio</title>
+    <desc>La información de este programa no se encuentra disponible.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/musicaenaeradio.jpg" />
+  </programme>
+  <programme start="20261022210000 -0300" stop="20261023010000 -0300" channel="0182">
     <title>AE Radio</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261022230000 -0300" stop="20261023030000 -0300" channel="0182">
+  <programme start="20261023010000 -0300" stop="20261023050000 -0300" channel="0182">
     <title>AE Radio</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261023030000 -0300" stop="20261023070000 -0300" channel="0182">
+  <programme start="20261023050000 -0300" stop="20261023090000 -0300" channel="0182">
     <title>AE Radio</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261023070000 -0300" stop="20261023110000 -0300" channel="0182">
+  <programme start="20261023090000 -0300" stop="20261023130000 -0300" channel="0182">
     <title>AE Radio</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261023110000 -0300" stop="20261023150000 -0300" channel="0182">
+  <programme start="20261023130000 -0300" stop="20261023170000 -0300" channel="0182">
     <title>AE Radio</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261023150000 -0300" stop="20261023190000 -0300" channel="0182">
+  <programme start="20261023170000 -0300" stop="20261023210000 -0300" channel="0182">
     <title>AE Radio</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261023190000 -0300" stop="20261023230000 -0300" channel="0182">
+  <programme start="20261023210000 -0300" stop="20261024010000 -0300" channel="0182">
     <title>AE Radio</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261023230000 -0300" stop="20261024030000 -0300" channel="0182">
+  <programme start="20261024010000 -0300" stop="20261024050000 -0300" channel="0182">
     <title>AE Radio</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261024030000 -0300" stop="20261024070000 -0300" channel="0182">
+  <programme start="20261024050000 -0300" stop="20261024090000 -0300" channel="0182">
     <title>AE Radio</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261024070000 -0300" stop="20261024110000 -0300" channel="0182">
+  <programme start="20261024090000 -0300" stop="20261024130000 -0300" channel="0182">
     <title>AE Radio</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261024110000 -0300" stop="20261024150000 -0300" channel="0182">
+  <programme start="20261024130000 -0300" stop="20261024170000 -0300" channel="0182">
     <title>AE Radio</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261024150000 -0300" stop="20261024190000 -0300" channel="0182">
+  <programme start="20261024170000 -0300" stop="20261024210000 -0300" channel="0182">
     <title>AE Radio</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261024190000 -0300" stop="20261024230000 -0300" channel="0182">
+  <programme start="20261024210000 -0300" stop="20261025010000 -0300" channel="0182">
     <title>AE Radio</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261024230000 -0300" stop="20261025030000 -0300" channel="0182">
+  <programme start="20261025010000 -0300" stop="20261025050000 -0300" channel="0182">
     <title>AE Radio</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261025030000 -0300" stop="20261025070000 -0300" channel="0182">
+  <programme start="20261025050000 -0300" stop="20261025090000 -0300" channel="0182">
     <title>AE Radio</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261025070000 -0300" stop="20261025110000 -0300" channel="0182">
+  <programme start="20261025090000 -0300" stop="20261025130000 -0300" channel="0182">
     <title>AE Radio</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261025110000 -0300" stop="20261025150000 -0300" channel="0182">
+  <programme start="20261025130000 -0300" stop="20261025170000 -0300" channel="0182">
     <title>AE Radio</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261025150000 -0300" stop="20261025190000 -0300" channel="0182">
+  <programme start="20261025170000 -0300" stop="20261025210000 -0300" channel="0182">
     <title>AE Radio</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261025190000 -0300" stop="20261025230000 -0300" channel="0182">
+  <programme start="20261025210000 -0300" stop="20261026010000 -0300" channel="0182">
     <title>AE Radio</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261025230000 -0300" stop="20261026030000 -0300" channel="0182">
+  <programme start="20261026010000 -0300" stop="20261026050000 -0300" channel="0182">
     <title>AE Radio</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261026030000 -0300" stop="20261026070000 -0300" channel="0182">
+  <programme start="20261026050000 -0300" stop="20261026090000 -0300" channel="0182">
     <title>AE Radio</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261026070000 -0300" stop="20261026110000 -0300" channel="0182">
+  <programme start="20261026090000 -0300" stop="20261026130000 -0300" channel="0182">
     <title>AE Radio</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261026110000 -0300" stop="20261026150000 -0300" channel="0182">
+  <programme start="20261026130000 -0300" stop="20261026170000 -0300" channel="0182">
     <title>AE Radio</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261026150000 -0300" stop="20261026190000 -0300" channel="0182">
+  <programme start="20261026170000 -0300" stop="20261026210000 -0300" channel="0182">
     <title>AE Radio</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261026190000 -0300" stop="20261026230000 -0300" channel="0182">
-    <title>AE Radio</title>
-    <desc>La informacion de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
-  </programme>
-  <programme start="20261026230000 -0300" stop="20261026235959 -0300" channel="0182">
+  <programme start="20261026210000 -0300" stop="20261026235959 -0300" channel="0182">
     <title>AE Radio</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
@@ -56356,13 +56556,7 @@ Ernesto Andrés Fuenmayor y Tamara Rivera Castro serán los YouTubers que analic
     <episode-num system="onscreen">Episodio 201</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/ideasysociedad.jpg" />
   </programme>
-  <programme start="20261021000000 -0300" stop="20261021010000 -0300" channel="0183">
-    <title>Chile público</title>
-    <desc>Episodio 201 | Programa dedicado al análisis de políticas públicas, gestión del Estado y los principales temas de interés nacional.</desc>
-    <episode-num system="onscreen">Episodio 201</episode-num>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/chilepublico.jpg" />
-  </programme>
-  <programme start="20261021010000 -0300" stop="20261021060000 -0300" channel="0183">
+  <programme start="20261021000000 -0300" stop="20261021060000 -0300" channel="0183">
     <title>Lo mejor del día</title>
     <desc>Episodio 201 | Resumen con los momentos más destacados de la programación y las principales noticias de la jornada.</desc>
     <episode-num system="onscreen">Episodio 201</episode-num>
@@ -56448,97 +56642,97 @@ Ernesto Andrés Fuenmayor y Tamara Rivera Castro serán los YouTubers que analic
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/historialibrosybanderas.jpg" />
   </programme>
-  <programme start="20261021230000 -0300" stop="20261022010000 -0300" channel="0183">
+  <programme start="20261021230000 -0300" stop="20261022000000 -0300" channel="0183">
     <title>Chile público</title>
-    <desc>Programa dedicado al análisis de políticas públicas, gestión del Estado y los principales temas de interés nacional.</desc>
+    <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/chilepublico.jpg" />
   </programme>
-  <programme start="20261022010000 -0300" stop="20261022070000 -0300" channel="0183">
+  <programme start="20261022000000 -0300" stop="20261022060000 -0300" channel="0183">
     <title>Lo mejor del día</title>
     <desc>Resumen con los momentos más destacados de la programación y las principales noticias de la jornada.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/lomejordeldia.jpg" />
   </programme>
-  <programme start="20261022070000 -0300" stop="20261022080000 -0300" channel="0183">
+  <programme start="20261022060000 -0300" stop="20261022070000 -0300" channel="0183">
     <title>Noticias en Agricultura</title>
-    <desc>Informativo con cobertura de los principales acontecimientos nacionales e internacionales.</desc>
+    <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/noticiasenagricultura.jpg" />
   </programme>
-  <programme start="20261022080000 -0300" stop="20261022090000 -0300" channel="0183">
-    <title>Deportes</title>
-    <desc>Resumen de la actualidad deportiva con noticias, entrevistas y análisis de las principales competencias nacionales e internacionales.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/deportes.jpg" />
+  <programme start="20261022070000 -0300" stop="20261022080000 -0300" channel="0183">
+    <title>Deportes en Agricultura</title>
+    <desc>La información de este programa no se encuentra disponible.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/deportesenagricultura.jpg" />
   </programme>
-  <programme start="20261022090000 -0300" stop="20261022100000 -0300" channel="0183">
+  <programme start="20261022080000 -0300" stop="20261022090000 -0300" channel="0183">
     <title>La mañana de Agricultura</title>
-    <desc>Revista informativa matinal con noticias, entrevistas, análisis y temas de interés nacional e internacional.</desc>
+    <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/lamananadeagricultura.jpg" />
   </programme>
-  <programme start="20261022100000 -0300" stop="20261022110000 -0300" channel="0183">
+  <programme start="20261022090000 -0300" stop="20261022100000 -0300" channel="0183">
     <title>Directo al grano</title>
-    <desc>Programa de opinión que aborda de manera directa los acontecimientos más relevantes de la actualidad nacional.</desc>
+    <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/directoalgrano.jpg" />
   </programme>
-  <programme start="20261022110000 -0300" stop="20261022120000 -0300" channel="0183">
+  <programme start="20261022100000 -0300" stop="20261022110000 -0300" channel="0183">
     <title>La voz de la gente</title>
-    <desc>Programa que da espacio a las opiniones, inquietudes y propuestas de la ciudadanía sobre temas de actualidad.</desc>
+    <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/lavozdelagente.jpg" />
   </programme>
-  <programme start="20261022120000 -0300" stop="20261022140000 -0300" channel="0183">
+  <programme start="20261022110000 -0300" stop="20261022130000 -0300" channel="0183">
     <title>Conectados</title>
-    <desc>Magazine con noticias, tecnología, tendencias y contenidos de interés para la vida cotidiana.</desc>
+    <desc>Análisis y debate del acontecer nacional.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/conectados.jpg" />
   </programme>
-  <programme start="20261022140000 -0300" stop="20261022150000 -0300" channel="0183">
+  <programme start="20261022130000 -0300" stop="20261022140000 -0300" channel="0183">
     <title>Nuevas voces</title>
-    <desc>Espacio que presenta a nuevos líderes, emprendedores y referentes en distintos ámbitos de la sociedad.</desc>
+    <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/nuevasvoces.jpg" />
   </programme>
-  <programme start="20261022150000 -0300" stop="20261022160000 -0300" channel="0183">
-    <title>Deportes</title>
-    <desc>Resumen de la actualidad deportiva con noticias, entrevistas y análisis de las principales competencias nacionales e internacionales.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/deportes.jpg" />
+  <programme start="20261022140000 -0300" stop="20261022150000 -0300" channel="0183">
+    <title>Deportes en Agricultura</title>
+    <desc>La información de este programa no se encuentra disponible.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/deportesenagricultura.jpg" />
   </programme>
-  <programme start="20261022160000 -0300" stop="20261022170000 -0300" channel="0183">
+  <programme start="20261022150000 -0300" stop="20261022160000 -0300" channel="0183">
     <title>Hoy por hoy Chile es</title>
-    <desc>Programa de actualidad con entrevistas, noticias y análisis de los principales acontecimientos nacionales.</desc>
+    <desc>Un magazine de actualidad, sociedad y sostenibilidad.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/hoyporhoychilees.jpg" />
   </programme>
-  <programme start="20261022170000 -0300" stop="20261022180000 -0300" channel="0183">
+  <programme start="20261022160000 -0300" stop="20261022170000 -0300" channel="0183">
     <title>Al pizarrón</title>
-    <desc>Programa de análisis y opinión donde expertos explican temas de actualidad de forma clara y didáctica.</desc>
+    <desc>El profe Luis Silva, abogado y ex consejero constitucional, llega a acompañarte todas las tardes con el mejor análisis de actualidad política.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/alpizarron.jpg" />
   </programme>
-  <programme start="20261022180000 -0300" stop="20261022190000 -0300" channel="0183">
+  <programme start="20261022170000 -0300" stop="20261022180000 -0300" channel="0183">
     <title>Enfoque público</title>
-    <desc>Programa que analiza la gestión pública, políticas gubernamentales y desafíos del país.</desc>
+    <desc>Espacio de encuentro de ideas y personas para analizar el debate público con una mirada más profunda.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/enfoquepublico.jpg" />
   </programme>
-  <programme start="20261022190000 -0300" stop="20261022200000 -0300" channel="0183">
+  <programme start="20261022180000 -0300" stop="20261022190000 -0300" channel="0183">
     <title>El rompecabezas</title>
-    <desc>Programa de análisis que reúne distintas miradas para comprender los temas más relevantes de la contingencia nacional.</desc>
+    <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/elrompecabezas.jpg" />
   </programme>
-  <programme start="20261022200000 -0300" stop="20261022210000 -0300" channel="0183">
+  <programme start="20261022190000 -0300" stop="20261022200000 -0300" channel="0183">
     <title>Llegó la hora</title>
-    <desc>Espacio de entrevistas y análisis de los principales acontecimientos políticos, económicos y sociales.</desc>
+    <desc>Llegó la hora de hablar de las noticias contingentes del día, con todo el análisis y entrevistas.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/llegolahora.jpg" />
   </programme>
-  <programme start="20261022210000 -0300" stop="20261022220000 -0300" channel="0183">
+  <programme start="20261022200000 -0300" stop="20261022210000 -0300" channel="0183">
     <title>Los tres mosqueteros</title>
-    <desc>Programa de conversación y debate donde sus panelistas analizan la actualidad nacional con diferentes puntos de vista.</desc>
+    <desc>Los Tres Mosqueteros se lanzan a la batalla de la actualidad nacional con espadas afiladas de ironía y análisis. La complicidad, el ingenio y la valentía se combinan para enfrentar los temas del día.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/lostresmosqueteros.jpg" />
   </programme>
-  <programme start="20261022220000 -0300" stop="20261022230000 -0300" channel="0183">
+  <programme start="20261022210000 -0300" stop="20261022220000 -0300" channel="0183">
     <title>La hora liberal</title>
-    <desc>Programa de opinión dedicado al análisis de la actualidad desde una perspectiva liberal.</desc>
+    <desc>Un programa de análisis político, económico y social.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/lahoraliberal.jpg" />
   </programme>
-  <programme start="20261022230000 -0300" stop="20261023000000 -0300" channel="0183">
+  <programme start="20261022220000 -0300" stop="20261022230000 -0300" channel="0183">
     <title>Minería y energía sustentable</title>
-    <desc>Espacio dedicado a la industria minera, la transición energética y el desarrollo sostenible.</desc>
+    <desc>El programa busca ofrecer una mirada clara, directa y sin filtros sobre uno de los sectores más importantes para Chile: La Minería.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/mineriayenergiasustentable.jpg" />
   </programme>
-  <programme start="20261023000000 -0300" stop="20261023010000 -0300" channel="0183">
+  <programme start="20261022230000 -0300" stop="20261023010000 -0300" channel="0183">
     <title>Chile público</title>
     <desc>Programa dedicado al análisis de políticas públicas, gestión del Estado y los principales temas de interés nacional.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/chilepublico.jpg" />
@@ -57821,40 +58015,60 @@ Ernesto Andrés Fuenmayor y Tamara Rivera Castro serán los YouTubers que analic
     <desc>Conversaciones anecdóticas sobre situaciones de vida y temas de actualidad.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/asieslacosa.jpg" />
   </programme>
-  <programme start="20261021220000 -0300" stop="20261021230000 -0300" channel="0186">
+  <programme start="20261021220000 -0300" stop="20261022000000 -0300" channel="0186">
     <title>La Tetera</title>
     <desc>El primer y único matinal farandulero del streaming chileno.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/latetera.jpg" />
   </programme>
-  <programme start="20261021230000 -0300" stop="20261022030000 -0300" channel="0186">
-    <title>La Nuestra Radio Streaming</title>
-    <desc>La informacion de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  <programme start="20261022000000 -0300" stop="20261022080000 -0300" channel="0186">
+    <title>Música en La Nuestra</title>
+    <desc>Canciones para apañarte en todas.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/musicaenlanuestra.jpg" />
   </programme>
-  <programme start="20261022030000 -0300" stop="20261022070000 -0300" channel="0186">
-    <title>La Nuestra Radio Streaming</title>
-    <desc>La informacion de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  <programme start="20261022080000 -0300" stop="20261022100000 -0300" channel="0186">
+    <title>La Tetera</title>
+    <desc>El primer y único matinal farandulero del streaming chileno.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/latetera.jpg" />
   </programme>
-  <programme start="20261022070000 -0300" stop="20261022110000 -0300" channel="0186">
-    <title>La Nuestra Radio Streaming</title>
-    <desc>La informacion de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  <programme start="20261022100000 -0300" stop="20261022120000 -0300" channel="0186">
+    <title>La Tetera</title>
+    <desc>El primer y único matinal farandulero del streaming chileno.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/latetera.jpg" />
   </programme>
-  <programme start="20261022110000 -0300" stop="20261022150000 -0300" channel="0186">
-    <title>La Nuestra Radio Streaming</title>
-    <desc>La informacion de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  <programme start="20261022120000 -0300" stop="20261022130000 -0300" channel="0186">
+    <title>La Trombonera</title>
+    <desc>Confesiones íntimas y chistosas que nos dejan grandes anécdotas.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/latrombonera.jpg" />
   </programme>
-  <programme start="20261022150000 -0300" stop="20261022190000 -0300" channel="0186">
-    <title>La Nuestra Radio Streaming</title>
-    <desc>La informacion de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  <programme start="20261022130000 -0300" stop="20261022140000 -0300" channel="0186">
+    <title>Ring City</title>
+    <desc>La lucha libre chilena como nunca antes la viste, con los mejores combates de NGEN.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/ringcity.jpg" />
   </programme>
-  <programme start="20261022190000 -0300" stop="20261022230000 -0300" channel="0186">
-    <title>La Nuestra Radio Streaming</title>
-    <desc>La informacion de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  <programme start="20261022140000 -0300" stop="20261022160000 -0300" channel="0186">
+    <title>Música en La Nuestra</title>
+    <desc>Canciones para apañarte en todas.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/musicaenlanuestra.jpg" />
+  </programme>
+  <programme start="20261022160000 -0300" stop="20261022180000 -0300" channel="0186">
+    <title>La Tetera</title>
+    <desc>El primer y único matinal farandulero del streaming chileno.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/latetera.jpg" />
+  </programme>
+  <programme start="20261022180000 -0300" stop="20261022210000 -0300" channel="0186">
+    <title>Música en La Nuestra</title>
+    <desc>Canciones para apañarte en todas.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/musicaenlanuestra.jpg" />
+  </programme>
+  <programme start="20261022210000 -0300" stop="20261022220000 -0300" channel="0186">
+    <title>La Trombonera</title>
+    <desc>Confesiones íntimas y chistosas que nos dejan grandes anécdotas.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/latrombonera.jpg" />
+  </programme>
+  <programme start="20261022220000 -0300" stop="20261022230000 -0300" channel="0186">
+    <title>La Tetera</title>
+    <desc>El primer y único matinal farandulero del streaming chileno.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/latetera.jpg" />
   </programme>
   <programme start="20261022230000 -0300" stop="20261023030000 -0300" channel="0186">
     <title>La Nuestra Radio Streaming</title>
@@ -58481,35 +58695,90 @@ Ernesto Andrés Fuenmayor y Tamara Rivera Castro serán los YouTubers que analic
     <desc>Ignacio De La Maza te cuenta la historia detrás de las canciones que han marcado nuestras vidas. Un espacio hecho por amantes de la música para amantes de la música.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/cancioninfinita.jpg" />
   </programme>
-  <programme start="20261021220000 -0300" stop="20261022020000 -0300" channel="0188">
-    <title>Radio Infinita</title>
-    <desc>La informacion de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  <programme start="20261021220000 -0300" stop="20261022063000 -0300" channel="0188">
+    <title>Música</title>
+    <desc>Sigue a un joven muy apasionado por la música. Tiene que aceptar un futuro incierto mientras equilibra su vida amorosa, su familia y la cultura brasileña en Nueva Jersey.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/musica.jpg" />
   </programme>
-  <programme start="20261022020000 -0300" stop="20261022060000 -0300" channel="0188">
-    <title>Radio Infinita</title>
-    <desc>La informacion de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  <programme start="20261022063000 -0300" stop="20261022070000 -0300" channel="0188">
+    <title>Meganoticias a la hora</title>
+    <desc>Programa conducido por Antonia Moreno, donde se abordan los temas que están marcando el inicio de la jornada informativa. Las 5 noticias que marcarán la agenda, con información práctica para comenzar el día: tiempo, calles y los hechos más r...</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/meganoticiasalahora.jpg" />
   </programme>
-  <programme start="20261022060000 -0300" stop="20261022100000 -0300" channel="0188">
-    <title>Radio Infinita</title>
-    <desc>La informacion de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  <programme start="20261022070000 -0300" stop="20261022090000 -0300" channel="0188">
+    <title>Ahora es cuándo</title>
+    <desc>Programa con el sello de Juan Manuel Astorga, quien informa los temas más relevantes de la jornada, con una mirada profunda y analítica, con punto de vista editorial de los hechos que están ocurriendo tanto en nuestro país como en el mundo.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/ahoraescuando.jpg" />
   </programme>
-  <programme start="20261022100000 -0300" stop="20261022140000 -0300" channel="0188">
-    <title>Radio Infinita</title>
-    <desc>La informacion de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  <programme start="20261022090000 -0300" stop="20261022100000 -0300" channel="0188">
+    <title>Más que números</title>
+    <desc>Programa económico orientado al mundo empresarial, ejecutivos y tomadores de decisiones, donde se abordan los temas del ámbito financiero, los mercados y el sector empresarial.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/masquenumeros.jpg" />
   </programme>
-  <programme start="20261022140000 -0300" stop="20261022180000 -0300" channel="0188">
-    <title>Radio Infinita</title>
-    <desc>La informacion de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  <programme start="20261022100000 -0300" stop="20261022103000 -0300" channel="0188">
+    <title>Algo diferente</title>
+    <desc>Microprograma auspiciado por BCI, donde Juan Manuel Astorga aborda en 30 minutos distintos temas económicos, de innovación y tecnología, además de entrevistas a ejecutivos de BCI.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/algodiferente.jpg" />
   </programme>
-  <programme start="20261022180000 -0300" stop="20261022220000 -0300" channel="0188">
-    <title>Radio Infinita</title>
-    <desc>La informacion de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  <programme start="20261022103000 -0300" stop="20261022110000 -0300" channel="0188">
+    <title>Meganoticias a la hora</title>
+    <desc>Programa conducido por Antonia Moreno, donde se abordan los temas que están marcando el inicio de la jornada informativa. Las 5 noticias que marcarán la agenda, con información práctica para comenzar el día: tiempo, calles y los hechos más r...</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/meganoticiasalahora.jpg" />
+  </programme>
+  <programme start="20261022110000 -0300" stop="20261022113000 -0300" channel="0188">
+    <title>Reunión de pauta</title>
+    <desc>Rodrigo Bravo y el equipo de editores de Meganoticias conversan sobre los temas que están marcando pauta ese día.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/reuniondepauta.jpg" />
+  </programme>
+  <programme start="20261022113000 -0300" stop="20261022120000 -0300" channel="0188">
+    <title>Entrevista infinita</title>
+    <desc>Revisitamos la entrevista de &quot;AHORA ES CUANDO&quot;, donde Juan Manuel Astorga analiza junto a los actores principales, el tema del dìa.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/entrevistainfinita.jpg" />
+  </programme>
+  <programme start="20261022120000 -0300" stop="20261022140000 -0300" channel="0188">
+    <title>Qué hay de nuevo</title>
+    <desc>Revisamos los hechos noticiosos que han marcado la mañana y se proyecta lo que vendrá, con entrevistas, bloque económico y panelistas internacionales y de espectáculos para abordar las distintas temáticas del día.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/quehaydenuevo.jpg" />
+  </programme>
+  <programme start="20261022140000 -0300" stop="20261022150000 -0300" channel="0188">
+    <title>Déjate Caer con Neme</title>
+    <desc>Conversación de las noticias que “no importan”... pero que a todos nos encantan. Una mirada diferente de la contingencia con temas de entretención, redes sociales, tendencias y sociedad.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/dejatecaerconneme.jpg" />
+  </programme>
+  <programme start="20261022150000 -0300" stop="20261022160000 -0300" channel="0188">
+    <title>Mundo infinito</title>
+    <desc>Durante una hora, aborda los principales desafíos ambientales y sociales a nivel global, a través del diálogo con expertos y la presentación de iniciativas impulsadas por empresas y organizaciones comprometidas con el desarrollo sostenible.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/mundoinfinito.jpg" />
+  </programme>
+  <programme start="20261022160000 -0300" stop="20261022170000 -0300" channel="0188">
+    <title>Deporte infinito</title>
+    <desc>Programa dedicado a todos los deportes y el wellness. El programa ofrece información contextual y de profundidad, incorporando antecedentes relevantes, miradas especializadas y proyección de los principales hitos de la semana</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/deporteinfinito.jpg" />
+  </programme>
+  <programme start="20261022170000 -0300" stop="20261022180000 -0300" channel="0188">
+    <title>Mas que un pitch</title>
+    <desc>Programa en el cual se cuentan las mejores historias de emprendedores, en primera persona, donde los fundadores de determinada empresa cuentan su experiencia, éxitos y fracasos</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/masqueunpitch.jpg" />
+  </programme>
+  <programme start="20261022180000 -0300" stop="20261022190000 -0300" channel="0188">
+    <title>Lo importante</title>
+    <desc>El resumen noticioso del día. El programa revisa y contextualiza los hechos que marcaron la contingencia nacional, incorporando entrevistas a los protagonistas del acontecimiento más relevante de la jornada</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/loimportante.jpg" />
+  </programme>
+  <programme start="20261022190000 -0300" stop="20261022200000 -0300" channel="0188">
+    <title>Mirada infinita</title>
+    <desc>Proponemos un espacio de conversación y análisis en profundidad sobre los temas que marcan la actualidad y aquellos que comienzan a instalarse en la conversación pública, tanto a nivel nacional como internacional.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/miradainfinita.jpg" />
+  </programme>
+  <programme start="20261022200000 -0300" stop="20261022210000 -0300" channel="0188">
+    <title>Música</title>
+    <desc>Sigue a un joven muy apasionado por la música. Tiene que aceptar un futuro incierto mientras equilibra su vida amorosa, su familia y la cultura brasileña en Nueva Jersey.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/musica.jpg" />
+  </programme>
+  <programme start="20261022210000 -0300" stop="20261022220000 -0300" channel="0188">
+    <title>Canción Infinita</title>
+    <desc>Ignacio De La Maza te cuenta la historia detrás de las canciones que han marcado nuestras vidas. Un espacio hecho por amantes de la música para amantes de la música.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/cancioninfinita.jpg" />
   </programme>
   <programme start="20261022220000 -0300" stop="20261023020000 -0300" channel="0188">
     <title>Radio Infinita</title>
@@ -58806,127 +59075,132 @@ Ernesto Andrés Fuenmayor y Tamara Rivera Castro serán los YouTubers que analic
     <desc>Un espacio en el que conversamos sin tapujos sobre lo que significa ser hombre en el siglo XXI. Cultura de la cancelación, estereotipos, paternidad y más, en un diálogo abierto y reflexivo.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/lomoplateado.jpg" />
   </programme>
-  <programme start="20261022210000 -0300" stop="20261023010000 -0300" channel="0189">
+  <programme start="20261022210000 -0300" stop="20261022220000 -0300" channel="0189">
+    <title>La Magia Azul</title>
+    <desc>La información de este programa no se encuentra disponible.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/lamagiaazul.jpg" />
+  </programme>
+  <programme start="20261022220000 -0300" stop="20261023020000 -0300" channel="0189">
     <title>La Metro</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261023010000 -0300" stop="20261023050000 -0300" channel="0189">
+  <programme start="20261023020000 -0300" stop="20261023060000 -0300" channel="0189">
     <title>La Metro</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261023050000 -0300" stop="20261023090000 -0300" channel="0189">
+  <programme start="20261023060000 -0300" stop="20261023100000 -0300" channel="0189">
     <title>La Metro</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261023090000 -0300" stop="20261023130000 -0300" channel="0189">
+  <programme start="20261023100000 -0300" stop="20261023140000 -0300" channel="0189">
     <title>La Metro</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261023130000 -0300" stop="20261023170000 -0300" channel="0189">
+  <programme start="20261023140000 -0300" stop="20261023180000 -0300" channel="0189">
     <title>La Metro</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261023170000 -0300" stop="20261023210000 -0300" channel="0189">
+  <programme start="20261023180000 -0300" stop="20261023220000 -0300" channel="0189">
     <title>La Metro</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261023210000 -0300" stop="20261024010000 -0300" channel="0189">
+  <programme start="20261023220000 -0300" stop="20261024020000 -0300" channel="0189">
     <title>La Metro</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261024010000 -0300" stop="20261024050000 -0300" channel="0189">
+  <programme start="20261024020000 -0300" stop="20261024060000 -0300" channel="0189">
     <title>La Metro</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261024050000 -0300" stop="20261024090000 -0300" channel="0189">
+  <programme start="20261024060000 -0300" stop="20261024100000 -0300" channel="0189">
     <title>La Metro</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261024090000 -0300" stop="20261024130000 -0300" channel="0189">
+  <programme start="20261024100000 -0300" stop="20261024140000 -0300" channel="0189">
     <title>La Metro</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261024130000 -0300" stop="20261024170000 -0300" channel="0189">
+  <programme start="20261024140000 -0300" stop="20261024180000 -0300" channel="0189">
     <title>La Metro</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261024170000 -0300" stop="20261024210000 -0300" channel="0189">
+  <programme start="20261024180000 -0300" stop="20261024220000 -0300" channel="0189">
     <title>La Metro</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261024210000 -0300" stop="20261025010000 -0300" channel="0189">
+  <programme start="20261024220000 -0300" stop="20261025020000 -0300" channel="0189">
     <title>La Metro</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261025010000 -0300" stop="20261025050000 -0300" channel="0189">
+  <programme start="20261025020000 -0300" stop="20261025060000 -0300" channel="0189">
     <title>La Metro</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261025050000 -0300" stop="20261025090000 -0300" channel="0189">
+  <programme start="20261025060000 -0300" stop="20261025100000 -0300" channel="0189">
     <title>La Metro</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261025090000 -0300" stop="20261025130000 -0300" channel="0189">
+  <programme start="20261025100000 -0300" stop="20261025140000 -0300" channel="0189">
     <title>La Metro</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261025130000 -0300" stop="20261025170000 -0300" channel="0189">
+  <programme start="20261025140000 -0300" stop="20261025180000 -0300" channel="0189">
     <title>La Metro</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261025170000 -0300" stop="20261025210000 -0300" channel="0189">
+  <programme start="20261025180000 -0300" stop="20261025220000 -0300" channel="0189">
     <title>La Metro</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261025210000 -0300" stop="20261026010000 -0300" channel="0189">
+  <programme start="20261025220000 -0300" stop="20261026020000 -0300" channel="0189">
     <title>La Metro</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261026010000 -0300" stop="20261026050000 -0300" channel="0189">
+  <programme start="20261026020000 -0300" stop="20261026060000 -0300" channel="0189">
     <title>La Metro</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261026050000 -0300" stop="20261026090000 -0300" channel="0189">
+  <programme start="20261026060000 -0300" stop="20261026100000 -0300" channel="0189">
     <title>La Metro</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261026090000 -0300" stop="20261026130000 -0300" channel="0189">
+  <programme start="20261026100000 -0300" stop="20261026140000 -0300" channel="0189">
     <title>La Metro</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261026130000 -0300" stop="20261026170000 -0300" channel="0189">
+  <programme start="20261026140000 -0300" stop="20261026180000 -0300" channel="0189">
     <title>La Metro</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261026170000 -0300" stop="20261026210000 -0300" channel="0189">
+  <programme start="20261026180000 -0300" stop="20261026220000 -0300" channel="0189">
     <title>La Metro</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261026210000 -0300" stop="20261026235959 -0300" channel="0189">
+  <programme start="20261026220000 -0300" stop="20261026235959 -0300" channel="0189">
     <title>La Metro</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
@@ -298743,7 +299017,7 @@ de Billy y Mandy</title>
   </programme>
   <programme start="20261021220000 -0300" stop="20261022000000 -0300" channel="0422">
     <title>Basquetbol Clasificatorio FIBA Americup Sub 16</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
+    <desc>Acción del Clasificatorio Sudamericano FIBA AmeriCup Sub-16 de 2027.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261022000000 -0300" stop="20261022013000 -0300" channel="0422">
@@ -298818,12 +299092,12 @@ de Billy y Mandy</title>
   </programme>
   <programme start="20261022220000 -0300" stop="20261022223000 -0300" channel="0422">
     <title>Resumen en 30: Basquetbol Clasificatorio FIBA Americup Sub 16</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
+    <desc>Cápsulas con lo mejor del torneo de Basquetbol Clasificatorio FIBA Americup Sub 16.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261022223000 -0300" stop="20261022233000 -0300" channel="0422">
     <title>Basquetbol Clasificatorio FIBA Americup Sub 16</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
+    <desc>Acción del Clasificatorio Sudamericano FIBA AmeriCup Sub-16 de 2027.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261022233000 -0300" stop="20261023000000 -0300" channel="0422">
@@ -322012,117 +322286,127 @@ de Billy y Mandy</title>
     <desc>Los B-boys y B-girls más destacados de España exploran la dualidad entre el Breaking como forma de arte y disciplina deportiva</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261022023900 -0300" stop="20261022071700 -0300" channel="0447">
+  <programme start="20261022023900 -0300" stop="20261022064600 -0300" channel="0447">
     <title>Chrysalis</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261022071700 -0300" stop="20261022080000 -0300" channel="0447">
+  <programme start="20261022064600 -0300" stop="20261022074700 -0300" channel="0447">
     <title>Shires: explorando el ciclismo británico</title>
     <desc>Narrada por Rob Warner y filmada durante dos años, esta película recorre todo lo que hace grande al ciclismo británico: sus ciclistas, senderos, paisajes y su impredecible clima.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/shiresexplorandoelciclismobritanico.jpg" />
+  </programme>
+  <programme start="20261022074700 -0300" stop="20261022080000 -0300" channel="0447">
+    <title>Red Bull Stratos</title>
+    <desc>La información de este programa no se encuentra disponible.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/redbullstratos.jpg" />
   </programme>
   <programme start="20261022080000 -0300" stop="20261022081500 -0300" channel="0447">
     <title>RedBull TV</title>
     <desc>Programación Red Bull TV</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/redbulltv.jpg" />
   </programme>
-  <programme start="20261022081500 -0300" stop="20261022091000 -0300" channel="0447">
+  <programme start="20261022081500 -0300" stop="20261022084100 -0300" channel="0447">
     <title>Red Bull Stratos</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/redbullstratos.jpg" />
   </programme>
-  <programme start="20261022091000 -0300" stop="20261022093800 -0300" channel="0447">
+  <programme start="20261022084100 -0300" stop="20261022091000 -0300" channel="0447">
     <title>Red Bull Rapids 2022: Whitewater highlights</title>
     <desc>Equipos construyen embarcaciones caseras para descender 234 metros de rápidos, en una carrera donde solo los más ingeniosos logran llegar a la meta.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261022093800 -0300" stop="20261022122600 -0300" channel="0447">
+  <programme start="20261022091000 -0300" stop="20261022121500 -0300" channel="0447">
     <title>Red Bull Hardline 2026: MTB extremo en Canadá</title>
     <desc>Red Bull Hardline 2026 lleva a los mejores riders de MTB a Columbia Británica, Canadá, para enfrentarse a uno de los circuitos de descenso más extremos y exigentes del mundo.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261022122600 -0300" stop="20261022131500 -0300" channel="0447">
+  <programme start="20261022121500 -0300" stop="20261022130400 -0300" channel="0447">
     <title>Gold Coast Pro 2026: surf de élite en Australia</title>
     <desc>Los mejores surfistas del mundo se enfrentan a las olas de Gold Coast, Australia, en una edición del Gold Coast Pro marcada por grandes actuaciones y un público entregado.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261022131500 -0300" stop="20261022140000 -0300" channel="0447">
+  <programme start="20261022130400 -0300" stop="20261022135500 -0300" channel="0447">
     <title>La élite del surf desafía las olas de Nueva Zelanda</title>
     <desc>Los mejores surfistas del mundo llegan a Raglan para el New Zealand Pro, donde se enfrentan a sus famosas olas de izquierda en una nueva parada del WSL Championship Tour.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/laelitedelsurfdesafialasolasdenuevazelanda.jpg" />
+  </programme>
+  <programme start="20261022135500 -0300" stop="20261022140000 -0300" channel="0447">
+    <title>El mejor surf mundial llega a El Salvador</title>
+    <desc>Revive los mejores momentos del Surf City El Salvador Pro 2026, donde Carissa Moore y Leo Fioravanti conquistan las olas de Punta Roca en una parada del WSL Championship Tour.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261022140000 -0300" stop="20261022140600 -0300" channel="0447">
     <title>RedBull TV</title>
     <desc>Programación Red Bull TV</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/redbulltv.jpg" />
   </programme>
-  <programme start="20261022140600 -0300" stop="20261022145600 -0300" channel="0447">
+  <programme start="20261022140600 -0300" stop="20261022144500 -0300" channel="0447">
     <title>El mejor surf mundial llega a El Salvador</title>
     <desc>Revive los mejores momentos del Surf City El Salvador Pro 2026, donde Carissa Moore y Leo Fioravanti conquistan las olas de Punta Roca en una parada del WSL Championship Tour.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261022145600 -0300" stop="20261022160200 -0300" channel="0447">
+  <programme start="20261022144500 -0300" stop="20261022155100 -0300" channel="0447">
     <title>Red Bull Soapbox Race</title>
     <desc>La carrera sin motor y con muchos obstáculos pondrá a prueba a los participantes durante todo el día. ¿Habrán hecho los equipos lo suficiente para que sus máquinas lleguen a la meta o los obstáculos serán demasiado grandes?</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/redbullsoapboxrace.jpg" />
   </programme>
-  <programme start="20261022160200 -0300" stop="20261022174400 -0300" channel="0447">
+  <programme start="20261022155100 -0300" stop="20261022173300 -0300" channel="0447">
     <title>Red Bull Soapbox Race Madrid</title>
     <desc>La carrera de cuatro ruedas más loca y creativa del mundo llegó a España y esto fue lo que pasó en la Red Bull Soapbox Race de Madrid.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/redbullsoapboxracemadrid.jpg" />
   </programme>
-  <programme start="20261022174400 -0300" stop="20261022192600 -0300" channel="0447">
+  <programme start="20261022173300 -0300" stop="20261022191500 -0300" channel="0447">
     <title>Red Bull Soapbox Race: la carrera más loca de Londres</title>
     <desc>Equipos construyen sus propios coches sin motor para desafiar una pista empinada llena de obstáculos en Londres, donde la competencia se basa en velocidad y creatividad de diseño.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/redbullsoapboxracelacarreramaslocadelondres.jpg" />
   </programme>
-  <programme start="20261022192600 -0300" stop="20261022195700 -0300" channel="0447">
+  <programme start="20261022191500 -0300" stop="20261022194600 -0300" channel="0447">
     <title>ABC de Cliff diving</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261022195700 -0300" stop="20261022200000 -0300" channel="0447">
+  <programme start="20261022194600 -0300" stop="20261022200000 -0300" channel="0447">
     <title>El ABC del Kayaking</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/elabcdelkayaking.jpg" />
   </programme>
-  <programme start="20261022200000 -0300" stop="20261022202700 -0300" channel="0447">
+  <programme start="20261022200000 -0300" stop="20261022201600 -0300" channel="0447">
     <title>RedBull TV</title>
     <desc>Programación Red Bull TV</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/redbulltv.jpg" />
   </programme>
-  <programme start="20261022202700 -0300" stop="20261022205300 -0300" channel="0447">
+  <programme start="20261022201600 -0300" stop="20261022204500 -0300" channel="0447">
     <title>La evolución de la danza urbana</title>
     <desc>El street dance abarca estilos como hip-hop y popping, explorando sus orígenes humildes y la evolución que los convirtió en pilares de la cultura urbana global.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261022205300 -0300" stop="20261022212500 -0300" channel="0447">
+  <programme start="20261022204500 -0300" stop="20261022211700 -0300" channel="0447">
     <title>Escalada al límite por un nuevo título mundial</title>
     <desc>Janja Garnbret busca su décimo título mundial de escalada mientras cambia la competición por la roca al aire libre para encontrar nueva motivación y afrontar la presión de volver a ganar.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/escaladaallimiteporunnuevotitulomundial.jpg" />
   </programme>
-  <programme start="20261022212500 -0300" stop="20261022215400 -0300" channel="0447">
+  <programme start="20261022211700 -0300" stop="20261022214600 -0300" channel="0447">
     <title>Escalando por primera vez el &quot;B.I.G.&quot; en Noruega</title>
     <desc>Jakob Schubert afronta la primera ascensión de escalada del &quot;B.I.G.&quot; (9c) en Flatanger, Noruega.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/escalandoporprimeravezelbigennoruega.jpg" />
   </programme>
-  <programme start="20261022215400 -0300" stop="20261022222300 -0300" channel="0447">
+  <programme start="20261022214600 -0300" stop="20261022221400 -0300" channel="0447">
     <title>El camino para convertirse en escaladora profesional</title>
     <desc>El camino deportivo y los sacrificios de Nika Potapova para convertirse en escaladora profesional.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/elcaminoparaconvertirseenescaladoraprofesional.jpg" />
   </programme>
-  <programme start="20261022222300 -0300" stop="20261022225100 -0300" channel="0447">
+  <programme start="20261022221400 -0300" stop="20261022224300 -0300" channel="0447">
     <title>Escalando una presa de 180m de altura en Suiza</title>
     <desc>Alberto Ginés López y Jenya Kazbekova compiten en una carrera de 180 metros de escalada en el embalse de Verzasca, donde cada movimiento define el resultado en una pared imponente.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261022225100 -0300" stop="20261022232200 -0300" channel="0447">
+  <programme start="20261022224300 -0300" stop="20261022231300 -0300" channel="0447">
     <title>For Reals</title>
     <desc>Romper récords mundiales: ¡todo en un día de trabajo para los atletas de Red Bull! Mira a Felix Baumgartner saltar desde el espacio, a 65 mujeres hacer paracaidismo juntas y a un BMXer conquistar el bucle completo más grande del mundo.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/forreals.jpg" />
   </programme>
-  <programme start="20261022232200 -0300" stop="20261023020000 -0300" channel="0447">
+  <programme start="20261022231300 -0300" stop="20261023020000 -0300" channel="0447">
     <title>Red Bull Soapbox Race: la carrera más loca de Londres</title>
     <desc>Equipos construyen sus propios coches sin motor para desafiar una pista empinada llena de obstáculos en Londres, donde la competencia se basa en velocidad y creatividad de diseño.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/redbullsoapboxracelacarreramaslocadelondres.jpg" />
@@ -338414,10 +338698,15 @@ de Billy y Mandy</title>
     <desc>DJs: Guaripola (Osvaldo Solorza) &amp; Berno Salvavidas (Bernardo González)</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/pegaoeneltaco.jpg" />
   </programme>
-  <programme start="20261022200000 -0300" stop="20261023020000 -0300" channel="0536">
+  <programme start="20261022200000 -0300" stop="20261022220000 -0300" channel="0536">
     <title>Calentamiento Social</title>
     <desc>DJs: DJ Rusell (Jaime Acevedo)</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/calentamientosocial.jpg" />
+  </programme>
+  <programme start="20261022220000 -0300" stop="20261023020000 -0300" channel="0536">
+    <title>Radio Carolina</title>
+    <desc>La información de este programa no se encuentra disponible.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/radiocarolina.jpg" />
   </programme>
   <programme start="20261023020000 -0300" stop="20261023080000 -0300" channel="0536">
     <title>Carolina TV</title>
@@ -703651,23 +703940,8 @@ La serie narra los acontecimientos de la Biblia, del Antiguo y Nuevo Testamento 
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261020190000 -0300" stop="20261021010000 -0300" channel="0901">
+  <programme start="20261020190000 -0300" stop="20261021080000 -0300" channel="0901">
     <title>El Curubito Internacional</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
-  </programme>
-  <programme start="20261021010000 -0300" stop="20261021020000 -0300" channel="0901">
-    <title>Retransmisión De Tvmax Deportes</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
-  </programme>
-  <programme start="20261021020000 -0300" stop="20261021043000 -0300" channel="0901">
-    <title>El Curubito Internacional</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
-  </programme>
-  <programme start="20261021043000 -0300" stop="20261021080000 -0300" channel="0901">
-    <title>Mesa De Periodistas</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
@@ -760882,178 +761156,247 @@ Andrés Gil</desc>
     <category>animation</category>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261021111500 -0300" stop="20261021121500 -0300" channel="0967">
+  <programme start="20261021111500 -0300" stop="20261021120300 -0300" channel="0967">
     <title>El mundo de Julius- Episodio 7</title>
     <desc>Todo era perfecto para Julius, hasta que su mundo se rompe. Entre nuevos retos y aventuras, lucha por seguir siendo un niño feliz.</desc>
     <category>drama</category>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261021121500 -0300" stop="20261021130000 -0300" channel="0967">
+  <programme start="20261021120300 -0300" stop="20261021125100 -0300" channel="0967">
+    <title>El mundo de Julius- Episodio 8</title>
+    <desc>Todo era perfecto para Julius, hasta que su mundo se rompe. Entre nuevos retos y aventuras, lucha por seguir siendo un niño feliz.</desc>
+    <category>drama</category>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261021125100 -0300" stop="20261021131500 -0300" channel="0967">
+    <title>La Familia Cheveroni- Episodio 119</title>
+    <desc>Aurelio y su familia viven aventuras llenas de humor y valores en la divertida serie La Familia Cheveroni.</desc>
+    <category>comedy</category>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261021131500 -0300" stop="20261021133900 -0300" channel="0967">
+    <title>La Familia Cheveroni- Episodio 120</title>
+    <desc>Aurelio y su familia viven aventuras llenas de humor y valores en la divertida serie La Familia Cheveroni.</desc>
+    <category>comedy</category>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261021133900 -0300" stop="20261021140900 -0300" channel="0967">
+    <title>Club 10 - Año 11- - Episodio 270</title>
+    <desc>Un grupo de niños y su amigo Dinodoro viven emocionantes aventuras llenas de humor, aprendizaje y diversión en Club 10.</desc>
+    <category>fantasy</category>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261021140900 -0300" stop="20261021143700 -0300" channel="0967">
+    <title>Club 10 - Año 11- - Episodio 271</title>
+    <desc>Un grupo de niños y su amigo Dinodoro viven emocionantes aventuras llenas de humor, aprendizaje y diversión en Club 10.</desc>
+    <category>fantasy</category>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261021143700 -0300" stop="20261021144000 -0300" channel="0967">
+    <title>Roberta Quiere Cacao T2 - Ep.3. El ritmo del corazón</title>
+    <desc>Roberta y Fausto, marcados por el destino, enfrentan secretos, traiciones y un reencuentro que cambiará sus vidas para siempre.</desc>
+    <category>animation</category>
+    <category>kids &amp; family</category>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261021144000 -0300" stop="20261021144300 -0300" channel="0967">
+    <title>Roberta Quiere Cacao T2 - Ep. 4. Contra la corriente</title>
+    <desc>Roberta y Fausto, marcados por el destino, enfrentan secretos, traiciones y un reencuentro que cambiará sus vidas para siempre.</desc>
+    <category>animation</category>
+    <category>kids &amp; family</category>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261021144300 -0300" stop="20261021150900 -0300" channel="0967">
+    <title>Cuentos de los Hermanos Grimm - Episodio 30. Guardia en la tumba</title>
+    <desc>Emitida por Caracol desde 1988, esta serie trajo los cuentos Grimm a la TV con emoción, valores y estilo inolvidable.</desc>
+    <category>animation</category>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261021150900 -0300" stop="20261021153400 -0300" channel="0967">
+    <title>Cuentos de los Hermanos Grimm - Episodio 31. El lobo y el zorro</title>
+    <desc>Emitida por Caracol desde 1988, esta serie trajo los cuentos Grimm a la TV con emoción, valores y estilo inolvidable.</desc>
+    <category>animation</category>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261021153400 -0300" stop="20261021162200 -0300" channel="0967">
+    <title>El mundo de Julius- Episodio 7</title>
+    <desc>Todo era perfecto para Julius, hasta que su mundo se rompe. Entre nuevos retos y aventuras, lucha por seguir siendo un niño feliz.</desc>
+    <category>drama</category>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261021162200 -0300" stop="20261021171100 -0300" channel="0967">
+    <title>El mundo de Julius- Episodio 8</title>
+    <desc>Todo era perfecto para Julius, hasta que su mundo se rompe. Entre nuevos retos y aventuras, lucha por seguir siendo un niño feliz.</desc>
+    <category>drama</category>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261021171100 -0300" stop="20261021181100 -0300" channel="0967">
+    <title>La Familia Cheveroni- Episodio 119</title>
+    <desc>Aurelio y su familia viven aventuras llenas de humor y valores en la divertida serie La Familia Cheveroni.</desc>
+    <category>comedy</category>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261021181100 -0300" stop="20261021190000 -0300" channel="0967">
     <title>TEST DITU CARACOL KIDS</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261021130000 -0300" stop="20261021170000 -0300" channel="0967">
+  <programme start="20261021190000 -0300" stop="20261021230000 -0300" channel="0967">
     <title>TEST DITU CARACOL KIDS</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261021170000 -0300" stop="20261021210000 -0300" channel="0967">
+  <programme start="20261021230000 -0300" stop="20261022030000 -0300" channel="0967">
     <title>TEST DITU CARACOL KIDS</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261021210000 -0300" stop="20261022010000 -0300" channel="0967">
+  <programme start="20261022030000 -0300" stop="20261022070000 -0300" channel="0967">
     <title>TEST DITU CARACOL KIDS</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261022010000 -0300" stop="20261022050000 -0300" channel="0967">
+  <programme start="20261022070000 -0300" stop="20261022110000 -0300" channel="0967">
     <title>TEST DITU CARACOL KIDS</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261022050000 -0300" stop="20261022090000 -0300" channel="0967">
+  <programme start="20261022110000 -0300" stop="20261022150000 -0300" channel="0967">
     <title>TEST DITU CARACOL KIDS</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261022090000 -0300" stop="20261022130000 -0300" channel="0967">
+  <programme start="20261022150000 -0300" stop="20261022190000 -0300" channel="0967">
     <title>TEST DITU CARACOL KIDS</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261022130000 -0300" stop="20261022170000 -0300" channel="0967">
+  <programme start="20261022190000 -0300" stop="20261022230000 -0300" channel="0967">
     <title>TEST DITU CARACOL KIDS</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261022170000 -0300" stop="20261022210000 -0300" channel="0967">
+  <programme start="20261022230000 -0300" stop="20261023030000 -0300" channel="0967">
     <title>TEST DITU CARACOL KIDS</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261022210000 -0300" stop="20261023010000 -0300" channel="0967">
+  <programme start="20261023030000 -0300" stop="20261023070000 -0300" channel="0967">
     <title>TEST DITU CARACOL KIDS</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261023010000 -0300" stop="20261023050000 -0300" channel="0967">
+  <programme start="20261023070000 -0300" stop="20261023110000 -0300" channel="0967">
     <title>TEST DITU CARACOL KIDS</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261023050000 -0300" stop="20261023090000 -0300" channel="0967">
+  <programme start="20261023110000 -0300" stop="20261023150000 -0300" channel="0967">
     <title>TEST DITU CARACOL KIDS</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261023090000 -0300" stop="20261023130000 -0300" channel="0967">
+  <programme start="20261023150000 -0300" stop="20261023190000 -0300" channel="0967">
     <title>TEST DITU CARACOL KIDS</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261023130000 -0300" stop="20261023170000 -0300" channel="0967">
+  <programme start="20261023190000 -0300" stop="20261023230000 -0300" channel="0967">
     <title>TEST DITU CARACOL KIDS</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261023170000 -0300" stop="20261023210000 -0300" channel="0967">
+  <programme start="20261023230000 -0300" stop="20261024030000 -0300" channel="0967">
     <title>TEST DITU CARACOL KIDS</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261023210000 -0300" stop="20261024010000 -0300" channel="0967">
+  <programme start="20261024030000 -0300" stop="20261024070000 -0300" channel="0967">
     <title>TEST DITU CARACOL KIDS</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261024010000 -0300" stop="20261024050000 -0300" channel="0967">
+  <programme start="20261024070000 -0300" stop="20261024110000 -0300" channel="0967">
     <title>TEST DITU CARACOL KIDS</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261024050000 -0300" stop="20261024090000 -0300" channel="0967">
+  <programme start="20261024110000 -0300" stop="20261024150000 -0300" channel="0967">
     <title>TEST DITU CARACOL KIDS</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261024090000 -0300" stop="20261024130000 -0300" channel="0967">
+  <programme start="20261024150000 -0300" stop="20261024190000 -0300" channel="0967">
     <title>TEST DITU CARACOL KIDS</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261024130000 -0300" stop="20261024170000 -0300" channel="0967">
+  <programme start="20261024190000 -0300" stop="20261024230000 -0300" channel="0967">
     <title>TEST DITU CARACOL KIDS</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261024170000 -0300" stop="20261024210000 -0300" channel="0967">
+  <programme start="20261024230000 -0300" stop="20261025030000 -0300" channel="0967">
     <title>TEST DITU CARACOL KIDS</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261024210000 -0300" stop="20261025010000 -0300" channel="0967">
+  <programme start="20261025030000 -0300" stop="20261025070000 -0300" channel="0967">
     <title>TEST DITU CARACOL KIDS</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261025010000 -0300" stop="20261025050000 -0300" channel="0967">
+  <programme start="20261025070000 -0300" stop="20261025110000 -0300" channel="0967">
     <title>TEST DITU CARACOL KIDS</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261025050000 -0300" stop="20261025090000 -0300" channel="0967">
+  <programme start="20261025110000 -0300" stop="20261025150000 -0300" channel="0967">
     <title>TEST DITU CARACOL KIDS</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261025090000 -0300" stop="20261025130000 -0300" channel="0967">
+  <programme start="20261025150000 -0300" stop="20261025190000 -0300" channel="0967">
     <title>TEST DITU CARACOL KIDS</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261025130000 -0300" stop="20261025170000 -0300" channel="0967">
+  <programme start="20261025190000 -0300" stop="20261025230000 -0300" channel="0967">
     <title>TEST DITU CARACOL KIDS</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261025170000 -0300" stop="20261025210000 -0300" channel="0967">
+  <programme start="20261025230000 -0300" stop="20261026030000 -0300" channel="0967">
     <title>TEST DITU CARACOL KIDS</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261025210000 -0300" stop="20261026010000 -0300" channel="0967">
+  <programme start="20261026030000 -0300" stop="20261026070000 -0300" channel="0967">
     <title>TEST DITU CARACOL KIDS</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261026010000 -0300" stop="20261026050000 -0300" channel="0967">
+  <programme start="20261026070000 -0300" stop="20261026110000 -0300" channel="0967">
     <title>TEST DITU CARACOL KIDS</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261026050000 -0300" stop="20261026090000 -0300" channel="0967">
+  <programme start="20261026110000 -0300" stop="20261026150000 -0300" channel="0967">
     <title>TEST DITU CARACOL KIDS</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261026090000 -0300" stop="20261026130000 -0300" channel="0967">
+  <programme start="20261026150000 -0300" stop="20261026190000 -0300" channel="0967">
     <title>TEST DITU CARACOL KIDS</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261026130000 -0300" stop="20261026170000 -0300" channel="0967">
+  <programme start="20261026190000 -0300" stop="20261026230000 -0300" channel="0967">
     <title>TEST DITU CARACOL KIDS</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261026170000 -0300" stop="20261026210000 -0300" channel="0967">
-    <title>TEST DITU CARACOL KIDS</title>
-    <desc>La informacion de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
-  </programme>
-  <programme start="20261026210000 -0300" stop="20261026235959 -0300" channel="0967">
+  <programme start="20261026230000 -0300" stop="20261026235959 -0300" channel="0967">
     <title>TEST DITU CARACOL KIDS</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
