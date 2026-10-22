@@ -57829,14 +57829,11 @@ Ernesto Andrés Fuenmayor y Tamara Rivera Castro serán los YouTubers que analic
     <desc>Espacio de análisis sobre los desafíos económicos, sociales y políticos que enfrenta el país.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261022000000 -0300" stop="20261022010000 -0300" channel="0183">
-    <title>Chile público</title>
-    <desc>Programa dedicado al análisis de políticas públicas, gestión del Estado y los principales temas de interés nacional.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/chilepublico.jpg" />
-  </programme>
-  <programme start="20261022010000 -0300" stop="20261022070000 -0300" channel="0183">
+  <programme start="20261022000000 -0300" stop="20261022070000 -0300" channel="0183">
     <title>Lo mejor del día</title>
     <desc>Resumen con los momentos más destacados de la programación y las principales noticias de la jornada.</desc>
+    <date>2026</date>
+    <category>Misceláneo</category>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/lomejordeldia.jpg" />
   </programme>
   <programme start="20261022070000 -0300" stop="20261022080000 -0300" channel="0183">
@@ -57870,148 +57867,289 @@ Ernesto Andrés Fuenmayor y Tamara Rivera Castro serán los YouTubers que analic
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/conectados.jpg" />
   </programme>
   <programme start="20261022140000 -0300" stop="20261022150000 -0300" channel="0183">
-    <title>Nuevas voces</title>
-    <desc>Espacio que presenta a nuevos líderes, emprendedores y referentes en distintos ámbitos de la sociedad.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/nuevasvoces.jpg" />
+    <title>Deportes en Agricultura</title>
+    <desc>La información de este programa no se encuentra disponible.</desc>
+    <credits>
+      <actor>Patricio Yáñez</actor>
+      <actor>Manuel de Tezanos</actor>
+      <actor>Mauricio Pinilla</actor>
+      <actor>Francisco Sagredo</actor>
+      <actor>Cristián Caamaño</actor>
+      <actor>Juan Cristóbal Guarello</actor>
+    </credits>
+    <date>2026</date>
+    <category>Noticias</category>
+    <category>Noticias Deportivas</category>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/deportesenagricultura.jpg" />
   </programme>
   <programme start="20261022150000 -0300" stop="20261022160000 -0300" channel="0183">
-    <title>Deportes</title>
-    <desc>Resumen de la actualidad deportiva con noticias, entrevistas y análisis de las principales competencias nacionales e internacionales.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/deportes.jpg" />
+    <title>Hoy por hoy Chile es</title>
+    <desc>Un magazine de actualidad, sociedad y sostenibilidad.</desc>
+    <date>2026</date>
+    <category>Noticias</category>
+    <category>Revista</category>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/hoyporhoychilees.jpg" />
   </programme>
   <programme start="20261022160000 -0300" stop="20261022170000 -0300" channel="0183">
-    <title>Hoy por hoy Chile es</title>
-    <desc>Programa de actualidad con entrevistas, noticias y análisis de los principales acontecimientos nacionales.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/hoyporhoychilees.jpg" />
-  </programme>
-  <programme start="20261022170000 -0300" stop="20261022180000 -0300" channel="0183">
     <title>Al pizarrón</title>
-    <desc>Programa de análisis y opinión donde expertos explican temas de actualidad de forma clara y didáctica.</desc>
+    <desc>El profe Luis Silva, abogado y ex consejero constitucional, llega a acompañarte todas las tardes con el mejor análisis de actualidad política.</desc>
+    <date>2026</date>
+    <category>Noticias</category>
+    <category>Revista</category>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/alpizarron.jpg" />
   </programme>
-  <programme start="20261022180000 -0300" stop="20261022190000 -0300" channel="0183">
+  <programme start="20261022170000 -0300" stop="20261022180000 -0300" channel="0183">
     <title>Enfoque público</title>
-    <desc>Programa que analiza la gestión pública, políticas gubernamentales y desafíos del país.</desc>
+    <desc>Espacio de encuentro de ideas y personas para analizar el debate público con una mirada más profunda.</desc>
+    <credits>
+      <actor>Julio Isamit</actor>
+    </credits>
+    <date>2026</date>
+    <category>Noticias</category>
+    <category>Debate</category>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/enfoquepublico.jpg" />
+  </programme>
+  <programme start="20261022180000 -0300" stop="20261022190000 -0300" channel="0183">
+    <title>El rompecabezas</title>
+    <desc>La información de este programa no se encuentra disponible.</desc>
+    <credits>
+      <actor>Pedro Carcuro</actor>
+    </credits>
+    <date>2026</date>
+    <category>Noticias</category>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/elrompecabezas.jpg" />
   </programme>
   <programme start="20261022190000 -0300" stop="20261022200000 -0300" channel="0183">
-    <title>El rompecabezas</title>
-    <desc>Programa de análisis que reúne distintas miradas para comprender los temas más relevantes de la contingencia nacional.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/elrompecabezas.jpg" />
+    <title>Llegó la hora</title>
+    <desc>Llegó la hora de hablar de las noticias contingentes del día, con todo el análisis y entrevistas.</desc>
+    <credits>
+      <actor>José Francisco Lagos</actor>
+    </credits>
+    <date>2026</date>
+    <category>Noticias</category>
+    <category>Revista</category>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/llegolahora.jpg" />
   </programme>
   <programme start="20261022200000 -0300" stop="20261022210000 -0300" channel="0183">
-    <title>Llegó la hora</title>
-    <desc>Espacio de entrevistas y análisis de los principales acontecimientos políticos, económicos y sociales.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/llegolahora.jpg" />
+    <title>Los tres mosqueteros</title>
+    <desc>Los Tres Mosqueteros se lanzan a la batalla de la actualidad nacional con espadas afiladas de ironía y análisis. La complicidad, el ingenio y la valentía se combinan para enfrentar los temas del día.</desc>
+    <date>2026</date>
+    <category>Noticias</category>
+    <category>Revista</category>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/lostresmosqueteros.jpg" />
   </programme>
   <programme start="20261022210000 -0300" stop="20261022220000 -0300" channel="0183">
-    <title>Los tres mosqueteros</title>
-    <desc>Programa de conversación y debate donde sus panelistas analizan la actualidad nacional con diferentes puntos de vista.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/lostresmosqueteros.jpg" />
-  </programme>
-  <programme start="20261022220000 -0300" stop="20261022230000 -0300" channel="0183">
     <title>La hora liberal</title>
-    <desc>Programa de opinión dedicado al análisis de la actualidad desde una perspectiva liberal.</desc>
+    <desc>Un programa de análisis político, económico y social.</desc>
+    <credits>
+      <actor>Gonzalo Blumel e Ignacio Briones</actor>
+    </credits>
+    <date>2026</date>
+    <category>Noticias</category>
+    <category>Política</category>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/lahoraliberal.jpg" />
   </programme>
-  <programme start="20261022230000 -0300" stop="20261023000000 -0300" channel="0183">
+  <programme start="20261022220000 -0300" stop="20261022230000 -0300" channel="0183">
     <title>Minería y energía sustentable</title>
-    <desc>Espacio dedicado a la industria minera, la transición energética y el desarrollo sostenible.</desc>
+    <desc>El programa busca ofrecer una mirada clara, directa y sin filtros sobre uno de los sectores más importantes para Chile: La Minería.</desc>
+    <date>2026</date>
+    <category>Charla</category>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/mineriayenergiasustentable.jpg" />
   </programme>
-  <programme start="20261023000000 -0300" stop="20261023010000 -0300" channel="0183">
+  <programme start="20261022230000 -0300" stop="20261023000000 -0300" channel="0183">
     <title>Chile público</title>
-    <desc>Programa dedicado al análisis de políticas públicas, gestión del Estado y los principales temas de interés nacional.</desc>
+    <desc>La información de este programa no se encuentra disponible.</desc>
+    <credits>
+      <actor>Jorge Pomar</actor>
+    </credits>
+    <date>2026</date>
+    <category>Entrevista</category>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/chilepublico.jpg" />
   </programme>
-  <programme start="20261023010000 -0300" stop="20261023070000 -0300" channel="0183">
+  <programme start="20261023000000 -0300" stop="20261023060000 -0300" channel="0183">
     <title>Lo mejor del día</title>
     <desc>Resumen con los momentos más destacados de la programación y las principales noticias de la jornada.</desc>
+    <date>2026</date>
+    <category>Misceláneo</category>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/lomejordeldia.jpg" />
   </programme>
-  <programme start="20261023070000 -0300" stop="20261023080000 -0300" channel="0183">
+  <programme start="20261023060000 -0300" stop="20261023070000 -0300" channel="0183">
     <title>Noticias en Agricultura</title>
-    <desc>Informativo con cobertura de los principales acontecimientos nacionales e internacionales.</desc>
+    <desc>La información de este programa no se encuentra disponible.</desc>
+    <credits>
+      <actor>Jessika Castañeda</actor>
+    </credits>
+    <date>2026</date>
+    <category>Noticias</category>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/noticiasenagricultura.jpg" />
   </programme>
-  <programme start="20261023080000 -0300" stop="20261023090000 -0300" channel="0183">
-    <title>Deportes</title>
-    <desc>Resumen de la actualidad deportiva con noticias, entrevistas y análisis de las principales competencias nacionales e internacionales.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/deportes.jpg" />
+  <programme start="20261023070000 -0300" stop="20261023080000 -0300" channel="0183">
+    <title>Deportes en Agricultura</title>
+    <desc>La información de este programa no se encuentra disponible.</desc>
+    <credits>
+      <actor>Patricio Yáñez</actor>
+      <actor>Manuel de Tezanos</actor>
+      <actor>Mauricio Pinilla</actor>
+      <actor>Francisco Sagredo</actor>
+      <actor>Cristián Caamaño</actor>
+      <actor>Juan Cristóbal Guarello</actor>
+    </credits>
+    <date>2026</date>
+    <category>Noticias</category>
+    <category>Noticias Deportivas</category>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/deportesenagricultura.jpg" />
   </programme>
-  <programme start="20261023090000 -0300" stop="20261023100000 -0300" channel="0183">
+  <programme start="20261023080000 -0300" stop="20261023090000 -0300" channel="0183">
     <title>La mañana de Agricultura</title>
-    <desc>Revista informativa matinal con noticias, entrevistas, análisis y temas de interés nacional e internacional.</desc>
+    <desc>La información de este programa no se encuentra disponible.</desc>
+    <credits>
+      <actor>Cristina Gonzalez</actor>
+    </credits>
+    <date>2026</date>
+    <category>Noticias</category>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/lamananadeagricultura.jpg" />
   </programme>
-  <programme start="20261023100000 -0300" stop="20261023110000 -0300" channel="0183">
+  <programme start="20261023090000 -0300" stop="20261023100000 -0300" channel="0183">
     <title>Directo al grano</title>
-    <desc>Programa de opinión que aborda de manera directa los acontecimientos más relevantes de la actualidad nacional.</desc>
+    <desc>La información de este programa no se encuentra disponible.</desc>
+    <credits>
+      <actor>Gonzalo Müller</actor>
+    </credits>
+    <date>2026</date>
+    <category>Noticias</category>
+    <category>Debate</category>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/directoalgrano.jpg" />
   </programme>
-  <programme start="20261023110000 -0300" stop="20261023120000 -0300" channel="0183">
+  <programme start="20261023100000 -0300" stop="20261023110000 -0300" channel="0183">
     <title>La voz de la gente</title>
-    <desc>Programa que da espacio a las opiniones, inquietudes y propuestas de la ciudadanía sobre temas de actualidad.</desc>
+    <desc>La información de este programa no se encuentra disponible.</desc>
+    <credits>
+      <actor>Carol Bown</actor>
+    </credits>
+    <date>2026</date>
+    <category>Noticias</category>
+    <category>Charla</category>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/lavozdelagente.jpg" />
   </programme>
-  <programme start="20261023120000 -0300" stop="20261023140000 -0300" channel="0183">
+  <programme start="20261023110000 -0300" stop="20261023130000 -0300" channel="0183">
     <title>Conectados</title>
-    <desc>Magazine con noticias, tecnología, tendencias y contenidos de interés para la vida cotidiana.</desc>
+    <desc>Análisis y debate del acontecer nacional.</desc>
+    <credits>
+      <actor>Checho Hirane</actor>
+    </credits>
+    <date>2026</date>
+    <category>Noticias</category>
+    <category>Charla</category>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/conectados.jpg" />
   </programme>
-  <programme start="20261023140000 -0300" stop="20261023150000 -0300" channel="0183">
+  <programme start="20261023130000 -0300" stop="20261023140000 -0300" channel="0183">
     <title>Nuevas voces</title>
-    <desc>Espacio que presenta a nuevos líderes, emprendedores y referentes en distintos ámbitos de la sociedad.</desc>
+    <desc>La información de este programa no se encuentra disponible.</desc>
+    <credits>
+      <actor>Tomás Bengolea</actor>
+    </credits>
+    <date>2026</date>
+    <category>Noticias</category>
+    <category>Charla</category>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/nuevasvoces.jpg" />
   </programme>
-  <programme start="20261023150000 -0300" stop="20261023160000 -0300" channel="0183">
-    <title>Deportes</title>
-    <desc>Resumen de la actualidad deportiva con noticias, entrevistas y análisis de las principales competencias nacionales e internacionales.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/deportes.jpg" />
+  <programme start="20261023140000 -0300" stop="20261023150000 -0300" channel="0183">
+    <title>Deportes en Agricultura</title>
+    <desc>La información de este programa no se encuentra disponible.</desc>
+    <credits>
+      <actor>Patricio Yáñez</actor>
+      <actor>Manuel de Tezanos</actor>
+      <actor>Mauricio Pinilla</actor>
+      <actor>Francisco Sagredo</actor>
+      <actor>Cristián Caamaño</actor>
+      <actor>Juan Cristóbal Guarello</actor>
+    </credits>
+    <date>2026</date>
+    <category>Noticias</category>
+    <category>Noticias Deportivas</category>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/deportesenagricultura.jpg" />
   </programme>
-  <programme start="20261023160000 -0300" stop="20261023170000 -0300" channel="0183">
+  <programme start="20261023150000 -0300" stop="20261023160000 -0300" channel="0183">
     <title>Hoy por hoy Chile es</title>
-    <desc>Programa de actualidad con entrevistas, noticias y análisis de los principales acontecimientos nacionales.</desc>
+    <desc>Un magazine de actualidad, sociedad y sostenibilidad.</desc>
+    <date>2026</date>
+    <category>Noticias</category>
+    <category>Revista</category>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/hoyporhoychilees.jpg" />
   </programme>
-  <programme start="20261023170000 -0300" stop="20261023180000 -0300" channel="0183">
-    <title>Al Pizarrón Con El Profe Silva</title>
-    <desc>El profesor Silva analiza acontecimientos políticos, económicos y sociales mediante explicaciones sencillas y ejemplos prácticos.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  <programme start="20261023160000 -0300" stop="20261023170000 -0300" channel="0183">
+    <title>Al pizarrón</title>
+    <desc>El profe Luis Silva, abogado y ex consejero constitucional, llega a acompañarte todas las tardes con el mejor análisis de actualidad política.</desc>
+    <date>2026</date>
+    <category>Noticias</category>
+    <category>Revista</category>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/alpizarron.jpg" />
   </programme>
-  <programme start="20261023180000 -0300" stop="20261023190000 -0300" channel="0183">
+  <programme start="20261023170000 -0300" stop="20261023180000 -0300" channel="0183">
     <title>Enfoque público</title>
-    <desc>Programa que analiza la gestión pública, políticas gubernamentales y desafíos del país.</desc>
+    <desc>Espacio de encuentro de ideas y personas para analizar el debate público con una mirada más profunda.</desc>
+    <credits>
+      <actor>Julio Isamit</actor>
+    </credits>
+    <date>2026</date>
+    <category>Noticias</category>
+    <category>Debate</category>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/enfoquepublico.jpg" />
   </programme>
-  <programme start="20261023190000 -0300" stop="20261023200000 -0300" channel="0183">
+  <programme start="20261023180000 -0300" stop="20261023190000 -0300" channel="0183">
     <title>El rompecabezas</title>
-    <desc>Programa de análisis que reúne distintas miradas para comprender los temas más relevantes de la contingencia nacional.</desc>
+    <desc>La información de este programa no se encuentra disponible.</desc>
+    <credits>
+      <actor>Pedro Carcuro</actor>
+    </credits>
+    <date>2026</date>
+    <category>Noticias</category>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/elrompecabezas.jpg" />
   </programme>
-  <programme start="20261023200000 -0300" stop="20261023210000 -0300" channel="0183">
+  <programme start="20261023190000 -0300" stop="20261023200000 -0300" channel="0183">
     <title>Llegó la hora</title>
-    <desc>Espacio de entrevistas y análisis de los principales acontecimientos políticos, económicos y sociales.</desc>
+    <desc>Llegó la hora de hablar de las noticias contingentes del día, con todo el análisis y entrevistas.</desc>
+    <credits>
+      <actor>José Francisco Lagos</actor>
+    </credits>
+    <date>2026</date>
+    <category>Noticias</category>
+    <category>Revista</category>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/llegolahora.jpg" />
   </programme>
-  <programme start="20261023210000 -0300" stop="20261023220000 -0300" channel="0183">
+  <programme start="20261023200000 -0300" stop="20261023210000 -0300" channel="0183">
     <title>Los tres mosqueteros</title>
-    <desc>Programa de conversación y debate donde sus panelistas analizan la actualidad nacional con diferentes puntos de vista.</desc>
+    <desc>Los Tres Mosqueteros se lanzan a la batalla de la actualidad nacional con espadas afiladas de ironía y análisis. La complicidad, el ingenio y la valentía se combinan para enfrentar los temas del día.</desc>
+    <date>2026</date>
+    <category>Noticias</category>
+    <category>Revista</category>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/lostresmosqueteros.jpg" />
   </programme>
-  <programme start="20261023220000 -0300" stop="20261023230000 -0300" channel="0183">
+  <programme start="20261023210000 -0300" stop="20261023220000 -0300" channel="0183">
     <title>Hoja de ruta</title>
-    <desc>Espacio de análisis sobre los desafíos económicos, sociales y políticos que enfrenta el país.</desc>
+    <desc>Un programa para comprender el presente a través de la historia.</desc>
+    <date>2026</date>
+    <category>Charla</category>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/hojaderuta.jpg" />
   </programme>
-  <programme start="20261023230000 -0300" stop="20261024000000 -0300" channel="0183">
+  <programme start="20261023220000 -0300" stop="20261023230000 -0300" channel="0183">
     <title>En-Préndete</title>
-    <desc>Espacio dedicado al emprendimiento con historias de éxito, innovación y consejos para desarrollar nuevos negocios.</desc>
+    <desc>Programa que narra historias notables de emprendedores chilenos.</desc>
+    <credits>
+      <actor>Daniela Lorca</actor>
+    </credits>
+    <date>2026</date>
+    <category>Charla</category>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/enprendete.jpg" />
   </programme>
-  <programme start="20261024000000 -0300" stop="20261024010000 -0300" channel="0183">
+  <programme start="20261023230000 -0300" stop="20261024010000 -0300" channel="0183">
     <title>Chile público</title>
     <desc>Programa dedicado al análisis de políticas públicas, gestión del Estado y los principales temas de interés nacional.</desc>
+    <credits>
+      <actor>Jorge Pomar</actor>
+    </credits>
+    <date>2026</date>
+    <category>Entrevista</category>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/chilepublico.jpg" />
   </programme>
   <programme start="20261024010000 -0300" stop="20261024070000 -0300" channel="0183">
@@ -77522,7 +77660,7 @@ Transformar la Economía analiza la difícil relación entre las empresas y el m
     <date>2025</date>
     <category>Interés general</category>
     <country>Chile</country>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0207_fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/reportajeschvnoticias.jpg" />
   </programme>
   <programme start="20261021170000 -0300" stop="20261021173000 -0300" channel="0207">
     <title>[En vivo] Hoy en el mundo</title>
@@ -77544,7 +77682,7 @@ Transformar la Economía analiza la difícil relación entre las empresas y el m
     </credits>
     <date>2000</date>
     <category>Noticiero</category>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0207_fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/avancechvnoticiaspm.jpg" />
   </programme>
   <programme start="20261021180000 -0300" stop="20261021183000 -0300" channel="0207">
     <title>[En vivo] Deportes en CHV Noticias</title>
@@ -77552,7 +77690,7 @@ Transformar la Economía analiza la difícil relación entre las empresas y el m
     <date>2000</date>
     <category>Noticiero</category>
     <country>Chile</country>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0207_fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/deportesenchvnoticias.jpg" />
   </programme>
   <programme start="20261021183000 -0300" stop="20261021200000 -0300" channel="0207">
     <title>[En vivo] CHV Noticias PM</title>
@@ -77563,7 +77701,7 @@ Transformar la Economía analiza la difícil relación entre las empresas y el m
     <date>2025</date>
     <category>Noticiero</category>
     <country>Chile</country>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0207_fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/chvnoticiaspm.jpg" />
   </programme>
   <programme start="20261021200000 -0300" stop="20261021223000 -0300" channel="0207">
     <title>[En vivo] CHV noticias central</title>
@@ -77607,7 +77745,7 @@ Transformar la Economía analiza la difícil relación entre las empresas y el m
     <date>2000</date>
     <category>Noticiero</category>
     <country>Chile</country>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0207_fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/deportesenchvnoticias.jpg" />
   </programme>
   <programme start="20261022010000 -0300" stop="20261022013000 -0300" channel="0207">
     <title>Hoy en el mundo</title>
@@ -77635,7 +77773,7 @@ Transformar la Economía analiza la difícil relación entre las empresas y el m
     <date>2025</date>
     <category>Interés general</category>
     <country>Chile</country>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0207_fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/reportajeschvnoticias.jpg" />
   </programme>
   <programme start="20261022030000 -0300" stop="20261022053000 -0300" channel="0207">
     <title>CHV noticias central</title>
@@ -77684,7 +77822,7 @@ Transformar la Economía analiza la difícil relación entre las empresas y el m
     <date>2024</date>
     <category>Noticiero</category>
     <country>Chile</country>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0207_fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/chvnoticiasenlamanana.jpg" />
   </programme>
   <programme start="20261022093000 -0300" stop="20261022130000 -0300" channel="0207">
     <title>[En vivo] Alerta CHV noticias AM</title>
@@ -77695,7 +77833,7 @@ Transformar la Economía analiza la difícil relación entre las empresas y el m
     </credits>
     <date>2000</date>
     <category>Noticiero</category>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0207_fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/alertachvnoticiasam.jpg" />
   </programme>
   <programme start="20261022130000 -0300" stop="20261022153000 -0300" channel="0207">
     <title>[En vivo] CHV noticias tarde</title>
@@ -77716,7 +77854,7 @@ Transformar la Economía analiza la difícil relación entre las empresas y el m
     <date>2025</date>
     <category>Interés general</category>
     <country>Chile</country>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0207_fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/reportajeschvnoticias.jpg" />
   </programme>
   <programme start="20261022170000 -0300" stop="20261022173000 -0300" channel="0207">
     <title>[En vivo] Hoy en el mundo</title>
@@ -77738,7 +77876,7 @@ Transformar la Economía analiza la difícil relación entre las empresas y el m
     </credits>
     <date>2000</date>
     <category>Noticiero</category>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0207_fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/avancechvnoticiaspm.jpg" />
   </programme>
   <programme start="20261022180000 -0300" stop="20261022183000 -0300" channel="0207">
     <title>[En vivo] Deportes en CHV Noticias</title>
@@ -77746,7 +77884,7 @@ Transformar la Economía analiza la difícil relación entre las empresas y el m
     <date>2000</date>
     <category>Noticiero</category>
     <country>Chile</country>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0207_fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/deportesenchvnoticias.jpg" />
   </programme>
   <programme start="20261022183000 -0300" stop="20261022200000 -0300" channel="0207">
     <title>[En vivo] CHV Noticias PM</title>
@@ -77757,7 +77895,7 @@ Transformar la Economía analiza la difícil relación entre las empresas y el m
     <date>2025</date>
     <category>Noticiero</category>
     <country>Chile</country>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0207_fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/chvnoticiaspm.jpg" />
   </programme>
   <programme start="20261022200000 -0300" stop="20261022223000 -0300" channel="0207">
     <title>[En vivo] CHV noticias central</title>
@@ -77781,7 +77919,7 @@ Transformar la Economía analiza la difícil relación entre las empresas y el m
     <date>2026</date>
     <category>Interés general</category>
     <country>Chile</country>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0207_fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/chvnoticiasteayuda.jpg" />
   </programme>
   <programme start="20261022230000 -0300" stop="20261023003000 -0300" channel="0207">
     <title>[En vivo] CHV Noticias informa</title>
@@ -77800,7 +77938,7 @@ Transformar la Economía analiza la difícil relación entre las empresas y el m
     <date>2000</date>
     <category>Noticiero</category>
     <country>Chile</country>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0207_fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/deportesenchvnoticias.jpg" />
   </programme>
   <programme start="20261023010000 -0300" stop="20261023013000 -0300" channel="0207">
     <title>Hoy en el mundo</title>
@@ -77820,7 +77958,7 @@ Transformar la Economía analiza la difícil relación entre las empresas y el m
     <date>2025</date>
     <category>Interés general</category>
     <country>Chile</country>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0207_fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/reportajeschvnoticias.jpg" />
   </programme>
   <programme start="20261023030000 -0300" stop="20261023053000 -0300" channel="0207">
     <title>CHV noticias central</title>
@@ -77869,7 +78007,7 @@ Transformar la Economía analiza la difícil relación entre las empresas y el m
     <date>2024</date>
     <category>Noticiero</category>
     <country>Chile</country>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0207_fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/chvnoticiasenlamanana.jpg" />
   </programme>
   <programme start="20261023093000 -0300" stop="20261023130000 -0300" channel="0207">
     <title>[En vivo] Alerta CHV noticias AM</title>
@@ -77880,7 +78018,7 @@ Transformar la Economía analiza la difícil relación entre las empresas y el m
     </credits>
     <date>2000</date>
     <category>Noticiero</category>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0207_fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/alertachvnoticiasam.jpg" />
   </programme>
   <programme start="20261023130000 -0300" stop="20261023153000 -0300" channel="0207">
     <title>[En vivo] CHV noticias tarde</title>
@@ -77901,7 +78039,7 @@ Transformar la Economía analiza la difícil relación entre las empresas y el m
     <date>2024</date>
     <category>Interés general</category>
     <country>Chile</country>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0207_fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/chvfuturo.jpg" />
   </programme>
   <programme start="20261023163000 -0300" stop="20261023170000 -0300" channel="0207">
     <title>Reportajes CHV Noticias</title>
@@ -77909,7 +78047,7 @@ Transformar la Economía analiza la difícil relación entre las empresas y el m
     <date>2025</date>
     <category>Interés general</category>
     <country>Chile</country>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0207_fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/reportajeschvnoticias.jpg" />
   </programme>
   <programme start="20261023170000 -0300" stop="20261023173000 -0300" channel="0207">
     <title>[En vivo] Hoy en el mundo</title>
@@ -77931,7 +78069,7 @@ Transformar la Economía analiza la difícil relación entre las empresas y el m
     </credits>
     <date>2000</date>
     <category>Noticiero</category>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0207_fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/avancechvnoticiaspm.jpg" />
   </programme>
   <programme start="20261023180000 -0300" stop="20261023183000 -0300" channel="0207">
     <title>[En vivo] Deportes en CHV Noticias</title>
@@ -77939,7 +78077,7 @@ Transformar la Economía analiza la difícil relación entre las empresas y el m
     <date>2000</date>
     <category>Noticiero</category>
     <country>Chile</country>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0207_fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/deportesenchvnoticias.jpg" />
   </programme>
   <programme start="20261023183000 -0300" stop="20261023200000 -0300" channel="0207">
     <title>[En vivo] CHV Noticias PM</title>
@@ -77950,7 +78088,7 @@ Transformar la Economía analiza la difícil relación entre las empresas y el m
     <date>2025</date>
     <category>Noticiero</category>
     <country>Chile</country>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0207_fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/chvnoticiaspm.jpg" />
   </programme>
   <programme start="20261023200000 -0300" stop="20261023223000 -0300" channel="0207">
     <title>[En vivo] CHV noticias central</title>
@@ -78022,7 +78160,7 @@ Transformar la Economía analiza la difícil relación entre las empresas y el m
     <date>2024</date>
     <category>Interés general</category>
     <country>Chile</country>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0207_fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/chvfuturo.jpg" />
   </programme>
   <programme start="20261024023000 -0300" stop="20261024030000 -0300" channel="0207">
     <title>CHV Noticias te ayuda</title>
@@ -78033,7 +78171,7 @@ Transformar la Economía analiza la difícil relación entre las empresas y el m
     <date>2026</date>
     <category>Interés general</category>
     <country>Chile</country>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0207_fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/chvnoticiasteayuda.jpg" />
   </programme>
   <programme start="20261024030000 -0300" stop="20261024033000 -0300" channel="0207">
     <title>Reportajes CHV Noticias</title>
@@ -78041,7 +78179,7 @@ Transformar la Economía analiza la difícil relación entre las empresas y el m
     <date>2025</date>
     <category>Interés general</category>
     <country>Chile</country>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0207_fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/reportajeschvnoticias.jpg" />
   </programme>
   <programme start="20261024033000 -0300" stop="20261024040000 -0300" channel="0207">
     <title>Pelota al piso</title>
@@ -78052,7 +78190,7 @@ Transformar la Economía analiza la difícil relación entre las empresas y el m
     <date>2023</date>
     <category>Fútbol</category>
     <country>Chile</country>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0207_fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/pelotaalpiso.jpg" />
   </programme>
   <programme start="20261024040000 -0300" stop="20261024050000 -0300" channel="0207">
     <title>Bolsillo - CHV Noticias</title>
@@ -78068,7 +78206,7 @@ Transformar la Economía analiza la difícil relación entre las empresas y el m
     <date>2025</date>
     <category>Interés general</category>
     <country>Chile</country>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0207_fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/reportajeschvnoticias.jpg" />
   </programme>
   <programme start="20261024060000 -0300" stop="20261024063000 -0300" channel="0207">
     <title>La entrevista de Macarena Pizarro • Gaspar Galaz</title>
@@ -78155,7 +78293,7 @@ Transformar la Economía analiza la difícil relación entre las empresas y el m
     <date>2024</date>
     <category>Interés general</category>
     <country>Chile</country>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0207_fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/chvfuturo.jpg" />
   </programme>
   <programme start="20261024163000 -0300" stop="20261024170000 -0300" channel="0207">
     <title>Team Chile al día</title>
@@ -78185,7 +78323,7 @@ Transformar la Economía analiza la difícil relación entre las empresas y el m
     <date>2026</date>
     <category>Interés general</category>
     <country>Chile</country>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0207_fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/chvnoticiasteayuda.jpg" />
   </programme>
   <programme start="20261024183000 -0300" stop="20261024190000 -0300" channel="0207">
     <title>Hoy en el mundo - Resumen semanal</title>
@@ -78203,7 +78341,7 @@ Transformar la Economía analiza la difícil relación entre las empresas y el m
     <date>2023</date>
     <category>Fútbol</category>
     <country>Chile</country>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0207_fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/pelotaalpiso.jpg" />
   </programme>
   <programme start="20261024193000 -0300" stop="20261024202000 -0300" channel="0207">
     <title>CHV futuro</title>
@@ -78211,7 +78349,7 @@ Transformar la Economía analiza la difícil relación entre las empresas y el m
     <date>2024</date>
     <category>Interés general</category>
     <country>Chile</country>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0207_fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/chvfuturo.jpg" />
   </programme>
   <programme start="20261024202000 -0300" stop="20261024223000 -0300" channel="0207">
     <title>[En vivo] CHV noticias central</title>
@@ -78244,7 +78382,7 @@ Transformar la Economía analiza la difícil relación entre las empresas y el m
     <date>2025</date>
     <category>Interés general</category>
     <country>Chile</country>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0207_fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/reportajeschvnoticias.jpg" />
   </programme>
   <programme start="20261025000000 -0300" stop="20261025003000 -0300" channel="0207">
     <title>Team Chile al día</title>
@@ -78281,7 +78419,7 @@ Transformar la Economía analiza la difícil relación entre las empresas y el m
     <date>2024</date>
     <category>Interés general</category>
     <country>Chile</country>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0207_fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/chvfuturo.jpg" />
   </programme>
   <programme start="20261025023000 -0300" stop="20261025030000 -0300" channel="0207">
     <title>CHV Noticias te ayuda</title>
@@ -78292,7 +78430,7 @@ Transformar la Economía analiza la difícil relación entre las empresas y el m
     <date>2026</date>
     <category>Interés general</category>
     <country>Chile</country>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0207_fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/chvnoticiasteayuda.jpg" />
   </programme>
   <programme start="20261025030000 -0300" stop="20261025033000 -0300" channel="0207">
     <title>Reportajes CHV Noticias</title>
@@ -78300,7 +78438,7 @@ Transformar la Economía analiza la difícil relación entre las empresas y el m
     <date>2025</date>
     <category>Interés general</category>
     <country>Chile</country>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0207_fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/reportajeschvnoticias.jpg" />
   </programme>
   <programme start="20261025033000 -0300" stop="20261025040000 -0300" channel="0207">
     <title>Pelota al piso</title>
@@ -78311,7 +78449,7 @@ Transformar la Economía analiza la difícil relación entre las empresas y el m
     <date>2023</date>
     <category>Fútbol</category>
     <country>Chile</country>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0207_fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/pelotaalpiso.jpg" />
   </programme>
   <programme start="20261025040000 -0300" stop="20261025050000 -0300" channel="0207">
     <title>Bolsillo - CHV Noticias</title>
@@ -78327,7 +78465,7 @@ Transformar la Economía analiza la difícil relación entre las empresas y el m
     <date>2025</date>
     <category>Interés general</category>
     <country>Chile</country>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0207_fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/reportajeschvnoticias.jpg" />
   </programme>
   <programme start="20261025060000 -0300" stop="20261025063000 -0300" channel="0207">
     <title>La entrevista de Macarena Pizarro • Luis Alberto Alonso</title>
@@ -78414,7 +78552,7 @@ Transformar la Economía analiza la difícil relación entre las empresas y el m
     <date>2024</date>
     <category>Interés general</category>
     <country>Chile</country>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0207_fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/chvfuturo.jpg" />
   </programme>
   <programme start="20261025163000 -0300" stop="20261025170000 -0300" channel="0207">
     <title>Team Chile al día</title>
@@ -78444,7 +78582,7 @@ Transformar la Economía analiza la difícil relación entre las empresas y el m
     <date>2026</date>
     <category>Interés general</category>
     <country>Chile</country>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0207_fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/chvnoticiasteayuda.jpg" />
   </programme>
   <programme start="20261025183000 -0300" stop="20261025190000 -0300" channel="0207">
     <title>Hoy en el mundo - Resumen semanal</title>
@@ -78462,7 +78600,7 @@ Transformar la Economía analiza la difícil relación entre las empresas y el m
     <date>2023</date>
     <category>Fútbol</category>
     <country>Chile</country>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0207_fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/pelotaalpiso.jpg" />
   </programme>
   <programme start="20261025193000 -0300" stop="20261025202000 -0300" channel="0207">
     <title>CHV futuro</title>
@@ -78470,7 +78608,7 @@ Transformar la Economía analiza la difícil relación entre las empresas y el m
     <date>2024</date>
     <category>Interés general</category>
     <country>Chile</country>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0207_fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/chvfuturo.jpg" />
   </programme>
   <programme start="20261025202000 -0300" stop="20261025223000 -0300" channel="0207">
     <title>[En vivo] CHV noticias central</title>
@@ -78503,7 +78641,7 @@ Transformar la Economía analiza la difícil relación entre las empresas y el m
     <date>2025</date>
     <category>Interés general</category>
     <country>Chile</country>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0207_fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/reportajeschvnoticias.jpg" />
   </programme>
   <programme start="20261026000000 -0300" stop="20261026040000 -0300" channel="0207">
     <title>CHV Noticias</title>
@@ -351116,35 +351254,360 @@ Esta secuela ignora por completo los fillers (Capítulos y conceptos inventados 
     <desc>Programación Red Bull TV</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/redbulltv.jpg" />
   </programme>
-  <programme start="20261022140000 -0300" stop="20261022200000 -0300" channel="0447">
+  <programme start="20261022140000 -0300" stop="20261022145100 -0300" channel="0447">
+    <title>El mejor surf mundial llega a El Salvador</title>
+    <desc>Revive los mejores momentos del Surf City El Salvador Pro 2026, donde Carissa Moore y Leo Fioravanti conquistan las olas de Punta Roca en una parada del WSL Championship Tour.</desc>
+    <date>2026</date>
+    <category>Programa</category>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261022145100 -0300" stop="20261022155700 -0300" channel="0447">
+    <title>Red Bull Soapbox Race • Los 50 Mejores Diseños de Autos</title>
+    <sub-title>Los 50 Mejores Diseños de Autos</sub-title>
+    <desc>Los 50 Mejores Diseños de Autos | La carrera sin motor y con muchos obstáculos pondrá a prueba a los participantes durante todo el día. ¿Habrán hecho los equipos lo suficiente para que sus máquinas lleguen a la meta o los obstáculos serán demasiado grandes?</desc>
+    <credits>
+      <director>Jon Lamb</director>
+      <actor>Tim Warwood</actor>
+      <actor>Adam Gendle</actor>
+      <actor>Mike Bagley</actor>
+      <actor>Dale Earnhardt Jr</actor>
+      <actor>Darren Fletcher</actor>
+    </credits>
+    <date>2025</date>
+    <category>Entretenimiento</category>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/redbullsoapboxrace.jpg" />
+  </programme>
+  <programme start="20261022155700 -0300" stop="20261022173900 -0300" channel="0447">
+    <title>Red Bull Soapbox Race Madrid • Coches caseros sin motor</title>
+    <sub-title>Coches caseros sin motor</sub-title>
+    <desc>Coches caseros sin motor | La carrera de cuatro ruedas más loca y creativa del mundo llegó a España y esto fue lo que pasó en la Red Bull Soapbox Race de Madrid.</desc>
+    <date>2026</date>
+    <category>Deporte</category>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/redbullsoapboxracemadrid.jpg" />
+  </programme>
+  <programme start="20261022173900 -0300" stop="20261022192100 -0300" channel="0447">
+    <title>Red Bull Soapbox Race: la carrera más loca de Londres</title>
+    <desc>Equipos construyen sus propios coches sin motor para desafiar una pista empinada llena de obstáculos en Londres, donde la competencia se basa en velocidad y creatividad de diseño.</desc>
+    <date>2026</date>
+    <category>Programa</category>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/redbullsoapboxracelacarreramaslocadelondres.jpg" />
+  </programme>
+  <programme start="20261022192100 -0300" stop="20261022195200 -0300" channel="0447">
+    <title>ABC de Cliff diving • Conoce todos los detalles</title>
+    <sub-title>Conoce todos los detalles</sub-title>
+    <desc>Conoce todos los detalles | La información de este programa no se encuentra disponible.</desc>
+    <date>2026</date>
+    <category>Deporte</category>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261022195200 -0300" stop="20261022200000 -0300" channel="0447">
+    <title>El ABC del Kayaking • Conoce todo de este deporte</title>
+    <sub-title>Conoce todo de este deporte</sub-title>
+    <desc>Conoce todo de este deporte | La información de este programa no se encuentra disponible.</desc>
+    <date>2026</date>
+    <category>Deporte</category>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/elabcdelkayaking.jpg" />
+  </programme>
+  <programme start="20261022200000 -0300" stop="20261022202200 -0300" channel="0447">
     <title>RedBull TV</title>
     <desc>Programación Red Bull TV</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/redbulltv.jpg" />
   </programme>
-  <programme start="20261022200000 -0300" stop="20261023020000 -0300" channel="0447">
+  <programme start="20261022202200 -0300" stop="20261022205100 -0300" channel="0447">
+    <title>La evolución de la danza urbana</title>
+    <desc>El street dance abarca estilos como hip-hop y popping, explorando sus orígenes humildes y la evolución que los convirtió en pilares de la cultura urbana global.</desc>
+    <date>2026</date>
+    <category>Deporte de Baile</category>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261022205100 -0300" stop="20261022212200 -0300" channel="0447">
+    <title>Escalada al límite por un nuevo título mundial</title>
+    <desc>Janja Garnbret busca su décimo título mundial de escalada mientras cambia la competición por la roca al aire libre para encontrar nueva motivación y afrontar la presión de volver a ganar.</desc>
+    <date>2026</date>
+    <category>Programa</category>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/escaladaallimiteporunnuevotitulomundial.jpg" />
+  </programme>
+  <programme start="20261022212200 -0300" stop="20261022215100 -0300" channel="0447">
+    <title>Escalando por primera vez el &quot;B.I.G.&quot; en Noruega</title>
+    <desc>Jakob Schubert afronta la primera ascensión de escalada del &quot;B.I.G.&quot; (9c) en Flatanger, Noruega.</desc>
+    <date>2026</date>
+    <category>Programa</category>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/escalandoporprimeravezelbigennoruega.jpg" />
+  </programme>
+  <programme start="20261022215100 -0300" stop="20261022222000 -0300" channel="0447">
+    <title>El camino para convertirse en escaladora profesional</title>
+    <desc>El camino deportivo y los sacrificios de Nika Potapova para convertirse en escaladora profesional.</desc>
+    <date>2026</date>
+    <category>Programa</category>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/elcaminoparaconvertirseenescaladoraprofesional.jpg" />
+  </programme>
+  <programme start="20261022222000 -0300" stop="20261022224800 -0300" channel="0447">
+    <title>Escalando una presa de 180m de altura en Suiza</title>
+    <desc>Alberto Ginés López y Jenya Kazbekova compiten en una carrera de 180 metros de escalada en el embalse de Verzasca, donde cada movimiento define el resultado en una pared imponente.</desc>
+    <date>2026</date>
+    <category>Programa</category>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261022224800 -0300" stop="20261022231900 -0300" channel="0447">
+    <title>For Reals • Saltando en skate desde un avión</title>
+    <sub-title>Saltando en skate desde un avión</sub-title>
+    <desc>Saltando en skate desde un avión | Romper récords mundiales: ¡todo en un día de trabajo para los atletas de Red Bull! Mira a Felix Baumgartner saltar desde el espacio, a 65 mujeres hacer paracaidismo juntas y a un BMXer conquistar el bucle completo más grande del mundo.</desc>
+    <credits>
+      <director>Jonathan Ferguson</director>
+    </credits>
+    <date>2024</date>
+    <category>Documental</category>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/forreals.jpg" />
+  </programme>
+  <programme start="20261022231900 -0300" stop="20261023010100 -0300" channel="0447">
+    <title>Red Bull Soapbox Race: la carrera más loca de Londres</title>
+    <desc>Equipos construyen sus propios coches sin motor para desafiar una pista empinada llena de obstáculos en Londres, donde la competencia se basa en velocidad y creatividad de diseño.</desc>
+    <date>2026</date>
+    <category>Programa</category>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/redbullsoapboxracelacarreramaslocadelondres.jpg" />
+  </programme>
+  <programme start="20261023010100 -0300" stop="20261023013200 -0300" channel="0447">
+    <title>Pushing Progression • la evolución del breaking</title>
+    <sub-title>la evolución del breaking</sub-title>
+    <desc>la evolución del breaking | Descubre desde dentro cómo Red Bull ha evolucionado los deportes de élite, los espacios culturales y los eventos únicos. Descubre qué impulsa la innovación y los logros, a la vez que cautiva la imaginación del mundo.</desc>
+    <date>2026</date>
+    <category>Documental</category>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/pushingprogression.jpg" />
+  </programme>
+  <programme start="20261023013200 -0300" stop="20261023020000 -0300" channel="0447">
+    <title>Pushing Progression • La Evolución del Hard Enduro</title>
+    <sub-title>La Evolución del Hard Enduro</sub-title>
+    <desc>La Evolución del Hard Enduro | Descubre desde dentro cómo Red Bull ha evolucionado los deportes de élite, los espacios culturales y los eventos únicos. Descubre qué impulsa la innovación y los logros, a la vez que cautiva la imaginación del mundo.</desc>
+    <date>2026</date>
+    <category>Documental</category>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/pushingprogression.jpg" />
+  </programme>
+  <programme start="20261023020000 -0300" stop="20261023020200 -0300" channel="0447">
     <title>RedBull TV</title>
     <desc>Programación Red Bull TV</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/redbulltv.jpg" />
   </programme>
-  <programme start="20261023020000 -0300" stop="20261023080000 -0300" channel="0447">
+  <programme start="20261023020200 -0300" stop="20261023023200 -0300" channel="0447">
+    <title>Pushing Progression • la historia del kiteboarding</title>
+    <sub-title>la historia del kiteboarding</sub-title>
+    <desc>la historia del kiteboarding | Descubre desde dentro cómo Red Bull ha evolucionado los deportes de élite, los espacios culturales y los eventos únicos. Descubre qué impulsa la innovación y los logros, a la vez que cautiva la imaginación del mundo.</desc>
+    <date>2026</date>
+    <category>Documental</category>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/pushingprogression.jpg" />
+  </programme>
+  <programme start="20261023023200 -0300" stop="20261023030000 -0300" channel="0447">
+    <title>Pushing Progression • Freerunning</title>
+    <sub-title>Freerunning</sub-title>
+    <desc>Freerunning | Descubre desde dentro cómo Red Bull ha evolucionado los deportes de élite, los espacios culturales y los eventos únicos. Descubre qué impulsa la innovación y los logros, a la vez que cautiva la imaginación del mundo.</desc>
+    <date>2026</date>
+    <category>Documental</category>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/pushingprogression.jpg" />
+  </programme>
+  <programme start="20261023030000 -0300" stop="20261023050700 -0300" channel="0447">
+    <title>Red Bull Stuttgart Cerro Abajo 2026</title>
+    <desc>Los mejores riders del mundo de mtb se enfrentan en la carrera más extrema de descenso urbano por primera vez en las calles de Stuttgart, Alemania.</desc>
+    <date>2026</date>
+    <category>Deporte</category>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/redbullstuttgartcerroabajo2026.jpg" />
+  </programme>
+  <programme start="20261023050700 -0300" stop="20261023062100 -0300" channel="0447">
+    <title>ANYTIME • Mountain bike freeride llevado al límite</title>
+    <sub-title>Mountain bike freeride llevado al límite</sub-title>
+    <desc>Mountain bike freeride llevado al límite | La información de este programa no se encuentra disponible.</desc>
+    <date>2026</date>
+    <category>Deporte</category>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/anytime.jpg" />
+  </programme>
+  <programme start="20261023062100 -0300" stop="20261023065200 -0300" channel="0447">
+    <title>El debut de Asa Vermette en Red Bull Hardline</title>
+    <desc>Sigue a Asa Vermette, una de las jóvenes promesas más excitantes del ciclismo de montaña en su debut en la Red Bull Hardline.</desc>
+    <date>2026</date>
+    <category>Deporte</category>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261023065200 -0300" stop="20261023080000 -0300" channel="0447">
+    <title>Red Bull Hardline 2026: MTB extremo en Canadá</title>
+    <desc>Red Bull Hardline 2026 lleva a los mejores riders de MTB a Columbia Británica, Canadá, para enfrentarse a uno de los circuitos de descenso más extremos y exigentes del mundo.</desc>
+    <date>2026</date>
+    <category>Programa</category>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261023080000 -0300" stop="20261023095700 -0300" channel="0447">
     <title>RedBull TV</title>
     <desc>Programación Red Bull TV</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/redbulltv.jpg" />
   </programme>
-  <programme start="20261023080000 -0300" stop="20261023140000 -0300" channel="0447">
+  <programme start="20261023095700 -0300" stop="20261023104100 -0300" channel="0447">
+    <title>Red Bull Batalla Nueva Historia: 20 Años de Rimas</title>
+    <desc>20 años de freestyle en español, desde la primera Final Internacional de Red Bull Batalla hasta el aniversario celebrado en Buenos Aires.</desc>
+    <date>2026</date>
+    <category>Programa</category>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/redbullbatallanuevahistoria20anosderimas.jpg" />
+  </programme>
+  <programme start="20261023104100 -0300" stop="20261023140000 -0300" channel="0447">
+    <title>Red Bull Batalla 2025 Final Nacional de España</title>
+    <desc>En el año del 20º aniversario de Red Bull Batalla, los mejores MCs de España se enfrentan en la Final Nacional 2025 para definir quién representará al país en la Final Internacional 2026.</desc>
+    <date>2026</date>
+    <category>Deporte</category>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/redbullbatalla2025finalnacionaldeespana.jpg" />
+  </programme>
+  <programme start="20261023140000 -0300" stop="20261023143000 -0300" channel="0447">
+    <title>Red Bull Stalen Ros Series | Las bicicletas más locas</title>
+    <desc>Una bici con diseño de serpiente, una de caja de herramientas y un duelo entre bicis de montaña y de carretera personalizadas: ¿cuál podrá superar el reto?</desc>
+    <date>2026</date>
+    <category>Programa</category>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/redbullstalenrosserieslasbicicletasmaslocas.jpg" />
+  </programme>
+  <programme start="20261023143000 -0300" stop="20261023150200 -0300" channel="0447">
+    <title>Bicis personalizadas desafían obstáculos en Suiza</title>
+    <desc>Las parejas afrontan el recorrido más largo con sus bicis personalizadas, pero ¿podrán con el queso?</desc>
+    <date>2026</date>
+    <category>Programa</category>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/bicispersonalizadasdesafianobstaculosensuiza.jpg" />
+  </programme>
+  <programme start="20261023150200 -0300" stop="20261023153400 -0300" channel="0447">
+    <title>Las bicis más creativas se enfrentan en Copenhagen</title>
+    <desc>Competencia de bicis personalizadas y una pista de obstáculos. Con tres premios diferentes en juego, el público va a disfrutar de un buen espectáculo, pero ¿quién acabará en lo más alto?</desc>
+    <date>2026</date>
+    <category>Programa</category>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/lasbicismascreativasseenfrentanencopenhagen.jpg" />
+  </programme>
+  <programme start="20261023153400 -0300" stop="20261023155600 -0300" channel="0447">
+    <title>Los inicios de Jonathan Paredes en el Cliff Diving</title>
+    <desc>Antes de la Serie Mundial de Cliff Diving 2016, Jonathan Paredes regresa a su natal México para revivir los lugares y personas que marcaron su camino desde Acapulco hasta la élite mundial.</desc>
+    <date>2026</date>
+    <category>Deporte</category>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261023155600 -0300" stop="20261023162300 -0300" channel="0447">
+    <title>Gisela Pulido</title>
+    <desc>¿Qué hay detrás de diez títulos mundiales de Kitesurf? Gisela Pulido desvela su difícil camino hacia el éxito: “El único camino para mí era entrenar, competir, ser la mejor del mundo y obviamente ser feliz, pero eso estaba al margen”.</desc>
+    <date>2026</date>
+    <category>Programa</category>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261023162300 -0300" stop="20261023165200 -0300" channel="0447">
+    <title>Ride to the Roots • Queralt Castellet</title>
+    <sub-title>Ride to the Roots: Queralt Castellet</sub-title>
+    <desc>Queralt Castellet | Serie documental que sigue a distintos atletas en su regreso a su ciudad natal.</desc>
+    <date>2016</date>
+    <category>Documental</category>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261023165200 -0300" stop="20261023171800 -0300" channel="0447">
+    <title>Searching El Salvador • Kai Lenny y Natxo González</title>
+    <sub-title>Kai Lenny y Natxo González</sub-title>
+    <desc>Kai Lenny y Natxo González | Kai Lenny y Natxo González recorren El Salvador en busca de olas nunca antes surfeadas.</desc>
+    <date>2026</date>
+    <category>Deporte</category>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/searchingelsalvador.jpg" />
+  </programme>
+  <programme start="20261023171800 -0300" stop="20261023174800 -0300" channel="0447">
+    <title>Tunnel Pass</title>
+    <desc>El piloto italiano de acrobacia aérea Dario Costa atraviesa los túneles Çatalca en Estambul, Turquía, en solo 40 segundos a una velocidad de 250 km/h.</desc>
+    <date>2021</date>
+    <category>Documental</category>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/tunnelpass.jpg" />
+  </programme>
+  <programme start="20261023174800 -0300" stop="20261023181200 -0300" channel="0447">
+    <title>Fairy Flight • Speedflying desde un globo en Capadocia</title>
+    <sub-title>Speedflying desde un globo en Capadocia</sub-title>
+    <desc>Speedflying desde un globo en Capadocia | El francés Valentin Delluc lleva el speedflying a nuevas alturas al lanzarse desde un globo aerostático sobre la mágica Capadocia, en Turquía, para vivir una aventura aérea tan visual como extrema.</desc>
+    <date>2026</date>
+    <category>Deporte</category>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fairyflight.jpg" />
+  </programme>
+  <programme start="20261023181200 -0300" stop="20261023190000 -0300" channel="0447">
+    <title>7 maratones en 7 días, en 7 continentes</title>
+    <desc>Tras meses de entrenamiento, Michelle comienza The Great World Race, un desafío de running que la lleva desde Ciudad del Cabo hasta la Antártida.</desc>
+    <date>2026</date>
+    <category>Programa</category>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/7maratonesen7diasen7continentes.jpg" />
+  </programme>
+  <programme start="20261023190000 -0300" stop="20261023193200 -0300" channel="0447">
+    <title>Bicis desafían una pista sobre el agua en Washington DC</title>
+    <desc>En Red Bull Spin Off, bicicletas temáticas se enfrentan a una estrecha pista sobre el agua en Washington, D.C., superando giros, curvas y obstáculos para llegar hasta el final.</desc>
+    <date>2026</date>
+    <category>Deporte</category>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261023193200 -0300" stop="20261023195500 -0300" channel="0447">
+    <title>Red Bull Building Drop • Bajando un edificio en patineta</title>
+    <sub-title>Red Bull Building Drop: Bajando un edificio en patineta</sub-title>
+    <desc>Bajando un edificio en patineta | La información de este programa no se encuentra disponible.</desc>
+    <date>2026</date>
+    <category>Programa</category>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/redbullbuildingdrop.jpg" />
+  </programme>
+  <programme start="20261023195500 -0300" stop="20261023200000 -0300" channel="0447">
+    <title>Futbolistas vs el reto imposible de los 100 balones</title>
+    <desc>Jürgen Klopp reta a Neymar Jr., Endrick, Richard Ríos, Dominik Szoboszlai, Séan Garnier y Nicolas Seiwald al Red Bull Ultimate Football Challenge: con solo 100 balones, ¿podrán superarlo?</desc>
+    <date>2026</date>
+    <category>Entretenimiento</category>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261023200000 -0300" stop="20261023202900 -0300" channel="0447">
     <title>RedBull TV</title>
     <desc>Programación Red Bull TV</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/redbulltv.jpg" />
   </programme>
-  <programme start="20261023140000 -0300" stop="20261023200000 -0300" channel="0447">
-    <title>RedBull TV</title>
-    <desc>Programación Red Bull TV</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/redbulltv.jpg" />
+  <programme start="20261023202900 -0300" stop="20261023205900 -0300" channel="0447">
+    <title>Pro Climbing League 2026 Londres • Highlights</title>
+    <sub-title>Highlights</sub-title>
+    <desc>Highlights | La información de este programa no se encuentra disponible.</desc>
+    <date>2026</date>
+    <category>Deporte</category>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/proclimbingleague2026londres.jpg" />
   </programme>
-  <programme start="20261023200000 -0300" stop="20261024020000 -0300" channel="0447">
-    <title>RedBull TV</title>
-    <desc>Programación Red Bull TV</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/redbulltv.jpg" />
+  <programme start="20261023205900 -0300" stop="20261023211800 -0300" channel="0447">
+    <title>Ultra 600 Highlight • corriendo 600 kms en cinco días</title>
+    <sub-title>corriendo 600 kms en cinco días</sub-title>
+    <desc>corriendo 600 kms en cinco días | La información de este programa no se encuentra disponible.</desc>
+    <date>2026</date>
+    <category>Deporte</category>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/ultra600highlight.jpg" />
+  </programme>
+  <programme start="20261023211800 -0300" stop="20261023221000 -0300" channel="0447">
+    <title>(Un)Credited • Los orígenes del Afro Dance en Nigeria</title>
+    <sub-title>Los orígenes del Afro Dance en Nigeria</sub-title>
+    <desc>Los orígenes del Afro Dance en Nigeria | La información de este programa no se encuentra disponible.</desc>
+    <date>2026</date>
+    <category>Deporte</category>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/uncredited.jpg" />
+  </programme>
+  <programme start="20261023221000 -0300" stop="20261023223900 -0300" channel="0447">
+    <title>From the streets to the stadium</title>
+    <desc>Los B-boys y B-girls más destacados de España exploran la dualidad entre el Breaking como forma de arte y disciplina deportiva</desc>
+    <date>2026</date>
+    <category>Deporte</category>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261023223900 -0300" stop="20261023231000 -0300" channel="0447">
+    <title>Tunnel Pass</title>
+    <desc>El piloto italiano de acrobacia aérea Dario Costa atraviesa los túneles Çatalca en Estambul, Turquía, en solo 40 segundos a una velocidad de 250 km/h.</desc>
+    <date>2021</date>
+    <category>Documental</category>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/tunnelpass.jpg" />
+  </programme>
+  <programme start="20261023231000 -0300" stop="20261023233700 -0300" channel="0447">
+    <title>Fairy Flight • Speedflying desde un globo en Capadocia</title>
+    <sub-title>Speedflying desde un globo en Capadocia</sub-title>
+    <desc>Speedflying desde un globo en Capadocia | El francés Valentin Delluc lleva el speedflying a nuevas alturas al lanzarse desde un globo aerostático sobre la mágica Capadocia, en Turquía, para vivir una aventura aérea tan visual como extrema.</desc>
+    <date>2026</date>
+    <category>Deporte</category>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fairyflight.jpg" />
+  </programme>
+  <programme start="20261023233700 -0300" stop="20261024020000 -0300" channel="0447">
+    <title>360 Ascent</title>
+    <desc>Los escaladores Janja Garnbret y Domen Škofic enfrentan el desafío de escalar la ruta artificial multilargos más alta del mundo en la chimenea de la Central Eléctrica de Trbovlje, en Eslovenia.</desc>
+    <credits>
+      <director>Janja Garnbret</director>
+      <actor>Janja Garnbret</actor>
+      <actor>Domen Škofic</actor>
+    </credits>
+    <date>2021</date>
+    <category>Documental</category>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/360ascent.jpg" />
   </programme>
   <programme start="20261024020000 -0300" stop="20261024080000 -0300" channel="0447">
     <title>RedBull TV</title>
@@ -368738,35 +369201,109 @@ Esta secuela ignora por completo los fillers (Capítulos y conceptos inventados 
     <desc>Programación Carolina TV</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261022140000 -0300" stop="20261022200000 -0300" channel="0536">
+  <programme start="20261022140000 -0300" stop="20261022150000 -0300" channel="0536">
     <title>Carolina TV</title>
     <desc>Programación Carolina TV</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261022200000 -0300" stop="20261023020000 -0300" channel="0536">
+  <programme start="20261022150000 -0300" stop="20261022170000 -0300" channel="0536">
+    <title>Mal Necesario</title>
+    <desc>DJs: Alexandra Ellwanger &amp; Isabel Narbona</desc>
+    <date>2026</date>
+    <category>Programa</category>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/malnecesario.jpg" />
+  </programme>
+  <programme start="20261022170000 -0300" stop="20261022200000 -0300" channel="0536">
+    <title>Pegao’ en el taco</title>
+    <desc>DJs: Guaripola (Osvaldo Solorza) &amp; Berno Salvavidas (Bernardo González)</desc>
+    <date>2026</date>
+    <category>Programa</category>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/pegaoeneltaco.jpg" />
+  </programme>
+  <programme start="20261022200000 -0300" stop="20261022220000 -0300" channel="0536">
+    <title>Calentamiento Social</title>
+    <desc>DJs: DJ Rusell (Jaime Acevedo)</desc>
+    <date>2026</date>
+    <category>Programa</category>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/calentamientosocial.jpg" />
+  </programme>
+  <programme start="20261022220000 -0300" stop="20261023020000 -0300" channel="0536">
+    <title>Radio Carolina</title>
+    <desc>La información de este programa no se encuentra disponible.</desc>
+    <date>2026</date>
+    <category>Programa</category>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/radiocarolina.jpg" />
+  </programme>
+  <programme start="20261023020000 -0300" stop="20261023060000 -0300" channel="0536">
     <title>Carolina TV</title>
     <desc>Programación Carolina TV</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261023020000 -0300" stop="20261023080000 -0300" channel="0536">
+  <programme start="20261023060000 -0300" stop="20261023070000 -0300" channel="0536">
+    <title>Cuando canta el gallo</title>
+    <desc>DJs: DJ Ica (Ismael Contreras)</desc>
+    <date>2026</date>
+    <category>Programa</category>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/cuandocantaelgallo.jpg" />
+  </programme>
+  <programme start="20261023070000 -0300" stop="20261023080000 -0300" channel="0536">
+    <title>Caído del katre</title>
+    <desc>DJs: Isabella Serafini &amp; Luis Gallardo</desc>
+    <date>2026</date>
+    <category>Programa</category>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/caidodelkatre.jpg" />
+  </programme>
+  <programme start="20261023080000 -0300" stop="20261023090000 -0300" channel="0536">
     <title>Carolina TV</title>
     <desc>Programación Carolina TV</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261023080000 -0300" stop="20261023140000 -0300" channel="0536">
+  <programme start="20261023090000 -0300" stop="20261023120000 -0300" channel="0536">
+    <title>Sacando la vuelta</title>
+    <desc>DJs: Pelao’ Rodrigo (Rodrigo González) &amp; DJ Bolsita de té (Jimmy Olavarría)</desc>
+    <date>2026</date>
+    <category>Programa</category>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/sacandolavuelta.jpg" />
+  </programme>
+  <programme start="20261023120000 -0300" stop="20261023140000 -0300" channel="0536">
+    <title>Tumba la casa</title>
+    <desc>DJs: MC Rama (Raúl Muñoz) &amp; Berno Salvavidas (Bernardo González)</desc>
+    <date>2026</date>
+    <category>Programa</category>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/tumbalacasa.jpg" />
+  </programme>
+  <programme start="20261023140000 -0300" stop="20261023150000 -0300" channel="0536">
     <title>Carolina TV</title>
     <desc>Programación Carolina TV</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261023140000 -0300" stop="20261023200000 -0300" channel="0536">
-    <title>Carolina TV</title>
-    <desc>Programación Carolina TV</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  <programme start="20261023150000 -0300" stop="20261023170000 -0300" channel="0536">
+    <title>Mal Necesario</title>
+    <desc>DJs: Alexandra Ellwanger &amp; Isabel Narbona</desc>
+    <date>2026</date>
+    <category>Programa</category>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/malnecesario.jpg" />
   </programme>
-  <programme start="20261023200000 -0300" stop="20261024020000 -0300" channel="0536">
-    <title>Carolina TV</title>
-    <desc>Programación Carolina TV</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  <programme start="20261023170000 -0300" stop="20261023200000 -0300" channel="0536">
+    <title>Pegao’ en el taco</title>
+    <desc>DJs: Guaripola (Osvaldo Solorza) &amp; Berno Salvavidas (Bernardo González)</desc>
+    <date>2026</date>
+    <category>Programa</category>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/pegaoeneltaco.jpg" />
+  </programme>
+  <programme start="20261023200000 -0300" stop="20261023220000 -0300" channel="0536">
+    <title>Calentamiento Social</title>
+    <desc>DJs: DJ Rusell (Jaime Acevedo)</desc>
+    <date>2026</date>
+    <category>Programa</category>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/calentamientosocial.jpg" />
+  </programme>
+  <programme start="20261023220000 -0300" stop="20261024020000 -0300" channel="0536">
+    <title>Radio Carolina</title>
+    <desc>La información de este programa no se encuentra disponible.</desc>
+    <date>2026</date>
+    <category>Programa</category>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/radiocarolina.jpg" />
   </programme>
   <programme start="20261024020000 -0300" stop="20261024080000 -0300" channel="0536">
     <title>Carolina TV</title>
@@ -545104,7 +545641,7 @@ Hank en su nueva vida tendrá como acompañantes a su hermano, quien ve tener un
   </programme>
   <programme start="20261023135100 -0300" stop="20261023153900 -0300" channel="1801">
     <title>En tierra peligrosa 2</title>
-    <desc>El agente Jack Taggart es enviado a una pequeña población de los montes Apalaches, donde han asesinado a un compañero. Además, en esa zona se están llevando a cabo peligrosos vertidos tóxicos, que causan graves enfermedades a los habitantes del lugar, especialmente a los niños. El hermetismo de la gente no facilita la investigación de Taggart, pero pronto relaciona el caso con un empresario sin escrúpulos llamado Orin Hanner.</desc>
+    <desc>El agente Jack Taggart es enviado a una pequeña población de los montes Apalaches, donde ha sido asesinado un compañero suyo. Además, en esa zona se están llevando a cabo peligrosos vertidos tóxicos, que causan graves enfermedades a los habitantes del lugar, especialmente a los niños. El hermetismo de la gente no facilita la investigación de Taggart, pero pronto relaciona el caso con un empresario sin escrúpulos llamado Orin Hanner, que tiene amenazado al pueblo entero...</desc>
     <credits>
       <director>Félix Enríquez Alcalá</director>
       <actor>Steven Seagal</actor>
@@ -545137,7 +545674,7 @@ Hank en su nueva vida tendrá como acompañantes a su hermano, quien ve tener un
     <category>Movie</category>
     <category>Action</category>
     <rating><value>B</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/entierrapeligrosa2.jpg" />
   </programme>
   <programme start="20261023153900 -0300" stop="20261023171400 -0300" channel="1801">
     <title>En tierra peligrosa</title>
@@ -545194,7 +545731,7 @@ Hank en su nueva vida tendrá como acompañantes a su hermano, quien ve tener un
   </programme>
   <programme start="20261023171400 -0300" stop="20261023180400 -0300" channel="1801">
     <title>CIA</title>
-    <desc>T1 E10 | Tras ingresar de manera clandestina a Estados Unidos, un diplomático extranjero muere en circunstancias misteriosas. Cuando las investigaciones comienzan, las primeras pistas indican que el hombre fue asesinado.</desc>
+    <desc>T1 E10 | Cuando el agente especial del FBI Bill Goodman (Nick Gehlfuss), que sigue las reglas, es asignado a un grupo de trabajo clandestino de la CIA y el FBI, se ve obligado a colaborar con el reservado y pícaro oficial de la CIA, Colin Glass (Tom Ellis). Juntos realizarán operaciones encubiertas en Nueva York, destapando complots internacionales, células terroristas y secretos geopolíticos. En la CIA, Bill aprenderá sobre la marcha las reglas de este turbio mundo mientras Colin lo guía a lo más profundo de los juegos de espionaje donde solo una cosa está clara: su trabajo mantiene a Estados Unidos a salvo, incluso si nadie sabe jamás lo que hicieron en la sombra.</desc>
     <credits>
       <director>Jean De Segonzac</director>
       <director>Ken Girotti</director>
@@ -545216,7 +545753,7 @@ Hank en su nueva vida tendrá como acompañantes a su hermano, quien ve tener un
     <category>Crime drama</category>
     <episode-num system="onscreen">T1 E10</episode-num>
     <rating><value>TV14</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/cia.jpg" />
   </programme>
   <programme start="20261023180400 -0300" stop="20261023190000 -0300" channel="1801">
     <title>Boston Blue • Falta personal</title>
@@ -545894,7 +546431,7 @@ Hank en su nueva vida tendrá como acompañantes a su hermano, quien ve tener un
   </programme>
   <programme start="20261024210200 -0300" stop="20261024224200 -0300" channel="1801">
     <title>En tierra peligrosa 2</title>
-    <desc>El agente Jack Taggart es enviado a una pequeña población de los montes Apalaches, donde han asesinado a un compañero. Además, en esa zona se están llevando a cabo peligrosos vertidos tóxicos, que causan graves enfermedades a los habitantes del lugar, especialmente a los niños. El hermetismo de la gente no facilita la investigación de Taggart, pero pronto relaciona el caso con un empresario sin escrúpulos llamado Orin Hanner.</desc>
+    <desc>El agente Jack Taggart es enviado a una pequeña población de los montes Apalaches, donde ha sido asesinado un compañero suyo. Además, en esa zona se están llevando a cabo peligrosos vertidos tóxicos, que causan graves enfermedades a los habitantes del lugar, especialmente a los niños. El hermetismo de la gente no facilita la investigación de Taggart, pero pronto relaciona el caso con un empresario sin escrúpulos llamado Orin Hanner, que tiene amenazado al pueblo entero...</desc>
     <credits>
       <director>Félix Enríquez Alcalá</director>
       <actor>Steven Seagal</actor>
@@ -545927,7 +546464,7 @@ Hank en su nueva vida tendrá como acompañantes a su hermano, quien ve tener un
     <category>Movie</category>
     <category>Action</category>
     <rating><value>B</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/entierrapeligrosa2.jpg" />
   </programme>
   <programme start="20261024224200 -0300" stop="20261024233800 -0300" channel="1801">
     <title>The Walking Dead • Honor</title>
@@ -547672,7 +548209,7 @@ Hank en su nueva vida tendrá como acompañantes a su hermano, quien ve tener un
   </programme>
   <programme start="20261027190000 -0300" stop="20261027195400 -0300" channel="1801">
     <title>CIA</title>
-    <desc>T1 E11 | Colin se entera de que su mentor de la CIA ha desaparecido, por lo que recurre a Bill y al equipo para que lo ayuden a localizarlo. Más adelante, a medida que se acercan a su objetivo, la operación revela información importante sobre la identidad del topo.</desc>
+    <desc>T1 E11 | Cuando el agente especial del FBI Bill Goodman (Nick Gehlfuss), que sigue las reglas, es asignado a un grupo de trabajo clandestino de la CIA y el FBI, se ve obligado a colaborar con el reservado y pícaro oficial de la CIA, Colin Glass (Tom Ellis). Juntos realizarán operaciones encubiertas en Nueva York, destapando complots internacionales, células terroristas y secretos geopolíticos. En la CIA, Bill aprenderá sobre la marcha las reglas de este turbio mundo mientras Colin lo guía a lo más profundo de los juegos de espionaje donde solo una cosa está clara: su trabajo mantiene a Estados Unidos a salvo, incluso si nadie sabe jamás lo que hicieron en la sombra.</desc>
     <credits>
       <director>Milena Govich</director>
       <director>Ken Girotti</director>
@@ -547697,11 +548234,11 @@ Hank en su nueva vida tendrá como acompañantes a su hermano, quien ve tener un
     <category>Crime drama</category>
     <episode-num system="onscreen">T1 E11</episode-num>
     <rating><value>TV14</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/cia.jpg" />
   </programme>
   <programme start="20261027195400 -0300" stop="20261027204900 -0300" channel="1801">
     <title>CIA</title>
-    <desc>T1 E12 | Colin y Bill compiten contra el reloj para impedir que una empresa encubra el robo de información confidencial, al tiempo que detienen a una persona peligrosa del pasado de Colin.</desc>
+    <desc>T1 E12 | Cuando el agente especial del FBI Bill Goodman (Nick Gehlfuss), que sigue las reglas, es asignado a un grupo de trabajo clandestino de la CIA y el FBI, se ve obligado a colaborar con el reservado y pícaro oficial de la CIA, Colin Glass (Tom Ellis). Juntos realizarán operaciones encubiertas en Nueva York, destapando complots internacionales, células terroristas y secretos geopolíticos. En la CIA, Bill aprenderá sobre la marcha las reglas de este turbio mundo mientras Colin lo guía a lo más profundo de los juegos de espionaje donde solo una cosa está clara: su trabajo mantiene a Estados Unidos a salvo, incluso si nadie sabe jamás lo que hicieron en la sombra.</desc>
     <credits>
       <director>Ken Girotti</director>
       <actor>Tom Ellis</actor>
@@ -547714,7 +548251,7 @@ Hank en su nueva vida tendrá como acompañantes a su hermano, quien ve tener un
     <category>Crime drama</category>
     <episode-num system="onscreen">T1 E12</episode-num>
     <rating><value>TV14</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/cia.jpg" />
   </programme>
   <programme start="20261027204900 -0300" stop="20261027214400 -0300" channel="1801">
     <title>High Potential • Once minutos</title>
@@ -611841,7 +612378,7 @@ Hank en su nueva vida tendrá como acompañantes a su hermano, quien ve tener un
   </programme>
   <programme start="20261024132900 -0300" stop="20261024152300 -0300" channel="0815">
     <title>La casa de cera</title>
-    <desc>Un grupo de amigos se ve obligado a buscar ayuda en un pueblo fantasma cuando el vehículo en el que viajan se daña. Desafortunadamente, se topan con un lugar en el que habitan unos gemelos que sepultan vivas a sus víctimas en cera.</desc>
+    <desc>Seis amigos que viajan por carretera para asistir al campeonato universitario de fútbol más importante del año, deciden acampar al aire libre la víspera del partido. A la mañana siguiente, se dan cuenta de que su coche ha sido manipulado, así que aceptan la invitación de un conductor que los lleva hasta Ambrose. Al llegar, visitan la principal atracción de la ciudad: la Casa de Cera de Trudy, que está llena de esculturas de cera cuyo parecido con personas reales es asombroso. Cuando descubren, horrorizados, la razón de esta inquietante semejanza, comprenden que o escapan de la ciudad o se convertirán en estatuas del tenebroso museo de cera.</desc>
     <credits>
       <director>Jaume Collet-serra</director>
       <director>Mary Gail Artz</director>
@@ -625233,7 +625770,7 @@ El brujo Gargamel y su gato Azrael, intentan siempre y por todos los medios capt
   </programme>
   <programme start="20261024064900 -0300" stop="20261024083800 -0300" channel="1821">
     <title>El redentor</title>
-    <desc>Un hombre que cree estar más allá de la redención busca su propia versión de la justicia y es recompensado, aunque solo fugazmente, con amor.</desc>
+    <desc>El Redentor (1959) forma parte de una trilogía de películas dirigidas por Joseph Breen y producidas por el Padre Patrick Peyton. La trilogía trata sobre los misterios del rosario, Gozosos, Dolorosos y Gloriosos (posteriormente el Papa Juan Pablo II agregó los misterios Luminosos).  Las tres películas son El Salvador, El Redentor, El Maestro, todas filmadas en 1959.  El Redentor tiene segmentos de 20 minutos actuados sobre cada uno de los Misterios Dolorosos.</desc>
     <credits>
       <director>Steven Knight</director>
       <actor>Jason Statham</actor>
@@ -628271,7 +628808,7 @@ El brujo Gargamel y su gato Azrael, intentan siempre y por todos los medios capt
   </programme>
   <programme start="20261024084900 -0300" stop="20261024103800 -0300" channel="2821">
     <title>El redentor</title>
-    <desc>Un hombre que cree estar más allá de la redención busca su propia versión de la justicia y es recompensado, aunque solo fugazmente, con amor.</desc>
+    <desc>El Redentor (1959) forma parte de una trilogía de películas dirigidas por Joseph Breen y producidas por el Padre Patrick Peyton. La trilogía trata sobre los misterios del rosario, Gozosos, Dolorosos y Gloriosos (posteriormente el Papa Juan Pablo II agregó los misterios Luminosos).  Las tres películas son El Salvador, El Redentor, El Maestro, todas filmadas en 1959.  El Redentor tiene segmentos de 20 minutos actuados sobre cada uno de los Misterios Dolorosos.</desc>
     <credits>
       <director>Steven Knight</director>
       <actor>Jason Statham</actor>
@@ -633389,7 +633926,7 @@ El brujo Gargamel y su gato Azrael, intentan siempre y por todos los medios capt
   </programme>
   <programme start="20261021211000 -0300" stop="20261021230000 -0300" channel="0823">
     <title>El redentor</title>
-    <desc>Joey Jones es un exsoldado de las Fuerzas Especiales, vagabundo y atormentado por un trágico pasado. Harto de las injusticias que ve constantemente a su alrededor, los acontecimientos lo llevan a convertirse en un &#x27;ángel vengador&#x27;. Pronto verá como su pasado se mezcla con su turbio presente y cómo sus intentos de forjar una nueva vida comienzan a desmontarse.</desc>
+    <desc>El Redentor (1959) forma parte de una trilogía de películas dirigidas por Joseph Breen y producidas por el Padre Patrick Peyton. La trilogía trata sobre los misterios del rosario, Gozosos, Dolorosos y Gloriosos (posteriormente el Papa Juan Pablo II agregó los misterios Luminosos).  Las tres películas son El Salvador, El Redentor, El Maestro, todas filmadas en 1959.  El Redentor tiene segmentos de 20 minutos actuados sobre cada uno de los Misterios Dolorosos.</desc>
     <credits>
       <director>Steven Knight</director>
       <actor>Jason Statham</actor>
@@ -633642,7 +634179,7 @@ El brujo Gargamel y su gato Azrael, intentan siempre y por todos los medios capt
   </programme>
   <programme start="20261022192200 -0300" stop="20261022210900 -0300" channel="0823">
     <title>El redentor</title>
-    <desc>Joey Jones es un exsoldado de las Fuerzas Especiales, vagabundo y atormentado por un trágico pasado. Harto de las injusticias que ve constantemente a su alrededor, los acontecimientos lo llevan a convertirse en un &#x27;ángel vengador&#x27;. Pronto verá como su pasado se mezcla con su turbio presente y cómo sus intentos de forjar una nueva vida comienzan a desmontarse.</desc>
+    <desc>El Redentor (1959) forma parte de una trilogía de películas dirigidas por Joseph Breen y producidas por el Padre Patrick Peyton. La trilogía trata sobre los misterios del rosario, Gozosos, Dolorosos y Gloriosos (posteriormente el Papa Juan Pablo II agregó los misterios Luminosos).  Las tres películas son El Salvador, El Redentor, El Maestro, todas filmadas en 1959.  El Redentor tiene segmentos de 20 minutos actuados sobre cada uno de los Misterios Dolorosos.</desc>
     <credits>
       <director>Steven Knight</director>
       <actor>Jason Statham</actor>
@@ -633874,7 +634411,7 @@ El brujo Gargamel y su gato Azrael, intentan siempre y por todos los medios capt
   </programme>
   <programme start="20261023144600 -0300" stop="20261023163300 -0300" channel="0823">
     <title>El redentor</title>
-    <desc>Joey Jones es un exsoldado de las Fuerzas Especiales, vagabundo y atormentado por un trágico pasado. Harto de las injusticias que ve constantemente a su alrededor, los acontecimientos lo llevan a convertirse en un &#x27;ángel vengador&#x27;. Pronto verá como su pasado se mezcla con su turbio presente y cómo sus intentos de forjar una nueva vida comienzan a desmontarse.</desc>
+    <desc>El Redentor (1959) forma parte de una trilogía de películas dirigidas por Joseph Breen y producidas por el Padre Patrick Peyton. La trilogía trata sobre los misterios del rosario, Gozosos, Dolorosos y Gloriosos (posteriormente el Papa Juan Pablo II agregó los misterios Luminosos).  Las tres películas son El Salvador, El Redentor, El Maestro, todas filmadas en 1959.  El Redentor tiene segmentos de 20 minutos actuados sobre cada uno de los Misterios Dolorosos.</desc>
     <credits>
       <director>Steven Knight</director>
       <actor>Jason Statham</actor>
@@ -634541,7 +635078,7 @@ El brujo Gargamel y su gato Azrael, intentan siempre y por todos los medios capt
   </programme>
   <programme start="20261021230500 -0300" stop="20261022005500 -0300" channel="1823">
     <title>El redentor</title>
-    <desc>Un hombre que cree estar más allá de la redención busca su propia versión de la justicia y es recompensado, aunque solo fugazmente, con amor.</desc>
+    <desc>El Redentor (1959) forma parte de una trilogía de películas dirigidas por Joseph Breen y producidas por el Padre Patrick Peyton. La trilogía trata sobre los misterios del rosario, Gozosos, Dolorosos y Gloriosos (posteriormente el Papa Juan Pablo II agregó los misterios Luminosos).  Las tres películas son El Salvador, El Redentor, El Maestro, todas filmadas en 1959.  El Redentor tiene segmentos de 20 minutos actuados sobre cada uno de los Misterios Dolorosos.</desc>
     <credits>
       <director>Steven Knight</director>
       <actor>Jason Statham</actor>
@@ -634935,7 +635472,7 @@ El brujo Gargamel y su gato Azrael, intentan siempre y por todos los medios capt
   </programme>
   <programme start="20261022212600 -0300" stop="20261022231600 -0300" channel="1823">
     <title>El redentor</title>
-    <desc>Un hombre que cree estar más allá de la redención busca su propia versión de la justicia y es recompensado, aunque solo fugazmente, con amor.</desc>
+    <desc>El Redentor (1959) forma parte de una trilogía de películas dirigidas por Joseph Breen y producidas por el Padre Patrick Peyton. La trilogía trata sobre los misterios del rosario, Gozosos, Dolorosos y Gloriosos (posteriormente el Papa Juan Pablo II agregó los misterios Luminosos).  Las tres películas son El Salvador, El Redentor, El Maestro, todas filmadas en 1959.  El Redentor tiene segmentos de 20 minutos actuados sobre cada uno de los Misterios Dolorosos.</desc>
     <credits>
       <director>Steven Knight</director>
       <actor>Jason Statham</actor>
@@ -635279,7 +635816,7 @@ El brujo Gargamel y su gato Azrael, intentan siempre y por todos los medios capt
   </programme>
   <programme start="20261023160500 -0300" stop="20261023175500 -0300" channel="1823">
     <title>El redentor</title>
-    <desc>Un hombre que cree estar más allá de la redención busca su propia versión de la justicia y es recompensado, aunque solo fugazmente, con amor.</desc>
+    <desc>El Redentor (1959) forma parte de una trilogía de películas dirigidas por Joseph Breen y producidas por el Padre Patrick Peyton. La trilogía trata sobre los misterios del rosario, Gozosos, Dolorosos y Gloriosos (posteriormente el Papa Juan Pablo II agregó los misterios Luminosos).  Las tres películas son El Salvador, El Redentor, El Maestro, todas filmadas en 1959.  El Redentor tiene segmentos de 20 minutos actuados sobre cada uno de los Misterios Dolorosos.</desc>
     <credits>
       <director>Steven Knight</director>
       <actor>Jason Statham</actor>
@@ -745635,7 +746172,7 @@ de Billy y Mandy • Algo Tonto Va A Pasar / La Sorpresa De Puro Hueso / Bestias
   </programme>
   <programme start="20261022035500 -0300" stop="20261022080000 -0300" channel="0856">
     <title>Espejo público</title>
-    <desc>Reportajes sobre temas variados que atañen a diferentes clases sociales, noticias de interés público que están haciendo parte de los titulares en los medios de comunicación, las mejores entrevistas políticas, son una parte de este magazín informativo que ha estado vigente por más de una década. El programa además incluye investigaciones especiales de toda índole y analiza las problemáticas de forma profunda y desde un punto de vista objetivo, se incluye un segmento con las quejas y denuncias del público y se comentan las opiniones de la audiencia televidente que sigue al programa, la cual se conecta directamente por medio de la página web de forma dinámica.</desc>
+    <desc>Espejo público es un programa de televisión español presentado por Susanna Griso y producido por Antena 3 Noticias para su emisión en las mañanas de Antena 3.</desc>
     <category>Public affairs</category>
     <rating><value>A</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/espejopublico.jpg" />
@@ -745658,7 +746195,7 @@ El programa está compuesto por Ana Morgade, Anna Simon, Cristina Pedroche, Miki
   </programme>
   <programme start="20261022104500 -0300" stop="20261022134500 -0300" channel="0856">
     <title>Espejo público</title>
-    <desc>Reportajes sobre temas variados que atañen a diferentes clases sociales, noticias de interés público que están haciendo parte de los titulares en los medios de comunicación, las mejores entrevistas políticas, son una parte de este magazín informativo que ha estado vigente por más de una década. El programa además incluye investigaciones especiales de toda índole y analiza las problemáticas de forma profunda y desde un punto de vista objetivo, se incluye un segmento con las quejas y denuncias del público y se comentan las opiniones de la audiencia televidente que sigue al programa, la cual se conecta directamente por medio de la página web de forma dinámica.</desc>
+    <desc>Espejo público es un programa de televisión español presentado por Susanna Griso y producido por Antena 3 Noticias para su emisión en las mañanas de Antena 3.</desc>
     <category>Public affairs</category>
     <rating><value>A</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/espejopublico.jpg" />
@@ -745749,7 +746286,7 @@ El programa está compuesto por Ana Morgade, Anna Simon, Cristina Pedroche, Miki
   </programme>
   <programme start="20261023040000 -0300" stop="20261023080000 -0300" channel="0856">
     <title>Espejo público</title>
-    <desc>Reportajes sobre temas variados que atañen a diferentes clases sociales, noticias de interés público que están haciendo parte de los titulares en los medios de comunicación, las mejores entrevistas políticas, son una parte de este magazín informativo que ha estado vigente por más de una década. El programa además incluye investigaciones especiales de toda índole y analiza las problemáticas de forma profunda y desde un punto de vista objetivo, se incluye un segmento con las quejas y denuncias del público y se comentan las opiniones de la audiencia televidente que sigue al programa, la cual se conecta directamente por medio de la página web de forma dinámica.</desc>
+    <desc>Espejo público es un programa de televisión español presentado por Susanna Griso y producido por Antena 3 Noticias para su emisión en las mañanas de Antena 3.</desc>
     <category>Public affairs</category>
     <rating><value>A</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/espejopublico.jpg" />
@@ -745772,7 +746309,7 @@ El programa está compuesto por Ana Morgade, Anna Simon, Cristina Pedroche, Miki
   </programme>
   <programme start="20261023104500 -0300" stop="20261023114500 -0300" channel="0856">
     <title>Espejo público</title>
-    <desc>Reportajes sobre temas variados que atañen a diferentes clases sociales, noticias de interés público que están haciendo parte de los titulares en los medios de comunicación, las mejores entrevistas políticas, son una parte de este magazín informativo que ha estado vigente por más de una década. El programa además incluye investigaciones especiales de toda índole y analiza las problemáticas de forma profunda y desde un punto de vista objetivo, se incluye un segmento con las quejas y denuncias del público y se comentan las opiniones de la audiencia televidente que sigue al programa, la cual se conecta directamente por medio de la página web de forma dinámica.</desc>
+    <desc>Espejo público es un programa de televisión español presentado por Susanna Griso y producido por Antena 3 Noticias para su emisión en las mañanas de Antena 3.</desc>
     <category>Public affairs</category>
     <rating><value>A</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/espejopublico.jpg" />
@@ -747716,7 +748253,7 @@ El programa está compuesto por Ana Morgade, Anna Simon, Cristina Pedroche, Miki
     <title>Head Office</title>
     <desc>Feature Film • 1986. U.S. senator&#x27;s son (Judge Reinhold) gets job at unethical conglomerate.</desc>
     <category>Feature Film • 1986</category>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/headoffice.jpg" />
   </programme>
   <programme start="20261021152000 -0300" stop="20261021165100 -0300" channel="0863">
     <title>MacGruber</title>
@@ -755506,23 +756043,8 @@ La serie narra los acontecimientos de la Biblia, del Antiguo y Nuevo Testamento 
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261021190000 -0300" stop="20261022080000 -0300" channel="0901">
+  <programme start="20261021190000 -0300" stop="20261022190000 -0300" channel="0901">
     <title>El Curubito Internacional</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
-  </programme>
-  <programme start="20261022080000 -0300" stop="20261022100000 -0300" channel="0901">
-    <title>Retransmisión De Tvmax Deportes</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
-  </programme>
-  <programme start="20261022100000 -0300" stop="20261022111000 -0300" channel="0901">
-    <title>Mesa De Periodistas</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
-  </programme>
-  <programme start="20261022111000 -0300" stop="20261022190000 -0300" channel="0901">
-    <title>Noticiero Am</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
@@ -755531,39 +756053,29 @@ La serie narra los acontecimientos de la Biblia, del Antiguo y Nuevo Testamento 
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261023010000 -0300" stop="20261023020000 -0300" channel="0901">
+  <programme start="20261023010000 -0300" stop="20261023030000 -0300" channel="0901">
     <title>Retransmisión De Tvmax Deportes</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261023020000 -0300" stop="20261023060000 -0300" channel="0901">
-    <title>TV Max</title>
-    <desc>La informacion de este programa no se encuentra disponible.</desc>
+  <programme start="20261023030000 -0300" stop="20261023111000 -0300" channel="0901">
+    <title>Mesa De Periodistas</title>
+    <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261023060000 -0300" stop="20261023100000 -0300" channel="0901">
-    <title>TV Max</title>
-    <desc>La informacion de este programa no se encuentra disponible.</desc>
+  <programme start="20261023111000 -0300" stop="20261023150000 -0300" channel="0901">
+    <title>Noticiero Am</title>
+    <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261023100000 -0300" stop="20261023140000 -0300" channel="0901">
-    <title>TV Max</title>
-    <desc>La informacion de este programa no se encuentra disponible.</desc>
+  <programme start="20261023150000 -0300" stop="20261024010000 -0300" channel="0901">
+    <title>Tvmax Deportes</title>
+    <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261023140000 -0300" stop="20261023180000 -0300" channel="0901">
-    <title>TV Max</title>
-    <desc>La informacion de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
-  </programme>
-  <programme start="20261023180000 -0300" stop="20261023220000 -0300" channel="0901">
-    <title>TV Max</title>
-    <desc>La informacion de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
-  </programme>
-  <programme start="20261023220000 -0300" stop="20261024020000 -0300" channel="0901">
-    <title>TV Max</title>
-    <desc>La informacion de este programa no se encuentra disponible.</desc>
+  <programme start="20261024010000 -0300" stop="20261024020000 -0300" channel="0901">
+    <title>Retransmisión De Tvmax Deportes</title>
+    <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261024020000 -0300" stop="20261024060000 -0300" channel="0901">
@@ -811783,42 +812295,122 @@ Andrés Gil</desc>
     <desc>Un downhiller estadounidense lucha por llegar a la cima del mountain bike enfrentando obstáculos para alcanzar el podio.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261024093400 -0300" stop="20261024103400 -0300" channel="0966">
+  <programme start="20261024093400 -0300" stop="20261024101100 -0300" channel="0966">
     <title>Race Tapes: Los campeones del mountain bike</title>
     <desc>Un ciclista de montaña procedente del continente menos esperado impulsa a una pequeña marca, ajena a las grandes ligas del deporte, a entrar en el exclusivo círculo de los ganadores del MTB de élite.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261024103400 -0300" stop="20261024110000 -0300" channel="0966">
-    <title>TEST DITU REDBULL</title>
-    <desc>La informacion de este programa no se encuentra disponible.</desc>
+  <programme start="20261024101100 -0300" stop="20261024104700 -0300" channel="0966">
+    <title>Race Tapes: Una nueva generación domina el downhill</title>
+    <desc>Asa Vermette, joven promesa del mountain bike, une su destino a un equipo advenedizo. Juntos enfrentan el desafío de cumplir sus objetivos en la élite del Downhill.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/racetapesunanuevageneraciondominaeldownhill.jpg" />
+  </programme>
+  <programme start="20261024104700 -0300" stop="20261024112100 -0300" channel="0966">
+    <title>Race Tapes: El rider chileno que busca volver a la cima</title>
+    <desc>El atleta de MTB Martín Vidaurre pasa de ganarlo todo a quedarse sin nada. Con su carrera en juego, enfrenta el reto de recuperar la confianza y volver a competir al más alto nivel.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261024110000 -0300" stop="20261024150000 -0300" channel="0966">
-    <title>TEST DITU REDBULL</title>
-    <desc>La informacion de este programa no se encuentra disponible.</desc>
+  <programme start="20261024112100 -0300" stop="20261024115500 -0300" channel="0966">
+    <title>Race Tapes: Creando un equipo de MTB exitoso</title>
+    <desc>De vuelta de una lesión que cambió su carrera, un equipo antaño dominante y su carismático patrocinador francés intentan recuperar el &quot;je ne sais quoi&quot; que les hizo grandes.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261024150000 -0300" stop="20261024190000 -0300" channel="0966">
-    <title>TEST DITU REDBULL</title>
-    <desc>La informacion de este programa no se encuentra disponible.</desc>
+  <programme start="20261024115500 -0300" stop="20261024133800 -0300" channel="0966">
+    <title>Sandro Dias en la rampa de skate más grande del mundo</title>
+    <desc>Repasa la carrera de Sandro Dias, una de las mayores leyendas del skate brasileño, mientras realiza el salto de su vida en la rampa de skate más grande del mundo.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261024190000 -0300" stop="20261024230000 -0300" channel="0966">
-    <title>TEST DITU REDBULL</title>
-    <desc>La informacion de este programa no se encuentra disponible.</desc>
+  <programme start="20261024133800 -0300" stop="20261024135900 -0300" channel="0966">
+    <title>Red Bull Conquer the Castle 2019: carrera de obstáculos</title>
+    <desc>Los participantes enfrentan una desafiante carrera de obstáculos ambientada en el histórico Castillo de Rosenholm, en Dinamarca.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261024230000 -0300" stop="20261025030000 -0300" channel="0966">
-    <title>TEST DITU REDBULL</title>
-    <desc>La informacion de este programa no se encuentra disponible.</desc>
+  <programme start="20261024135900 -0300" stop="20261024152000 -0300" channel="0966">
+    <title>Red Bull Batalla 5 Vidas Edición 20 Años</title>
+    <desc>Edición especial por los 20 años de Red Bull Batalla, con la participación de Piezas, Hadrián, McKlopedia, Arkano y Frescolate compitiendo por el título.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261025030000 -0300" stop="20261025070000 -0300" channel="0966">
-    <title>TEST DITU REDBULL</title>
-    <desc>La informacion de este programa no se encuentra disponible.</desc>
+  <programme start="20261024152000 -0300" stop="20261024161500 -0300" channel="0966">
+    <title>(Un)Credited - Los orígenes del Afro Dance en Nigeria</title>
+    <desc>Los orígenes del Afro Dance se remontan a Nigeria, donde surgió como un fenómeno que ha influido en la cultura global, moldeando movimientos de baile que siguen marcando la escena mainstream.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261025070000 -0300" stop="20261025110000 -0300" channel="0966">
+  <programme start="20261024161500 -0300" stop="20261024173200 -0300" channel="0966">
+    <title>EN VIVO: EN VIVO Red Bull Dance Your Style World Final 2026</title>
+    <desc>Los mejores bailarines de todo el mundo se enfrentan en la Final Mundial de Red Bull Dance Your Style 2026, donde el público decide quién se corona campeón del baile urbano.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261024173200 -0300" stop="20261024183300 -0300" channel="0966">
+    <title>Fabio Wibmer – Video Game: detrás de cámaras</title>
+    <desc>Fabio Wibmer y su equipo revelan el proceso detrás de Video Game, una de las producciones de bike más creativas de 2022, filmada durante 70 días y llena de retos técnicos y visuales.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261024183300 -0300" stop="20261024192800 -0300" channel="0966">
+    <title>Red Bull Stratos - Saltando desde la estratosfera</title>
+    <desc>Red Bull Stratos llevó a Felix Baumgartner a romper la barrera del sonido saltando desde la estratosfera, dejando un legado en la exploración aeroespacial y las transmisiones en directo.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261024192800 -0300" stop="20261024201500 -0300" channel="0966">
+    <title>7 maratones en 7 días, en 7 continentes</title>
+    <desc>Tras meses de entrenamiento, Michelle comienza The Great World Race, un desafío de running que la lleva desde Ciudad del Cabo hasta la Antártida.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/7maratonesen7diasen7continentes.jpg" />
+  </programme>
+  <programme start="20261024201500 -0300" stop="20261024211000 -0300" channel="0966">
+    <title>360 Ascent</title>
+    <desc>Los escaladores Janja Garnbret y Domen Škofic enfrentan el desafío de escalar la ruta artificial multilargos más alta del mundo en la chimenea de la Central Eléctrica de Trbovlje, en Eslovenia.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/360ascent.jpg" />
+  </programme>
+  <programme start="20261024211000 -0300" stop="20261024220100 -0300" channel="0966">
+    <title>Red Bull Soapbox Race: coches sin motor en Texas</title>
+    <desc>Equipos construyen sus propios coches sin motor para desafiar una pista empinada llena de obstáculos en Dallas, Texas, donde la competencia se basa en velocidad y creatividad de diseño.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261024220100 -0300" stop="20261024225200 -0300" channel="0966">
+    <title>Red Bull Soapbox Race India - ingenio sobre ruedas</title>
+    <desc>La Red Bull Soapbox Race 2024 en Hyderabad llena la pista de caos y creatividad, con vehículos sin motor volando, rodando y superando obstáculos en una carrera impulsada solo por la gravedad.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261024225200 -0300" stop="20261024234300 -0300" channel="0966">
+    <title>Red Bull Soapbox Race Iowa, EEUU - Velocidad sin motor</title>
+    <desc>Equipos construyen sus propios coches sin motor para desafiar una pista empinada llena de obstáculos en Iowa, EEUU, donde la competencia se basa en velocidad y creatividad de diseño.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261024234300 -0300" stop="20261025030000 -0300" channel="0966">
+    <title>EN VIVO: Red Bull Rampage 2026: Competencia Femenina</title>
+    <desc>Las mejores riders de MTB freeride del mundo se enfrentan al desierto de Utah, superando enormes descensos, líneas técnicas y algunos de los terrenos más exigentes de Red Bull Rampage.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261025030000 -0300" stop="20261025044500 -0300" channel="0966">
+    <title>Sandro Dias en la rampa de skate más grande del mundo</title>
+    <desc>Repasa la carrera de Sandro Dias, una de las mayores leyendas del skate brasileño, mientras realiza el salto de su vida en la rampa de skate más grande del mundo.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261025044500 -0300" stop="20261025053000 -0300" channel="0966">
+    <title>Red Bull Batalla Nueva Historia: 20 Años de Rimas</title>
+    <desc>20 años de freestyle en español, desde la primera Final Internacional de Red Bull Batalla hasta el aniversario celebrado en Buenos Aires.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/redbullbatallanuevahistoria20anosderimas.jpg" />
+  </programme>
+  <programme start="20261025053000 -0300" stop="20261025062700 -0300" channel="0966">
+    <title>Life &amp; Basketball: The Rise of Lethal Shooter</title>
+    <desc>Conoce la historia de Chris Matthews, alias Lethal Shooter, el entrenador de tiro más solicitado del mundo, cuya pasión y perseverancia lo llevaron de jugador a mentor clave en el baloncesto global.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/lifebasketballtheriseoflethalshooter.jpg" />
+  </programme>
+  <programme start="20261025062700 -0300" stop="20261025080200 -0300" channel="0966">
+    <title>The Engine Inside</title>
+    <desc>Seis personas de diferentes países transforman sus vidas con una bicicleta. Sus historias muestran cómo este medio simple puede inspirar cambios personales y construir un mundo mejor.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261025080200 -0300" stop="20261025090300 -0300" channel="0966">
+    <title>Fabio Wibmer – Video Game: detrás de cámaras</title>
+    <desc>Fabio Wibmer y su equipo revelan el proceso detrás de Video Game, una de las producciones de bike más creativas de 2022, filmada durante 70 días y llena de retos técnicos y visuales.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261025090300 -0300" stop="20261025100300 -0300" channel="0966">
+    <title>Red Bull Soapbox Race - Los 50 Mejores Diseños de Autos</title>
+    <desc>Red Bull Soapbox Race reúne coches caseros sin motor en descensos llenos de obstáculos, con una selección de los diseños más creativos y divertidos entre 2014 y 2025.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261025100300 -0300" stop="20261025110000 -0300" channel="0966">
     <title>TEST DITU REDBULL</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
@@ -812151,168 +812743,237 @@ Andrés Gil</desc>
     <category>animation</category>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261022192200 -0300" stop="20261022202200 -0300" channel="0967">
+  <programme start="20261022192200 -0300" stop="20261022200900 -0300" channel="0967">
     <title>El mundo de Julius- Episodio 11</title>
     <desc>Todo era perfecto para Julius, hasta que su mundo se rompe. Entre nuevos retos y aventuras, lucha por seguir siendo un niño feliz.</desc>
     <category>drama</category>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261022202200 -0300" stop="20261022210000 -0300" channel="0967">
+  <programme start="20261022200900 -0300" stop="20261022205100 -0300" channel="0967">
+    <title>El mundo de Julius- Episodio 12</title>
+    <desc>Todo era perfecto para Julius, hasta que su mundo se rompe. Entre nuevos retos y aventuras, lucha por seguir siendo un niño feliz.</desc>
+    <category>drama</category>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261022205100 -0300" stop="20261022211700 -0300" channel="0967">
+    <title>La Familia Cheveroni- Episodio 123</title>
+    <desc>Aurelio y su familia viven aventuras llenas de humor y valores en la divertida serie La Familia Cheveroni.</desc>
+    <category>comedy</category>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261022211700 -0300" stop="20261022214300 -0300" channel="0967">
+    <title>La Familia Cheveroni- Episodio 124</title>
+    <desc>Aurelio y su familia viven aventuras llenas de humor y valores en la divertida serie La Familia Cheveroni.</desc>
+    <category>comedy</category>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261022214300 -0300" stop="20261022221100 -0300" channel="0967">
+    <title>Club 10 - Año 11- - Episodio 274</title>
+    <desc>Un grupo de niños y su amigo Dinodoro viven emocionantes aventuras llenas de humor, aprendizaje y diversión en Club 10.</desc>
+    <category>fantasy</category>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261022221100 -0300" stop="20261022224100 -0300" channel="0967">
+    <title>Club 10 - Año 11- - Episodio 275</title>
+    <desc>Un grupo de niños y su amigo Dinodoro viven emocionantes aventuras llenas de humor, aprendizaje y diversión en Club 10.</desc>
+    <category>fantasy</category>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261022224100 -0300" stop="20261022224300 -0300" channel="0967">
+    <title>Roberta Quiere Cacao T2 - Ep. 6. La voz recuperada</title>
+    <desc>Roberta y Fausto, marcados por el destino, enfrentan secretos, traiciones y un reencuentro que cambiará sus vidas para siempre.</desc>
+    <category>animation</category>
+    <category>kids &amp; family</category>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261022224300 -0300" stop="20261022224700 -0300" channel="0967">
+    <title>Roberta Quiere Cacao T2 - Ep. 7- El precio de la fama</title>
+    <desc>Roberta y Fausto, marcados por el destino, enfrentan secretos, traiciones y un reencuentro que cambiará sus vidas para siempre.</desc>
+    <category>animation</category>
+    <category>kids &amp; family</category>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261022224700 -0300" stop="20261022231200 -0300" channel="0967">
+    <title>Cuentos de los Hermanos Grimm - Episodio 34. El abrigo de todos los colores</title>
+    <desc>Emitida por Caracol desde 1988, esta serie trajo los cuentos Grimm a la TV con emoción, valores y estilo inolvidable.</desc>
+    <category>animation</category>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261022231200 -0300" stop="20261022233800 -0300" channel="0967">
+    <title>Cuentos de los Hermanos Grimm - Episodio 35. El cuento de los dos hermanos</title>
+    <desc>Emitida por Caracol desde 1988, esta serie trajo los cuentos Grimm a la TV con emoción, valores y estilo inolvidable.</desc>
+    <category>animation</category>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261022233800 -0300" stop="20261023002500 -0300" channel="0967">
+    <title>El mundo de Julius- Episodio 11</title>
+    <desc>Todo era perfecto para Julius, hasta que su mundo se rompe. Entre nuevos retos y aventuras, lucha por seguir siendo un niño feliz.</desc>
+    <category>drama</category>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261023002500 -0300" stop="20261023010700 -0300" channel="0967">
+    <title>El mundo de Julius- Episodio 12</title>
+    <desc>Todo era perfecto para Julius, hasta que su mundo se rompe. Entre nuevos retos y aventuras, lucha por seguir siendo un niño feliz.</desc>
+    <category>drama</category>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261023010700 -0300" stop="20261023020700 -0300" channel="0967">
+    <title>La Familia Cheveroni- Episodio 123</title>
+    <desc>Aurelio y su familia viven aventuras llenas de humor y valores en la divertida serie La Familia Cheveroni.</desc>
+    <category>comedy</category>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261023020700 -0300" stop="20261023030000 -0300" channel="0967">
     <title>TEST DITU CARACOL KIDS</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261022210000 -0300" stop="20261023010000 -0300" channel="0967">
+  <programme start="20261023030000 -0300" stop="20261023070000 -0300" channel="0967">
     <title>TEST DITU CARACOL KIDS</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261023010000 -0300" stop="20261023050000 -0300" channel="0967">
+  <programme start="20261023070000 -0300" stop="20261023110000 -0300" channel="0967">
     <title>TEST DITU CARACOL KIDS</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261023050000 -0300" stop="20261023090000 -0300" channel="0967">
+  <programme start="20261023110000 -0300" stop="20261023150000 -0300" channel="0967">
     <title>TEST DITU CARACOL KIDS</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261023090000 -0300" stop="20261023130000 -0300" channel="0967">
+  <programme start="20261023150000 -0300" stop="20261023190000 -0300" channel="0967">
     <title>TEST DITU CARACOL KIDS</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261023130000 -0300" stop="20261023170000 -0300" channel="0967">
+  <programme start="20261023190000 -0300" stop="20261023230000 -0300" channel="0967">
     <title>TEST DITU CARACOL KIDS</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261023170000 -0300" stop="20261023210000 -0300" channel="0967">
+  <programme start="20261023230000 -0300" stop="20261024030000 -0300" channel="0967">
     <title>TEST DITU CARACOL KIDS</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261023210000 -0300" stop="20261024010000 -0300" channel="0967">
+  <programme start="20261024030000 -0300" stop="20261024070000 -0300" channel="0967">
     <title>TEST DITU CARACOL KIDS</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261024010000 -0300" stop="20261024050000 -0300" channel="0967">
+  <programme start="20261024070000 -0300" stop="20261024110000 -0300" channel="0967">
     <title>TEST DITU CARACOL KIDS</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261024050000 -0300" stop="20261024090000 -0300" channel="0967">
+  <programme start="20261024110000 -0300" stop="20261024150000 -0300" channel="0967">
     <title>TEST DITU CARACOL KIDS</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261024090000 -0300" stop="20261024130000 -0300" channel="0967">
+  <programme start="20261024150000 -0300" stop="20261024190000 -0300" channel="0967">
     <title>TEST DITU CARACOL KIDS</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261024130000 -0300" stop="20261024170000 -0300" channel="0967">
+  <programme start="20261024190000 -0300" stop="20261024230000 -0300" channel="0967">
     <title>TEST DITU CARACOL KIDS</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261024170000 -0300" stop="20261024210000 -0300" channel="0967">
+  <programme start="20261024230000 -0300" stop="20261025030000 -0300" channel="0967">
     <title>TEST DITU CARACOL KIDS</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261024210000 -0300" stop="20261025010000 -0300" channel="0967">
+  <programme start="20261025030000 -0300" stop="20261025070000 -0300" channel="0967">
     <title>TEST DITU CARACOL KIDS</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261025010000 -0300" stop="20261025050000 -0300" channel="0967">
+  <programme start="20261025070000 -0300" stop="20261025110000 -0300" channel="0967">
     <title>TEST DITU CARACOL KIDS</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261025050000 -0300" stop="20261025090000 -0300" channel="0967">
+  <programme start="20261025110000 -0300" stop="20261025150000 -0300" channel="0967">
     <title>TEST DITU CARACOL KIDS</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261025090000 -0300" stop="20261025130000 -0300" channel="0967">
+  <programme start="20261025150000 -0300" stop="20261025190000 -0300" channel="0967">
     <title>TEST DITU CARACOL KIDS</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261025130000 -0300" stop="20261025170000 -0300" channel="0967">
+  <programme start="20261025190000 -0300" stop="20261025230000 -0300" channel="0967">
     <title>TEST DITU CARACOL KIDS</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261025170000 -0300" stop="20261025210000 -0300" channel="0967">
+  <programme start="20261025230000 -0300" stop="20261026030000 -0300" channel="0967">
     <title>TEST DITU CARACOL KIDS</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261025210000 -0300" stop="20261026010000 -0300" channel="0967">
+  <programme start="20261026030000 -0300" stop="20261026070000 -0300" channel="0967">
     <title>TEST DITU CARACOL KIDS</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261026010000 -0300" stop="20261026050000 -0300" channel="0967">
+  <programme start="20261026070000 -0300" stop="20261026110000 -0300" channel="0967">
     <title>TEST DITU CARACOL KIDS</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261026050000 -0300" stop="20261026090000 -0300" channel="0967">
+  <programme start="20261026110000 -0300" stop="20261026150000 -0300" channel="0967">
     <title>TEST DITU CARACOL KIDS</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261026090000 -0300" stop="20261026130000 -0300" channel="0967">
+  <programme start="20261026150000 -0300" stop="20261026190000 -0300" channel="0967">
     <title>TEST DITU CARACOL KIDS</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261026130000 -0300" stop="20261026170000 -0300" channel="0967">
+  <programme start="20261026190000 -0300" stop="20261026230000 -0300" channel="0967">
     <title>TEST DITU CARACOL KIDS</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261026170000 -0300" stop="20261026210000 -0300" channel="0967">
+  <programme start="20261026230000 -0300" stop="20261027030000 -0300" channel="0967">
     <title>TEST DITU CARACOL KIDS</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261026210000 -0300" stop="20261027010000 -0300" channel="0967">
+  <programme start="20261027030000 -0300" stop="20261027070000 -0300" channel="0967">
     <title>TEST DITU CARACOL KIDS</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261027010000 -0300" stop="20261027050000 -0300" channel="0967">
+  <programme start="20261027070000 -0300" stop="20261027110000 -0300" channel="0967">
     <title>TEST DITU CARACOL KIDS</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261027050000 -0300" stop="20261027090000 -0300" channel="0967">
+  <programme start="20261027110000 -0300" stop="20261027150000 -0300" channel="0967">
     <title>TEST DITU CARACOL KIDS</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261027090000 -0300" stop="20261027130000 -0300" channel="0967">
+  <programme start="20261027150000 -0300" stop="20261027190000 -0300" channel="0967">
     <title>TEST DITU CARACOL KIDS</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261027130000 -0300" stop="20261027170000 -0300" channel="0967">
+  <programme start="20261027190000 -0300" stop="20261027230000 -0300" channel="0967">
     <title>TEST DITU CARACOL KIDS</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261027170000 -0300" stop="20261027210000 -0300" channel="0967">
-    <title>TEST DITU CARACOL KIDS</title>
-    <desc>La informacion de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
-  </programme>
-  <programme start="20261027210000 -0300" stop="20261027235959 -0300" channel="0967">
+  <programme start="20261027230000 -0300" stop="20261027235959 -0300" channel="0967">
     <title>TEST DITU CARACOL KIDS</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
@@ -812622,42 +813283,107 @@ Andrés Gil</desc>
     <desc>Repetición ║ Noticias Sports ofrece la mejor cobertura deportiva de Colombia y el mundo, con información precisa, ágil y exclusiva.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261024083000 -0300" stop="20261024093000 -0300" channel="0968">
+  <programme start="20261024083000 -0300" stop="20261024103000 -0300" channel="0968">
     <title>Blog Deportivo (Repetición)</title>
     <desc>Repetición ║ Se habla de: Fútbol colombiano y los deportistas que son protagonistas en el mundo.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261024093000 -0300" stop="20261024100000 -0300" channel="0968">
-    <title>TEST DITU CARACOL SPORTS</title>
-    <desc>La informacion de este programa no se encuentra disponible.</desc>
+  <programme start="20261024103000 -0300" stop="20261024113000 -0300" channel="0968">
+    <title>Jugada Maestra (Repetición)</title>
+    <desc>Repetición ║ Jugada Maestra reúne a Hernández, Castell y De la Pava en un análisis profundo del fútbol con experiencia y visión experta.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261024100000 -0300" stop="20261024140000 -0300" channel="0968">
-    <title>TEST DITU CARACOL SPORTS</title>
-    <desc>La informacion de este programa no se encuentra disponible.</desc>
+  <programme start="20261024113000 -0300" stop="20261024120000 -0300" channel="0968">
+    <title>Noticias Caracol Sports (Repetición)</title>
+    <desc>Repetición ║ Noticias Sports ofrece la mejor cobertura deportiva de Colombia y el mundo, con información precisa, ágil y exclusiva.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261024140000 -0300" stop="20261024180000 -0300" channel="0968">
-    <title>TEST DITU CARACOL SPORTS</title>
-    <desc>La informacion de este programa no se encuentra disponible.</desc>
+  <programme start="20261024120000 -0300" stop="20261024123000 -0300" channel="0968">
+    <title>Deportes 360</title>
+    <desc>Los atletas, deportistas y embajadores deportivos convencionales y paralímpicos son los protagonistas de este espacio.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261024180000 -0300" stop="20261024220000 -0300" channel="0968">
-    <title>TEST DITU CARACOL SPORTS</title>
-    <desc>La informacion de este programa no se encuentra disponible.</desc>
+  <programme start="20261024123000 -0300" stop="20261024133000 -0300" channel="0968">
+    <title>Tribuna Caliente (Repetición)</title>
+    <desc>Repetición ║ Tribuna Caliente prende la pantalla con debates intensos, análisis directo y la mejor actualidad deportiva en vivo.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261024220000 -0300" stop="20261025020000 -0300" channel="0968">
-    <title>TEST DITU CARACOL SPORTS</title>
-    <desc>La informacion de este programa no se encuentra disponible.</desc>
+  <programme start="20261024133000 -0300" stop="20261024153000 -0300" channel="0968">
+    <title>Tour de Francia</title>
+    <desc>Descripción no disponible</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261025020000 -0300" stop="20261025060000 -0300" channel="0968">
-    <title>TEST DITU CARACOL SPORTS</title>
-    <desc>La informacion de este programa no se encuentra disponible.</desc>
+  <programme start="20261024153000 -0300" stop="20261024160000 -0300" channel="0968">
+    <title>Caracol Extremo (Repetición)</title>
+    <desc>Repetición ║ Caracol Extremo te lanza a la adrenalina con los deportes más audaces del planeta. ¡Pura acción en cada episodio!</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261025060000 -0300" stop="20261025100000 -0300" channel="0968">
+  <programme start="20261024160000 -0300" stop="20261024163000 -0300" channel="0968">
+    <title>Noticias Caracol Sports (En Vivo)</title>
+    <desc>Noticias Sports ofrece la mejor cobertura deportiva de Colombia y el mundo, con información precisa, ágil y exclusiva.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261024163000 -0300" stop="20261024170000 -0300" channel="0968">
+    <title>Noticias Caracol Sports (Repetición)</title>
+    <desc>Repetición ║ Noticias Sports ofrece la mejor cobertura deportiva de Colombia y el mundo, con información precisa, ágil y exclusiva.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261024170000 -0300" stop="20261024190000 -0300" channel="0968">
+    <title>Tour de Francia</title>
+    <desc>Descripción no disponible</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261024190000 -0300" stop="20261024200000 -0300" channel="0968">
+    <title>Foto finish (Repetición)</title>
+    <desc>Repetición ║ Resume la actualidad del ciclismo con enfoque ágil en las hazañas y rostros colombianos que marcan el pelotón mundial.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261024200000 -0300" stop="20261024220000 -0300" channel="0968">
+    <title>Liga Colombiana</title>
+    <desc>Descripción no disponible</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261024220000 -0300" stop="20261024223000 -0300" channel="0968">
+    <title>Noticias Caracol Sports (En Vivo)</title>
+    <desc>Noticias Sports ofrece la mejor cobertura deportiva de Colombia y el mundo, con información precisa, ágil y exclusiva.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261024223000 -0300" stop="20261025013000 -0300" channel="0968">
+    <title>Flex Flight Series 63</title>
+    <desc>Descripción no disponible</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261025013000 -0300" stop="20261025020000 -0300" channel="0968">
+    <title>Noticias Caracol Sports (Repetición)</title>
+    <desc>Repetición ║ Noticias Sports ofrece la mejor cobertura deportiva de Colombia y el mundo, con información precisa, ágil y exclusiva.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261025020000 -0300" stop="20261025050000 -0300" channel="0968">
+    <title>Flex Flight Series 63</title>
+    <desc>Descripción no disponible</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261025050000 -0300" stop="20261025070000 -0300" channel="0968">
+    <title>Tour de Francia</title>
+    <desc>Descripción no disponible</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261025070000 -0300" stop="20261025080000 -0300" channel="0968">
+    <title>Foto finish (Repetición)</title>
+    <desc>Repetición ║ Resume la actualidad del ciclismo con enfoque ágil en las hazañas y rostros colombianos que marcan el pelotón mundial.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261025080000 -0300" stop="20261025083000 -0300" channel="0968">
+    <title>Noticias Caracol Sports (Repetición)</title>
+    <desc>Repetición ║ Noticias Sports ofrece la mejor cobertura deportiva de Colombia y el mundo, con información precisa, ágil y exclusiva.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261025083000 -0300" stop="20261025093000 -0300" channel="0968">
+    <title>Flex Flight Series 63</title>
+    <desc>Descripción no disponible</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261025093000 -0300" stop="20261025100000 -0300" channel="0968">
     <title>TEST DITU CARACOL SPORTS</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
@@ -813092,34 +813818,124 @@ Andrés Gil</desc>
     <desc>Un grupo de delincuentes toma como rehenes a los habitantes de un edificio. Gracias a la solidaridad de los vecinos y a una llamada oculta, la policía interviene y logra rescatar a todos, dejando una valiosa lección de comunidad.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261024100000 -0300" stop="20261024140000 -0300" channel="0969">
-    <title>TEST DITU CARACOL MIX</title>
-    <desc>La informacion de este programa no se encuentra disponible.</desc>
+  <programme start="20261024100000 -0300" stop="20261024110000 -0300" channel="0969">
+    <title>Vecinos - Capitulo 200</title>
+    <desc>Alicia y Marco fortalecen su relación, mientras Rodolfo intensifica sus amenazas contra Clara. Poncho queda atrapado entre Sara y Tata, y Oscar comienza a sospechar que el secuestro de Jessica podría ocultar una compleja red de mentiras.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261024140000 -0300" stop="20261024180000 -0300" channel="0969">
-    <title>TEST DITU CARACOL MIX</title>
-    <desc>La informacion de este programa no se encuentra disponible.</desc>
+  <programme start="20261024110000 -0300" stop="20261024120000 -0300" channel="0969">
+    <title>Vecinos - Capitulo 201</title>
+    <desc>Clara confiesa que fue informante de Rodolfo y Oscar descubre una pista clave: Álvaro podría estar vivo. Mientras tanto, Peláez pierde la paciencia y exige el dinero prometido, aumentando la tensión dentro del grupo de secuestradores.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261024180000 -0300" stop="20261024220000 -0300" channel="0969">
-    <title>TEST DITU CARACOL MIX</title>
-    <desc>La informacion de este programa no se encuentra disponible.</desc>
+  <programme start="20261024120000 -0300" stop="20261024130000 -0300" channel="0969">
+    <title>Vecinos - Capitulo 202</title>
+    <desc>Peláez descubre movimientos sospechosos de Rodolfo y amenaza a Álvaro. Sara exige a Poncho aclarar su situación sentimental, pero cuando intenta hacerlo surge un conflicto. Al mismo tiempo, Rodolfo acorrala a Tatiana y Oscar con un arma.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261024220000 -0300" stop="20261025020000 -0300" channel="0969">
-    <title>TEST DITU CARACOL MIX</title>
-    <desc>La informacion de este programa no se encuentra disponible.</desc>
+  <programme start="20261024130000 -0300" stop="20261024140000 -0300" channel="0969">
+    <title>Vecinos - Capitulo 203</title>
+    <desc>Tras descubrir que fue engañado, Rodolfo amenaza con matar a Álvaro. Sin embargo, Peláez lo golpea y lo toma prisionero para obtener el dinero escondido. Paralelamente, Oscar y Tatiana revelan toda la verdad a sus familias y colaboran con la policía.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261025020000 -0300" stop="20261025060000 -0300" channel="0969">
-    <title>TEST DITU CARACOL MIX</title>
-    <desc>La informacion de este programa no se encuentra disponible.</desc>
+  <programme start="20261024140000 -0300" stop="20261024150000 -0300" channel="0969">
+    <title>Vecinos - Capitulo 204</title>
+    <desc>Alicia admite que Jessica se fue con Rodolfo por voluntad propia. Mientras Oscar y Tatiana buscan respuestas, Álvaro intenta huir pero es capturado por la policía. Clara también es detenida por colaborar con el plan criminal que mantuvo oculto durante meses.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261025060000 -0300" stop="20261025100000 -0300" channel="0969">
-    <title>TEST DITU CARACOL MIX</title>
-    <desc>La informacion de este programa no se encuentra disponible.</desc>
+  <programme start="20261024150000 -0300" stop="20261024160000 -0300" channel="0969">
+    <title>Tu Voz Estéreo - Capitulo 0746</title>
+    <desc>Convencido de que la mentira lo ayudará a triunfar, Javier manipula a Patricia y sostiene un romance con la profesora Maritza. Cuando Patricia descubre la verdad y denuncia la relación al decano, el estudiante termina enfrentando las consecuencias de sus actos.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261024160000 -0300" stop="20261024170000 -0300" channel="0969">
+    <title>La Nocturna - Capitulo 055</title>
+    <desc>Amelia y Octavio se acercan cada vez más al trabajar juntos en el caso de Íngrid. Al mismo tiempo, Faber decide enfrentar a Kike por sus abusos, provocando nuevas consecuencias legales que afectan a todos los involucrados.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261024170000 -0300" stop="20261024180000 -0300" channel="0969">
+    <title>La Nocturna - Capitulo 056</title>
+    <desc>Íngrid lidera una marcha contra el maltrato hacia las mujeres que reúne a cientos de personas. Sin embargo, la situación se sale de control cuando una víctima de Kike toma justicia por sus manos, provocando graves consecuencias.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261024180000 -0300" stop="20261024190000 -0300" channel="0969">
+    <title>La Nocturna - Capitulo 057</title>
+    <desc>Tras los hechos que sacudieron a la comunidad universitaria, Kike acepta su responsabilidad y busca rehabilitarse. Íngrid logra cerrar ese capítulo de su vida, mientras Amelia, Octavio y Germán encuentran nuevas oportunidades para el amor.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261024190000 -0300" stop="20261024200000 -0300" channel="0969">
+    <title>La Nocturna - Capitulo 058</title>
+    <desc>La relación entre Amelia y Octavio avanza pese a los reclamos de José Hernando. Sin embargo, el exceso de esfuerzo y estrés le provoca un preinfarto tras una exitosa exposición académica, cambiando por completo sus prioridades y las de su familia.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261024200000 -0300" stop="20261024210000 -0300" channel="0969">
+    <title>Desafío 2016 - Capitulo 50</title>
+    <desc>Una exigente prueba física pondrá a prueba la fuerza y resistencia de los participantes. Solo los equipos más sólidos lograrán asegurar su permanencia, mientras los demás lucharán por evitar la eliminación.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261024210000 -0300" stop="20261024220000 -0300" channel="0969">
+    <title>Desafío 2016 - Capitulo 51</title>
+    <desc>Los competidores deberán demostrar precisión y rapidez en una prueba decisiva. Cada segundo cuenta en un desafío donde el equipo perdedor tendrá que enfrentar las consecuencias en el juicio de la competencia.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261024220000 -0300" stop="20261024230000 -0300" channel="0969">
+    <title>El Secretario - Capitulo 61</title>
+    <desc>Mario busca ayuda profesional para entender sus sentimientos y orientación. Mientras tanto, Antonia viaja con Emilio a Cartagena por asuntos de Copito, despertando los celos de Félix y la preocupación de quienes los rodean.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261024230000 -0300" stop="20261025000000 -0300" channel="0969">
+    <title>El Secretario - Capitulo 62</title>
+    <desc>Antonia descubre el video que confirma la infidelidad de Félix y encuentra consuelo en Emilio durante su viaje. Al mismo tiempo, Olguita, influenciada por los celos y el alcohol, termina su relación con Emilio sin imaginar las consecuencias.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261025000000 -0300" stop="20261025010000 -0300" channel="0969">
+    <title>El Secretario - Capitulo 63</title>
+    <desc>Devastada por la traición de Félix, Antonia se refugia en Emilio y termina reconociendo la fuerte atracción que siente por él. Mientras tanto, Mario vive nuevas experiencias personales y Olguita lamenta haber terminado impulsivamente su relación.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261025010000 -0300" stop="20261025020000 -0300" channel="0969">
+    <title>El Secretario - Capitulo 64</title>
+    <desc>Tras regresar del viaje, Emilio busca hablar de lo sucedido con Antonia, pero ella insiste en verlo como un error. Paralelamente, Olguita intenta recuperar la relación, mientras Emilio deja claro que sus sentimientos por ella son solo de amistad.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261025020000 -0300" stop="20261025030000 -0300" channel="0969">
+    <title>El Secretario - Capitulo 65</title>
+    <desc>Emilio confirma el final de su relación con Olguita. Antonia encara a Félix por el video con Yensi y él termina admitiendo la traición. Confundida por sus propios sentimientos, ella pide tiempo para decidir su futuro mientras Mario se ilusiona con Emilio.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261025030000 -0300" stop="20261025040000 -0300" channel="0969">
+    <title>La Mamá del 10 - Capitulo 65</title>
+    <desc>Carlos Alberto limpia el nombre de Tina y deja expuestas las acciones de Eugenia y Diana. Gustavo descubre que es estéril, descartando cualquier posibilidad de ser el padre del bebé de Leonor. Además, Víctor supera una prueba clave para acercarse al mundial.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261025040000 -0300" stop="20261025050000 -0300" channel="0969">
+    <title>La Mamá del 10 - Capitulo 66</title>
+    <desc>Tras conquistar el ascenso, Los Suricatos celebran una victoria histórica. Víctor brilla en una prueba definitiva y consigue un lugar en la nómina mundialista. Mientras tanto, Miguel Ángel lucha por recuperar a Yuya y varias cuentas pendientes comienzan a resolverse.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261025050000 -0300" stop="20261025060000 -0300" channel="0969">
+    <title>La Mamá del 10 - Capitulo 67 - Final</title>
+    <desc>Polita avanza en su recuperación, Guati encuentra un nuevo camino como diseñador y Víctor se prepara para el mundial. Finalmente, en Rusia, Tina y Juan Camilo se reconcilian, Leonor anuncia que espera gemelos y todos celebran sus logros alcanzados.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261025060000 -0300" stop="20261025070000 -0300" channel="0969">
+    <title>La saga, negocio de familia - Capitulo 001</title>
+    <desc>Tras una sangrienta incursión armada que deja varias víctimas, Tomás Manrique decide abandonar su tierra junto a Josefina y su hijo para empezar de nuevo en Bogotá. Sin embargo, la desaparición de Pedrito convierte su llegada en una angustiosa búsqueda.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261025070000 -0300" stop="20261025080000 -0300" channel="0969">
+    <title>La saga, negocio de familia - Capitulo 002</title>
+    <desc>Pascual roba los ahorros de los Manrique aprovechando su confianza, pero Tomás no se da por vencido y lo enfrenta. Tras una serie de conflictos, Pascual devuelve el dinero y confiesa su vida como ladrón. Juntos terminan enfrentando a peligrosos enemigos del pasado.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261025080000 -0300" stop="20261025090000 -0300" channel="0969">
+    <title>Desafío 2016 - Capitulo 50</title>
+    <desc>Una exigente prueba física pondrá a prueba la fuerza y resistencia de los participantes. Solo los equipos más sólidos lograrán asegurar su permanencia, mientras los demás lucharán por evitar la eliminación.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261025090000 -0300" stop="20261025100000 -0300" channel="0969">
+    <title>Desafío 2016 - Capitulo 51</title>
+    <desc>Los competidores deberán demostrar precisión y rapidez en una prueba decisiva. Cada segundo cuenta en un desafío donde el equipo perdedor tendrá que enfrentar las consecuencias en el juicio de la competencia.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261025100000 -0300" stop="20261025140000 -0300" channel="0969">
