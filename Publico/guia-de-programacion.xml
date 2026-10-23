@@ -4329,7 +4329,7 @@
   </programme>
   <programme start="20261023220000 -0300" stop="20261024000000 -0300" channel="0102">
     <title>Nuestro hermano idiota</title>
-    <desc>Ned no es precisamente el hombre perfecto. Recientemente ha salido de prisión tras cumplir una condena por venta de drogas a un policía. Ahora, se mudará a la casa de su madre, donde deberá recomponer su relación con sus tres hermanas: Miranda, quien está a punto de conseguir una gran oportunidad para desempeñarse como periodista; la homosexual Natalie, cuyas mentiras afectan la estabilidad con su responsable novia; y Liz, una mujer preocupada por ser la mamá perfecta y que descuida su matrimonio.</desc>
+    <desc>Cuenta la historia de Rudd, el hermano del título, un idealista que trata con su insoportable y controladora madre, la cual va circulando por la vida -y casas- de las ambiciosas hermanas del ya citado.</desc>
     <credits>
       <director>Jesse Peretz</director>
       <actor>Nick Sullivan</actor>
@@ -4360,7 +4360,7 @@
     <category>Cine</category>
     <category>Comedia</category>
     <country>EE. UU</country>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0102_fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/nuestrohermanoidiota.jpg" />
   </programme>
   <programme start="20261024000000 -0300" stop="20261024003000 -0300" channel="0102">
     <title>Pare de sufrir</title>
@@ -90961,6 +90961,7 @@ Andrés Gil</desc>
     <category>News</category>
     <category>Interview</category>
     <category>Politics</category>
+    <country>Reino Unido</country>
     <rating><value>TVPG</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/andersoncooper360.jpg" />
   </programme>
@@ -91285,6 +91286,7 @@ Andrés Gil</desc>
     <category>News</category>
     <category>Interview</category>
     <category>Politics</category>
+    <country>Reino Unido</country>
     <rating><value>TVPG</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/andersoncooper360.jpg" />
   </programme>
@@ -92461,6 +92463,7 @@ Andrés Gil</desc>
     <category>News</category>
     <category>Interview</category>
     <category>Politics</category>
+    <country>Reino Unido</country>
     <rating><value>TVPG</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/andersoncooper360.jpg" />
   </programme>
@@ -92785,6 +92788,7 @@ Andrés Gil</desc>
     <category>News</category>
     <category>Interview</category>
     <category>Politics</category>
+    <country>Reino Unido</country>
     <rating><value>TVPG</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/andersoncooper360.jpg" />
   </programme>
@@ -93109,6 +93113,7 @@ Andrés Gil</desc>
     <category>News</category>
     <category>Interview</category>
     <category>Politics</category>
+    <country>Reino Unido</country>
     <rating><value>TVPG</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/andersoncooper360.jpg" />
   </programme>
@@ -96980,6 +96985,9 @@ Andrés Gil</desc>
   <programme start="20261022143000 -0300" stop="20261022150000 -0300" channel="0219">
     <title>Core Kyoto</title>
     <desc>La antigua capital, Kioto, sigue siendo innovadora después de más de mil doscientos años. En este espacio nos sumergimos profundamente en su núcleo.</desc>
+    <credits>
+      <actor>Gary Tegler</actor>
+    </credits>
     <date>2013</date>
     <category>Documental</category>
     <country>Japón</country>
@@ -97098,6 +97106,9 @@ Andrés Gil</desc>
   <programme start="20261022193000 -0300" stop="20261022200000 -0300" channel="0219">
     <title>Core Kyoto</title>
     <desc>La antigua capital, Kioto, sigue siendo innovadora después de más de mil doscientos años. En este espacio nos sumergimos profundamente en su núcleo.</desc>
+    <credits>
+      <actor>Gary Tegler</actor>
+    </credits>
     <date>2013</date>
     <category>Documental</category>
     <country>Japón</country>
@@ -121185,8 +121196,16 @@ Andrés Gil</desc>
   <programme start="20261025153000 -0300" stop="20261025180000 -0300" channel="0301">
     <title>Maratón</title>
     <desc>El aclamado director español Carlos Saura ha creado un documental con una estructura tan poco convencional como los edificios de Gaudí que embellecen la ciudad anfitriona, Barcelona. La cobertura del maratón masculino aparece intermitentemente a lo largo de la narración, consagrando así el evento más emblemático de los Juegos. Se rinde homenaje a todos los carismáticos ganadores, desde el campeón de los 400 metros, Michael Johnson, hasta el levantador de pesas Ivan Ivanov, pero Saura observa los rigurosos entrenamientos con la misma pasión que las propias finales. Compositores como Ryuichi Sakamato, Mikis Theodorakis y Angelo Badalamenti contribuyen a la cambiante atmósfera de esta excelente película.</desc>
+    <credits>
+      <director>Carlos Sierra</director>
+      <actor>Vania Sisai Rodsan</actor>
+      <actor>Carlos Pelayo</actor>
+      <actor>Carlos Vidal</actor>
+      <actor>Ysaín Dávila</actor>
+    </credits>
     <date>2022</date>
     <category>Entretenimiento</category>
+    <country>México</country>
     <rating><value>TE</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/maraton.jpg" />
   </programme>
@@ -239949,6 +239968,8 @@ Esta secuela ignora por completo los fillers (Capítulos y conceptos inventados 
     <sub-title>Niñera de dragones - Parte 1</sub-title>
     <desc>Niñera de dragones - Parte 1 | Mientras Polly y su familia se preparan para abrir un nuevo centro de adopción de mascotas, Polly descubre un mítico y travieso conejito-dragón al que jura cuidar ella sola.</desc>
     <credits>
+      <director>Brent Bouchard</director>
+      <director>Jon Izen</director>
       <actor>Emily Tennant</actor>
       <actor>Patricia Drake</actor>
       <actor>Rhona Rees</actor>
@@ -240758,6 +240779,8 @@ Esta secuela ignora por completo los fillers (Capítulos y conceptos inventados 
     <sub-title>Máquina bailarina</sub-title>
     <desc>Máquina bailarina | Ansiosa por conseguir nuevos miembros para su Club de Robótica, Shani crea una mascota robot bailarina para la Feria de Clubes, lo que lleva al desastre cuando la programación de su robot se sobrecarga.</desc>
     <credits>
+      <director>Brent Bouchard</director>
+      <director>Jon Izen</director>
       <actor>Emily Tennant</actor>
       <actor>Patricia Drake</actor>
       <actor>Rhona Rees</actor>
@@ -241868,6 +241891,8 @@ Esta secuela ignora por completo los fillers (Capítulos y conceptos inventados 
     <sub-title>Niñera de dragones - Parte 2</sub-title>
     <desc>Niñera de dragones - Parte 2 | Criar sola a la traviesa criatura lleva al caos y el conejito-dragón escapa. Polly se da cuenta de que está bien pedir ayuda a su familia y amigos.</desc>
     <credits>
+      <director>Brent Bouchard</director>
+      <director>Jon Izen</director>
       <actor>Emily Tennant</actor>
       <actor>Patricia Drake</actor>
       <actor>Rhona Rees</actor>
@@ -246469,6 +246494,8 @@ Esta secuela ignora por completo los fillers (Capítulos y conceptos inventados 
     <sub-title>Castillos y unicornios</sub-title>
     <desc>Castillos y unicornios | Polly y sus amigos descubren que el juego de mesa favorito de Nic es real dentro de un Mundo Pocket. Es el turno de Nic de dirigir una misión.</desc>
     <credits>
+      <director>Brent Bouchard</director>
+      <director>Jon Izen</director>
       <actor>Emily Tennant</actor>
       <actor>Shannon Chan-Kent</actor>
       <actor>Kazumi Evans</actor>
@@ -247353,6 +247380,8 @@ Esta secuela ignora por completo los fillers (Capítulos y conceptos inventados 
     <sub-title>Hadas acuáticas</sub-title>
     <desc>Hadas acuáticas | El día de diversión de Polly y sus amigos en el nuevo parque acuático se ve estropeado por un hada acuática que no puede usar su magia.</desc>
     <credits>
+      <director>Brent Bouchard</director>
+      <director>Jon Izen</director>
       <actor>Emily Tennant</actor>
       <actor>Shannon Chan-Kent</actor>
       <actor>Kazumi Evans</actor>
@@ -248465,6 +248494,8 @@ Esta secuela ignora por completo los fillers (Capítulos y conceptos inventados 
     <sub-title>Hadas acuáticas</sub-title>
     <desc>Hadas acuáticas | El día de diversión de Polly y sus amigos en el nuevo parque acuático se ve estropeado por un hada acuática que no puede usar su magia.</desc>
     <credits>
+      <director>Brent Bouchard</director>
+      <director>Jon Izen</director>
       <actor>Emily Tennant</actor>
       <actor>Shannon Chan-Kent</actor>
       <actor>Kazumi Evans</actor>
@@ -252817,6 +252848,8 @@ Esta secuela ignora por completo los fillers (Capítulos y conceptos inventados 
     <sub-title>Amigos peludos</sub-title>
     <desc>Amigos peludos | Bella quiere encontrar un regalo especial para el cumpleaños de Apple, pero aprenderá que no se trata de las cosas que recibe, sino del tiempo que comparten juntas.</desc>
     <credits>
+      <director>Brent Bouchard</director>
+      <director>Jon Izen</director>
       <actor>Emily Tennant</actor>
       <actor>Shannon Chan-Kent</actor>
       <actor>Kazumi Evans</actor>
@@ -254009,6 +254042,8 @@ Esta secuela ignora por completo los fillers (Capítulos y conceptos inventados 
     <sub-title>Amigos peludos</sub-title>
     <desc>Amigos peludos | Bella quiere encontrar un regalo especial para el cumpleaños de Apple, pero aprenderá que no se trata de las cosas que recibe, sino del tiempo que comparten juntas.</desc>
     <credits>
+      <director>Brent Bouchard</director>
+      <director>Jon Izen</director>
       <actor>Emily Tennant</actor>
       <actor>Shannon Chan-Kent</actor>
       <actor>Kazumi Evans</actor>
@@ -254839,6 +254874,8 @@ Esta secuela ignora por completo los fillers (Capítulos y conceptos inventados 
     <sub-title>Niñera koala</sub-title>
     <desc>Niñera koala | Entretener a sus hermanos gemelos en el parque es más difícil de lo que Lila pensaba, pero encontrarlos cuando los niños desaparecen accidentalmente es aún más difícil.</desc>
     <credits>
+      <director>Brent Bouchard</director>
+      <director>Jon Izen</director>
       <actor>Emily Tennant</actor>
       <actor>Shannon Chan-Kent</actor>
       <actor>Kazumi Evans</actor>
@@ -256075,6 +256112,8 @@ Esta secuela ignora por completo los fillers (Capítulos y conceptos inventados 
     <sub-title>Niñera koala</sub-title>
     <desc>Niñera koala | Entretener a sus hermanos gemelos en el parque es más difícil de lo que Lila pensaba, pero encontrarlos cuando los niños desaparecen accidentalmente es aún más difícil.</desc>
     <credits>
+      <director>Brent Bouchard</director>
+      <director>Jon Izen</director>
       <actor>Emily Tennant</actor>
       <actor>Shannon Chan-Kent</actor>
       <actor>Kazumi Evans</actor>
@@ -256966,6 +257005,8 @@ Esta secuela ignora por completo los fillers (Capítulos y conceptos inventados 
     <sub-title>Entrega pendiente</sub-title>
     <desc>Entrega pendiente | Polly está emocionada por darle a Richard un regalo perfecto, pero el paquete se retrasa. Polly, Shani y Lila descubren que el servicio de entrega está dirigido por unos adorables pájaros.</desc>
     <credits>
+      <director>Brent Bouchard</director>
+      <director>Jon Izen</director>
       <actor>Emily Tennant</actor>
       <actor>Shannon Chan-Kent</actor>
       <actor>Kazumi Evans</actor>
@@ -258237,6 +258278,8 @@ Esta secuela ignora por completo los fillers (Capítulos y conceptos inventados 
     <sub-title>Entrega pendiente</sub-title>
     <desc>Entrega pendiente | Polly está emocionada por darle a Richard un regalo perfecto, pero el paquete se retrasa. Polly, Shani y Lila descubren que el servicio de entrega está dirigido por unos adorables pájaros.</desc>
     <credits>
+      <director>Brent Bouchard</director>
+      <director>Jon Izen</director>
       <actor>Emily Tennant</actor>
       <actor>Shannon Chan-Kent</actor>
       <actor>Kazumi Evans</actor>
@@ -309848,7 +309891,7 @@ Esta secuela ignora por completo los fillers (Capítulos y conceptos inventados 
   <programme start="20261023220000 -0300" stop="20261024000000 -0300" channel="0429">
     <title>Fútbol Colombiano Primera División • Junior vs Águilas Doradas</title>
     <sub-title>Junior vs. Águilas Doradas</sub-title>
-    <desc>Junior vs Águilas Doradas | Desde el estadio Metropolitano Roberto Meléndez, en Barranquilla, Colombia.</desc>
+    <desc>Junior vs Águilas Doradas | Jornada 16 del Torneo Clausura 2026 de la Categoría Primera A. Junior se enfrenta a Águilas Doradas. Desde el Estadio Metropolitano Roberto Meléndez, en Barranquilla.</desc>
     <date>2026</date>
     <category>Fútbol</category>
     <rating><value>TE</value></rating>
@@ -309882,7 +309925,7 @@ Esta secuela ignora por completo los fillers (Capítulos y conceptos inventados 
   <programme start="20261024030000 -0300" stop="20261024050000 -0300" channel="0429">
     <title>Fútbol Colombiano Primera División • Junior vs Águilas Doradas</title>
     <sub-title>Junior vs. Águilas Doradas</sub-title>
-    <desc>Junior vs Águilas Doradas | Desde el estadio Metropolitano Roberto Meléndez, en Barranquilla, Colombia.</desc>
+    <desc>Junior vs Águilas Doradas | Jornada 16 del Torneo Clausura 2026 de la Categoría Primera A. Junior se enfrenta a Águilas Doradas. Desde el Estadio Metropolitano Roberto Meléndez, en Barranquilla.</desc>
     <date>2026</date>
     <category>Fútbol</category>
     <rating><value>TE</value></rating>
@@ -309909,7 +309952,7 @@ Esta secuela ignora por completo los fillers (Capítulos y conceptos inventados 
   <programme start="20261024090000 -0300" stop="20261024110000 -0300" channel="0429">
     <title>Fútbol Colombiano Primera División • Junior vs Águilas Doradas</title>
     <sub-title>Junior vs. Águilas Doradas</sub-title>
-    <desc>Junior vs Águilas Doradas | Desde el estadio Metropolitano Roberto Meléndez, en Barranquilla, Colombia.</desc>
+    <desc>Junior vs Águilas Doradas | Jornada 16 del Torneo Clausura 2026 de la Categoría Primera A. Junior se enfrenta a Águilas Doradas. Desde el Estadio Metropolitano Roberto Meléndez, en Barranquilla.</desc>
     <date>2026</date>
     <category>Fútbol</category>
     <rating><value>TE</value></rating>
@@ -310513,6 +310556,141 @@ Esta secuela ignora por completo los fillers (Capítulos y conceptos inventados 
     <rating><value>TE</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/ultimajugada.jpg" />
   </programme>
+  <programme start="20261029000000 -0300" stop="20261029020000 -0300" channel="0429">
+    <title>El Chiringuito de Jugones</title>
+    <desc>Programación deportiva que abarca toda la información reciente acerca de los equipos de fútbol español.</desc>
+    <credits>
+      <director>Josep Pedrerol</director>
+    </credits>
+    <date>2014</date>
+    <category>Deportes</category>
+    <category>Entretenimiento</category>
+    <rating><value>18</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/elchiringuitodejugones.jpg" />
+  </programme>
+  <programme start="20261029020000 -0300" stop="20261029030000 -0300" channel="0429">
+    <title>Saque largo</title>
+    <desc>Una forma diferente de ver y vivir el fútbol, con debate y análisis sobre lo que pasa a nivel nacional e internacional.</desc>
+    <date>2014</date>
+    <category>Fútbol</category>
+    <rating><value>+15</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/saquelargo.jpg" />
+  </programme>
+  <programme start="20261029030000 -0300" stop="20261029050000 -0300" channel="0429">
+    <title>Fútbol Copa Colombia</title>
+    <desc>Cobertura del torneo que une a la Primera A y la B de Colombia por un cupo a la CONMEBOL Copa Sudamericana.</desc>
+    <date>2013</date>
+    <category>Fútbol</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbolcopacolombia.jpg" />
+  </programme>
+  <programme start="20261029050000 -0300" stop="20261029060000 -0300" channel="0429">
+    <title>Score Mundial</title>
+    <desc>Programa especializado en fútbol internacional con resúmenes de las principales ligas europeas, como la Liga Española, francesa, alemana, italiana e inglesa. Con especial atención al desempeño de los jugadores colombianos.</desc>
+    <date>2017</date>
+    <category>Series</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/scoremundial.jpg" />
+  </programme>
+  <programme start="20261029060000 -0300" stop="20261029070000 -0300" channel="0429">
+    <title>Última jugada</title>
+    <desc>En el mundo del billar, Johnny (Mars Callahan) podría ser uno de los mejores, pero vive sometido a Joe (Chazz Palminteri), un oscuro personaje que decide cómo y con quién debe jugar. Finalmente Johnny rompe sus relaciones con Joe y, presionado por su novia (Alison Eastwood), empieza a trabajar. Joe, resentido, intenta vengarse y encuentra un nuevo protegido, Brad (Rick Schroder), tan bueno o mejor que Johnny. (FILMAFFINITY)</desc>
+    <date>2022</date>
+    <category>Fútbol</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/ultimajugada.jpg" />
+  </programme>
+  <programme start="20261029070000 -0300" stop="20261029080000 -0300" channel="0429">
+    <title>Saque largo</title>
+    <desc>Una forma diferente de ver y vivir el fútbol, con debate y análisis sobre lo que pasa a nivel nacional e internacional.</desc>
+    <date>2014</date>
+    <category>Fútbol</category>
+    <rating><value>+15</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/saquelargo.jpg" />
+  </programme>
+  <programme start="20261029080000 -0300" stop="20261029090000 -0300" channel="0429">
+    <title>Score Mundial</title>
+    <desc>Programa especializado en fútbol internacional con resúmenes de las principales ligas europeas, como la Liga Española, francesa, alemana, italiana e inglesa. Con especial atención al desempeño de los jugadores colombianos.</desc>
+    <date>2017</date>
+    <category>Series</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/scoremundial.jpg" />
+  </programme>
+  <programme start="20261029090000 -0300" stop="20261029100000 -0300" channel="0429">
+    <title>Última jugada</title>
+    <desc>En el mundo del billar, Johnny (Mars Callahan) podría ser uno de los mejores, pero vive sometido a Joe (Chazz Palminteri), un oscuro personaje que decide cómo y con quién debe jugar. Finalmente Johnny rompe sus relaciones con Joe y, presionado por su novia (Alison Eastwood), empieza a trabajar. Joe, resentido, intenta vengarse y encuentra un nuevo protegido, Brad (Rick Schroder), tan bueno o mejor que Johnny. (FILMAFFINITY)</desc>
+    <date>2022</date>
+    <category>Fútbol</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/ultimajugada.jpg" />
+  </programme>
+  <programme start="20261029100000 -0300" stop="20261029130000 -0300" channel="0429">
+    <title>Primer toque</title>
+    <desc>Las noticias deportivas más relevantes del día y mucho más. Fútbol, actualidad, variedades, política, cultura, economía y otros deportes.</desc>
+    <date>2020</date>
+    <category>Fútbol</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/primertoque.jpg" />
+  </programme>
+  <programme start="20261029130000 -0300" stop="20261029143000 -0300" channel="0429">
+    <title>Win Noticias Emisión Central</title>
+    <desc>Completo recorrido informativo por los hechos más relevantes del deporte nacional e internacional con interacción en las ciudades principales del país y las noticias más destacadas del mundo.</desc>
+    <date>2022</date>
+    <category>Deportes</category>
+    <rating><value>+15</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/winnoticiasemisioncentral.jpg" />
+  </programme>
+  <programme start="20261029143000 -0300" stop="20261029163000 -0300" channel="0429">
+    <title>Fútbol Colombiano Primera División</title>
+    <desc>La mejor cobertura de los encuentros correspondientes a la Liga Colombiana de fútbol.</desc>
+    <date>2010</date>
+    <category>Fútbol</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbolcolombianoprimeradivision.jpg" />
+  </programme>
+  <programme start="20261029163000 -0300" stop="20261029180000 -0300" channel="0429">
+    <title>Win Noticias Emisión Central</title>
+    <desc>Completo recorrido informativo por los hechos más relevantes del deporte nacional e internacional con interacción en las ciudades principales del país y las noticias más destacadas del mundo.</desc>
+    <date>2022</date>
+    <category>Deportes</category>
+    <rating><value>+15</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/winnoticiasemisioncentral.jpg" />
+  </programme>
+  <programme start="20261029180000 -0300" stop="20261029200000 -0300" channel="0429">
+    <title>Saque largo</title>
+    <desc>Una forma diferente de ver y vivir el fútbol, con debate y análisis sobre lo que pasa a nivel nacional e internacional.</desc>
+    <date>2014</date>
+    <category>Fútbol</category>
+    <rating><value>+15</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/saquelargo.jpg" />
+  </programme>
+  <programme start="20261029200000 -0300" stop="20261029213000 -0300" channel="0429">
+    <title>Conexión deportes</title>
+    <desc>Programa de opinión y debate sobre los hechos más destacados en el deporte colombiano e internacional.</desc>
+    <credits>
+      <actor>Tito Puccetti</actor>
+    </credits>
+    <date>2014</date>
+    <category>Deportes</category>
+    <rating><value>+15</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/conexiondeportes.jpg" />
+  </programme>
+  <programme start="20261029213000 -0300" stop="20261029220000 -0300" channel="0429">
+    <title>Fútbol: Previa</title>
+    <desc>Reportajes, análisis y comentarios previo al gran evento deportivo.</desc>
+    <date>2003</date>
+    <category>Fútbol</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbolprevia.jpg" />
+  </programme>
+  <programme start="20261029220000 -0300" stop="20261029230000 -0300" channel="0429">
+    <title>Juego al aire</title>
+    <desc>Otra forma de escuchar, ver y sentir el fútbol colombiano. Narración detallada, cámaras con otro punto de vista, estadísticas e información para disfrutar un partido y las reacciones durante el encuentro en otra dimensión.</desc>
+    <date>2022</date>
+    <category>Fútbol</category>
+    <rating><value>+15</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
   <programme start="20261022130000 -0300" stop="20261022150000 -0300" channel="0430">
     <title>Fútbol Colombiano Primera División • Independiente Santa Fe vs Jaguares</title>
     <sub-title>Independiente Santa Fe vs. Jaguares</sub-title>
@@ -310721,7 +310899,7 @@ Esta secuela ignora por completo los fillers (Capítulos y conceptos inventados 
   <programme start="20261023220000 -0300" stop="20261024000000 -0300" channel="0430">
     <title>Fútbol Colombiano Primera División • Junior vs Águilas Doradas</title>
     <sub-title>Junior vs. Águilas Doradas</sub-title>
-    <desc>Junior vs Águilas Doradas | Desde el estadio Metropolitano Roberto Meléndez, en Barranquilla, Colombia.</desc>
+    <desc>Junior vs Águilas Doradas | Jornada 16 del Torneo Clausura 2026 de la Categoría Primera A. Junior se enfrenta a Águilas Doradas. Desde el Estadio Metropolitano Roberto Meléndez, en Barranquilla.</desc>
     <date>2026</date>
     <category>Fútbol</category>
     <rating><value>TE</value></rating>
@@ -310806,7 +310984,7 @@ Esta secuela ignora por completo los fillers (Capítulos y conceptos inventados 
   <programme start="20261024123000 -0300" stop="20261024143000 -0300" channel="0430">
     <title>Fútbol Colombiano Primera División • Junior vs Águilas Doradas</title>
     <sub-title>Junior vs. Águilas Doradas</sub-title>
-    <desc>Junior vs Águilas Doradas | Desde el estadio Metropolitano Roberto Meléndez, en Barranquilla, Colombia.</desc>
+    <desc>Junior vs Águilas Doradas | Jornada 16 del Torneo Clausura 2026 de la Categoría Primera A. Junior se enfrenta a Águilas Doradas. Desde el Estadio Metropolitano Roberto Meléndez, en Barranquilla.</desc>
     <date>2026</date>
     <category>Fútbol</category>
     <rating><value>TE</value></rating>
@@ -311392,13 +311570,141 @@ Esta secuela ignora por completo los fillers (Capítulos y conceptos inventados 
     <rating><value>TE</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/winnoticias.jpg" />
   </programme>
-  <programme start="20261028233000 -0300" stop="20261029003000 -0300" channel="0430">
+  <programme start="20261028233000 -0300" stop="20261029013000 -0300" channel="0430">
     <title>Fútbol Copa Italia</title>
     <desc>La competición de fútbol de Italia en la que participan los equipos de la Serie A y de la Serie B.</desc>
     <date>2012</date>
     <category>Fútbol</category>
     <rating><value>TE</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbolcopaitalia.jpg" />
+  </programme>
+  <programme start="20261029013000 -0300" stop="20261029023000 -0300" channel="0430">
+    <title>Especiales Win Sports</title>
+    <desc>Programas especiales de Win Sports, con lo mejor del deporte.</desc>
+    <date>2017</date>
+    <category>Fútbol</category>
+    <rating><value>18</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261029023000 -0300" stop="20261029043000 -0300" channel="0430">
+    <title>Fútbol Colombiano Primera División</title>
+    <desc>Toda la emoción, la acción y los goles, con el recuerdo de los mejores partidos de la Primera División del fútbol colombiano.</desc>
+    <date>2016</date>
+    <category>Fútbol</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbolcolombianoprimeradivision.jpg" />
+  </programme>
+  <programme start="20261029043000 -0300" stop="20261029063000 -0300" channel="0430">
+    <title>Los disruptivos</title>
+    <desc>Reacciones a los encuentros del Fútbol Profesional Colombiano de una manera original.</desc>
+    <date>2024</date>
+    <category>Deportes</category>
+    <rating><value>+15</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/losdisruptivos.jpg" />
+  </programme>
+  <programme start="20261029063000 -0300" stop="20261029070000 -0300" channel="0430">
+    <title>Campañas</title>
+    <desc>Un programa que recuerda aquellas temporadas exitosas y muestra el camino que recorrieron equipos, jugadores y entrenadores emblemáticos del fútbol colombiano que dejaron una huella y llenan de orgullo a cada una de sus hinchadas.</desc>
+    <date>2019</date>
+    <category>Fútbol</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/campanas.jpg" />
+  </programme>
+  <programme start="20261029070000 -0300" stop="20261029090000 -0300" channel="0430">
+    <title>Fútbol Colombiano Primera División</title>
+    <desc>Toda la emoción, la acción y los goles, con el recuerdo de los mejores partidos de la Primera División del fútbol colombiano.</desc>
+    <date>2016</date>
+    <category>Fútbol</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbolcolombianoprimeradivision.jpg" />
+  </programme>
+  <programme start="20261029090000 -0300" stop="20261029100000 -0300" channel="0430">
+    <title>WIN Noticias</title>
+    <desc>La más completa información y todas las novedades del mundo deportivo nacional e internacional. Además, se tiene la más amplia cobertura de los deportistas colombianos en todo el mundo.</desc>
+    <date>2014</date>
+    <category>Reportaje</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/winnoticias.jpg" />
+  </programme>
+  <programme start="20261029100000 -0300" stop="20261029103000 -0300" channel="0430">
+    <title>Campañas</title>
+    <desc>Un programa que recuerda aquellas temporadas exitosas y muestra el camino que recorrieron equipos, jugadores y entrenadores emblemáticos del fútbol colombiano que dejaron una huella y llenan de orgullo a cada una de sus hinchadas.</desc>
+    <date>2019</date>
+    <category>Fútbol</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/campanas.jpg" />
+  </programme>
+  <programme start="20261029103000 -0300" stop="20261029123000 -0300" channel="0430">
+    <title>Fútbol Copa Italia</title>
+    <desc>La competición de fútbol de Italia en la que participan los equipos de la Serie A y de la Serie B.</desc>
+    <date>2012</date>
+    <category>Fútbol</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbolcopaitalia.jpg" />
+  </programme>
+  <programme start="20261029123000 -0300" stop="20261029133000 -0300" channel="0430">
+    <title>De colección</title>
+    <desc>Los momentos más sobresalientes de fútbol colombiano recopilados en diferentes instantes que pasaron a la historia.</desc>
+    <date>2023</date>
+    <category>Fútbol</category>
+    <rating><value>+15</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/decoleccion.jpg" />
+  </programme>
+  <programme start="20261029133000 -0300" stop="20261029140000 -0300" channel="0430">
+    <title>Fútbol: Previa</title>
+    <desc>Reportajes, análisis y comentarios previo al gran evento deportivo.</desc>
+    <date>2003</date>
+    <category>Fútbol</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbolprevia.jpg" />
+  </programme>
+  <programme start="20261029140000 -0300" stop="20261029160000 -0300" channel="0430">
+    <title>Fútbol Saudi Pro League</title>
+    <desc>La mejor cobertura del campeonato árabe de fútbol de Primera División.</desc>
+    <date>2009</date>
+    <category>Fútbol</category>
+    <rating><value>+15</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261029160000 -0300" stop="20261029170000 -0300" channel="0430">
+    <title>Detrás de la gloria</title>
+    <desc>El camino para ser campeón del fútbol colombiano nunca ha sido fácil. Una muestra de todo lo que los equipos viven dentro y fuera de sus planteles para levantar la copa y llenarse de Gloria.</desc>
+    <date>2020</date>
+    <category>Deportes</category>
+    <rating><value>+15</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/detrasdelagloria.jpg" />
+  </programme>
+  <programme start="20261029170000 -0300" stop="20261029190000 -0300" channel="0430">
+    <title>Fútbol Superliga de Colombia</title>
+    <desc>Acción de la Superliga de Colombia, torneo que enfrenta a los campeones de la temporada en el fútbol de este país.</desc>
+    <date>2018</date>
+    <category>Fútbol</category>
+    <rating><value>+15</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261029190000 -0300" stop="20261029193000 -0300" channel="0430">
+    <title>Campañas</title>
+    <desc>Un programa que recuerda aquellas temporadas exitosas y muestra el camino que recorrieron equipos, jugadores y entrenadores emblemáticos del fútbol colombiano que dejaron una huella y llenan de orgullo a cada una de sus hinchadas.</desc>
+    <date>2019</date>
+    <category>Fútbol</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/campanas.jpg" />
+  </programme>
+  <programme start="20261029193000 -0300" stop="20261029213000 -0300" channel="0430">
+    <title>Fútbol: Previa</title>
+    <desc>Reportajes, análisis y comentarios previo al gran evento deportivo.</desc>
+    <date>2003</date>
+    <category>Fútbol</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbolprevia.jpg" />
+  </programme>
+  <programme start="20261029213000 -0300" stop="20261029223000 -0300" channel="0430">
+    <title>Fútbol Superliga de Colombia</title>
+    <desc>Acción de la Superliga de Colombia, torneo que enfrenta a los campeones de la temporada en el fútbol de este país.</desc>
+    <date>2018</date>
+    <category>Fútbol</category>
+    <rating><value>+15</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261022130000 -0300" stop="20261022143000 -0300" channel="0431">
     <title>[En vivo] De fútbol se habla así</title>
@@ -325641,20 +325947,26 @@ Esta secuela ignora por completo los fillers (Capítulos y conceptos inventados 
   <programme start="20261023101500 -0300" stop="20261023123000 -0300" channel="0440">
     <title>Fútbol Saudi Pro League</title>
     <desc>La mejor cobertura del campeonato árabe de fútbol de Primera División.</desc>
+    <date>2009</date>
     <category>Soccer</category>
+    <rating><value>+15</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261023123000 -0300" stop="20261023143000 -0300" channel="0440">
     <title>Fútbol Saudi Pro League • Al Ittihad vs Diriyah Club</title>
     <sub-title>Al Ittihad vs. Diriyah Club</sub-title>
     <desc>Al Ittihad vs Diriyah Club | Jornada 11 de la Liga Profesional Saudí 2026-27. Al Ittihad se enfrenta a Diriyah Club. Desde el Estadio Alinma, en Yeda.</desc>
+    <date>2009</date>
     <category>Soccer</category>
+    <rating><value>+15</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261023143000 -0300" stop="20261023170000 -0300" channel="0440">
     <title>Fútbol Saudi Pro League</title>
     <desc>La mejor cobertura del campeonato árabe de fútbol de Primera División.</desc>
+    <date>2009</date>
     <category>Soccer</category>
+    <rating><value>+15</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261023170000 -0300" stop="20261023180000 -0300" channel="0440">
@@ -407719,6 +408031,7 @@ El cambio climático y la pérdida de biodiversidad exigen una nueva forma de ec
     <category>Talk</category>
     <category>Variety</category>
     <category>Newsmagazine</category>
+    <country>Estados Unidos</country>
     <rating><value>TV14</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/despiertaamerica.jpg" />
   </programme>
@@ -409034,6 +409347,7 @@ El cambio climático y la pérdida de biodiversidad exigen una nueva forma de ec
     <category>Talk</category>
     <category>Variety</category>
     <category>Newsmagazine</category>
+    <country>Estados Unidos</country>
     <rating><value>TV14</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/despiertaamerica.jpg" />
   </programme>
@@ -409587,6 +409901,7 @@ El cambio climático y la pérdida de biodiversidad exigen una nueva forma de ec
     <category>Talk</category>
     <category>Variety</category>
     <category>Newsmagazine</category>
+    <country>Estados Unidos</country>
     <rating><value>TV14</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/despiertaamerica.jpg" />
   </programme>
@@ -410166,6 +410481,7 @@ El cambio climático y la pérdida de biodiversidad exigen una nueva forma de ec
     <category>Talk</category>
     <category>Variety</category>
     <category>Newsmagazine</category>
+    <country>Estados Unidos</country>
     <rating><value>TV14</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/despiertaamerica.jpg" />
   </programme>
@@ -421310,6 +421626,7 @@ Y mientras la vida de Iñaki transcurre plácidamente, un día se ve obligado a 
     <date>2023</date>
     <category>Movie</category>
     <category>Crime drama</category>
+    <country>España</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/expiacion.jpg" />
   </programme>
   <programme start="20261026125500 -0300" stop="20261026144500 -0300" channel="0621">
@@ -444718,7 +445035,7 @@ Ernesto Andrés Fuenmayor y Tamara Rivera Castro serán los YouTubers que analic
   </programme>
   <programme start="20261022224500 -0300" stop="20261023023000 -0300" channel="0636">
     <title>El perro andaluz by Manu Sánchez</title>
-    <desc>T2 E7 | En este programa conviven la entrevista, la improvisación, la música en directo y la actualidad. Cada entrega construye un universo propio en el que el humor funciona como punto de encuentro y como herramienta para mirar la realidad desde la sátira y la crítica social.</desc>
+    <desc>T2 E7 | El perro andaluz by Manu Sánchez&#x27; nace como un late night en teatro y con público donde convivirán la entrevista, la improvisación, la música en directo y la actualidad. Cada entrega construirá un universo propio en el que el humor funcionará como punto de encuentro y como herramienta para mirar la realidad desde la sátira y la crítica social.</desc>
     <credits>
       <director>Manu Sánchez</director>
       <director>Rafael Lopez</director>
@@ -444731,6 +445048,7 @@ Ernesto Andrés Fuenmayor y Tamara Rivera Castro serán los YouTubers que analic
     <date>2026</date>
     <category>Comedy</category>
     <category>Talk</category>
+    <country>España</country>
     <episode-num system="onscreen">T2 E7</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/elperroandaluzbymanusanchez.jpg" />
   </programme>
@@ -445047,7 +445365,7 @@ Ernesto Andrés Fuenmayor y Tamara Rivera Castro serán los YouTubers que analic
   </programme>
   <programme start="20261024001500 -0300" stop="20261024021000 -0300" channel="0636">
     <title>El perro andaluz by Manu Sánchez</title>
-    <desc>En este programa conviven la entrevista, la improvisación, la música en directo y la actualidad. Cada entrega construye un universo propio en el que el humor funciona como punto de encuentro y como herramienta para mirar la realidad desde la sátira y la crítica social.</desc>
+    <desc>El perro andaluz by Manu Sánchez&#x27; nace como un late night en teatro y con público donde convivirán la entrevista, la improvisación, la música en directo y la actualidad. Cada entrega construirá un universo propio en el que el humor funcionará como punto de encuentro y como herramienta para mirar la realidad desde la sátira y la crítica social.</desc>
     <credits>
       <director>Manu Sánchez</director>
       <director>Rafael Lopez</director>
@@ -445060,6 +445378,7 @@ Ernesto Andrés Fuenmayor y Tamara Rivera Castro serán los YouTubers que analic
     <date>2026</date>
     <category>Comedy</category>
     <category>Talk</category>
+    <country>España</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/elperroandaluzbymanusanchez.jpg" />
   </programme>
   <programme start="20261024021000 -0300" stop="20261024030000 -0300" channel="0636">
@@ -514122,13 +514441,14 @@ Hank en su nueva vida tendrá como acompañantes a su hermano, quien ve tener un
     <date>2024</date>
     <category>Drama</category>
     <category>Crime drama</category>
+    <country>Estados Unidos</country>
     <episode-num system="onscreen">T1 E9</episode-num>
     <rating><value>TV14</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/tracker.jpg" />
   </programme>
   <programme start="20261022174400 -0300" stop="20261022190000 -0300" channel="1801">
     <title>Tracker</title>
-    <desc>T1 E10 | Colter viaja al desierto de Idaho para localizar a los hijos adultos desaparecidos del propietario de una empresa de equipamiento aéreo y a los amigos del padre de Reenie, que fueron vistos por última vez en un avión.</desc>
+    <desc>T1 E10 | Colter Shaw recorre el país en su vieja autocaravana para ayudar a la policía y a ciudadanos particulares a resolver crímenes y localizar a personas desaparecidas, hasta que su último caso lo cambia todo.</desc>
     <credits>
       <director>Larry Teng</director>
       <actor>Justin Hartley</actor>
@@ -514141,9 +514461,10 @@ Hank en su nueva vida tendrá como acompañantes a su hermano, quien ve tener un
     <date>2024</date>
     <category>Drama</category>
     <category>Crime drama</category>
+    <country>Estados Unidos</country>
     <episode-num system="onscreen">T1 E10</episode-num>
     <rating><value>TV14</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/tracker.jpg" />
   </programme>
   <programme start="20261022190000 -0300" stop="20261022201400 -0300" channel="1801">
     <title>High Potential • Once minutos</title>
@@ -514215,9 +514536,10 @@ Hank en su nueva vida tendrá como acompañantes a su hermano, quien ve tener un
     <date>2024</date>
     <category>Drama</category>
     <category>Crime drama</category>
+    <country>Estados Unidos</country>
     <episode-num system="onscreen">T1 E9</episode-num>
     <rating><value>TV14</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/tracker.jpg" />
   </programme>
   <programme start="20261022220100 -0300" stop="20261022224600 -0300" channel="1801">
     <title>Bull • Un lugar seguro</title>
@@ -516666,9 +516988,10 @@ Hank en su nueva vida tendrá como acompañantes a su hermano, quien ve tener un
     <date>2024</date>
     <category>Drama</category>
     <category>Crime drama</category>
+    <country>Estados Unidos</country>
     <episode-num system="onscreen">T1 E11</episode-num>
     <rating><value>TV14</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/tracker.jpg" />
   </programme>
   <programme start="20261026180400 -0300" stop="20261026190000 -0300" channel="1801">
     <title>Tracker • Extraoficial</title>
@@ -516685,9 +517008,10 @@ Hank en su nueva vida tendrá como acompañantes a su hermano, quien ve tener un
     <date>2024</date>
     <category>Drama</category>
     <category>Crime drama</category>
+    <country>Estados Unidos</country>
     <episode-num system="onscreen">T1 E12</episode-num>
     <rating><value>TV14</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/tracker.jpg" />
   </programme>
   <programme start="20261026190000 -0300" stop="20261026205000 -0300" channel="1801">
     <title>9-1-1</title>
@@ -516714,6 +517038,7 @@ Hank en su nueva vida tendrá como acompañantes a su hermano, quien ve tener un
     <date>2026</date>
     <category>Drama</category>
     <category>Action</category>
+    <country>Estados Unidos</country>
     <episode-num system="onscreen">T9 E15</episode-num>
     <rating><value>B15</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/911.jpg" />
@@ -516734,9 +517059,10 @@ Hank en su nueva vida tendrá como acompañantes a su hermano, quien ve tener un
     <date>2024</date>
     <category>Drama</category>
     <category>Crime drama</category>
+    <country>Estados Unidos</country>
     <episode-num system="onscreen">T1 E11</episode-num>
     <rating><value>TV14</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/tracker.jpg" />
   </programme>
   <programme start="20261026214500 -0300" stop="20261026222900 -0300" channel="1801">
     <title>Bull • El otro par</title>
@@ -517239,9 +517565,10 @@ Hank en su nueva vida tendrá como acompañantes a su hermano, quien ve tener un
     <date>2024</date>
     <category>Drama</category>
     <category>Crime drama</category>
+    <country>Estados Unidos</country>
     <episode-num system="onscreen">T1 E13</episode-num>
     <rating><value>TV14</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/tracker.jpg" />
   </programme>
   <programme start="20261027180400 -0300" stop="20261027190000 -0300" channel="1801">
     <title>Tracker • Regreso al pasado</title>
@@ -517258,9 +517585,10 @@ Hank en su nueva vida tendrá como acompañantes a su hermano, quien ve tener un
     <date>2024</date>
     <category>Drama</category>
     <category>Crime drama</category>
+    <country>Estados Unidos</country>
     <episode-num system="onscreen">T2 E1</episode-num>
     <rating><value>TV14</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/tracker.jpg" />
   </programme>
   <programme start="20261027190000 -0300" stop="20261027195400 -0300" channel="1801">
     <title>CIA</title>
@@ -517812,9 +518140,10 @@ Hank en su nueva vida tendrá como acompañantes a su hermano, quien ve tener un
     <date>2024</date>
     <category>Drama</category>
     <category>Crime drama</category>
+    <country>Estados Unidos</country>
     <episode-num system="onscreen">T2 E2</episode-num>
     <rating><value>TV14</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/tracker.jpg" />
   </programme>
   <programme start="20261028175800 -0300" stop="20261028190000 -0300" channel="1801">
     <title>Cooper &amp; Fry • Ciego hasta los huesos (parte 1)</title>
@@ -518841,8 +519170,21 @@ Hank en su nueva vida tendrá como acompañantes a su hermano, quien ve tener un
   <programme start="20261024023500 -0300" stop="20261024044400 -0300" channel="3801">
     <title>Hold Your Breath</title>
     <desc>Hold Your Breath</desc>
+    <credits>
+      <director>Scott Sidney</director>
+      <actor>Dorothy Devore</actor>
+      <actor>Walter Hiers</actor>
+      <actor>Tully Marshall</actor>
+      <actor>Jimmie Adams</actor>
+      <actor>Priscilla Bonner</actor>
+      <actor>James Harrison</actor>
+      <actor>Lincoln Plumer</actor>
+      <actor>Patricia Palmer</actor>
+    </credits>
     <date>2024</date>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <category>Comedia</category>
+    <country>Estados Unidos</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/holdyourbreath.jpg" />
   </programme>
   <programme start="20261024044400 -0300" stop="20261024061500 -0300" channel="3801">
     <title>127 Horas</title>
@@ -532672,7 +533014,7 @@ Hank en su nueva vida tendrá como acompañantes a su hermano, quien ve tener un
   </programme>
   <programme start="20261024024900 -0300" stop="20261024043500 -0300" channel="2805">
     <title>Tesis sobre un homicidio</title>
-    <desc>Roberto Bermúdez, especialista en derecho penal, ve alterada su vida cuando se convence de que Gonzalo, uno de sus mejores alumnos, ha sido el autor de un brutal asesinato justo frente a la Facultad de Derecho. Decidido a revelar la verdad sobre el crimen, emprende una investigación personal que pronto se transformará en obsesión y lo arrastrará inevitablemente hacia sus zonas más oscuras. La verdad está cada vez más cerca, pero... ¿a qué precio.</desc>
+    <desc>Roberto es un profesor de Derecho cuya vida se complica cuando se convence de que uno de sus mejores estudiantes ha cometido un brutal asesinato. Decidido a descubrir la verdad, comienza una investigación personal…</desc>
     <credits>
       <director>Hernán Goldfrid</director>
       <actor>Ricardo Darín</actor>
@@ -532691,7 +533033,7 @@ Hank en su nueva vida tendrá como acompañantes a su hermano, quien ve tener un
     <date>2013</date>
     <category>Thriller</category>
     <country>Argentina</country>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/tesissobreunhomicidio.jpg" />
   </programme>
   <programme start="20261024043500 -0300" stop="20261024060000 -0300" channel="2805">
     <title>Los cazamuertos</title>
@@ -557578,7 +557920,7 @@ Hank en su nueva vida tendrá como acompañantes a su hermano, quien ve tener un
   </programme>
   <programme start="20261026122500 -0300" stop="20261026140000 -0300" channel="1810">
     <title>Hotel Transilvania</title>
-    <desc>Cuando los monstruos quieren salir de paseo, todos ellos van al Hotel Transilvania del Conde Drácula, un sitio espléndido en donde pueden ser ellos mismos sin seres humanos que los molesten. En un fin de semana especial, Drácula invita a criaturas como el Hombre Invisible, la Momia y otros a celebrar el cumpleaños 118 de su hija Mavis. Sin embargo, una complicación inesperada se desarrolla cuando un hombre ordinario llega a la fiesta y se enamora de Mavis.</desc>
+    <desc>Drácula regenta un hotel en el que se alojan personajes como Frankenstein, la Momia, el Hombre Invisible, hombres-lobo... El problema del conde es que tiene una hija de espíritu aventurero a la que le resulta difícil controlar. El conflicto surge cuando se aloja en el hotel un ser humano que se siente atraído por la hija del dueño.</desc>
     <credits>
       <director>Genndy Tartakovsky</director>
       <actor>Adam Sandler</actor>
@@ -557609,8 +557951,9 @@ Hank en su nueva vida tendrá como acompañantes a su hermano, quien ve tener un
     <category>Children</category>
     <category>Comedy</category>
     <category>Fantasy</category>
+    <country>Estados Unidos</country>
     <rating><value>AA</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/hoteltransilvania.jpg" />
   </programme>
   <programme start="20261026140000 -0300" stop="20261026153400 -0300" channel="1810">
     <title>Hotel Transilvania 2</title>
@@ -587200,7 +587543,13 @@ El brujo Gargamel y su gato Azrael, intentan siempre y por todos los medios capt
   <programme start="20261023045300 -0300" stop="20261023060000 -0300" channel="0819">
     <title>Josh Johnson: Symphony</title>
     <desc>El comediante Josh Johnson entreteje historias sobre extrañas experiencias de su infancia, su familia y su incomodidad habitual.</desc>
+    <credits>
+      <director>Jacob Menache</director>
+      <actor>Josh Johnson</actor>
+    </credits>
+    <date>2026</date>
     <category>Special</category>
+    <country>Estados Unidos</country>
     <rating><value>18+</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/joshjohnsonsymphony.jpg" />
   </programme>
@@ -596273,6 +596622,7 @@ El brujo Gargamel y su gato Azrael, intentan siempre y por todos los medios capt
     <category>Action</category>
     <category>Thriller</category>
     <category>Crime drama</category>
+    <country>España</country>
     <rating><value>B15</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/elaccidente.jpg" />
   </programme>
@@ -641911,7 +642261,7 @@ El brujo Gargamel y su gato Azrael, intentan siempre y por todos los medios capt
   </programme>
   <programme start="20261027010000 -0300" stop="20261027015000 -0300" channel="1836">
     <title>Noche estrellada</title>
-    <desc>Nuevamente con vida, pero incapaz de probar su identidad, Vincent van Gogh empieza a robar sus pinturas.</desc>
+    <desc>Película de tragicomedia con matices románticos</desc>
     <credits>
       <director>Paul Davids</director>
       <actor>Abbott Alexander</actor>
@@ -641924,6 +642274,7 @@ El brujo Gargamel y su gato Azrael, intentan siempre y por todos los medios capt
     <date>1999</date>
     <category>Movie</category>
     <category>Comedy</category>
+    <country>España</country>
     <rating><value>PG-13</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
@@ -642789,6 +643140,7 @@ El brujo Gargamel y su gato Azrael, intentan siempre y por todos los medios capt
     </credits>
     <date>2026</date>
     <category>Telenovela</category>
+    <country>México</country>
     <rating><value>TV14</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/tancercadetinaceelamor.jpg" />
   </programme>
@@ -642976,6 +643328,7 @@ El brujo Gargamel y su gato Azrael, intentan siempre y por todos los medios capt
     </credits>
     <date>2026</date>
     <category>Telenovela</category>
+    <country>México</country>
     <rating><value>TV14</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/tancercadetinaceelamor.jpg" />
   </programme>
@@ -643071,6 +643424,7 @@ El brujo Gargamel y su gato Azrael, intentan siempre y por todos los medios capt
     </credits>
     <date>2026</date>
     <category>Telenovela</category>
+    <country>México</country>
     <rating><value>TV14</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/tancercadetinaceelamor.jpg" />
   </programme>
@@ -643267,6 +643621,7 @@ El brujo Gargamel y su gato Azrael, intentan siempre y por todos los medios capt
     </credits>
     <date>2026</date>
     <category>Telenovela</category>
+    <country>México</country>
     <rating><value>TV14</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/tancercadetinaceelamor.jpg" />
   </programme>
@@ -643454,6 +643809,7 @@ El brujo Gargamel y su gato Azrael, intentan siempre y por todos los medios capt
     </credits>
     <date>2026</date>
     <category>Telenovela</category>
+    <country>México</country>
     <rating><value>TV14</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/tancercadetinaceelamor.jpg" />
   </programme>
@@ -643771,6 +644127,7 @@ El brujo Gargamel y su gato Azrael, intentan siempre y por todos los medios capt
     </credits>
     <date>2026</date>
     <category>Telenovela</category>
+    <country>México</country>
     <rating><value>TV14</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/tancercadetinaceelamor.jpg" />
   </programme>
@@ -643884,6 +644241,7 @@ El brujo Gargamel y su gato Azrael, intentan siempre y por todos los medios capt
     </credits>
     <date>2026</date>
     <category>Telenovela</category>
+    <country>México</country>
     <rating><value>TV14</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/tancercadetinaceelamor.jpg" />
   </programme>
@@ -644102,6 +644460,7 @@ El brujo Gargamel y su gato Azrael, intentan siempre y por todos los medios capt
     </credits>
     <date>2026</date>
     <category>Telenovela</category>
+    <country>México</country>
     <rating><value>TV14</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/tancercadetinaceelamor.jpg" />
   </programme>
@@ -644249,6 +644608,7 @@ El brujo Gargamel y su gato Azrael, intentan siempre y por todos los medios capt
     </credits>
     <date>2026</date>
     <category>Telenovela</category>
+    <country>México</country>
     <rating><value>TV14</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/tancercadetinaceelamor.jpg" />
   </programme>
@@ -644436,6 +644796,7 @@ El brujo Gargamel y su gato Azrael, intentan siempre y por todos los medios capt
     </credits>
     <date>2026</date>
     <category>Telenovela</category>
+    <country>México</country>
     <rating><value>TV14</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/tancercadetinaceelamor.jpg" />
   </programme>
@@ -644739,6 +645100,7 @@ El brujo Gargamel y su gato Azrael, intentan siempre y por todos los medios capt
     <category>Soap</category>
     <category>Drama</category>
     <category>Romance</category>
+    <country>México</country>
     <rating><value>TV14</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/tancercadetinaceelamor.jpg" />
   </programme>
@@ -644959,6 +645321,7 @@ El brujo Gargamel y su gato Azrael, intentan siempre y por todos los medios capt
     <category>Soap</category>
     <category>Drama</category>
     <category>Romance</category>
+    <country>México</country>
     <rating><value>TV14</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/tancercadetinaceelamor.jpg" />
   </programme>
@@ -645093,6 +645456,7 @@ El brujo Gargamel y su gato Azrael, intentan siempre y por todos los medios capt
     <category>Soap</category>
     <category>Drama</category>
     <category>Romance</category>
+    <country>México</country>
     <rating><value>TV14</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/tancercadetinaceelamor.jpg" />
   </programme>
@@ -645337,6 +645701,7 @@ El brujo Gargamel y su gato Azrael, intentan siempre y por todos los medios capt
     <category>Soap</category>
     <category>Drama</category>
     <category>Romance</category>
+    <country>México</country>
     <rating><value>TV14</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/tancercadetinaceelamor.jpg" />
   </programme>
@@ -645557,6 +645922,7 @@ El brujo Gargamel y su gato Azrael, intentan siempre y por todos los medios capt
     <category>Soap</category>
     <category>Drama</category>
     <category>Romance</category>
+    <country>México</country>
     <rating><value>TV14</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/tancercadetinaceelamor.jpg" />
   </programme>
@@ -645731,6 +646097,7 @@ El brujo Gargamel y su gato Azrael, intentan siempre y por todos los medios capt
     <category>Soap</category>
     <category>Drama</category>
     <category>Romance</category>
+    <country>México</country>
     <rating><value>TV14</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/tancercadetinaceelamor.jpg" />
   </programme>
@@ -646589,6 +646956,7 @@ El brujo Gargamel y su gato Azrael, intentan siempre y por todos los medios capt
     <category>Soap</category>
     <category>Drama</category>
     <category>Romance</category>
+    <country>México</country>
     <rating><value>TV14</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/tancercadetinaceelamor.jpg" />
   </programme>
@@ -646833,6 +647201,7 @@ El brujo Gargamel y su gato Azrael, intentan siempre y por todos los medios capt
     <category>Soap</category>
     <category>Drama</category>
     <category>Romance</category>
+    <country>México</country>
     <rating><value>TV14</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/tancercadetinaceelamor.jpg" />
   </programme>
@@ -647081,6 +647450,7 @@ El brujo Gargamel y su gato Azrael, intentan siempre y por todos los medios capt
     <category>Soap</category>
     <category>Drama</category>
     <category>Romance</category>
+    <country>México</country>
     <rating><value>TV14</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/tancercadetinaceelamor.jpg" />
   </programme>
@@ -647249,6 +647619,7 @@ El brujo Gargamel y su gato Azrael, intentan siempre y por todos los medios capt
     <category>Soap</category>
     <category>Drama</category>
     <category>Romance</category>
+    <country>México</country>
     <rating><value>TV14</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/tancercadetinaceelamor.jpg" />
   </programme>
@@ -647493,6 +647864,7 @@ El brujo Gargamel y su gato Azrael, intentan siempre y por todos los medios capt
     <category>Soap</category>
     <category>Drama</category>
     <category>Romance</category>
+    <country>México</country>
     <rating><value>TV14</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/tancercadetinaceelamor.jpg" />
   </programme>
@@ -647741,6 +648113,7 @@ El brujo Gargamel y su gato Azrael, intentan siempre y por todos los medios capt
     <category>Soap</category>
     <category>Drama</category>
     <category>Romance</category>
+    <country>México</country>
     <rating><value>TV14</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/tancercadetinaceelamor.jpg" />
   </programme>
@@ -647911,6 +648284,7 @@ El brujo Gargamel y su gato Azrael, intentan siempre y por todos los medios capt
     <category>Soap</category>
     <category>Drama</category>
     <category>Romance</category>
+    <country>México</country>
     <rating><value>TV14</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/tancercadetinaceelamor.jpg" />
   </programme>
@@ -648155,6 +648529,7 @@ El brujo Gargamel y su gato Azrael, intentan siempre y por todos los medios capt
     <category>Soap</category>
     <category>Drama</category>
     <category>Romance</category>
+    <country>México</country>
     <rating><value>TV14</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/tancercadetinaceelamor.jpg" />
   </programme>
@@ -648403,6 +648778,7 @@ El brujo Gargamel y su gato Azrael, intentan siempre y por todos los medios capt
     <category>Soap</category>
     <category>Drama</category>
     <category>Romance</category>
+    <country>México</country>
     <rating><value>TV14</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/tancercadetinaceelamor.jpg" />
   </programme>
@@ -648677,6 +649053,7 @@ El brujo Gargamel y su gato Azrael, intentan siempre y por todos los medios capt
     </credits>
     <date>2026</date>
     <category>Telenovela</category>
+    <country>México</country>
     <rating><value>13+</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/tancercadetinaceelamor.jpg" />
   </programme>
@@ -648797,6 +649174,7 @@ El brujo Gargamel y su gato Azrael, intentan siempre y por todos los medios capt
     </credits>
     <date>2026</date>
     <category>Telenovela</category>
+    <country>México</country>
     <rating><value>13+</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/tancercadetinaceelamor.jpg" />
   </programme>
@@ -649035,6 +649413,7 @@ El brujo Gargamel y su gato Azrael, intentan siempre y por todos los medios capt
     </credits>
     <date>2026</date>
     <category>Telenovela</category>
+    <country>México</country>
     <rating><value>TV14</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/tancercadetinaceelamor.jpg" />
   </programme>
@@ -683783,6 +684162,7 @@ El brujo Gargamel y su gato Azrael, intentan siempre y por todos los medios capt
     <date>2026</date>
     <category>Drama</category>
     <category>Action</category>
+    <country>Estados Unidos</country>
     <episode-num system="onscreen">T6 E1</episode-num>
     <rating><value>B15</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/911.jpg" />
@@ -683811,6 +684191,7 @@ El brujo Gargamel y su gato Azrael, intentan siempre y por todos los medios capt
     <date>2026</date>
     <category>Drama</category>
     <category>Action</category>
+    <country>Estados Unidos</country>
     <episode-num system="onscreen">T6 E2</episode-num>
     <rating><value>B15</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/911.jpg" />
@@ -684491,6 +684872,7 @@ El brujo Gargamel y su gato Azrael, intentan siempre y por todos los medios capt
     <date>2026</date>
     <category>Drama</category>
     <category>Action</category>
+    <country>Estados Unidos</country>
     <episode-num system="onscreen">T6 E1</episode-num>
     <rating><value>B15</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/911.jpg" />
@@ -684519,6 +684901,7 @@ El brujo Gargamel y su gato Azrael, intentan siempre y por todos los medios capt
     <date>2026</date>
     <category>Drama</category>
     <category>Action</category>
+    <country>Estados Unidos</country>
     <episode-num system="onscreen">T6 E2</episode-num>
     <rating><value>B15</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/911.jpg" />
@@ -685175,6 +685558,7 @@ El brujo Gargamel y su gato Azrael, intentan siempre y por todos los medios capt
     <date>2026</date>
     <category>Drama</category>
     <category>Action</category>
+    <country>Estados Unidos</country>
     <episode-num system="onscreen">T6 E1</episode-num>
     <rating><value>B15</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/911.jpg" />
@@ -685203,6 +685587,7 @@ El brujo Gargamel y su gato Azrael, intentan siempre y por todos los medios capt
     <date>2026</date>
     <category>Drama</category>
     <category>Action</category>
+    <country>Estados Unidos</country>
     <episode-num system="onscreen">T6 E2</episode-num>
     <rating><value>B15</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/911.jpg" />
@@ -685765,6 +686150,7 @@ El brujo Gargamel y su gato Azrael, intentan siempre y por todos los medios capt
     </credits>
     <date>2026</date>
     <category>Drama</category>
+    <country>Estados Unidos</country>
     <episode-num system="onscreen">S06E01</episode-num>
     <rating><value>16</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/911.jpg" />
@@ -685792,6 +686178,7 @@ El brujo Gargamel y su gato Azrael, intentan siempre y por todos los medios capt
     </credits>
     <date>2026</date>
     <category>Drama</category>
+    <country>Estados Unidos</country>
     <episode-num system="onscreen">S06E02</episode-num>
     <rating><value>TV14</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/911.jpg" />
@@ -685944,6 +686331,7 @@ El brujo Gargamel y su gato Azrael, intentan siempre y por todos los medios capt
     </credits>
     <date>2026</date>
     <category>Drama</category>
+    <country>Estados Unidos</country>
     <episode-num system="onscreen">S06E01</episode-num>
     <rating><value>16</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/911.jpg" />
@@ -685971,6 +686359,7 @@ El brujo Gargamel y su gato Azrael, intentan siempre y por todos los medios capt
     </credits>
     <date>2026</date>
     <category>Drama</category>
+    <country>Estados Unidos</country>
     <episode-num system="onscreen">S06E02</episode-num>
     <rating><value>TV14</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/911.jpg" />
@@ -686469,6 +686858,7 @@ El brujo Gargamel y su gato Azrael, intentan siempre y por todos los medios capt
     <date>1954</date>
     <category>Movie</category>
     <category>Comedy</category>
+    <country>España</country>
     <rating><value>A</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
@@ -686569,6 +686959,7 @@ El brujo Gargamel y su gato Azrael, intentan siempre y por todos los medios capt
     <date>1954</date>
     <category>Movie</category>
     <category>Comedy</category>
+    <country>España</country>
     <rating><value>A</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
@@ -689969,6 +690360,7 @@ El brujo Gargamel y su gato Azrael, intentan siempre y por todos los medios capt
     <category>Animated</category>
     <category>Children</category>
     <category>Comedy</category>
+    <country>Estados Unidos</country>
     <episode-num system="onscreen">T1 E4</episode-num>
     <rating><value>TVG</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/dexterslaboratory.jpg" />
@@ -689988,6 +690380,7 @@ El brujo Gargamel y su gato Azrael, intentan siempre y por todos los medios capt
     <category>Animated</category>
     <category>Children</category>
     <category>Comedy</category>
+    <country>Estados Unidos</country>
     <episode-num system="onscreen">T2 E1</episode-num>
     <rating><value>TVG</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/dexterslaboratory.jpg" />
@@ -691231,6 +691624,7 @@ El brujo Gargamel y su gato Azrael, intentan siempre y por todos los medios capt
     <category>Animated</category>
     <category>Children</category>
     <category>Comedy</category>
+    <country>Estados Unidos</country>
     <episode-num system="onscreen">T2 E2</episode-num>
     <rating><value>TVG</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/dexterslaboratory.jpg" />
@@ -691250,6 +691644,7 @@ El brujo Gargamel y su gato Azrael, intentan siempre y por todos los medios capt
     <category>Animated</category>
     <category>Children</category>
     <category>Comedy</category>
+    <country>Estados Unidos</country>
     <episode-num system="onscreen">T2 E3</episode-num>
     <rating><value>TVG</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/dexterslaboratory.jpg" />
@@ -697676,6 +698071,7 @@ de Billy y Mandy • Puro Hueso O Gregorí? / Puro Hueso Contra Mamá / Sabe A P
     <category>Animated</category>
     <category>Children</category>
     <category>Comedy</category>
+    <country>Estados Unidos</country>
     <episode-num system="onscreen">T1 E13</episode-num>
     <rating><value>TVG</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/dexterslaboratory.jpg" />
@@ -698395,6 +698791,7 @@ de Billy y Mandy • Algo Tonto Va A Pasar / La Sorpresa De Puro Hueso / Bestias
     <category>Animated</category>
     <category>Children</category>
     <category>Comedy</category>
+    <country>Estados Unidos</country>
     <episode-num system="onscreen">T2 E3</episode-num>
     <rating><value>TVG</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/dexterslaboratory.jpg" />
@@ -702898,6 +703295,7 @@ de Billy y Mandy • Algo Tonto Va A Pasar / La Sorpresa De Puro Hueso / Bestias
     <date>2007</date>
     <category>Drama</category>
     <category>Historical drama</category>
+    <country>Reino Unido</country>
     <episode-num system="onscreen">T4 E2</episode-num>
     <rating><value>TVPG</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/foyleswar.jpg" />
@@ -703189,6 +703587,7 @@ de Billy y Mandy • Algo Tonto Va A Pasar / La Sorpresa De Puro Hueso / Bestias
     <date>2007</date>
     <category>Drama</category>
     <category>Historical drama</category>
+    <country>Reino Unido</country>
     <episode-num system="onscreen">T4 E2</episode-num>
     <rating><value>TVPG</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/foyleswar.jpg" />
@@ -703769,6 +704168,7 @@ de Billy y Mandy • Algo Tonto Va A Pasar / La Sorpresa De Puro Hueso / Bestias
     <date>2007</date>
     <category>Drama</category>
     <category>Historical drama</category>
+    <country>Reino Unido</country>
     <episode-num system="onscreen">T4 E3</episode-num>
     <rating><value>TVPG</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/foyleswar.jpg" />
@@ -704066,6 +704466,7 @@ de Billy y Mandy • Algo Tonto Va A Pasar / La Sorpresa De Puro Hueso / Bestias
     <date>2007</date>
     <category>Drama</category>
     <category>Historical drama</category>
+    <country>Reino Unido</country>
     <episode-num system="onscreen">T4 E3</episode-num>
     <rating><value>TVPG</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/foyleswar.jpg" />
@@ -705081,7 +705482,23 @@ de Billy y Mandy • Algo Tonto Va A Pasar / La Sorpresa De Puro Hueso / Bestias
   </programme>
   <programme start="20261023171800 -0300" stop="20261023185700 -0300" channel="0853">
     <title>Cortocircuito</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
+    <desc>Una fábrica de robots construye con fines pacíficos un sofisticado modelo, pero sus responsables deciden que puede servir también para la guerra. Durante la presentación del invento, un rayo afecta al número 5 que, a partir de ese momento, deja de ser una máquina militar. El robot se escapa y, en su huida, se encuentra con una chica que, tomándolo por un extraterrestre, se lo lleva a su casa.</desc>
+    <credits>
+      <director>John Badham</director>
+      <actor>Ally Sheedy</actor>
+      <actor>Steve Guttenberg</actor>
+      <actor>Fisher Stevens</actor>
+      <actor>Austin Pendleton</actor>
+      <actor>G.W. Bailey</actor>
+      <actor>Brian McNamara</actor>
+      <actor>Tim Blaney</actor>
+      <actor>Marvin J. McIntyre</actor>
+    </credits>
+    <date>1986</date>
+    <category>Ciencia ficción</category>
+    <category>Comedia</category>
+    <category>Familia</category>
+    <country>Estados Unidos</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/cortocircuito.jpg" />
   </programme>
   <programme start="20261023185700 -0300" stop="20261023203400 -0300" channel="0853">
@@ -705158,6 +705575,21 @@ de Billy y Mandy • Algo Tonto Va A Pasar / La Sorpresa De Puro Hueso / Bestias
   <programme start="20261024014300 -0300" stop="20261024021300 -0300" channel="0853">
     <title>El Gran Gatsby</title>
     <desc>Adaptación de la novela homónima de F. Scott Fitzgerald. En la alta sociedad norteamericana, llama la atención la presencia de Gatsby, un hombre misterioso e inmensamente rico, al que todos consideran un advenedizo, lo que no impide que acudan a sus fastuosas fiestas. Gatsby vive obsesionado con la idea de recuperar al amor de su juventud.</desc>
+    <credits>
+      <director>Baz Luhrmann</director>
+      <actor>Leonardo DiCaprio</actor>
+      <actor>Tobey Maguire</actor>
+      <actor>Carey Mulligan</actor>
+      <actor>Joel Edgerton</actor>
+      <actor>Elizabeth Debicki</actor>
+      <actor>Isla Fisher</actor>
+      <actor>Jason Clarke</actor>
+      <actor>Amitabh Bachchan</actor>
+    </credits>
+    <date>2013</date>
+    <category>Drama</category>
+    <category>Romance</category>
+    <country>Estados Unidos</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/elgrangatsby.jpg" />
   </programme>
   <programme start="20261024021300 -0300" stop="20261024030000 -0300" channel="0853">
@@ -706490,6 +706922,7 @@ de Billy y Mandy • Algo Tonto Va A Pasar / La Sorpresa De Puro Hueso / Bestias
     <date>2020</date>
     <category>Movie</category>
     <category>Horror</category>
+    <country>Estados Unidos</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/hauntingofthemaryceleste.jpg" />
   </programme>
   <programme start="20261025060500 -0300" stop="20261025073900 -0300" channel="0855">
@@ -726254,7 +726687,9 @@ Victoria ha conseguido que su amante, un empresario, le haya cedido la presidenc
   <programme start="20261023070000 -0300" stop="20261023070000 -0300" channel="2906">
     <title>Himno nacional</title>
     <desc>Transmisión del Himno Nacional de Venezuela.</desc>
+    <date>1954</date>
     <category>Cultural</category>
+    <country>Perú</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261023070000 -0300" stop="20261023070400 -0300" channel="2906">
@@ -726356,7 +726791,9 @@ Victoria ha conseguido que su amante, un empresario, le haya cedido la presidenc
   <programme start="20261024010000 -0300" stop="20261024010400 -0300" channel="2906">
     <title>Himno nacional</title>
     <desc>Transmisión del Himno Nacional de Venezuela.</desc>
+    <date>1954</date>
     <category>Cultural</category>
+    <country>Perú</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261024010400 -0300" stop="20261024020000 -0300" channel="2906">
@@ -726463,7 +726900,9 @@ Victoria ha conseguido que su amante, un empresario, le haya cedido la presidenc
   <programme start="20261025010000 -0300" stop="20261025010400 -0300" channel="2906">
     <title>Himno nacional</title>
     <desc>Transmisión del Himno Nacional de Venezuela.</desc>
+    <date>1954</date>
     <category>Cultural</category>
+    <country>Perú</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261025010400 -0300" stop="20261025020000 -0300" channel="2906">
@@ -732664,6 +733103,7 @@ Victoria ha conseguido que su amante, un empresario, le haya cedido la presidenc
     <date>2018</date>
     <category>Drama</category>
     <category>Romance</category>
+    <country>Turquía</country>
     <rating><value>14</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/lasenorafaziletysushijas.jpg" />
   </programme>
@@ -733733,10 +734173,17 @@ Victoria ha conseguido que su amante, un empresario, le haya cedido la presidenc
     <title>Destinos ALC • Tarapoto</title>
     <sub-title>Tarapoto</sub-title>
     <desc>Tarapoto | Una aventura inmersiva en la selva alta peruana, destacando la gastronomía local, paisajes exóticos y deportes de aventura. Los principales atractivos naturales y turísticos de la llamada Ciudad de las Palmeras.</desc>
+    <credits>
+      <actor>Ignacio Barrios</actor>
+      <actor>Francesco de Sanctis</actor>
+      <actor>Renzo Vinatea</actor>
+      <actor>Toño Mendez</actor>
+    </credits>
     <date>2023</date>
     <category>Entretenimiento</category>
     <category>Viajes</category>
     <category>Aventura</category>
+    <country>España</country>
     <episode-num system="onscreen">T1 E6</episode-num>
     <rating><value>14</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/destinosalc.jpg" />
@@ -733954,10 +734401,17 @@ Victoria ha conseguido que su amante, un empresario, le haya cedido la presidenc
     <title>Destinos ALC • Lima</title>
     <sub-title>Lima</sub-title>
     <desc>Lima | Las maravillas turísticas y culinarias de Lima. Un recorrido donde se explora el Callao, el Museo Larco, el emblemático bar inglés del hotel Country Club y por supuesto, los mejores restaurantes donde desayunar, almorzar y cenar.</desc>
+    <credits>
+      <actor>Ignacio Barrios</actor>
+      <actor>Francesco de Sanctis</actor>
+      <actor>Renzo Vinatea</actor>
+      <actor>Toño Mendez</actor>
+    </credits>
     <date>2023</date>
     <category>Entretenimiento</category>
     <category>Viajes</category>
     <category>Aventura</category>
+    <country>España</country>
     <episode-num system="onscreen">T1 E4</episode-num>
     <rating><value>14</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/destinosalc.jpg" />
@@ -734014,10 +734468,17 @@ Victoria ha conseguido que su amante, un empresario, le haya cedido la presidenc
     <title>Destinos ALC • Santiago de Chile con Beno</title>
     <sub-title>Santiago de Chile con Beno</sub-title>
     <desc>Santiago de Chile con Beno | Beno Vinatea descubre los mejores lugares para comer y pasear en Santiago de Chile, en una ruta imperdible.</desc>
+    <credits>
+      <actor>Ignacio Barrios</actor>
+      <actor>Francesco de Sanctis</actor>
+      <actor>Renzo Vinatea</actor>
+      <actor>Toño Mendez</actor>
+    </credits>
     <date>2023</date>
     <category>Entretenimiento</category>
     <category>Viajes</category>
     <category>Aventura</category>
+    <country>España</country>
     <episode-num system="onscreen">T1 E5</episode-num>
     <rating><value>14</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/destinosalc.jpg" />
@@ -734202,10 +734663,17 @@ Victoria ha conseguido que su amante, un empresario, le haya cedido la presidenc
     <title>Destinos ALC • Lima</title>
     <sub-title>Lima</sub-title>
     <desc>Lima | Las maravillas turísticas y culinarias de Lima. Un recorrido donde se explora el Callao, el Museo Larco, el emblemático bar inglés del hotel Country Club y por supuesto, los mejores restaurantes donde desayunar, almorzar y cenar.</desc>
+    <credits>
+      <actor>Ignacio Barrios</actor>
+      <actor>Francesco de Sanctis</actor>
+      <actor>Renzo Vinatea</actor>
+      <actor>Toño Mendez</actor>
+    </credits>
     <date>2023</date>
     <category>Entretenimiento</category>
     <category>Viajes</category>
     <category>Aventura</category>
+    <country>España</country>
     <episode-num system="onscreen">T1 E4</episode-num>
     <rating><value>14</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/destinosalc.jpg" />
@@ -734258,10 +734726,17 @@ Victoria ha conseguido que su amante, un empresario, le haya cedido la presidenc
     <title>Destinos ALC • Tarapoto</title>
     <sub-title>Tarapoto</sub-title>
     <desc>Tarapoto | Una aventura inmersiva en la selva alta peruana, destacando la gastronomía local, paisajes exóticos y deportes de aventura. Los principales atractivos naturales y turísticos de la llamada Ciudad de las Palmeras.</desc>
+    <credits>
+      <actor>Ignacio Barrios</actor>
+      <actor>Francesco de Sanctis</actor>
+      <actor>Renzo Vinatea</actor>
+      <actor>Toño Mendez</actor>
+    </credits>
     <date>2023</date>
     <category>Entretenimiento</category>
     <category>Viajes</category>
     <category>Aventura</category>
+    <country>España</country>
     <episode-num system="onscreen">T1 E6</episode-num>
     <rating><value>14</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/destinosalc.jpg" />
@@ -734361,10 +734836,17 @@ Victoria ha conseguido que su amante, un empresario, le haya cedido la presidenc
     <title>Destinos ALC • Buenos Aires</title>
     <sub-title>Buenos Aires</sub-title>
     <desc>Buenos Aires | Flavia llegó a Argentina y realizó un recorrido imperdible por todo Buenos Aires. Entérate de qué hacer, qué visitar, dónde comer y cómo pasarlo bien.</desc>
+    <credits>
+      <actor>Ignacio Barrios</actor>
+      <actor>Francesco de Sanctis</actor>
+      <actor>Renzo Vinatea</actor>
+      <actor>Toño Mendez</actor>
+    </credits>
     <date>2023</date>
     <category>Entretenimiento</category>
     <category>Viajes</category>
     <category>Aventura</category>
+    <country>España</country>
     <episode-num system="onscreen">T1 E5</episode-num>
     <rating><value>TE</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/destinosalc.jpg" />
@@ -734596,10 +735078,17 @@ Victoria ha conseguido que su amante, un empresario, le haya cedido la presidenc
     <title>Destinos ALC • Santiago de Chile con Beno</title>
     <sub-title>Santiago de Chile con Beno</sub-title>
     <desc>Santiago de Chile con Beno | Beno Vinatea descubre los mejores lugares para comer y pasear en Santiago de Chile, en una ruta imperdible.</desc>
+    <credits>
+      <actor>Ignacio Barrios</actor>
+      <actor>Francesco de Sanctis</actor>
+      <actor>Renzo Vinatea</actor>
+      <actor>Toño Mendez</actor>
+    </credits>
     <date>2023</date>
     <category>Entretenimiento</category>
     <category>Viajes</category>
     <category>Aventura</category>
+    <country>España</country>
     <episode-num system="onscreen">T1 E5</episode-num>
     <rating><value>14</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/destinosalc.jpg" />
@@ -734653,10 +735142,17 @@ Victoria ha conseguido que su amante, un empresario, le haya cedido la presidenc
     <title>Destinos ALC • Lambayeque</title>
     <sub-title>Lambayeque</sub-title>
     <desc>Lambayeque | El chef Ignacio Barrios Jacobs explora Lambayeque, un destino lleno de historia, paisajes, cultura viva y deliciosos platos que te transportarán a grandiosas épocas del Perú.</desc>
+    <credits>
+      <actor>Ignacio Barrios</actor>
+      <actor>Francesco de Sanctis</actor>
+      <actor>Renzo Vinatea</actor>
+      <actor>Toño Mendez</actor>
+    </credits>
     <date>2023</date>
     <category>Entretenimiento</category>
     <category>Viajes</category>
     <category>Aventura</category>
+    <country>España</country>
     <episode-num system="onscreen">T1 E1</episode-num>
     <rating><value>14</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/destinosalc.jpg" />
@@ -734711,10 +735207,17 @@ Victoria ha conseguido que su amante, un empresario, le haya cedido la presidenc
     <title>Destinos ALC • Cusco</title>
     <sub-title>Cusco</sub-title>
     <desc>Cusco | Un recorrido único y diferente por la capital arqueológica de América, destacando maravillas más allá de lo convencional. Experiencias culturales, paisajes y la gastronomía local.</desc>
+    <credits>
+      <actor>Ignacio Barrios</actor>
+      <actor>Francesco de Sanctis</actor>
+      <actor>Renzo Vinatea</actor>
+      <actor>Toño Mendez</actor>
+    </credits>
     <date>2024</date>
     <category>Entretenimiento</category>
     <category>Viajes</category>
     <category>Aventura</category>
+    <country>España</country>
     <episode-num system="onscreen">T1 E8</episode-num>
     <rating><value>14</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/destinosalc.jpg" />
@@ -734945,10 +735448,17 @@ Victoria ha conseguido que su amante, un empresario, le haya cedido la presidenc
     <title>Destinos ALC • Santiago de Chile con Beno</title>
     <sub-title>Santiago de Chile con Beno</sub-title>
     <desc>Santiago de Chile con Beno | Beno Vinatea descubre los mejores lugares para comer y pasear en Santiago de Chile, en una ruta imperdible.</desc>
+    <credits>
+      <actor>Ignacio Barrios</actor>
+      <actor>Francesco de Sanctis</actor>
+      <actor>Renzo Vinatea</actor>
+      <actor>Toño Mendez</actor>
+    </credits>
     <date>2023</date>
     <category>Entretenimiento</category>
     <category>Viajes</category>
     <category>Aventura</category>
+    <country>España</country>
     <episode-num system="onscreen">T1 E5</episode-num>
     <rating><value>14</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/destinosalc.jpg" />
@@ -735052,10 +735562,17 @@ Victoria ha conseguido que su amante, un empresario, le haya cedido la presidenc
     <title>Destinos ALC • Santiago de Chile con Beno</title>
     <sub-title>Santiago de Chile con Beno</sub-title>
     <desc>Santiago de Chile con Beno | Beno Vinatea descubre los mejores lugares para comer y pasear en Santiago de Chile, en una ruta imperdible.</desc>
+    <credits>
+      <actor>Ignacio Barrios</actor>
+      <actor>Francesco de Sanctis</actor>
+      <actor>Renzo Vinatea</actor>
+      <actor>Toño Mendez</actor>
+    </credits>
     <date>2023</date>
     <category>Entretenimiento</category>
     <category>Viajes</category>
     <category>Aventura</category>
+    <country>España</country>
     <episode-num system="onscreen">T1 E5</episode-num>
     <rating><value>14</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/destinosalc.jpg" />
@@ -735238,10 +735755,17 @@ Victoria ha conseguido que su amante, un empresario, le haya cedido la presidenc
     <title>Destinos ALC • Santiago de Chile con Beno</title>
     <sub-title>Santiago de Chile con Beno</sub-title>
     <desc>Santiago de Chile con Beno | Beno Vinatea descubre los mejores lugares para comer y pasear en Santiago de Chile, en una ruta imperdible.</desc>
+    <credits>
+      <actor>Ignacio Barrios</actor>
+      <actor>Francesco de Sanctis</actor>
+      <actor>Renzo Vinatea</actor>
+      <actor>Toño Mendez</actor>
+    </credits>
     <date>2023</date>
     <category>Entretenimiento</category>
     <category>Viajes</category>
     <category>Aventura</category>
+    <country>España</country>
     <episode-num system="onscreen">T1 E5</episode-num>
     <rating><value>14</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/destinosalc.jpg" />
@@ -735453,10 +735977,17 @@ Victoria ha conseguido que su amante, un empresario, le haya cedido la presidenc
     <title>Destinos ALC • Arequipa</title>
     <sub-title>Arequipa</sub-title>
     <desc>Arequipa | Descubre de la mano de Kevin GG las maravillas turísticas y culinarias de Arequipa. Kevin recorre el COLCA, las lagunas de Salinas, el mirador de los Andes, el MISTI y diferentes huariques donde desayunar, almorzar y cenar.</desc>
+    <credits>
+      <actor>Ignacio Barrios</actor>
+      <actor>Francesco de Sanctis</actor>
+      <actor>Renzo Vinatea</actor>
+      <actor>Toño Mendez</actor>
+    </credits>
     <date>2023</date>
     <category>Entretenimiento</category>
     <category>Viajes</category>
     <category>Aventura</category>
+    <country>España</country>
     <episode-num system="onscreen">T1 E2</episode-num>
     <rating><value>TE</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/destinosalc.jpg" />
@@ -742929,7 +743460,9 @@ La emisora fue inaugurada el 1 de octubre de 1960 y desde el año 1989 es propie
     <title>Himno nacional • Especial</title>
     <sub-title>Especial</sub-title>
     <desc>Especial | Himno nacional argentino.</desc>
+    <date>1954</date>
     <category>Cultural</category>
+    <country>Perú</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261023000500 -0300" stop="20261023010000 -0300" channel="0925">
@@ -743045,7 +743578,9 @@ La emisora fue inaugurada el 1 de octubre de 1960 y desde el año 1989 es propie
     <title>Himno nacional • Especial</title>
     <sub-title>Especial</sub-title>
     <desc>Especial | Himno nacional argentino.</desc>
+    <date>1954</date>
     <category>Cultural</category>
+    <country>Perú</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261024000500 -0300" stop="20261024010000 -0300" channel="0925">
@@ -758179,7 +758714,13 @@ Andrés Gil</desc>
   <programme start="20261025011500 -0300" stop="20261025013000 -0300" channel="0947">
     <title>Sobrevivientes</title>
     <desc>Un recorrido íntimo por las vidas de Dahyana, Maxi y Analía, tres jóvenes que viven con discapacidad adquirida como consecuencia de un siniestro vial.</desc>
+    <credits>
+      <director>Axel Rosito</director>
+      <director>Elena Bursztein</director>
+    </credits>
+    <date>2023</date>
     <category>Documental</category>
+    <country>Argentina</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261025013000 -0300" stop="20261025023000 -0300" channel="0947">
@@ -759011,7 +759552,13 @@ Andrés Gil</desc>
   <programme start="20261023064000 -0300" stop="20261023070000 -0300" channel="0949">
     <title>Sobrevivientes</title>
     <desc>Un recorrido íntimo por las vidas de Dahyana, Maxi y Analía, tres jóvenes que viven con discapacidad adquirida como consecuencia de un siniestro vial.</desc>
+    <credits>
+      <director>Axel Rosito</director>
+      <director>Elena Bursztein</director>
+    </credits>
+    <date>2023</date>
     <category>Documental</category>
+    <country>Argentina</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261023070000 -0300" stop="20261023070000 -0300" channel="0949">
@@ -759035,7 +759582,9 @@ Andrés Gil</desc>
   <programme start="20261023075500 -0300" stop="20261023080000 -0300" channel="0949">
     <title>Himno nacional</title>
     <desc>Transmisión del Himno Nacional de Venezuela.</desc>
+    <date>1954</date>
     <category>Cultural</category>
+    <country>Perú</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261023080000 -0300" stop="20261023080000 -0300" channel="0949">
@@ -759279,7 +759828,13 @@ Andrés Gil</desc>
   <programme start="20261024064000 -0300" stop="20261024070000 -0300" channel="0949">
     <title>Sobrevivientes</title>
     <desc>Un recorrido íntimo por las vidas de Dahyana, Maxi y Analía, tres jóvenes que viven con discapacidad adquirida como consecuencia de un siniestro vial.</desc>
+    <credits>
+      <director>Axel Rosito</director>
+      <director>Elena Bursztein</director>
+    </credits>
+    <date>2023</date>
     <category>Documental</category>
+    <country>Argentina</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261024070000 -0300" stop="20261024075500 -0300" channel="0949">
@@ -759291,7 +759846,9 @@ Andrés Gil</desc>
   <programme start="20261024075500 -0300" stop="20261024080000 -0300" channel="0949">
     <title>Himno nacional</title>
     <desc>Transmisión del Himno Nacional de Venezuela.</desc>
+    <date>1954</date>
     <category>Cultural</category>
+    <country>Perú</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261024080000 -0300" stop="20261024085700 -0300" channel="0949">
@@ -761783,7 +762340,9 @@ Andrés Gil</desc>
   <programme start="20261023075700 -0300" stop="20261023075900 -0300" channel="0953">
     <title>Himno nacional</title>
     <desc>Transmisión del Himno Nacional de Venezuela.</desc>
+    <date>1954</date>
     <category>Cultural</category>
+    <country>Perú</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261023075900 -0300" stop="20261023080000 -0300" channel="0953">
@@ -761795,7 +762354,9 @@ Andrés Gil</desc>
   <programme start="20261023080000 -0300" stop="20261023080300 -0300" channel="0953">
     <title>Himno nacional</title>
     <desc>Transmisión del Himno Nacional de Venezuela.</desc>
+    <date>1954</date>
     <category>Cultural</category>
+    <country>Perú</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261023080300 -0300" stop="20261023085900 -0300" channel="0953">
@@ -761935,7 +762496,9 @@ Andrés Gil</desc>
   <programme start="20261024080000 -0300" stop="20261024080300 -0300" channel="0953">
     <title>Himno nacional</title>
     <desc>Transmisión del Himno Nacional de Venezuela.</desc>
+    <date>1954</date>
     <category>Cultural</category>
+    <country>Perú</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261024080300 -0300" stop="20261024085900 -0300" channel="0953">
@@ -762479,7 +763042,9 @@ Andrés Gil</desc>
   <programme start="20261023113000 -0300" stop="20261023130000 -0300" channel="0955">
     <title>América hoy</title>
     <desc>América Hoy es un magacín matinal de la televisión peruana transmitido a través de la señal de América Televisión, caracterizado por ofrecer una combinación dinámica de actualidad, farándula, entrevistas exclusivas a personajes de la farándula nacional, además de segmentos dedicados al entretenimiento, la cocina y consejos de salud para el hogar.</desc>
+    <date>2019</date>
     <category>Magazine</category>
+    <country>Perú</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/americahoy.jpg" />
   </programme>
   <programme start="20261023130000 -0300" stop="20261023140000 -0300" channel="0955">
@@ -778400,7 +778965,20 @@ Andrés Gil</desc>
   <programme start="20261024145400 -0300" stop="20261024181300 -0300" channel="0977">
     <title>La Historia Mas Grande Jamas Contada</title>
     <desc>Superproducción sobre la vida de Jesús de Nazaret que contó con un extenso y conocido reparto en el que destaca Max von Sydow como Jesucristo. A partir de los Evangelios narra la vida de Jesús en la Palestina ocupada por Roma: su nacimiento en Belén, su infancia en Nazaret, los tres años de vida pública, la Última Cena, la traición de su discípulo Judas, su juicio, crucifixión y posterior resurrección.</desc>
+    <credits>
+      <director>George Stevens</director>
+      <actor>Max von Sydow</actor>
+      <actor>Michael Anderson Jr.</actor>
+      <actor>Carroll Baker</actor>
+      <actor>Ina Balin</actor>
+      <actor>Victor Buono</actor>
+      <actor>Richard Conte</actor>
+      <actor>Joanna Dunham</actor>
+      <actor>José Ferrer</actor>
+    </credits>
+    <date>1965</date>
     <category>MOVIES RETRO</category>
+    <country>Estados Unidos</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/lahistoriamasgrandejamascontada.jpg" />
   </programme>
   <programme start="20261024181300 -0300" stop="20261024195000 -0300" channel="0977">
@@ -779583,7 +780161,20 @@ Andrés Gil</desc>
   <programme start="20261027124800 -0300" stop="20261027125700 -0300" channel="0978">
     <title>Los Tres Cerditos: El Cerdito Práctico</title>
     <desc>74º de los 75 cortos que forman las Silly Symphonies de Disney. (FILMAFFINITY)</desc>
+    <credits>
+      <director>Dick Rickard</director>
+      <actor>Billy Bletcher</actor>
+      <actor>Mary Moder</actor>
+      <actor>Dorothy Compton</actor>
+      <actor>Pinto Colvig</actor>
+      <actor>Tommy Wiggins</actor>
+      <actor>Tom Buchanan</actor>
+      <actor>Ralph Hansell</actor>
+      <actor>Leone LeDoux</actor>
+    </credits>
+    <date>1939</date>
     <category>Movies</category>
+    <country>Estados Unidos</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/lostrescerditoselcerditopractico.jpg" />
   </programme>
   <programme start="20261027125700 -0300" stop="20261027143300 -0300" channel="0978">
