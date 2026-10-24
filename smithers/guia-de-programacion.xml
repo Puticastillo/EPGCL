@@ -8835,8 +8835,9 @@ Primer plano: interesante, impactante, informativo.</desc>
   </programme>
   <programme start="20261025001500 -0300" stop="20261025012500 -0300" channel="0107">
     <title>El clan</title>
-    <desc>Repetición ║ Las cenas clandestinas se están haciendo cada vez más populares en Chile, donde básicamente diferentes cocineros profesionales, o amateurs, realizan una cena informal para mostrar su propuesta gastronómica a un grupo reducido de personas. En este espacio haremos un recorrido por las mejores cenas clandestinas que se están realizando en la ciudad, para mostrar un ambiente poco conocido por algunos, pero muy valorado por otros.</desc>
+    <desc>Repetición ║ La historia se basa en el caso policial del Clan Puccio, que conmocionó a la sociedad argentina a principios de los 80. Tras la aparente normalidad de los Puccio se oculta un siniestro clan dedicado al secuestro y al asesinato. Arquímedes, el patriarca, lidera y planifica las operaciones. Alejandro, el hijo mayor, estrella de un club de rugby, se sirve de su popularidad para no levantar sospechas. Los demás miembros de la familia son cómplices en mayor o menor grado de los crímenes del clan y viven de los beneficios obtenidos de los rescates que pagan los familiares de los secuestrados.</desc>
     <credits>
+      <director>Pablo Trapero</director>
       <actor>Eliseo Mella</actor>
     </credits>
     <date>2020</date>
@@ -100217,6 +100218,7 @@ Andrés Gil</desc>
     </credits>
     <date>2021</date>
     <category>Documentary</category>
+    <country>Estados Unidos</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/historydetective.jpg" />
   </programme>
   <programme start="20261028104500 -0300" stop="20261028110000 -0300" channel="1219">
@@ -108685,6 +108687,7 @@ Andrés Gil</desc>
     <category>Home improvement</category>
     <category>Arts/crafts</category>
     <category>House/garden</category>
+    <country>Bélgica</country>
     <rating><value>TVG</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/unebriquedansleventre.jpg" />
   </programme>
@@ -109094,6 +109097,7 @@ Andrés Gil</desc>
     <date>2020</date>
     <category>Newsmagazine</category>
     <category>Public affairs</category>
+    <country>Bélgica</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261028020300 -0300" stop="20261028022700 -0300" channel="0224">
@@ -109764,6 +109768,7 @@ Andrés Gil</desc>
     <category>Home improvement</category>
     <category>Arts/crafts</category>
     <category>House/garden</category>
+    <country>Bélgica</country>
     <rating><value>TVG</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/unebriquedansleventre.jpg" />
   </programme>
@@ -293904,7 +293909,7 @@ Esta secuela ignora por completo los fillers (Capítulos y conceptos inventados 
     <rating><value>TE</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/winnoticias.jpg" />
   </programme>
-  <programme start="20261024150000 -0300" stop="20261024173000 -0300" channel="0429">
+  <programme start="20261024150000 -0300" stop="20261024170000 -0300" channel="0429">
     <title>Fútbol: Previa</title>
     <desc>Reportajes, análisis y comentarios previo al gran evento deportivo.</desc>
     <date>2003</date>
@@ -293912,13 +293917,22 @@ Esta secuela ignora por completo los fillers (Capítulos y conceptos inventados 
     <rating><value>TE</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbolprevia.jpg" />
   </programme>
-  <programme start="20261024173000 -0300" stop="20261024193000 -0300" channel="0429">
-    <title>Multipantalla la definición fecha 15 Torneo Betplay Dimayor</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
+  <programme start="20261024170000 -0300" stop="20261024190000 -0300" channel="0429">
+    <title>[En vivo] Fútbol CONMEBOL Copa Libertadores Femenina • Cuartos de final: Palmeiras vs Independiente Santa Fe</title>
+    <sub-title>Cuartos de final: Palmeiras vs. Independiente Santa Fe</sub-title>
+    <desc>En vivo ║ Cuartos de final: Palmeiras vs Independiente Santa Fe | Palmeiras se enfrenta al Independiente Santa Fe en los cuartos de final de la CONMEBOL Libertadores Femenina 2026. Las Albiverdes llegan invictas a esta etapa y liderando su grupo, mientras que Las Leonas clasificaron en segundo lugar del Grupo A.</desc>
     <date>2026</date>
-    <category>Series</category>
+    <category>Fútbol</category>
     <rating><value>+15</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/multipantallaladefinicionfecha15torneobetplaydimayor.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbolconmebolcopalibertadoresfemenina.jpg" />
+  </programme>
+  <programme start="20261024190000 -0300" stop="20261024193000 -0300" channel="0429">
+    <title>Una cancha llamada Colombia</title>
+    <desc>Proyecto social, deportivo, artístico, documental e integral de la Fundación Arte para el Cambio que evidencia cómo el fútbol se convierte en un eje de transformación social en cada rincón de Colombia.</desc>
+    <date>2021</date>
+    <category>Noticias</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/unacanchallamadacolombia.jpg" />
   </programme>
   <programme start="20261024193000 -0300" stop="20261024203000 -0300" channel="0429">
     <title>Fútbol: Post</title>
@@ -293929,17 +293943,17 @@ Esta secuela ignora por completo los fillers (Capítulos y conceptos inventados 
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbolpost.jpg" />
   </programme>
   <programme start="20261024203000 -0300" stop="20261024210000 -0300" channel="0429">
-    <title>Una cancha llamada Colombia</title>
-    <desc>Proyecto social, deportivo, artístico, documental e integral de la Fundación Arte para el Cambio que evidencia cómo el fútbol se convierte en un eje de transformación social en cada rincón de Colombia.</desc>
-    <date>2021</date>
-    <category>Noticias</category>
+    <title>Fútbol: Previa</title>
+    <desc>Reportajes, análisis y comentarios previo al gran evento deportivo.</desc>
+    <date>2003</date>
+    <category>Fútbol</category>
     <rating><value>TE</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/unacanchallamadacolombia.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbolprevia.jpg" />
   </programme>
   <programme start="20261024210000 -0300" stop="20261024230000 -0300" channel="0429">
-    <title>Fútbol Brasileirao • Santos vs Bahía</title>
+    <title>[En vivo] Fútbol Brasileirao • Santos vs Bahía</title>
     <sub-title>Santos vs. Bahía</sub-title>
-    <desc>Santos vs Bahía | Toda la acción con los partidos del campeonato brasileño de fútbol de Primera División.</desc>
+    <desc>En vivo ║ Santos vs Bahía | Santos recibe a Bahia en la fecha 32 del Brasileirao Serie A 2026. Peixe busca arrebatarle el séptimo puesto del torneo al Tricolor de Aço. Desde el estádio da Vila Belmiro, en Santos.</desc>
     <date>2026</date>
     <category>Fútbol</category>
     <rating><value>+15</value></rating>
@@ -293964,44 +293978,54 @@ Esta secuela ignora por completo los fillers (Capítulos y conceptos inventados 
   <programme start="20261025010000 -0300" stop="20261025030000 -0300" channel="0429">
     <title>Fútbol Colombiano Primera División • América de Cali vs Cúcuta Deportivo</title>
     <sub-title>América de Cali vs. Cúcuta Deportivo</sub-title>
-    <desc>América de Cali vs Cúcuta Deportivo | Desde el estadio Pascual Guerrero, en Cali, Valle del Cauca, Colombia.</desc>
+    <desc>América de Cali vs Cúcuta Deportivo | Acción de la fecha 16 del Torneo Clausura 2026 de la Primera A. America de Cali se enfrenta a Cúcuta Deportivo. Desde el estadio Pascual Guerrero, en Cali.</desc>
     <date>2026</date>
     <category>Fútbol</category>
     <rating><value>+15</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbolcolombianoprimeradivision.jpg" />
   </programme>
   <programme start="20261025030000 -0300" stop="20261025050000 -0300" channel="0429">
-    <title>Fútbol Colombiano</title>
-    <desc>Cobertura de los partidos de diversas categorías del fútbol colombiano.</desc>
-    <date>2016</date>
-    <category>Fútbol</category>
-    <rating><value>TE</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbolcolombiano.jpg" />
-  </programme>
-  <programme start="20261025050000 -0300" stop="20261025070000 -0300" channel="0429">
-    <title>Fútbol Colombiano Primera División • Once Caldas vs Deportivo Pereira</title>
-    <sub-title>Once Caldas vs. Deportivo Pereira</sub-title>
-    <desc>Once Caldas vs Deportivo Pereira | Desde el estadio Palogrande en Manizales, Caldas, Colombia.</desc>
+    <title>Fútbol Colombiano Segunda División • Patriotas Boyacá vs Envigado</title>
+    <sub-title>Patriotas Boyacá vs. Envigado</sub-title>
+    <desc>Patriotas Boyacá vs Envigado | Acción de la fecha 15 del Torneo Finalización 2026 de la Categoría Primera B. Patriotas Boyacá se enfrenta a Envigado. Desde el estadio La Independencia, en Tunja, Boyacá, Colombia.</desc>
     <date>2026</date>
     <category>Fútbol</category>
-    <rating><value>+15</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbolcolombianoprimeradivision.jpg" />
-  </programme>
-  <programme start="20261025070000 -0300" stop="20261025073000 -0300" channel="0429">
-    <title>Los Hijos de los Andes</title>
-    <desc>Serie que recorre 75 años de historia del ciclismo colombiano.</desc>
-    <date>2026</date>
-    <category>Otros</category>
     <rating><value>TE</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/loshijosdelosandes.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbolcolombianosegundadivision.jpg" />
   </programme>
-  <programme start="20261025073000 -0300" stop="20261025080000 -0300" channel="0429">
+  <programme start="20261025050000 -0300" stop="20261025053000 -0300" channel="0429">
     <title>Una cancha llamada Colombia</title>
     <desc>Proyecto social, deportivo, artístico, documental e integral de la Fundación Arte para el Cambio que evidencia cómo el fútbol se convierte en un eje de transformación social en cada rincón de Colombia.</desc>
     <date>2021</date>
     <category>Noticias</category>
     <rating><value>TE</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/unacanchallamadacolombia.jpg" />
+  </programme>
+  <programme start="20261025053000 -0300" stop="20261025070000 -0300" channel="0429">
+    <title>Fútbol Colombiano Primera División • Once Caldas vs Deportivo Pereira</title>
+    <sub-title>Once Caldas vs. Deportivo Pereira</sub-title>
+    <desc>Once Caldas vs Deportivo Pereira | Acción de la fecha 16 del Torneo Clausura 2026 de la Primera A. Once Caldas se enfrenta a Deportivo Pereira. Desde el Estadio Palogrande, en Manizales.</desc>
+    <date>2026</date>
+    <category>Fútbol</category>
+    <rating><value>+15</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbolcolombianoprimeradivision.jpg" />
+  </programme>
+  <programme start="20261025070000 -0300" stop="20261025073000 -0300" channel="0429">
+    <title>Fútbol Colombiano Primera División • Once Caldas vs Deportivo Pereira</title>
+    <sub-title>Once Caldas vs. Deportivo Pereira</sub-title>
+    <desc>Once Caldas vs Deportivo Pereira | Acción de la fecha 16 del Torneo Clausura 2026 de la Primera A. Once Caldas se enfrenta a Deportivo Pereira. Desde el Estadio Palogrande, en Manizales.</desc>
+    <date>2026</date>
+    <category>Fútbol</category>
+    <rating><value>+15</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbolcolombianoprimeradivision.jpg" />
+  </programme>
+  <programme start="20261025073000 -0300" stop="20261025080000 -0300" channel="0429">
+    <title>Los Hijos de los Andes</title>
+    <desc>Serie que recorre 75 años de historia del ciclismo colombiano.</desc>
+    <date>2026</date>
+    <category>Otros</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/loshijosdelosandes.jpg" />
   </programme>
   <programme start="20261025080000 -0300" stop="20261025110000 -0300" channel="0429">
     <title>Reto WIN</title>
@@ -294129,7 +294153,7 @@ Esta secuela ignora por completo los fillers (Capítulos y conceptos inventados 
     <rating><value>18</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/lafecha.jpg" />
   </programme>
-  <programme start="20261026070000 -0300" stop="20261026090000 -0300" channel="0429">
+  <programme start="20261026070000 -0300" stop="20261026080000 -0300" channel="0429">
     <title>Fútbol Colombiano Primera División</title>
     <desc>La mejor cobertura de los encuentros correspondientes a la Liga Colombiana de fútbol.</desc>
     <date>2010</date>
@@ -294137,47 +294161,45 @@ Esta secuela ignora por completo los fillers (Capítulos y conceptos inventados 
     <rating><value>TE</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbolcolombianoprimeradivision.jpg" />
   </programme>
-  <programme start="20261026090000 -0300" stop="20261026100000 -0300" channel="0429">
-    <title>Score Mundial</title>
-    <desc>Programa especializado en fútbol internacional con resúmenes de las principales ligas europeas, como la Liga Española, francesa, alemana, italiana e inglesa. Con especial atención al desempeño de los jugadores colombianos.</desc>
-    <date>2017</date>
-    <category>Series</category>
-    <rating><value>TE</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/scoremundial.jpg" />
-  </programme>
-  <programme start="20261026100000 -0300" stop="20261026130000 -0300" channel="0429">
-    <title>Primer toque</title>
-    <desc>Las noticias deportivas más relevantes del día y mucho más. Fútbol, actualidad, variedades, política, cultura, economía y otros deportes.</desc>
-    <date>2020</date>
+  <programme start="20261026080000 -0300" stop="20261026100000 -0300" channel="0429">
+    <title>Planeta Fútbol</title>
+    <desc>El mejor programa de análisis, opinión y controversia, donde la selección de fútbol de Colombia es el hilo conductor.</desc>
+    <credits>
+      <actor>Faryd Mondragón</actor>
+      <actor>Carlos Antonio Vélez</actor>
+      <actor>Juan José Pelaez</actor>
+    </credits>
+    <date>2016</date>
     <category>Fútbol</category>
     <rating><value>TE</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/primertoque.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/planetafutbol.jpg" />
   </programme>
-  <programme start="20261026130000 -0300" stop="20261026143000 -0300" channel="0429">
-    <title>Win Noticias Emisión Central</title>
-    <desc>Completo recorrido informativo por los hechos más relevantes del deporte nacional e internacional con interacción en las ciudades principales del país y las noticias más destacadas del mundo.</desc>
-    <date>2022</date>
+  <programme start="20261026100000 -0300" stop="20261026140000 -0300" channel="0429">
+    <title>Despierta Win</title>
+    <desc>El deporte cobra vida desde el inicio del día con un viaje más allá de los titulares hasta el corazón de las historias en una fusión de entretenimiento y deporte.</desc>
+    <date>2024</date>
     <category>Deportes</category>
-    <rating><value>+15</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/winnoticiasemisioncentral.jpg" />
-  </programme>
-  <programme start="20261026143000 -0300" stop="20261026163000 -0300" channel="0429">
-    <title>Fútbol Colombiano Primera División</title>
-    <desc>La mejor cobertura de los encuentros correspondientes a la Liga Colombiana de fútbol.</desc>
-    <date>2010</date>
-    <category>Fútbol</category>
     <rating><value>TE</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbolcolombianoprimeradivision.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/despiertawin.jpg" />
   </programme>
-  <programme start="20261026163000 -0300" stop="20261026180000 -0300" channel="0429">
-    <title>Win Noticias Emisión Central</title>
-    <desc>Completo recorrido informativo por los hechos más relevantes del deporte nacional e internacional con interacción en las ciudades principales del país y las noticias más destacadas del mundo.</desc>
-    <date>2022</date>
-    <category>Deportes</category>
+  <programme start="20261026140000 -0300" stop="20261026160000 -0300" channel="0429">
+    <title>Medio tiempo</title>
+    <desc>Todo el análisis e información de la primera mitad del partido y lo que se espera en el segundo tiempo.</desc>
+    <date>2026</date>
+    <category>Fútbol</category>
     <rating><value>+15</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/winnoticiasemisioncentral.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/mediotiempo.jpg" />
   </programme>
-  <programme start="20261026180000 -0300" stop="20261026200000 -0300" channel="0429">
+  <programme start="20261026160000 -0300" stop="20261026180000 -0300" channel="0429">
+    <title>Fútbol Colombiano • Supercopa Juvenil: Atlético Nacional vs Deportes Tolima</title>
+    <sub-title>Supercopa Juvenil: Atlético Nacional vs. Deportes Tolima</sub-title>
+    <desc>Supercopa Juvenil: Atlético Nacional vs Deportes Tolima | La información de este programa no se encuentra disponible.</desc>
+    <date>2026</date>
+    <category>Fútbol</category>
+    <rating><value>+15</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbolcolombiano.jpg" />
+  </programme>
+  <programme start="20261026180000 -0300" stop="20261026193000 -0300" channel="0429">
     <title>Saque largo</title>
     <desc>Una forma diferente de ver y vivir el fútbol, con debate y análisis sobre lo que pasa a nivel nacional e internacional.</desc>
     <date>2014</date>
@@ -294185,35 +294207,42 @@ Esta secuela ignora por completo los fillers (Capítulos y conceptos inventados 
     <rating><value>+15</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/saquelargo.jpg" />
   </programme>
-  <programme start="20261026200000 -0300" stop="20261026220000 -0300" channel="0429">
-    <title>Fútbol Colombiano Segunda División</title>
-    <desc>La mejor cobertura del torneo de Segunda División en Colombia.</desc>
-    <date>2013</date>
+  <programme start="20261026193000 -0300" stop="20261026213000 -0300" channel="0429">
+    <title>Fútbol Brasileirao • Coritiba vs Grêmio</title>
+    <sub-title>Coritiba vs. Grêmio</sub-title>
+    <desc>Coritiba vs Grêmio | Toda la acción con los partidos del campeonato brasileño de fútbol de Primera División.</desc>
+    <date>2026</date>
     <category>Fútbol</category>
-    <rating><value>TE</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbolcolombianosegundadivision.jpg" />
-  </programme>
-  <programme start="20261026220000 -0300" stop="20261026230000 -0300" channel="0429">
-    <title>Conexión deportes</title>
-    <desc>Programa de opinión y debate sobre los hechos más destacados en el deporte colombiano e internacional.</desc>
-    <credits>
-      <actor>Tito Puccetti</actor>
-    </credits>
-    <date>2014</date>
-    <category>Deportes</category>
     <rating><value>+15</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/conexiondeportes.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbolbrasileirao.jpg" />
   </programme>
-  <programme start="20261026230000 -0300" stop="20261027000000 -0300" channel="0429">
-    <title>Última jugada</title>
-    <desc>En el mundo del billar, Johnny (Mars Callahan) podría ser uno de los mejores, pero vive sometido a Joe (Chazz Palminteri), un oscuro personaje que decide cómo y con quién debe jugar. Finalmente Johnny rompe sus relaciones con Joe y, presionado por su novia (Alison Eastwood), empieza a trabajar. Joe, resentido, intenta vengarse y encuentra un nuevo protegido, Brad (Rick Schroder), tan bueno o mejor que Johnny. (FILMAFFINITY)</desc>
-    <date>2022</date>
+  <programme start="20261026213000 -0300" stop="20261026220000 -0300" channel="0429">
+    <title>Fútbol: Previa</title>
+    <desc>Reportajes, análisis y comentarios previo al gran evento deportivo.</desc>
+    <date>2003</date>
     <category>Fútbol</category>
     <rating><value>TE</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/ultimajugada.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbolprevia.jpg" />
   </programme>
-  <programme start="20261027000000 -0300" stop="20261027020000 -0300" channel="0429">
-    <title>El Chiringuito de Jugones</title>
+  <programme start="20261026220000 -0300" stop="20261027000000 -0300" channel="0429">
+    <title>[En vivo] Fútbol Colombiano Primera División • Independiente Santa Fe vs Atlético Bucaramanga</title>
+    <sub-title>Independiente Santa Fe vs. Atlético Bucaramanga</sub-title>
+    <desc>En vivo ║ Independiente Santa Fe vs Atlético Bucaramanga | Acción de la fecha 14 del Torneo Finalización 2026 de la Categoría Primera A. Independiente Santa Fe se enfrenta a Atlético Bucaramanga. Desde el estadio Nemesio Camacho, en Bogotá, Colombia.</desc>
+    <date>2026</date>
+    <category>Fútbol</category>
+    <rating><value>+15</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbolcolombianoprimeradivision.jpg" />
+  </programme>
+  <programme start="20261027000000 -0300" stop="20261027010000 -0300" channel="0429">
+    <title>WIN Noticias</title>
+    <desc>La más completa información y todas las novedades del mundo deportivo nacional e internacional. Además, se tiene la más amplia cobertura de los deportistas colombianos en todo el mundo.</desc>
+    <date>2014</date>
+    <category>Reportaje</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/winnoticias.jpg" />
+  </programme>
+  <programme start="20261027010000 -0300" stop="20261027030000 -0300" channel="0429">
+    <title>El Chiringuito</title>
     <desc>Programación deportiva que abarca toda la información reciente acerca de los equipos de fútbol español.</desc>
     <credits>
       <director>Josep Pedrerol</director>
@@ -294221,83 +294250,71 @@ Esta secuela ignora por completo los fillers (Capítulos y conceptos inventados 
     <date>2014</date>
     <category>Deportes</category>
     <category>Entretenimiento</category>
-    <rating><value>18</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/elchiringuitodejugones.jpg" />
-  </programme>
-  <programme start="20261027020000 -0300" stop="20261027030000 -0300" channel="0429">
-    <title>Conexión deportes</title>
-    <desc>Programa de opinión y debate sobre los hechos más destacados en el deporte colombiano e internacional.</desc>
-    <credits>
-      <actor>Tito Puccetti</actor>
-    </credits>
-    <date>2014</date>
-    <category>Deportes</category>
-    <rating><value>+15</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/conexiondeportes.jpg" />
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/elchiringuito.jpg" />
   </programme>
   <programme start="20261027030000 -0300" stop="20261027050000 -0300" channel="0429">
-    <title>Saque largo</title>
-    <desc>Una forma diferente de ver y vivir el fútbol, con debate y análisis sobre lo que pasa a nivel nacional e internacional.</desc>
-    <date>2014</date>
+    <title>Fútbol Colombiano Primera División • Atlético Nacional vs Independiente Medellín</title>
+    <sub-title>Atlético Nacional vs. Independiente Medellín</sub-title>
+    <desc>Atlético Nacional vs Independiente Medellín | Desde el estadio Atanasio Girardot en Medellín, Colombia.</desc>
+    <date>2026</date>
     <category>Fútbol</category>
     <rating><value>+15</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/saquelargo.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbolcolombianoprimeradivision.jpg" />
   </programme>
   <programme start="20261027050000 -0300" stop="20261027070000 -0300" channel="0429">
-    <title>Fútbol Colombiano Segunda División</title>
-    <desc>La mejor cobertura del torneo de Segunda División en Colombia.</desc>
-    <date>2013</date>
+    <title>Fútbol Colombiano Primera División • Jaguares vs Llaneros</title>
+    <sub-title>Jaguares vs. Llaneros</sub-title>
+    <desc>Jaguares vs Llaneros | Desde el estadio Jaraguay, en Montería, Colombia.</desc>
+    <date>2026</date>
+    <category>Fútbol</category>
+    <rating><value>+15</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbolcolombianoprimeradivision.jpg" />
+  </programme>
+  <programme start="20261027070000 -0300" stop="20261027080000 -0300" channel="0429">
+    <title>WIN Noticias</title>
+    <desc>La más completa información y todas las novedades del mundo deportivo nacional e internacional. Además, se tiene la más amplia cobertura de los deportistas colombianos en todo el mundo.</desc>
+    <date>2014</date>
+    <category>Reportaje</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/winnoticias.jpg" />
+  </programme>
+  <programme start="20261027080000 -0300" stop="20261027100000 -0300" channel="0429">
+    <title>Planeta Fútbol</title>
+    <desc>El mejor programa de análisis, opinión y controversia, donde la selección de fútbol de Colombia es el hilo conductor.</desc>
+    <credits>
+      <actor>Faryd Mondragón</actor>
+      <actor>Carlos Antonio Vélez</actor>
+      <actor>Juan José Pelaez</actor>
+    </credits>
+    <date>2016</date>
     <category>Fútbol</category>
     <rating><value>TE</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbolcolombianosegundadivision.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/planetafutbol.jpg" />
   </programme>
-  <programme start="20261027070000 -0300" stop="20261027090000 -0300" channel="0429">
-    <title>Fútbol Colombiano Segunda División</title>
-    <desc>La mejor cobertura del torneo de Segunda División en Colombia.</desc>
-    <date>2013</date>
-    <category>Fútbol</category>
-    <rating><value>TE</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbolcolombianosegundadivision.jpg" />
-  </programme>
-  <programme start="20261027090000 -0300" stop="20261027100000 -0300" channel="0429">
-    <title>Última jugada</title>
-    <desc>En el mundo del billar, Johnny (Mars Callahan) podría ser uno de los mejores, pero vive sometido a Joe (Chazz Palminteri), un oscuro personaje que decide cómo y con quién debe jugar. Finalmente Johnny rompe sus relaciones con Joe y, presionado por su novia (Alison Eastwood), empieza a trabajar. Joe, resentido, intenta vengarse y encuentra un nuevo protegido, Brad (Rick Schroder), tan bueno o mejor que Johnny. (FILMAFFINITY)</desc>
-    <date>2022</date>
-    <category>Fútbol</category>
-    <rating><value>TE</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/ultimajugada.jpg" />
-  </programme>
-  <programme start="20261027100000 -0300" stop="20261027130000 -0300" channel="0429">
-    <title>Primer toque</title>
-    <desc>Las noticias deportivas más relevantes del día y mucho más. Fútbol, actualidad, variedades, política, cultura, economía y otros deportes.</desc>
-    <date>2020</date>
-    <category>Fútbol</category>
-    <rating><value>TE</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/primertoque.jpg" />
-  </programme>
-  <programme start="20261027130000 -0300" stop="20261027143000 -0300" channel="0429">
-    <title>Win Noticias Emisión Central</title>
-    <desc>Completo recorrido informativo por los hechos más relevantes del deporte nacional e internacional con interacción en las ciudades principales del país y las noticias más destacadas del mundo.</desc>
-    <date>2022</date>
+  <programme start="20261027100000 -0300" stop="20261027143000 -0300" channel="0429">
+    <title>Despierta Win</title>
+    <desc>El deporte cobra vida desde el inicio del día con un viaje más allá de los titulares hasta el corazón de las historias en una fusión de entretenimiento y deporte.</desc>
+    <date>2024</date>
     <category>Deportes</category>
-    <rating><value>+15</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/winnoticiasemisioncentral.jpg" />
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/despiertawin.jpg" />
   </programme>
-  <programme start="20261027143000 -0300" stop="20261027163000 -0300" channel="0429">
-    <title>Fútbol Copa Colombia</title>
-    <desc>Los mejores partidos y toda la acción de la Copa Colombia.</desc>
-    <date>2008</date>
+  <programme start="20261027143000 -0300" stop="20261027160000 -0300" channel="0429">
+    <title>WIN Noticias</title>
+    <desc>La más completa información y todas las novedades del mundo deportivo nacional e internacional. Además, se tiene la más amplia cobertura de los deportistas colombianos en todo el mundo.</desc>
+    <date>2014</date>
+    <category>Reportaje</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/winnoticias.jpg" />
+  </programme>
+  <programme start="20261027160000 -0300" stop="20261027180000 -0300" channel="0429">
+    <title>Medio tiempo</title>
+    <desc>Todo el análisis e información de la primera mitad del partido y lo que se espera en el segundo tiempo.</desc>
+    <date>2026</date>
     <category>Fútbol</category>
     <rating><value>+15</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbolcopacolombia.jpg" />
-  </programme>
-  <programme start="20261027163000 -0300" stop="20261027180000 -0300" channel="0429">
-    <title>Win Noticias Emisión Central</title>
-    <desc>Completo recorrido informativo por los hechos más relevantes del deporte nacional e internacional con interacción en las ciudades principales del país y las noticias más destacadas del mundo.</desc>
-    <date>2022</date>
-    <category>Deportes</category>
-    <rating><value>+15</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/winnoticiasemisioncentral.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/mediotiempo.jpg" />
   </programme>
   <programme start="20261027180000 -0300" stop="20261027200000 -0300" channel="0429">
     <title>Saque largo</title>
@@ -294307,43 +294324,34 @@ Esta secuela ignora por completo los fillers (Capítulos y conceptos inventados 
     <rating><value>+15</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/saquelargo.jpg" />
   </programme>
-  <programme start="20261027200000 -0300" stop="20261027213000 -0300" channel="0429">
-    <title>Conexión deportes</title>
-    <desc>Programa de opinión y debate sobre los hechos más destacados en el deporte colombiano e internacional.</desc>
-    <credits>
-      <actor>Tito Puccetti</actor>
-    </credits>
-    <date>2014</date>
-    <category>Deportes</category>
-    <rating><value>+15</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/conexiondeportes.jpg" />
-  </programme>
-  <programme start="20261027213000 -0300" stop="20261027220000 -0300" channel="0429">
-    <title>Fútbol: Previa</title>
-    <desc>Reportajes, análisis y comentarios previo al gran evento deportivo.</desc>
-    <date>2003</date>
+  <programme start="20261027200000 -0300" stop="20261027220000 -0300" channel="0429">
+    <title>Fútbol Colombiano Primera División • Cúcuta Deportivo vs Águilas Doradas</title>
+    <sub-title>Cúcuta Deportivo vs. Águilas Doradas</sub-title>
+    <desc>Cúcuta Deportivo vs Águilas Doradas | Acción de la fecha 5 del Torneo Finalización 2026 de la Categoría Primera A. Cúcuta Deportivo se enfrenta a Águilas Doradas. Desde el Estadio General Santander, en Cúcuta, Norte de Santander, Colombia.</desc>
+    <date>2026</date>
     <category>Fútbol</category>
-    <rating><value>TE</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbolprevia.jpg" />
+    <rating><value>+15</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbolcolombianoprimeradivision.jpg" />
   </programme>
   <programme start="20261027220000 -0300" stop="20261028000000 -0300" channel="0429">
-    <title>Fútbol Colombiano Primera División</title>
-    <desc>La mejor cobertura de los encuentros correspondientes a la Liga Colombiana de fútbol.</desc>
-    <date>2010</date>
+    <title>Fútbol Colombiano Primera División • Boyacá Chicó FC vs Junior</title>
+    <sub-title>Boyacá Chicó FC vs. Junior</sub-title>
+    <desc>Boyacá Chicó FC vs Junior | Acción de la fecha 5 del Torneo Finalización 2026 de la Categoría Primera A. Boyacá Chicó FC se enfrenta a Junior. Desde el estadio La Independencia, en Tunja, Boyacá, Colombia.</desc>
+    <date>2026</date>
     <category>Fútbol</category>
-    <rating><value>TE</value></rating>
+    <rating><value>+15</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbolcolombianoprimeradivision.jpg" />
   </programme>
   <programme start="20261028000000 -0300" stop="20261028010000 -0300" channel="0429">
-    <title>Última jugada</title>
-    <desc>En el mundo del billar, Johnny (Mars Callahan) podría ser uno de los mejores, pero vive sometido a Joe (Chazz Palminteri), un oscuro personaje que decide cómo y con quién debe jugar. Finalmente Johnny rompe sus relaciones con Joe y, presionado por su novia (Alison Eastwood), empieza a trabajar. Joe, resentido, intenta vengarse y encuentra un nuevo protegido, Brad (Rick Schroder), tan bueno o mejor que Johnny. (FILMAFFINITY)</desc>
-    <date>2022</date>
-    <category>Fútbol</category>
+    <title>WIN Noticias</title>
+    <desc>La más completa información y todas las novedades del mundo deportivo nacional e internacional. Además, se tiene la más amplia cobertura de los deportistas colombianos en todo el mundo.</desc>
+    <date>2014</date>
+    <category>Reportaje</category>
     <rating><value>TE</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/ultimajugada.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/winnoticias.jpg" />
   </programme>
   <programme start="20261028010000 -0300" stop="20261028030000 -0300" channel="0429">
-    <title>El Chiringuito de Jugones</title>
+    <title>El Chiringuito</title>
     <desc>Programación deportiva que abarca toda la información reciente acerca de los equipos de fútbol español.</desc>
     <credits>
       <director>Josep Pedrerol</director>
@@ -294351,108 +294359,96 @@ Esta secuela ignora por completo los fillers (Capítulos y conceptos inventados 
     <date>2014</date>
     <category>Deportes</category>
     <category>Entretenimiento</category>
-    <rating><value>18</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/elchiringuitodejugones.jpg" />
-  </programme>
-  <programme start="20261028030000 -0300" stop="20261028043000 -0300" channel="0429">
-    <title>Conexión deportes</title>
-    <desc>Programa de opinión y debate sobre los hechos más destacados en el deporte colombiano e internacional.</desc>
-    <credits>
-      <actor>Tito Puccetti</actor>
-    </credits>
-    <date>2014</date>
-    <category>Deportes</category>
-    <rating><value>+15</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/conexiondeportes.jpg" />
-  </programme>
-  <programme start="20261028043000 -0300" stop="20261028050000 -0300" channel="0429">
-    <title>Campañas</title>
-    <desc>Un programa que recuerda aquellas temporadas exitosas y muestra el camino que recorrieron equipos, jugadores y entrenadores emblemáticos del fútbol colombiano que dejaron una huella y llenan de orgullo a cada una de sus hinchadas.</desc>
-    <date>2019</date>
-    <category>Fútbol</category>
     <rating><value>TE</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/campanas.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/elchiringuito.jpg" />
+  </programme>
+  <programme start="20261028030000 -0300" stop="20261028050000 -0300" channel="0429">
+    <title>Fútbol Colombiano Primera División • Cúcuta Deportivo vs Águilas Doradas</title>
+    <sub-title>Cúcuta Deportivo vs. Águilas Doradas</sub-title>
+    <desc>Cúcuta Deportivo vs Águilas Doradas | Acción de la fecha 5 del Torneo Finalización 2026 de la Categoría Primera A. Cúcuta Deportivo se enfrenta a Águilas Doradas. Desde el Estadio General Santander, en Cúcuta, Norte de Santander, Colombia.</desc>
+    <date>2026</date>
+    <category>Fútbol</category>
+    <rating><value>+15</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbolcolombianoprimeradivision.jpg" />
   </programme>
   <programme start="20261028050000 -0300" stop="20261028070000 -0300" channel="0429">
-    <title>Saque largo</title>
-    <desc>Una forma diferente de ver y vivir el fútbol, con debate y análisis sobre lo que pasa a nivel nacional e internacional.</desc>
+    <title>Fútbol Colombiano Primera División • Boyacá Chicó FC vs Junior</title>
+    <sub-title>Boyacá Chicó FC vs. Junior</sub-title>
+    <desc>Boyacá Chicó FC vs Junior | Acción de la fecha 5 del Torneo Finalización 2026 de la Categoría Primera A. Boyacá Chicó FC se enfrenta a Junior. Desde el estadio La Independencia, en Tunja, Boyacá, Colombia.</desc>
+    <date>2026</date>
+    <category>Fútbol</category>
+    <rating><value>+15</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbolcolombianoprimeradivision.jpg" />
+  </programme>
+  <programme start="20261028070000 -0300" stop="20261028080000 -0300" channel="0429">
+    <title>WIN Noticias</title>
+    <desc>La más completa información y todas las novedades del mundo deportivo nacional e internacional. Además, se tiene la más amplia cobertura de los deportistas colombianos en todo el mundo.</desc>
     <date>2014</date>
-    <category>Fútbol</category>
-    <rating><value>+15</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/saquelargo.jpg" />
+    <category>Reportaje</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/winnoticias.jpg" />
   </programme>
-  <programme start="20261028070000 -0300" stop="20261028090000 -0300" channel="0429">
-    <title>Fútbol Copa Colombia</title>
-    <desc>Cobertura del torneo que une a la Primera A y la B de Colombia por un cupo a la CONMEBOL Copa Sudamericana.</desc>
-    <date>2013</date>
+  <programme start="20261028080000 -0300" stop="20261028100000 -0300" channel="0429">
+    <title>Planeta Fútbol</title>
+    <desc>El mejor programa de análisis, opinión y controversia, donde la selección de fútbol de Colombia es el hilo conductor.</desc>
+    <credits>
+      <actor>Faryd Mondragón</actor>
+      <actor>Carlos Antonio Vélez</actor>
+      <actor>Juan José Pelaez</actor>
+    </credits>
+    <date>2016</date>
     <category>Fútbol</category>
     <rating><value>TE</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbolcopacolombia.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/planetafutbol.jpg" />
   </programme>
-  <programme start="20261028090000 -0300" stop="20261028100000 -0300" channel="0429">
-    <title>Última jugada</title>
-    <desc>En el mundo del billar, Johnny (Mars Callahan) podría ser uno de los mejores, pero vive sometido a Joe (Chazz Palminteri), un oscuro personaje que decide cómo y con quién debe jugar. Finalmente Johnny rompe sus relaciones con Joe y, presionado por su novia (Alison Eastwood), empieza a trabajar. Joe, resentido, intenta vengarse y encuentra un nuevo protegido, Brad (Rick Schroder), tan bueno o mejor que Johnny. (FILMAFFINITY)</desc>
-    <date>2022</date>
-    <category>Fútbol</category>
-    <rating><value>TE</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/ultimajugada.jpg" />
-  </programme>
-  <programme start="20261028100000 -0300" stop="20261028130000 -0300" channel="0429">
-    <title>Primer toque</title>
-    <desc>Las noticias deportivas más relevantes del día y mucho más. Fútbol, actualidad, variedades, política, cultura, economía y otros deportes.</desc>
-    <date>2020</date>
-    <category>Fútbol</category>
-    <rating><value>TE</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/primertoque.jpg" />
-  </programme>
-  <programme start="20261028130000 -0300" stop="20261028143000 -0300" channel="0429">
-    <title>Win Noticias Emisión Central</title>
-    <desc>Completo recorrido informativo por los hechos más relevantes del deporte nacional e internacional con interacción en las ciudades principales del país y las noticias más destacadas del mundo.</desc>
-    <date>2022</date>
+  <programme start="20261028100000 -0300" stop="20261028143000 -0300" channel="0429">
+    <title>Despierta Win</title>
+    <desc>El deporte cobra vida desde el inicio del día con un viaje más allá de los titulares hasta el corazón de las historias en una fusión de entretenimiento y deporte.</desc>
+    <date>2024</date>
     <category>Deportes</category>
-    <rating><value>+15</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/winnoticiasemisioncentral.jpg" />
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/despiertawin.jpg" />
   </programme>
-  <programme start="20261028143000 -0300" stop="20261028163000 -0300" channel="0429">
+  <programme start="20261028143000 -0300" stop="20261028153000 -0300" channel="0429">
+    <title>WIN Noticias</title>
+    <desc>La más completa información y todas las novedades del mundo deportivo nacional e internacional. Además, se tiene la más amplia cobertura de los deportistas colombianos en todo el mundo.</desc>
+    <date>2014</date>
+    <category>Reportaje</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/winnoticias.jpg" />
+  </programme>
+  <programme start="20261028153000 -0300" stop="20261028170000 -0300" channel="0429">
+    <title>Medio tiempo</title>
+    <desc>Todo el análisis e información de la primera mitad del partido y lo que se espera en el segundo tiempo.</desc>
+    <date>2026</date>
+    <category>Fútbol</category>
+    <rating><value>+15</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/mediotiempo.jpg" />
+  </programme>
+  <programme start="20261028170000 -0300" stop="20261028190000 -0300" channel="0429">
     <title>Fútbol Colombiano Primera División</title>
-    <desc>La mejor cobertura de los encuentros correspondientes a la Liga Colombiana de fútbol.</desc>
-    <date>2010</date>
+    <desc>Toda la emoción, la acción y los goles, con el recuerdo de los mejores partidos de la Primera División del fútbol colombiano.</desc>
+    <date>2016</date>
     <category>Fútbol</category>
     <rating><value>TE</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbolcolombianoprimeradivision.jpg" />
   </programme>
-  <programme start="20261028163000 -0300" stop="20261028180000 -0300" channel="0429">
-    <title>Win Noticias Emisión Central</title>
-    <desc>Completo recorrido informativo por los hechos más relevantes del deporte nacional e internacional con interacción en las ciudades principales del país y las noticias más destacadas del mundo.</desc>
-    <date>2022</date>
-    <category>Deportes</category>
-    <rating><value>+15</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/winnoticiasemisioncentral.jpg" />
-  </programme>
-  <programme start="20261028180000 -0300" stop="20261028190000 -0300" channel="0429">
-    <title>Saque largo</title>
-    <desc>Una forma diferente de ver y vivir el fútbol, con debate y análisis sobre lo que pasa a nivel nacional e internacional.</desc>
-    <date>2014</date>
-    <category>Fútbol</category>
-    <rating><value>+15</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/saquelargo.jpg" />
-  </programme>
-  <programme start="20261028190000 -0300" stop="20261028210000 -0300" channel="0429">
-    <title>Fútbol Copa Colombia</title>
-    <desc>Cobertura del torneo que une a la Primera A y la B de Colombia por un cupo a la CONMEBOL Copa Sudamericana.</desc>
-    <date>2013</date>
+  <programme start="20261028190000 -0300" stop="20261028193000 -0300" channel="0429">
+    <title>Fútbol: Previa</title>
+    <desc>Reportajes, análisis y comentarios previo al gran evento deportivo.</desc>
+    <date>2003</date>
     <category>Fútbol</category>
     <rating><value>TE</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbolcopacolombia.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbolprevia.jpg" />
   </programme>
-  <programme start="20261028210000 -0300" stop="20261028213000 -0300" channel="0429">
-    <title>Rueda de prensa: Superliga de Colombia</title>
-    <desc>Comparecencia ante los medios de cara a los partidos de la final por la Superliga de Colombia.</desc>
-    <date>2023</date>
+  <programme start="20261028193000 -0300" stop="20261028213000 -0300" channel="0429">
+    <title>[En vivo] Fútbol Brasileirao • Santos vs Palmeiras</title>
+    <sub-title>Santos vs. Palmeiras</sub-title>
+    <desc>En vivo ║ Santos vs Palmeiras | Toda la acción con los partidos del campeonato brasileño de fútbol de Primera División.</desc>
+    <date>2026</date>
     <category>Fútbol</category>
-    <category>Deportes</category>
     <rating><value>+15</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbolbrasileirao.jpg" />
   </programme>
   <programme start="20261028213000 -0300" stop="20261028220000 -0300" channel="0429">
     <title>Fútbol: Previa</title>
@@ -294462,24 +294458,25 @@ Esta secuela ignora por completo los fillers (Capítulos y conceptos inventados 
     <rating><value>TE</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbolprevia.jpg" />
   </programme>
-  <programme start="20261028220000 -0300" stop="20261028230000 -0300" channel="0429">
-    <title>Score Mundial</title>
-    <desc>Programa especializado en fútbol internacional con resúmenes de las principales ligas europeas, como la Liga Española, francesa, alemana, italiana e inglesa. Con especial atención al desempeño de los jugadores colombianos.</desc>
-    <date>2017</date>
-    <category>Series</category>
-    <rating><value>TE</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/scoremundial.jpg" />
-  </programme>
-  <programme start="20261028230000 -0300" stop="20261029000000 -0300" channel="0429">
-    <title>Última jugada</title>
-    <desc>En el mundo del billar, Johnny (Mars Callahan) podría ser uno de los mejores, pero vive sometido a Joe (Chazz Palminteri), un oscuro personaje que decide cómo y con quién debe jugar. Finalmente Johnny rompe sus relaciones con Joe y, presionado por su novia (Alison Eastwood), empieza a trabajar. Joe, resentido, intenta vengarse y encuentra un nuevo protegido, Brad (Rick Schroder), tan bueno o mejor que Johnny. (FILMAFFINITY)</desc>
-    <date>2022</date>
+  <programme start="20261028220000 -0300" stop="20261029000000 -0300" channel="0429">
+    <title>[En vivo] Fútbol Colombiano Primera División • Internacional de Bogotá vs Independiente Medellín</title>
+    <sub-title>Internacional de Bogotá vs. Independiente Medellín</sub-title>
+    <desc>En vivo ║ Internacional de Bogotá vs Independiente Medellín | Acción de la fecha 5 del Torneo Finalización 2026 de la Categoría Primera A. Internacional de Bogotá se enfrenta a Independiente Medellín. Desde el Estadio Metropolitano de Techo, en Bogotá, Colombia.</desc>
+    <date>2026</date>
     <category>Fútbol</category>
-    <rating><value>TE</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/ultimajugada.jpg" />
+    <rating><value>+15</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbolcolombianoprimeradivision.jpg" />
   </programme>
-  <programme start="20261029000000 -0300" stop="20261029020000 -0300" channel="0429">
-    <title>El Chiringuito de Jugones</title>
+  <programme start="20261029000000 -0300" stop="20261029010000 -0300" channel="0429">
+    <title>WIN Noticias</title>
+    <desc>La más completa información y todas las novedades del mundo deportivo nacional e internacional. Además, se tiene la más amplia cobertura de los deportistas colombianos en todo el mundo.</desc>
+    <date>2014</date>
+    <category>Reportaje</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/winnoticias.jpg" />
+  </programme>
+  <programme start="20261029010000 -0300" stop="20261029030000 -0300" channel="0429">
+    <title>El Chiringuito</title>
     <desc>Programación deportiva que abarca toda la información reciente acerca de los equipos de fútbol español.</desc>
     <credits>
       <director>Josep Pedrerol</director>
@@ -294487,96 +294484,71 @@ Esta secuela ignora por completo los fillers (Capítulos y conceptos inventados 
     <date>2014</date>
     <category>Deportes</category>
     <category>Entretenimiento</category>
-    <rating><value>18</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/elchiringuitodejugones.jpg" />
-  </programme>
-  <programme start="20261029020000 -0300" stop="20261029030000 -0300" channel="0429">
-    <title>Saque largo</title>
-    <desc>Una forma diferente de ver y vivir el fútbol, con debate y análisis sobre lo que pasa a nivel nacional e internacional.</desc>
-    <date>2014</date>
-    <category>Fútbol</category>
-    <rating><value>+15</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/saquelargo.jpg" />
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/elchiringuito.jpg" />
   </programme>
   <programme start="20261029030000 -0300" stop="20261029050000 -0300" channel="0429">
-    <title>Fútbol Copa Colombia</title>
-    <desc>Cobertura del torneo que une a la Primera A y la B de Colombia por un cupo a la CONMEBOL Copa Sudamericana.</desc>
-    <date>2013</date>
-    <category>Fútbol</category>
-    <rating><value>TE</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbolcopacolombia.jpg" />
-  </programme>
-  <programme start="20261029050000 -0300" stop="20261029060000 -0300" channel="0429">
-    <title>Score Mundial</title>
-    <desc>Programa especializado en fútbol internacional con resúmenes de las principales ligas europeas, como la Liga Española, francesa, alemana, italiana e inglesa. Con especial atención al desempeño de los jugadores colombianos.</desc>
-    <date>2017</date>
-    <category>Series</category>
-    <rating><value>TE</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/scoremundial.jpg" />
-  </programme>
-  <programme start="20261029060000 -0300" stop="20261029070000 -0300" channel="0429">
-    <title>Última jugada</title>
-    <desc>En el mundo del billar, Johnny (Mars Callahan) podría ser uno de los mejores, pero vive sometido a Joe (Chazz Palminteri), un oscuro personaje que decide cómo y con quién debe jugar. Finalmente Johnny rompe sus relaciones con Joe y, presionado por su novia (Alison Eastwood), empieza a trabajar. Joe, resentido, intenta vengarse y encuentra un nuevo protegido, Brad (Rick Schroder), tan bueno o mejor que Johnny. (FILMAFFINITY)</desc>
-    <date>2022</date>
-    <category>Fútbol</category>
-    <rating><value>TE</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/ultimajugada.jpg" />
-  </programme>
-  <programme start="20261029070000 -0300" stop="20261029080000 -0300" channel="0429">
-    <title>Saque largo</title>
-    <desc>Una forma diferente de ver y vivir el fútbol, con debate y análisis sobre lo que pasa a nivel nacional e internacional.</desc>
-    <date>2014</date>
+    <title>Fútbol Colombiano Primera División • Once Caldas vs Alianza FC</title>
+    <sub-title>Once Caldas vs. Alianza FC</sub-title>
+    <desc>Once Caldas vs Alianza FC | Acción de la fecha 5 del Torneo Finalización 2026 de la Categoría Primera A. Once Caldas se enfrenta a Alianza FC. Desde el estadio Palogrande, en Manizales, Caldas, Colombia.</desc>
+    <date>2026</date>
     <category>Fútbol</category>
     <rating><value>+15</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/saquelargo.jpg" />
-  </programme>
-  <programme start="20261029080000 -0300" stop="20261029090000 -0300" channel="0429">
-    <title>Score Mundial</title>
-    <desc>Programa especializado en fútbol internacional con resúmenes de las principales ligas europeas, como la Liga Española, francesa, alemana, italiana e inglesa. Con especial atención al desempeño de los jugadores colombianos.</desc>
-    <date>2017</date>
-    <category>Series</category>
-    <rating><value>TE</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/scoremundial.jpg" />
-  </programme>
-  <programme start="20261029090000 -0300" stop="20261029100000 -0300" channel="0429">
-    <title>Última jugada</title>
-    <desc>En el mundo del billar, Johnny (Mars Callahan) podría ser uno de los mejores, pero vive sometido a Joe (Chazz Palminteri), un oscuro personaje que decide cómo y con quién debe jugar. Finalmente Johnny rompe sus relaciones con Joe y, presionado por su novia (Alison Eastwood), empieza a trabajar. Joe, resentido, intenta vengarse y encuentra un nuevo protegido, Brad (Rick Schroder), tan bueno o mejor que Johnny. (FILMAFFINITY)</desc>
-    <date>2022</date>
-    <category>Fútbol</category>
-    <rating><value>TE</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/ultimajugada.jpg" />
-  </programme>
-  <programme start="20261029100000 -0300" stop="20261029130000 -0300" channel="0429">
-    <title>Primer toque</title>
-    <desc>Las noticias deportivas más relevantes del día y mucho más. Fútbol, actualidad, variedades, política, cultura, economía y otros deportes.</desc>
-    <date>2020</date>
-    <category>Fútbol</category>
-    <rating><value>TE</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/primertoque.jpg" />
-  </programme>
-  <programme start="20261029130000 -0300" stop="20261029143000 -0300" channel="0429">
-    <title>Win Noticias Emisión Central</title>
-    <desc>Completo recorrido informativo por los hechos más relevantes del deporte nacional e internacional con interacción en las ciudades principales del país y las noticias más destacadas del mundo.</desc>
-    <date>2022</date>
-    <category>Deportes</category>
-    <rating><value>+15</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/winnoticiasemisioncentral.jpg" />
-  </programme>
-  <programme start="20261029143000 -0300" stop="20261029163000 -0300" channel="0429">
-    <title>Fútbol Colombiano Primera División</title>
-    <desc>La mejor cobertura de los encuentros correspondientes a la Liga Colombiana de fútbol.</desc>
-    <date>2010</date>
-    <category>Fútbol</category>
-    <rating><value>TE</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbolcolombianoprimeradivision.jpg" />
   </programme>
-  <programme start="20261029163000 -0300" stop="20261029180000 -0300" channel="0429">
-    <title>Win Noticias Emisión Central</title>
-    <desc>Completo recorrido informativo por los hechos más relevantes del deporte nacional e internacional con interacción en las ciudades principales del país y las noticias más destacadas del mundo.</desc>
-    <date>2022</date>
-    <category>Deportes</category>
+  <programme start="20261029050000 -0300" stop="20261029070000 -0300" channel="0429">
+    <title>Fútbol Brasileirao • Santos vs Palmeiras</title>
+    <sub-title>Santos vs. Palmeiras</sub-title>
+    <desc>Santos vs Palmeiras | Toda la acción con los partidos del campeonato brasileño de fútbol de Primera División.</desc>
+    <date>2026</date>
+    <category>Fútbol</category>
     <rating><value>+15</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/winnoticiasemisioncentral.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbolbrasileirao.jpg" />
+  </programme>
+  <programme start="20261029070000 -0300" stop="20261029080000 -0300" channel="0429">
+    <title>WIN Noticias</title>
+    <desc>La más completa información y todas las novedades del mundo deportivo nacional e internacional. Además, se tiene la más amplia cobertura de los deportistas colombianos en todo el mundo.</desc>
+    <date>2014</date>
+    <category>Reportaje</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/winnoticias.jpg" />
+  </programme>
+  <programme start="20261029080000 -0300" stop="20261029100000 -0300" channel="0429">
+    <title>Planeta Fútbol</title>
+    <desc>El mejor programa de análisis, opinión y controversia, donde la selección de fútbol de Colombia es el hilo conductor.</desc>
+    <credits>
+      <actor>Faryd Mondragón</actor>
+      <actor>Carlos Antonio Vélez</actor>
+      <actor>Juan José Pelaez</actor>
+    </credits>
+    <date>2016</date>
+    <category>Fútbol</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/planetafutbol.jpg" />
+  </programme>
+  <programme start="20261029100000 -0300" stop="20261029143000 -0300" channel="0429">
+    <title>Despierta Win</title>
+    <desc>El deporte cobra vida desde el inicio del día con un viaje más allá de los titulares hasta el corazón de las historias en una fusión de entretenimiento y deporte.</desc>
+    <date>2024</date>
+    <category>Deportes</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/despiertawin.jpg" />
+  </programme>
+  <programme start="20261029143000 -0300" stop="20261029160000 -0300" channel="0429">
+    <title>WIN Noticias</title>
+    <desc>La más completa información y todas las novedades del mundo deportivo nacional e internacional. Además, se tiene la más amplia cobertura de los deportistas colombianos en todo el mundo.</desc>
+    <date>2014</date>
+    <category>Reportaje</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/winnoticias.jpg" />
+  </programme>
+  <programme start="20261029160000 -0300" stop="20261029180000 -0300" channel="0429">
+    <title>Medio tiempo</title>
+    <desc>Todo el análisis e información de la primera mitad del partido y lo que se espera en el segundo tiempo.</desc>
+    <date>2026</date>
+    <category>Fútbol</category>
+    <rating><value>+15</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/mediotiempo.jpg" />
   </programme>
   <programme start="20261029180000 -0300" stop="20261029200000 -0300" channel="0429">
     <title>Saque largo</title>
@@ -294586,7 +294558,127 @@ Esta secuela ignora por completo los fillers (Capítulos y conceptos inventados 
     <rating><value>+15</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/saquelargo.jpg" />
   </programme>
-  <programme start="20261029200000 -0300" stop="20261029213000 -0300" channel="0429">
+  <programme start="20261029200000 -0300" stop="20261029220000 -0300" channel="0429">
+    <title>Fútbol Brasileirao • Vasco da Gama vs Flamengo CR</title>
+    <sub-title>Vasco da Gama vs. Flamengo CR</sub-title>
+    <desc>Vasco da Gama vs Flamengo CR | Toda la acción con los partidos del campeonato brasileño de fútbol de Primera División.</desc>
+    <date>2026</date>
+    <category>Fútbol</category>
+    <rating><value>+15</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbolbrasileirao.jpg" />
+  </programme>
+  <programme start="20261029220000 -0300" stop="20261029223000 -0300" channel="0429">
+    <title>Fútbol: Previa</title>
+    <desc>Reportajes, análisis y comentarios previo al gran evento deportivo.</desc>
+    <date>2003</date>
+    <category>Fútbol</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbolprevia.jpg" />
+  </programme>
+  <programme start="20261029223000 -0300" stop="20261030003000 -0300" channel="0429">
+    <title>[En vivo] Fútbol Colombiano Primera División • América de Cali vs Fortaleza</title>
+    <sub-title>América de Cali vs. Fortaleza</sub-title>
+    <desc>En vivo ║ América de Cali vs Fortaleza | Acción de la fecha 5 del Torneo Finalización 2026 de la Categoría Primera A. América de Cali se enfrenta a Fortaleza. Desde el estadio Pascual Guerrero, en Cali, Valle del Cauca, Colombia.</desc>
+    <date>2026</date>
+    <category>Fútbol</category>
+    <rating><value>+15</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbolcolombianoprimeradivision.jpg" />
+  </programme>
+  <programme start="20261030003000 -0300" stop="20261030020000 -0300" channel="0429">
+    <title>Lo mejor de la fecha</title>
+    <desc>Al término de la fecha llega el resumen más detallado de los partidos de la Liga. Análisis, relato, reacciones y estadísticas con estilo dinámico y diferente.</desc>
+    <date>2016</date>
+    <category>Fútbol</category>
+    <rating><value>18</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/lafecha.jpg" />
+  </programme>
+  <programme start="20261030020000 -0300" stop="20261030040000 -0300" channel="0429">
+    <title>El Chiringuito</title>
+    <desc>Programación deportiva que abarca toda la información reciente acerca de los equipos de fútbol español.</desc>
+    <credits>
+      <director>Josep Pedrerol</director>
+    </credits>
+    <date>2014</date>
+    <category>Deportes</category>
+    <category>Entretenimiento</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/elchiringuito.jpg" />
+  </programme>
+  <programme start="20261030040000 -0300" stop="20261030060000 -0300" channel="0429">
+    <title>Fútbol Colombiano Primera División • Atlético Nacional vs Independiente Santa Fe</title>
+    <sub-title>Atlético Nacional vs. Independiente Santa Fe</sub-title>
+    <desc>Atlético Nacional vs Independiente Santa Fe | Acción de la fecha 5 del Torneo Finalización 2026 de la Categoría Primera A. Atlético Nacional se enfrenta a Independiente Santa Fe. Desde el estadio Atanasio Girardot, en Medellín, Colombia.</desc>
+    <date>2026</date>
+    <category>Fútbol</category>
+    <rating><value>+15</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbolcolombianoprimeradivision.jpg" />
+  </programme>
+  <programme start="20261030060000 -0300" stop="20261030063000 -0300" channel="0429">
+    <title>Fútbol Colombiano Primera División • América de Cali vs Fortaleza</title>
+    <sub-title>América de Cali vs. Fortaleza</sub-title>
+    <desc>América de Cali vs Fortaleza | Acción de la fecha 5 del Torneo Finalización 2026 de la Categoría Primera A. América de Cali se enfrenta a Fortaleza. Desde el estadio Pascual Guerrero, en Cali, Valle del Cauca, Colombia.</desc>
+    <date>2026</date>
+    <category>Fútbol</category>
+    <rating><value>+15</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbolcolombianoprimeradivision.jpg" />
+  </programme>
+  <programme start="20261030063000 -0300" stop="20261030080000 -0300" channel="0429">
+    <title>Última jugada</title>
+    <desc>En el mundo del billar, Johnny (Mars Callahan) podría ser uno de los mejores, pero vive sometido a Joe (Chazz Palminteri), un oscuro personaje que decide cómo y con quién debe jugar. Finalmente Johnny rompe sus relaciones con Joe y, presionado por su novia (Alison Eastwood), empieza a trabajar. Joe, resentido, intenta vengarse y encuentra un nuevo protegido, Brad (Rick Schroder), tan bueno o mejor que Johnny. (FILMAFFINITY)</desc>
+    <date>2022</date>
+    <category>Fútbol</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/ultimajugada.jpg" />
+  </programme>
+  <programme start="20261030080000 -0300" stop="20261030100000 -0300" channel="0429">
+    <title>Fútbol Copa Colombia</title>
+    <desc>Cobertura del torneo que une a la Primera A y la B de Colombia por un cupo a la CONMEBOL Copa Sudamericana.</desc>
+    <date>2013</date>
+    <category>Fútbol</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbolcopacolombia.jpg" />
+  </programme>
+  <programme start="20261030100000 -0300" stop="20261030130000 -0300" channel="0429">
+    <title>Primer toque</title>
+    <desc>Las noticias deportivas más relevantes del día y mucho más. Fútbol, actualidad, variedades, política, cultura, economía y otros deportes.</desc>
+    <date>2020</date>
+    <category>Fútbol</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/primertoque.jpg" />
+  </programme>
+  <programme start="20261030130000 -0300" stop="20261030143000 -0300" channel="0429">
+    <title>Win Noticias Emisión Central</title>
+    <desc>Completo recorrido informativo por los hechos más relevantes del deporte nacional e internacional con interacción en las ciudades principales del país y las noticias más destacadas del mundo.</desc>
+    <date>2022</date>
+    <category>Deportes</category>
+    <rating><value>+15</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/winnoticiasemisioncentral.jpg" />
+  </programme>
+  <programme start="20261030143000 -0300" stop="20261030163000 -0300" channel="0429">
+    <title>Fútbol Superliga de Colombia</title>
+    <desc>Acción de la Superliga de Colombia, torneo que enfrenta a los campeones de la temporada en el fútbol de este país.</desc>
+    <date>2018</date>
+    <category>Fútbol</category>
+    <rating><value>+15</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261030163000 -0300" stop="20261030180000 -0300" channel="0429">
+    <title>Win Noticias Emisión Central</title>
+    <desc>Completo recorrido informativo por los hechos más relevantes del deporte nacional e internacional con interacción en las ciudades principales del país y las noticias más destacadas del mundo.</desc>
+    <date>2022</date>
+    <category>Deportes</category>
+    <rating><value>+15</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/winnoticiasemisioncentral.jpg" />
+  </programme>
+  <programme start="20261030180000 -0300" stop="20261030200000 -0300" channel="0429">
+    <title>Saque largo</title>
+    <desc>Una forma diferente de ver y vivir el fútbol, con debate y análisis sobre lo que pasa a nivel nacional e internacional.</desc>
+    <date>2014</date>
+    <category>Fútbol</category>
+    <rating><value>+15</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/saquelargo.jpg" />
+  </programme>
+  <programme start="20261030200000 -0300" stop="20261030213000 -0300" channel="0429">
     <title>Conexión deportes</title>
     <desc>Programa de opinión y debate sobre los hechos más destacados en el deporte colombiano e internacional.</desc>
     <credits>
@@ -294597,7 +294689,7 @@ Esta secuela ignora por completo los fillers (Capítulos y conceptos inventados 
     <rating><value>+15</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/conexiondeportes.jpg" />
   </programme>
-  <programme start="20261029213000 -0300" stop="20261029220000 -0300" channel="0429">
+  <programme start="20261030213000 -0300" stop="20261030220000 -0300" channel="0429">
     <title>Fútbol: Previa</title>
     <desc>Reportajes, análisis y comentarios previo al gran evento deportivo.</desc>
     <date>2003</date>
@@ -294605,18 +294697,13 @@ Esta secuela ignora por completo los fillers (Capítulos y conceptos inventados 
     <rating><value>TE</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbolprevia.jpg" />
   </programme>
-  <programme start="20261029220000 -0300" stop="20261029230000 -0300" channel="0429">
-    <title>Juego al aire</title>
-    <desc>Otra forma de escuchar, ver y sentir el fútbol colombiano. Narración detallada, cámaras con otro punto de vista, estadísticas e información para disfrutar un partido y las reacciones durante el encuentro en otra dimensión.</desc>
-    <date>2022</date>
+  <programme start="20261030220000 -0300" stop="20261030230000 -0300" channel="0429">
+    <title>Fútbol Colombiano Primera División</title>
+    <desc>La mejor cobertura de los encuentros correspondientes a la Liga Colombiana de fútbol.</desc>
+    <date>2010</date>
     <category>Fútbol</category>
-    <rating><value>+15</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
-  </programme>
-  <programme start="20261029230000 -0300" stop="20261029235959 -0300" channel="0429">
-    <title>Win Sports</title>
-    <desc>La informacion de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbolcolombianoprimeradivision.jpg" />
   </programme>
   <programme start="20261023130000 -0300" stop="20261023150000 -0300" channel="0430">
     <title>Fútbol Colombiano Primera División • Atlético Nacional vs Deportivo Pasto</title>
@@ -294790,25 +294877,26 @@ Esta secuela ignora por completo los fillers (Capítulos y conceptos inventados 
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbolprevia.jpg" />
   </programme>
   <programme start="20261024173000 -0300" stop="20261024193000 -0300" channel="0430">
-    <title>Fútbol Colombiano</title>
-    <desc>Cobertura de los partidos de diversas categorías del fútbol colombiano.</desc>
-    <date>2016</date>
+    <title>Fútbol Colombiano Segunda División • Multipantalla Fecha 15 Liga II 2026</title>
+    <sub-title>Multipantalla Fecha 15 Liga II 2026</sub-title>
+    <desc>Multipantalla Fecha 15 Liga II 2026 | Toda la acción de la segunda división del fútbol colombiano.</desc>
+    <date>2026</date>
     <category>Fútbol</category>
-    <rating><value>TE</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbolcolombiano.jpg" />
+    <rating><value>+15</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbolcolombianosegundadivision.jpg" />
   </programme>
   <programme start="20261024193000 -0300" stop="20261024200000 -0300" channel="0430">
-    <title>Fútbol: Previa</title>
-    <desc>Reportajes, análisis y comentarios previo al gran evento deportivo.</desc>
-    <date>2003</date>
+    <title>Fútbol: Post</title>
+    <desc>Análisis posterior al espectáculo deportivo.</desc>
+    <date>2018</date>
     <category>Fútbol</category>
-    <rating><value>TE</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbolprevia.jpg" />
+    <rating><value>+15</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbolpost.jpg" />
   </programme>
   <programme start="20261024200000 -0300" stop="20261024223000 -0300" channel="0430">
-    <title>[En vivo] Fútbol Colombiano Primera División • América de Cali vs Cúcuta Deportivo</title>
+    <title>Fútbol Colombiano Primera División • América de Cali vs Cúcuta Deportivo</title>
     <sub-title>América de Cali vs. Cúcuta Deportivo</sub-title>
-    <desc>En vivo ║ América de Cali vs Cúcuta Deportivo | Desde el estadio Pascual Guerrero, en Cali, Valle del Cauca, Colombia.</desc>
+    <desc>América de Cali vs Cúcuta Deportivo | Acción de la fecha 16 del Torneo Clausura 2026 de la Primera A. America de Cali se enfrenta a Cúcuta Deportivo. Desde el estadio Pascual Guerrero, en Cali.</desc>
     <date>2026</date>
     <category>Fútbol</category>
     <rating><value>+15</value></rating>
@@ -294817,7 +294905,7 @@ Esta secuela ignora por completo los fillers (Capítulos y conceptos inventados 
   <programme start="20261024223000 -0300" stop="20261025003000 -0300" channel="0430">
     <title>Fútbol Colombiano Primera División • Once Caldas vs Deportivo Pereira</title>
     <sub-title>Once Caldas vs. Deportivo Pereira</sub-title>
-    <desc>Once Caldas vs Deportivo Pereira | Desde el estadio Palogrande en Manizales, Caldas, Colombia.</desc>
+    <desc>Once Caldas vs Deportivo Pereira | Acción de la fecha 16 del Torneo Clausura 2026 de la Primera A. Once Caldas se enfrenta a Deportivo Pereira. Desde el Estadio Palogrande, en Manizales.</desc>
     <date>2026</date>
     <category>Fútbol</category>
     <rating><value>+15</value></rating>
@@ -294832,13 +294920,13 @@ Esta secuela ignora por completo los fillers (Capítulos y conceptos inventados 
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/winnoticiasnoche.jpg" />
   </programme>
   <programme start="20261025010000 -0300" stop="20261025030000 -0300" channel="0430">
-    <title>Fútbol Colombiano Primera División • Once Caldas vs Deportivo Pereira</title>
-    <sub-title>Once Caldas vs. Deportivo Pereira</sub-title>
-    <desc>Once Caldas vs Deportivo Pereira | Desde el estadio Palogrande en Manizales, Caldas, Colombia.</desc>
+    <title>Fútbol Colombiano Segunda División • AD Unión Magdalena vs Atlético FC</title>
+    <sub-title>AD Unión Magdalena vs. Atlético FC</sub-title>
+    <desc>AD Unión Magdalena vs Atlético FC | Acción de la fecha 15 del Torneo Finalización 2026 de la Categoría Primera B. AD Unión Magdalena se enfrenta a Atlético FC. Desde el estadio Sierra Nevada, en Santa Marta, Colombia.</desc>
     <date>2026</date>
     <category>Fútbol</category>
-    <rating><value>+15</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbolcolombianoprimeradivision.jpg" />
+    <rating><value>18</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbolcolombianosegundadivision.jpg" />
   </programme>
   <programme start="20261025030000 -0300" stop="20261025043000 -0300" channel="0430">
     <title>WIN Noticias</title>
@@ -294857,13 +294945,13 @@ Esta secuela ignora por completo los fillers (Capítulos y conceptos inventados 
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/unacanchallamadacolombia.jpg" />
   </programme>
   <programme start="20261025050000 -0300" stop="20261025070000 -0300" channel="0430">
-    <title>Fútbol Brasileirao • Santos vs Bahía</title>
-    <sub-title>Santos vs. Bahía</sub-title>
-    <desc>Santos vs Bahía | Toda la acción con los partidos del campeonato brasileño de fútbol de Primera División.</desc>
+    <title>Fútbol Colombiano Segunda División • Deportes Quindío vs Tigres</title>
+    <sub-title>Deportes Quindío vs. Tigres</sub-title>
+    <desc>Deportes Quindío vs Tigres | Acción de la fecha 15 del Torneo Finalización 2026 de la Categoría Primera B. Deportes Quindío se enfrenta a Tigres de Soacha. Desde el Estadio Centenario, en Armenia, Quindío, Colombia.</desc>
     <date>2026</date>
     <category>Fútbol</category>
-    <rating><value>+15</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbolbrasileirao.jpg" />
+    <rating><value>18</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbolcolombianosegundadivision.jpg" />
   </programme>
   <programme start="20261025070000 -0300" stop="20261025080000 -0300" channel="0430">
     <title>Creyentes</title>
@@ -294874,12 +294962,13 @@ Esta secuela ignora por completo los fillers (Capítulos y conceptos inventados 
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/creyentes.jpg" />
   </programme>
   <programme start="20261025080000 -0300" stop="20261025100000 -0300" channel="0430">
-    <title>Fútbol Colombiano</title>
-    <desc>Cobertura de los partidos de diversas categorías del fútbol colombiano.</desc>
-    <date>2016</date>
+    <title>Fútbol Colombiano Segunda División • Patriotas Boyacá vs Envigado</title>
+    <sub-title>Patriotas Boyacá vs. Envigado</sub-title>
+    <desc>Patriotas Boyacá vs Envigado | Acción de la fecha 15 del Torneo Finalización 2026 de la Categoría Primera B. Patriotas Boyacá se enfrenta a Envigado. Desde el estadio La Independencia, en Tunja, Boyacá, Colombia.</desc>
+    <date>2026</date>
     <category>Fútbol</category>
     <rating><value>TE</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbolcolombiano.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbolcolombianosegundadivision.jpg" />
   </programme>
   <programme start="20261025100000 -0300" stop="20261025103000 -0300" channel="0430">
     <title>Sueños de cancha</title>
@@ -294900,13 +294989,13 @@ Esta secuela ignora por completo los fillers (Capítulos y conceptos inventados 
   <programme start="20261025120000 -0300" stop="20261025140000 -0300" channel="0430">
     <title>Fútbol Colombiano Primera División • América de Cali vs Cúcuta Deportivo</title>
     <sub-title>América de Cali vs. Cúcuta Deportivo</sub-title>
-    <desc>América de Cali vs Cúcuta Deportivo | Desde el estadio Pascual Guerrero, en Cali, Valle del Cauca, Colombia.</desc>
+    <desc>América de Cali vs Cúcuta Deportivo | Acción de la fecha 16 del Torneo Clausura 2026 de la Primera A. America de Cali se enfrenta a Cúcuta Deportivo. Desde el estadio Pascual Guerrero, en Cali.</desc>
     <date>2026</date>
     <category>Fútbol</category>
     <rating><value>+15</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbolcolombianoprimeradivision.jpg" />
   </programme>
-  <programme start="20261025140000 -0300" stop="20261025160000 -0300" channel="0430">
+  <programme start="20261025140000 -0300" stop="20261025153000 -0300" channel="0430">
     <title>Fútbol: Previa</title>
     <desc>Reportajes, análisis y comentarios previo al gran evento deportivo.</desc>
     <date>2003</date>
@@ -294914,10 +295003,19 @@ Esta secuela ignora por completo los fillers (Capítulos y conceptos inventados 
     <rating><value>TE</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbolprevia.jpg" />
   </programme>
+  <programme start="20261025153000 -0300" stop="20261025160000 -0300" channel="0430">
+    <title>Fútbol Colombiano Segunda División • Sorteo Liguilla Liga II 2026</title>
+    <sub-title>Sorteo Liguilla Liga II 2026</sub-title>
+    <desc>Sorteo Liguilla Liga II 2026 | Toda la acción de la segunda división del fútbol colombiano.</desc>
+    <date>2026</date>
+    <category>Fútbol</category>
+    <rating><value>+15</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbolcolombianosegundadivision.jpg" />
+  </programme>
   <programme start="20261025160000 -0300" stop="20261025180000 -0300" channel="0430">
-    <title>[En vivo] Fútbol Colombiano Primera División • Fortaleza vs Deportivo Cali</title>
+    <title>Fútbol Colombiano Primera División • Fortaleza vs Deportivo Cali</title>
     <sub-title>Fortaleza vs. Deportivo Cali</sub-title>
-    <desc>En vivo ║ Fortaleza vs Deportivo Cali | Desde el Estadio Metropolitano de Techo, en Bogotá, Colombia.</desc>
+    <desc>Fortaleza vs Deportivo Cali | Desde el Estadio Metropolitano de Techo, en Bogotá, Colombia.</desc>
     <date>2026</date>
     <category>Fútbol</category>
     <rating><value>+15</value></rating>
@@ -294926,7 +295024,7 @@ Esta secuela ignora por completo los fillers (Capítulos y conceptos inventados 
   <programme start="20261025180000 -0300" stop="20261025200000 -0300" channel="0430">
     <title>Fútbol Colombiano Primera División • Alianza FC vs Internacional de Bogotá</title>
     <sub-title>Alianza FC vs. Internacional de Bogotá</sub-title>
-    <desc>Alianza FC vs Internacional de Bogotá | Desde el Estadio Armando Maestre Pavajeau en Valledupar, Colombia.</desc>
+    <desc>Alianza FC vs Internacional de Bogotá | Acción de la fecha 16 del Torneo Clausura 2026 de la Primera A. Alianza FC se enfrenta a Internacional de Bogotá. Desde el estadio Armando Maestre Pavajeau, en Valledupar.</desc>
     <date>2026</date>
     <category>Fútbol</category>
     <rating><value>+15</value></rating>
@@ -294967,63 +295065,553 @@ Esta secuela ignora por completo los fillers (Capítulos y conceptos inventados 
     <rating><value>+15</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbolcolombianoprimeradivision.jpg" />
   </programme>
-  <programme start="20261026040000 -0300" stop="20261026060000 -0300" channel="0430">
-    <title>Fútbol Colombiano Primera División</title>
-    <desc>Toda la emoción, la acción y los goles, con el recuerdo de los mejores partidos de la Primera División del fútbol colombiano.</desc>
-    <date>2016</date>
+  <programme start="20261026040000 -0300" stop="20261026053000 -0300" channel="0430">
+    <title>Fútbol Colombiano Femenino Primera División • Independiente Santa Fe vs Junior</title>
+    <sub-title>Independiente Santa Fe vs. Junior</sub-title>
+    <desc>Independiente Santa Fe vs Junior | Fecha 13 de la Liga Profesional Femenina 2025. Desde el Estadio Metropolitano de Techo, en Bogotá. Independiente Santa Fe busca extender su liderato de la tabla general ante un Junior que no ha obtenido una victoria desde la jornada 9.</desc>
+    <date>2025</date>
     <category>Fútbol</category>
-    <rating><value>TE</value></rating>
+    <rating><value>18</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbolcolombianofemeninoprimeradivision.jpg" />
+  </programme>
+  <programme start="20261026053000 -0300" stop="20261026070000 -0300" channel="0430">
+    <title>Fútbol Colombiano Primera División • Deportes Tolima vs Deportivo Pasto</title>
+    <sub-title>Deportes Tolima vs. Deportivo Pasto</sub-title>
+    <desc>Deportes Tolima vs Deportivo Pasto | Desde el estadio Manuel Murillo Toro, en Ibagué, Tolima, Colombia.</desc>
+    <date>2026</date>
+    <category>Fútbol</category>
+    <rating><value>+15</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbolcolombianoprimeradivision.jpg" />
   </programme>
-  <programme start="20261026060000 -0300" stop="20261026070000 -0300" channel="0430">
-    <title>Detrás de la gloria</title>
-    <desc>El camino para ser campeón del fútbol colombiano nunca ha sido fácil. Una muestra de todo lo que los equipos viven dentro y fuera de sus planteles para levantar la copa y llenarse de Gloria.</desc>
-    <date>2020</date>
-    <category>Deportes</category>
-    <rating><value>+15</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/detrasdelagloria.jpg" />
-  </programme>
   <programme start="20261026070000 -0300" stop="20261026090000 -0300" channel="0430">
-    <title>Fútbol Colombiano Primera División</title>
-    <desc>La mejor cobertura de los encuentros correspondientes a la Liga Colombiana de fútbol.</desc>
-    <date>2010</date>
+    <title>Fútbol Colombiano Primera División • Campeonato Colombiano 1996-97: Deportivo Cali vs Independiente Santa Fe</title>
+    <sub-title>Campeonato Colombiano 1996-97: Deportivo Cali vs. Independiente Santa Fe</sub-title>
+    <desc>Campeonato Colombiano 1996-97: Deportivo Cali vs Independiente Santa Fe | Fecha 12 del Campeonato Colombiano 1996-97 de la Primera A. Deportivo Cali se enfrenta a Independiente Santa Fe. Desde el Estadio Olímpico Pascual Guerrero, en Cali, Valle del Cauca. Disputado el 27 de noviembre de 1996.</desc>
+    <date>1996</date>
     <category>Fútbol</category>
-    <rating><value>TE</value></rating>
+    <rating><value>18</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbolcolombianoprimeradivision.jpg" />
   </programme>
   <programme start="20261026090000 -0300" stop="20261026110000 -0300" channel="0430">
-    <title>Fútbol Colombiano Primera División</title>
-    <desc>Toda la emoción, la acción y los goles, con el recuerdo de los mejores partidos de la Primera División del fútbol colombiano.</desc>
+    <title>El Chiringuito</title>
+    <desc>Programación deportiva que abarca toda la información reciente acerca de los equipos de fútbol español.</desc>
+    <credits>
+      <director>Josep Pedrerol</director>
+    </credits>
+    <date>2014</date>
+    <category>Deportes</category>
+    <category>Entretenimiento</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/elchiringuito.jpg" />
+  </programme>
+  <programme start="20261026110000 -0300" stop="20261026120000 -0300" channel="0430">
+    <title>Detrás de la gloria • 2014-II: Santa Fe</title>
+    <sub-title>2014-II: Santa Fe</sub-title>
+    <desc>2014-II: Santa Fe | Una mirada a la segunda parte de la temporada 2014 en el fútbol colombiano con Santa Fe y su camino rumbo al campeonato.</desc>
+    <date>2023</date>
+    <category>Deportes</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/detrasdelagloria.jpg" />
+  </programme>
+  <programme start="20261026120000 -0300" stop="20261026123000 -0300" channel="0430">
+    <title>Fútbol: Previa</title>
+    <desc>Reportajes, análisis y comentarios previo al gran evento deportivo.</desc>
+    <date>2003</date>
+    <category>Fútbol</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbolprevia.jpg" />
+  </programme>
+  <programme start="20261026123000 -0300" stop="20261026143000 -0300" channel="0430">
+    <title>[En vivo] Fútbol Colombiano • Supercopa Juvenil: Junior vs Alianza Valledupar</title>
+    <sub-title>Supercopa Juvenil: Junior vs. Alianza Valledupar</sub-title>
+    <desc>En vivo ║ Supercopa Juvenil: Junior vs Alianza Valledupar | La información de este programa no se encuentra disponible.</desc>
+    <date>2026</date>
+    <category>Fútbol</category>
+    <rating><value>+15</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbolcolombiano.jpg" />
+  </programme>
+  <programme start="20261026143000 -0300" stop="20261026163000 -0300" channel="0430">
+    <title>Fútbol Colombiano Primera División • Atlético Nacional vs Independiente Medellín</title>
+    <sub-title>Atlético Nacional vs. Independiente Medellín</sub-title>
+    <desc>Atlético Nacional vs Independiente Medellín | Desde el estadio Atanasio Girardot en Medellín, Colombia.</desc>
+    <date>2026</date>
+    <category>Fútbol</category>
+    <rating><value>+15</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbolcolombianoprimeradivision.jpg" />
+  </programme>
+  <programme start="20261026163000 -0300" stop="20261026170000 -0300" channel="0430">
+    <title>Sueños de cancha</title>
+    <desc>Más de mil jóvenes de entre 11 y 13 años se reúnen para encontrar a las futuras estrellas del fútbol de Bogotá. Darán muestra de su talento, disciplina y pasión por el fútbol.</desc>
+    <date>2025</date>
+    <category>Reality</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/suenosdecancha.jpg" />
+  </programme>
+  <programme start="20261026170000 -0300" stop="20261026190000 -0300" channel="0430">
+    <title>Fútbol Colombiano Primera División • Deportes Tolima vs Deportivo Pasto</title>
+    <sub-title>Deportes Tolima vs. Deportivo Pasto</sub-title>
+    <desc>Deportes Tolima vs Deportivo Pasto | Desde el estadio Manuel Murillo Toro, en Ibagué, Tolima, Colombia.</desc>
+    <date>2026</date>
+    <category>Fútbol</category>
+    <rating><value>+15</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbolcolombianoprimeradivision.jpg" />
+  </programme>
+  <programme start="20261026190000 -0300" stop="20261026193000 -0300" channel="0430">
+    <title>Cav-Sulas</title>
+    <desc>De manera breve y clara, Carlos Antonio Vélez explica los aspectos básicos (y no tan básicos) de alineación, estrategia y ataque en el fútbol.</desc>
+    <date>2025</date>
+    <category>Fútbol</category>
+    <category>Educativo</category>
+    <rating><value>+15</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/cavsulas.jpg" />
+  </programme>
+  <programme start="20261026193000 -0300" stop="20261026200000 -0300" channel="0430">
+    <title>Fútbol: Previa</title>
+    <desc>Reportajes, análisis y comentarios previo al gran evento deportivo.</desc>
+    <date>2003</date>
+    <category>Fútbol</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbolprevia.jpg" />
+  </programme>
+  <programme start="20261026200000 -0300" stop="20261026220000 -0300" channel="0430">
+    <title>[En vivo] Fútbol Colombiano Primera División • Jaguares vs Llaneros</title>
+    <sub-title>Jaguares vs. Llaneros</sub-title>
+    <desc>En vivo ║ Jaguares vs Llaneros | Desde el estadio Jaraguay, en Montería, Colombia.</desc>
+    <date>2026</date>
+    <category>Fútbol</category>
+    <rating><value>+15</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbolcolombianoprimeradivision.jpg" />
+  </programme>
+  <programme start="20261026220000 -0300" stop="20261027000000 -0300" channel="0430">
+    <title>Fútbol Colombiano Primera División • Independiente Santa Fe vs Atlético Bucaramanga</title>
+    <sub-title>Independiente Santa Fe vs. Atlético Bucaramanga</sub-title>
+    <desc>Independiente Santa Fe vs Atlético Bucaramanga | Acción de la fecha 14 del Torneo Finalización 2026 de la Categoría Primera A. Independiente Santa Fe se enfrenta a Atlético Bucaramanga. Desde el estadio Nemesio Camacho, en Bogotá, Colombia.</desc>
+    <date>2026</date>
+    <category>Fútbol</category>
+    <rating><value>+15</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbolcolombianoprimeradivision.jpg" />
+  </programme>
+  <programme start="20261027000000 -0300" stop="20261027010000 -0300" channel="0430">
+    <title>Win Noticias Noche</title>
+    <desc>Un completo recorrido por el deporte nacional e internacional en un show dinámico e informativo, con las mejores noticias.</desc>
+    <date>2014</date>
+    <category>Reportaje</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/winnoticiasnoche.jpg" />
+  </programme>
+  <programme start="20261027010000 -0300" stop="20261027030000 -0300" channel="0430">
+    <title>Fútbol Colombiano Primera División • Independiente Santa Fe vs Atlético Bucaramanga</title>
+    <sub-title>Independiente Santa Fe vs. Atlético Bucaramanga</sub-title>
+    <desc>Independiente Santa Fe vs Atlético Bucaramanga | Acción de la fecha 14 del Torneo Finalización 2026 de la Categoría Primera A. Independiente Santa Fe se enfrenta a Atlético Bucaramanga. Desde el estadio Nemesio Camacho, en Bogotá, Colombia.</desc>
+    <date>2026</date>
+    <category>Fútbol</category>
+    <rating><value>+15</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbolcolombianoprimeradivision.jpg" />
+  </programme>
+  <programme start="20261027030000 -0300" stop="20261027040000 -0300" channel="0430">
+    <title>WIN Noticias</title>
+    <desc>La más completa información y todas las novedades del mundo deportivo nacional e internacional. Además, se tiene la más amplia cobertura de los deportistas colombianos en todo el mundo.</desc>
+    <date>2014</date>
+    <category>Reportaje</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/winnoticias.jpg" />
+  </programme>
+  <programme start="20261027040000 -0300" stop="20261027050000 -0300" channel="0430">
+    <title>De colección</title>
+    <desc>Los momentos más sobresalientes de fútbol colombiano recopilados en diferentes instantes que pasaron a la historia.</desc>
+    <date>2023</date>
+    <category>Fútbol</category>
+    <rating><value>+15</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/decoleccion.jpg" />
+  </programme>
+  <programme start="20261027050000 -0300" stop="20261027070000 -0300" channel="0430">
+    <title>Fútbol Colombiano Primera División • Liga I 2025: Independiente Santa Fe vs Atlético Nacional</title>
+    <sub-title>Liga I 2025: Independiente Santa Fe vs. Atlético Nacional</sub-title>
+    <desc>Liga I 2025: Independiente Santa Fe vs Atlético Nacional | Toda la emoción, la acción y los goles, con el recuerdo de los mejores partidos de la Primera División del fútbol colombiano.</desc>
+    <date>2025</date>
+    <category>Fútbol</category>
+    <rating><value>18</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbolcolombianoprimeradivision.jpg" />
+  </programme>
+  <programme start="20261027070000 -0300" stop="20261027090000 -0300" channel="0430">
+    <title>Fútbol Colombiano Primera División • Campeonato Colombiano 1996-97: Junior vs Once Caldas</title>
+    <sub-title>Campeonato Colombiano 1996-97: Junior vs. Once Caldas</sub-title>
+    <desc>Campeonato Colombiano 1996-97: Junior vs Once Caldas | Fecha 7 del Grupo B del Campeonato Colombiano 1996-97 de la Categoría Primera A entre Junior y Once Caldas. Desde el Estadio Municipal Romelio Martínez, en Barranquilla. Disputado el 20 de marzo de 1997.</desc>
+    <date>1997</date>
+    <category>Fútbol</category>
+    <rating><value>18</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbolcolombianoprimeradivision.jpg" />
+  </programme>
+  <programme start="20261027090000 -0300" stop="20261027110000 -0300" channel="0430">
+    <title>El Chiringuito</title>
+    <desc>Programación deportiva que abarca toda la información reciente acerca de los equipos de fútbol español.</desc>
+    <credits>
+      <director>Josep Pedrerol</director>
+    </credits>
+    <date>2014</date>
+    <category>Deportes</category>
+    <category>Entretenimiento</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/elchiringuito.jpg" />
+  </programme>
+  <programme start="20261027110000 -0300" stop="20261027130000 -0300" channel="0430">
+    <title>Planeta Fútbol</title>
+    <desc>El mejor programa de análisis, opinión y controversia, donde la selección de fútbol de Colombia es el hilo conductor.</desc>
+    <credits>
+      <actor>Faryd Mondragón</actor>
+      <actor>Carlos Antonio Vélez</actor>
+      <actor>Juan José Pelaez</actor>
+    </credits>
     <date>2016</date>
     <category>Fútbol</category>
     <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/planetafutbol.jpg" />
+  </programme>
+  <programme start="20261027130000 -0300" stop="20261027150000 -0300" channel="0430">
+    <title>Fútbol Colombiano Primera División • Jaguares vs Llaneros</title>
+    <sub-title>Jaguares vs. Llaneros</sub-title>
+    <desc>Jaguares vs Llaneros | Desde el estadio Jaraguay, en Montería, Colombia.</desc>
+    <date>2026</date>
+    <category>Fútbol</category>
+    <rating><value>+15</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbolcolombianoprimeradivision.jpg" />
   </programme>
-  <programme start="20261026110000 -0300" stop="20261026113000 -0300" channel="0430">
-    <title>Campañas</title>
-    <desc>Un programa que recuerda aquellas temporadas exitosas y muestra el camino que recorrieron equipos, jugadores y entrenadores emblemáticos del fútbol colombiano que dejaron una huella y llenan de orgullo a cada una de sus hinchadas.</desc>
-    <date>2019</date>
+  <programme start="20261027150000 -0300" stop="20261027153000 -0300" channel="0430">
+    <title>Campañas • Junior: Campeón Liga II 2004</title>
+    <sub-title>Junior: Campeón Liga II 2004</sub-title>
+    <desc>Junior: Campeón Liga II 2004 | El rumbo de Junior a la final del Torneo Finalización 2004 de la Categoría Primera A, en el que consiguió su quinto título.</desc>
+    <date>2026</date>
     <category>Fútbol</category>
-    <rating><value>TE</value></rating>
+    <rating><value>+15</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/campanas.jpg" />
   </programme>
-  <programme start="20261026113000 -0300" stop="20261026133000 -0300" channel="0430">
-    <title>Fútbol Colombiano Primera División</title>
-    <desc>La mejor cobertura de los encuentros correspondientes a la Liga Colombiana de fútbol.</desc>
-    <date>2010</date>
+  <programme start="20261027153000 -0300" stop="20261027173000 -0300" channel="0430">
+    <title>Fútbol Colombiano Primera División • Independiente Santa Fe vs Atlético Bucaramanga</title>
+    <sub-title>Independiente Santa Fe vs. Atlético Bucaramanga</sub-title>
+    <desc>Independiente Santa Fe vs Atlético Bucaramanga | Acción de la fecha 14 del Torneo Finalización 2026 de la Categoría Primera A. Independiente Santa Fe se enfrenta a Atlético Bucaramanga. Desde el estadio Nemesio Camacho, en Bogotá, Colombia.</desc>
+    <date>2026</date>
     <category>Fútbol</category>
-    <rating><value>TE</value></rating>
+    <rating><value>+15</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbolcolombianoprimeradivision.jpg" />
   </programme>
-  <programme start="20261026133000 -0300" stop="20261026153000 -0300" channel="0430">
-    <title>Fútbol Colombiano Primera División</title>
-    <desc>La mejor cobertura de los encuentros correspondientes a la Liga Colombiana de fútbol.</desc>
-    <date>2010</date>
+  <programme start="20261027173000 -0300" stop="20261027190000 -0300" channel="0430">
+    <title>WIN Noticias</title>
+    <desc>La más completa información y todas las novedades del mundo deportivo nacional e internacional. Además, se tiene la más amplia cobertura de los deportistas colombianos en todo el mundo.</desc>
+    <date>2014</date>
+    <category>Reportaje</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/winnoticias.jpg" />
+  </programme>
+  <programme start="20261027190000 -0300" stop="20261027193000 -0300" channel="0430">
+    <title>Cav-Sulas</title>
+    <desc>De manera breve y clara, Carlos Antonio Vélez explica los aspectos básicos (y no tan básicos) de alineación, estrategia y ataque en el fútbol.</desc>
+    <date>2025</date>
+    <category>Fútbol</category>
+    <category>Educativo</category>
+    <rating><value>+15</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/cavsulas.jpg" />
+  </programme>
+  <programme start="20261027193000 -0300" stop="20261027200000 -0300" channel="0430">
+    <title>Fútbol: Previa</title>
+    <desc>Reportajes, análisis y comentarios previo al gran evento deportivo.</desc>
+    <date>2003</date>
     <category>Fútbol</category>
     <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbolprevia.jpg" />
+  </programme>
+  <programme start="20261027200000 -0300" stop="20261027220000 -0300" channel="0430">
+    <title>[En vivo] Fútbol Colombiano Primera División • Cúcuta Deportivo vs Águilas Doradas</title>
+    <sub-title>Cúcuta Deportivo vs. Águilas Doradas</sub-title>
+    <desc>En vivo ║ Cúcuta Deportivo vs Águilas Doradas | Acción de la fecha 5 del Torneo Finalización 2026 de la Categoría Primera A. Cúcuta Deportivo se enfrenta a Águilas Doradas. Desde el Estadio General Santander, en Cúcuta, Norte de Santander, Colombia.</desc>
+    <date>2026</date>
+    <category>Fútbol</category>
+    <rating><value>+15</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbolcolombianoprimeradivision.jpg" />
   </programme>
-  <programme start="20261026153000 -0300" stop="20261026170000 -0300" channel="0430">
+  <programme start="20261027220000 -0300" stop="20261028000000 -0300" channel="0430">
+    <title>Fútbol Colombiano Primera División • Boyacá Chicó FC vs Junior</title>
+    <sub-title>Boyacá Chicó FC vs. Junior</sub-title>
+    <desc>Boyacá Chicó FC vs Junior | Acción de la fecha 5 del Torneo Finalización 2026 de la Categoría Primera A. Boyacá Chicó FC se enfrenta a Junior. Desde el estadio La Independencia, en Tunja, Boyacá, Colombia.</desc>
+    <date>2026</date>
+    <category>Fútbol</category>
+    <rating><value>+15</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbolcolombianoprimeradivision.jpg" />
+  </programme>
+  <programme start="20261028000000 -0300" stop="20261028010000 -0300" channel="0430">
+    <title>Win Noticias Noche</title>
+    <desc>Un completo recorrido por el deporte nacional e internacional en un show dinámico e informativo, con las mejores noticias.</desc>
+    <date>2014</date>
+    <category>Reportaje</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/winnoticiasnoche.jpg" />
+  </programme>
+  <programme start="20261028010000 -0300" stop="20261028030000 -0300" channel="0430">
+    <title>Fútbol Colombiano Primera División • Boyacá Chicó FC vs Junior</title>
+    <sub-title>Boyacá Chicó FC vs. Junior</sub-title>
+    <desc>Boyacá Chicó FC vs Junior | Acción de la fecha 5 del Torneo Finalización 2026 de la Categoría Primera A. Boyacá Chicó FC se enfrenta a Junior. Desde el estadio La Independencia, en Tunja, Boyacá, Colombia.</desc>
+    <date>2026</date>
+    <category>Fútbol</category>
+    <rating><value>+15</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbolcolombianoprimeradivision.jpg" />
+  </programme>
+  <programme start="20261028030000 -0300" stop="20261028040000 -0300" channel="0430">
+    <title>WIN Noticias</title>
+    <desc>La más completa información y todas las novedades del mundo deportivo nacional e internacional. Además, se tiene la más amplia cobertura de los deportistas colombianos en todo el mundo.</desc>
+    <date>2014</date>
+    <category>Reportaje</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/winnoticias.jpg" />
+  </programme>
+  <programme start="20261028040000 -0300" stop="20261028050000 -0300" channel="0430">
+    <title>De colección</title>
+    <desc>Los momentos más sobresalientes de fútbol colombiano recopilados en diferentes instantes que pasaron a la historia.</desc>
+    <date>2023</date>
+    <category>Fútbol</category>
+    <rating><value>+15</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/decoleccion.jpg" />
+  </programme>
+  <programme start="20261028050000 -0300" stop="20261028070000 -0300" channel="0430">
+    <title>Fútbol Colombiano Primera División • Liga I 2025: Independiente Santa Fe vs Once Caldas</title>
+    <sub-title>Liga I 2025: Independiente Santa Fe vs. Once Caldas</sub-title>
+    <desc>Liga I 2025: Independiente Santa Fe vs Once Caldas | Toda la emoción, la acción y los goles, con el recuerdo de los mejores partidos de la Primera División del fútbol colombiano.</desc>
+    <date>2025</date>
+    <category>Fútbol</category>
+    <rating><value>18</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbolcolombianoprimeradivision.jpg" />
+  </programme>
+  <programme start="20261028070000 -0300" stop="20261028090000 -0300" channel="0430">
+    <title>Fútbol Colombiano Primera División • Copa Mustang 1995-1996: Independiente Medellín vs Millonarios</title>
+    <sub-title>Copa Mustang 1995-1996: Independiente Medellín vs. Millonarios</sub-title>
+    <desc>Copa Mustang 1995-1996: Independiente Medellín vs Millonarios | Partido clásico de la Copa Mustang 1995-1996. Independiente Medellín y Millonarios se disputan la fecha 5.</desc>
+    <date>2026</date>
+    <category>Fútbol</category>
+    <rating><value>18</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbolcolombianoprimeradivision.jpg" />
+  </programme>
+  <programme start="20261028090000 -0300" stop="20261028110000 -0300" channel="0430">
+    <title>El Chiringuito</title>
+    <desc>Programación deportiva que abarca toda la información reciente acerca de los equipos de fútbol español.</desc>
+    <credits>
+      <director>Josep Pedrerol</director>
+    </credits>
+    <date>2014</date>
+    <category>Deportes</category>
+    <category>Entretenimiento</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/elchiringuito.jpg" />
+  </programme>
+  <programme start="20261028110000 -0300" stop="20261028130000 -0300" channel="0430">
+    <title>Planeta Fútbol</title>
+    <desc>El mejor programa de análisis, opinión y controversia, donde la selección de fútbol de Colombia es el hilo conductor.</desc>
+    <credits>
+      <actor>Faryd Mondragón</actor>
+      <actor>Carlos Antonio Vélez</actor>
+      <actor>Juan José Pelaez</actor>
+    </credits>
+    <date>2016</date>
+    <category>Fútbol</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/planetafutbol.jpg" />
+  </programme>
+  <programme start="20261028130000 -0300" stop="20261028150000 -0300" channel="0430">
+    <title>Fútbol Colombiano Primera División • Cúcuta Deportivo vs Águilas Doradas</title>
+    <sub-title>Cúcuta Deportivo vs. Águilas Doradas</sub-title>
+    <desc>Cúcuta Deportivo vs Águilas Doradas | Acción de la fecha 5 del Torneo Finalización 2026 de la Categoría Primera A. Cúcuta Deportivo se enfrenta a Águilas Doradas. Desde el Estadio General Santander, en Cúcuta, Norte de Santander, Colombia.</desc>
+    <date>2026</date>
+    <category>Fútbol</category>
+    <rating><value>+15</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbolcolombianoprimeradivision.jpg" />
+  </programme>
+  <programme start="20261028150000 -0300" stop="20261028153000 -0300" channel="0430">
+    <title>Una cancha llamada Colombia</title>
+    <desc>Proyecto social, deportivo, artístico, documental e integral de la Fundación Arte para el Cambio que evidencia cómo el fútbol se convierte en un eje de transformación social en cada rincón de Colombia.</desc>
+    <date>2021</date>
+    <category>Noticias</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/unacanchallamadacolombia.jpg" />
+  </programme>
+  <programme start="20261028153000 -0300" stop="20261028173000 -0300" channel="0430">
+    <title>Fútbol Colombiano Primera División • Boyacá Chicó FC vs Junior</title>
+    <sub-title>Boyacá Chicó FC vs. Junior</sub-title>
+    <desc>Boyacá Chicó FC vs Junior | Acción de la fecha 5 del Torneo Finalización 2026 de la Categoría Primera A. Boyacá Chicó FC se enfrenta a Junior. Desde el estadio La Independencia, en Tunja, Boyacá, Colombia.</desc>
+    <date>2026</date>
+    <category>Fútbol</category>
+    <rating><value>+15</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbolcolombianoprimeradivision.jpg" />
+  </programme>
+  <programme start="20261028173000 -0300" stop="20261028190000 -0300" channel="0430">
+    <title>Medio tiempo</title>
+    <desc>Todo el análisis e información de la primera mitad del partido y lo que se espera en el segundo tiempo.</desc>
+    <date>2026</date>
+    <category>Fútbol</category>
+    <rating><value>+15</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/mediotiempo.jpg" />
+  </programme>
+  <programme start="20261028190000 -0300" stop="20261028193000 -0300" channel="0430">
+    <title>Cav-Sulas</title>
+    <desc>De manera breve y clara, Carlos Antonio Vélez explica los aspectos básicos (y no tan básicos) de alineación, estrategia y ataque en el fútbol.</desc>
+    <date>2025</date>
+    <category>Fútbol</category>
+    <category>Educativo</category>
+    <rating><value>+15</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/cavsulas.jpg" />
+  </programme>
+  <programme start="20261028193000 -0300" stop="20261028200000 -0300" channel="0430">
+    <title>Fútbol: Previa</title>
+    <desc>Reportajes, análisis y comentarios previo al gran evento deportivo.</desc>
+    <date>2003</date>
+    <category>Fútbol</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbolprevia.jpg" />
+  </programme>
+  <programme start="20261028200000 -0300" stop="20261028220000 -0300" channel="0430">
+    <title>[En vivo] Fútbol Colombiano Primera División • Once Caldas vs Alianza FC</title>
+    <sub-title>Once Caldas vs. Alianza FC</sub-title>
+    <desc>En vivo ║ Once Caldas vs Alianza FC | Acción de la fecha 5 del Torneo Finalización 2026 de la Categoría Primera A. Once Caldas se enfrenta a Alianza FC. Desde el estadio Palogrande, en Manizales, Caldas, Colombia.</desc>
+    <date>2026</date>
+    <category>Fútbol</category>
+    <rating><value>+15</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbolcolombianoprimeradivision.jpg" />
+  </programme>
+  <programme start="20261028220000 -0300" stop="20261029000000 -0300" channel="0430">
+    <title>Fútbol Colombiano Primera División • Internacional de Bogotá vs Independiente Medellín</title>
+    <sub-title>Internacional de Bogotá vs. Independiente Medellín</sub-title>
+    <desc>Internacional de Bogotá vs Independiente Medellín | Acción de la fecha 5 del Torneo Finalización 2026 de la Categoría Primera A. Internacional de Bogotá se enfrenta a Independiente Medellín. Desde el Estadio Metropolitano de Techo, en Bogotá, Colombia.</desc>
+    <date>2026</date>
+    <category>Fútbol</category>
+    <rating><value>+15</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbolcolombianoprimeradivision.jpg" />
+  </programme>
+  <programme start="20261029000000 -0300" stop="20261029010000 -0300" channel="0430">
+    <title>Win Noticias Noche</title>
+    <desc>Un completo recorrido por el deporte nacional e internacional en un show dinámico e informativo, con las mejores noticias.</desc>
+    <date>2014</date>
+    <category>Reportaje</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/winnoticiasnoche.jpg" />
+  </programme>
+  <programme start="20261029010000 -0300" stop="20261029030000 -0300" channel="0430">
+    <title>Fútbol Colombiano Primera División • Internacional de Bogotá vs Independiente Medellín</title>
+    <sub-title>Internacional de Bogotá vs. Independiente Medellín</sub-title>
+    <desc>Internacional de Bogotá vs Independiente Medellín | Acción de la fecha 5 del Torneo Finalización 2026 de la Categoría Primera A. Internacional de Bogotá se enfrenta a Independiente Medellín. Desde el Estadio Metropolitano de Techo, en Bogotá, Colombia.</desc>
+    <date>2026</date>
+    <category>Fútbol</category>
+    <rating><value>+15</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbolcolombianoprimeradivision.jpg" />
+  </programme>
+  <programme start="20261029030000 -0300" stop="20261029040000 -0300" channel="0430">
+    <title>WIN Noticias</title>
+    <desc>La más completa información y todas las novedades del mundo deportivo nacional e internacional. Además, se tiene la más amplia cobertura de los deportistas colombianos en todo el mundo.</desc>
+    <date>2014</date>
+    <category>Reportaje</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/winnoticias.jpg" />
+  </programme>
+  <programme start="20261029040000 -0300" stop="20261029050000 -0300" channel="0430">
+    <title>De colección</title>
+    <desc>Los momentos más sobresalientes de fútbol colombiano recopilados en diferentes instantes que pasaron a la historia.</desc>
+    <date>2023</date>
+    <category>Fútbol</category>
+    <rating><value>+15</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/decoleccion.jpg" />
+  </programme>
+  <programme start="20261029050000 -0300" stop="20261029070000 -0300" channel="0430">
+    <title>Fútbol Colombiano Primera División • Liga I: Millonarios vs Independiente Santa Fe</title>
+    <sub-title>Liga I: Millonarios vs. Independiente Santa Fe</sub-title>
+    <desc>Liga I: Millonarios vs Independiente Santa Fe | Fecha 6, cuadrangulares semifinales del Torneo Apertura 2025 de la Primera A. Millonarios se enfrenta a Independiente Santa Fe en el Clásico Bogotano. Desde el estadio Nemesio Camacho, en Bogotá, Cundinamarca. Disputado el 19 de junio de 2025.</desc>
+    <date>2025</date>
+    <category>Fútbol</category>
+    <episode-num system="onscreen">Episodio 35</episode-num>
+    <rating><value>18</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbolcolombianoprimeradivision.jpg" />
+  </programme>
+  <programme start="20261029070000 -0300" stop="20261029090000 -0300" channel="0430">
+    <title>Fútbol Colombiano Primera División • Copa Mustang 1995-1996: Atlético Nacional vs Independiente Santa Fe</title>
+    <sub-title>Copa Mustang 1995-1996: Atlético Nacional vs. Independiente Santa Fe</sub-title>
+    <desc>Copa Mustang 1995-1996: Atlético Nacional vs Independiente Santa Fe | Partido clásico de la Copa Mustang 1995-1996. Atlético Nacional e Independiente Sante Fe se disputan la fecha 6.</desc>
+    <date>2026</date>
+    <category>Fútbol</category>
+    <rating><value>18</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbolcolombianoprimeradivision.jpg" />
+  </programme>
+  <programme start="20261029090000 -0300" stop="20261029110000 -0300" channel="0430">
+    <title>El Chiringuito</title>
+    <desc>Programación deportiva que abarca toda la información reciente acerca de los equipos de fútbol español.</desc>
+    <credits>
+      <director>Josep Pedrerol</director>
+    </credits>
+    <date>2014</date>
+    <category>Deportes</category>
+    <category>Entretenimiento</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/elchiringuito.jpg" />
+  </programme>
+  <programme start="20261029110000 -0300" stop="20261029130000 -0300" channel="0430">
+    <title>Planeta Fútbol</title>
+    <desc>El mejor programa de análisis, opinión y controversia, donde la selección de fútbol de Colombia es el hilo conductor.</desc>
+    <credits>
+      <actor>Faryd Mondragón</actor>
+      <actor>Carlos Antonio Vélez</actor>
+      <actor>Juan José Pelaez</actor>
+    </credits>
+    <date>2016</date>
+    <category>Fútbol</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/planetafutbol.jpg" />
+  </programme>
+  <programme start="20261029130000 -0300" stop="20261029150000 -0300" channel="0430">
+    <title>Fútbol Colombiano Primera División • Once Caldas vs Alianza FC</title>
+    <sub-title>Once Caldas vs. Alianza FC</sub-title>
+    <desc>Once Caldas vs Alianza FC | Acción de la fecha 5 del Torneo Finalización 2026 de la Categoría Primera A. Once Caldas se enfrenta a Alianza FC. Desde el estadio Palogrande, en Manizales, Caldas, Colombia.</desc>
+    <date>2026</date>
+    <category>Fútbol</category>
+    <rating><value>+15</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbolcolombianoprimeradivision.jpg" />
+  </programme>
+  <programme start="20261029150000 -0300" stop="20261029170000 -0300" channel="0430">
+    <title>Fútbol Colombiano Primera División • Internacional de Bogotá vs Independiente Medellín</title>
+    <sub-title>Internacional de Bogotá vs. Independiente Medellín</sub-title>
+    <desc>Internacional de Bogotá vs Independiente Medellín | Acción de la fecha 5 del Torneo Finalización 2026 de la Categoría Primera A. Internacional de Bogotá se enfrenta a Independiente Medellín. Desde el Estadio Metropolitano de Techo, en Bogotá, Colombia.</desc>
+    <date>2026</date>
+    <category>Fútbol</category>
+    <rating><value>+15</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbolcolombianoprimeradivision.jpg" />
+  </programme>
+  <programme start="20261029170000 -0300" stop="20261029183000 -0300" channel="0430">
+    <title>WIN Noticias</title>
+    <desc>La más completa información y todas las novedades del mundo deportivo nacional e internacional. Además, se tiene la más amplia cobertura de los deportistas colombianos en todo el mundo.</desc>
+    <date>2014</date>
+    <category>Reportaje</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/winnoticias.jpg" />
+  </programme>
+  <programme start="20261029183000 -0300" stop="20261029203000 -0300" channel="0430">
+    <title>Fútbol: Previa</title>
+    <desc>Reportajes, análisis y comentarios previo al gran evento deportivo.</desc>
+    <date>2003</date>
+    <category>Fútbol</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbolprevia.jpg" />
+  </programme>
+  <programme start="20261029203000 -0300" stop="20261029223000 -0300" channel="0430">
+    <title>[En vivo] Fútbol Colombiano Primera División • América de Cali vs Fortaleza</title>
+    <sub-title>América de Cali vs. Fortaleza</sub-title>
+    <desc>En vivo ║ América de Cali vs Fortaleza | Acción de la fecha 5 del Torneo Finalización 2026 de la Categoría Primera A. América de Cali se enfrenta a Fortaleza. Desde el estadio Pascual Guerrero, en Cali, Valle del Cauca, Colombia.</desc>
+    <date>2026</date>
+    <category>Fútbol</category>
+    <rating><value>+15</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbolcolombianoprimeradivision.jpg" />
+  </programme>
+  <programme start="20261029223000 -0300" stop="20261030003000 -0300" channel="0430">
+    <title>Fútbol Colombiano Primera División • Atlético Nacional vs Independiente Santa Fe</title>
+    <sub-title>Atlético Nacional vs. Independiente Santa Fe</sub-title>
+    <desc>Atlético Nacional vs Independiente Santa Fe | Acción de la fecha 5 del Torneo Finalización 2026 de la Categoría Primera A. Atlético Nacional se enfrenta a Independiente Santa Fe. Desde el estadio Atanasio Girardot, en Medellín, Colombia.</desc>
+    <date>2026</date>
+    <category>Fútbol</category>
+    <rating><value>+15</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbolcolombianoprimeradivision.jpg" />
+  </programme>
+  <programme start="20261030003000 -0300" stop="20261030020000 -0300" channel="0430">
     <title>Mucho + Fútbol</title>
     <desc>Resumen y análisis de los partidos tras la finalización de la jornada, con el apoyo de herramientas tecnológicas para extraer las situaciones críticas de juego de cada equipo.</desc>
     <date>2020</date>
@@ -295031,360 +295619,42 @@ Esta secuela ignora por completo los fillers (Capítulos y conceptos inventados 
     <rating><value>+15</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/muchofutbol.jpg" />
   </programme>
-  <programme start="20261026170000 -0300" stop="20261026180000 -0300" channel="0430">
-    <title>Fútbol: Previa</title>
-    <desc>Reportajes, análisis y comentarios previo al gran evento deportivo.</desc>
-    <date>2003</date>
-    <category>Fútbol</category>
-    <rating><value>TE</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbolprevia.jpg" />
-  </programme>
-  <programme start="20261026180000 -0300" stop="20261026203000 -0300" channel="0430">
-    <title>Fútbol Colombiano Segunda División</title>
-    <desc>La mejor cobertura del torneo de Segunda División en Colombia.</desc>
-    <date>2013</date>
-    <category>Fútbol</category>
-    <rating><value>TE</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbolcolombianosegundadivision.jpg" />
-  </programme>
-  <programme start="20261026203000 -0300" stop="20261026223000 -0300" channel="0430">
-    <title>Fútbol Colombiano Primera División</title>
-    <desc>La mejor cobertura de los encuentros correspondientes a la Liga Colombiana de fútbol.</desc>
-    <date>2010</date>
-    <category>Fútbol</category>
-    <rating><value>TE</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbolcolombianoprimeradivision.jpg" />
-  </programme>
-  <programme start="20261026223000 -0300" stop="20261027003000 -0300" channel="0430">
-    <title>Fútbol Colombiano Primera División</title>
-    <desc>La mejor cobertura de los encuentros correspondientes a la Liga Colombiana de fútbol.</desc>
-    <date>2010</date>
-    <category>Fútbol</category>
-    <rating><value>TE</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbolcolombianoprimeradivision.jpg" />
-  </programme>
-  <programme start="20261027003000 -0300" stop="20261027013000 -0300" channel="0430">
-    <title>WIN Noticias</title>
-    <desc>La más completa información y todas las novedades del mundo deportivo nacional e internacional. Además, se tiene la más amplia cobertura de los deportistas colombianos en todo el mundo.</desc>
-    <date>2014</date>
-    <category>Reportaje</category>
-    <rating><value>TE</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/winnoticias.jpg" />
-  </programme>
-  <programme start="20261027013000 -0300" stop="20261027033000 -0300" channel="0430">
-    <title>Fútbol Colombiano Primera División</title>
-    <desc>La mejor cobertura de los encuentros correspondientes a la Liga Colombiana de fútbol.</desc>
-    <date>2010</date>
-    <category>Fútbol</category>
-    <rating><value>TE</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbolcolombianoprimeradivision.jpg" />
-  </programme>
-  <programme start="20261027033000 -0300" stop="20261027040000 -0300" channel="0430">
-    <title>Campañas</title>
-    <desc>Un programa que recuerda aquellas temporadas exitosas y muestra el camino que recorrieron equipos, jugadores y entrenadores emblemáticos del fútbol colombiano que dejaron una huella y llenan de orgullo a cada una de sus hinchadas.</desc>
-    <date>2019</date>
-    <category>Fútbol</category>
-    <rating><value>TE</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/campanas.jpg" />
-  </programme>
-  <programme start="20261027040000 -0300" stop="20261027060000 -0300" channel="0430">
-    <title>Fútbol Colombiano Primera División</title>
-    <desc>Toda la emoción, la acción y los goles, con el recuerdo de los mejores partidos de la Primera División del fútbol colombiano.</desc>
-    <date>2016</date>
-    <category>Fútbol</category>
-    <rating><value>TE</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbolcolombianoprimeradivision.jpg" />
-  </programme>
-  <programme start="20261027060000 -0300" stop="20261027070000 -0300" channel="0430">
-    <title>WIN Noticias</title>
-    <desc>La más completa información y todas las novedades del mundo deportivo nacional e internacional. Además, se tiene la más amplia cobertura de los deportistas colombianos en todo el mundo.</desc>
-    <date>2014</date>
-    <category>Reportaje</category>
-    <rating><value>TE</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/winnoticias.jpg" />
-  </programme>
-  <programme start="20261027070000 -0300" stop="20261027090000 -0300" channel="0430">
-    <title>Fútbol Colombiano Primera División</title>
-    <desc>Toda la emoción, la acción y los goles, con el recuerdo de los mejores partidos de la Primera División del fútbol colombiano.</desc>
-    <date>2016</date>
-    <category>Fútbol</category>
-    <rating><value>TE</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbolcolombianoprimeradivision.jpg" />
-  </programme>
-  <programme start="20261027090000 -0300" stop="20261027100000 -0300" channel="0430">
-    <title>WIN Noticias</title>
-    <desc>La más completa información y todas las novedades del mundo deportivo nacional e internacional. Además, se tiene la más amplia cobertura de los deportistas colombianos en todo el mundo.</desc>
-    <date>2014</date>
-    <category>Reportaje</category>
-    <rating><value>TE</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/winnoticias.jpg" />
-  </programme>
-  <programme start="20261027100000 -0300" stop="20261027103000 -0300" channel="0430">
-    <title>Campañas</title>
-    <desc>Un programa que recuerda aquellas temporadas exitosas y muestra el camino que recorrieron equipos, jugadores y entrenadores emblemáticos del fútbol colombiano que dejaron una huella y llenan de orgullo a cada una de sus hinchadas.</desc>
-    <date>2019</date>
-    <category>Fútbol</category>
-    <rating><value>TE</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/campanas.jpg" />
-  </programme>
-  <programme start="20261027103000 -0300" stop="20261027123000 -0300" channel="0430">
-    <title>Fútbol Colombiano Segunda División</title>
-    <desc>La mejor cobertura del torneo de Segunda División en Colombia.</desc>
-    <date>2013</date>
-    <category>Fútbol</category>
-    <rating><value>TE</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbolcolombianosegundadivision.jpg" />
-  </programme>
-  <programme start="20261027123000 -0300" stop="20261027133000 -0300" channel="0430">
-    <title>De colección</title>
-    <desc>Los momentos más sobresalientes de fútbol colombiano recopilados en diferentes instantes que pasaron a la historia.</desc>
-    <date>2023</date>
+  <programme start="20261030020000 -0300" stop="20261030040000 -0300" channel="0430">
+    <title>Fútbol Colombiano Primera División • América de Cali vs Fortaleza</title>
+    <sub-title>América de Cali vs. Fortaleza</sub-title>
+    <desc>América de Cali vs Fortaleza | Acción de la fecha 5 del Torneo Finalización 2026 de la Categoría Primera A. América de Cali se enfrenta a Fortaleza. Desde el estadio Pascual Guerrero, en Cali, Valle del Cauca, Colombia.</desc>
+    <date>2026</date>
     <category>Fútbol</category>
     <rating><value>+15</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/decoleccion.jpg" />
-  </programme>
-  <programme start="20261027133000 -0300" stop="20261027153000 -0300" channel="0430">
-    <title>Fútbol Colombiano Primera División</title>
-    <desc>La mejor cobertura de los encuentros correspondientes a la Liga Colombiana de fútbol.</desc>
-    <date>2010</date>
-    <category>Fútbol</category>
-    <rating><value>TE</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbolcolombianoprimeradivision.jpg" />
   </programme>
-  <programme start="20261027153000 -0300" stop="20261027163000 -0300" channel="0430">
-    <title>Coppa Italia Show</title>
-    <desc>Toda la información sobre la Copa de Italia.</desc>
-    <date>2023</date>
+  <programme start="20261030040000 -0300" stop="20261030053000 -0300" channel="0430">
+    <title>Fútbol Colombiano Femenino Primera División • Independiente Santa Fe vs Junior</title>
+    <sub-title>Independiente Santa Fe vs. Junior</sub-title>
+    <desc>Independiente Santa Fe vs Junior | Fecha 13 de la Liga Profesional Femenina 2025. Desde el Estadio Metropolitano de Techo, en Bogotá. Independiente Santa Fe busca extender su liderato de la tabla general ante un Junior que no ha obtenido una victoria desde la jornada 9.</desc>
+    <date>2025</date>
     <category>Fútbol</category>
-    <rating><value>+15</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/coppaitaliashow.jpg" />
+    <rating><value>18</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbolcolombianofemeninoprimeradivision.jpg" />
   </programme>
-  <programme start="20261027163000 -0300" stop="20261027170000 -0300" channel="0430">
-    <title>Fútbol: Previa</title>
-    <desc>Reportajes, análisis y comentarios previo al gran evento deportivo.</desc>
-    <date>2003</date>
+  <programme start="20261030053000 -0300" stop="20261030070000 -0300" channel="0430">
+    <title>Fútbol Colombiano Primera División • Liga I 2025: Independiente Santa Fe vs Independiente Medellín</title>
+    <sub-title>Liga I 2025: Independiente Santa Fe vs. Independiente Medellín</sub-title>
+    <desc>Liga I 2025: Independiente Santa Fe vs Independiente Medellín | Toda la emoción, la acción y los goles, con el recuerdo de los mejores partidos de la Primera División del fútbol colombiano.</desc>
+    <date>2026</date>
     <category>Fútbol</category>
-    <rating><value>TE</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbolprevia.jpg" />
-  </programme>
-  <programme start="20261027170000 -0300" stop="20261027190000 -0300" channel="0430">
-    <title>Fútbol Copa Italia</title>
-    <desc>La competición de fútbol de Italia en la que participan los equipos de la Serie A y de la Serie B.</desc>
-    <date>2012</date>
-    <category>Fútbol</category>
-    <rating><value>TE</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbolcopaitalia.jpg" />
-  </programme>
-  <programme start="20261027190000 -0300" stop="20261027210000 -0300" channel="0430">
-    <title>Los disruptivos</title>
-    <desc>Reacciones a los encuentros del Fútbol Profesional Colombiano de una manera original.</desc>
-    <date>2024</date>
-    <category>Deportes</category>
-    <rating><value>+15</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/losdisruptivos.jpg" />
-  </programme>
-  <programme start="20261027210000 -0300" stop="20261027213000 -0300" channel="0430">
-    <title>Fútbol: Previa</title>
-    <desc>Reportajes, análisis y comentarios previo al gran evento deportivo.</desc>
-    <date>2003</date>
-    <category>Fútbol</category>
-    <rating><value>TE</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbolprevia.jpg" />
-  </programme>
-  <programme start="20261027213000 -0300" stop="20261027233000 -0300" channel="0430">
-    <title>Fútbol Colombiano Segunda División</title>
-    <desc>La mejor cobertura del torneo de Segunda División en Colombia.</desc>
-    <date>2013</date>
-    <category>Fútbol</category>
-    <rating><value>TE</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbolcolombianosegundadivision.jpg" />
-  </programme>
-  <programme start="20261027233000 -0300" stop="20261028003000 -0300" channel="0430">
-    <title>WIN Noticias</title>
-    <desc>La más completa información y todas las novedades del mundo deportivo nacional e internacional. Además, se tiene la más amplia cobertura de los deportistas colombianos en todo el mundo.</desc>
-    <date>2014</date>
-    <category>Reportaje</category>
-    <rating><value>TE</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/winnoticias.jpg" />
-  </programme>
-  <programme start="20261028003000 -0300" stop="20261028023000 -0300" channel="0430">
-    <title>Fútbol Copa Italia</title>
-    <desc>La competición de fútbol de Italia en la que participan los equipos de la Serie A y de la Serie B.</desc>
-    <date>2012</date>
-    <category>Fútbol</category>
-    <rating><value>TE</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbolcopaitalia.jpg" />
-  </programme>
-  <programme start="20261028023000 -0300" stop="20261028033000 -0300" channel="0430">
-    <title>WIN Noticias</title>
-    <desc>La más completa información y todas las novedades del mundo deportivo nacional e internacional. Además, se tiene la más amplia cobertura de los deportistas colombianos en todo el mundo.</desc>
-    <date>2014</date>
-    <category>Reportaje</category>
-    <rating><value>TE</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/winnoticias.jpg" />
-  </programme>
-  <programme start="20261028033000 -0300" stop="20261028040000 -0300" channel="0430">
-    <title>Campañas</title>
-    <desc>Un programa que recuerda aquellas temporadas exitosas y muestra el camino que recorrieron equipos, jugadores y entrenadores emblemáticos del fútbol colombiano que dejaron una huella y llenan de orgullo a cada una de sus hinchadas.</desc>
-    <date>2019</date>
-    <category>Fútbol</category>
-    <rating><value>TE</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/campanas.jpg" />
-  </programme>
-  <programme start="20261028040000 -0300" stop="20261028060000 -0300" channel="0430">
-    <title>Fútbol Colombiano Primera División</title>
-    <desc>Toda la emoción, la acción y los goles, con el recuerdo de los mejores partidos de la Primera División del fútbol colombiano.</desc>
-    <date>2016</date>
-    <category>Fútbol</category>
-    <rating><value>TE</value></rating>
+    <rating><value>18</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbolcolombianoprimeradivision.jpg" />
   </programme>
-  <programme start="20261028060000 -0300" stop="20261028070000 -0300" channel="0430">
-    <title>WIN Noticias</title>
-    <desc>La más completa información y todas las novedades del mundo deportivo nacional e internacional. Además, se tiene la más amplia cobertura de los deportistas colombianos en todo el mundo.</desc>
-    <date>2014</date>
-    <category>Reportaje</category>
-    <rating><value>TE</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/winnoticias.jpg" />
-  </programme>
-  <programme start="20261028070000 -0300" stop="20261028090000 -0300" channel="0430">
-    <title>Fútbol Colombiano Primera División</title>
-    <desc>Toda la emoción, la acción y los goles, con el recuerdo de los mejores partidos de la Primera División del fútbol colombiano.</desc>
-    <date>2016</date>
-    <category>Fútbol</category>
-    <rating><value>TE</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbolcolombianoprimeradivision.jpg" />
-  </programme>
-  <programme start="20261028090000 -0300" stop="20261028100000 -0300" channel="0430">
-    <title>WIN Noticias</title>
-    <desc>La más completa información y todas las novedades del mundo deportivo nacional e internacional. Además, se tiene la más amplia cobertura de los deportistas colombianos en todo el mundo.</desc>
-    <date>2014</date>
-    <category>Reportaje</category>
-    <rating><value>TE</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/winnoticias.jpg" />
-  </programme>
-  <programme start="20261028100000 -0300" stop="20261028103000 -0300" channel="0430">
-    <title>Campañas</title>
-    <desc>Un programa que recuerda aquellas temporadas exitosas y muestra el camino que recorrieron equipos, jugadores y entrenadores emblemáticos del fútbol colombiano que dejaron una huella y llenan de orgullo a cada una de sus hinchadas.</desc>
-    <date>2019</date>
-    <category>Fútbol</category>
-    <rating><value>TE</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/campanas.jpg" />
-  </programme>
-  <programme start="20261028103000 -0300" stop="20261028123000 -0300" channel="0430">
-    <title>Supercopa de Italia</title>
-    <desc>Toda la emoción y la mejor cobertura de esta competencia del fútbol italiano.</desc>
-    <date>2012</date>
-    <category>Fútbol</category>
-    <rating><value>TE</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
-  </programme>
-  <programme start="20261028123000 -0300" stop="20261028133000 -0300" channel="0430">
-    <title>Detrás de la gloria</title>
-    <desc>El camino para ser campeón del fútbol colombiano nunca ha sido fácil. Una muestra de todo lo que los equipos viven dentro y fuera de sus planteles para levantar la copa y llenarse de Gloria.</desc>
-    <date>2020</date>
-    <category>Deportes</category>
-    <rating><value>+15</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/detrasdelagloria.jpg" />
-  </programme>
-  <programme start="20261028133000 -0300" stop="20261028153000 -0300" channel="0430">
-    <title>Fútbol Colombiano Segunda División</title>
-    <desc>La mejor cobertura del torneo de Segunda División en Colombia.</desc>
-    <date>2013</date>
-    <category>Fútbol</category>
-    <rating><value>TE</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbolcolombianosegundadivision.jpg" />
-  </programme>
-  <programme start="20261028153000 -0300" stop="20261028163000 -0300" channel="0430">
-    <title>Coppa Italia Show</title>
-    <desc>Toda la información sobre la Copa de Italia.</desc>
-    <date>2023</date>
-    <category>Fútbol</category>
-    <rating><value>+15</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/coppaitaliashow.jpg" />
-  </programme>
-  <programme start="20261028163000 -0300" stop="20261028170000 -0300" channel="0430">
-    <title>Fútbol: Previa</title>
-    <desc>Reportajes, análisis y comentarios previo al gran evento deportivo.</desc>
-    <date>2003</date>
-    <category>Fútbol</category>
-    <rating><value>TE</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbolprevia.jpg" />
-  </programme>
-  <programme start="20261028170000 -0300" stop="20261028190000 -0300" channel="0430">
-    <title>Fútbol Copa Italia</title>
-    <desc>La competición de fútbol de Italia en la que participan los equipos de la Serie A y de la Serie B.</desc>
-    <date>2012</date>
-    <category>Fútbol</category>
-    <rating><value>TE</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbolcopaitalia.jpg" />
-  </programme>
-  <programme start="20261028190000 -0300" stop="20261028193000 -0300" channel="0430">
-    <title>Campañas</title>
-    <desc>Un programa que recuerda aquellas temporadas exitosas y muestra el camino que recorrieron equipos, jugadores y entrenadores emblemáticos del fútbol colombiano que dejaron una huella y llenan de orgullo a cada una de sus hinchadas.</desc>
-    <date>2019</date>
-    <category>Fútbol</category>
-    <rating><value>TE</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/campanas.jpg" />
-  </programme>
-  <programme start="20261028193000 -0300" stop="20261028213000 -0300" channel="0430">
-    <title>Fútbol Copa Italia</title>
-    <desc>La competición de fútbol de Italia en la que participan los equipos de la Serie A y de la Serie B.</desc>
-    <date>2012</date>
-    <category>Fútbol</category>
-    <rating><value>TE</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbolcopaitalia.jpg" />
-  </programme>
-  <programme start="20261028213000 -0300" stop="20261028223000 -0300" channel="0430">
-    <title>Rueda de prensa Superliga</title>
-    <desc>Las voces previas a la definición del título en la Superliga de Colombia.</desc>
+  <programme start="20261030070000 -0300" stop="20261030090000 -0300" channel="0430">
+    <title>Fanáticos de corazón</title>
+    <desc>Un programa en el que se mezcla la pasión del hincha, la experiencia del futbolista y el conocimiento del periodista en torno al equipo que domina su pasión. Una hora para compartir el amor, respeto y cariño de aquellos fanáticos de corazón.</desc>
     <date>2022</date>
-    <category>Fútbol</category>
-    <category>Deportes</category>
-    <rating><value>+15</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
-  </programme>
-  <programme start="20261028223000 -0300" stop="20261028233000 -0300" channel="0430">
-    <title>WIN Noticias</title>
-    <desc>La más completa información y todas las novedades del mundo deportivo nacional e internacional. Además, se tiene la más amplia cobertura de los deportistas colombianos en todo el mundo.</desc>
-    <date>2014</date>
-    <category>Reportaje</category>
-    <rating><value>TE</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/winnoticias.jpg" />
-  </programme>
-  <programme start="20261028233000 -0300" stop="20261029013000 -0300" channel="0430">
-    <title>Fútbol Copa Italia</title>
-    <desc>La competición de fútbol de Italia en la que participan los equipos de la Serie A y de la Serie B.</desc>
-    <date>2012</date>
-    <category>Fútbol</category>
-    <rating><value>TE</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbolcopaitalia.jpg" />
-  </programme>
-  <programme start="20261029013000 -0300" stop="20261029023000 -0300" channel="0430">
-    <title>Especiales Win Sports</title>
-    <desc>Programas especiales de Win Sports, con lo mejor del deporte.</desc>
-    <date>2017</date>
     <category>Fútbol</category>
     <rating><value>18</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261029023000 -0300" stop="20261029043000 -0300" channel="0430">
-    <title>Fútbol Colombiano Primera División</title>
-    <desc>Toda la emoción, la acción y los goles, con el recuerdo de los mejores partidos de la Primera División del fútbol colombiano.</desc>
-    <date>2016</date>
-    <category>Fútbol</category>
-    <rating><value>TE</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbolcolombianoprimeradivision.jpg" />
-  </programme>
-  <programme start="20261029043000 -0300" stop="20261029063000 -0300" channel="0430">
-    <title>Los disruptivos</title>
-    <desc>Reacciones a los encuentros del Fútbol Profesional Colombiano de una manera original.</desc>
-    <date>2024</date>
-    <category>Deportes</category>
-    <rating><value>+15</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/losdisruptivos.jpg" />
-  </programme>
-  <programme start="20261029063000 -0300" stop="20261029070000 -0300" channel="0430">
+  <programme start="20261030090000 -0300" stop="20261030093000 -0300" channel="0430">
     <title>Campañas</title>
     <desc>Un programa que recuerda aquellas temporadas exitosas y muestra el camino que recorrieron equipos, jugadores y entrenadores emblemáticos del fútbol colombiano que dejaron una huella y llenan de orgullo a cada una de sus hinchadas.</desc>
     <date>2019</date>
@@ -295392,7 +295662,7 @@ Esta secuela ignora por completo los fillers (Capítulos y conceptos inventados 
     <rating><value>TE</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/campanas.jpg" />
   </programme>
-  <programme start="20261029070000 -0300" stop="20261029090000 -0300" channel="0430">
+  <programme start="20261030093000 -0300" stop="20261030113000 -0300" channel="0430">
     <title>Fútbol Colombiano Primera División</title>
     <desc>Toda la emoción, la acción y los goles, con el recuerdo de los mejores partidos de la Primera División del fútbol colombiano.</desc>
     <date>2016</date>
@@ -295400,39 +295670,7 @@ Esta secuela ignora por completo los fillers (Capítulos y conceptos inventados 
     <rating><value>TE</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbolcolombianoprimeradivision.jpg" />
   </programme>
-  <programme start="20261029090000 -0300" stop="20261029100000 -0300" channel="0430">
-    <title>WIN Noticias</title>
-    <desc>La más completa información y todas las novedades del mundo deportivo nacional e internacional. Además, se tiene la más amplia cobertura de los deportistas colombianos en todo el mundo.</desc>
-    <date>2014</date>
-    <category>Reportaje</category>
-    <rating><value>TE</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/winnoticias.jpg" />
-  </programme>
-  <programme start="20261029100000 -0300" stop="20261029103000 -0300" channel="0430">
-    <title>Campañas</title>
-    <desc>Un programa que recuerda aquellas temporadas exitosas y muestra el camino que recorrieron equipos, jugadores y entrenadores emblemáticos del fútbol colombiano que dejaron una huella y llenan de orgullo a cada una de sus hinchadas.</desc>
-    <date>2019</date>
-    <category>Fútbol</category>
-    <rating><value>TE</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/campanas.jpg" />
-  </programme>
-  <programme start="20261029103000 -0300" stop="20261029123000 -0300" channel="0430">
-    <title>Fútbol Copa Italia</title>
-    <desc>La competición de fútbol de Italia en la que participan los equipos de la Serie A y de la Serie B.</desc>
-    <date>2012</date>
-    <category>Fútbol</category>
-    <rating><value>TE</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbolcopaitalia.jpg" />
-  </programme>
-  <programme start="20261029123000 -0300" stop="20261029133000 -0300" channel="0430">
-    <title>De colección</title>
-    <desc>Los momentos más sobresalientes de fútbol colombiano recopilados en diferentes instantes que pasaron a la historia.</desc>
-    <date>2023</date>
-    <category>Fútbol</category>
-    <rating><value>+15</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/decoleccion.jpg" />
-  </programme>
-  <programme start="20261029133000 -0300" stop="20261029140000 -0300" channel="0430">
+  <programme start="20261030113000 -0300" stop="20261030120000 -0300" channel="0430">
     <title>Fútbol: Previa</title>
     <desc>Reportajes, análisis y comentarios previo al gran evento deportivo.</desc>
     <date>2003</date>
@@ -295440,7 +295678,7 @@ Esta secuela ignora por completo los fillers (Capítulos y conceptos inventados 
     <rating><value>TE</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbolprevia.jpg" />
   </programme>
-  <programme start="20261029140000 -0300" stop="20261029160000 -0300" channel="0430">
+  <programme start="20261030120000 -0300" stop="20261030140000 -0300" channel="0430">
     <title>Fútbol Saudi Pro League</title>
     <desc>La mejor cobertura del campeonato árabe de fútbol de Primera División.</desc>
     <date>2009</date>
@@ -295448,7 +295686,7 @@ Esta secuela ignora por completo los fillers (Capítulos y conceptos inventados 
     <rating><value>+15</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261029160000 -0300" stop="20261029170000 -0300" channel="0430">
+  <programme start="20261030140000 -0300" stop="20261030150000 -0300" channel="0430">
     <title>Detrás de la gloria</title>
     <desc>El camino para ser campeón del fútbol colombiano nunca ha sido fácil. Una muestra de todo lo que los equipos viven dentro y fuera de sus planteles para levantar la copa y llenarse de Gloria.</desc>
     <date>2020</date>
@@ -295456,15 +295694,15 @@ Esta secuela ignora por completo los fillers (Capítulos y conceptos inventados 
     <rating><value>+15</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/detrasdelagloria.jpg" />
   </programme>
-  <programme start="20261029170000 -0300" stop="20261029190000 -0300" channel="0430">
-    <title>Fútbol Superliga de Colombia</title>
-    <desc>Acción de la Superliga de Colombia, torneo que enfrenta a los campeones de la temporada en el fútbol de este país.</desc>
-    <date>2018</date>
+  <programme start="20261030150000 -0300" stop="20261030170000 -0300" channel="0430">
+    <title>Fútbol Colombiano Segunda División</title>
+    <desc>La mejor cobertura del torneo de Segunda División en Colombia.</desc>
+    <date>2013</date>
     <category>Fútbol</category>
-    <rating><value>+15</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbolcolombianosegundadivision.jpg" />
   </programme>
-  <programme start="20261029190000 -0300" stop="20261029193000 -0300" channel="0430">
+  <programme start="20261030170000 -0300" stop="20261030173000 -0300" channel="0430">
     <title>Campañas</title>
     <desc>Un programa que recuerda aquellas temporadas exitosas y muestra el camino que recorrieron equipos, jugadores y entrenadores emblemáticos del fútbol colombiano que dejaron una huella y llenan de orgullo a cada una de sus hinchadas.</desc>
     <date>2019</date>
@@ -295472,7 +295710,7 @@ Esta secuela ignora por completo los fillers (Capítulos y conceptos inventados 
     <rating><value>TE</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/campanas.jpg" />
   </programme>
-  <programme start="20261029193000 -0300" stop="20261029213000 -0300" channel="0430">
+  <programme start="20261030173000 -0300" stop="20261030180000 -0300" channel="0430">
     <title>Fútbol: Previa</title>
     <desc>Reportajes, análisis y comentarios previo al gran evento deportivo.</desc>
     <date>2003</date>
@@ -295480,23 +295718,45 @@ Esta secuela ignora por completo los fillers (Capítulos y conceptos inventados 
     <rating><value>TE</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbolprevia.jpg" />
   </programme>
-  <programme start="20261029213000 -0300" stop="20261029223000 -0300" channel="0430">
-    <title>Fútbol Superliga de Colombia</title>
-    <desc>Acción de la Superliga de Colombia, torneo que enfrenta a los campeones de la temporada en el fútbol de este país.</desc>
-    <date>2018</date>
+  <programme start="20261030180000 -0300" stop="20261030200000 -0300" channel="0430">
+    <title>Fútbol Colombiano Segunda División</title>
+    <desc>La mejor cobertura del torneo de Segunda División en Colombia.</desc>
+    <date>2013</date>
     <category>Fútbol</category>
-    <rating><value>+15</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbolcolombianosegundadivision.jpg" />
   </programme>
-  <programme start="20261029223000 -0300" stop="20261029230000 -0300" channel="0430">
-    <title>Win Sports Plus</title>
-    <desc>La informacion de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  <programme start="20261030200000 -0300" stop="20261030203000 -0300" channel="0430">
+    <title>Una cancha llamada Colombia</title>
+    <desc>Proyecto social, deportivo, artístico, documental e integral de la Fundación Arte para el Cambio que evidencia cómo el fútbol se convierte en un eje de transformación social en cada rincón de Colombia.</desc>
+    <date>2021</date>
+    <category>Noticias</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/unacanchallamadacolombia.jpg" />
   </programme>
-  <programme start="20261029230000 -0300" stop="20261029235959 -0300" channel="0430">
-    <title>Win Sports Plus</title>
-    <desc>La informacion de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  <programme start="20261030203000 -0300" stop="20261030213000 -0300" channel="0430">
+    <title>Fútbol: Previa</title>
+    <desc>Reportajes, análisis y comentarios previo al gran evento deportivo.</desc>
+    <date>2003</date>
+    <category>Fútbol</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbolprevia.jpg" />
+  </programme>
+  <programme start="20261030213000 -0300" stop="20261030233000 -0300" channel="0430">
+    <title>Fútbol Colombiano Primera División</title>
+    <desc>La mejor cobertura de los encuentros correspondientes a la Liga Colombiana de fútbol.</desc>
+    <date>2010</date>
+    <category>Fútbol</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbolcolombianoprimeradivision.jpg" />
+  </programme>
+  <programme start="20261030233000 -0300" stop="20261031003000 -0300" channel="0430">
+    <title>WIN Noticias</title>
+    <desc>La más completa información y todas las novedades del mundo deportivo nacional e internacional. Además, se tiene la más amplia cobertura de los deportistas colombianos en todo el mundo.</desc>
+    <date>2014</date>
+    <category>Reportaje</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/winnoticias.jpg" />
   </programme>
   <programme start="20261023130000 -0300" stop="20261023143000 -0300" channel="0431">
     <title>[En vivo] De fútbol se habla así</title>
@@ -387366,6 +387626,7 @@ El cambio climático y la pérdida de biodiversidad exigen una nueva forma de ec
     <sub-title>Lo justo es justo; Surfeando en la Sabana</sub-title>
     <desc>Lo justo es justo; Surfeando en la Sabana | Crocodylus le quita las alas a Babar y debe pasar una prueba para recuperarlas. Andi sale a hacer remolinos de viento con Babar.</desc>
     <credits>
+      <director>Michael Stokes</director>
       <actor>Gordon Pinsent</actor>
       <actor>Dallas Jokic</actor>
       <actor>Samantha Weinstein</actor>
@@ -387376,6 +387637,7 @@ El cambio climático y la pérdida de biodiversidad exigen una nueva forma de ec
     <category>Children</category>
     <category>Educational</category>
     <category>Animals</category>
+    <country>Canadá</country>
     <episode-num system="onscreen">T3 E3</episode-num>
     <rating><value>TVY</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/babarylasaventurasdebadou.jpg" />
@@ -387385,6 +387647,7 @@ El cambio climático y la pérdida de biodiversidad exigen una nueva forma de ec
     <sub-title>Los reyes bailarines; Los piratas del picnic</sub-title>
     <desc>Los reyes bailarines; Los piratas del picnic | Sin saberlo, Badou conduce a Crocodylus hacia una flauta mágica que hace que Babar y Lord Rataxes bailen al son de su melodía. La idea de aniversario de Badou, un picnic tranquilo para sus abuelos, casi se arruina por piratas furtivos.</desc>
     <credits>
+      <director>Michael Stokes</director>
       <actor>Gordon Pinsent</actor>
       <actor>Dallas Jokic</actor>
       <actor>Samantha Weinstein</actor>
@@ -387395,6 +387658,7 @@ El cambio climático y la pérdida de biodiversidad exigen una nueva forma de ec
     <category>Children</category>
     <category>Educational</category>
     <category>Animals</category>
+    <country>Canadá</country>
     <episode-num system="onscreen">T3 E2</episode-num>
     <rating><value>TVY</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/babarylasaventurasdebadou.jpg" />
@@ -448396,7 +448660,7 @@ Hank en su nueva vida tendrá como acompañantes a su hermano, quien ve tener un
     <category>Documental</category>
     <country>Inglaterra</country>
     <episode-num system="onscreen">S7 E8</episode-num>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/solocontraelmundohazenaudel.jpg" />
   </programme>
   <programme start="20261024000400 -0300" stop="20261024010500 -0300" channel="0702">
     <title>Gordon Ramsay: sabores extremos • Sudáfrica</title>
@@ -448482,7 +448746,7 @@ Hank en su nueva vida tendrá como acompañantes a su hermano, quien ve tener un
     <category>Documental</category>
     <country>Inglaterra</country>
     <episode-num system="onscreen">S2 E3</episode-num>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/solocontraelmundohazenaudel.jpg" />
   </programme>
   <programme start="20261024041700 -0300" stop="20261024050200 -0300" channel="0702">
     <title>Alerta aeropuerto • Sorpresa y media</title>
@@ -448913,7 +449177,7 @@ Hank en su nueva vida tendrá como acompañantes a su hermano, quien ve tener un
     <category>Documental</category>
     <country>Inglaterra</country>
     <episode-num system="onscreen">S2 E4</episode-num>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/solocontraelmundohazenaudel.jpg" />
   </programme>
   <programme start="20261025040700 -0300" stop="20261025045100 -0300" channel="0702">
     <title>Alerta aeropuerto • Poliamor y otras hierbas</title>
@@ -449312,7 +449576,7 @@ Hank en su nueva vida tendrá como acompañantes a su hermano, quien ve tener un
     <category>Documental</category>
     <country>Inglaterra</country>
     <episode-num system="onscreen">S2 E5</episode-num>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/solocontraelmundohazenaudel.jpg" />
   </programme>
   <programme start="20261026042300 -0300" stop="20261026050700 -0300" channel="0702">
     <title>Alerta aeropuerto • Mal humor sin escalas</title>
@@ -449504,7 +449768,7 @@ Hank en su nueva vida tendrá como acompañantes a su hermano, quien ve tener un
     <category>Documental</category>
     <country>Inglaterra</country>
     <episode-num system="onscreen">S1 E1</episode-num>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/solocontraelmundohazenaudel.jpg" />
   </programme>
   <programme start="20261026145600 -0300" stop="20261026155600 -0300" channel="0702">
     <title>Mayday: catástrofes aéreas • Colisión catastrófica</title>
@@ -575039,6 +575303,7 @@ El brujo Gargamel y su gato Azrael, intentan siempre y por todos los medios capt
     </credits>
     <date>2022</date>
     <category>Terror</category>
+    <country>Canadá</country>
     <rating><value>4.4</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/elcampodelamuerte.jpg" />
   </programme>
@@ -575676,6 +575941,7 @@ El brujo Gargamel y su gato Azrael, intentan siempre y por todos los medios capt
     <category>Movie</category>
     <category>Horror</category>
     <category>Thriller</category>
+    <country>Canadá</country>
     <rating><value>C</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/elcampodelamuerte.jpg" />
   </programme>
@@ -659668,6 +659934,7 @@ El brujo Gargamel y su gato Azrael, intentan siempre y por todos los medios capt
     <date>1989</date>
     <category>Movie</category>
     <category>Drama</category>
+    <country>México</country>
     <rating><value>B15</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/intimidadesenuncuartodebano.jpg" />
   </programme>
@@ -659960,6 +660227,7 @@ El brujo Gargamel y su gato Azrael, intentan siempre y por todos los medios capt
     <date>1989</date>
     <category>Movie</category>
     <category>Drama</category>
+    <country>México</country>
     <rating><value>B15</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/intimidadesenuncuartodebano.jpg" />
   </programme>
@@ -677233,6 +677501,7 @@ de Billy y Mandy • Algo Tonto Va A Pasar / La Sorpresa De Puro Hueso / Bestias
     <category>Movie</category>
     <category>Horror</category>
     <category>Thriller</category>
+    <country>Canadá</country>
     <rating><value>C</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/elcampodelamuerte.jpg" />
   </programme>
@@ -684855,8 +685124,19 @@ La serie narra los acontecimientos de la Biblia, del Antiguo y Nuevo Testamento 
   </programme>
   <programme start="20261025224000 -0300" stop="20261026005000 -0300" channel="0867">
     <title>Mi esposa y la otra</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <desc>Una clásica historia de un marido que conoce una mujer más joven, y empieza una aventura de amor.</desc>
+    <credits>
+      <director>Alfredo B. Crevenna</director>
+      <actor>Arturo de Córdova</actor>
+      <actor>Marga López</actor>
+      <actor>Ramón Gay</actor>
+      <actor>Angélica María</actor>
+      <actor>Alma Delia Fuentes</actor>
+    </credits>
+    <date>1952</date>
+    <category>Drama</category>
+    <country>México</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/miesposaylaotra.jpg" />
   </programme>
   <programme start="20261026005000 -0300" stop="20261026023500 -0300" channel="0867">
     <title>Yo quiero ser hombre</title>
@@ -684972,8 +685252,19 @@ La serie narra los acontecimientos de la Biblia, del Antiguo y Nuevo Testamento 
   </programme>
   <programme start="20261026224000 -0300" stop="20261026234000 -0300" channel="0867">
     <title>Mi esposa y la otra</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <desc>Una clásica historia de un marido que conoce una mujer más joven, y empieza una aventura de amor.</desc>
+    <credits>
+      <director>Alfredo B. Crevenna</director>
+      <actor>Arturo de Córdova</actor>
+      <actor>Marga López</actor>
+      <actor>Ramón Gay</actor>
+      <actor>Angélica María</actor>
+      <actor>Alma Delia Fuentes</actor>
+    </credits>
+    <date>1952</date>
+    <category>Drama</category>
+    <country>México</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/miesposaylaotra.jpg" />
   </programme>
   <programme start="20261026234000 -0300" stop="20261027000000 -0300" channel="0867">
     <title>De Película Clásico</title>
@@ -705388,6 +705679,7 @@ Victoria ha conseguido que su amante, un empresario, le haya cedido la presidenc
     <title>Otro día perdido</title>
     <desc>Un big show donde la actualidad se mezcla con el humor, la ironía y la tecnología en una propuesta de gran despliegue. Monólogos punzantes, entrevistas, inteligencia artificial, bandas en vivo y mucho más.</desc>
     <credits>
+      <director>Claudio Cuscuela</director>
       <actor>Mario Pergolini</actor>
       <actor>Agustín &#x27;Rada&#x27; Aristarán</actor>
       <actor>Evelyn Botto</actor>
@@ -705395,7 +705687,7 @@ Victoria ha conseguido que su amante, un empresario, le haya cedido la presidenc
     <date>2025</date>
     <category>Entretenimiento</category>
     <country>Argentina</country>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/otrodiaperdido.jpg" />
   </programme>
   <programme start="20261024001500 -0300" stop="20261024010000 -0300" channel="0915">
     <title>En síntesis</title>
@@ -716870,7 +717162,14 @@ La emisora fue inaugurada el 1 de octubre de 1960 y desde el año 1989 es propie
   <programme start="20261024100000 -0300" stop="20261024111500 -0300" channel="0929">
     <title>Bernard</title>
     <desc>Conoce a Bernard, un oso polar torpe que viaja haciéndose querer. Si algo le puede salir mal, le saldrá peor, y es que cosas tan simples como hacer una foto o correr por el campo pueden convertirse en el mayor de los enredos con él.</desc>
+    <credits>
+      <director>Hidde Simons</director>
+      <director>Joggem Simons</director>
+      <actor>Thomas Wander</actor>
+    </credits>
+    <date>2014</date>
     <category>Infantil</category>
+    <country>Países Bajos</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261024111500 -0300" stop="20261024113000 -0300" channel="0929">
@@ -724285,6 +724584,7 @@ El objetivo del foraster es, en cuarenta y ocho horas, conocer el mayor número 
     <title>Otro día perdido</title>
     <desc>Un big show donde la actualidad se mezcla con el humor, la ironía y la tecnología en una propuesta de gran despliegue. Monólogos punzantes, entrevistas con personajes realmente interesantes, inteligencia artificial, asistentes virtuales y un escenario deslumbrante con tribuna para cien personas, banda en vivo y mucho más. Todo pensado para ofrecer al público una experiencia única.</desc>
     <credits>
+      <director>Claudio Cuscuela</director>
       <actor>Mario Pergolini</actor>
       <actor>Agustín &#x27;Rada&#x27; Aristarán</actor>
       <actor>Evelyn Botto</actor>
@@ -724292,7 +724592,7 @@ El objetivo del foraster es, en cuarenta y ocho horas, conocer el mayor número 
     <date>2025</date>
     <category>Entretenimiento</category>
     <country>Argentina</country>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/otrodiaperdido.jpg" />
   </programme>
   <programme start="20261024005000 -0300" stop="20261024013000 -0300" channel="0940">
     <title>Última página</title>
@@ -724906,6 +725206,7 @@ El objetivo del foraster es, en cuarenta y ocho horas, conocer el mayor número 
     <title>Otro día perdido</title>
     <desc>Un big show donde la actualidad se mezcla con el humor, la ironía y la tecnología en una propuesta de gran despliegue. Monólogos punzantes, entrevistas con personajes realmente interesantes, inteligencia artificial, asistentes virtuales y un escenario deslumbrante con tribuna para cien personas, banda en vivo y mucho más. Todo pensado para ofrecer al público una experiencia única.</desc>
     <credits>
+      <director>Claudio Cuscuela</director>
       <actor>Mario Pergolini</actor>
       <actor>Agustín &#x27;Rada&#x27; Aristarán</actor>
       <actor>Evelyn Botto</actor>
@@ -724913,7 +725214,7 @@ El objetivo del foraster es, en cuarenta y ocho horas, conocer el mayor número 
     <date>2025</date>
     <category>Entretenimiento</category>
     <country>Argentina</country>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/otrodiaperdido.jpg" />
   </programme>
   <programme start="20261027003500 -0300" stop="20261027010000 -0300" channel="0940">
     <title>Canal 12 Córdoba</title>
@@ -725894,6 +726195,7 @@ El objetivo del foraster es, en cuarenta y ocho horas, conocer el mayor número 
     <title>Otro día perdido</title>
     <desc>Un big show donde la actualidad se mezcla con el humor, la ironía y la tecnología en una propuesta de gran despliegue. Monólogos punzantes, entrevistas, inteligencia artificial, bandas en vivo y mucho más.</desc>
     <credits>
+      <director>Claudio Cuscuela</director>
       <actor>Mario Pergolini</actor>
       <actor>Agustín &#x27;Rada&#x27; Aristarán</actor>
       <actor>Evelyn Botto</actor>
@@ -725901,7 +726203,7 @@ El objetivo del foraster es, en cuarenta y ocho horas, conocer el mayor número 
     <date>2025</date>
     <category>Entretenimiento</category>
     <country>Argentina</country>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/otrodiaperdido.jpg" />
   </programme>
   <programme start="20261024005000 -0300" stop="20261024013000 -0300" channel="0942">
     <title>Última página</title>
@@ -749429,7 +749731,21 @@ El cambio climático y la pérdida de biodiversidad exigen una nueva forma de ec
   <programme start="20261024031300 -0300" stop="20261024050600 -0300" channel="0978">
     <title>Ralph rompe Internet</title>
     <desc>Ralph sale de los recreativos, y se adentra en el mundo inexplorado, expansivo y emocionante de Internet. Ralph y su compañera Vanellope tendrán que jugárselo todo viajando por las redes en busca de una pieza de repuesto que salve Sugar Rush, el videojuego de Vanellope. Y para complicar más las cosas, ambos dependen de los ciudadanos de Internet, los llamados ‘ciudanets’ para que les ayuden a desenvolverse en ese peligroso mundo. Entre ellos está un empresario de Internet llamado Yesss, que es el algoritmo estrella y el alma de “BuzzTube”, la página web de moda del momento.</desc>
+    <credits>
+      <director>Phil Johnston</director>
+      <director>Rich Moore</director>
+      <actor>John C. Reilly</actor>
+      <actor>Sarah Silverman</actor>
+      <actor>Gal Gadot</actor>
+      <actor>Taraji P. Henson</actor>
+      <actor>Jack McBrayer</actor>
+      <actor>Timothy Simons</actor>
+      <actor>Phil Johnston</actor>
+      <actor>Mandy Moore</actor>
+    </credits>
+    <date>2018</date>
     <category>Movies</category>
+    <country>Estados Unidos</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/ralphrompeinternet.jpg" />
   </programme>
   <programme start="20261024050600 -0300" stop="20261024063300 -0300" channel="0978">
@@ -749654,7 +749970,21 @@ El cambio climático y la pérdida de biodiversidad exigen una nueva forma de ec
   <programme start="20261025120200 -0300" stop="20261025135500 -0300" channel="0978">
     <title>Ralph rompe Internet</title>
     <desc>Ralph sale de los recreativos, y se adentra en el mundo inexplorado, expansivo y emocionante de Internet. Ralph y su compañera Vanellope tendrán que jugárselo todo viajando por las redes en busca de una pieza de repuesto que salve Sugar Rush, el videojuego de Vanellope. Y para complicar más las cosas, ambos dependen de los ciudadanos de Internet, los llamados ‘ciudanets’ para que les ayuden a desenvolverse en ese peligroso mundo. Entre ellos está un empresario de Internet llamado Yesss, que es el algoritmo estrella y el alma de “BuzzTube”, la página web de moda del momento.</desc>
+    <credits>
+      <director>Phil Johnston</director>
+      <director>Rich Moore</director>
+      <actor>John C. Reilly</actor>
+      <actor>Sarah Silverman</actor>
+      <actor>Gal Gadot</actor>
+      <actor>Taraji P. Henson</actor>
+      <actor>Jack McBrayer</actor>
+      <actor>Timothy Simons</actor>
+      <actor>Phil Johnston</actor>
+      <actor>Mandy Moore</actor>
+    </credits>
+    <date>2018</date>
     <category>Movies</category>
+    <country>Estados Unidos</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/ralphrompeinternet.jpg" />
   </programme>
   <programme start="20261025135500 -0300" stop="20261025142000 -0300" channel="0978">
