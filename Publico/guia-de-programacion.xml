@@ -346421,7 +346421,7 @@ Así los dos se embarcan en un viaje para regresar a casa, pero en su camino Mar
   <programme start="20261027030000 -0300" stop="20261027050000 -0300" channel="0429">
     <title>Fútbol Colombiano Primera División • Atlético Nacional vs Independiente Medellín</title>
     <sub-title>Atlético Nacional vs. Independiente Medellín</sub-title>
-    <desc>Atlético Nacional vs Independiente Medellín | Desde el estadio Atanasio Girardot en Medellín, Colombia.</desc>
+    <desc>Atlético Nacional vs Independiente Medellín | Acción de la fecha 16 del Torneo Clausura 2026 de la Primera A. Atlético Nacional se enfrenta a Independiente Medellín. Desde el estadio Atanasio Girardot, en Medellín.</desc>
     <date>2026</date>
     <category>Fútbol</category>
     <rating><value>+15</value></rating>
@@ -346430,7 +346430,7 @@ Así los dos se embarcan en un viaje para regresar a casa, pero en su camino Mar
   <programme start="20261027050000 -0300" stop="20261027070000 -0300" channel="0429">
     <title>Fútbol Colombiano Primera División • Jaguares vs Llaneros</title>
     <sub-title>Jaguares vs. Llaneros</sub-title>
-    <desc>Jaguares vs Llaneros | Desde el estadio Jaraguay, en Montería, Colombia.</desc>
+    <desc>Jaguares vs Llaneros | Jaguares se enfrenta a Llaneros en la fecha 16 del Torneo Finalización 2026 de la Categoría Primera A. Desde el Estadio Jaraguay, en Montería, Córdoba.</desc>
     <date>2026</date>
     <category>Fútbol</category>
     <rating><value>+15</value></rating>
@@ -346609,7 +346609,7 @@ Así los dos se embarcan en un viaje para regresar a casa, pero en su camino Mar
   <programme start="20261028193000 -0300" stop="20261028213000 -0300" channel="0429">
     <title>[En vivo] Fútbol Brasileirao • Santos vs Palmeiras</title>
     <sub-title>Santos vs. Palmeiras</sub-title>
-    <desc>En vivo ║ Santos vs Palmeiras | Toda la acción con los partidos del campeonato brasileño de fútbol de Primera División.</desc>
+    <desc>En vivo ║ Santos vs Palmeiras | El Clásico de la Nostalgia se presenta en la jornada 33 del Brasileirão Serie A 2026 entre Peixe y Verdão. Desde el estadio Urbano Caldeira, en Santos, São Paulo.</desc>
     <date>2026</date>
     <category>Fútbol</category>
     <rating><value>+15</value></rating>
@@ -346664,7 +346664,7 @@ Así los dos se embarcan en un viaje para regresar a casa, pero en su camino Mar
   <programme start="20261029050000 -0300" stop="20261029070000 -0300" channel="0429">
     <title>Fútbol Brasileirao • Santos vs Palmeiras</title>
     <sub-title>Santos vs. Palmeiras</sub-title>
-    <desc>Santos vs Palmeiras | Toda la acción con los partidos del campeonato brasileño de fútbol de Primera División.</desc>
+    <desc>Santos vs Palmeiras | El Clásico de la Nostalgia se presenta en la jornada 33 del Brasileirão Serie A 2026 entre Peixe y Verdão. Desde el estadio Urbano Caldeira, en Santos, São Paulo.</desc>
     <date>2026</date>
     <category>Fútbol</category>
     <rating><value>+15</value></rating>
@@ -346726,7 +346726,7 @@ Así los dos se embarcan en un viaje para regresar a casa, pero en su camino Mar
   <programme start="20261029200000 -0300" stop="20261029220000 -0300" channel="0429">
     <title>Fútbol Brasileirao • Vasco da Gama vs Flamengo CR</title>
     <sub-title>Vasco da Gama vs. Flamengo CR</sub-title>
-    <desc>Vasco da Gama vs Flamengo CR | Toda la acción con los partidos del campeonato brasileño de fútbol de Primera División.</desc>
+    <desc>Vasco da Gama vs Flamengo CR | El Clásico de los Millones se presenta en la jornada 33 del Brasileirão Serie A 2026 entre Camisas Negras y Mengão. Desde el São Januário, en Río de Janeiro.</desc>
     <date>2026</date>
     <category>Fútbol</category>
     <rating><value>+15</value></rating>
@@ -347256,13 +347256,32 @@ Así los dos se embarcan en un viaje para regresar a casa, pero en su camino Mar
     <rating><value>+15</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/saquelargo.jpg" />
   </programme>
-  <programme start="20261102200000 -0300" stop="20261102210000 -0300" channel="0429">
+  <programme start="20261102200000 -0300" stop="20261102220000 -0300" channel="0429">
     <title>Fútbol Colombiano Segunda División</title>
     <desc>La mejor cobertura del torneo de Segunda División en Colombia.</desc>
     <date>2013</date>
     <category>Fútbol</category>
     <rating><value>TE</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbolcolombianosegundadivision.jpg" />
+  </programme>
+  <programme start="20261102220000 -0300" stop="20261102230000 -0300" channel="0429">
+    <title>Conexión deportes</title>
+    <desc>Programa de opinión y debate sobre los hechos más destacados en el deporte colombiano e internacional.</desc>
+    <credits>
+      <actor>Tito Puccetti</actor>
+    </credits>
+    <date>2014</date>
+    <category>Deportes</category>
+    <rating><value>+15</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/conexiondeportes.jpg" />
+  </programme>
+  <programme start="20261102230000 -0300" stop="20261103000000 -0300" channel="0429">
+    <title>Última jugada</title>
+    <desc>En el mundo del billar, Johnny (Mars Callahan) podría ser uno de los mejores, pero vive sometido a Joe (Chazz Palminteri), un oscuro personaje que decide cómo y con quién debe jugar. Finalmente Johnny rompe sus relaciones con Joe y, presionado por su novia (Alison Eastwood), empieza a trabajar. Joe, resentido, intenta vengarse y encuentra un nuevo protegido, Brad (Rick Schroder), tan bueno o mejor que Johnny. (FILMAFFINITY)</desc>
+    <date>2022</date>
+    <category>Fútbol</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/ultimajugada.jpg" />
   </programme>
   <programme start="20261026120000 -0300" stop="20261026123000 -0300" channel="0430">
     <title>Fútbol: Previa</title>
@@ -347378,7 +347397,7 @@ Así los dos se embarcan en un viaje para regresar a casa, pero en su camino Mar
   <programme start="20261027050000 -0300" stop="20261027070000 -0300" channel="0430">
     <title>Fútbol Colombiano Primera División • Liga I 2025: Independiente Santa Fe vs Atlético Nacional</title>
     <sub-title>Liga I 2025: Independiente Santa Fe vs. Atlético Nacional</sub-title>
-    <desc>Liga I 2025: Independiente Santa Fe vs Atlético Nacional | Toda la emoción, la acción y los goles, con el recuerdo de los mejores partidos de la Primera División del fútbol colombiano.</desc>
+    <desc>Liga I 2025: Independiente Santa Fe vs Atlético Nacional | Fecha 4 del cuadrangular semifinal del Torneo Apertura 2025 de la Primera A. Independiente Santa Fe se enfrenta a Atlético Nacional. Desde el estadio Nemesio Camacho, en Bogotá, Cundinamarca. Disputado el 12 de junio de 2025.</desc>
     <date>2025</date>
     <category>Fútbol</category>
     <rating><value>18</value></rating>
@@ -347421,7 +347440,7 @@ Así los dos se embarcan en un viaje para regresar a casa, pero en su camino Mar
   <programme start="20261027130000 -0300" stop="20261027150000 -0300" channel="0430">
     <title>Fútbol Colombiano Primera División • Jaguares vs Llaneros</title>
     <sub-title>Jaguares vs. Llaneros</sub-title>
-    <desc>Jaguares vs Llaneros | Desde el estadio Jaraguay, en Montería, Colombia.</desc>
+    <desc>Jaguares vs Llaneros | Jaguares se enfrenta a Llaneros en la fecha 16 del Torneo Finalización 2026 de la Categoría Primera A. Desde el Estadio Jaraguay, en Montería, Córdoba.</desc>
     <date>2026</date>
     <category>Fútbol</category>
     <rating><value>+15</value></rating>
@@ -347524,7 +347543,7 @@ Así los dos se embarcan en un viaje para regresar a casa, pero en su camino Mar
   <programme start="20261028050000 -0300" stop="20261028070000 -0300" channel="0430">
     <title>Fútbol Colombiano Primera División • Liga I 2025: Independiente Santa Fe vs Once Caldas</title>
     <sub-title>Liga I 2025: Independiente Santa Fe vs. Once Caldas</sub-title>
-    <desc>Liga I 2025: Independiente Santa Fe vs Once Caldas | Toda la emoción, la acción y los goles, con el recuerdo de los mejores partidos de la Primera División del fútbol colombiano.</desc>
+    <desc>Liga I 2025: Independiente Santa Fe vs Once Caldas | Fecha 5 de los cuadrangulares semifinales del Torneo Apertura 2025 de la Primera A. Independiente Santa Fe se enfrenta a Once Caldas. Desde el estadio Nemesio Camacho, en Bogotá, Cundinamarca. Disputado el 16 de junio de 2025.</desc>
     <date>2025</date>
     <category>Fútbol</category>
     <rating><value>18</value></rating>
@@ -347791,8 +347810,8 @@ Así los dos se embarcan en un viaje para regresar a casa, pero en su camino Mar
   <programme start="20261030053000 -0300" stop="20261030070000 -0300" channel="0430">
     <title>Fútbol Colombiano Primera División • Liga I 2025: Independiente Santa Fe vs Independiente Medellín</title>
     <sub-title>Liga I 2025: Independiente Santa Fe vs. Independiente Medellín</sub-title>
-    <desc>Liga I 2025: Independiente Santa Fe vs Independiente Medellín | Toda la emoción, la acción y los goles, con el recuerdo de los mejores partidos de la Primera División del fútbol colombiano.</desc>
-    <date>2026</date>
+    <desc>Liga I 2025: Independiente Santa Fe vs Independiente Medellín | Final, partido de ida del Torneo Apertura 2025 de la Primera A. Independiente Santa Fe se enfrenta a Independiente Medellín. Desde el estadio Nemesio Camacho, en Bogotá, Cundinamarca. Disputado el 24 de junio de 2025.</desc>
+    <date>2025</date>
     <category>Fútbol</category>
     <rating><value>18</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbolcolombianoprimeradivision.jpg" />
@@ -348229,7 +348248,15 @@ Así los dos se embarcan en un viaje para regresar a casa, pero en su camino Mar
     <rating><value>TE</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbolcolombianosegundadivision.jpg" />
   </programme>
-  <programme start="20261102203000 -0300" stop="20261102213000 -0300" channel="0430">
+  <programme start="20261102203000 -0300" stop="20261102223000 -0300" channel="0430">
+    <title>Fútbol Colombiano Primera División</title>
+    <desc>La mejor cobertura de los encuentros correspondientes a la Liga Colombiana de fútbol.</desc>
+    <date>2010</date>
+    <category>Fútbol</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbolcolombianoprimeradivision.jpg" />
+  </programme>
+  <programme start="20261102223000 -0300" stop="20261102233000 -0300" channel="0430">
     <title>Fútbol Colombiano Primera División</title>
     <desc>La mejor cobertura de los encuentros correspondientes a la Liga Colombiana de fútbol.</desc>
     <date>2010</date>
@@ -431888,10 +431915,14 @@ Así los dos se embarcan en un viaje para regresar a casa, pero en su camino Mar
     <title>Hecho en casa</title>
     <desc>Aclamados cineastas de todo el mundo canalizan su creatividad durante el aislamiento por la COVID-19 y nos deleitan con esta serie de cortometrajes de distintos géneros.</desc>
     <credits>
+      <director>Lorenzo Mieli</director>
+      <director>Juan de Dios Larraín</director>
+      <director>Pablo Larraín</director>
       <presenter>Diego Gera</presenter>
     </credits>
     <date>2021</date>
     <category>Cooking</category>
+    <country>Chile</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/hechoencasa.jpg" />
   </programme>
   <programme start="20261101100000 -0300" stop="20261101103000 -0300" channel="1610">
@@ -471199,7 +471230,16 @@ Y mientras la vida de Iñaki transcurre plácidamente, un día se ve obligado a 
   <programme start="20261102234200 -0300" stop="20261103004200 -0300" channel="0620">
     <title>Cosmos</title>
     <desc>Tres astrónomos interceptan por accidente lo que parece una señal de una civilización alienígena, pero la verdad acaba siendo más increíble de lo que imaginaban.</desc>
+    <credits>
+      <director>Elliot Weaver</director>
+      <director>Zander Weaver</director>
+      <actor>Arjun Singh Panam</actor>
+      <actor>Joshua Ford</actor>
+      <actor>Tom England</actor>
+    </credits>
+    <date>2019</date>
     <category>Musica</category>
+    <country>Reino Unido</country>
     <rating><value>18</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/cosmos.jpg" />
   </programme>
@@ -572471,6 +572511,9 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     <title>Engineering the Future • Timber Skyscraper</title>
     <sub-title>Timber Skyscraper</sub-title>
     <desc>Timber Skyscraper | Construction currently accounts for a staggering percentage of the world&#x27;s energy consumption and greenhouse gas emissions; exploring the world of timber buildings for a more sustainable future.</desc>
+    <date>2019</date>
+    <category>Documental</category>
+    <country>Estados Unidos</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/engineeringthefuture.jpg" />
   </programme>
   <programme start="20261026235700 -0300" stop="20261027002100 -0300" channel="0711">
@@ -572588,6 +572631,9 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     <title>Engineering the Future • Timber Skyscraper</title>
     <sub-title>Timber Skyscraper</sub-title>
     <desc>Timber Skyscraper | Construction currently accounts for a staggering percentage of the world&#x27;s energy consumption and greenhouse gas emissions; exploring the world of timber buildings for a more sustainable future.</desc>
+    <date>2019</date>
+    <category>Documental</category>
+    <country>Estados Unidos</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/engineeringthefuture.jpg" />
   </programme>
   <programme start="20261027110300 -0300" stop="20261027112800 -0300" channel="0711">
@@ -572646,6 +572692,9 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     <title>Engineering the Future • Timber Skyscraper</title>
     <sub-title>Timber Skyscraper</sub-title>
     <desc>Timber Skyscraper | Construction currently accounts for a staggering percentage of the world&#x27;s energy consumption and greenhouse gas emissions; exploring the world of timber buildings for a more sustainable future.</desc>
+    <date>2019</date>
+    <category>Documental</category>
+    <country>Estados Unidos</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/engineeringthefuture.jpg" />
   </programme>
   <programme start="20261027163600 -0300" stop="20261027170100 -0300" channel="0711">
@@ -662111,7 +662160,7 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
   </programme>
   <programme start="20261027230000 -0300" stop="20261028002500 -0300" channel="0818">
     <title>1978</title>
-    <desc>Durante la última dictadura militar, un grupo de torturadores secuestra violentamente a unos jóvenes. Sin embargo, ellos terminan siendo las víctimas tras descubrir que los raptados forman parte de una secta macabra.</desc>
+    <desc>Durante la final del Mundial, en tiempos de dictadura militar, unos torturadores secuestran a un grupo de jóvenes. Lo que comienza como un interrogatorio inhumano se convierte en un verdadero tormento: han secuestrado a personas equivocadas. Eso no es todo, ya que pertenecen a una secta guiada por una fuerza desconocida y el centro clandestino de detención se convertirá en el mismísimo infierno.</desc>
     <credits>
       <director>Luciano Onetti</director>
       <director>Nicolás Onetti</director>
@@ -663253,7 +663302,7 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
   </programme>
   <programme start="20261031213500 -0300" stop="20261031230000 -0300" channel="0818">
     <title>1978</title>
-    <desc>Durante la última dictadura militar, un grupo de torturadores secuestra violentamente a unos jóvenes. Sin embargo, ellos terminan siendo las víctimas tras descubrir que los raptados forman parte de una secta macabra.</desc>
+    <desc>Durante la final del Mundial, en tiempos de dictadura militar, unos torturadores secuestran a un grupo de jóvenes. Lo que comienza como un interrogatorio inhumano se convierte en un verdadero tormento: han secuestrado a personas equivocadas. Eso no es todo, ya que pertenecen a una secta guiada por una fuerza desconocida y el centro clandestino de detención se convertirá en el mismísimo infierno.</desc>
     <credits>
       <director>Luciano Onetti</director>
       <director>Nicolás Onetti</director>
@@ -825291,6 +825340,7 @@ María es bienvenida en la casa del empresario Fernando de la Vega, uno de los h
     <category>Variety</category>
     <category>Music</category>
     <category>Game show</category>
+    <country>Brasil</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/caldeirocommion.jpg" />
   </programme>
   <programme start="20261031190500 -0300" stop="20261031195000 -0300" channel="0906">
@@ -834134,6 +834184,7 @@ María es bienvenida en la casa del empresario Fernando de la Vega, uno de los h
     <date>2026</date>
     <category>Drama</category>
     <category>Novela</category>
+    <country>Perú</country>
     <rating><value>14</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/valentinavaliente.jpg" />
   </programme>
@@ -834423,6 +834474,7 @@ María es bienvenida en la casa del empresario Fernando de la Vega, uno de los h
     <date>2026</date>
     <category>Drama</category>
     <category>Novela</category>
+    <country>Perú</country>
     <rating><value>14</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/valentinavaliente.jpg" />
   </programme>
@@ -834712,6 +834764,7 @@ María es bienvenida en la casa del empresario Fernando de la Vega, uno de los h
     <date>2026</date>
     <category>Drama</category>
     <category>Novela</category>
+    <country>Perú</country>
     <rating><value>14</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/valentinavaliente.jpg" />
   </programme>
@@ -835001,6 +835054,7 @@ María es bienvenida en la casa del empresario Fernando de la Vega, uno de los h
     <date>2026</date>
     <category>Drama</category>
     <category>Novela</category>
+    <country>Perú</country>
     <rating><value>14</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/valentinavaliente.jpg" />
   </programme>
@@ -835290,6 +835344,7 @@ María es bienvenida en la casa del empresario Fernando de la Vega, uno de los h
     <date>2026</date>
     <category>Drama</category>
     <category>Novela</category>
+    <country>Perú</country>
     <rating><value>14</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/valentinavaliente.jpg" />
   </programme>
@@ -837824,9 +837879,13 @@ María es bienvenida en la casa del empresario Fernando de la Vega, uno de los h
     <title>¡Salud por eso! • Cuidado en los detalles</title>
     <sub-title>Cuidado en los detalles</sub-title>
     <desc>Cuidado en los detalles | José del Castillo visita al chef Ricardo Martins en Siete Restaurante para conocer su historia sobre el valor de la atención al detalle.</desc>
+    <credits>
+      <actor>Jose del Castillo</actor>
+    </credits>
     <date>2023</date>
     <category>Gastronomía</category>
     <category>Entretenimiento</category>
+    <country>España</country>
     <episode-num system="onscreen">T1 E10</episode-num>
     <rating><value>TE</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
