@@ -29829,6 +29829,13 @@ Basado en hechos reales, A Haunting dramatiza algunas de las historias más ater
   <programme start="20261101040000 -0300" stop="20261101060000 -0300" channel="0123">
     <title>Trasnoche</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
+    <credits>
+      <director>Sebastián Zavala</director>
+      <actor>Yamile Caparó Cuba</actor>
+    </credits>
+    <date>2025</date>
+    <category>Terror</category>
+    <country>Perú</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/trasnoche.jpg" />
   </programme>
   <programme start="20261101060000 -0300" stop="20261101080000 -0300" channel="0123">
@@ -195926,30 +195933,34 @@ Claudia Gurisatti - Jefferson Beltrán - Jason Calderón</desc>
     <sub-title>I</sub-title>
     <desc>I | Samurai Jack finds himself banished to the far future by evil Aku.</desc>
     <credits>
+      <director>Genndy Tartakovsky</director>
       <actor>Phil LaMarr</actor>
     </credits>
     <date>2001</date>
     <category>Animated</category>
     <category>Children</category>
     <category>Action</category>
+    <country>Estados Unidos</country>
     <episode-num system="onscreen">T1 E1</episode-num>
     <rating><value>TVPG</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/samuraijack.jpg" />
   </programme>
   <programme start="20261102193000 -0300" stop="20261102200000 -0300" channel="1305">
     <title>Samurai Jack • II</title>
     <sub-title>II</sub-title>
     <desc>II | A race of dogs enlists Jack&#x27;s help to destroy Aku.</desc>
     <credits>
+      <director>Genndy Tartakovsky</director>
       <actor>Phil LaMarr</actor>
     </credits>
     <date>2001</date>
     <category>Animated</category>
     <category>Children</category>
     <category>Action</category>
+    <country>Estados Unidos</country>
     <episode-num system="onscreen">T1 E2</episode-num>
     <rating><value>TVY7</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/samuraijack.jpg" />
   </programme>
   <programme start="20261102200000 -0300" stop="20261102203000 -0300" channel="1305">
     <title>Bob&#x27;s Burgers • The Secret Ceramics Room of Secrets</title>
@@ -197441,30 +197452,34 @@ Claudia Gurisatti - Jefferson Beltrán - Jason Calderón</desc>
     <sub-title>III</sub-title>
     <desc>III | Aku sends an army of insect drones to destroy Jack and his dog allies.</desc>
     <credits>
+      <director>Genndy Tartakovsky</director>
       <actor>Phil LaMarr</actor>
     </credits>
     <date>2001</date>
     <category>Animated</category>
     <category>Children</category>
     <category>Action</category>
+    <country>Estados Unidos</country>
     <episode-num system="onscreen">T1 E3</episode-num>
     <rating><value>TVPG</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/samuraijack.jpg" />
   </programme>
   <programme start="20261103193000 -0300" stop="20261103200000 -0300" channel="1305">
     <title>Samurai Jack • IV</title>
     <sub-title>IV</sub-title>
     <desc>IV | Jack agrees to help a group of captive wild animals escape from their handlers, the Chritchellites; the animals seek freedom from their restrictive environment.</desc>
     <credits>
+      <director>Genndy Tartakovsky</director>
       <actor>Phil LaMarr</actor>
     </credits>
     <date>2001</date>
     <category>Animated</category>
     <category>Children</category>
     <category>Action</category>
+    <country>Estados Unidos</country>
     <episode-num system="onscreen">T1 E4</episode-num>
     <rating><value>TVPG</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/samuraijack.jpg" />
   </programme>
   <programme start="20261103200000 -0300" stop="20261103203000 -0300" channel="1305">
     <title>Bob&#x27;s Burgers • Go Tina on the Mountain</title>
@@ -382304,6 +382319,12 @@ Así los dos se embarcan en un viaje para regresar a casa, pero en su camino Mar
   <programme start="20261029030800 -0300" stop="20261029041300 -0300" channel="0501">
     <title>Leonard Cohen: Under Review 1978-2006</title>
     <desc>Rare performance footage, studio recordings, interviews, rarely seen photographs, location shoots alongside contributions from some of Cohen&#x27;s closest colleagues.</desc>
+    <credits>
+      <director>Thomas Arnold</director>
+      <actor>Leonard Cohen</actor>
+    </credits>
+    <date>2006</date>
+    <country>Estados Unidos</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261029041300 -0300" stop="20261029054300 -0300" channel="0501">
@@ -489136,9 +489157,21 @@ Jorge (Raúl Arévalo) se imaginaba a su edad casado por la iglesia, con hijos y
   <programme start="20261027161000 -0300" stop="20261027175000 -0300" channel="0622">
     <title>Miró</title>
     <desc>Joan Miró, un discreto, silencioso y tenaz joven que tuvo que emigrar de una Barcelona gris y conservadora, a un París en plena efervescencia cultural para darse a conocer, en un período convulso y lleno de guerras.</desc>
+    <credits>
+      <director>Oriol Ferrer</director>
+      <actor>Eduardo Lloveras</actor>
+      <actor>Aida Folch</actor>
+      <actor>Pau Roca</actor>
+      <actor>Òscar Rabadán</actor>
+      <actor>Lluïsa Mallol</actor>
+      <actor>Mel Salvatierra</actor>
+      <actor>Álvaro Requena</actor>
+      <actor>Ramon Vila</actor>
+    </credits>
     <date>2023</date>
     <category>Biográfico</category>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <country>España</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/miro.jpg" />
   </programme>
   <programme start="20261027175000 -0300" stop="20261027200500 -0300" channel="0622">
     <title>La niña de tus ojos</title>
@@ -489262,9 +489295,21 @@ Jorge (Raúl Arévalo) se imaginaba a su edad casado por la iglesia, con hijos y
   <programme start="20261028041500 -0300" stop="20261028060000 -0300" channel="0622">
     <title>Miró</title>
     <desc>Joan Miró, un discreto, silencioso y tenaz joven que tuvo que emigrar de una Barcelona gris y conservadora, a un París en plena efervescencia cultural para darse a conocer, en un período convulso y lleno de guerras.</desc>
+    <credits>
+      <director>Oriol Ferrer</director>
+      <actor>Eduardo Lloveras</actor>
+      <actor>Aida Folch</actor>
+      <actor>Pau Roca</actor>
+      <actor>Òscar Rabadán</actor>
+      <actor>Lluïsa Mallol</actor>
+      <actor>Mel Salvatierra</actor>
+      <actor>Álvaro Requena</actor>
+      <actor>Ramon Vila</actor>
+    </credits>
     <date>2023</date>
     <category>Biográfico</category>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <country>España</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/miro.jpg" />
   </programme>
   <programme start="20261028060000 -0300" stop="20261028075500 -0300" channel="0622">
     <title>El comisario Montalbano • El toque del artista</title>
@@ -600957,6 +601002,20 @@ Hank en su nueva vida tendrá como acompañantes a su hermano, quien ve tener un
   <programme start="20261102120800 -0300" stop="20261102133700 -0300" channel="0716">
     <title>Coqueluche</title>
     <desc>Episodio 101 | La actriz Victoria Valder se ve obligada a disolver su compañía de teatro por un asunto de celos. Después se marcha a su casa de Marbella, donde conoció a Juan, cuando era un playboy dedicado al turismo femenino. Juan viaja hasta Marbella para hacer las paces con ella.</desc>
+    <credits>
+      <director>Aurélien Peyre</director>
+      <actor>Shanen Ricci</actor>
+      <actor>Sébastien François</actor>
+      <actor>Thibault Servière</actor>
+      <actor>Mano Fernandez</actor>
+      <actor>Vera Čupić-Vojnović</actor>
+      <actor>Gwendoline Fiquet</actor>
+    </credits>
+    <date>2018</date>
+    <category>Drama</category>
+    <category>Comedia</category>
+    <category>Romance</category>
+    <country>Francia</country>
     <episode-num system="onscreen">Episodio 101</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
@@ -601029,6 +601088,20 @@ Hank en su nueva vida tendrá como acompañantes a su hermano, quien ve tener un
   <programme start="20261102200200 -0300" stop="20261102213200 -0300" channel="0716">
     <title>Coqueluche</title>
     <desc>Episodio 102 | La actriz Victoria Valder se ve obligada a disolver su compañía de teatro por un asunto de celos. Después se marcha a su casa de Marbella, donde conoció a Juan, cuando era un playboy dedicado al turismo femenino. Juan viaja hasta Marbella para hacer las paces con ella.</desc>
+    <credits>
+      <director>Aurélien Peyre</director>
+      <actor>Shanen Ricci</actor>
+      <actor>Sébastien François</actor>
+      <actor>Thibault Servière</actor>
+      <actor>Mano Fernandez</actor>
+      <actor>Vera Čupić-Vojnović</actor>
+      <actor>Gwendoline Fiquet</actor>
+    </credits>
+    <date>2018</date>
+    <category>Drama</category>
+    <category>Comedia</category>
+    <category>Romance</category>
+    <country>Francia</country>
     <episode-num system="onscreen">Episodio 102</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
@@ -659126,6 +659199,7 @@ Hank en su nueva vida tendrá como acompañantes a su hermano, quien ve tener un
     <category>Movie</category>
     <category>Action</category>
     <category>Drama</category>
+    <country>Estados Unidos</country>
     <rating><value>B15</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/lagrimasdelsol.jpg" />
   </programme>
@@ -728347,7 +728421,7 @@ Pero no solo ellos sobrevivieron, descubren que Jimmy, otro de los pilotos, est�
   </programme>
   <programme start="20261031175900 -0300" stop="20261031192500 -0300" channel="1830">
     <title>Muertos de risa</title>
-    <desc>Un grupo de parientes interesados intenta hacer que una anciana muera del susto, mediante bombas, sorpresas y pasadizos secretos.</desc>
+    <desc>&quot;Muertos de Risa&quot; es un drama humano que parece un chiste. Sus protagonistas son Nino y Bruno, dos humoristas condenados al éxito más estruendoso en una España marcada por los cambios sociopolíticos, la televisión, las canciones del verano y las modas que vienen y van. Como todo no puede ser perfecto, Nino y Bruno pronto descubren que, cuanto más se odian, más éxito tienen, y cuanto más éxito tienen, más se odian.</desc>
     <credits>
       <director>Adolfo Fernández Bustamante</director>
       <actor>Adalberto Martínez</actor>
@@ -728359,8 +728433,9 @@ Pero no solo ellos sobrevivieron, descubren que Jimmy, otro de los pilotos, est�
     <date>1957</date>
     <category>Movie</category>
     <category>Comedy</category>
+    <country>España</country>
     <rating><value>A</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/muertosderisa.jpg" />
   </programme>
   <programme start="20261031192500 -0300" stop="20261031211300 -0300" channel="1830">
     <title>Dos criados malcriados</title>
@@ -728475,7 +728550,7 @@ Pero no solo ellos sobrevivieron, descubren que Jimmy, otro de los pilotos, est�
   </programme>
   <programme start="20261101055900 -0300" stop="20261101072500 -0300" channel="1830">
     <title>Muertos de risa</title>
-    <desc>Un grupo de parientes interesados intenta hacer que una anciana muera del susto, mediante bombas, sorpresas y pasadizos secretos.</desc>
+    <desc>&quot;Muertos de Risa&quot; es un drama humano que parece un chiste. Sus protagonistas son Nino y Bruno, dos humoristas condenados al éxito más estruendoso en una España marcada por los cambios sociopolíticos, la televisión, las canciones del verano y las modas que vienen y van. Como todo no puede ser perfecto, Nino y Bruno pronto descubren que, cuanto más se odian, más éxito tienen, y cuanto más éxito tienen, más se odian.</desc>
     <credits>
       <director>Adolfo Fernández Bustamante</director>
       <actor>Adalberto Martínez</actor>
@@ -728487,8 +728562,9 @@ Pero no solo ellos sobrevivieron, descubren que Jimmy, otro de los pilotos, est�
     <date>1957</date>
     <category>Movie</category>
     <category>Comedy</category>
+    <country>España</country>
     <rating><value>A</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/muertosderisa.jpg" />
   </programme>
   <programme start="20261101072500 -0300" stop="20261101090000 -0300" channel="1830">
     <title>Chabelo y Pepito detectives</title>
@@ -728804,7 +728880,7 @@ Pero no solo ellos sobrevivieron, descubren que Jimmy, otro de los pilotos, est�
   </programme>
   <programme start="20261102090000 -0300" stop="20261102102600 -0300" channel="1830">
     <title>Muertos de risa</title>
-    <desc>Un grupo de parientes interesados intenta hacer que una anciana muera del susto, mediante bombas, sorpresas y pasadizos secretos.</desc>
+    <desc>&quot;Muertos de Risa&quot; es un drama humano que parece un chiste. Sus protagonistas son Nino y Bruno, dos humoristas condenados al éxito más estruendoso en una España marcada por los cambios sociopolíticos, la televisión, las canciones del verano y las modas que vienen y van. Como todo no puede ser perfecto, Nino y Bruno pronto descubren que, cuanto más se odian, más éxito tienen, y cuanto más éxito tienen, más se odian.</desc>
     <credits>
       <director>Adolfo Fernández Bustamante</director>
       <actor>Adalberto Martínez</actor>
@@ -728816,8 +728892,9 @@ Pero no solo ellos sobrevivieron, descubren que Jimmy, otro de los pilotos, est�
     <date>1957</date>
     <category>Movie</category>
     <category>Comedy</category>
+    <country>España</country>
     <rating><value>A</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/muertosderisa.jpg" />
   </programme>
   <programme start="20261102102600 -0300" stop="20261102115900 -0300" channel="1830">
     <title>La muerte enamorada</title>
@@ -763258,6 +763335,7 @@ Pero no solo ellos sobrevivieron, descubren que Jimmy, otro de los pilotos, est�
     </credits>
     <date>2004</date>
     <category>Drama</category>
+    <country>México</country>
     <rating><value>B</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/rubi.jpg" />
   </programme>
@@ -763430,6 +763508,7 @@ Pero no solo ellos sobrevivieron, descubren que Jimmy, otro de los pilotos, est�
     </credits>
     <date>2004</date>
     <category>Drama</category>
+    <country>México</country>
     <rating><value>B</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/rubi.jpg" />
   </programme>
@@ -763806,6 +763885,7 @@ Pero no solo ellos sobrevivieron, descubren que Jimmy, otro de los pilotos, est�
     </credits>
     <date>2004</date>
     <category>Drama</category>
+    <country>México</country>
     <rating><value>B</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/rubi.jpg" />
   </programme>
@@ -763986,6 +764066,7 @@ Pero no solo ellos sobrevivieron, descubren que Jimmy, otro de los pilotos, est�
     </credits>
     <date>2004</date>
     <category>Drama</category>
+    <country>México</country>
     <rating><value>B</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/rubi.jpg" />
   </programme>
@@ -764362,6 +764443,7 @@ Pero no solo ellos sobrevivieron, descubren que Jimmy, otro de los pilotos, est�
     </credits>
     <date>2004</date>
     <category>Drama</category>
+    <country>México</country>
     <rating><value>B</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/rubi.jpg" />
   </programme>
@@ -764672,6 +764754,7 @@ Pero no solo ellos sobrevivieron, descubren que Jimmy, otro de los pilotos, est�
     </credits>
     <date>2004</date>
     <category>Drama</category>
+    <country>México</country>
     <rating><value>B</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/rubi.jpg" />
   </programme>
@@ -764966,6 +765049,7 @@ Pero no solo ellos sobrevivieron, descubren que Jimmy, otro de los pilotos, est�
     </credits>
     <date>2004</date>
     <category>Drama</category>
+    <country>México</country>
     <rating><value>B</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/rubi.jpg" />
   </programme>
@@ -765179,6 +765263,7 @@ Pero no solo ellos sobrevivieron, descubren que Jimmy, otro de los pilotos, est�
     </credits>
     <date>2004</date>
     <category>Drama</category>
+    <country>México</country>
     <rating><value>B</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/rubi.jpg" />
   </programme>
@@ -765604,6 +765689,7 @@ Pero no solo ellos sobrevivieron, descubren que Jimmy, otro de los pilotos, est�
     </credits>
     <date>2004</date>
     <category>Drama</category>
+    <country>México</country>
     <rating><value>B</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/rubi.jpg" />
   </programme>
@@ -766113,6 +766199,7 @@ Pero no solo ellos sobrevivieron, descubren que Jimmy, otro de los pilotos, est�
     </credits>
     <date>2004</date>
     <category>Soap</category>
+    <country>México</country>
     <rating><value>B</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/rubi.jpg" />
   </programme>
@@ -766316,6 +766403,7 @@ Pero no solo ellos sobrevivieron, descubren que Jimmy, otro de los pilotos, est�
     </credits>
     <date>2004</date>
     <category>Soap</category>
+    <country>México</country>
     <rating><value>B</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/rubi.jpg" />
   </programme>
@@ -766759,6 +766847,7 @@ Pero no solo ellos sobrevivieron, descubren que Jimmy, otro de los pilotos, est�
     </credits>
     <date>2004</date>
     <category>Soap</category>
+    <country>México</country>
     <rating><value>B</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/rubi.jpg" />
   </programme>
@@ -767013,6 +767102,7 @@ Pero no solo ellos sobrevivieron, descubren que Jimmy, otro de los pilotos, est�
     </credits>
     <date>2004</date>
     <category>Soap</category>
+    <country>México</country>
     <rating><value>B</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/rubi.jpg" />
   </programme>
@@ -767456,6 +767546,7 @@ Pero no solo ellos sobrevivieron, descubren que Jimmy, otro de los pilotos, est�
     </credits>
     <date>2004</date>
     <category>Soap</category>
+    <country>México</country>
     <rating><value>B</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/rubi.jpg" />
   </programme>
@@ -767691,6 +767782,7 @@ Pero no solo ellos sobrevivieron, descubren que Jimmy, otro de los pilotos, est�
     </credits>
     <date>2004</date>
     <category>Soap</category>
+    <country>México</country>
     <rating><value>B</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/rubi.jpg" />
   </programme>
@@ -768134,6 +768226,7 @@ Pero no solo ellos sobrevivieron, descubren que Jimmy, otro de los pilotos, est�
     </credits>
     <date>2004</date>
     <category>Soap</category>
+    <country>México</country>
     <rating><value>B</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/rubi.jpg" />
   </programme>
@@ -769353,6 +769446,7 @@ Pero no solo ellos sobrevivieron, descubren que Jimmy, otro de los pilotos, est�
     </credits>
     <date>2004</date>
     <category>Soap</category>
+    <country>México</country>
     <rating><value>B</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/rubi.jpg" />
   </programme>
@@ -770670,6 +770764,7 @@ Pero no solo ellos sobrevivieron, descubren que Jimmy, otro de los pilotos, est�
     </credits>
     <date>2004</date>
     <category>Drama</category>
+    <country>México</country>
     <rating><value>13+</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/rubi.jpg" />
   </programme>
@@ -854830,6 +854925,7 @@ La serie narra los acontecimientos de la Biblia, del Antiguo y Nuevo Testamento 
     <date>1993</date>
     <category>Movie</category>
     <category>Comedy</category>
+    <country>México</country>
     <rating><value>B</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/laloteria.jpg" />
   </programme>
@@ -854930,6 +855026,7 @@ La serie narra los acontecimientos de la Biblia, del Antiguo y Nuevo Testamento 
     <date>1993</date>
     <category>Movie</category>
     <category>Comedy</category>
+    <country>México</country>
     <rating><value>B</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/laloteria.jpg" />
   </programme>
@@ -855030,6 +855127,7 @@ La serie narra los acontecimientos de la Biblia, del Antiguo y Nuevo Testamento 
     <date>1993</date>
     <category>Movie</category>
     <category>Comedy</category>
+    <country>México</country>
     <rating><value>B</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/laloteria.jpg" />
   </programme>
@@ -875824,7 +875922,19 @@ La serie narra los acontecimientos de la Biblia, del Antiguo y Nuevo Testamento 
   <programme start="20261028060000 -0300" stop="20261028063000 -0300" channel="0913">
     <title>Crónicas</title>
     <desc>El ambicioso periodista Manolo Bonilla (Leguizamo) tiene un programa dirigido a la población hispana de Miami. Buscando una buena historia, viaja a un pueblo de Ecuador para investigar a un asesino en serie de niños conocido como &quot;El monstruo de Babahoyo&quot;. Producida por los directores Alfonso Cuarón y Guillermo del Toro, con música de Antonio Pinto (Ciudade Deus) y con un reparto de primer nivel, Sebastián Cordero firma un thriller sobre la ética del periodismo. Presentada con éxito en los festivales de Cannes, Toronto y Sundance, fue además candidata a los Oscar por Ecuador a la mejor película de habla no inglesa. (FILMAFFINITY)</desc>
+    <credits>
+      <director>Sebastián Cordero</director>
+      <actor>John Leguizamo</actor>
+      <actor>Damián Alcázar</actor>
+      <actor>Leonor Watling</actor>
+      <actor>Alfred Molina</actor>
+      <actor>José María Yázpik</actor>
+      <actor>Camilo Luzuriaga</actor>
+      <actor>Henry Layana</actor>
+    </credits>
+    <date>2004</date>
     <category>Periodístico</category>
+    <country>México</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/cronicas.jpg" />
   </programme>
   <programme start="20261028063000 -0300" stop="20261028073000 -0300" channel="0913">
@@ -876096,7 +876206,19 @@ La serie narra los acontecimientos de la Biblia, del Antiguo y Nuevo Testamento 
   <programme start="20261029060000 -0300" stop="20261029063000 -0300" channel="0913">
     <title>Crónicas</title>
     <desc>El ambicioso periodista Manolo Bonilla (Leguizamo) tiene un programa dirigido a la población hispana de Miami. Buscando una buena historia, viaja a un pueblo de Ecuador para investigar a un asesino en serie de niños conocido como &quot;El monstruo de Babahoyo&quot;. Producida por los directores Alfonso Cuarón y Guillermo del Toro, con música de Antonio Pinto (Ciudade Deus) y con un reparto de primer nivel, Sebastián Cordero firma un thriller sobre la ética del periodismo. Presentada con éxito en los festivales de Cannes, Toronto y Sundance, fue además candidata a los Oscar por Ecuador a la mejor película de habla no inglesa. (FILMAFFINITY)</desc>
+    <credits>
+      <director>Sebastián Cordero</director>
+      <actor>John Leguizamo</actor>
+      <actor>Damián Alcázar</actor>
+      <actor>Leonor Watling</actor>
+      <actor>Alfred Molina</actor>
+      <actor>José María Yázpik</actor>
+      <actor>Camilo Luzuriaga</actor>
+      <actor>Henry Layana</actor>
+    </credits>
+    <date>2004</date>
     <category>Periodístico</category>
+    <country>México</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/cronicas.jpg" />
   </programme>
   <programme start="20261029063000 -0300" stop="20261029073000 -0300" channel="0913">
@@ -906324,6 +906446,7 @@ El hotel del Luna es habitado por clientes fantasmas.</desc>
     <title>Sea View</title>
     <desc>Diferido ║ Descubra el patrimonio natural submarino y turístico colombiano, deleite de apneistas y practicantes de buceo.</desc>
     <credits>
+      <director>Jane Linfoot</director>
       <actor>Nahomi</actor>
     </credits>
     <date>2018</date>
@@ -906643,6 +906766,7 @@ El hotel del Luna es habitado por clientes fantasmas.</desc>
     <title>Sea View</title>
     <desc>Diferido ║ Descubra el patrimonio natural submarino y turístico colombiano, deleite de apneistas y practicantes de buceo.</desc>
     <credits>
+      <director>Jane Linfoot</director>
       <actor>Nahomi</actor>
     </credits>
     <date>2018</date>
@@ -906956,6 +907080,7 @@ El hotel del Luna es habitado por clientes fantasmas.</desc>
     <title>Sea View</title>
     <desc>Diferido ║ Descubra el patrimonio natural submarino y turístico colombiano, deleite de apneistas y practicantes de buceo.</desc>
     <credits>
+      <director>Jane Linfoot</director>
       <actor>Nahomi</actor>
     </credits>
     <date>2018</date>
@@ -907269,6 +907394,7 @@ El hotel del Luna es habitado por clientes fantasmas.</desc>
     <title>Sea View</title>
     <desc>Diferido ║ Descubra el patrimonio natural submarino y turístico colombiano, deleite de apneistas y practicantes de buceo.</desc>
     <credits>
+      <director>Jane Linfoot</director>
       <actor>Nahomi</actor>
     </credits>
     <date>2018</date>
@@ -934647,9 +934773,23 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
   </programme>
   <programme start="20261101172900 -0300" stop="20261101190900 -0300" channel="0978">
     <title>Las guerreras k-pop</title>
-    <desc>2025 · Películas Infantiles</desc>
+    <desc>Cuando no están llenando estadios, las superestrellas del K-pop Rumi, Mira y Zoey usan sus poderes secretos para proteger a sus fans de una amenaza sobrenatural.</desc>
+    <credits>
+      <director>Chris Appelhans</director>
+      <director>Maggie Kang</director>
+      <actor>Arden Cho</actor>
+      <actor>May Hong</actor>
+      <actor>Ji-young Yoo</actor>
+      <actor>Ahn Hyo Seop</actor>
+      <actor>김윤진</actor>
+      <actor>Ken Jeong</actor>
+      <actor>Lee Byung-hun</actor>
+      <actor>Daniel Dae Kim</actor>
+    </credits>
+    <date>2025</date>
     <category>Movies</category>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <country>Estados Unidos</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/lasguerreraskpop.jpg" />
   </programme>
   <programme start="20261101190900 -0300" stop="20261101202500 -0300" channel="0978">
     <title>El rey león 3: Hakuna Matata</title>
@@ -934797,7 +934937,21 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
   <programme start="20261102111600 -0300" stop="20261102123800 -0300" channel="0978">
     <title>Wallace y Gromit: La venganza se sirve con plumas</title>
     <desc>El superperro Gromit entra en acción para salvar a su amo cuando Wallace pierde el control de su sofisticado invento y acaba acusado de una serie de crímenes sospechosos.</desc>
+    <credits>
+      <director>Merlin Crossingham</director>
+      <director>Nick Park</director>
+      <actor>Ben Whitehead</actor>
+      <actor>Peter Kay</actor>
+      <actor>Lauren Patel</actor>
+      <actor>Reece Shearsmith</actor>
+      <actor>Diane Morgan</actor>
+      <actor>Adjoa Andoh</actor>
+      <actor>Muzz Khan</actor>
+      <actor>Lenny Henry</actor>
+    </credits>
+    <date>2024</date>
     <category>Movies</category>
+    <country>Reino Unido</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/wallaceygromitlavenganzasesirveconplumas.jpg" />
   </programme>
   <programme start="20261102123800 -0300" stop="20261102141000 -0300" channel="0978">
@@ -934863,7 +935017,20 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
   <programme start="20261102183600 -0300" stop="20261102195600 -0300" channel="0978">
     <title>Chicken Little</title>
     <desc>Ha transcurrido un año desde el &quot;desafortunado incidente de la bellota&quot; cuando Chicken Little causó un gran revuelo en su pueblo natal de Oakey Oaks al proclamar que el cielo se estaba cayendo tras ser golpeado en la cabeza por lo que aparentemente era una bellota. Sin contemplaciones, el valiente pollito se une al equipo local de béisbol con la esperanza de restablecer su reputación y ganarse el respeto de su padre, Buck Cluck. Cuando él conduce al pueblo a una inesperada victoria, se convierte en el centro de toda la atención. Pero tan pronto como el pollito campeón es redimido, vuelve a recibir otro golpe en la cabeza. ¡Y esta vez el cielo sí se está cayendo! Temeroso de ser tachado una vez más de loco, se niega a decirle a nadie lo que ha sucedido. En lugar de eso, recluta la ayuda de sus amigos más cercanos - Runt el benjamón, Abby Patosa (alias Patito Feo), y Pez fuera del agua - en un intento por salvar el mundo sin hacer que todo el pueblo entre nuevamente en pánico.</desc>
+    <credits>
+      <director>Mark Dindal</director>
+      <actor>Zach Braff</actor>
+      <actor>Garry Marshall</actor>
+      <actor>Don Knotts</actor>
+      <actor>Amy Sedaris</actor>
+      <actor>Steve Zahn</actor>
+      <actor>Joan Cusack</actor>
+      <actor>Patrick Stewart</actor>
+      <actor>Fred Willard</actor>
+    </credits>
+    <date>2005</date>
     <category>Movies</category>
+    <country>Estados Unidos</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/chickenlittle.jpg" />
   </programme>
   <programme start="20261102195600 -0300" stop="20261102210500 -0300" channel="0978">
@@ -945261,7 +945428,9 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
   <programme start="20261101193200 -0300" stop="20261101200900 -0300" channel="0982">
     <title>El rey de los coleccionistas: Goldin Auctions - King Con</title>
     <desc>Ken Goldin y su experimentado equipo protagonizan este programa trepidante sobre una importante casa de subastas especializada en piezas raras de coleccionista.</desc>
+    <date>2023</date>
     <category>Series</category>
+    <country>Estados Unidos</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/elreydeloscoleccionistasgoldinauctionskingcon.jpg" />
   </programme>
   <programme start="20261101200900 -0300" stop="20261101202900 -0300" channel="0982">
