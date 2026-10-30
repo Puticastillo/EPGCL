@@ -295951,7 +295951,7 @@ de Billy y Mandy</title>
     <desc>Cobertura de los partidos de diversas categorías del fútbol colombiano.</desc>
     <date>2016</date>
     <category>Fútbol</category>
-    <rating><value>18</value></rating>
+    <rating><value>+15</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbolcolombiano.jpg" />
   </programme>
   <programme start="20261101063000 -0300" stop="20261101070000 -0300" channel="0429">
@@ -296407,7 +296407,7 @@ de Billy y Mandy</title>
     <rating><value>TE</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbolprevia.jpg" />
   </programme>
-  <programme start="20261104223000 -0300" stop="20261104233000 -0300" channel="0429">
+  <programme start="20261104223000 -0300" stop="20261105003000 -0300" channel="0429">
     <title>[En vivo] Fútbol Colombiano Primera División • Millonarios vs América de Cali</title>
     <sub-title>Millonarios vs. América de Cali</sub-title>
     <desc>En vivo ║ Millonarios vs América de Cali | Acción de la fecha 17 del Torneo Finalización 2026 de la Categoría Primera A. Millonarios se enfrenta a América de Cali. Desde el estadio Nemesio Camacho, en Bogotá, Colombia.</desc>
@@ -296416,10 +296416,121 @@ de Billy y Mandy</title>
     <rating><value>+15</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbolcolombianoprimeradivision.jpg" />
   </programme>
-  <programme start="20261104233000 -0300" stop="20261104235959 -0300" channel="0429">
-    <title>Win Sports</title>
-    <desc>La informacion de este programa no se encuentra disponible.</desc>
+  <programme start="20261105003000 -0300" stop="20261105013000 -0300" channel="0429">
+    <title>WIN Noticias</title>
+    <desc>La más completa información y todas las novedades del mundo deportivo nacional e internacional. Además, se tiene la más amplia cobertura de los deportistas colombianos en todo el mundo.</desc>
+    <date>2014</date>
+    <category>Reportaje</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/winnoticias.jpg" />
+  </programme>
+  <programme start="20261105013000 -0300" stop="20261105033000 -0300" channel="0429">
+    <title>El Chiringuito</title>
+    <desc>Programación deportiva que abarca toda la información reciente acerca de los equipos de fútbol español.</desc>
+    <credits>
+      <director>Josep Pedrerol</director>
+    </credits>
+    <date>2014</date>
+    <category>Deportes</category>
+    <category>Entretenimiento</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/elchiringuito.jpg" />
+  </programme>
+  <programme start="20261105033000 -0300" stop="20261105053000 -0300" channel="0429">
+    <title>Fútbol Colombiano Primera División • Cúcuta Deportivo vs Independiente Santa Fe</title>
+    <sub-title>Cúcuta Deportivo vs. Independiente Santa Fe</sub-title>
+    <desc>Cúcuta Deportivo vs Independiente Santa Fe | Acción de la fecha 17 del Torneo Finalización 2026 de la Categoría Primera A. Cúcuta Deportivo se enfrenta a Independiente Santa Fe. Desde el Estadio General Santander, en Cúcuta, Norte de Santander, Colombia.</desc>
+    <date>2026</date>
+    <category>Fútbol</category>
+    <rating><value>+15</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbolcolombianoprimeradivision.jpg" />
+  </programme>
+  <programme start="20261105053000 -0300" stop="20261105060000 -0300" channel="0429">
+    <title>Una cancha llamada Colombia</title>
+    <desc>Proyecto social, deportivo, artístico, documental e integral de la Fundación Arte para el Cambio que evidencia cómo el fútbol se convierte en un eje de transformación social en cada rincón de Colombia.</desc>
+    <date>2021</date>
+    <category>Noticias</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/unacanchallamadacolombia.jpg" />
+  </programme>
+  <programme start="20261105060000 -0300" stop="20261105080000 -0300" channel="0429">
+    <title>Fútbol Colombiano Primera División • Millonarios vs América de Cali</title>
+    <sub-title>Millonarios vs. América de Cali</sub-title>
+    <desc>Millonarios vs América de Cali | Acción de la fecha 17 del Torneo Finalización 2026 de la Categoría Primera A. Millonarios se enfrenta a América de Cali. Desde el estadio Nemesio Camacho, en Bogotá, Colombia.</desc>
+    <date>2026</date>
+    <category>Fútbol</category>
+    <rating><value>+15</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbolcolombianoprimeradivision.jpg" />
+  </programme>
+  <programme start="20261105080000 -0300" stop="20261105100000 -0300" channel="0429">
+    <title>Planeta Fútbol</title>
+    <desc>El mejor programa de análisis, opinión y controversia, donde la selección de fútbol de Colombia es el hilo conductor.</desc>
+    <credits>
+      <actor>Faryd Mondragón</actor>
+      <actor>Carlos Antonio Vélez</actor>
+      <actor>Juan José Pelaez</actor>
+    </credits>
+    <date>2016</date>
+    <category>Fútbol</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/planetafutbol.jpg" />
+  </programme>
+  <programme start="20261105100000 -0300" stop="20261105143000 -0300" channel="0429">
+    <title>Despierta Win</title>
+    <desc>El deporte cobra vida desde el inicio del día con un viaje más allá de los titulares hasta el corazón de las historias en una fusión de entretenimiento y deporte.</desc>
+    <date>2024</date>
+    <category>Deportes</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/despiertawin.jpg" />
+  </programme>
+  <programme start="20261105143000 -0300" stop="20261105160000 -0300" channel="0429">
+    <title>WIN Noticias</title>
+    <desc>La más completa información y todas las novedades del mundo deportivo nacional e internacional. Además, se tiene la más amplia cobertura de los deportistas colombianos en todo el mundo.</desc>
+    <date>2014</date>
+    <category>Reportaje</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/winnoticias.jpg" />
+  </programme>
+  <programme start="20261105160000 -0300" stop="20261105180000 -0300" channel="0429">
+    <title>Medio tiempo</title>
+    <desc>Todo el análisis e información de la primera mitad del partido y lo que se espera en el segundo tiempo.</desc>
+    <date>2026</date>
+    <category>Fútbol</category>
+    <rating><value>+15</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/mediotiempo.jpg" />
+  </programme>
+  <programme start="20261105180000 -0300" stop="20261105193000 -0300" channel="0429">
+    <title>Saque largo</title>
+    <desc>Una forma diferente de ver y vivir el fútbol, con debate y análisis sobre lo que pasa a nivel nacional e internacional.</desc>
+    <date>2014</date>
+    <category>Fútbol</category>
+    <rating><value>+15</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/saquelargo.jpg" />
+  </programme>
+  <programme start="20261105193000 -0300" stop="20261105213000 -0300" channel="0429">
+    <title>Brasileirão Masculino • Palmeiras vs Remo</title>
+    <sub-title>Palmeiras vs. Remo</sub-title>
+    <desc>Palmeiras vs Remo | Toda la acción con los partidos del campeonato brasileño de fútbol de Primera División.</desc>
+    <date>2026</date>
+    <category>Fútbol</category>
+    <rating><value>+15</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261105213000 -0300" stop="20261105233000 -0300" channel="0429">
+    <title>Fútbol Colombiano</title>
+    <desc>Cobertura de los partidos de diversas categorías del fútbol colombiano.</desc>
+    <date>2016</date>
+    <category>Fútbol</category>
+    <rating><value>+15</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbolcolombiano.jpg" />
+  </programme>
+  <programme start="20261105233000 -0300" stop="20261106003000 -0300" channel="0429">
+    <title>WIN Noticias</title>
+    <desc>La más completa información y todas las novedades del mundo deportivo nacional e internacional. Además, se tiene la más amplia cobertura de los deportistas colombianos en todo el mundo.</desc>
+    <date>2014</date>
+    <category>Reportaje</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/winnoticias.jpg" />
   </programme>
   <programme start="20261029130000 -0300" stop="20261029150000 -0300" channel="0430">
     <title>Fútbol Colombiano Segunda División • Deportes Quindío vs Real Cundinamarca</title>
@@ -296810,7 +296921,7 @@ de Billy y Mandy</title>
     <desc>Cobertura de los partidos de diversas categorías del fútbol colombiano.</desc>
     <date>2016</date>
     <category>Fútbol</category>
-    <rating><value>18</value></rating>
+    <rating><value>+15</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbolcolombiano.jpg" />
   </programme>
   <programme start="20261101080000 -0300" stop="20261101093000 -0300" channel="0430">
@@ -297253,7 +297364,7 @@ de Billy y Mandy</title>
     <rating><value>+15</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/cavsulas.jpg" />
   </programme>
-  <programme start="20261104193000 -0300" stop="20261104200000 -0300" channel="0430">
+  <programme start="20261104193000 -0300" stop="20261104203000 -0300" channel="0430">
     <title>Fútbol: Previa</title>
     <desc>Reportajes, análisis y comentarios previo al gran evento deportivo.</desc>
     <date>2003</date>
@@ -297261,7 +297372,7 @@ de Billy y Mandy</title>
     <rating><value>TE</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbolprevia.jpg" />
   </programme>
-  <programme start="20261104200000 -0300" stop="20261104220000 -0300" channel="0430">
+  <programme start="20261104203000 -0300" stop="20261104223000 -0300" channel="0430">
     <title>[En vivo] Fútbol Colombiano Primera División • Cúcuta Deportivo vs Independiente Santa Fe</title>
     <sub-title>Cúcuta Deportivo vs. Independiente Santa Fe</sub-title>
     <desc>En vivo ║ Cúcuta Deportivo vs Independiente Santa Fe | Acción de la fecha 17 del Torneo Finalización 2026 de la Categoría Primera A. Cúcuta Deportivo se enfrenta a Independiente Santa Fe. Desde el Estadio General Santander, en Cúcuta, Norte de Santander, Colombia.</desc>
@@ -297270,7 +297381,92 @@ de Billy y Mandy</title>
     <rating><value>+15</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbolcolombianoprimeradivision.jpg" />
   </programme>
-  <programme start="20261104220000 -0300" stop="20261104223000 -0300" channel="0430">
+  <programme start="20261104223000 -0300" stop="20261105003000 -0300" channel="0430">
+    <title>Fútbol Colombiano Primera División • Millonarios vs América de Cali</title>
+    <sub-title>Millonarios vs. América de Cali</sub-title>
+    <desc>Millonarios vs América de Cali | Acción de la fecha 17 del Torneo Finalización 2026 de la Categoría Primera A. Millonarios se enfrenta a América de Cali. Desde el estadio Nemesio Camacho, en Bogotá, Colombia.</desc>
+    <date>2026</date>
+    <category>Fútbol</category>
+    <rating><value>+15</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbolcolombianoprimeradivision.jpg" />
+  </programme>
+  <programme start="20261105003000 -0300" stop="20261105020000 -0300" channel="0430">
+    <title>Mucho + Fútbol</title>
+    <desc>Resumen y análisis de los partidos tras la finalización de la jornada, con el apoyo de herramientas tecnológicas para extraer las situaciones críticas de juego de cada equipo.</desc>
+    <date>2020</date>
+    <category>Fútbol</category>
+    <rating><value>+15</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/muchofutbol.jpg" />
+  </programme>
+  <programme start="20261105020000 -0300" stop="20261105040000 -0300" channel="0430">
+    <title>Fútbol Colombiano Primera División • Millonarios vs América de Cali</title>
+    <sub-title>Millonarios vs. América de Cali</sub-title>
+    <desc>Millonarios vs América de Cali | Acción de la fecha 17 del Torneo Finalización 2026 de la Categoría Primera A. Millonarios se enfrenta a América de Cali. Desde el estadio Nemesio Camacho, en Bogotá, Colombia.</desc>
+    <date>2026</date>
+    <category>Fútbol</category>
+    <rating><value>+15</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbolcolombianoprimeradivision.jpg" />
+  </programme>
+  <programme start="20261105040000 -0300" stop="20261105050000 -0300" channel="0430">
+    <title>WIN Noticias</title>
+    <desc>La más completa información y todas las novedades del mundo deportivo nacional e internacional. Además, se tiene la más amplia cobertura de los deportistas colombianos en todo el mundo.</desc>
+    <date>2014</date>
+    <category>Reportaje</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/winnoticias.jpg" />
+  </programme>
+  <programme start="20261105050000 -0300" stop="20261105070000 -0300" channel="0430">
+    <title>Fútbol Colombiano Primera División • Liga II 2025: Águilas Doradas vs Junior</title>
+    <sub-title>Liga II 2025: Águilas Doradas vs. Junior</sub-title>
+    <desc>Liga II 2025: Águilas Doradas vs Junior | Partido clásico de la fecha 2 del Clausura de la Primera A 2025. Águilas Doradas se enfrenta a Junior. Disputado el 19 de julio de 2025.</desc>
+    <date>2026</date>
+    <category>Fútbol</category>
+    <episode-num system="onscreen">Episodio 60</episode-num>
+    <rating><value>18</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbolcolombianoprimeradivision.jpg" />
+  </programme>
+  <programme start="20261105070000 -0300" stop="20261105090000 -0300" channel="0430">
+    <title>Fútbol Colombiano Primera División • Liga I 1999: Deportivo Pasto vs Independiente Medellín</title>
+    <sub-title>Liga I 1999: Deportivo Pasto vs. Independiente Medellín</sub-title>
+    <desc>Liga I 1999: Deportivo Pasto vs Independiente Medellín | Fecha 20 del Torneo Apertura 1999 de la Primera A. Independiente Medellín se enfrenta a Deportivo Pasto. Desde el estadio Atanasio Girardot, en Medellín, Antioquia. Disputado el 9 de junio de 1999.</desc>
+    <date>1999</date>
+    <category>Fútbol</category>
+    <rating><value>18</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbolcolombianoprimeradivision.jpg" />
+  </programme>
+  <programme start="20261105090000 -0300" stop="20261105100000 -0300" channel="0430">
+    <title>WIN Noticias</title>
+    <desc>La más completa información y todas las novedades del mundo deportivo nacional e internacional. Además, se tiene la más amplia cobertura de los deportistas colombianos en todo el mundo.</desc>
+    <date>2014</date>
+    <category>Reportaje</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/winnoticias.jpg" />
+  </programme>
+  <programme start="20261105100000 -0300" stop="20261105103000 -0300" channel="0430">
+    <title>Campañas</title>
+    <desc>Un programa que recuerda aquellas temporadas exitosas y muestra el camino que recorrieron equipos, jugadores y entrenadores emblemáticos del fútbol colombiano que dejaron una huella y llenan de orgullo a cada una de sus hinchadas.</desc>
+    <date>2019</date>
+    <category>Fútbol</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/campanas.jpg" />
+  </programme>
+  <programme start="20261105103000 -0300" stop="20261105123000 -0300" channel="0430">
+    <title>Fútbol Copa Italia</title>
+    <desc>La competición de fútbol de Italia en la que participan los equipos de la Serie A y de la Serie B.</desc>
+    <date>2012</date>
+    <category>Fútbol</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbolcopaitalia.jpg" />
+  </programme>
+  <programme start="20261105123000 -0300" stop="20261105133000 -0300" channel="0430">
+    <title>De colección</title>
+    <desc>Los momentos más sobresalientes de fútbol colombiano recopilados en diferentes instantes que pasaron a la historia.</desc>
+    <date>2023</date>
+    <category>Fútbol</category>
+    <rating><value>+15</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/decoleccion.jpg" />
+  </programme>
+  <programme start="20261105133000 -0300" stop="20261105140000 -0300" channel="0430">
     <title>Fútbol: Previa</title>
     <desc>Reportajes, análisis y comentarios previo al gran evento deportivo.</desc>
     <date>2003</date>
@@ -297278,18 +297474,52 @@ de Billy y Mandy</title>
     <rating><value>TE</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbolprevia.jpg" />
   </programme>
-  <programme start="20261104223000 -0300" stop="20261104233000 -0300" channel="0430">
-    <title>[En vivo] Fútbol Colombiano Primera División • Millonarios vs América de Cali</title>
-    <sub-title>Millonarios vs. América de Cali</sub-title>
-    <desc>En vivo ║ Millonarios vs América de Cali | Acción de la fecha 17 del Torneo Finalización 2026 de la Categoría Primera A. Millonarios se enfrenta a América de Cali. Desde el estadio Nemesio Camacho, en Bogotá, Colombia.</desc>
-    <date>2026</date>
+  <programme start="20261105140000 -0300" stop="20261105160000 -0300" channel="0430">
+    <title>Fútbol Saudi Pro League</title>
+    <desc>La mejor cobertura del campeonato árabe de fútbol de Primera División.</desc>
+    <date>2009</date>
     <category>Fútbol</category>
     <rating><value>+15</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbolcolombianoprimeradivision.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261104233000 -0300" stop="20261104235959 -0300" channel="0430">
-    <title>Win Sports Plus</title>
-    <desc>La informacion de este programa no se encuentra disponible.</desc>
+  <programme start="20261105160000 -0300" stop="20261105170000 -0300" channel="0430">
+    <title>Detrás de la gloria</title>
+    <desc>El camino para ser campeón del fútbol colombiano nunca ha sido fácil. Una muestra de todo lo que los equipos viven dentro y fuera de sus planteles para levantar la copa y llenarse de Gloria.</desc>
+    <date>2020</date>
+    <category>Deportes</category>
+    <rating><value>+15</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/detrasdelagloria.jpg" />
+  </programme>
+  <programme start="20261105170000 -0300" stop="20261105190000 -0300" channel="0430">
+    <title>Fútbol Superliga de Colombia</title>
+    <desc>Acción de la Superliga de Colombia, torneo que enfrenta a los campeones de la temporada en el fútbol de este país.</desc>
+    <date>2018</date>
+    <category>Fútbol</category>
+    <rating><value>+15</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261105190000 -0300" stop="20261105193000 -0300" channel="0430">
+    <title>Campañas</title>
+    <desc>Un programa que recuerda aquellas temporadas exitosas y muestra el camino que recorrieron equipos, jugadores y entrenadores emblemáticos del fútbol colombiano que dejaron una huella y llenan de orgullo a cada una de sus hinchadas.</desc>
+    <date>2019</date>
+    <category>Fútbol</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/campanas.jpg" />
+  </programme>
+  <programme start="20261105193000 -0300" stop="20261105213000 -0300" channel="0430">
+    <title>Fútbol: Previa</title>
+    <desc>Reportajes, análisis y comentarios previo al gran evento deportivo.</desc>
+    <date>2003</date>
+    <category>Fútbol</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbolprevia.jpg" />
+  </programme>
+  <programme start="20261105213000 -0300" stop="20261105223000 -0300" channel="0430">
+    <title>Fútbol Superliga de Colombia</title>
+    <desc>Acción de la Superliga de Colombia, torneo que enfrenta a los campeones de la temporada en el fútbol de este país.</desc>
+    <date>2018</date>
+    <category>Fútbol</category>
+    <rating><value>+15</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261029130000 -0300" stop="20261029143000 -0300" channel="0431">
@@ -525225,7 +525455,14 @@ Hank en su nueva vida tendrá como acompañantes a su hermano, quien ve tener un
   <programme start="20261029161400 -0300" stop="20261029161700 -0300" channel="0807">
     <title>King Solomon&#x27;s Mines</title>
     <desc>Un cazador guía una expedición a través de África, en busca de un hombre perdido y de una fabulosa mina de diamantes.</desc>
+    <credits>
+      <director>Horace Lisle Lucoque</director>
+      <actor>Albert Lawrence</actor>
+      <actor>H.J. Hamlin</actor>
+    </credits>
+    <date>1919</date>
     <category>Adventure</category>
+    <country>South Africa</country>
     <rating><value>U</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
@@ -588529,6 +588766,7 @@ Los problemas aumentan cuando la familia también comienza a notar  presencias y
     <date>2015</date>
     <category>Movie</category>
     <category>Thriller</category>
+    <country>Turquía</country>
     <rating><value>B</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/thegift.jpg" />
   </programme>
@@ -592642,8 +592880,14 @@ Los problemas aumentan cuando la familia también comienza a notar  presencias y
   <programme start="20261031030500 -0300" stop="20261031043500 -0300" channel="0828">
     <title>El encuentro</title>
     <desc>Virginia se enamora de uno de los evadidos de la cárcel con los que se debe enfrentar cuando la diligencia en la que viaja sufre un accidente.</desc>
+    <credits>
+      <actor>Vicente Orrego</actor>
+      <actor>Joaquín Farías Caamaño</actor>
+      <actor>Catherine Yañez</actor>
+    </credits>
     <date>2017</date>
     <category>Drama</category>
+    <country>Chile</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261031043500 -0300" stop="20261031060000 -0300" channel="0828">
@@ -668401,7 +668645,7 @@ No aparece en el programa ningún otro superhéroe de ficción, a excepción  de
   </programme>
   <programme start="20261031130800 -0300" stop="20261031153100 -0300" channel="0846">
     <title>La noche que luché contra Dios</title>
-    <desc>El 18 de julio de 1994, el joven Benjamín Sheinberg inicia su primer día como médico residente en el Hospital de Clínicas, en Buenos Aires, cuando, al mismo tiempo, una bomba explota en la AMIA causando la muerte de 85 personas. Sheinberg se ve sobrepasado por la situación y decide marcharse a Israel. Allí, de la mano de Rubén, un viejo amigo de su abuelo, viaja en el tiempo, adentrándose en la antigua historia de Israel, viéndose reflejado en la historia bíblica del patriarca Jacob.</desc>
+    <desc>El 18 de julio de 1994, el joven Benjamín Sheinberg inicia su primer día como médico residente en el Hospital de Clínicas, en Buenos Aires, mientras que al mismo tiempo una bomba explota en la AMIA causando la muerte de 85 personas. Sheinberg se ve sobrepasado por la situación que lo afecta más allá de lo profesional y decide marcharse a Israel. Allí, de la mano de Rubén, un viejo amigo de su abuelo, “viajará” en el tiempo, adentrándose en la antigua historia de Israel, viéndose reflejado en el milenario personaje Jacob. Pero, ¿qué conexión hay entre ambos personajes?</desc>
     <credits>
       <director>Rodrigo Fernández Engler</director>
       <actor>Tomás Kirzner</actor>
@@ -668412,7 +668656,7 @@ No aparece en el programa ningún otro superhéroe de ficción, a excepción  de
     <category>Drama</category>
     <country>Argentina</country>
     <rating><value>B</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/lanochequeluchecontradios.jpg" />
   </programme>
   <programme start="20261031153100 -0300" stop="20261031174400 -0300" channel="0846">
     <title>Ramona and Beezus</title>
@@ -669549,7 +669793,7 @@ No aparece en el programa ningún otro superhéroe de ficción, a excepción  de
   </programme>
   <programme start="20261031145900 -0300" stop="20261031170600 -0300" channel="1846">
     <title>La noche que luché contra Dios</title>
-    <desc>Benjamín Sheinberg viaja a Israel y conoce la historia del patriarca bíblico Jacob, con el que encuentra una fuerte conexión.</desc>
+    <desc>El 18 de julio de 1994, el joven Benjamín Sheinberg inicia su primer día como médico residente en el Hospital de Clínicas, en Buenos Aires, mientras que al mismo tiempo una bomba explota en la AMIA causando la muerte de 85 personas. Sheinberg se ve sobrepasado por la situación que lo afecta más allá de lo profesional y decide marcharse a Israel. Allí, de la mano de Rubén, un viejo amigo de su abuelo, “viajará” en el tiempo, adentrándose en la antigua historia de Israel, viéndose reflejado en el milenario personaje Jacob. Pero, ¿qué conexión hay entre ambos personajes?</desc>
     <credits>
       <director>Rodrigo Fernández Engler</director>
       <actor>Tomás Kirzner</actor>
@@ -669561,7 +669805,7 @@ No aparece en el programa ningún otro superhéroe de ficción, a excepción  de
     <category>Drama</category>
     <country>Argentina</country>
     <rating><value>B</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/lanochequeluchecontradios.jpg" />
   </programme>
   <programme start="20261031170600 -0300" stop="20261031190700 -0300" channel="1846">
     <title>Ramona and Beezus</title>
@@ -670666,7 +670910,7 @@ No aparece en el programa ningún otro superhéroe de ficción, a excepción  de
   </programme>
   <programme start="20261103143100 -0300" stop="20261103164500 -0300" channel="1846">
     <title>La noche que luché contra Dios</title>
-    <desc>Benjamín Sheinberg viaja a Israel y conoce la historia del patriarca bíblico Jacob, con el que encuentra una fuerte conexión.</desc>
+    <desc>El 18 de julio de 1994, el joven Benjamín Sheinberg inicia su primer día como médico residente en el Hospital de Clínicas, en Buenos Aires, mientras que al mismo tiempo una bomba explota en la AMIA causando la muerte de 85 personas. Sheinberg se ve sobrepasado por la situación que lo afecta más allá de lo profesional y decide marcharse a Israel. Allí, de la mano de Rubén, un viejo amigo de su abuelo, “viajará” en el tiempo, adentrándose en la antigua historia de Israel, viéndose reflejado en el milenario personaje Jacob. Pero, ¿qué conexión hay entre ambos personajes?</desc>
     <credits>
       <director>Rodrigo Fernández Engler</director>
       <actor>Tomás Kirzner</actor>
@@ -670678,7 +670922,7 @@ No aparece en el programa ningún otro superhéroe de ficción, a excepción  de
     <category>Drama</category>
     <country>Argentina</country>
     <rating><value>B</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/lanochequeluchecontradios.jpg" />
   </programme>
   <programme start="20261103164500 -0300" stop="20261103183300 -0300" channel="1846">
     <title>Un cumpleaños problemático</title>
