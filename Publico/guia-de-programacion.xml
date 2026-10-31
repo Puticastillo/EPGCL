@@ -23021,9 +23021,23 @@ Primer plano: interesante, impactante, informativo.</desc>
   <programme start="20261105180000 -0300" stop="20261105190000 -0300" channel="0121">
     <title>Hasta encontrarte</title>
     <desc>T1 E1 | Hace 21 años Catalina Cienfuegos perdió a su recién nacida, Emilia, en una clínica, o eso creyó. Un reencuentro inesperado la hará dudar de su muerte y emprender una búsqueda desesperada por la verdad.</desc>
+    <credits>
+      <director>Ximena Carrera</director>
+      <director>María José Galleguillos</director>
+      <actor>Luz Valdivieso</actor>
+      <actor>Daniel Alcaíno</actor>
+      <actor>Sigrid Alegría</actor>
+      <actor>Alejandro Trejo</actor>
+      <actor>Coca Guazzini</actor>
+      <actor>César Sepúlveda</actor>
+      <actor>Álvaro Morales</actor>
+      <actor>Lorena Capetillo</actor>
+    </credits>
     <date>2022</date>
+    <category>Soap</category>
+    <country>Chile</country>
     <episode-num system="onscreen">T1 E1</episode-num>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0121_fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/hastaencontrarte.jpg" />
   </programme>
   <programme start="20261105190000 -0300" stop="20261105200000 -0300" channel="0121">
     <title>Al sur del corazón</title>
@@ -96800,8 +96814,20 @@ Claudia Gurisatti - Jefferson Beltrán - Jason Calderón</desc>
   <programme start="20261031230000 -0300" stop="20261031235000 -0300" channel="1219">
     <title>Company</title>
     <desc>T1 E5 | La información de este programa no se encuentra disponible.</desc>
+    <credits>
+      <director>Casey Affleck</director>
+      <actor>Nick Nolte</actor>
+      <actor>Adelaide Clemens</actor>
+      <actor>Ben Mendelsohn</actor>
+      <actor>Scoot McNairy</actor>
+      <actor>Emily Alyn Lind</actor>
+      <actor>Caylee Cowan</actor>
+      <actor>Atticus Affleck</actor>
+      <actor>Indiana Affleck</actor>
+    </credits>
     <date>2021</date>
     <category>Drama</category>
+    <country>Estados Unidos</country>
     <episode-num system="onscreen">T1 E5</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/company.jpg" />
   </programme>
@@ -97010,8 +97036,20 @@ Claudia Gurisatti - Jefferson Beltrán - Jason Calderón</desc>
   <programme start="20261101095000 -0300" stop="20261101104000 -0300" channel="1219">
     <title>Company</title>
     <desc>T1 E3 | One day, Seiichi Aoyagi becomes one of the targets of layoff at a pharmaceutical company; his company gave him one condition to avoid layoff; he is told to make an end-of-year ballet show, which his company is sponsoring, a success; the mission is thought to be almost impossible for him who does not have any knowledge or experience in ballet; to grab the last chance, he challenges the mission making use of a diary.</desc>
+    <credits>
+      <director>Casey Affleck</director>
+      <actor>Nick Nolte</actor>
+      <actor>Adelaide Clemens</actor>
+      <actor>Ben Mendelsohn</actor>
+      <actor>Scoot McNairy</actor>
+      <actor>Emily Alyn Lind</actor>
+      <actor>Caylee Cowan</actor>
+      <actor>Atticus Affleck</actor>
+      <actor>Indiana Affleck</actor>
+    </credits>
     <date>2021</date>
     <category>Drama</category>
+    <country>Estados Unidos</country>
     <episode-num system="onscreen">T1 E3</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/company.jpg" />
   </programme>
@@ -347037,7 +347075,12 @@ En colaboración con Tom Hanks, Gary Goetzman y Mark Herzog y producida por la C
   <programme start="20261030140000 -0300" stop="20261030150000 -0300" channel="0534">
     <title>Sonar</title>
     <desc>Una serie dedicada a la música donde se presentan grandes cantantes y grupos musicales de diversos géneros, que narran de viva voz aspectos de su vida y su carrera.</desc>
+    <credits>
+      <director>Philipp Maas</director>
+    </credits>
+    <date>2015</date>
     <category>Musical</category>
+    <country>Estados Unidos</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/sonar.jpg" />
   </programme>
   <programme start="20261030150000 -0300" stop="20261030153000 -0300" channel="0534">
@@ -347305,7 +347348,12 @@ En colaboración con Tom Hanks, Gary Goetzman y Mark Herzog y producida por la C
   <programme start="20261031160000 -0300" stop="20261031170000 -0300" channel="0534">
     <title>Sonar</title>
     <desc>Una serie dedicada a la música donde se presentan grandes cantantes y grupos musicales de diversos géneros, que narran de viva voz aspectos de su vida y su carrera.</desc>
+    <credits>
+      <director>Philipp Maas</director>
+    </credits>
+    <date>2015</date>
     <category>Musical</category>
+    <country>Estados Unidos</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/sonar.jpg" />
   </programme>
   <programme start="20261031170000 -0300" stop="20261031180000 -0300" channel="0534">
@@ -366348,6 +366396,7 @@ En colaboración con Tom Hanks, Gary Goetzman y Mark Herzog y producida por la C
     </credits>
     <date>2014</date>
     <category>Crime</category>
+    <country>Canadá</country>
     <episode-num system="onscreen">T1 E5</episode-num>
     <rating><value>TV14</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fearthyneighbor.jpg" />
@@ -366403,6 +366452,7 @@ En colaboración con Tom Hanks, Gary Goetzman y Mark Herzog y producida por la C
     </credits>
     <date>2014</date>
     <category>Crime</category>
+    <country>Canadá</country>
     <episode-num system="onscreen">T1 E5</episode-num>
     <rating><value>TV14</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fearthyneighbor.jpg" />
@@ -366558,6 +366608,7 @@ En colaboración con Tom Hanks, Gary Goetzman y Mark Herzog y producida por la C
     </credits>
     <date>2022</date>
     <category>Crime</category>
+    <country>Canadá</country>
     <episode-num system="onscreen">T8 E2</episode-num>
     <rating><value>TV14</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fearthyneighbor.jpg" />
@@ -366577,6 +366628,7 @@ En colaboración con Tom Hanks, Gary Goetzman y Mark Herzog y producida por la C
     </credits>
     <date>2022</date>
     <category>Crime</category>
+    <country>Canadá</country>
     <episode-num system="onscreen">T8 E5</episode-num>
     <rating><value>TV14</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fearthyneighbor.jpg" />
@@ -366596,6 +366648,7 @@ En colaboración con Tom Hanks, Gary Goetzman y Mark Herzog y producida por la C
     </credits>
     <date>2022</date>
     <category>Crime</category>
+    <country>Canadá</country>
     <episode-num system="onscreen">T8 E9</episode-num>
     <rating><value>TV14</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fearthyneighbor.jpg" />
@@ -366615,6 +366668,7 @@ En colaboración con Tom Hanks, Gary Goetzman y Mark Herzog y producida por la C
     </credits>
     <date>2022</date>
     <category>Crime</category>
+    <country>Canadá</country>
     <episode-num system="onscreen">T8 E11</episode-num>
     <rating><value>TV14</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fearthyneighbor.jpg" />
@@ -366634,6 +366688,7 @@ En colaboración con Tom Hanks, Gary Goetzman y Mark Herzog y producida por la C
     </credits>
     <date>2022</date>
     <category>Crime</category>
+    <country>Canadá</country>
     <episode-num system="onscreen">T8 E6</episode-num>
     <rating><value>TV14</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fearthyneighbor.jpg" />
@@ -366653,6 +366708,7 @@ En colaboración con Tom Hanks, Gary Goetzman y Mark Herzog y producida por la C
     </credits>
     <date>2022</date>
     <category>Crime</category>
+    <country>Canadá</country>
     <episode-num system="onscreen">T8 E1</episode-num>
     <rating><value>TV14</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fearthyneighbor.jpg" />
@@ -661060,6 +661116,7 @@ Pero no solo ellos sobrevivieron, descubren que Jimmy, otro de los pilotos, est�
     <category>Movie</category>
     <category>Action</category>
     <category>Thriller</category>
+    <country>Cambodia</country>
     <rating><value>R</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/unaoracionantesdelamanecer.jpg" />
   </programme>
@@ -662096,6 +662153,7 @@ Pero no solo ellos sobrevivieron, descubren que Jimmy, otro de los pilotos, est�
     <category>Action</category>
     <category>Drama</category>
     <category>Thriller</category>
+    <country>Canadá</country>
     <rating><value>B15</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/elrenacido.jpg" />
   </programme>
@@ -708439,7 +708497,7 @@ No aparece en el programa ningún otro superhéroe de ficción, a excepción  de
   </programme>
   <programme start="20261104190200 -0300" stop="20261104205700 -0300" channel="1846">
     <title>Apollo 11</title>
-    <desc>Imágenes nunca antes vistas de la misión más célebre de la NASA: los astronautas Neil Armstrong, Buzz Aldrin y Michael Collins se embarcan en un viaje histórico a la Luna.</desc>
+    <desc>El baúl de la NASA se abre para proporcionar material inédito sobre la misión &quot;Apollo 11&quot;, que llevaría por primera vez al hombre a la Luna. Las cámaras ubicadas en Cabo Cañaveral capturan los momentos más importantes del despegue de la nave. Unidas a las escenas filmadas en el interior del cohete espacial, ambas perspectivas ofrecen una visión íntima sobre las sensaciones que experimentaron los astronautas durante su misión.</desc>
     <credits>
       <director>Todd Douglas Miller</director>
       <actor>Bill Anders</actor>
@@ -708451,6 +708509,7 @@ No aparece en el programa ningún otro superhéroe de ficción, a excepción  de
     <date>2019</date>
     <category>Movie</category>
     <category>Documentary</category>
+    <country>Estados Unidos</country>
     <rating><value>A</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/apollo11.jpg" />
   </programme>
