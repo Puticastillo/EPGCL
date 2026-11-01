@@ -118994,13 +118994,21 @@ Claudia Gurisatti - Jefferson Beltrán - Jason Calderón</desc>
     <rating><value>14</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/megatiempoalahora.jpg" />
   </programme>
-  <programme start="20261107231000 -0300" stop="20261108001000 -0300" channel="0226">
+  <programme start="20261107231000 -0300" stop="20261107234000 -0300" channel="0226">
     <title>Megatiempo PM</title>
     <desc>Espacio de noticias.</desc>
     <date>2024</date>
     <category>Reportaje</category>
     <rating><value>14</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/megatiempopm.jpg" />
+  </programme>
+  <programme start="20261107234000 -0300" stop="20261108004000 -0300" channel="0226">
+    <title>Megaimpacto</title>
+    <desc>Espacio de noticias.</desc>
+    <date>2024</date>
+    <category>Reportaje</category>
+    <rating><value>18</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/megaimpacto.jpg" />
   </programme>
   <programme start="20261031120000 -0300" stop="20261031123000 -0300" channel="0301">
     <title>Caleuchístico</title>
@@ -241490,7 +241498,7 @@ Reinvención-remake futurista del clásico de Akira Kurosawa &quot;Los 7 samurá
     <rating><value>TE</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/adormir.jpg" />
   </programme>
-  <programme start="20261107231500 -0300" stop="20261108003000 -0300" channel="0317">
+  <programme start="20261107231500 -0300" stop="20261108004500 -0300" channel="0317">
     <title>Plim Plim Baby</title>
     <desc>Videoclips musicales con música instrumental relajante para bebés. Su sonoridad, instrumentación y estética visual con colores pastel y movimientos suaves brinda una estimulación sensorial que ayuda a los más pequeños a entretenerse y relajarse.</desc>
     <date>2024</date>
@@ -291671,9 +291679,9 @@ de Billy y Mandy</title>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/ligadeprimera.jpg" />
   </programme>
   <programme start="20261103144500 -0300" stop="20261103153000 -0300" channel="0401">
-    <title>Replay • Universidad Católica vs Universidad de Chile</title>
-    <sub-title>Universidad Católica vs Universidad de Chile</sub-title>
-    <desc>Universidad Católica vs Universidad de Chile | En pocos minutos, revive las mejores y más destacadas jugadas y momentos del partido.</desc>
+    <title>Replay • Coquimbo Unido vs Unión la Calera</title>
+    <sub-title>Coquimbo Unido vs Unión la Calera</sub-title>
+    <desc>Coquimbo Unido vs Unión la Calera | En pocos minutos, revive las mejores y más destacadas jugadas y momentos del partido.</desc>
     <credits>
       <director>Shawn Dempewolff</director>
       <director>Kathleen Grace</director>
@@ -291685,7 +291693,7 @@ de Billy y Mandy</title>
     <category>Deportes</category>
     <category>Fútbol</category>
     <country>Chile</country>
-    <episode-num system="onscreen">Episodio 6</episode-num>
+    <episode-num system="onscreen">Episodio 2</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/replay.jpg" />
   </programme>
   <programme start="20261103153000 -0300" stop="20261103173000 -0300" channel="0401">
@@ -291751,7 +291759,7 @@ de Billy y Mandy</title>
     <episode-num system="onscreen">Episodio 401</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/tntdatasports.jpg" />
   </programme>
-  <programme start="20261103213000 -0300" stop="20261103223000 -0300" channel="0401">
+  <programme start="20261103213000 -0300" stop="20261103233000 -0300" channel="0401">
     <title>Todos somos técnicos • 03-11-2026</title>
     <sub-title>03-11-2026</sub-title>
     <desc>Repetición ║ 03-11-2026 | Un espacio para analizar todos los detalles del fútbol nacional e internacional.</desc>
@@ -291765,102 +291773,108 @@ de Billy y Mandy</title>
     <episode-num system="onscreen">Episodio 1933</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0401_todossomostecnicos.jpg" />
   </programme>
-  <programme start="20261103223000 -0300" stop="20261103230000 -0300" channel="0401">
+  <programme start="20261103233000 -0300" stop="20261104003000 -0300" channel="0401">
+    <title>Liga de Primera • Deportes Concepción vs Palestino</title>
+    <sub-title>Deportes Concepción vs Palestino</sub-title>
+    <desc>Deportes Concepción vs Palestino | Disfruta de los partidos de la principal categoría del fútbol profesional en Chile. Los amantes del fútbol podrán disfrutar de los encuentros más emocionantes entre los mejores equipos de Chile.</desc>
+    <date>2026</date>
+    <category>Fútbol</category>
+    <country>Chile</country>
+    <episode-num system="onscreen">T26 E8</episode-num>
+    <rating><value>14</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/ligadeprimera.jpg" />
+  </programme>
+  <programme start="20261104003000 -0300" stop="20261104010000 -0300" channel="0401">
     <title>TNT Sports Premium Chile</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0401_fallback.jpg" />
   </programme>
-  <programme start="20261103230000 -0300" stop="20261104030000 -0300" channel="0401">
+  <programme start="20261104010000 -0300" stop="20261104050000 -0300" channel="0401">
     <title>TNT Sports Premium Chile</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0401_fallback.jpg" />
   </programme>
-  <programme start="20261104030000 -0300" stop="20261104070000 -0300" channel="0401">
+  <programme start="20261104050000 -0300" stop="20261104090000 -0300" channel="0401">
     <title>TNT Sports Premium Chile</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0401_fallback.jpg" />
   </programme>
-  <programme start="20261104070000 -0300" stop="20261104110000 -0300" channel="0401">
+  <programme start="20261104090000 -0300" stop="20261104130000 -0300" channel="0401">
     <title>TNT Sports Premium Chile</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0401_fallback.jpg" />
   </programme>
-  <programme start="20261104110000 -0300" stop="20261104150000 -0300" channel="0401">
+  <programme start="20261104130000 -0300" stop="20261104170000 -0300" channel="0401">
     <title>TNT Sports Premium Chile</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0401_fallback.jpg" />
   </programme>
-  <programme start="20261104150000 -0300" stop="20261104190000 -0300" channel="0401">
+  <programme start="20261104170000 -0300" stop="20261104210000 -0300" channel="0401">
     <title>TNT Sports Premium Chile</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0401_fallback.jpg" />
   </programme>
-  <programme start="20261104190000 -0300" stop="20261104230000 -0300" channel="0401">
+  <programme start="20261104210000 -0300" stop="20261105010000 -0300" channel="0401">
     <title>TNT Sports Premium Chile</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0401_fallback.jpg" />
   </programme>
-  <programme start="20261104230000 -0300" stop="20261105030000 -0300" channel="0401">
+  <programme start="20261105010000 -0300" stop="20261105050000 -0300" channel="0401">
     <title>TNT Sports Premium Chile</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0401_fallback.jpg" />
   </programme>
-  <programme start="20261105030000 -0300" stop="20261105070000 -0300" channel="0401">
+  <programme start="20261105050000 -0300" stop="20261105090000 -0300" channel="0401">
     <title>TNT Sports Premium Chile</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0401_fallback.jpg" />
   </programme>
-  <programme start="20261105070000 -0300" stop="20261105110000 -0300" channel="0401">
+  <programme start="20261105090000 -0300" stop="20261105130000 -0300" channel="0401">
     <title>TNT Sports Premium Chile</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0401_fallback.jpg" />
   </programme>
-  <programme start="20261105110000 -0300" stop="20261105150000 -0300" channel="0401">
+  <programme start="20261105130000 -0300" stop="20261105170000 -0300" channel="0401">
     <title>TNT Sports Premium Chile</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0401_fallback.jpg" />
   </programme>
-  <programme start="20261105150000 -0300" stop="20261105190000 -0300" channel="0401">
+  <programme start="20261105170000 -0300" stop="20261105210000 -0300" channel="0401">
     <title>TNT Sports Premium Chile</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0401_fallback.jpg" />
   </programme>
-  <programme start="20261105190000 -0300" stop="20261105230000 -0300" channel="0401">
+  <programme start="20261105210000 -0300" stop="20261106010000 -0300" channel="0401">
     <title>TNT Sports Premium Chile</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0401_fallback.jpg" />
   </programme>
-  <programme start="20261105230000 -0300" stop="20261106030000 -0300" channel="0401">
+  <programme start="20261106010000 -0300" stop="20261106050000 -0300" channel="0401">
     <title>TNT Sports Premium Chile</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0401_fallback.jpg" />
   </programme>
-  <programme start="20261106030000 -0300" stop="20261106070000 -0300" channel="0401">
+  <programme start="20261106050000 -0300" stop="20261106090000 -0300" channel="0401">
     <title>TNT Sports Premium Chile</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0401_fallback.jpg" />
   </programme>
-  <programme start="20261106070000 -0300" stop="20261106110000 -0300" channel="0401">
+  <programme start="20261106090000 -0300" stop="20261106130000 -0300" channel="0401">
     <title>TNT Sports Premium Chile</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0401_fallback.jpg" />
   </programme>
-  <programme start="20261106110000 -0300" stop="20261106150000 -0300" channel="0401">
+  <programme start="20261106130000 -0300" stop="20261106170000 -0300" channel="0401">
     <title>TNT Sports Premium Chile</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0401_fallback.jpg" />
   </programme>
-  <programme start="20261106150000 -0300" stop="20261106190000 -0300" channel="0401">
+  <programme start="20261106170000 -0300" stop="20261106210000 -0300" channel="0401">
     <title>TNT Sports Premium Chile</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0401_fallback.jpg" />
   </programme>
-  <programme start="20261106190000 -0300" stop="20261106230000 -0300" channel="0401">
-    <title>TNT Sports Premium Chile</title>
-    <desc>La informacion de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0401_fallback.jpg" />
-  </programme>
-  <programme start="20261106230000 -0300" stop="20261106235959 -0300" channel="0401">
+  <programme start="20261106210000 -0300" stop="20261106235959 -0300" channel="0401">
     <title>TNT Sports Premium Chile</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0401_fallback.jpg" />
@@ -293405,7 +293419,7 @@ de Billy y Mandy</title>
     <episode-num system="onscreen">T2 E1</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/todossomostecnicos.jpg" />
   </programme>
-  <programme start="20261103213000 -0300" stop="20261103223000 -0300" channel="0403">
+  <programme start="20261103213000 -0300" stop="20261103233000 -0300" channel="0403">
     <title>Liga de Primera • Deportes Limache vs Audax Italiano</title>
     <sub-title>Deportes Limache vs Audax Italiano</sub-title>
     <desc>Deportes Limache vs Audax Italiano | Disfruta de los partidos de la principal categoría del fútbol profesional en Chile. Los amantes del fútbol podrán disfrutar de los encuentros más emocionantes entre los mejores equipos de Chile.</desc>
@@ -293416,102 +293430,111 @@ de Billy y Mandy</title>
     <rating><value>14</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/ligadeprimera.jpg" />
   </programme>
-  <programme start="20261103223000 -0300" stop="20261103230000 -0300" channel="0403">
+  <programme start="20261103233000 -0300" stop="20261104003000 -0300" channel="0403">
+    <title>Todos somos técnicos • 03-11-2026</title>
+    <sub-title>03-11-2026</sub-title>
+    <desc>Repetición ║ 03-11-2026 | Un espacio para analizar todos los detalles del fútbol nacional e internacional.</desc>
+    <credits>
+      <actor>Manuel De Tezanos</actor>
+    </credits>
+    <date>2000</date>
+    <category>Deportes</category>
+    <category>Fútbol</category>
+    <country>Chile</country>
+    <episode-num system="onscreen">Episodio 1933</episode-num>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/todossomostecnicos.jpg" />
+  </programme>
+  <programme start="20261104003000 -0300" stop="20261104010000 -0300" channel="0403">
     <title>TNT Sports</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/tntsports.jpg" />
   </programme>
-  <programme start="20261103230000 -0300" stop="20261104030000 -0300" channel="0403">
+  <programme start="20261104010000 -0300" stop="20261104050000 -0300" channel="0403">
     <title>TNT Sports</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/tntsports.jpg" />
   </programme>
-  <programme start="20261104030000 -0300" stop="20261104070000 -0300" channel="0403">
+  <programme start="20261104050000 -0300" stop="20261104090000 -0300" channel="0403">
     <title>TNT Sports</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/tntsports.jpg" />
   </programme>
-  <programme start="20261104070000 -0300" stop="20261104110000 -0300" channel="0403">
+  <programme start="20261104090000 -0300" stop="20261104130000 -0300" channel="0403">
     <title>TNT Sports</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/tntsports.jpg" />
   </programme>
-  <programme start="20261104110000 -0300" stop="20261104150000 -0300" channel="0403">
+  <programme start="20261104130000 -0300" stop="20261104170000 -0300" channel="0403">
     <title>TNT Sports</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/tntsports.jpg" />
   </programme>
-  <programme start="20261104150000 -0300" stop="20261104190000 -0300" channel="0403">
+  <programme start="20261104170000 -0300" stop="20261104210000 -0300" channel="0403">
     <title>TNT Sports</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/tntsports.jpg" />
   </programme>
-  <programme start="20261104190000 -0300" stop="20261104230000 -0300" channel="0403">
+  <programme start="20261104210000 -0300" stop="20261105010000 -0300" channel="0403">
     <title>TNT Sports</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/tntsports.jpg" />
   </programme>
-  <programme start="20261104230000 -0300" stop="20261105030000 -0300" channel="0403">
+  <programme start="20261105010000 -0300" stop="20261105050000 -0300" channel="0403">
     <title>TNT Sports</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/tntsports.jpg" />
   </programme>
-  <programme start="20261105030000 -0300" stop="20261105070000 -0300" channel="0403">
+  <programme start="20261105050000 -0300" stop="20261105090000 -0300" channel="0403">
     <title>TNT Sports</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/tntsports.jpg" />
   </programme>
-  <programme start="20261105070000 -0300" stop="20261105110000 -0300" channel="0403">
+  <programme start="20261105090000 -0300" stop="20261105130000 -0300" channel="0403">
     <title>TNT Sports</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/tntsports.jpg" />
   </programme>
-  <programme start="20261105110000 -0300" stop="20261105150000 -0300" channel="0403">
+  <programme start="20261105130000 -0300" stop="20261105170000 -0300" channel="0403">
     <title>TNT Sports</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/tntsports.jpg" />
   </programme>
-  <programme start="20261105150000 -0300" stop="20261105190000 -0300" channel="0403">
+  <programme start="20261105170000 -0300" stop="20261105210000 -0300" channel="0403">
     <title>TNT Sports</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/tntsports.jpg" />
   </programme>
-  <programme start="20261105190000 -0300" stop="20261105230000 -0300" channel="0403">
+  <programme start="20261105210000 -0300" stop="20261106010000 -0300" channel="0403">
     <title>TNT Sports</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/tntsports.jpg" />
   </programme>
-  <programme start="20261105230000 -0300" stop="20261106030000 -0300" channel="0403">
+  <programme start="20261106010000 -0300" stop="20261106050000 -0300" channel="0403">
     <title>TNT Sports</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/tntsports.jpg" />
   </programme>
-  <programme start="20261106030000 -0300" stop="20261106070000 -0300" channel="0403">
+  <programme start="20261106050000 -0300" stop="20261106090000 -0300" channel="0403">
     <title>TNT Sports</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/tntsports.jpg" />
   </programme>
-  <programme start="20261106070000 -0300" stop="20261106110000 -0300" channel="0403">
+  <programme start="20261106090000 -0300" stop="20261106130000 -0300" channel="0403">
     <title>TNT Sports</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/tntsports.jpg" />
   </programme>
-  <programme start="20261106110000 -0300" stop="20261106150000 -0300" channel="0403">
+  <programme start="20261106130000 -0300" stop="20261106170000 -0300" channel="0403">
     <title>TNT Sports</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/tntsports.jpg" />
   </programme>
-  <programme start="20261106150000 -0300" stop="20261106190000 -0300" channel="0403">
+  <programme start="20261106170000 -0300" stop="20261106210000 -0300" channel="0403">
     <title>TNT Sports</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/tntsports.jpg" />
   </programme>
-  <programme start="20261106190000 -0300" stop="20261106230000 -0300" channel="0403">
-    <title>TNT Sports</title>
-    <desc>La informacion de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/tntsports.jpg" />
-  </programme>
-  <programme start="20261106230000 -0300" stop="20261106235959 -0300" channel="0403">
+  <programme start="20261106210000 -0300" stop="20261106235959 -0300" channel="0403">
     <title>TNT Sports</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/tntsports.jpg" />
@@ -350835,6 +350858,18 @@ de Billy y Mandy</title>
     <title>Jersey Shore: vacaciones en familia • Está bien, trabajo aquí</title>
     <sub-title>Está bien, trabajo aquí</sub-title>
     <desc>Está bien, trabajo aquí | Pauly desempolva los platos y vuelve a salir de gira. El bebé de Deena ya casi está aquí, Mike está listo para convertirse oficialmente en Big Daddy Sitch.</desc>
+    <credits>
+      <director>Anthony Beltempo</director>
+      <director>SallyAnn Salsano</director>
+      <actor>Pauly D.</actor>
+      <actor>JWoww</actor>
+      <actor>Vinny Guadagnino</actor>
+      <actor>Mike Sorrentino</actor>
+      <actor>Deena Cortese</actor>
+    </credits>
+    <date>2018</date>
+    <category>Reality</category>
+    <country>Estados Unidos</country>
     <episode-num system="onscreen">T5 E22</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/jerseyshorevacacionesenfamilia.jpg" />
   </programme>
@@ -350842,6 +350877,18 @@ de Billy y Mandy</title>
     <title>Jersey Shore: vacaciones en familia • Lola la coneja</title>
     <sub-title>Lola la coneja</sub-title>
     <desc>Lola la coneja | Domingo de Pascuas al estilo Jersey Shore. Lola la Coneja regresa, Angelina y Snooki hacen desastres en una bodega. Los compañeros disfrutan del paseo marítio de San Diego.</desc>
+    <credits>
+      <director>Anthony Beltempo</director>
+      <director>SallyAnn Salsano</director>
+      <actor>Pauly D.</actor>
+      <actor>JWoww</actor>
+      <actor>Vinny Guadagnino</actor>
+      <actor>Mike Sorrentino</actor>
+      <actor>Deena Cortese</actor>
+    </credits>
+    <date>2018</date>
+    <category>Reality</category>
+    <country>Estados Unidos</country>
     <episode-num system="onscreen">T5 E23</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/jerseyshorevacacionesenfamilia.jpg" />
   </programme>
@@ -350849,6 +350896,18 @@ de Billy y Mandy</title>
     <title>Jersey Shore: vacaciones en familia • Dren</title>
     <sub-title>Dren</sub-title>
     <desc>Dren | Llegan Pauly y Nikki y los compañeros de cuarto se encuentran con la vida silvestre local. Pero los leones, los tigres y los osos no tienen nada que ver con Snooki cuando Dren se hace cargo en el cumpleaños de Nikki.</desc>
+    <credits>
+      <director>Anthony Beltempo</director>
+      <director>SallyAnn Salsano</director>
+      <actor>Pauly D.</actor>
+      <actor>JWoww</actor>
+      <actor>Vinny Guadagnino</actor>
+      <actor>Mike Sorrentino</actor>
+      <actor>Deena Cortese</actor>
+    </credits>
+    <date>2018</date>
+    <category>Reality</category>
+    <country>Estados Unidos</country>
     <episode-num system="onscreen">T5 E24</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/jerseyshorevacacionesenfamilia.jpg" />
   </programme>
@@ -350856,6 +350915,18 @@ de Billy y Mandy</title>
     <title>Jersey Shore: vacaciones en familia • Diario de una pasión de Staten Island</title>
     <sub-title>Diario de una pasión de Staten Island</sub-title>
     <desc>Diario de una pasión de Staten Island | Dren continúa atacando San Diego. Algo sucede entre Angelina y Vinny.</desc>
+    <credits>
+      <director>Anthony Beltempo</director>
+      <director>SallyAnn Salsano</director>
+      <actor>Pauly D.</actor>
+      <actor>JWoww</actor>
+      <actor>Vinny Guadagnino</actor>
+      <actor>Mike Sorrentino</actor>
+      <actor>Deena Cortese</actor>
+    </credits>
+    <date>2018</date>
+    <category>Reality</category>
+    <country>Estados Unidos</country>
     <episode-num system="onscreen">T5 E25</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/jerseyshorevacacionesenfamilia.jpg" />
   </programme>
@@ -351206,6 +351277,18 @@ de Billy y Mandy</title>
     <title>Jersey Shore: vacaciones en familia • Wild &#x27;n Out al estilo Jersey Shore</title>
     <sub-title>Wild &#x27;n Out al estilo Jersey Shore</sub-title>
     <desc>Wild &#x27;n Out al estilo Jersey Shore | El &quot;Día de diversión en familia&quot; le recuerda a Angelina de su matrimonio fallido. Jenni termina en la sala de emergencias.</desc>
+    <credits>
+      <director>Anthony Beltempo</director>
+      <director>SallyAnn Salsano</director>
+      <actor>Pauly D.</actor>
+      <actor>JWoww</actor>
+      <actor>Vinny Guadagnino</actor>
+      <actor>Mike Sorrentino</actor>
+      <actor>Deena Cortese</actor>
+    </credits>
+    <date>2018</date>
+    <category>Reality</category>
+    <country>Estados Unidos</country>
     <episode-num system="onscreen">T5 E26</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/jerseyshorevacacionesenfamilia.jpg" />
   </programme>
@@ -351213,6 +351296,18 @@ de Billy y Mandy</title>
     <title>Jersey Shore: vacaciones en familia • Toc, toc, ¿quién soy?</title>
     <sub-title>Toc, toc, ¿quién soy?</sub-title>
     <desc>Toc, toc, ¿quién soy? | El agua se convierte en vino, y en un abrir y cerrar de ojos se produce el caos entre Pauly, Nikki y Angelina.</desc>
+    <credits>
+      <director>Anthony Beltempo</director>
+      <director>SallyAnn Salsano</director>
+      <actor>Pauly D.</actor>
+      <actor>JWoww</actor>
+      <actor>Vinny Guadagnino</actor>
+      <actor>Mike Sorrentino</actor>
+      <actor>Deena Cortese</actor>
+    </credits>
+    <date>2018</date>
+    <category>Reality</category>
+    <country>Estados Unidos</country>
     <episode-num system="onscreen">T5 E27</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/jerseyshorevacacionesenfamilia.jpg" />
   </programme>
@@ -351220,6 +351315,18 @@ de Billy y Mandy</title>
     <title>Jersey Shore: vacaciones en familia • Otro día, otra crisis</title>
     <sub-title>Otro día, otra crisis</sub-title>
     <desc>Otro día, otra crisis | Deena aún se pregunta si el enfrentamiento de anoche fue una broma, mientras que el resto de los compañeros se preguntan hacia dónde van a partir de ahora. Mientras tanto, Vinny planea un día en su honor.</desc>
+    <credits>
+      <director>Anthony Beltempo</director>
+      <director>SallyAnn Salsano</director>
+      <actor>Pauly D.</actor>
+      <actor>JWoww</actor>
+      <actor>Vinny Guadagnino</actor>
+      <actor>Mike Sorrentino</actor>
+      <actor>Deena Cortese</actor>
+    </credits>
+    <date>2018</date>
+    <category>Reality</category>
+    <country>Estados Unidos</country>
     <episode-num system="onscreen">T5 E28</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/jerseyshorevacacionesenfamilia.jpg" />
   </programme>
@@ -351227,6 +351334,18 @@ de Billy y Mandy</title>
     <title>Jersey Shore: vacaciones en familia • Día de Vinny</title>
     <sub-title>Día de Vinny</sub-title>
     <desc>Día de Vinny | La familia Shore original, compuesta por Deena, Pauly D, JWOWW, Vinny, Ronnie, Snooki&quot; y a Mike &quot;The Situation&quot;, se reunirá en Miami para tener las mejores vacaciones de sus vidas.</desc>
+    <credits>
+      <director>Anthony Beltempo</director>
+      <director>SallyAnn Salsano</director>
+      <actor>Pauly D.</actor>
+      <actor>JWoww</actor>
+      <actor>Vinny Guadagnino</actor>
+      <actor>Mike Sorrentino</actor>
+      <actor>Deena Cortese</actor>
+    </credits>
+    <date>2018</date>
+    <category>Reality</category>
+    <country>Estados Unidos</country>
     <episode-num system="onscreen">T5 E29</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/jerseyshorevacacionesenfamilia.jpg" />
   </programme>
@@ -503971,8 +504090,18 @@ Hank en su nueva vida tendrá como acompañantes a su hermano, quien ve tener un
     <title>Desastre • Avalanchas</title>
     <sub-title>Avalanchas</sub-title>
     <desc>Avalanchas | Una súbita avalancha sepulta a un grupo de estudiantes de décimo grado que participaban en una excursión de esquí. En cuestión de minutos, los que puedan deberán salir y dejar atrás a los otros. Conozca las causas de estos desastres.</desc>
+    <credits>
+      <director>Tommasso Mangiacotti</director>
+      <director>Constanza Melio</director>
+      <director>Maria Antonieta Fernández</director>
+      <director>Kuang Yi Lee</director>
+      <director>Marolyn Ávila</director>
+    </credits>
+    <date>2024</date>
+    <category>Animación</category>
+    <country>España</country>
     <episode-num system="onscreen">T1 E2</episode-num>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/desastre.jpg" />
   </programme>
   <programme start="20261101084800 -0300" stop="20261101093600 -0300" channel="0703">
     <title>Tesoro en el espacio: el secreto del astronauta • Dientes de dragón</title>
@@ -504195,8 +504324,18 @@ Hank en su nueva vida tendrá como acompañantes a su hermano, quien ve tener un
     <title>Desastre • Puentes</title>
     <sub-title>Puentes</sub-title>
     <desc>Puentes | En California del Norte se produjo el colapso de una sección de un puente ocasionando múltiples víctimas. El derrumbe de otro puente en Oklahoma les costó la vida a varios automovilistas.</desc>
+    <credits>
+      <director>Tommasso Mangiacotti</director>
+      <director>Constanza Melio</director>
+      <director>Maria Antonieta Fernández</director>
+      <director>Kuang Yi Lee</director>
+      <director>Marolyn Ávila</director>
+    </credits>
+    <date>2024</date>
+    <category>Animación</category>
+    <country>España</country>
     <episode-num system="onscreen">T1 E3</episode-num>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/desastre.jpg" />
   </programme>
   <programme start="20261102080000 -0300" stop="20261102084800 -0300" channel="0703">
     <title>Planeta energía • Cinética</title>
@@ -612496,7 +612635,7 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
     <rating><value>14</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261107220000 -0300" stop="20261107230000 -0300" channel="0816">
+  <programme start="20261107220000 -0300" stop="20261107234300 -0300" channel="0816">
     <title>La cabra que cambió el juego: Goat</title>
     <desc>Una pequeña cabra llamada Will tiene la oportunidad única de unirse a los profesionales y jugar al roarball, un deporte de alta intensidad y contacto físico total en el que destacan los animales más rápidos y feroces del mundo.</desc>
     <credits>
@@ -612520,6 +612659,32 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
     <country>Estados Unidos,Canadá</country>
     <rating><value>14</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261107234300 -0300" stop="20261108004300 -0300" channel="0816">
+    <title>¡Shazam!</title>
+    <desc>Todos llevamos un superhéroe dentro, solo se necesita un poco de magia para sacarlo a la luz. Cuando Billy Batson, un niño de acogida de 14 años que ha crecido en las calles, grita la palabra &#x27;SHAZAM!&#x27; se convierte en el Superhéroe adulto Shazam, por cortesía de un antiguo mago. Dentro de un cuerpo musculoso y divino, Shazam esconde un corazón de niño. Pero lo mejor es que en esta versión de adulto consigue realizar todo lo que le gustaría hacer a cualquier adolescente con superpoderes: ¡divertirse con ellos! ¿Volar? ¿Tener visión de rayos X? ¿Disparar un rayo con las manos? ¿Saltarse el examen de sociales? Shazam va a poner a prueba los límites de sus habilidades con la inconsciencia propia de un niño. Pero necesitará dominar rápidamente esos poderes para luchar contra las letales fuerzas del mal que controla el Dr. Thaddeus Sivana.</desc>
+    <credits>
+      <director>David F. Sandberg</director>
+      <director>Colin Woods</director>
+      <actor>Zachary Levi</actor>
+      <actor>Mark Strong</actor>
+      <actor>Asher Angel</actor>
+      <actor>Jack Dylan Grazer</actor>
+      <actor>Djimon Hounsou</actor>
+      <actor>Grace Caroline Currey</actor>
+      <actor>Ian Chen</actor>
+      <actor>Jovan Armand</actor>
+      <actor>Faithe Herman</actor>
+      <actor>Cooper Andrews</actor>
+    </credits>
+    <date>2019</date>
+    <category>Acción</category>
+    <category>Comedia</category>
+    <category>Fantasía</category>
+    <category>Aventura</category>
+    <country>Estados Unidos,Canadá</country>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/shazam.jpg" />
   </programme>
   <programme start="20261031124200 -0300" stop="20261031135200 -0300" channel="0817">
     <title>Game of Thrones • Winter Is Coming</title>
@@ -635073,11 +635238,20 @@ Los problemas aumentan cuando la familia también comienza a notar  presencias y
     <desc>La información de este programa no se encuentra disponible.</desc>
     <credits>
       <director>Mike Quasar</director>
+      <actor>Sophia Bush</actor>
+      <actor>Meat Loaf</actor>
+      <actor>Brett Cullen</actor>
+      <actor>Samantha Shelton</actor>
+      <actor>Lindsay Frost</actor>
+      <actor>Iva Hasperger</actor>
+      <actor>Rodney Scott</actor>
+      <actor>Nate Dushku</actor>
     </credits>
     <date>2024</date>
     <category>Movie</category>
     <category>Adults only</category>
     <category>Erotic</category>
+    <country>Estados Unidos</country>
     <rating><value>D</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
@@ -683064,7 +683238,7 @@ No aparece en el programa ningún otro superhéroe de ficción, a excepción  de
   </programme>
   <programme start="20261102082200 -0300" stop="20261102100400 -0300" channel="0840">
     <title>Mi gran boda griega 2</title>
-    <desc>Mientras Toula se resiste a la idea de que su hija asista a una universidad lejos de su familia, los Portokalos organizan una nueva boda cuando descubren que sus padres nunca estuvieron legalmente casados. Regresa el elenco original de Mi Gran Boda Griega, protagonizada por Nia Vardalos y el nominado a los Globos de Oro Josh Corbett.</desc>
+    <desc>Secuela de la exitosa comedia romántica &#x27;Mi gran boda griega&#x27; (2002). La celebración de otra espectacular boda griega sirve para desvelar el secreto de la familia Portokalos.</desc>
     <credits>
       <director>Kirk Jones</director>
       <actor>Nia Vardalos</actor>
@@ -683106,7 +683280,7 @@ No aparece en el programa ningún otro superhéroe de ficción, a excepción  de
     <category>Romantic comedy</category>
     <country>USA</country>
     <rating><value>B</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/migranbodagriega2.jpg" />
   </programme>
   <programme start="20261102100400 -0300" stop="20261102115300 -0300" channel="0840">
     <title>Los Croods</title>
@@ -683205,7 +683379,7 @@ No aparece en el programa ningún otro superhéroe de ficción, a excepción  de
   </programme>
   <programme start="20261102150800 -0300" stop="20261102165800 -0300" channel="0840">
     <title>Mi gran boda griega 2</title>
-    <desc>Mientras Toula se resiste a la idea de que su hija asista a una universidad lejos de su familia, los Portokalos organizan una nueva boda cuando descubren que sus padres nunca estuvieron legalmente casados. Regresa el elenco original de Mi Gran Boda Griega, protagonizada por Nia Vardalos y el nominado a los Globos de Oro Josh Corbett.</desc>
+    <desc>Secuela de la exitosa comedia romántica &#x27;Mi gran boda griega&#x27; (2002). La celebración de otra espectacular boda griega sirve para desvelar el secreto de la familia Portokalos.</desc>
     <credits>
       <director>Kirk Jones</director>
       <actor>Nia Vardalos</actor>
@@ -683247,7 +683421,7 @@ No aparece en el programa ningún otro superhéroe de ficción, a excepción  de
     <category>Romantic comedy</category>
     <country>USA</country>
     <rating><value>B</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/migranbodagriega2.jpg" />
   </programme>
   <programme start="20261102165800 -0300" stop="20261102184200 -0300" channel="0840">
     <title>Los Croods</title>
@@ -685860,7 +686034,7 @@ No aparece en el programa ningún otro superhéroe de ficción, a excepción  de
   </programme>
   <programme start="20261102114700 -0300" stop="20261102132400 -0300" channel="1840">
     <title>Mi gran boda griega 2</title>
-    <desc>La familia Portokalos se reúne de nuevo con motivo de la boda de los padres de Toula, quienes acaban de descubrir que su matrimonio nunca fue declarado oficial. ¡Una nueva boda, más grande y más griega!</desc>
+    <desc>Secuela de la exitosa comedia romántica &#x27;Mi gran boda griega&#x27; (2002). La celebración de otra espectacular boda griega sirve para desvelar el secreto de la familia Portokalos.</desc>
     <credits>
       <director>Kirk Jones</director>
       <actor>Nia Vardalos</actor>
@@ -685902,7 +686076,7 @@ No aparece en el programa ningún otro superhéroe de ficción, a excepción  de
     <category>Romantic comedy</category>
     <country>USA</country>
     <rating><value>B</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/migranbodagriega2.jpg" />
   </programme>
   <programme start="20261102132400 -0300" stop="20261102150200 -0300" channel="1840">
     <title>Los Croods</title>
@@ -686013,7 +686187,7 @@ No aparece en el programa ningún otro superhéroe de ficción, a excepción  de
   </programme>
   <programme start="20261102181700 -0300" stop="20261102195500 -0300" channel="1840">
     <title>Mi gran boda griega 2</title>
-    <desc>La familia Portokalos se reúne de nuevo con motivo de la boda de los padres de Toula, quienes acaban de descubrir que su matrimonio nunca fue declarado oficial. ¡Una nueva boda, más grande y más griega!</desc>
+    <desc>Secuela de la exitosa comedia romántica &#x27;Mi gran boda griega&#x27; (2002). La celebración de otra espectacular boda griega sirve para desvelar el secreto de la familia Portokalos.</desc>
     <credits>
       <director>Kirk Jones</director>
       <actor>Nia Vardalos</actor>
@@ -686055,7 +686229,7 @@ No aparece en el programa ningún otro superhéroe de ficción, a excepción  de
     <category>Romantic comedy</category>
     <country>USA</country>
     <rating><value>B</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/migranbodagriega2.jpg" />
   </programme>
   <programme start="20261102195500 -0300" stop="20261102213400 -0300" channel="1840">
     <title>Los Croods</title>
@@ -765243,7 +765417,7 @@ La serie narra los acontecimientos de la Biblia, del Antiguo y Nuevo Testamento 
   </programme>
   <programme start="20261101150000 -0300" stop="20261101163000 -0300" channel="0909">
     <title>El gran Showman</title>
-    <desc>Phineas Taylor Barnum presenta actos en vivo en el escenario del circo. Sin embargo, cuando apuesta todo en la cantante de ópera Jenny Lind, perderá de vista el aspecto más importante de su vida: su familia.</desc>
+    <desc>Biopic sobre Phineas Taylor Barnum (1810-1891), un empresario circense estadounidense que fundó el &quot;Ringling Bros. and Barnum &amp; Bailey Circus&quot;, conocido como &quot;el mayor espectáculo en la tierra&quot;.</desc>
     <credits>
       <director>Michael Gracey</director>
       <actor>Hugh Jackman</actor>
@@ -768029,7 +768203,7 @@ La serie narra los acontecimientos de la Biblia, del Antiguo y Nuevo Testamento 
   </programme>
   <programme start="20261101151500 -0300" stop="20261101170000 -0300" channel="3909">
     <title>El gran Showman</title>
-    <desc>Huérfano, sin un centavo pero ambicioso y con una mente repleta de imaginación e ideas frescas, el estadounidense Phineas Taylor Barnum siempre será recordado como el hombre con el don de desdibujar sin esfuerzo la línea entre la realidad y la ficción. Sediento de innovación y ávido de éxito, el hijo de un sastre logrará abrir un museo de cera, pero pronto cambiará su enfoque a lo único y peculiar, presentando actos en vivo extraordinarios y nunca vistos en el escenario del circo. Algunos llamarán a la amplia colección de rarezas de Barnum un espectáculo extraño. Sin embargo, cuando el showman obsesionado apuesta todo en la cantante de ópera Jenny Lind para atraer a una audiencia alta, de alguna manera perderá de vista el aspecto más importante de su vida: su familia.</desc>
+    <desc>Biopic sobre Phineas Taylor Barnum (1810-1891), un empresario circense estadounidense que fundó el &quot;Ringling Bros. and Barnum &amp; Bailey Circus&quot;, conocido como &quot;el mayor espectáculo en la tierra&quot;.</desc>
     <credits>
       <director>Michael Gracey</director>
       <actor>Hugh Jackman</actor>
@@ -792341,6 +792515,11 @@ Andrés Gil</desc>
   <programme start="20261102220000 -0300" stop="20261102230000 -0300" channel="0933">
     <title>7 pecados capitales</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
+    <credits>
+      <director>Manuel Ávila Camacho</director>
+    </credits>
+    <date>1975</date>
+    <country>México</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261102230000 -0300" stop="20261102233000 -0300" channel="0933">
