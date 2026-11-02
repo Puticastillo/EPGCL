@@ -37249,17 +37249,17 @@ Escápate los lleva por rutas desconocidas y les muestra la otra cara de los lug
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261101220000 -0300" stop="20261102062700 -0300" channel="0139">
+  <programme start="20261101220000 -0300" stop="20261102065000 -0300" channel="0139">
     <title>Cine Prime</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261102062700 -0300" stop="20261102083100 -0300" channel="0139">
+  <programme start="20261102065000 -0300" stop="20261102083000 -0300" channel="0139">
     <title>Cine Wester</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261102083100 -0300" stop="20261102090200 -0300" channel="0139">
+  <programme start="20261102083000 -0300" stop="20261102090000 -0300" channel="0139">
     <title>Portavoz noticias</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <credits>
@@ -37270,7 +37270,7 @@ Escápate los lleva por rutas desconocidas y les muestra la otra cara de los lug
     <rating><value>14</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/portavoznoticias.jpg" />
   </programme>
-  <programme start="20261102090200 -0300" stop="20261102093000 -0300" channel="0139">
+  <programme start="20261102090000 -0300" stop="20261102092500 -0300" channel="0139">
     <title>En Forma</title>
     <desc>En Forma es un programa de televisión de la cadena alemana DW (Deutsche Welle) enfocado en la salud, el bienestar, la actividad física, la nutrición y un estilo de vida saludable. Presenta reportajes, consejos prácticos de ejercicio y bienestar integral desde una perspectiva dinámica y moderna.</desc>
     <credits>
@@ -37284,12 +37284,12 @@ Escápate los lleva por rutas desconocidas y les muestra la otra cara de los lug
     <rating><value>PG</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/enforma.jpg" />
   </programme>
-  <programme start="20261102093000 -0300" stop="20261102104200 -0300" channel="0139">
+  <programme start="20261102092500 -0300" stop="20261102105000 -0300" channel="0139">
     <title>Cine infantil</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261102104200 -0300" stop="20261102120800 -0300" channel="0139">
+  <programme start="20261102105000 -0300" stop="20261102120700 -0300" channel="0139">
     <title>Documentales DW</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <date>2017</date>
@@ -37297,31 +37297,15 @@ Escápate los lleva por rutas desconocidas y les muestra la otra cara de los lug
     <rating><value>14</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/documentalesdw.jpg" />
   </programme>
-  <programme start="20261102120800 -0300" stop="20261102123400 -0300" channel="0139">
-    <title>Global Es</title>
-    <desc>8.000 millones de personas poblamos la Tierra. Y nunca hemos estado tan conectadas. ¿Cómo abordarlo? Global 3000 se convierte en Global Es, porque ahora más que nunca es necesaria una coexistencia consciente. ¿Cómo enfrentar los urgentes problemas mundiales?
-
-El cambio climático y la pérdida de biodiversidad exigen una nueva forma de economía. Algo va a tener que cambiar si queremos vivir, trabajar y alimentarnos de forma digna en el futuro. El progreso y los cambios tecnológicos pueden ayudarnos a conseguirlo. Global Es da ideas sorprendentes, muestra posibles soluciones y ofrece perspectivas para un mundo que cambia a toda velocidad. Y para ello, parte de personas que buscan e impulsan el cambio y, así, inspiran a los demás.</desc>
-    <date>2023</date>
-    <category>Variety</category>
-    <country>Alemania</country>
-    <rating><value>TVPG</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/globales.jpg" />
-  </programme>
-  <programme start="20261102123400 -0300" stop="20261102130000 -0300" channel="0139">
-    <title>Euromaxx</title>
+  <programme start="20261102120700 -0300" stop="20261102130000 -0300" channel="0139">
+    <title>Documentales DW</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
-    <credits>
-      <actor>Belén Palancar</actor>
-      <actor>Valentina Torrado</actor>
-    </credits>
-    <date>2011</date>
-    <category>Magazine</category>
-    <country>Alemania</country>
-    <rating><value>A</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/euromaxx.jpg" />
+    <date>2017</date>
+    <category>Noticias</category>
+    <rating><value>14</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/documentalesdw.jpg" />
   </programme>
-  <programme start="20261102130000 -0300" stop="20261102133100 -0300" channel="0139">
+  <programme start="20261102130000 -0300" stop="20261102133000 -0300" channel="0139">
     <title>Portavoz noticias</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <credits>
@@ -37332,12 +37316,12 @@ El cambio climático y la pérdida de biodiversidad exigen una nueva forma de ec
     <rating><value>14</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/portavoznoticias.jpg" />
   </programme>
-  <programme start="20261102133100 -0300" stop="20261102160700 -0300" channel="0139">
+  <programme start="20261102133000 -0300" stop="20261102170000 -0300" channel="0139">
     <title>Cine familiar</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261102160700 -0300" stop="20261102185000 -0300" channel="0139">
+  <programme start="20261102170000 -0300" stop="20261102183400 -0300" channel="0139">
     <title>Documentales DW</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <date>2017</date>
@@ -37345,27 +37329,25 @@ El cambio climático y la pérdida de biodiversidad exigen una nueva forma de ec
     <rating><value>14</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/documentalesdw.jpg" />
   </programme>
-  <programme start="20261102185000 -0300" stop="20261102191600 -0300" channel="0139">
-    <title>Cultura.21</title>
-    <desc>Descubrir ideas nuevas y describir fenómenos culturales, que marcan nuestra historia, nuestro presente y nuestro futuro. Cultura.21 se mete de lleno en el panorama creativo. ¿Quiénes son sus protagonistas y cuáles sus obras?</desc>
-    <date>2026</date>
+  <programme start="20261102183400 -0300" stop="20261102190000 -0300" channel="0139">
+    <title>Documentales DW</title>
+    <desc>La información de este programa no se encuentra disponible.</desc>
+    <date>2017</date>
     <category>Noticias</category>
-    <category>Revista</category>
-    <country>Alemania</country>
-    <rating><value>B</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/cultura21.jpg" />
+    <rating><value>14</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/documentalesdw.jpg" />
   </programme>
-  <programme start="20261102191600 -0300" stop="20261102210000 -0300" channel="0139">
+  <programme start="20261102190000 -0300" stop="20261102210000 -0300" channel="0139">
     <title>Cine familiar</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261102210000 -0300" stop="20261102212300 -0300" channel="0139">
+  <programme start="20261102210000 -0300" stop="20261102212500 -0300" channel="0139">
     <title>Noticias Central</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261102212300 -0300" stop="20261102215700 -0300" channel="0139">
+  <programme start="20261102212500 -0300" stop="20261102220000 -0300" channel="0139">
     <title>Portavoz noticias</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <credits>
@@ -37376,32 +37358,27 @@ El cambio climático y la pérdida de biodiversidad exigen una nueva forma de ec
     <rating><value>14</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/portavoznoticias.jpg" />
   </programme>
-  <programme start="20261102215700 -0300" stop="20261102235500 -0300" channel="0139">
+  <programme start="20261102220000 -0300" stop="20261103000000 -0300" channel="0139">
     <title>Cine Prime</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261102235500 -0300" stop="20261103000000 -0300" channel="0139">
-    <title>Repe Hablemos</title>
+  <programme start="20261103000000 -0300" stop="20261103013000 -0300" channel="0139">
+    <title>Cultura En Cv</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261103000000 -0300" stop="20261103003000 -0300" channel="0139">
-    <title>El Maule Y Sus R</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
-  </programme>
-  <programme start="20261103003000 -0300" stop="20261103012500 -0300" channel="0139">
+  <programme start="20261103013000 -0300" stop="20261103023000 -0300" channel="0139">
     <title>Noticias Domingo</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261103012500 -0300" stop="20261103031200 -0300" channel="0139">
+  <programme start="20261103023000 -0300" stop="20261103040000 -0300" channel="0139">
     <title>Cine Trasnoche</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/cinetrasnoche.jpg" />
   </programme>
-  <programme start="20261103031200 -0300" stop="20261103065000 -0300" channel="0139">
+  <programme start="20261103040000 -0300" stop="20261103065000 -0300" channel="0139">
     <title>Cierre de transmisiones</title>
     <desc>Fin de emisión diaria del canal.</desc>
     <date>2022</date>
@@ -37409,14 +37386,14 @@ El cambio climático y la pérdida de biodiversidad exigen una nueva forma de ec
     <rating><value>18</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/cierredetransmisiones.jpg" />
   </programme>
-  <programme start="20261103065000 -0300" stop="20261103082900 -0300" channel="0139">
+  <programme start="20261103065000 -0300" stop="20261103083000 -0300" channel="0139">
     <title>Cine</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <date>2020</date>
     <category>Película</category>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/cine.jpg" />
   </programme>
-  <programme start="20261103082900 -0300" stop="20261103090100 -0300" channel="0139">
+  <programme start="20261103083000 -0300" stop="20261103090000 -0300" channel="0139">
     <title>Portavoz noticias</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <credits>
@@ -37427,17 +37404,17 @@ El cambio climático y la pérdida de biodiversidad exigen una nueva forma de ec
     <rating><value>14</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/portavoznoticias.jpg" />
   </programme>
-  <programme start="20261103090100 -0300" stop="20261103092400 -0300" channel="0139">
+  <programme start="20261103090000 -0300" stop="20261103092500 -0300" channel="0139">
     <title>Noticias Primera</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261103092400 -0300" stop="20261103104500 -0300" channel="0139">
+  <programme start="20261103092500 -0300" stop="20261103105000 -0300" channel="0139">
     <title>Cine infantil</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261103104500 -0300" stop="20261103120800 -0300" channel="0139">
+  <programme start="20261103105000 -0300" stop="20261103120700 -0300" channel="0139">
     <title>Documentales DW</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <date>2017</date>
@@ -37445,31 +37422,13 @@ El cambio climático y la pérdida de biodiversidad exigen una nueva forma de ec
     <rating><value>14</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/documentalesdw.jpg" />
   </programme>
-  <programme start="20261103120800 -0300" stop="20261103123400 -0300" channel="0139">
-    <title>Fuerza latina</title>
-    <desc>Las periodistas Natalia Orozco y Yoani Sánchez conversan cada semana con mujeres extraordinarias de América Latina, quienes nos acercan sus fascinantes historias y nos muestran el entorno en el que viven y trabajan. Son mujeres que, con tenacidad y perseverancia, se proponen cambiar la sociedad y alzan su voz para reclamar derechos y denunciar injusticias.</desc>
-    <credits>
-      <actor>Yoani Sánchez</actor>
-      <actor>Natalia Orozco</actor>
-    </credits>
-    <date>2024</date>
-    <category>Documental</category>
-    <country>Alemania</country>
-    <rating><value>TVPG</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fuerzalatina.jpg" />
-  </programme>
-  <programme start="20261103123400 -0300" stop="20261103130000 -0300" channel="0139">
-    <title>Enlaces</title>
+  <programme start="20261103120700 -0300" stop="20261103130000 -0300" channel="0139">
+    <title>Documentales DW</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
-    <credits>
-      <actor>Juan Sebastián Gómez</actor>
-    </credits>
-    <date>2026</date>
+    <date>2017</date>
     <category>Noticias</category>
-    <category>Revista</category>
-    <country>Alemania</country>
-    <rating><value>PG</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/enlaces.jpg" />
+    <rating><value>14</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/documentalesdw.jpg" />
   </programme>
   <programme start="20261103130000 -0300" stop="20261103133000 -0300" channel="0139">
     <title>Portavoz noticias</title>
@@ -37482,12 +37441,12 @@ El cambio climático y la pérdida de biodiversidad exigen una nueva forma de ec
     <rating><value>14</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/portavoznoticias.jpg" />
   </programme>
-  <programme start="20261103133000 -0300" stop="20261103163500 -0300" channel="0139">
+  <programme start="20261103133000 -0300" stop="20261103170000 -0300" channel="0139">
     <title>Cine familiar</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261103163500 -0300" stop="20261103183500 -0300" channel="0139">
+  <programme start="20261103170000 -0300" stop="20261103183400 -0300" channel="0139">
     <title>Documentales DW</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <date>2017</date>
@@ -37495,26 +37454,25 @@ El cambio climático y la pérdida de biodiversidad exigen una nueva forma de ec
     <rating><value>14</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/documentalesdw.jpg" />
   </programme>
-  <programme start="20261103183500 -0300" stop="20261103190200 -0300" channel="0139">
-    <title>RPM</title>
+  <programme start="20261103183400 -0300" stop="20261103190000 -0300" channel="0139">
+    <title>Documentales DW</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
-    <date>1999</date>
-    <category>Auto</category>
-    <country>Canadá</country>
-    <rating><value>TVPG</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/rpm.jpg" />
+    <date>2017</date>
+    <category>Noticias</category>
+    <rating><value>14</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/documentalesdw.jpg" />
   </programme>
-  <programme start="20261103190200 -0300" stop="20261103210000 -0300" channel="0139">
+  <programme start="20261103190000 -0300" stop="20261103210000 -0300" channel="0139">
     <title>Cine familiar</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261103210000 -0300" stop="20261103212800 -0300" channel="0139">
+  <programme start="20261103210000 -0300" stop="20261103212500 -0300" channel="0139">
     <title>Noticias Central</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261103212800 -0300" stop="20261103220200 -0300" channel="0139">
+  <programme start="20261103212500 -0300" stop="20261103220000 -0300" channel="0139">
     <title>Portavoz noticias</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <credits>
@@ -37525,32 +37483,27 @@ El cambio climático y la pérdida de biodiversidad exigen una nueva forma de ec
     <rating><value>14</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/portavoznoticias.jpg" />
   </programme>
-  <programme start="20261103220200 -0300" stop="20261103235300 -0300" channel="0139">
+  <programme start="20261103220000 -0300" stop="20261104000000 -0300" channel="0139">
     <title>Cine Prime</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261103235300 -0300" stop="20261104000000 -0300" channel="0139">
-    <title>Ritmo &amp; Sabor</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
-  </programme>
-  <programme start="20261104000000 -0300" stop="20261104005800 -0300" channel="0139">
+  <programme start="20261104000000 -0300" stop="20261104020000 -0300" channel="0139">
     <title>Repe Hablemos</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261104005800 -0300" stop="20261104012000 -0300" channel="0139">
+  <programme start="20261104020000 -0300" stop="20261104023000 -0300" channel="0139">
     <title>Noticias Cierre</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261104012000 -0300" stop="20261104025000 -0300" channel="0139">
+  <programme start="20261104023000 -0300" stop="20261104040000 -0300" channel="0139">
     <title>Cine Trasnoche</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/cinetrasnoche.jpg" />
   </programme>
-  <programme start="20261104025000 -0300" stop="20261104064100 -0300" channel="0139">
+  <programme start="20261104040000 -0300" stop="20261104065000 -0300" channel="0139">
     <title>Cierre de transmisiones</title>
     <desc>Fin de emisión diaria del canal.</desc>
     <date>2022</date>
@@ -37558,7 +37511,7 @@ El cambio climático y la pérdida de biodiversidad exigen una nueva forma de ec
     <rating><value>18</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/cierredetransmisiones.jpg" />
   </programme>
-  <programme start="20261104064100 -0300" stop="20261104083000 -0300" channel="0139">
+  <programme start="20261104065000 -0300" stop="20261104083000 -0300" channel="0139">
     <title>Cine</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <date>2020</date>
@@ -37576,17 +37529,17 @@ El cambio climático y la pérdida de biodiversidad exigen una nueva forma de ec
     <rating><value>14</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/portavoznoticias.jpg" />
   </programme>
-  <programme start="20261104090000 -0300" stop="20261104092800 -0300" channel="0139">
+  <programme start="20261104090000 -0300" stop="20261104092500 -0300" channel="0139">
     <title>Noticias Primera</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261104092800 -0300" stop="20261104104600 -0300" channel="0139">
+  <programme start="20261104092500 -0300" stop="20261104105000 -0300" channel="0139">
     <title>Cine infantil</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261104104600 -0300" stop="20261104120800 -0300" channel="0139">
+  <programme start="20261104105000 -0300" stop="20261104120700 -0300" channel="0139">
     <title>Documentales DW</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <date>2017</date>
@@ -37594,29 +37547,13 @@ El cambio climático y la pérdida de biodiversidad exigen una nueva forma de ec
     <rating><value>14</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/documentalesdw.jpg" />
   </programme>
-  <programme start="20261104120800 -0300" stop="20261104123400 -0300" channel="0139">
-    <title>¡Escápate!</title>
-    <desc>Escápate inicia una nueva andadura de la mano de Lukas Stege, Diana Piñeros y Nicole Geisse. Descubra destinos de ensueño, monumentos emblemáticos y sorprendentes parajes.
-
-Escápate los lleva por rutas desconocidas y les muestra la otra cara de los lugares más visitados.  En esta nueva etapa  les traemos un programa híbrido que acude también a lo que sucede en redes, con informaciones prácticas y unos reporteros que se atreven a todo.</desc>
-    <credits>
-      <actor>Nicole Frölich</actor>
-      <actor>Lukas Stege</actor>
-    </credits>
-    <date>2016</date>
-    <category>Travel</category>
-    <country>Alemania</country>
-    <rating><value>TVG</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/escapate.jpg" />
-  </programme>
-  <programme start="20261104123400 -0300" stop="20261104130000 -0300" channel="0139">
-    <title>Ecolatinoamérica</title>
+  <programme start="20261104120700 -0300" stop="20261104130000 -0300" channel="0139">
+    <title>Documentales DW</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
-    <date>2021</date>
-    <category>Magazine</category>
-    <country>Alemania</country>
-    <rating><value>TVPG</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/ecolatinoamerica.jpg" />
+    <date>2017</date>
+    <category>Noticias</category>
+    <rating><value>14</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/documentalesdw.jpg" />
   </programme>
   <programme start="20261104130000 -0300" stop="20261104133000 -0300" channel="0139">
     <title>Portavoz noticias</title>
@@ -37629,12 +37566,12 @@ Escápate los lleva por rutas desconocidas y les muestra la otra cara de los lug
     <rating><value>14</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/portavoznoticias.jpg" />
   </programme>
-  <programme start="20261104133000 -0300" stop="20261104163500 -0300" channel="0139">
+  <programme start="20261104133000 -0300" stop="20261104170000 -0300" channel="0139">
     <title>Cine familiar</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261104163500 -0300" stop="20261104185700 -0300" channel="0139">
+  <programme start="20261104170000 -0300" stop="20261104183400 -0300" channel="0139">
     <title>Documentales DW</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <date>2017</date>
@@ -37642,30 +37579,25 @@ Escápate los lleva por rutas desconocidas y les muestra la otra cara de los lug
     <rating><value>14</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/documentalesdw.jpg" />
   </programme>
-  <programme start="20261104185700 -0300" stop="20261104192300 -0300" channel="0139">
-    <title>Enlaces</title>
+  <programme start="20261104183400 -0300" stop="20261104190000 -0300" channel="0139">
+    <title>Documentales DW</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
-    <credits>
-      <actor>Juan Sebastián Gómez</actor>
-    </credits>
-    <date>2026</date>
+    <date>2017</date>
     <category>Noticias</category>
-    <category>Revista</category>
-    <country>Alemania</country>
-    <rating><value>PG</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/enlaces.jpg" />
+    <rating><value>14</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/documentalesdw.jpg" />
   </programme>
-  <programme start="20261104192300 -0300" stop="20261104210000 -0300" channel="0139">
+  <programme start="20261104190000 -0300" stop="20261104210000 -0300" channel="0139">
     <title>Cine familiar</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261104210000 -0300" stop="20261104213900 -0300" channel="0139">
+  <programme start="20261104210000 -0300" stop="20261104215000 -0300" channel="0139">
     <title>Noticias Central</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261104213900 -0300" stop="20261104221500 -0300" channel="0139">
+  <programme start="20261104215000 -0300" stop="20261104222000 -0300" channel="0139">
     <title>Portavoz noticias</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <credits>
@@ -37676,37 +37608,27 @@ Escápate los lleva por rutas desconocidas y les muestra la otra cara de los lug
     <rating><value>14</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/portavoznoticias.jpg" />
   </programme>
-  <programme start="20261104221500 -0300" stop="20261104232300 -0300" channel="0139">
+  <programme start="20261104222000 -0300" stop="20261105000000 -0300" channel="0139">
     <title>Cultura En Cv</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261104232300 -0300" stop="20261104234500 -0300" channel="0139">
-    <title>Noticias Cierre</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
-  </programme>
-  <programme start="20261104234500 -0300" stop="20261105000000 -0300" channel="0139">
-    <title>Cine Trasnoche</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/cinetrasnoche.jpg" />
-  </programme>
-  <programme start="20261105000000 -0300" stop="20261105012500 -0300" channel="0139">
+  <programme start="20261105000000 -0300" stop="20261105020000 -0300" channel="0139">
     <title>Ritmo &amp; Sabor</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261105012500 -0300" stop="20261105015100 -0300" channel="0139">
+  <programme start="20261105020000 -0300" stop="20261105023000 -0300" channel="0139">
     <title>Noticias Cierre</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261105015100 -0300" stop="20261105033100 -0300" channel="0139">
+  <programme start="20261105023000 -0300" stop="20261105040000 -0300" channel="0139">
     <title>Cine Trasnoche</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/cinetrasnoche.jpg" />
   </programme>
-  <programme start="20261105033100 -0300" stop="20261105065900 -0300" channel="0139">
+  <programme start="20261105040000 -0300" stop="20261105065000 -0300" channel="0139">
     <title>Cierre de transmisiones</title>
     <desc>Fin de emisión diaria del canal.</desc>
     <date>2022</date>
@@ -37714,14 +37636,14 @@ Escápate los lleva por rutas desconocidas y les muestra la otra cara de los lug
     <rating><value>18</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/cierredetransmisiones.jpg" />
   </programme>
-  <programme start="20261105065900 -0300" stop="20261105083000 -0300" channel="0139">
+  <programme start="20261105065000 -0300" stop="20261105083000 -0300" channel="0139">
     <title>Cine</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <date>2020</date>
     <category>Película</category>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/cine.jpg" />
   </programme>
-  <programme start="20261105083000 -0300" stop="20261105090200 -0300" channel="0139">
+  <programme start="20261105083000 -0300" stop="20261105090000 -0300" channel="0139">
     <title>Portavoz noticias</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <credits>
@@ -37732,22 +37654,17 @@ Escápate los lleva por rutas desconocidas y les muestra la otra cara de los lug
     <rating><value>14</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/portavoznoticias.jpg" />
   </programme>
-  <programme start="20261105090200 -0300" stop="20261105092300 -0300" channel="0139">
+  <programme start="20261105090000 -0300" stop="20261105092500 -0300" channel="0139">
     <title>Noticias Primera</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261105092300 -0300" stop="20261105104900 -0300" channel="0139">
+  <programme start="20261105092500 -0300" stop="20261105105000 -0300" channel="0139">
     <title>Cine infantil</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261105104900 -0300" stop="20261105110400 -0300" channel="0139">
-    <title>Patrimonio Mundi</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
-  </programme>
-  <programme start="20261105110400 -0300" stop="20261105120000 -0300" channel="0139">
+  <programme start="20261105105000 -0300" stop="20261105120000 -0300" channel="0139">
     <title>Documentales DW</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <date>2017</date>
@@ -37771,12 +37688,12 @@ Escápate los lleva por rutas desconocidas y les muestra la otra cara de los lug
     <rating><value>14</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/portavoznoticias.jpg" />
   </programme>
-  <programme start="20261105133000 -0300" stop="20261105163600 -0300" channel="0139">
+  <programme start="20261105133000 -0300" stop="20261105170000 -0300" channel="0139">
     <title>Cine familiar</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261105163600 -0300" stop="20261105185200 -0300" channel="0139">
+  <programme start="20261105170000 -0300" stop="20261105183400 -0300" channel="0139">
     <title>Documentales DW</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <date>2017</date>
@@ -37784,20 +37701,15 @@ Escápate los lleva por rutas desconocidas y les muestra la otra cara de los lug
     <rating><value>14</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/documentalesdw.jpg" />
   </programme>
-  <programme start="20261105185200 -0300" stop="20261105192000 -0300" channel="0139">
-    <title>Euromaxx</title>
+  <programme start="20261105183400 -0300" stop="20261105190000 -0300" channel="0139">
+    <title>Documentales DW</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
-    <credits>
-      <actor>Belén Palancar</actor>
-      <actor>Valentina Torrado</actor>
-    </credits>
-    <date>2011</date>
-    <category>Magazine</category>
-    <country>Alemania</country>
-    <rating><value>A</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/euromaxx.jpg" />
+    <date>2017</date>
+    <category>Noticias</category>
+    <rating><value>14</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/documentalesdw.jpg" />
   </programme>
-  <programme start="20261105192000 -0300" stop="20261105210000 -0300" channel="0139">
+  <programme start="20261105190000 -0300" stop="20261105210000 -0300" channel="0139">
     <title>Cine familiar</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
@@ -37818,24 +37730,29 @@ Escápate los lleva por rutas desconocidas y les muestra la otra cara de los lug
     <rating><value>14</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/portavoznoticias.jpg" />
   </programme>
-  <programme start="20261105220000 -0300" stop="20261105230200 -0300" channel="0139">
+  <programme start="20261105220000 -0300" stop="20261105230000 -0300" channel="0139">
     <title>Hablemos</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <category>Drama</category>
     <country>Estados Unidos</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261105230200 -0300" stop="20261106000000 -0300" channel="0139">
+  <programme start="20261105230000 -0300" stop="20261106020000 -0300" channel="0139">
     <title>Cine Prime</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261106000000 -0300" stop="20261106010100 -0300" channel="0139">
+  <programme start="20261106020000 -0300" stop="20261106023000 -0300" channel="0139">
+    <title>Noticias Cierre</title>
+    <desc>La información de este programa no se encuentra disponible.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261106023000 -0300" stop="20261106040000 -0300" channel="0139">
     <title>Cine Trasnoche</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/cinetrasnoche.jpg" />
   </programme>
-  <programme start="20261106010100 -0300" stop="20261106065600 -0300" channel="0139">
+  <programme start="20261106040000 -0300" stop="20261106065000 -0300" channel="0139">
     <title>Cierre de transmisiones</title>
     <desc>Fin de emisión diaria del canal.</desc>
     <date>2022</date>
@@ -37843,14 +37760,14 @@ Escápate los lleva por rutas desconocidas y les muestra la otra cara de los lug
     <rating><value>18</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/cierredetransmisiones.jpg" />
   </programme>
-  <programme start="20261106065600 -0300" stop="20261106083000 -0300" channel="0139">
+  <programme start="20261106065000 -0300" stop="20261106083000 -0300" channel="0139">
     <title>Cine</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <date>2020</date>
     <category>Película</category>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/cine.jpg" />
   </programme>
-  <programme start="20261106083000 -0300" stop="20261106090200 -0300" channel="0139">
+  <programme start="20261106083000 -0300" stop="20261106090000 -0300" channel="0139">
     <title>Portavoz noticias</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <credits>
@@ -37861,22 +37778,17 @@ Escápate los lleva por rutas desconocidas y les muestra la otra cara de los lug
     <rating><value>14</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/portavoznoticias.jpg" />
   </programme>
-  <programme start="20261106090200 -0300" stop="20261106092600 -0300" channel="0139">
+  <programme start="20261106090000 -0300" stop="20261106092500 -0300" channel="0139">
     <title>Noticias Primera</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261106092600 -0300" stop="20261106105000 -0300" channel="0139">
+  <programme start="20261106092500 -0300" stop="20261106105000 -0300" channel="0139">
     <title>Cine infantil</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261106105000 -0300" stop="20261106111200 -0300" channel="0139">
-    <title>Patrimonio Mundi</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
-  </programme>
-  <programme start="20261106111200 -0300" stop="20261106120800 -0300" channel="0139">
+  <programme start="20261106105000 -0300" stop="20261106120700 -0300" channel="0139">
     <title>Documentales DW</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <date>2017</date>
@@ -37884,32 +37796,15 @@ Escápate los lleva por rutas desconocidas y les muestra la otra cara de los lug
     <rating><value>14</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/documentalesdw.jpg" />
   </programme>
-  <programme start="20261106120800 -0300" stop="20261106123400 -0300" channel="0139">
-    <title>¿Cómo te afecta?</title>
-    <desc>El programa para los jóvenes de América Latina
-
-Las nuevas generaciones consumen noticias, sobre todo, en redes sociales. ¿Cómo te afecta? quiere llegar a jóvenes y adolescentes de América Latina con temas de actualidad que les preocupan y afectan.
-
-El lenguaje visual de ¿Cómo te afecta? es fresco, dinámico, basado en el estilo que impera en YouTube y al que están acostumbrados los jóvenes de hoy en día, alejados de los programas tradicionales de televisión.
-
-Ernesto Andrés Fuenmayor y Tamara Rivera Castro serán los YouTubers que analicen y pongan en contexto temas y noticias de actualidad con voces de  jóvenes afectados por estos problemas, pero también de expertos que ayuden a pensar en soluciones ofreciendo, de este modo, un periodismo constructivo.</desc>
-    <date>2026</date>
-    <category>Interés general</category>
-    <country>Alemania</country>
-    <rating><value>TVPG</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/comoteafecta.jpg" />
-  </programme>
-  <programme start="20261106123400 -0300" stop="20261106130000 -0300" channel="0139">
-    <title>Cultura.21</title>
-    <desc>Descubrir ideas nuevas y describir fenómenos culturales, que marcan nuestra historia, nuestro presente y nuestro futuro. Cultura.21 se mete de lleno en el panorama creativo. ¿Quiénes son sus protagonistas y cuáles sus obras?</desc>
-    <date>2026</date>
+  <programme start="20261106120700 -0300" stop="20261106130000 -0300" channel="0139">
+    <title>Documentales DW</title>
+    <desc>La información de este programa no se encuentra disponible.</desc>
+    <date>2017</date>
     <category>Noticias</category>
-    <category>Revista</category>
-    <country>Alemania</country>
-    <rating><value>B</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/cultura21.jpg" />
+    <rating><value>14</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/documentalesdw.jpg" />
   </programme>
-  <programme start="20261106130000 -0300" stop="20261106133200 -0300" channel="0139">
+  <programme start="20261106130000 -0300" stop="20261106133000 -0300" channel="0139">
     <title>Portavoz noticias</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <credits>
@@ -37920,17 +37815,12 @@ Ernesto Andrés Fuenmayor y Tamara Rivera Castro serán los YouTubers que analic
     <rating><value>14</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/portavoznoticias.jpg" />
   </programme>
-  <programme start="20261106133200 -0300" stop="20261106164000 -0300" channel="0139">
+  <programme start="20261106133000 -0300" stop="20261106170000 -0300" channel="0139">
     <title>Cine familiar</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261106164000 -0300" stop="20261106170000 -0300" channel="0139">
-    <title>Patrimonio Mundi</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
-  </programme>
-  <programme start="20261106170000 -0300" stop="20261106184700 -0300" channel="0139">
+  <programme start="20261106170000 -0300" stop="20261106183400 -0300" channel="0139">
     <title>Documentales DW</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <date>2017</date>
@@ -37938,16 +37828,15 @@ Ernesto Andrés Fuenmayor y Tamara Rivera Castro serán los YouTubers que analic
     <rating><value>14</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/documentalesdw.jpg" />
   </programme>
-  <programme start="20261106184700 -0300" stop="20261106191400 -0300" channel="0139">
-    <title>Ecolatinoamérica</title>
+  <programme start="20261106183400 -0300" stop="20261106190000 -0300" channel="0139">
+    <title>Documentales DW</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
-    <date>2021</date>
-    <category>Magazine</category>
-    <country>Alemania</country>
-    <rating><value>TVPG</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/ecolatinoamerica.jpg" />
+    <date>2017</date>
+    <category>Noticias</category>
+    <rating><value>14</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/documentalesdw.jpg" />
   </programme>
-  <programme start="20261106191400 -0300" stop="20261106210000 -0300" channel="0139">
+  <programme start="20261106190000 -0300" stop="20261106210000 -0300" channel="0139">
     <title>Cine familiar</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
@@ -37978,22 +37867,22 @@ Ernesto Andrés Fuenmayor y Tamara Rivera Castro serán los YouTubers que analic
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261107000000 -0300" stop="20261107015800 -0300" channel="0139">
+  <programme start="20261107000000 -0300" stop="20261107020000 -0300" channel="0139">
     <title>Cine Prime</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261107015800 -0300" stop="20261107022100 -0300" channel="0139">
+  <programme start="20261107020000 -0300" stop="20261107023000 -0300" channel="0139">
     <title>Noticias Cierre</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261107022100 -0300" stop="20261107034800 -0300" channel="0139">
+  <programme start="20261107023000 -0300" stop="20261107040000 -0300" channel="0139">
     <title>Cine Trasnoche</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/cinetrasnoche.jpg" />
   </programme>
-  <programme start="20261107034800 -0300" stop="20261107065000 -0300" channel="0139">
+  <programme start="20261107040000 -0300" stop="20261107065000 -0300" channel="0139">
     <title>Cierre de transmisiones</title>
     <desc>Fin de emisión diaria del canal.</desc>
     <date>2022</date>
@@ -38024,12 +37913,12 @@ Ernesto Andrés Fuenmayor y Tamara Rivera Castro serán los YouTubers que analic
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261107092500 -0300" stop="20261107110000 -0300" channel="0139">
+  <programme start="20261107092500 -0300" stop="20261107105000 -0300" channel="0139">
     <title>Cine infantil</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261107110000 -0300" stop="20261107123000 -0300" channel="0139">
+  <programme start="20261107105000 -0300" stop="20261107123000 -0300" channel="0139">
     <title>Cine infantil</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
@@ -38053,12 +37942,12 @@ Ernesto Andrés Fuenmayor y Tamara Rivera Castro serán los YouTubers que analic
     <rating><value>14</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/portavoznoticias.jpg" />
   </programme>
-  <programme start="20261107133000 -0300" stop="20261107145000 -0300" channel="0139">
+  <programme start="20261107133000 -0300" stop="20261107143000 -0300" channel="0139">
     <title>Cultura En Cv</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261107145000 -0300" stop="20261107160000 -0300" channel="0139">
+  <programme start="20261107143000 -0300" stop="20261107160000 -0300" channel="0139">
     <title>Documentales DW</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <date>2017</date>
@@ -38148,12 +38037,12 @@ Ernesto Andrés Fuenmayor y Tamara Rivera Castro serán los YouTubers que analic
     <rating><value>14</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/portavoznoticias.jpg" />
   </programme>
-  <programme start="20261108090000 -0300" stop="20261108102500 -0300" channel="0139">
+  <programme start="20261108090000 -0300" stop="20261108103000 -0300" channel="0139">
     <title>Cine infantil</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261108102500 -0300" stop="20261108110000 -0300" channel="0139">
+  <programme start="20261108103000 -0300" stop="20261108110000 -0300" channel="0139">
     <title>Documentales DW</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <date>2017</date>
@@ -361827,60 +361716,13 @@ de Billy y Mandy</title>
     <rating><value>ALL</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261102000000 -0300" stop="20261102003000 -0300" channel="2431">
+  <programme start="20261102000000 -0300" stop="20261102080000 -0300" channel="2431">
     <title>Por confirmar</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <date>2025</date>
     <category>Variedades</category>
     <rating><value>18</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/porconfirmar.jpg" />
-  </programme>
-  <programme start="20261102003000 -0300" stop="20261102020000 -0300" channel="2431">
-    <title>DSports noticias</title>
-    <desc>El noticiero más completo de la región con toda la actualidad deportiva y las novedades más importantes.</desc>
-    <credits>
-      <actor>Nani Senra</actor>
-      <actor>Nicolas Fazio</actor>
-    </credits>
-    <date>2025</date>
-    <category>Noticiero</category>
-    <country>Argentina</country>
-    <rating><value>NR</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/dsportsnoticias.jpg" />
-  </programme>
-  <programme start="20261102020000 -0300" stop="20261102040000 -0300" channel="2431">
-    <title>Copa de Brasil: Gremio vs Atlético Mineiro</title>
-    <desc>Gremio se enfrenta a Atletico MG en Copa do Brasil. Semifinales.</desc>
-    <date>2026</date>
-    <rating><value>NR</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
-  </programme>
-  <programme start="20261102040000 -0300" stop="20261102060000 -0300" channel="2431">
-    <title>LaLiga: Racing Club vs Real Madrid</title>
-    <desc>Racing Santander se enfrenta a Real Madrid en LaLiga EA Sports. El partido se juega en Estadio El Sardinero. Ronda 11.</desc>
-    <date>2026</date>
-    <rating><value>ALL</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
-  </programme>
-  <programme start="20261102060000 -0300" stop="20261102073000 -0300" channel="2431">
-    <title>DSports noticias</title>
-    <desc>El noticiero más completo de la región con toda la actualidad deportiva y las novedades más importantes.</desc>
-    <credits>
-      <actor>Nani Senra</actor>
-      <actor>Nicolas Fazio</actor>
-    </credits>
-    <date>2025</date>
-    <category>Noticiero</category>
-    <country>Argentina</country>
-    <rating><value>NR</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/dsportsnoticias.jpg" />
-  </programme>
-  <programme start="20261102073000 -0300" stop="20261102080000 -0300" channel="2431">
-    <title>Simplemente Diego - La Última Función</title>
-    <desc>Programa documental que repasa las grandes hazañas del deporte.</desc>
-    <date>2026</date>
-    <rating><value>NR</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261102080000 -0300" stop="20261102100000 -0300" channel="2431">
     <title>Copa de Brasil: Palmeiras vs Vasco Da Gama</title>
@@ -361889,23 +361731,81 @@ de Billy y Mandy</title>
     <rating><value>NR</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261102100000 -0300" stop="20261102110000 -0300" channel="2431">
+  <programme start="20261102100000 -0300" stop="20261102103000 -0300" channel="2431">
+    <title>Simplemente Diego - El Pelusa vs El Virrey Del Fortín</title>
+    <desc>Programa documental que repasa las grandes hazañas del deporte.</desc>
+    <date>2026</date>
+    <rating><value>NR</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261102103000 -0300" stop="20261102110000 -0300" channel="2431">
+    <title>Laliga - Levante vs Atl. De Madrid</title>
+    <desc>Resumen en 30 minutos de los mejores partidos emitidos en DSPORTS.</desc>
+    <date>2026</date>
+    <rating><value>NR</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261102110000 -0300" stop="20261102130000 -0300" channel="2431">
+    <title>[En vivo] DSports Noticias Lite</title>
+    <desc>En Vivo ║ Columnistas especiales, entrevistas, el minuto a minuto de todos los deportes y, sobre todo, mucha información de la mano de Sol Rivas y Manu Olivari.</desc>
+    <credits>
+      <actor>Manuel Olivari</actor>
+      <actor>Sol Rivas</actor>
+    </credits>
+    <date>2024</date>
+    <category>Deportivo</category>
+    <rating><value>NR</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261102130000 -0300" stop="20261102143000 -0300" channel="2431">
+    <title>De fútbol se habla así</title>
+    <desc>El debate futbolero más caliente del fútbol chileno de la mano de Pablo Flamm y un gran equipo.</desc>
+    <credits>
+      <actor>Toti Pasman</actor>
+    </credits>
+    <date>2025</date>
+    <category>Fútbol</category>
+    <country>Argentina</country>
+    <rating><value>NR</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261102143000 -0300" stop="20261102160000 -0300" channel="2431">
+    <title>[En vivo] DSports noticias</title>
+    <desc>En Vivo ║ El noticiero más completo de la región con toda la actualidad deportiva y las novedades más importantes.</desc>
+    <credits>
+      <actor>Nani Senra</actor>
+      <actor>Nicolas Fazio</actor>
+    </credits>
+    <date>2025</date>
+    <category>Noticiero</category>
+    <country>Argentina</country>
+    <rating><value>NR</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/dsportsnoticias.jpg" />
+  </programme>
+  <programme start="20261102160000 -0300" stop="20261102180000 -0300" channel="2431">
+    <title>[En vivo] Puede pasar</title>
+    <desc>En Vivo ║ Gustavo Kuffner y un gran plantel debaten sobre todo lo que ocurre en las ligas del fútbol sudamericano.</desc>
+    <credits>
+      <actor>Gustavo Kuffner</actor>
+      <actor>Manuel Olivari</actor>
+      <actor>Nicolas Haase</actor>
+      <actor>Ariel Helueni</actor>
+      <actor>Rodrigo Castro</actor>
+      <actor>Leandro Buonsante</actor>
+    </credits>
+    <date>2024</date>
+    <category>Fútbol</category>
+    <country>Argentina</country>
+    <rating><value>NR</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/puedepasar.jpg" />
+  </programme>
+  <programme start="20261102180000 -0300" stop="20261102190000 -0300" channel="2431">
     <title>Por confirmar</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <date>2025</date>
     <category>Variedades</category>
     <rating><value>18</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/porconfirmar.jpg" />
-  </programme>
-  <programme start="20261102110000 -0300" stop="20261102150000 -0300" channel="2431">
-    <title>DSports</title>
-    <desc>La informacion de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
-  </programme>
-  <programme start="20261102150000 -0300" stop="20261102190000 -0300" channel="2431">
-    <title>DSports</title>
-    <desc>La informacion de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261102190000 -0300" stop="20261102230000 -0300" channel="2431">
     <title>DSports</title>
@@ -363995,46 +363895,13 @@ de Billy y Mandy</title>
     <rating><value>NR</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261102000000 -0300" stop="20261102020000 -0300" channel="2432">
-    <title>Fifa U17 Women&#x27;S WC Morocco 2026: Nigeria vs Venezuela</title>
-    <desc>Transmisión del Mundial de Futbol sub-17 femenino desde Marruecos.</desc>
-    <date>2026</date>
-    <rating><value>NR</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
-  </programme>
-  <programme start="20261102020000 -0300" stop="20261102033000 -0300" channel="2432">
-    <title>DSports noticias</title>
-    <desc>El noticiero más completo de la región con toda la actualidad deportiva y las novedades más importantes.</desc>
-    <credits>
-      <actor>Nani Senra</actor>
-      <actor>Nicolas Fazio</actor>
-    </credits>
+  <programme start="20261102000000 -0300" stop="20261102080000 -0300" channel="2432">
+    <title>Por confirmar</title>
+    <desc>La información de este programa no se encuentra disponible.</desc>
     <date>2025</date>
-    <category>Noticiero</category>
-    <country>Argentina</country>
-    <rating><value>NR</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/dsportsnoticias.jpg" />
-  </programme>
-  <programme start="20261102033000 -0300" stop="20261102040000 -0300" channel="2432">
-    <title>Simplemente Diego - El Pelusa vs El Virrey Del Fortín</title>
-    <desc>Programa documental que repasa las grandes hazañas del deporte.</desc>
-    <date>2026</date>
-    <rating><value>NR</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
-  </programme>
-  <programme start="20261102040000 -0300" stop="20261102060000 -0300" channel="2432">
-    <title>Copa de Brasil: Gremio vs Atlético Mineiro</title>
-    <desc>Gremio se enfrenta a Atletico MG en Copa do Brasil. Semifinales.</desc>
-    <date>2026</date>
-    <rating><value>NR</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
-  </programme>
-  <programme start="20261102060000 -0300" stop="20261102080000 -0300" channel="2432">
-    <title>LaLiga: Barcelona vs Alavés</title>
-    <desc>Barcelona se enfrenta a Alavés en LaLiga EA Sports. Barcelona juega de local en el Spotify Camp Nou. Ronda 11.</desc>
-    <date>2026</date>
-    <rating><value>ALL</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <category>Variedades</category>
+    <rating><value>18</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/porconfirmar.jpg" />
   </programme>
   <programme start="20261102080000 -0300" stop="20261102100000 -0300" channel="2432">
     <title>LaLiga: Racing Club vs Real Madrid</title>
@@ -364043,7 +363910,14 @@ de Billy y Mandy</title>
     <rating><value>ALL</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261102100000 -0300" stop="20261102110000 -0300" channel="2432">
+  <programme start="20261102100000 -0300" stop="20261102120000 -0300" channel="2432">
+    <title>Juegos Olímpicos De La Juventud - Dakar 2026: Juegos Olímpicos De La Juventud - Dakar 2026</title>
+    <desc>Transmisión de los Juegos Olímpicos de la Juventud Dakar 2026, mientras los mejores jóvenes atletas del mundo compiten en Senegal en el primer evento olímpico que se celebra en África.</desc>
+    <date>2026</date>
+    <rating><value>NR</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261102120000 -0300" stop="20261102160000 -0300" channel="2432">
     <title>Por confirmar</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <date>2025</date>
@@ -364051,15 +363925,20 @@ de Billy y Mandy</title>
     <rating><value>18</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/porconfirmar.jpg" />
   </programme>
-  <programme start="20261102110000 -0300" stop="20261102150000 -0300" channel="2432">
-    <title>DSports 2</title>
-    <desc>La informacion de este programa no se encuentra disponible.</desc>
+  <programme start="20261102160000 -0300" stop="20261102180000 -0300" channel="2432">
+    <title>Laliga - Levante vs Atl. De Madrid</title>
+    <desc>Resumen en 30 minutos de los mejores partidos emitidos en DSPORTS.</desc>
+    <date>2026</date>
+    <rating><value>NR</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261102150000 -0300" stop="20261102190000 -0300" channel="2432">
-    <title>DSports 2</title>
-    <desc>La informacion de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  <programme start="20261102180000 -0300" stop="20261102190000 -0300" channel="2432">
+    <title>Por confirmar</title>
+    <desc>La información de este programa no se encuentra disponible.</desc>
+    <date>2025</date>
+    <category>Variedades</category>
+    <rating><value>18</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/porconfirmar.jpg" />
   </programme>
   <programme start="20261102190000 -0300" stop="20261102230000 -0300" channel="2432">
     <title>DSports 2</title>
@@ -365114,7 +364993,7 @@ de Billy y Mandy</title>
     <rating><value>NR</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261102000000 -0300" stop="20261102060000 -0300" channel="1433">
+  <programme start="20261102000000 -0300" stop="20261102080000 -0300" channel="1433">
     <title>Por confirmar</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <date>2025</date>
@@ -365122,37 +365001,69 @@ de Billy y Mandy</title>
     <rating><value>18</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/porconfirmar.jpg" />
   </programme>
-  <programme start="20261102060000 -0300" stop="20261102080000 -0300" channel="1433">
-    <title>Ciclismo: Il Lombardia</title>
-    <desc>Transmisión de las emocionantes pruebas de ciclismo alrededor del mundo.</desc>
-    <date>2026</date>
-    <rating><value>ALL</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
-  </programme>
-  <programme start="20261102080000 -0300" stop="20261102100000 -0300" channel="1433">
+  <programme start="20261102080000 -0300" stop="20261102083000 -0300" channel="1433">
     <title>Ciclismo: Whoop Uci Mountain Bike World Series Lake Placid - Final Round</title>
     <desc>Transmisión de las emocionantes pruebas de ciclismo alrededor del mundo.</desc>
     <date>2026</date>
     <rating><value>ALL</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261102100000 -0300" stop="20261102110000 -0300" channel="1433">
+  <programme start="20261102083000 -0300" stop="20261102103000 -0300" channel="1433">
+    <title>Euroleague 26/27: Olympiacos vs Milan</title>
+    <desc>Olympiacos B.C. se enfrenta a AX Armani Exchange Milano en Euroleague. Ronda 9.</desc>
+    <date>2026</date>
+    <rating><value>NR</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261102103000 -0300" stop="20261102110000 -0300" channel="1433">
+    <title>Guillermo Coria</title>
+    <desc>Juan Pablo Varsky recorre los perfiles e historias de las grandes figuras del deporte mundial, mediante una narración innovadora.</desc>
+    <date>2026</date>
+    <rating><value>NR</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261102110000 -0300" stop="20261102130000 -0300" channel="1433">
+    <title>Liga De Portugal: Porto vs Estoril</title>
+    <desc>FC Porto se enfrenta a Estoril en Liga Portugal. El partido se juega en Estadio do Dragao. Ronda 10.</desc>
+    <date>2026</date>
+    <rating><value>NR</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261102130000 -0300" stop="20261102133000 -0300" channel="1433">
+    <title>Dirk Nowitzki</title>
+    <desc>Juan Pablo Varsky recorre los perfiles e historias de las grandes figuras del deporte mundial, mediante una narración innovadora.</desc>
+    <date>2026</date>
+    <rating><value>NR</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261102133000 -0300" stop="20261102153000 -0300" channel="1433">
+    <title>Torneo Regional Del Noa: Los Tarcos vs Huirapuca</title>
+    <desc>Cobertura del Torneo Regional del Noroeste de Rugby.</desc>
+    <date>2026</date>
+    <rating><value>NR</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261102153000 -0300" stop="20261102160000 -0300" channel="1433">
+    <title>Dcsha: Dcsha - Especial Nairo Quintana (Parte 1)</title>
+    <desc>El programa más completo del mundo del ciclismo, con informes, debate, entrevistas y mucho más de la mano de Camilo Castellanos.</desc>
+    <date>2026</date>
+    <rating><value>NR</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261102160000 -0300" stop="20261102180000 -0300" channel="1433">
+    <title>Dcsha: Dcsha - Especial Nairo Quintana (Parte 2)</title>
+    <desc>El programa más completo del mundo del ciclismo, con informes, debate, entrevistas y mucho más de la mano de Camilo Castellanos.</desc>
+    <date>2026</date>
+    <rating><value>NR</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261102180000 -0300" stop="20261102190000 -0300" channel="1433">
     <title>Por confirmar</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <date>2025</date>
     <category>Variedades</category>
     <rating><value>18</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/porconfirmar.jpg" />
-  </programme>
-  <programme start="20261102110000 -0300" stop="20261102150000 -0300" channel="1433">
-    <title>DSports Plus</title>
-    <desc>La informacion de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
-  </programme>
-  <programme start="20261102150000 -0300" stop="20261102190000 -0300" channel="1433">
-    <title>DSports Plus</title>
-    <desc>La informacion de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261102190000 -0300" stop="20261102230000 -0300" channel="1433">
     <title>DSports Plus</title>
@@ -490124,9 +490035,21 @@ Y mientras la vida de Iñaki transcurre plácidamente, un día se ve obligado a 
   </programme>
   <programme start="20261103134500 -0300" stop="20261103160000 -0300" channel="0622">
     <title>El ministro de Propaganda</title>
-    <desc>El ministro de propaganda nazi, Joseph Goebbels, es el encargado de generar apoyo público para el Holocausto y para la guerra que está a punto de iniciar.</desc>
+    <desc>Joseph Goebbels, el Ministro de Propaganda en la Alemania nazi, acompaña a Hitler durante siete años que van desde 1938 hasta 1945. Mientras Hitler está en la cima de su poder, Goebbels es el creador de las imágenes de multitudes ondeando banderas y de varias películas antisemitas. Tras la derrota en Stalingrado y la situación cada vez más desesperada a finales de 1944, Goebbels planea el acto de propaganda más radical, su última puesta en escena.</desc>
+    <credits>
+      <director>Joachim A. Lang</director>
+      <actor>Robert Stadlober</actor>
+      <actor>Fritz Karl</actor>
+      <actor>Franziska Weisz</actor>
+      <actor>Sascha Göpel</actor>
+      <actor>Katia Fellin</actor>
+      <actor>Raphaela Möst</actor>
+      <actor>Emanuel Fellmer</actor>
+      <actor>Sebastian Thiers</actor>
+    </credits>
     <date>2024</date>
     <category>Drama</category>
+    <country>Alemania</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/elministrodepropaganda.jpg" />
   </programme>
   <programme start="20261103160000 -0300" stop="20261103175000 -0300" channel="0622">
@@ -524960,7 +524883,7 @@ Viaje al centro de la tele aborda en cada una de sus entregas una temática dife
   </programme>
   <programme start="20261107232500 -0300" stop="20261108012000 -0300" channel="0637">
     <title>El crack Cero</title>
-    <desc>Una mujer acude al despacho del detective Areta para que investigue la muerte de su amante, un afamado sastre que se suicidó, aunque ella cree que, en realidad, lo asesinaron. Las pesquisas de Areta lo adentran en un terreno peligroso e impredecible que le obliga a dudar de la certeza que siempre lo guio cuando anduvo entre las sombras: la gente solo mata por amor o por dinero.</desc>
+    <desc>Madrid, España, 1975; poco después del fin de la dictadura franquista. Seis meses después de la misteriosa muerte de su amante, un prestigioso sastre, una mujer casada visita la oficina del joven Germán Areta, expolicía convertido en detective privado, para solicitar sus servicios profesionales.</desc>
     <credits>
       <director>José Luis Garci</director>
       <actor>Carlos Santos</actor>
@@ -524984,7 +524907,8 @@ Viaje al centro de la tele aborda en cada una de sus entregas una temática dife
     <category>Movie</category>
     <category>Thriller</category>
     <category>Crime drama</category>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <country>España</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/elcrackcero.jpg" />
   </programme>
   <programme start="20261108012000 -0300" stop="20261108023000 -0300" channel="0637">
     <title>Los misterios de Laura • El misterio del fantasma afligido</title>
@@ -525267,7 +525191,7 @@ Viaje al centro de la tele aborda en cada una de sus entregas una temática dife
   </programme>
   <programme start="20261108180500 -0300" stop="20261108200000 -0300" channel="0637">
     <title>El crack Cero</title>
-    <desc>Una mujer acude al despacho del detective Areta para que investigue la muerte de su amante, un afamado sastre que se suicidó, aunque ella cree que, en realidad, lo asesinaron. Las pesquisas de Areta lo adentran en un terreno peligroso e impredecible que le obliga a dudar de la certeza que siempre lo guio cuando anduvo entre las sombras: la gente solo mata por amor o por dinero.</desc>
+    <desc>Madrid, España, 1975; poco después del fin de la dictadura franquista. Seis meses después de la misteriosa muerte de su amante, un prestigioso sastre, una mujer casada visita la oficina del joven Germán Areta, expolicía convertido en detective privado, para solicitar sus servicios profesionales.</desc>
     <credits>
       <director>José Luis Garci</director>
       <actor>Carlos Santos</actor>
@@ -525291,7 +525215,8 @@ Viaje al centro de la tele aborda en cada una de sus entregas una temática dife
     <category>Movie</category>
     <category>Thriller</category>
     <category>Crime drama</category>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <country>España</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/elcrackcero.jpg" />
   </programme>
   <programme start="20261108200000 -0300" stop="20261108222500 -0300" channel="0637">
     <title>La promesa</title>
@@ -550421,6 +550346,7 @@ Con el tiempo y gracias a un giro del destino, Sol vuelve,para recuperar la here
     <date>2024</date>
     <category>Auto</category>
     <category>Reality</category>
+    <country>México</country>
     <episode-num system="onscreen">T1 E4</episode-num>
     <rating><value>A</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/mexicanicos10anos.jpg" />
@@ -550559,6 +550485,7 @@ Con el tiempo y gracias a un giro del destino, Sol vuelve,para recuperar la here
     <date>2024</date>
     <category>Auto</category>
     <category>Reality</category>
+    <country>México</country>
     <episode-num system="onscreen">T1 E4</episode-num>
     <rating><value>A</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/mexicanicos10anos.jpg" />
@@ -599806,7 +599733,13 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     <title>Deep Time History • The Industrial Revolution and Modern Warfare</title>
     <sub-title>The Industrial Revolution and Modern Warfare</sub-title>
     <desc>The Industrial Revolution and Modern Warfare | Linking prehistoric forests to the Industrial Revolution and the rise of modern warfare.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <credits>
+      <actor>Jonathan Markley</actor>
+    </credits>
+    <date>2016</date>
+    <category>Documental</category>
+    <country>Estados Unidos</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/deeptimehistory.jpg" />
   </programme>
   <programme start="20261103034800 -0300" stop="20261103044600 -0300" channel="0711">
     <title>The Secrets to Civilization • Bronze Age Catastrophe</title>
@@ -600063,7 +599996,13 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     <title>Deep Time History • The Industrial Revolution and Modern Warfare</title>
     <sub-title>The Industrial Revolution and Modern Warfare</sub-title>
     <desc>The Industrial Revolution and Modern Warfare | Linking prehistoric forests to the Industrial Revolution and the rise of modern warfare.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <credits>
+      <actor>Jonathan Markley</actor>
+    </credits>
+    <date>2016</date>
+    <category>Documental</category>
+    <country>Estados Unidos</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/deeptimehistory.jpg" />
   </programme>
   <programme start="20261104093600 -0300" stop="20261104103400 -0300" channel="0711">
     <title>The Secrets to Civilization • Bronze Age Catastrophe</title>
@@ -600103,7 +600042,13 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     <title>Deep Time History • The Industrial Revolution and Modern Warfare</title>
     <sub-title>The Industrial Revolution and Modern Warfare</sub-title>
     <desc>The Industrial Revolution and Modern Warfare | Linking prehistoric forests to the Industrial Revolution and the rise of modern warfare.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <credits>
+      <actor>Jonathan Markley</actor>
+    </credits>
+    <date>2016</date>
+    <category>Documental</category>
+    <country>Estados Unidos</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/deeptimehistory.jpg" />
   </programme>
   <programme start="20261104153100 -0300" stop="20261104162900 -0300" channel="0711">
     <title>The Secrets to Civilization • Bronze Age Catastrophe</title>
@@ -600143,7 +600088,13 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     <title>Deep Time History • The Industrial Revolution and Modern Warfare</title>
     <sub-title>The Industrial Revolution and Modern Warfare</sub-title>
     <desc>The Industrial Revolution and Modern Warfare | Linking prehistoric forests to the Industrial Revolution and the rise of modern warfare.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <credits>
+      <actor>Jonathan Markley</actor>
+    </credits>
+    <date>2016</date>
+    <category>Documental</category>
+    <country>Estados Unidos</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/deeptimehistory.jpg" />
   </programme>
   <programme start="20261104220000 -0300" stop="20261104225400 -0300" channel="0711">
     <title>Heroes of the Deep</title>
@@ -692422,6 +692373,7 @@ El brujo Gargamel y su gato Azrael, intentan siempre y por todos los medios capt
     </credits>
     <date>2021</date>
     <category>Musica</category>
+    <country>Italia</country>
     <episode-num system="onscreen">T1 E1</episode-num>
     <rating><value>18</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/musicbox.jpg" />
@@ -693698,6 +693650,7 @@ El brujo Gargamel y su gato Azrael, intentan siempre y por todos los medios capt
     </credits>
     <date>2021</date>
     <category>Musica</category>
+    <country>Italia</country>
     <episode-num system="onscreen">T1 E1</episode-num>
     <rating><value>18</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/musicbox.jpg" />
@@ -693764,6 +693717,7 @@ El brujo Gargamel y su gato Azrael, intentan siempre y por todos los medios capt
     </credits>
     <date>2021</date>
     <category>Musica</category>
+    <country>Italia</country>
     <episode-num system="onscreen">T1 E1</episode-num>
     <rating><value>18</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/musicbox.jpg" />
@@ -697182,7 +697136,18 @@ El brujo Gargamel y su gato Azrael, intentan siempre y por todos los medios capt
   <programme start="20261104214000 -0300" stop="20261104233000 -0300" channel="0819">
     <title>El alma de la fiesta</title>
     <desc>Después de haber sido abandonada por su esposo, Deanna, ama de casa, decide darle un giro a su vida y se inscribe en la misma universidad en la que estudia su hija. Allí se convertirá en el alma de las fiestas.</desc>
+    <credits>
+      <director>James W. Horne</director>
+      <actor>Charley Chase</actor>
+      <actor>Carmen Guerrero</actor>
+      <actor>Enrique Acosta</actor>
+      <actor>María Calvo</actor>
+      <actor>Luis Llaneza</actor>
+      <actor>Linda Loredo</actor>
+    </credits>
+    <date>1931</date>
     <category>Comedy</category>
+    <country>Estados Unidos</country>
     <rating><value>PG-13</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
@@ -730605,6 +730570,7 @@ Los problemas aumentan cuando la familia también comienza a notar  presencias y
     </credits>
     <date>1950</date>
     <category>Drama</category>
+    <country>México</country>
     <rating><value>B</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/losolvidados.jpg" />
   </programme>
@@ -731517,6 +731483,7 @@ Los problemas aumentan cuando la familia también comienza a notar  presencias y
     <date>1950</date>
     <category>Movie</category>
     <category>Crime drama</category>
+    <country>México</country>
     <rating><value>B</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/losolvidados.jpg" />
   </programme>
@@ -775342,28 +775309,15 @@ No aparece en el programa ningún otro superhéroe de ficción, a excepción  de
     <rating><value>NR</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/larosadeguadaluperelatosdeimpacto.jpg" />
   </programme>
-  <programme start="20261102000000 -0300" stop="20261102010000 -0300" channel="3837">
-    <title>Mi querida herencia</title>
-    <desc>Un hombre que vive de fiesta en fiesta, recibe una jugosa herencia de parte de su padre con la condición de casarse y sentar cabeza.</desc>
-    <credits>
-      <director>Jorge Garza</director>
-      <actor>Paul Stanley</actor>
-      <actor>Roxana Castellanos</actor>
-      <actor>Patricio Castillo</actor>
-      <actor>Edgar Vivar</actor>
-      <actor>Macaria</actor>
-      <actor>Bárbara Islas</actor>
-      <actor>Mauricio Mancera</actor>
-      <actor>Ceci Flores</actor>
-      <actor>Luz Aldan</actor>
-      <actor>Agustín Arana</actor>
-    </credits>
-    <date>2019</date>
-    <category>Soap</category>
-    <rating><value>13+</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/miqueridaherencia.jpg" />
+  <programme start="20261102000000 -0300" stop="20261102062000 -0300" channel="3837">
+    <title>Por confirmar</title>
+    <desc>La información de este programa no se encuentra disponible.</desc>
+    <date>2025</date>
+    <category>Variedades</category>
+    <rating><value>18</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/porconfirmar.jpg" />
   </programme>
-  <programme start="20261102010000 -0300" stop="20261102020000 -0300" channel="3837">
+  <programme start="20261102062000 -0300" stop="20261102081000 -0300" channel="3837">
     <title>Mujer, casos de la vida real</title>
     <desc>Representación de historias verdaderas enviadas por el público a la actriz Silvia Pinal.</desc>
     <credits>
@@ -775387,101 +775341,126 @@ No aparece en el programa ningún otro superhéroe de ficción, a excepción  de
     <rating><value>NR</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/mujercasosdelavidareal.jpg" />
   </programme>
-  <programme start="20261102020000 -0300" stop="20261102030000 -0300" channel="3837">
-    <title>Laura sin censura</title>
-    <desc>Un programa que se da el lujo de hablar, sin censura, en primera persona.</desc>
-    <date>2011</date>
-    <category>News</category>
-    <rating><value>13+</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/laurasincensura.jpg" />
-  </programme>
-  <programme start="20261102030000 -0300" stop="20261102035000 -0300" channel="3837">
-    <title>Rubí</title>
-    <desc>Rubí es una bella joven universitaria que vive junto con su madre Doña Refugio y su hermana Cristina en una pobre vecindad. ... Maribel es hija del millonario hombre de negocios llamado Arturo De La Fuente. Ella le entrega su amistad a Rubí, sin saber que esta está envenenada por la envidia y los celos</desc>
+  <programme start="20261102081000 -0300" stop="20261102100000 -0300" channel="3837">
+    <title>La rosa de Guadalupe</title>
+    <desc>La Virgen de Guadalupe se ha convertido en estandarte de millones de mexicanos. Cada uno de sus milagros se traducen en historias, de amor, desamor, esperanza, lucha e intriga. Este espacio abordará temas como la prostitución, violencia intrafamiliar, drogadicción, entre otros. Una rosa blanca aparecerá como símbolo de las peticiones, que el personaje o protagonista invocará, siempre ante la imagen de ella.</desc>
     <credits>
-      <director>Benjamín Cann</director>
-      <director>Eric Morales</director>
-      <actor>Bárbara Mori</actor>
-      <actor>Eduardo Santamarina</actor>
-      <actor>Ana Martin</actor>
-      <actor>Jacqueline Bracamontes</actor>
-      <actor>Sebastián Rulli</actor>
-      <actor>Josefina Echanove</actor>
-      <actor>Yadhira Carrillo</actor>
-      <actor>Marlene Favela</actor>
-      <actor>Paty Díaz</actor>
-      <actor>Antonio Medellín</actor>
-      <actor>Ana Bertha Espín</actor>
-      <actor>Olivia Bucio</actor>
-      <actor>Luis Gatica</actor>
-      <actor>Roberto Vander</actor>
-      <actor>Miguel Pizarro</actor>
+      <director>José Ángel García</director>
+      <director>Marta Luna</director>
+      <actor>Milia Nader</actor>
+      <actor>Francisco Avendaño</actor>
+      <actor>Maru Dueñas</actor>
+      <actor>Aleyda Gallardo</actor>
+      <actor>Miriam Calderón</actor>
+      <actor>Sandra Itzel</actor>
+      <actor>Pilar Ramírez</actor>
+      <actor>Karol Sevilla</actor>
+      <actor>Roxana Saucedo</actor>
+      <actor>Luis Eduardo Reyes</actor>
+      <actor>Denisse Pfeiffer</actor>
+      <actor>Diego Lara</actor>
+      <actor>Gerardo Murguía</actor>
+      <actor>Gastón Tuset</actor>
+      <actor>Miguel Ángel Herros</actor>
+      <actor>José Ángel García</actor>
     </credits>
-    <date>2004</date>
+    <date>2008</date>
     <category>Drama</category>
     <country>México</country>
     <rating><value>13+</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/rubi.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/larosadeguadalupe.jpg" />
   </programme>
-  <programme start="20261102035000 -0300" stop="20261102044000 -0300" channel="3837">
-    <title>Mi corazón es tuyo</title>
-    <desc>Ana Leal es una bailarina de Pole Dance que trabaja en un bar llamado &quot;Chicago&quot;, con su amiga Jennifer. Por circunstancias de la vida se ve obligada a firmar un contrato de permanencia, logrando así estar atrapada en las manos de Doroteo un hombre ambicioso e inescrupuloso que ve en ella una posibilidad de hacer dinero. Ana, en busca de empleo, encuentra uno como niñera de siete niños: Fanny, Nando, Alicia, Sebastián, Alex y Guille y Luz, logrando ser la niñera de la familia Lascuráin.</desc>
+  <programme start="20261102100000 -0300" stop="20261102105500 -0300" channel="3837">
+    <title>Infinito amor</title>
+    <desc>Infinito amor es una nueva telenovela mexicana producida por Salvador Mejía para TelevisaUnivision, cuyo estreno está programado para el 12 de octubre de 2026 a las 6:30 p.m. por el canal Las Estrellas.</desc>
     <credits>
-      <director>Aurelio Ávila</director>
-      <director>Jorge Fons</director>
-      <director>Lily Garza</director>
-      <actor>Silvia Navarro</actor>
-      <actor>Jorge Salinas</actor>
-      <actor>Mayrín Villanueva</actor>
-      <actor>Pablo Montero</actor>
-      <actor>René Casados</actor>
-      <actor>Adrián Uribe</actor>
-      <actor>Paulina Goto</actor>
-      <actor>Carmen Salinas</actor>
-      <actor>Rafael Inclán</actor>
-      <actor>Norma Herrera</actor>
-      <actor>Fabiola Campomanes</actor>
-      <actor>Polo Morín</actor>
-      <actor>Juan Pablo Gil</actor>
-      <actor>Ana Obregón</actor>
-    </credits>
-    <date>2014</date>
-    <category>Soap</category>
-    <category>Comedy drama</category>
-    <country>México</country>
-    <rating><value>NR</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/micorazonestuyo.jpg" />
-  </programme>
-  <programme start="20261102044000 -0300" stop="20261102053000 -0300" channel="3837">
-    <title>Tan cerca de ti, nace el amor</title>
-    <desc>Verónica, marcada por haber entregado a su hija en adopción, cruza su destino con Joaquín, pero la muerte de los padres adoptivos desata una red de secretos, traiciones y amores prohibidos que hacen que el pasado vuelva para exigir la verdad.</desc>
-    <credits>
-      <director>Fez Noriega</director>
       <director>Claudia Elisa Aguilar</director>
-      <actor>Mimi Morales</actor>
-      <actor>Mané De La Parra</actor>
-      <actor>Daniela Cordero</actor>
-      <actor>Marcia Coutiño</actor>
-      <actor>Jaume Mateu</actor>
-      <actor>Alfredo Gatica</actor>
-      <actor>Lizy Martínez</actor>
-      <actor>Alexis Ayala</actor>
-      <actor>Yolanda Ventura</actor>
-      <actor>Julián Gil</actor>
-      <actor>Irina Baeva</actor>
-      <actor>David Zepeda</actor>
-      <actor>Oka Giner</actor>
-      <actor>Leticia Perdigón</actor>
-      <actor>Francisco Rubio</actor>
-      <actor>Alejandro Ávila</actor>
+      <director>Armando Quiñones</director>
+      <actor>Gonzalo García Vivanco</actor>
+      <actor>Joshua Gutiérrez</actor>
+      <actor>Guillermo García Cantú</actor>
+      <actor>Luis Felipe Tovar</actor>
+      <actor>Marcelo Córdoba</actor>
+      <actor>Livia Brito</actor>
+      <actor>Marjorie De Sousa</actor>
+      <actor>Eugenia Cauduro</actor>
+      <actor>Jessica Coch</actor>
+      <actor>Bárbara Islas</actor>
+      <actor>Rocío de Santiago</actor>
+      <actor>Gaby Mellado</actor>
     </credits>
     <date>2026</date>
     <category>Telenovela</category>
     <country>México</country>
     <rating><value>13+</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/tancercadetinaceelamor.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/infinitoamor.jpg" />
   </programme>
-  <programme start="20261102053000 -0300" stop="20261102062000 -0300" channel="3837">
+  <programme start="20261102105500 -0300" stop="20261102115000 -0300" channel="3837">
+    <title>Como dice el dicho</title>
+    <desc>Dramatización de situaciones de la vida real y las historias que se relacionan con dichos populares, por Don Tomas.</desc>
+    <credits>
+      <director>Emmanuel Duprez</director>
+      <actor>Michael Ronda</actor>
+      <actor>Wendy González</actor>
+      <actor>Sergio Corona</actor>
+      <actor>Alejandra Procuna</actor>
+      <actor>Cristiana Aguinaga</actor>
+      <actor>Adriana Ahumada</actor>
+      <actor>Dayaceli Cervantes</actor>
+      <actor>Luis Couturier</actor>
+      <actor>Carlos Cámara</actor>
+      <actor>Vicente Herrera</actor>
+      <actor>Benjamín Islas</actor>
+      <actor>Natalia Juárez</actor>
+      <actor>Miguel Martínez</actor>
+      <actor>Ruth Rosas</actor>
+      <actor>Sergio Saldívar</actor>
+    </credits>
+    <date>2011</date>
+    <category>Comedy</category>
+    <category>Soap</category>
+    <category>Drama</category>
+    <country>México</country>
+    <rating><value>13+</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/comodiceeldicho.jpg" />
+  </programme>
+  <programme start="20261102115000 -0300" stop="20261102124000 -0300" channel="3837">
+    <title>La rosa de Guadalupe</title>
+    <desc>La Virgen de Guadalupe se ha convertido en estandarte de millones de mexicanos. Cada uno de sus milagros se traducen en historias, de amor, desamor, esperanza, lucha e intriga. Este espacio abordará temas como la prostitución, violencia intrafamiliar, drogadicción, entre otros. Una rosa blanca aparecerá como símbolo de las peticiones, que el personaje o protagonista invocará, siempre ante la imagen de ella.</desc>
+    <credits>
+      <director>José Ángel García</director>
+      <director>Marta Luna</director>
+      <actor>Milia Nader</actor>
+      <actor>Francisco Avendaño</actor>
+      <actor>Maru Dueñas</actor>
+      <actor>Aleyda Gallardo</actor>
+      <actor>Miriam Calderón</actor>
+      <actor>Sandra Itzel</actor>
+      <actor>Pilar Ramírez</actor>
+      <actor>Karol Sevilla</actor>
+      <actor>Roxana Saucedo</actor>
+      <actor>Luis Eduardo Reyes</actor>
+      <actor>Denisse Pfeiffer</actor>
+      <actor>Diego Lara</actor>
+      <actor>Gerardo Murguía</actor>
+      <actor>Gastón Tuset</actor>
+      <actor>Miguel Ángel Herros</actor>
+      <actor>José Ángel García</actor>
+    </credits>
+    <date>2008</date>
+    <category>Drama</category>
+    <country>México</country>
+    <rating><value>13+</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/larosadeguadalupe.jpg" />
+  </programme>
+  <programme start="20261102124000 -0300" stop="20261102133000 -0300" channel="3837">
+    <title>Las bellas y la bestia parte 1</title>
+    <desc>El Pantera se enfrenta en el ring contra Raúl. Don Chava quiere salir rápido del hospital.</desc>
+    <date>2007</date>
+    <rating><value>13+</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261102133000 -0300" stop="20261102143000 -0300" channel="3837">
     <title>Guardián de mi vida</title>
     <desc>Sigue a una exitosa empresaria solitaria en su matrimonio, mientras su hija y su joven guardaespaldas transforman su rebeldía en pasión, mientras personas malvadas y ambiciosas intentan entrometerse en sus caminos hacia el amor.</desc>
     <credits>
@@ -775515,31 +775494,65 @@ No aparece en el programa ningún otro superhéroe de ficción, a excepción  de
     <rating><value>13+</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/guardiandemivida.jpg" />
   </programme>
-  <programme start="20261102062000 -0300" stop="20261102082000 -0300" channel="3837">
-    <title>Mujer, casos de la vida real</title>
-    <desc>Representación de historias verdaderas enviadas por el público a la actriz Silvia Pinal.</desc>
+  <programme start="20261102143000 -0300" stop="20261102152000 -0300" channel="3837">
+    <title>Tan cerca de ti, nace el amor</title>
+    <desc>Verónica, marcada por haber entregado a su hija en adopción, cruza su destino con Joaquín, pero la muerte de los padres adoptivos desata una red de secretos, traiciones y amores prohibidos que hacen que el pasado vuelva para exigir la verdad.</desc>
     <credits>
-      <director>Rubén Barajas</director>
-      <director>Adriana Barraza</director>
-      <director>Benjamín Cann</director>
-      <actor>Rafael Banquells</actor>
-      <actor>Mache Barba</actor>
-      <actor>Victoria Ruffo</actor>
-      <actor>Carlos Espejel</actor>
-      <actor>Dina de Marco</actor>
-      <actor>Gustavo Rojo</actor>
-      <actor>Miguel Garza</actor>
-      <actor>Rocío Banquells</actor>
+      <director>Fez Noriega</director>
+      <director>Claudia Elisa Aguilar</director>
+      <actor>Mimi Morales</actor>
+      <actor>Mané De La Parra</actor>
+      <actor>Daniela Cordero</actor>
+      <actor>Marcia Coutiño</actor>
+      <actor>Jaume Mateu</actor>
+      <actor>Alfredo Gatica</actor>
+      <actor>Lizy Martínez</actor>
+      <actor>Alexis Ayala</actor>
+      <actor>Yolanda Ventura</actor>
+      <actor>Julián Gil</actor>
+      <actor>Irina Baeva</actor>
+      <actor>David Zepeda</actor>
+      <actor>Oka Giner</actor>
+      <actor>Leticia Perdigón</actor>
+      <actor>Francisco Rubio</actor>
+      <actor>Alejandro Ávila</actor>
     </credits>
-    <date>1985</date>
-    <category>Drama</category>
-    <category>Reality</category>
-    <category>Soap</category>
+    <date>2026</date>
+    <category>Telenovela</category>
     <country>México</country>
-    <rating><value>NR</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/mujercasosdelavidareal.jpg" />
+    <rating><value>13+</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/tancercadetinaceelamor.jpg" />
   </programme>
-  <programme start="20261102082000 -0300" stop="20261103000000 -0300" channel="3837">
+  <programme start="20261102152000 -0300" stop="20261102172000 -0300" channel="3837">
+    <title>Como dice el dicho</title>
+    <desc>Dramatización de situaciones de la vida real y las historias que se relacionan con dichos populares, por Don Tomas.</desc>
+    <credits>
+      <director>Emmanuel Duprez</director>
+      <actor>Michael Ronda</actor>
+      <actor>Wendy González</actor>
+      <actor>Sergio Corona</actor>
+      <actor>Alejandra Procuna</actor>
+      <actor>Cristiana Aguinaga</actor>
+      <actor>Adriana Ahumada</actor>
+      <actor>Dayaceli Cervantes</actor>
+      <actor>Luis Couturier</actor>
+      <actor>Carlos Cámara</actor>
+      <actor>Vicente Herrera</actor>
+      <actor>Benjamín Islas</actor>
+      <actor>Natalia Juárez</actor>
+      <actor>Miguel Martínez</actor>
+      <actor>Ruth Rosas</actor>
+      <actor>Sergio Saldívar</actor>
+    </credits>
+    <date>2011</date>
+    <category>Comedy</category>
+    <category>Soap</category>
+    <category>Drama</category>
+    <country>México</country>
+    <rating><value>13+</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/comodiceeldicho.jpg" />
+  </programme>
+  <programme start="20261102172000 -0300" stop="20261103000000 -0300" channel="3837">
     <title>Por confirmar</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <date>2025</date>
@@ -776411,8 +776424,20 @@ No aparece en el programa ningún otro superhéroe de ficción, a excepción  de
   <programme start="20261104011000 -0300" stop="20261104024000 -0300" channel="0839">
     <title>Decisión extrema</title>
     <desc>Libby Lamm es una antigua asesora de seguridad nacional que, mientras trabajaba con Rachel Burke, una veterana política implacable y de voluntad firme, firmó una polémica acción militar que supuestamente iba a poner fin a la guerra contra el terrorismo. El problema: miles murieron bajo falsas pretensiones. Perseguida por su pasado, Libby se propone decir la verdad, arriesgando la traición y su propia vida, para exponer un encubrimiento que se extiende hasta los niveles más altos del gobierno.</desc>
+    <credits>
+      <director>Joe Chappelle</director>
+      <actor>Tika Sumpter</actor>
+      <actor>Jamie Lee Curtis</actor>
+      <actor>Ben Tavassoli</actor>
+      <actor>Jeff Hephner</actor>
+      <actor>Deanna Dunagan</actor>
+      <actor>Alex Weisman</actor>
+      <actor>Ali Burch</actor>
+      <actor>Clarke Peters</actor>
+    </credits>
     <date>1970</date>
     <category>Terror</category>
+    <country>Estados Unidos</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/decisionextrema.jpg" />
   </programme>
   <programme start="20261104024000 -0300" stop="20261104041500 -0300" channel="0839">
@@ -784387,6 +784412,7 @@ No aparece en el programa ningún otro superhéroe de ficción, a excepción  de
     <category>Fantasy</category>
     <category>Horror</category>
     <category>Drama</category>
+    <country>Estados Unidos</country>
     <rating><value>B</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/themummy.jpg" />
   </programme>
@@ -786963,6 +786989,7 @@ No aparece en el programa ningún otro superhéroe de ficción, a excepción  de
     <category>Fantasy</category>
     <category>Horror</category>
     <category>Drama</category>
+    <country>Estados Unidos</country>
     <rating><value>B</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/themummy.jpg" />
   </programme>
@@ -830424,7 +830451,7 @@ No aparece en el programa ningún otro superhéroe de ficción, a excepción  de
   </programme>
   <programme start="20261102090000 -0300" stop="20261102104500 -0300" channel="0848">
     <title>El hombre y el monstruo</title>
-    <desc>Un joven pianista toca una melodía y se transforma en un monstruo porque vendió su alma al diablo para ser el mejor.</desc>
+    <desc>Deseoso de lograr fama y fortuna un pianista frustrado vende su alma al diablo a cambio de convertirse en el músico más grande de todos los tiempos. A partir de ese momento, el hombre se transformará en un monstruo sediento de sangre cada vez que la orquesta ejecuta cierta melodía, dejando tras de sí una estela de brutales crímenes.</desc>
     <credits>
       <director>Rafael Baledón</director>
       <actor>Enrique Rambal</actor>
@@ -830439,8 +830466,9 @@ No aparece en el programa ningún otro superhéroe de ficción, a excepción  de
     <date>1959</date>
     <category>Movie</category>
     <category>Horror</category>
+    <country>México</country>
     <rating><value>B15</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/elhombreyelmonstruo.jpg" />
   </programme>
   <programme start="20261102104500 -0300" stop="20261102123000 -0300" channel="0848">
     <title>El pueblo fantasma</title>
@@ -830532,7 +830560,7 @@ No aparece en el programa ningún otro superhéroe de ficción, a excepción  de
   </programme>
   <programme start="20261102174500 -0300" stop="20261102193000 -0300" channel="0848">
     <title>El hombre y el monstruo</title>
-    <desc>Un joven pianista toca una melodía y se transforma en un monstruo porque vendió su alma al diablo para ser el mejor.</desc>
+    <desc>Deseoso de lograr fama y fortuna un pianista frustrado vende su alma al diablo a cambio de convertirse en el músico más grande de todos los tiempos. A partir de ese momento, el hombre se transformará en un monstruo sediento de sangre cada vez que la orquesta ejecuta cierta melodía, dejando tras de sí una estela de brutales crímenes.</desc>
     <credits>
       <director>Rafael Baledón</director>
       <actor>Enrique Rambal</actor>
@@ -830547,8 +830575,9 @@ No aparece en el programa ningún otro superhéroe de ficción, a excepción  de
     <date>1959</date>
     <category>Movie</category>
     <category>Horror</category>
+    <country>México</country>
     <rating><value>B15</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/elhombreyelmonstruo.jpg" />
   </programme>
   <programme start="20261102193000 -0300" stop="20261102211500 -0300" channel="0848">
     <title>El pueblo fantasma</title>
@@ -832141,6 +832170,7 @@ No aparece en el programa ningún otro superhéroe de ficción, a excepción  de
     <date>1989</date>
     <category>Movie</category>
     <category>Comedy</category>
+    <country>México</country>
     <rating><value>B15</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
@@ -856521,60 +856551,7 @@ El programa está compuesto por Ana Morgade, Anna Simon, Cristina Pedroche, Miki
     <rating><value>13+</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261102000000 -0300" stop="20261102020000 -0300" channel="0858">
-    <title>¡¡¡Mátenme porque me muero!!!</title>
-    <desc>Una divertidísima comedia en donde Santanella y Riverita quieren quedarse con la fortuna que Tin Tán ganó con la lotería y quiere donar a un orfelinato. Para conseguirlo le hacen creer a Tin Tan que tiene una enfermedad incurable y lo convencen de suicidarse, pero este fracasa en varios intentos y pide al sindicato de asesinos que lo maten, peroéstos tambien fracasan.</desc>
-    <credits>
-      <director>Ismael Rodríguez</director>
-      <actor>Germán Valdés</actor>
-      <actor>José René Ruiz</actor>
-      <actor>Óscar Pulido</actor>
-      <actor>Yolanda Montes &#x27;Tongolele&#x27;</actor>
-      <actor>Marcelo Chávez</actor>
-      <actor>Emma Rodríguez</actor>
-      <actor>Tito Novaro</actor>
-    </credits>
-    <date>1951</date>
-    <category>Comedia</category>
-    <country>México</country>
-    <rating><value>16+</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/matenmeporquememuero.jpg" />
-  </programme>
-  <programme start="20261102020000 -0300" stop="20261102040000 -0300" channel="0858">
-    <title>El héroe silencioso</title>
-    <desc>Acción, Aventura</desc>
-    <date>2008</date>
-    <rating><value>NR</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
-  </programme>
-  <programme start="20261102040000 -0300" stop="20261102060000 -0300" channel="0858">
-    <title>Jamás me traicionaron</title>
-    <desc>Drama</desc>
-    <credits>
-      <director>Aurora Martínez</director>
-      <actor>Daniel García</actor>
-      <actor>Grecia Rodríguez</actor>
-    </credits>
-    <date>2013</date>
-    <country>México</country>
-    <rating><value>NR</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
-  </programme>
-  <programme start="20261102060000 -0300" stop="20261102080000 -0300" channel="0858">
-    <title>Chaparrito pero cumplidor</title>
-    <desc>Un estudiante para escapar de la responsabilidad del trabajo repite grados año tras año.</desc>
-    <date>1990</date>
-    <rating><value>13+</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
-  </programme>
-  <programme start="20261102080000 -0300" stop="20261102100000 -0300" channel="0858">
-    <title>Marius Biegai</title>
-    <desc>Entrevista a diversas personas relacinadas con el medio del cine.</desc>
-    <date>2023</date>
-    <rating><value>NR</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
-  </programme>
-  <programme start="20261102100000 -0300" stop="20261102110000 -0300" channel="0858">
+  <programme start="20261102000000 -0300" stop="20261102080000 -0300" channel="0858">
     <title>Por confirmar</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <date>2025</date>
@@ -856582,15 +856559,95 @@ El programa está compuesto por Ana Morgade, Anna Simon, Cristina Pedroche, Miki
     <rating><value>18</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/porconfirmar.jpg" />
   </programme>
-  <programme start="20261102110000 -0300" stop="20261102150000 -0300" channel="0858">
-    <title>Claro Cinema</title>
-    <desc>La informacion de este programa no se encuentra disponible.</desc>
+  <programme start="20261102080000 -0300" stop="20261102083000 -0300" channel="0858">
+    <title>Marius Biegai</title>
+    <desc>Entrevista a diversas personas relacinadas con el medio del cine.</desc>
+    <date>2023</date>
+    <rating><value>NR</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261102150000 -0300" stop="20261102190000 -0300" channel="0858">
-    <title>Claro Cinema</title>
-    <desc>La informacion de este programa no se encuentra disponible.</desc>
+  <programme start="20261102083000 -0300" stop="20261102090000 -0300" channel="0858">
+    <title>Aida Pierce</title>
+    <desc>Entrevista a diversas personas relacinadas con el medio del cine.</desc>
+    <date>2023</date>
+    <rating><value>NR</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261102090000 -0300" stop="20261102094000 -0300" channel="0858">
+    <title>Edmundo Moises Arizmendi Padilla</title>
+    <desc>Entrevista a diversas personas relacinadas con el medio del cine.</desc>
+    <date>2023</date>
+    <rating><value>NR</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261102094000 -0300" stop="20261102113000 -0300" channel="0858">
+    <title>Cielo rojo</title>
+    <desc>Un joven descubre que el padre y el hermano de su novia acabaron con la vida de su mejor amigo, y ahora está decidido a delatarlos.</desc>
+    <credits>
+      <director>Pablo Gómez Sáenz</director>
+      <director>Mauricio Meneses</director>
+      <actor>EDITH GONZALEZ</actor>
+      <actor>Regina Torné</actor>
+      <actor>Andrea Noli</actor>
+      <actor>Aura Cristina Geithner</actor>
+      <actor>Mauricio Islas</actor>
+      <actor>Alejandra Lazcano</actor>
+      <actor>Alberto Casanova</actor>
+      <actor>Carmen Beato</actor>
+    </credits>
+    <date>1962</date>
+    <category>Drama</category>
+    <category>Soap</category>
+    <country>México</country>
+    <rating><value>13+</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/cielorojo.jpg" />
+  </programme>
+  <programme start="20261102113000 -0300" stop="20261102120000 -0300" channel="0858">
+    <title>Agustín Lara</title>
+    <desc>Un homenaje a los clásicos programas de radio que hicieron historia a través de un recorrido musical de las piezas de nuestro cine.</desc>
+    <date>2024</date>
+    <rating><value>NR</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261102120000 -0300" stop="20261102140000 -0300" channel="0858">
+    <title>El gran premio</title>
+    <desc>Muchos ciudadanos mexicanos ponen sus esperanzas en un programa concurso ya los premios los ayudan a seguir adelante.</desc>
+    <credits>
+      <director>Carlos Orellana</director>
+      <actor>Sara García</actor>
+      <actor>Irma Dorantes</actor>
+      <actor>Ángel Infante</actor>
+      <actor>Julio Villarreal</actor>
+      <actor>María Gentil Arcos</actor>
+      <actor>Lupe Carriles</actor>
+    </credits>
+    <date>1958</date>
+    <category>Drama</category>
+    <country>México</country>
+    <rating><value>NR</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/elgranpremio.jpg" />
+  </programme>
+  <programme start="20261102140000 -0300" stop="20261102160000 -0300" channel="0858">
+    <title>El cariñoso</title>
+    <desc>Un mecánico, que se dedica a conquistar una mujer tras otra, se dispone a conquistar a Chabelita, la propietaria de un salón de belleza.</desc>
+    <date>1959</date>
+    <rating><value>13+</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261102160000 -0300" stop="20261102180000 -0300" channel="0858">
+    <title>El gato sin botas</title>
+    <desc>Un hombre cobarde se convierte en valiente después que su abuelo le dice que los hombres de su familia tienen 7 vidas como los gatos.</desc>
+    <date>1957</date>
+    <rating><value>NR</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261102180000 -0300" stop="20261102190000 -0300" channel="0858">
+    <title>Por confirmar</title>
+    <desc>La información de este programa no se encuentra disponible.</desc>
+    <date>2025</date>
+    <category>Variedades</category>
+    <rating><value>18</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/porconfirmar.jpg" />
   </programme>
   <programme start="20261102190000 -0300" stop="20261102230000 -0300" channel="0858">
     <title>Claro Cinema</title>
@@ -935069,7 +935126,20 @@ La serie animada es una producción de Sony Pictures Animation y Nelvana Limited
   <programme start="20261107164500 -0300" stop="20261107182800 -0300" channel="0973">
     <title>One Piece: Estampida</title>
     <desc>La película tiene lugar durante la Pirates Expo, &quot;hecha por piratas para piratas&quot;, donde los piratas de todo el mundo, incluidos algunos de sus personajes más infames, se unen a la búsqueda de un gran tesoro para encontrar un tesoro perdido, esta vez el tesoro. Perteneció nada menos que a Gold Roger!</desc>
+    <credits>
+      <director>大塚隆史</director>
+      <actor>Mayumi Tanaka</actor>
+      <actor>Kazuya Nakai</actor>
+      <actor>Akemi Okamura</actor>
+      <actor>Kappei Yamaguchi</actor>
+      <actor>Hiroaki Hirata</actor>
+      <actor>Ikue Otani</actor>
+      <actor>Yuriko Yamaguchi</actor>
+      <actor>Kazuki Yao</actor>
+    </credits>
+    <date>2019</date>
     <category>MOVIES</category>
+    <country>Japón</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/onepieceestampida.jpg" />
   </programme>
   <programme start="20261107182800 -0300" stop="20261107201300 -0300" channel="0973">
@@ -1000098,7 +1000168,16 @@ La serie animada es una producción de Sony Pictures Animation y Nelvana Limited
   <programme start="20261105192100 -0300" stop="20261105195900 -0300" channel="XXX9">
     <title>D.P</title>
     <desc>Com esta mulher madura o tesão é duplo, com direito a dupla penetração e um final de encher a boca.</desc>
+    <credits>
+      <director>千葉誠治</director>
+      <actor>阿部薫</actor>
+      <actor>蒲生麻由</actor>
+      <actor>一條俊</actor>
+      <actor>松田賢二</actor>
+    </credits>
+    <date>2004</date>
     <category>Adults only</category>
+    <country>Japón</country>
     <rating><value>A18</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
