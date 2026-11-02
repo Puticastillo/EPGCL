@@ -90907,7 +90907,15 @@ Claudia Gurisatti - Jefferson Beltrán - Jason Calderón</desc>
   <programme start="20261101170000 -0300" stop="20261101200000 -0300" channel="0220">
     <title>Domenica In</title>
     <desc>Nueva edición del histórico programa de entretenimientos de los domingos.</desc>
+    <credits>
+      <director>Corrado</director>
+      <actor>Massimo Giletti</actor>
+      <actor>Pippo Baudo</actor>
+      <actor>Lorena Bianchetti</actor>
+    </credits>
+    <date>1976</date>
     <category>Entretenimiento</category>
+    <country>Italia</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/domenicain.jpg" />
   </programme>
   <programme start="20261101200000 -0300" stop="20261101203000 -0300" channel="0220">
@@ -257789,7 +257797,7 @@ de Billy y Mandy</title>
     <rating><value>PG0</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261107184000 -0300" stop="20261107194000 -0300" channel="1411">
+  <programme start="20261107184000 -0300" stop="20261108000000 -0300" channel="1411">
     <title>SportsCenter</title>
     <desc>El noticiero de ESPN con la más amplia cobertura y noticias de los eventos deportivos.</desc>
     <credits>
@@ -257805,15 +257813,168 @@ de Billy y Mandy</title>
     <rating><value>PG-13</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/sportscenter.jpg" />
   </programme>
-  <programme start="20261107194000 -0300" stop="20261107200000 -0300" channel="1411">
-    <title>ESPN</title>
-    <desc>La informacion de este programa no se encuentra disponible.</desc>
+  <programme start="20261108000000 -0300" stop="20261108020000 -0300" channel="1411">
+    <title>ESPN Argentina</title>
+    <desc>Programación de ESPN Argentina con lo más relevante del mundo del deporte de la actualidad.</desc>
+    <category>Deportes</category>
+    <rating><value>PG-13</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261107200000 -0300" stop="20261107235959 -0300" channel="1411">
-    <title>ESPN</title>
-    <desc>La informacion de este programa no se encuentra disponible.</desc>
+  <programme start="20261108020000 -0300" stop="20261108030000 -0300" channel="1411">
+    <title>Por confirmar</title>
+    <desc>La información de este programa no se encuentra disponible.</desc>
+    <date>2014</date>
+    <category>Especial</category>
+    <category>Entretenimiento</category>
+    <rating><value>R</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/porconfirmar.jpg" />
+  </programme>
+  <programme start="20261108030000 -0300" stop="20261108055000 -0300" channel="1411">
+    <title>SportsCenter</title>
+    <desc>El noticiero de ESPN con la más amplia cobertura y noticias de los eventos deportivos.</desc>
+    <credits>
+      <director>John A. Walsh</director>
+      <actor>Claudio Alfaro</actor>
+      <actor>Andrea Hernández</actor>
+      <actor>Pablo Ramos</actor>
+    </credits>
+    <date>1979</date>
+    <category>Deportes</category>
+    <category>Reportaje</category>
+    <country>Chile</country>
+    <rating><value>PG-13</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/sportscenter.jpg" />
+  </programme>
+  <programme start="20261108055000 -0300" stop="20261108060000 -0300" channel="1411">
+    <title>ESPN Argentina</title>
+    <desc>Programación de ESPN Argentina con lo más relevante del mundo del deporte de la actualidad.</desc>
+    <category>Deportes</category>
+    <rating><value>PG-13</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261108060000 -0300" stop="20261108062000 -0300" channel="1411">
+    <title>ESPN Argentina</title>
+    <desc>Programación de ESPN Argentina con lo más relevante del mundo del deporte de la actualidad.</desc>
+    <category>Deportes</category>
+    <rating><value>PG-13</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261108062000 -0300" stop="20261108082000 -0300" channel="1411">
+    <title>SportsCenter</title>
+    <desc>El noticiero de ESPN con la más amplia cobertura y noticias de los eventos deportivos.</desc>
+    <credits>
+      <director>John A. Walsh</director>
+      <actor>Claudio Alfaro</actor>
+      <actor>Andrea Hernández</actor>
+      <actor>Pablo Ramos</actor>
+    </credits>
+    <date>1979</date>
+    <category>Deportes</category>
+    <category>Reportaje</category>
+    <country>Chile</country>
+    <rating><value>PG-13</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/sportscenter.jpg" />
+  </programme>
+  <programme start="20261108082000 -0300" stop="20261108102500 -0300" channel="1411">
+    <title>Fútbol Serie A • Napoli vs Lazio</title>
+    <sub-title>Napoli vs. Lazio</sub-title>
+    <desc>Napoli vs Lazio | Cobertura de los partidos correspondientes a la Primera División de Italia.</desc>
+    <date>2026</date>
+    <category>Fútbol</category>
+    <rating><value>PG0</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261108102500 -0300" stop="20261108105000 -0300" channel="1411">
+    <title>SportsCenter</title>
+    <desc>Programación exclusiva del noticiero deportivo más visto en el mundo.</desc>
+    <credits>
+      <director>John A. Walsh</director>
+      <actor>Claudio Alfaro</actor>
+      <actor>Andrea Hernández</actor>
+      <actor>Pablo Ramos</actor>
+    </credits>
+    <date>2023</date>
+    <category>Deportes</category>
+    <country>Chile</country>
+    <rating><value>PG-13</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/sportscenter.jpg" />
+  </programme>
+  <programme start="20261108105000 -0300" stop="20261108125500 -0300" channel="1411">
+    <title>Fútbol Premier League • Sunderland vs Chelsea</title>
+    <sub-title>Sunderland vs. Chelsea</sub-title>
+    <desc>Sunderland vs Chelsea | Jornada 10 de la temporada 2026-27 de la Premier League. Sunderland se enfrenta a Chelsea. Desde el Stadium of Light.</desc>
+    <date>2026</date>
+    <category>Fútbol</category>
+    <rating><value>PG0</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261108125500 -0300" stop="20261108132000 -0300" channel="1411">
+    <title>SportsCenter</title>
+    <desc>Programación exclusiva del noticiero deportivo más visto en el mundo.</desc>
+    <credits>
+      <director>John A. Walsh</director>
+      <actor>Claudio Alfaro</actor>
+      <actor>Andrea Hernández</actor>
+      <actor>Pablo Ramos</actor>
+    </credits>
+    <date>2023</date>
+    <category>Deportes</category>
+    <country>Chile</country>
+    <rating><value>PG-13</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/sportscenter.jpg" />
+  </programme>
+  <programme start="20261108132000 -0300" stop="20261108152500 -0300" channel="1411">
+    <title>Fútbol Premier League • Manchester United vs Aston Villa</title>
+    <sub-title>Manchester United vs. Aston Villa</sub-title>
+    <desc>Manchester United vs Aston Villa | Jornada 10 de la temporada 2026-27 de la Premier League. Manchester United se enfrenta a Aston Villa. Desde el estadio Old Trafford.</desc>
+    <date>2026</date>
+    <category>Fútbol</category>
+    <rating><value>PG0</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261108152500 -0300" stop="20261108165000 -0300" channel="1411">
+    <title>SportsCenter</title>
+    <desc>Programación exclusiva del noticiero deportivo más visto en el mundo.</desc>
+    <credits>
+      <director>John A. Walsh</director>
+      <actor>Claudio Alfaro</actor>
+      <actor>Andrea Hernández</actor>
+      <actor>Pablo Ramos</actor>
+    </credits>
+    <date>2023</date>
+    <category>Deportes</category>
+    <country>Chile</country>
+    <rating><value>PG-13</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/sportscenter.jpg" />
+  </programme>
+  <programme start="20261108165000 -0300" stop="20261108185500 -0300" channel="1411">
+    <title>Fútbol LaLiga • Atlético de Madrid vs Barcelona</title>
+    <sub-title>Atlético de Madrid vs. Barcelona</sub-title>
+    <desc>Atlético de Madrid vs Barcelona | Jornada 12 de la temporada 2026-27 de LaLiga. Atlético Madrid se enfrenta a Barcelona. Desde el Estadio Metropolitano.</desc>
+    <date>2026</date>
+    <category>Fútbol</category>
+    <rating><value>PG0</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbollaliga.jpg" />
+  </programme>
+  <programme start="20261108185500 -0300" stop="20261108220000 -0300" channel="1411">
+    <title>ESPN Argentina</title>
+    <desc>Programación de ESPN Argentina con lo más relevante del mundo del deporte de la actualidad.</desc>
+    <category>Deportes</category>
+    <rating><value>PG-13</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261108220000 -0300" stop="20261108230000 -0300" channel="1411">
+    <title>ESPN Fútbol 1</title>
+    <desc>Todo lo que sucedió al término de cada fecha del campeonato de fútbol argentino. Las jugadas más destacadas, los goles, las polémicas y análisis del juego, todo ello aderezado con imágenes y sonidos captados por cámaras exclusivas.</desc>
+    <credits>
+      <actor>Martín Souto</actor>
+      <actor>Matías Martin</actor>
+    </credits>
+    <date>2022</date>
+    <category>Deportes</category>
+    <country>Argentina</country>
+    <rating><value>PG-13</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/espnfutbol1.jpg" />
   </programme>
   <programme start="20261101132000 -0300" stop="20261101152500 -0300" channel="2411">
     <title>English Premier League • Liverpool vs Arsenal</title>
@@ -266807,7 +266968,7 @@ de Billy y Mandy</title>
     <rating><value>PG-13</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261107220000 -0300" stop="20261107230000 -0300" channel="2413">
+  <programme start="20261107220000 -0300" stop="20261108020000 -0300" channel="2413">
     <title>ESPN 3 Argentina</title>
     <desc>Programación deportiva.</desc>
     <date>2024</date>
@@ -266816,9 +266977,58 @@ de Billy y Mandy</title>
     <rating><value>PG-13</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261107230000 -0300" stop="20261107235959 -0300" channel="2413">
-    <title>ESPN 3</title>
-    <desc>La informacion de este programa no se encuentra disponible.</desc>
+  <programme start="20261108020000 -0300" stop="20261108060000 -0300" channel="2413">
+    <title>ESPN 3 Argentina</title>
+    <desc>Programación deportiva.</desc>
+    <date>2024</date>
+    <category>Deportes</category>
+    <category>Reportaje</category>
+    <rating><value>PG-13</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261108060000 -0300" stop="20261108100000 -0300" channel="2413">
+    <title>ESPN 3 Argentina</title>
+    <desc>Programación deportiva.</desc>
+    <date>2024</date>
+    <category>Deportes</category>
+    <category>Reportaje</category>
+    <rating><value>PG-13</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261108100000 -0300" stop="20261108140000 -0300" channel="2413">
+    <title>ESPN 3 Argentina</title>
+    <desc>Programación deportiva.</desc>
+    <date>2024</date>
+    <category>Deportes</category>
+    <category>Reportaje</category>
+    <rating><value>PG-13</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261108140000 -0300" stop="20261108180000 -0300" channel="2413">
+    <title>ESPN 3 Argentina</title>
+    <desc>Programación deportiva.</desc>
+    <date>2024</date>
+    <category>Deportes</category>
+    <category>Reportaje</category>
+    <rating><value>PG-13</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261108180000 -0300" stop="20261108220000 -0300" channel="2413">
+    <title>ESPN 3 Argentina</title>
+    <desc>Programación deportiva.</desc>
+    <date>2024</date>
+    <category>Deportes</category>
+    <category>Reportaje</category>
+    <rating><value>PG-13</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261108220000 -0300" stop="20261108230000 -0300" channel="2413">
+    <title>ESPN 3 Argentina</title>
+    <desc>Programación deportiva.</desc>
+    <date>2024</date>
+    <category>Deportes</category>
+    <category>Reportaje</category>
+    <rating><value>PG-13</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261101133000 -0300" stop="20261101135000 -0300" channel="0414">
@@ -284359,6 +284569,212 @@ de Billy y Mandy</title>
     <rating><value>PG-13</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/dsportsnoticias.jpg" />
   </programme>
+  <programme start="20261108000000 -0300" stop="20261108020000 -0300" channel="1431">
+    <title>Fútbol Copa do Brasil • Atlético Mineiro vs Grêmio</title>
+    <sub-title>Atlético Mineiro vs. Grêmio</sub-title>
+    <desc>Atlético Mineiro vs Grêmio | Cobertura de la semifinal de vuelta de la Copa de Brasil 2026. Desde la Arena MRV, en Belo Horizonte.</desc>
+    <date>2026</date>
+    <category>Fútbol</category>
+    <rating><value>PG0</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261108020000 -0300" stop="20261108040000 -0300" channel="1431">
+    <title>Fútbol LaLiga • Espanyol vs Deportivo de La Coruña</title>
+    <sub-title>Espanyol vs. Deportivo de La Coruña</sub-title>
+    <desc>Espanyol vs Deportivo de La Coruña | Jornada 12 de la temporada 2026-27 de LaLiga. Espanyol se enfrenta a Deportivo de La Coruña. Desde el estadio RCDE.</desc>
+    <date>2026</date>
+    <category>Fútbol</category>
+    <rating><value>PG0</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbollaliga.jpg" />
+  </programme>
+  <programme start="20261108040000 -0300" stop="20261108060000 -0300" channel="1431">
+    <title>Fútbol LaLiga • Valencia vs Real Madrid</title>
+    <sub-title>Valencia vs. Real Madrid</sub-title>
+    <desc>Valencia vs Real Madrid | Jornada 12 de la temporada 2026-27 de LaLiga. Valencia se enfrenta a Real Madrid. Desde el Estadio de Mestalla.</desc>
+    <date>2026</date>
+    <category>Fútbol</category>
+    <rating><value>PG0</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbollaliga.jpg" />
+  </programme>
+  <programme start="20261108060000 -0300" stop="20261108070000 -0300" channel="1431">
+    <title>DSports noticias</title>
+    <desc>Actualidad, protagonistas, análisis y cobertura especial desde las sedes de la Copa Mundial de la FIFA 2026.</desc>
+    <credits>
+      <actor>Nani Senra</actor>
+      <actor>Nicolas Fazio</actor>
+    </credits>
+    <date>2022</date>
+    <category>Deportes</category>
+    <country>Argentina</country>
+    <rating><value>PG-13</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/dsportsnoticias.jpg" />
+  </programme>
+  <programme start="20261108070000 -0300" stop="20261108085500 -0300" channel="1431">
+    <title>Fútbol LaLiga • Valencia vs Real Madrid</title>
+    <sub-title>Valencia vs. Real Madrid</sub-title>
+    <desc>Valencia vs Real Madrid | Jornada 12 de la temporada 2026-27 de LaLiga. Valencia se enfrenta a Real Madrid. Desde el Estadio de Mestalla.</desc>
+    <date>2026</date>
+    <category>Fútbol</category>
+    <rating><value>PG0</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbollaliga.jpg" />
+  </programme>
+  <programme start="20261108085500 -0300" stop="20261108110000 -0300" channel="1431">
+    <title>Baloncesto Liga ACB • La Laguna Tenerife vs Asisa Joventut</title>
+    <sub-title>La Laguna Tenerife vs. Asisa Joventut</sub-title>
+    <desc>La Laguna Tenerife vs Asisa Joventut | Cobertura de la liga española de baloncesto, una de las ligas más competitivas del mundo, que cuenta con equipos punteros en Europa que proveen año tras año a la NBA de muchas de sus futuras estrellas internacionales.</desc>
+    <date>2026</date>
+    <category>Básquet</category>
+    <rating><value>PG0</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/baloncestoligaacb.jpg" />
+  </programme>
+  <programme start="20261108110000 -0300" stop="20261108113000 -0300" channel="1431">
+    <title>Hilos • Manu Ginóbili</title>
+    <sub-title>Manu Ginóbili</sub-title>
+    <desc>Manu Ginóbili | La trayectoria de Manu Ginóbili, jugador de baloncesto argentino y campeón de la NBA con San Antonio Spurs.</desc>
+    <credits>
+      <actor>Juan Pablo Varsky</actor>
+    </credits>
+    <date>2026</date>
+    <category>Deportes</category>
+    <category>Biográfica</category>
+    <country>Argentina</country>
+    <episode-num system="onscreen">T4 E211</episode-num>
+    <rating><value>PG0</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/hilos.jpg" />
+  </programme>
+  <programme start="20261108113000 -0300" stop="20261108133000 -0300" channel="1431">
+    <title>Fútbol Copa do Brasil • Atlético Mineiro vs Grêmio</title>
+    <sub-title>Atlético Mineiro vs. Grêmio</sub-title>
+    <desc>Atlético Mineiro vs Grêmio | Cobertura de la semifinal de vuelta de la Copa de Brasil 2026. Desde la Arena MRV, en Belo Horizonte.</desc>
+    <date>2026</date>
+    <category>Fútbol</category>
+    <rating><value>PG0</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261108133000 -0300" stop="20261108140000 -0300" channel="1431">
+    <title>DSports historias • El origen de un romance</title>
+    <sub-title>El origen de un romance</sub-title>
+    <desc>El origen de un romance | Ciclo que repasa las grandes gestas del deporte y los sucesos más gloriosos.</desc>
+    <date>2026</date>
+    <category>Deportes</category>
+    <episode-num system="onscreen">T1 E168</episode-num>
+    <rating><value>PG-13</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/dsportshistorias.jpg" />
+  </programme>
+  <programme start="20261108140000 -0300" stop="20261108142500 -0300" channel="1431">
+    <title>Fútbol: Previa • LaLiga: Villarreal vs Getafe</title>
+    <sub-title>LaLiga: Villarreal vs. Getafe</sub-title>
+    <desc>LaLiga: Villarreal vs Getafe | La información más relevante de cara al juego Villarreal contra Getafe por la jornada 15 de la temporada 2025-26 de LaLiga. Disputado en el Estadio de la Cerámica.</desc>
+    <date>2025</date>
+    <category>Fútbol</category>
+    <rating><value>PG-13</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbolprevia.jpg" />
+  </programme>
+  <programme start="20261108142500 -0300" stop="20261108163000 -0300" channel="1431">
+    <title>[En vivo] Fútbol LaLiga • Villarreal CF vs Getafe CF</title>
+    <sub-title>Villarreal CF vs. Getafe CF</sub-title>
+    <desc>En vivo ║ Villarreal CF vs Getafe CF | Jornada 12 de la temporada 2026-27 de LaLiga. Villarreal se enfrenta a Getafe. Desde el estadio de la Cerámica.</desc>
+    <date>2026</date>
+    <category>Fútbol</category>
+    <rating><value>PG0</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbollaliga.jpg" />
+  </programme>
+  <programme start="20261108163000 -0300" stop="20261108165500 -0300" channel="1431">
+    <title>Hilos • Juan Sebastián Verón</title>
+    <sub-title>Juan Sebastián Verón</sub-title>
+    <desc>Juan Sebastián Verón | Perfil y trayectoria del exfutbolista y dirigente deportivo argentino. Destacan sus once temporadas con Estudiantes de La plata, su paso por el fútbol europeo y sus tres Mundiales con la Albiazul.</desc>
+    <credits>
+      <actor>Juan Pablo Varsky</actor>
+    </credits>
+    <date>2026</date>
+    <category>Deportes</category>
+    <category>Biográfica</category>
+    <country>Argentina</country>
+    <episode-num system="onscreen">T4 E216</episode-num>
+    <rating><value>PG0</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/hilos.jpg" />
+  </programme>
+  <programme start="20261108165500 -0300" stop="20261108190000 -0300" channel="1431">
+    <title>Fútbol Copa do Brasil • Vasco da Gama vs Palmeiras</title>
+    <sub-title>Vasco da Gama vs. Palmeiras</sub-title>
+    <desc>Vasco da Gama vs Palmeiras | Acción de la semifinal de vuelta de la Copa de Brasil 2026. Desde el Estádio São Januário, en Rio de Janeiro.</desc>
+    <date>2026</date>
+    <category>Fútbol</category>
+    <rating><value>PG0</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261108190000 -0300" stop="20261108193000 -0300" channel="1431">
+    <title>DSports historias • El verdugo del colchonero</title>
+    <sub-title>El verdugo del colchonero</sub-title>
+    <desc>El verdugo del colchonero | Ciclo que repasa las grandes gestas del deporte y los sucesos más gloriosos.</desc>
+    <date>2026</date>
+    <category>Deportes</category>
+    <episode-num system="onscreen">T1 E178</episode-num>
+    <rating><value>PG-13</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/dsportshistorias.jpg" />
+  </programme>
+  <programme start="20261108193000 -0300" stop="20261108200000 -0300" channel="1431">
+    <title>Hilos • Messi en la selección argentina</title>
+    <sub-title>Messi en la selección argentina</sub-title>
+    <desc>Messi en la selección argentina | Continúa el repaso a la carrera de Lionel Messi en la selección de Argentina. Tras 21 años al frente del equipo, juega su último partido ante Benín en octubre de 2026.</desc>
+    <credits>
+      <actor>Juan Pablo Varsky</actor>
+    </credits>
+    <date>2026</date>
+    <category>Deportes</category>
+    <category>Biográfica</category>
+    <country>Argentina</country>
+    <episode-num system="onscreen">T4 E214</episode-num>
+    <rating><value>PG0</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/hilos.jpg" />
+  </programme>
+  <programme start="20261108200000 -0300" stop="20261108220000 -0300" channel="1431">
+    <title>Fútbol LaLiga • Villarreal CF vs Getafe CF</title>
+    <sub-title>Villarreal CF vs. Getafe CF</sub-title>
+    <desc>Villarreal CF vs Getafe CF | Jornada 12 de la temporada 2026-27 de LaLiga. Villarreal se enfrenta a Getafe. Desde el estadio de la Cerámica.</desc>
+    <date>2026</date>
+    <category>Fútbol</category>
+    <rating><value>PG0</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbollaliga.jpg" />
+  </programme>
+  <programme start="20261108220000 -0300" stop="20261108223000 -0300" channel="1431">
+    <title>DSports historias • El Inicio de La era post Maradona en 1994</title>
+    <sub-title>El Inicio de La era post Maradona en 1994</sub-title>
+    <desc>El Inicio de La era post Maradona en 1994 | Ciclo que repasa las grandes gestas del deporte y los sucesos más gloriosos.</desc>
+    <date>2026</date>
+    <category>Deportes</category>
+    <episode-num system="onscreen">T1 E177</episode-num>
+    <rating><value>PG-13</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/dsportshistorias.jpg" />
+  </programme>
+  <programme start="20261108223000 -0300" stop="20261108230000 -0300" channel="1431">
+    <title>Hilos • Diego Maradona</title>
+    <sub-title>Diego Maradona</sub-title>
+    <desc>Diego Maradona | Se aborda el impacto cultural, los archivos históricos y los matices del astro argentino.</desc>
+    <credits>
+      <actor>Juan Pablo Varsky</actor>
+    </credits>
+    <date>2026</date>
+    <category>Deportes</category>
+    <category>Biográfica</category>
+    <country>Argentina</country>
+    <episode-num system="onscreen">T4 E217</episode-num>
+    <rating><value>PG0</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/hilos.jpg" />
+  </programme>
+  <programme start="20261108230000 -0300" stop="20261109000000 -0300" channel="1431">
+    <title>DSports noticias</title>
+    <desc>Actualidad, protagonistas, análisis y cobertura especial desde las sedes de la Copa Mundial de la FIFA 2026.</desc>
+    <credits>
+      <actor>Nani Senra</actor>
+      <actor>Nicolas Fazio</actor>
+    </credits>
+    <date>2022</date>
+    <category>Deportes</category>
+    <country>Argentina</country>
+    <rating><value>PG-13</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/dsportsnoticias.jpg" />
+  </programme>
   <programme start="20261101160000 -0300" stop="20261101180000 -0300" channel="2431">
     <title>LaLiga: Levante vs Atl. De Madrid</title>
     <desc>Levante se enfrenta a Atlético de Madrid en LaLiga EA Sports. Levante juega de local en el Estadio Ciudad de Valencia. Ronda 11.</desc>
@@ -285801,9 +286217,9 @@ de Billy y Mandy</title>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261104115000 -0300" stop="20261104140000 -0300" channel="1432">
-    <title>Copa Mundial Femenina Sub-17 de la FIFA 2026 • Primera semifinal: Equipos por confirmar</title>
-    <sub-title>Primera semifinal: Equipos por confirmar</sub-title>
-    <desc>Primera semifinal: Equipos por confirmar | Cobertura de la décima edición del torneo femenino en la categoría Sub-17, con sede en Marruecos.</desc>
+    <title>Copa Mundial Femenina Sub-17 de la FIFA 2026 • Primera semifinal: Japan U17 vs Korea DPR U17</title>
+    <sub-title>Primera semifinal: Japan U17 vs. Korea DPR U17</sub-title>
+    <desc>Primera semifinal: Japan U17 vs Korea DPR U17 | Cobertura de la décima edición del torneo femenino en la categoría Sub-17, con sede en Marruecos.</desc>
     <date>2026</date>
     <category>Fútbol</category>
     <rating><value>PG0</value></rating>
@@ -285818,18 +286234,18 @@ de Billy y Mandy</title>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261104145000 -0300" stop="20261104170000 -0300" channel="1432">
-    <title>Copa Mundial Femenina Sub-17 de la FIFA 2026 • Segunda semifinal: Equipos por confirmar</title>
-    <sub-title>Segunda semifinal: Equipos por confirmar</sub-title>
-    <desc>Segunda semifinal: Equipos por confirmar | Cobertura de la décima edición del torneo femenino en la categoría Sub-17, con sede en Marruecos.</desc>
+    <title>Copa Mundial Femenina Sub-17 de la FIFA 2026 • Segunda semifinal: Brazil U17 vs Nigeria U17</title>
+    <sub-title>Segunda semifinal: Brazil U17 vs. Nigeria U17</sub-title>
+    <desc>Segunda semifinal: Brazil U17 vs Nigeria U17 | Cobertura de la décima edición del torneo femenino en la categoría Sub-17, con sede en Marruecos.</desc>
     <date>2026</date>
     <category>Fútbol</category>
     <rating><value>PG0</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261104170000 -0300" stop="20261104190000 -0300" channel="1432">
-    <title>Copa Mundial Femenina Sub-17 de la FIFA 2026 • Primera semifinal: Equipos por confirmar</title>
-    <sub-title>Primera semifinal: Equipos por confirmar</sub-title>
-    <desc>Primera semifinal: Equipos por confirmar | Cobertura de la décima edición del torneo femenino en la categoría Sub-17, con sede en Marruecos.</desc>
+    <title>Copa Mundial Femenina Sub-17 de la FIFA 2026 • Primera semifinal: Japan U17 vs Korea DPR U17</title>
+    <sub-title>Primera semifinal: Japan U17 vs. Korea DPR U17</sub-title>
+    <desc>Primera semifinal: Japan U17 vs Korea DPR U17 | Cobertura de la décima edición del torneo femenino en la categoría Sub-17, con sede en Marruecos.</desc>
     <date>2026</date>
     <category>Fútbol</category>
     <rating><value>PG0</value></rating>
@@ -285858,9 +286274,9 @@ de Billy y Mandy</title>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/todoen30.jpg" />
   </programme>
   <programme start="20261104213000 -0300" stop="20261104233000 -0300" channel="1432">
-    <title>Copa Mundial Femenina Sub-17 de la FIFA 2026 • Primera semifinal: Equipos por confirmar</title>
-    <sub-title>Primera semifinal: Equipos por confirmar</sub-title>
-    <desc>Primera semifinal: Equipos por confirmar | Cobertura de la décima edición del torneo femenino en la categoría Sub-17, con sede en Marruecos.</desc>
+    <title>Copa Mundial Femenina Sub-17 de la FIFA 2026 • Primera semifinal: Japan U17 vs Korea DPR U17</title>
+    <sub-title>Primera semifinal: Japan U17 vs. Korea DPR U17</sub-title>
+    <desc>Primera semifinal: Japan U17 vs Korea DPR U17 | Cobertura de la décima edición del torneo femenino en la categoría Sub-17, con sede en Marruecos.</desc>
     <date>2026</date>
     <category>Fútbol</category>
     <rating><value>PG0</value></rating>
@@ -285875,9 +286291,9 @@ de Billy y Mandy</title>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/laligahighlights.jpg" />
   </programme>
   <programme start="20261105000000 -0300" stop="20261105020000 -0300" channel="1432">
-    <title>Copa Mundial Femenina Sub-17 de la FIFA 2026 • Segunda semifinal: Equipos por confirmar</title>
-    <sub-title>Segunda semifinal: Equipos por confirmar</sub-title>
-    <desc>Segunda semifinal: Equipos por confirmar | Cobertura de la décima edición del torneo femenino en la categoría Sub-17, con sede en Marruecos.</desc>
+    <title>Copa Mundial Femenina Sub-17 de la FIFA 2026 • Segunda semifinal: Brazil U17 vs Nigeria U17</title>
+    <sub-title>Segunda semifinal: Brazil U17 vs. Nigeria U17</sub-title>
+    <desc>Segunda semifinal: Brazil U17 vs Nigeria U17 | Cobertura de la décima edición del torneo femenino en la categoría Sub-17, con sede en Marruecos.</desc>
     <date>2026</date>
     <category>Fútbol</category>
     <rating><value>PG0</value></rating>
@@ -285936,9 +286352,9 @@ de Billy y Mandy</title>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/laliga.jpg" />
   </programme>
   <programme start="20261105080000 -0300" stop="20261105100000 -0300" channel="1432">
-    <title>Copa Mundial Femenina Sub-17 de la FIFA 2026 • Primera semifinal: Equipos por confirmar</title>
-    <sub-title>Primera semifinal: Equipos por confirmar</sub-title>
-    <desc>Primera semifinal: Equipos por confirmar | Cobertura de la décima edición del torneo femenino en la categoría Sub-17, con sede en Marruecos.</desc>
+    <title>Copa Mundial Femenina Sub-17 de la FIFA 2026 • Primera semifinal: Japan U17 vs Korea DPR U17</title>
+    <sub-title>Primera semifinal: Japan U17 vs. Korea DPR U17</sub-title>
+    <desc>Primera semifinal: Japan U17 vs Korea DPR U17 | Cobertura de la décima edición del torneo femenino en la categoría Sub-17, con sede en Marruecos.</desc>
     <date>2026</date>
     <category>Fútbol</category>
     <rating><value>PG0</value></rating>
@@ -286077,9 +286493,9 @@ de Billy y Mandy</title>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261106003000 -0300" stop="20261106023000 -0300" channel="1432">
-    <title>Copa Mundial Femenina Sub-17 de la FIFA 2026 • Primera semifinal: Equipos por confirmar</title>
-    <sub-title>Primera semifinal: Equipos por confirmar</sub-title>
-    <desc>Primera semifinal: Equipos por confirmar | Cobertura de la décima edición del torneo femenino en la categoría Sub-17, con sede en Marruecos.</desc>
+    <title>Copa Mundial Femenina Sub-17 de la FIFA 2026 • Primera semifinal: Japan U17 vs Korea DPR U17</title>
+    <sub-title>Primera semifinal: Japan U17 vs. Korea DPR U17</sub-title>
+    <desc>Primera semifinal: Japan U17 vs Korea DPR U17 | Cobertura de la décima edición del torneo femenino en la categoría Sub-17, con sede en Marruecos.</desc>
     <date>2026</date>
     <category>Fútbol</category>
     <rating><value>PG0</value></rating>
@@ -286119,9 +286535,9 @@ de Billy y Mandy</title>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261106080000 -0300" stop="20261106100000 -0300" channel="1432">
-    <title>Copa Mundial Femenina Sub-17 de la FIFA 2026 • Segunda semifinal: Equipos por confirmar</title>
-    <sub-title>Segunda semifinal: Equipos por confirmar</sub-title>
-    <desc>Segunda semifinal: Equipos por confirmar | Cobertura de la décima edición del torneo femenino en la categoría Sub-17, con sede en Marruecos.</desc>
+    <title>Copa Mundial Femenina Sub-17 de la FIFA 2026 • Segunda semifinal: Brazil U17 vs Nigeria U17</title>
+    <sub-title>Segunda semifinal: Brazil U17 vs. Nigeria U17</sub-title>
+    <desc>Segunda semifinal: Brazil U17 vs Nigeria U17 | Cobertura de la décima edición del torneo femenino en la categoría Sub-17, con sede en Marruecos.</desc>
     <date>2026</date>
     <category>Fútbol</category>
     <rating><value>PG0</value></rating>
@@ -286229,9 +286645,9 @@ de Billy y Mandy</title>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/atlaslaotrapasion.jpg" />
   </programme>
   <programme start="20261107000000 -0300" stop="20261107020000 -0300" channel="1432">
-    <title>Copa Mundial Femenina Sub-17 de la FIFA 2026 • Segunda semifinal: Equipos por confirmar</title>
-    <sub-title>Segunda semifinal: Equipos por confirmar</sub-title>
-    <desc>Segunda semifinal: Equipos por confirmar | Cobertura de la décima edición del torneo femenino en la categoría Sub-17, con sede en Marruecos.</desc>
+    <title>Copa Mundial Femenina Sub-17 de la FIFA 2026 • Segunda semifinal: Brazil U17 vs Nigeria U17</title>
+    <sub-title>Segunda semifinal: Brazil U17 vs. Nigeria U17</sub-title>
+    <desc>Segunda semifinal: Brazil U17 vs Nigeria U17 | Cobertura de la décima edición del torneo femenino en la categoría Sub-17, con sede en Marruecos.</desc>
     <date>2026</date>
     <category>Fútbol</category>
     <rating><value>PG0</value></rating>
@@ -286310,7 +286726,61 @@ de Billy y Mandy</title>
     <rating><value>R</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/porconfirmar.jpg" />
   </programme>
-  <programme start="20261107230000 -0300" stop="20261108000000 -0300" channel="1432">
+  <programme start="20261107230000 -0300" stop="20261108030000 -0300" channel="1432">
+    <title>Por confirmar</title>
+    <desc>La información de este programa no se encuentra disponible.</desc>
+    <date>2014</date>
+    <category>Especial</category>
+    <category>Entretenimiento</category>
+    <rating><value>R</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/porconfirmar.jpg" />
+  </programme>
+  <programme start="20261108030000 -0300" stop="20261108070000 -0300" channel="1432">
+    <title>Por confirmar</title>
+    <desc>La información de este programa no se encuentra disponible.</desc>
+    <date>2014</date>
+    <category>Especial</category>
+    <category>Entretenimiento</category>
+    <rating><value>R</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/porconfirmar.jpg" />
+  </programme>
+  <programme start="20261108070000 -0300" stop="20261108110000 -0300" channel="1432">
+    <title>Por confirmar</title>
+    <desc>La información de este programa no se encuentra disponible.</desc>
+    <date>2014</date>
+    <category>Especial</category>
+    <category>Entretenimiento</category>
+    <rating><value>R</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/porconfirmar.jpg" />
+  </programme>
+  <programme start="20261108110000 -0300" stop="20261108150000 -0300" channel="1432">
+    <title>Por confirmar</title>
+    <desc>La información de este programa no se encuentra disponible.</desc>
+    <date>2014</date>
+    <category>Especial</category>
+    <category>Entretenimiento</category>
+    <rating><value>R</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/porconfirmar.jpg" />
+  </programme>
+  <programme start="20261108150000 -0300" stop="20261108190000 -0300" channel="1432">
+    <title>Por confirmar</title>
+    <desc>La información de este programa no se encuentra disponible.</desc>
+    <date>2014</date>
+    <category>Especial</category>
+    <category>Entretenimiento</category>
+    <rating><value>R</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/porconfirmar.jpg" />
+  </programme>
+  <programme start="20261108190000 -0300" stop="20261108230000 -0300" channel="1432">
+    <title>Por confirmar</title>
+    <desc>La información de este programa no se encuentra disponible.</desc>
+    <date>2014</date>
+    <category>Especial</category>
+    <category>Entretenimiento</category>
+    <rating><value>R</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/porconfirmar.jpg" />
+  </programme>
+  <programme start="20261108230000 -0300" stop="20261109000000 -0300" channel="1432">
     <title>Por confirmar</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <date>2014</date>
@@ -637522,7 +637992,7 @@ La serie narra los acontecimientos de la Biblia, del Antiguo y Nuevo Testamento 
     <rating><value>PG0</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/atodaluz.jpg" />
   </programme>
-  <programme start="20261107233000 -0300" stop="20261108003000 -0300" channel="0866">
+  <programme start="20261107233000 -0300" stop="20261108000000 -0300" channel="0866">
     <title>Aqua viva</title>
     <desc>Un espacio de corte cultural y educativo que se centra en el agua como elemento vital, explorando su importancia en la salud, la naturaleza y la vida cotidiana.</desc>
     <credits>
@@ -637536,6 +638006,432 @@ La serie narra los acontecimientos de la Biblia, del Antiguo y Nuevo Testamento 
     <country>Estados Unidos</country>
     <rating><value>PG0</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/aquaviva.jpg" />
+  </programme>
+  <programme start="20261108000000 -0300" stop="20261108003000 -0300" channel="0866">
+    <title>En contacto con el Dr. Charles Stanley</title>
+    <desc>Episodio 55 | El Dr. Stanley usa la historia de la obediencia de Noé con Dios como ejemplos de su propia vida para discutir cómo escuchar, confiar y obedecer al Señor.</desc>
+    <date>2018</date>
+    <category>Religioso</category>
+    <episode-num system="onscreen">Episodio 55</episode-num>
+    <rating><value>PG0</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/encontactoconeldrcharlesstanley.jpg" />
+  </programme>
+  <programme start="20261108003000 -0300" stop="20261108010000 -0300" channel="0866">
+    <title>Samuel Rodriguez</title>
+    <desc>Un programa religioso encabezado por el reverendo Samuel Rodríguez.</desc>
+    <date>2017</date>
+    <category>Noticias</category>
+    <rating><value>PG0</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/samuelrodriguez.jpg" />
+  </programme>
+  <programme start="20261108010000 -0300" stop="20261108013000 -0300" channel="0866">
+    <title>Impactando Las Naciones</title>
+    <desc>Un programa que trata sobre los problemas de la comunidad, en lo cultural, en la integración e intervención en el ámbito religioso.</desc>
+    <date>2005</date>
+    <category>Religioso</category>
+    <rating><value>PG0</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/impactandolasnaciones.jpg" />
+  </programme>
+  <programme start="20261108013000 -0300" stop="20261108020000 -0300" channel="0866">
+    <title>Michael A. Youssef</title>
+    <desc>El Dr. Michael Youssef se encarga de proclamar apasionadamente la verdad a través de sus ministerios.</desc>
+    <credits>
+      <actor>Michael Youssef</actor>
+      <actor>Tim Mathews</actor>
+      <actor>John VandenOever</actor>
+    </credits>
+    <date>2009</date>
+    <category>Religioso</category>
+    <rating><value>PG0</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/michaelayoussef.jpg" />
+  </programme>
+  <programme start="20261108020000 -0300" stop="20261108023000 -0300" channel="0866">
+    <title>Jason Lozano</title>
+    <desc>Un espacio religioso de la mano del pastor Jason Lozano.</desc>
+    <date>2022</date>
+    <category>Religioso</category>
+    <rating><value>PG0</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/jasonlozano.jpg" />
+  </programme>
+  <programme start="20261108023000 -0300" stop="20261108030000 -0300" channel="0866">
+    <title>Dr. David Jeremiah</title>
+    <desc>Enseñanza práctica de la Biblia.</desc>
+    <date>2000</date>
+    <category>Religioso</category>
+    <rating><value>PG0</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/drdavidjeremiah.jpg" />
+  </programme>
+  <programme start="20261108030000 -0300" stop="20261108033000 -0300" channel="0866">
+    <title>En familia con Luis y Kristen</title>
+    <desc>Enseñanzas dinámicas de Luis y Kristen Román, quienes responden las preguntas más relevantes sobre matrimonio, hijos, hogar, salud familiar y Dios.</desc>
+    <date>2022</date>
+    <category>Religioso</category>
+    <rating><value>PG0</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/enfamiliaconluisykristen.jpg" />
+  </programme>
+  <programme start="20261108033000 -0300" stop="20261108040000 -0300" channel="0866">
+    <title>Samuel Rodriguez</title>
+    <desc>Un programa religioso encabezado por el reverendo Samuel Rodríguez.</desc>
+    <date>2017</date>
+    <category>Noticias</category>
+    <rating><value>PG0</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/samuelrodriguez.jpg" />
+  </programme>
+  <programme start="20261108040000 -0300" stop="20261108043000 -0300" channel="0866">
+    <title>Michael A. Youssef</title>
+    <desc>El Dr. Michael Youssef se encarga de proclamar apasionadamente la verdad a través de sus ministerios.</desc>
+    <credits>
+      <actor>Michael Youssef</actor>
+      <actor>Tim Mathews</actor>
+      <actor>John VandenOever</actor>
+    </credits>
+    <date>2009</date>
+    <category>Religioso</category>
+    <rating><value>PG0</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/michaelayoussef.jpg" />
+  </programme>
+  <programme start="20261108043000 -0300" stop="20261108050000 -0300" channel="0866">
+    <title>Descubriendo al Jesús judío</title>
+    <desc>El rabino mesiánico K.A. Schneider, un judío que cree en Jesús y en los mensajeros apocalípticos del Señor, comparte la palabra de Dios con claridad y la verdadera pasión del Espíritu Santo.</desc>
+    <date>2006</date>
+    <category>Religioso</category>
+    <rating><value>PG0</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/descubriendoaljesusjudio.jpg" />
+  </programme>
+  <programme start="20261108050000 -0300" stop="20261108053000 -0300" channel="0866">
+    <title>Jentezen Franklin</title>
+    <desc>La realidad de las relaciones con Dios.</desc>
+    <credits>
+      <actor>Jentezen Franklin</actor>
+    </credits>
+    <date>1996</date>
+    <category>Religioso</category>
+    <rating><value>PG0</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/jentezenfranklin.jpg" />
+  </programme>
+  <programme start="20261108053000 -0300" stop="20261108060000 -0300" channel="0866">
+    <title>Fe y fuego</title>
+    <desc>Samuel Rodríguez presenta las mejores conferencias de Latinoamérica. Los predicadores que están cambiando el mundo para Cristo.</desc>
+    <date>2022</date>
+    <category>Religioso</category>
+    <rating><value>PG0</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/feyfuego.jpg" />
+  </programme>
+  <programme start="20261108060000 -0300" stop="20261108070000 -0300" channel="0866">
+    <title>Reflections</title>
+    <desc>El agente de la Europol Tom Brindle (Timothy Hutton) investiga el caso del Pygmalión, un asesino en serie que ha matado a varias chicas en Francia y España. En la escena de uno de los crímenes, la policía obtiene una muestra de ADN similar al de Marco Soler (Miguel Ángel Silvestre), un militar español de 24 años que cuenta con una sólida coartada. Brindle descubre que el joven fue concebido en una clínica de fertilidad y que tiene un hermano gemelo. El agente decide entonces utilizar a Marco para llegar hasta el asesino.</desc>
+    <credits>
+      <director>Bryan Goeres</director>
+      <actor>Timothy Hutton</actor>
+      <actor>Dominik Garcia</actor>
+      <actor>Miguel Ángel Silvestre</actor>
+      <actor>Fernando Guillén Cuervo</actor>
+      <actor>Tània Sarrias</actor>
+      <actor>Ivana Miño</actor>
+      <actor>Brendan Price</actor>
+    </credits>
+    <date>2011</date>
+    <category>Religioso</category>
+    <category>Musica</category>
+    <country>España</country>
+    <rating><value>PG0</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/reflections.jpg" />
+  </programme>
+  <programme start="20261108070000 -0300" stop="20261108073000 -0300" channel="0866">
+    <title>Impactando Las Naciones</title>
+    <desc>Un programa que trata sobre los problemas de la comunidad, en lo cultural, en la integración e intervención en el ámbito religioso.</desc>
+    <date>2005</date>
+    <category>Religioso</category>
+    <rating><value>PG0</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/impactandolasnaciones.jpg" />
+  </programme>
+  <programme start="20261108073000 -0300" stop="20261108080000 -0300" channel="0866">
+    <title>Jason Lozano</title>
+    <desc>Un espacio religioso de la mano del pastor Jason Lozano.</desc>
+    <date>2022</date>
+    <category>Religioso</category>
+    <rating><value>PG0</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/jasonlozano.jpg" />
+  </programme>
+  <programme start="20261108080000 -0300" stop="20261108083000 -0300" channel="0866">
+    <title>Adoración en casa</title>
+    <desc>Videos de alabanza y adoración.</desc>
+    <date>2022</date>
+    <category>Religioso</category>
+    <rating><value>PG0</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/adoracionencasa.jpg" />
+  </programme>
+  <programme start="20261108083000 -0300" stop="20261108090000 -0300" channel="0866">
+    <title>Camino a la victoria</title>
+    <desc>Dreamer (conocida tambien como “En busca de un sueño” en español) esta basada en hechos reales Historia de una niña jinete de Kentucky. Ben Crane fue un maravilloso jinete de caballos, cuyo talento ahora está siendo desperdiciado en beneficio de hombres millonarios. Sonya fue un estupendo caballo en la pista hasta que se rompió una pierna, y por ello su dueño se lo vende a Ben como parte de pago de una deuda. Ahora, la hija de Ben, Cale ayudará a estas dos almas perdidas a unirse e intentar ganar un importante torneo.</desc>
+    <credits>
+      <director>John Gatins</director>
+      <actor>Kurt Russell</actor>
+      <actor>Dakota Fanning</actor>
+      <actor>Kris Kristofferson</actor>
+      <actor>Elisabeth Shue</actor>
+      <actor>David Morse</actor>
+      <actor>Freddy Rodríguez</actor>
+      <actor>Luis Guzmán</actor>
+      <actor>עודד פהר</actor>
+    </credits>
+    <date>2025</date>
+    <category>Fútbol Americano</category>
+    <category>Deportes</category>
+    <country>Estados Unidos</country>
+    <rating><value>PG0</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/caminoalavictoria.jpg" />
+  </programme>
+  <programme start="20261108090000 -0300" stop="20261108093000 -0300" channel="0866">
+    <title>Samuel Rodriguez</title>
+    <desc>Un programa religioso encabezado por el reverendo Samuel Rodríguez.</desc>
+    <date>2017</date>
+    <category>Noticias</category>
+    <rating><value>PG0</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/samuelrodriguez.jpg" />
+  </programme>
+  <programme start="20261108093000 -0300" stop="20261108100000 -0300" channel="0866">
+    <title>The Supernatural Now</title>
+    <desc>Con Guillermo Maldonado, líder apostólico del Ministerio del Rey Jesús en Miami, parte de una red de iglesias en los EE.UU. y América Latina.</desc>
+    <date>2014</date>
+    <category>Religioso</category>
+    <rating><value>PG0</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/thesupernaturalnow.jpg" />
+  </programme>
+  <programme start="20261108100000 -0300" stop="20261108103000 -0300" channel="0866">
+    <title>Jason Lozano</title>
+    <desc>Un espacio religioso de la mano del pastor Jason Lozano.</desc>
+    <date>2022</date>
+    <category>Religioso</category>
+    <rating><value>PG0</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/jasonlozano.jpg" />
+  </programme>
+  <programme start="20261108103000 -0300" stop="20261108110000 -0300" channel="0866">
+    <title>Jentezen Franklin</title>
+    <desc>La realidad de las relaciones con Dios.</desc>
+    <credits>
+      <actor>Jentezen Franklin</actor>
+    </credits>
+    <date>1996</date>
+    <category>Religioso</category>
+    <rating><value>PG0</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/jentezenfranklin.jpg" />
+  </programme>
+  <programme start="20261108110000 -0300" stop="20261108113000 -0300" channel="0866">
+    <title>Impactando Las Naciones</title>
+    <desc>Un programa que trata sobre los problemas de la comunidad, en lo cultural, en la integración e intervención en el ámbito religioso.</desc>
+    <date>2005</date>
+    <category>Religioso</category>
+    <rating><value>PG0</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/impactandolasnaciones.jpg" />
+  </programme>
+  <programme start="20261108113000 -0300" stop="20261108120000 -0300" channel="0866">
+    <title>El programa de John Ankerberg</title>
+    <desc>John Ankerberg, experto en apologética cristiana, presenta toda clase de dudas espirituales contemporáneas y defiende la validez de la Biblia para lograr responderlas.</desc>
+    <date>2007</date>
+    <category>Religioso</category>
+    <rating><value>PG0</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/elprogramadejohnankerberg.jpg" />
+  </programme>
+  <programme start="20261108120000 -0300" stop="20261108123000 -0300" channel="0866">
+    <title>En familia con Luis y Kristen</title>
+    <desc>Enseñanzas dinámicas de Luis y Kristen Román, quienes responden las preguntas más relevantes sobre matrimonio, hijos, hogar, salud familiar y Dios.</desc>
+    <date>2022</date>
+    <category>Religioso</category>
+    <rating><value>PG0</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/enfamiliaconluisykristen.jpg" />
+  </programme>
+  <programme start="20261108123000 -0300" stop="20261108130000 -0300" channel="0866">
+    <title>Andrés Spyker de &#x27;Más vida&#x27;</title>
+    <desc>Un mensaje fresco de la palabra de Dios con una aplicación práctica para la vida.</desc>
+    <category>Religioso</category>
+    <rating><value>PG0</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/andresspykerdemasvida.jpg" />
+  </programme>
+  <programme start="20261108130000 -0300" stop="20261108140000 -0300" channel="0866">
+    <title>El cielo en la Tierra</title>
+    <desc>Predicación de la Iglesia Cristiana &#x27;El lugar de su presencia&#x27; en Bogotá, Colombia. Con temas relevantes y prácticos, aplicables a la vida diaria y consejos bíblicos para alentar, animar y reflexionar en toda situación.</desc>
+    <credits>
+      <actor>Andrés Corson</actor>
+    </credits>
+    <date>2023</date>
+    <category>Religioso</category>
+    <rating><value>PG0</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/elcieloenlatierra.jpg" />
+  </programme>
+  <programme start="20261108140000 -0300" stop="20261108143000 -0300" channel="0866">
+    <title>The Supernatural Now</title>
+    <desc>Con Guillermo Maldonado, líder apostólico del Ministerio del Rey Jesús en Miami, parte de una red de iglesias en los EE.UU. y América Latina.</desc>
+    <date>2014</date>
+    <category>Religioso</category>
+    <rating><value>PG0</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/thesupernaturalnow.jpg" />
+  </programme>
+  <programme start="20261108143000 -0300" stop="20261108150000 -0300" channel="0866">
+    <title>Fe y fuego</title>
+    <desc>Samuel Rodríguez presenta las mejores conferencias de Latinoamérica. Los predicadores que están cambiando el mundo para Cristo.</desc>
+    <date>2022</date>
+    <category>Religioso</category>
+    <rating><value>PG0</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/feyfuego.jpg" />
+  </programme>
+  <programme start="20261108150000 -0300" stop="20261108153000 -0300" channel="0866">
+    <title>Escrito está</title>
+    <desc>Un programa cristiano internacional de televisión que se dedica a compartir el entendimiento de la palabra de Dios con las personas de todo el mundo.</desc>
+    <date>1996</date>
+    <category>Religioso</category>
+    <rating><value>PG0</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/escritoesta.jpg" />
+  </programme>
+  <programme start="20261108153000 -0300" stop="20261108160000 -0300" channel="0866">
+    <title>Jason Lozano</title>
+    <desc>Un espacio religioso de la mano del pastor Jason Lozano.</desc>
+    <date>2022</date>
+    <category>Religioso</category>
+    <rating><value>PG0</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/jasonlozano.jpg" />
+  </programme>
+  <programme start="20261108160000 -0300" stop="20261108163000 -0300" channel="0866">
+    <title>Andrew Wommack: La verdad del evangelio</title>
+    <desc>Un programa que enseña el amor incondicional, la gracia de Dios y los principios bíblicos.</desc>
+    <date>2006</date>
+    <category>Educativo</category>
+    <category>Religioso</category>
+    <rating><value>PG0</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/andrewwommacklaverdaddelevangelio.jpg" />
+  </programme>
+  <programme start="20261108163000 -0300" stop="20261108170000 -0300" channel="0866">
+    <title>Jason Lozano</title>
+    <desc>Un espacio religioso de la mano del pastor Jason Lozano.</desc>
+    <date>2022</date>
+    <category>Religioso</category>
+    <rating><value>PG0</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/jasonlozano.jpg" />
+  </programme>
+  <programme start="20261108170000 -0300" stop="20261108173000 -0300" channel="0866">
+    <title>Aqua viva</title>
+    <desc>Un espacio de corte cultural y educativo que se centra en el agua como elemento vital, explorando su importancia en la salud, la naturaleza y la vida cotidiana.</desc>
+    <credits>
+      <director>Barbara Mettler</director>
+    </credits>
+    <date>2011</date>
+    <category>Dibujo Animado</category>
+    <category>Educativo</category>
+    <category>Entretenimiento</category>
+    <category>Niños</category>
+    <country>Estados Unidos</country>
+    <rating><value>PG0</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/aquaviva.jpg" />
+  </programme>
+  <programme start="20261108173000 -0300" stop="20261108180000 -0300" channel="0866">
+    <title>Adoración en casa</title>
+    <desc>Videos de alabanza y adoración.</desc>
+    <date>2022</date>
+    <category>Religioso</category>
+    <rating><value>PG0</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/adoracionencasa.jpg" />
+  </programme>
+  <programme start="20261108180000 -0300" stop="20261108183000 -0300" channel="0866">
+    <title>Fe y fuego</title>
+    <desc>Samuel Rodríguez presenta las mejores conferencias de Latinoamérica. Los predicadores que están cambiando el mundo para Cristo.</desc>
+    <date>2022</date>
+    <category>Religioso</category>
+    <rating><value>PG0</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/feyfuego.jpg" />
+  </programme>
+  <programme start="20261108183000 -0300" stop="20261108190000 -0300" channel="0866">
+    <title>Andrés Spyker de &#x27;Más vida&#x27;</title>
+    <desc>Un mensaje fresco de la palabra de Dios con una aplicación práctica para la vida.</desc>
+    <category>Religioso</category>
+    <rating><value>PG0</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/andresspykerdemasvida.jpg" />
+  </programme>
+  <programme start="20261108190000 -0300" stop="20261108193000 -0300" channel="0866">
+    <title>En familia con Luis y Kristen</title>
+    <desc>Enseñanzas dinámicas de Luis y Kristen Román, quienes responden las preguntas más relevantes sobre matrimonio, hijos, hogar, salud familiar y Dios.</desc>
+    <date>2022</date>
+    <category>Religioso</category>
+    <rating><value>PG0</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/enfamiliaconluisykristen.jpg" />
+  </programme>
+  <programme start="20261108193000 -0300" stop="20261108200000 -0300" channel="0866">
+    <title>Dios de milagros</title>
+    <desc>Experimenta el poder sanador de Dios, con las palabras ungidas del pastor Hernán Castaño en Dios de Milagros. ¡Desata el mover de Dios en tu familia!</desc>
+    <date>2017</date>
+    <category>Religioso</category>
+    <rating><value>PG0</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/diosdemilagros.jpg" />
+  </programme>
+  <programme start="20261108200000 -0300" stop="20261108203000 -0300" channel="0866">
+    <title>Jason Lozano</title>
+    <desc>Un espacio religioso de la mano del pastor Jason Lozano.</desc>
+    <date>2022</date>
+    <category>Religioso</category>
+    <rating><value>PG0</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/jasonlozano.jpg" />
+  </programme>
+  <programme start="20261108203000 -0300" stop="20261108210000 -0300" channel="0866">
+    <title>Descubriendo al Jesús judío</title>
+    <desc>El rabino mesiánico K.A. Schneider, un judío que cree en Jesús y en los mensajeros apocalípticos del Señor, comparte la palabra de Dios con claridad y la verdadera pasión del Espíritu Santo.</desc>
+    <date>2006</date>
+    <category>Religioso</category>
+    <rating><value>PG0</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/descubriendoaljesusjudio.jpg" />
+  </programme>
+  <programme start="20261108210000 -0300" stop="20261108213000 -0300" channel="0866">
+    <title>The Potter&#x27;s Touch</title>
+    <desc>El obispo T.D. Jakes ofrece soluciones prácticas y espirituales a las preguntas más difíciles de la vida, incluidos los tabúes y los problemas ocultos.</desc>
+    <date>2006</date>
+    <category>Religioso</category>
+    <rating><value>PG0</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/thepotterstouch.jpg" />
+  </programme>
+  <programme start="20261108213000 -0300" stop="20261108223000 -0300" channel="0866">
+    <title>El cielo en la Tierra</title>
+    <desc>Predicación de la Iglesia Cristiana &#x27;El lugar de su presencia&#x27; en Bogotá, Colombia. Con temas relevantes y prácticos, aplicables a la vida diaria y consejos bíblicos para alentar, animar y reflexionar en toda situación.</desc>
+    <credits>
+      <actor>Andrés Corson</actor>
+    </credits>
+    <date>2023</date>
+    <category>Religioso</category>
+    <rating><value>PG0</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/elcieloenlatierra.jpg" />
+  </programme>
+  <programme start="20261108223000 -0300" stop="20261108230000 -0300" channel="0866">
+    <title>Aqua viva</title>
+    <desc>Un espacio de corte cultural y educativo que se centra en el agua como elemento vital, explorando su importancia en la salud, la naturaleza y la vida cotidiana.</desc>
+    <credits>
+      <director>Barbara Mettler</director>
+    </credits>
+    <date>2011</date>
+    <category>Dibujo Animado</category>
+    <category>Educativo</category>
+    <category>Entretenimiento</category>
+    <category>Niños</category>
+    <country>Estados Unidos</country>
+    <rating><value>PG0</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/aquaviva.jpg" />
+  </programme>
+  <programme start="20261108230000 -0300" stop="20261108233000 -0300" channel="0866">
+    <title>El programa de John Ankerberg</title>
+    <desc>John Ankerberg, experto en apologética cristiana, presenta toda clase de dudas espirituales contemporáneas y defiende la validez de la Biblia para lograr responderlas.</desc>
+    <date>2007</date>
+    <category>Religioso</category>
+    <rating><value>PG0</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/elprogramadejohnankerberg.jpg" />
+  </programme>
+  <programme start="20261108233000 -0300" stop="20261109003000 -0300" channel="0866">
+    <title>Michael A. Youssef</title>
+    <desc>El Dr. Michael Youssef se encarga de proclamar apasionadamente la verdad a través de sus ministerios.</desc>
+    <credits>
+      <actor>Michael Youssef</actor>
+      <actor>Tim Mathews</actor>
+      <actor>John VandenOever</actor>
+    </credits>
+    <date>2009</date>
+    <category>Religioso</category>
+    <rating><value>PG0</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/michaelayoussef.jpg" />
   </programme>
   <programme start="20261101120000 -0300" stop="20261101123000 -0300" channel="0867">
     <title>Programa pagado</title>
@@ -644034,7 +644930,7 @@ La serie narra los acontecimientos de la Biblia, del Antiguo y Nuevo Testamento 
     <rating><value>PG-13</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/infosabado.jpg" />
   </programme>
-  <programme start="20261107220000 -0300" stop="20261107230000 -0300" channel="0904">
+  <programme start="20261107220000 -0300" stop="20261108000000 -0300" channel="0904">
     <title>Resumen de noticias</title>
     <desc>Se presentan las entrevistas más relevantes de la actualidad informativa en toda la República Argentina.</desc>
     <date>2020</date>
@@ -644043,10 +644939,126 @@ La serie narra los acontecimientos de la Biblia, del Antiguo y Nuevo Testamento 
     <rating><value>PG-13</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/resumendenoticias.jpg" />
   </programme>
-  <programme start="20261107230000 -0300" stop="20261107235959 -0300" channel="0904">
-    <title>LN Más</title>
-    <desc>La informacion de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  <programme start="20261108000000 -0300" stop="20261108010000 -0300" channel="0904">
+    <title>Especiales - Eventos LN</title>
+    <desc>La información de este programa no se encuentra disponible.</desc>
+    <date>2026</date>
+    <category>Entretenimiento</category>
+    <rating><value>R</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/especialeseventosln.jpg" />
+  </programme>
+  <programme start="20261108010000 -0300" stop="20261108040000 -0300" channel="0904">
+    <title>La robineta</title>
+    <desc>Espacio donde se recorren distintos barrios, ferias y puntos de interés de Buenos Aires y sus alrededores. El programa combina gastronomía, cultura, música tradicional y entrevistas con los vecinos y turistas. Toda la información y la mejor compañía.</desc>
+    <date>2026</date>
+    <category>Actualidad</category>
+    <category>Reportaje</category>
+    <rating><value>PG-13</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/larobineta.jpg" />
+  </programme>
+  <programme start="20261108040000 -0300" stop="20261108060000 -0300" channel="0904">
+    <title>+Info Sábado</title>
+    <desc>Lo mejor y los momentos más destacados de la información del fin de semana de la mano de Pablo Corso.</desc>
+    <date>2021</date>
+    <category>Reportaje</category>
+    <rating><value>PG-13</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/infosabado.jpg" />
+  </programme>
+  <programme start="20261108060000 -0300" stop="20261108070000 -0300" channel="0904">
+    <title>Hambre de futuro</title>
+    <desc>Un recorrido por el país para conocer las realidades y los sueños de los niños que viven en las comunidades más vulnerables.</desc>
+    <date>2018</date>
+    <category>Especial</category>
+    <rating><value>R</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/hambredefuturo.jpg" />
+  </programme>
+  <programme start="20261108070000 -0300" stop="20261108090000 -0300" channel="0904">
+    <title>+ Mañana</title>
+    <desc>Hecho mitad humano y mitad espíritu por accidente, un joven es empleado por una compañía de parcas en el inframundo para llevar a cabo misiones especiales.</desc>
+    <credits>
+      <director>Kim Tae-yun</director>
+      <actor>José Antonio Gil Vidal</actor>
+      <actor>Mariel Di Lenarda</actor>
+    </credits>
+    <date>2021</date>
+    <category>Relaciones Públicas</category>
+    <category>Reportaje</category>
+    <category>Social</category>
+    <country>Corea del Sur</country>
+    <rating><value>PG-13</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/manana.jpg" />
+  </programme>
+  <programme start="20261108090000 -0300" stop="20261108130000 -0300" channel="0904">
+    <title>+Info fin de semana</title>
+    <desc>Toda la información de Argentina y el mundo a cargo del mejor equipo de columnistas en todos los temas.</desc>
+    <credits>
+      <actor>Horacio Cabak</actor>
+      <actor>Pablo Corso</actor>
+    </credits>
+    <date>2021</date>
+    <category>Actualidad</category>
+    <category>Reportaje</category>
+    <rating><value>PG-13</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/infofindesemana.jpg" />
+  </programme>
+  <programme start="20261108130000 -0300" stop="20261108160000 -0300" channel="0904">
+    <title>La robineta</title>
+    <desc>Espacio donde se recorren distintos barrios, ferias y puntos de interés de Buenos Aires y sus alrededores. El programa combina gastronomía, cultura, música tradicional y entrevistas con los vecinos y turistas. Toda la información y la mejor compañía.</desc>
+    <date>2026</date>
+    <category>Actualidad</category>
+    <category>Reportaje</category>
+    <rating><value>PG-13</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/larobineta.jpg" />
+  </programme>
+  <programme start="20261108160000 -0300" stop="20261108180000 -0300" channel="0904">
+    <title>+Noticias fin de semana</title>
+    <desc>Toda la información de la Argentina y el mundo, con la mejor conducción y un excelente grupo de columnistas.</desc>
+    <credits>
+      <actor>Viviana Valles</actor>
+    </credits>
+    <date>2022</date>
+    <category>Relaciones Públicas</category>
+    <category>Reportaje</category>
+    <category>Social</category>
+    <rating><value>PG-13</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/noticiasfindesemana.jpg" />
+  </programme>
+  <programme start="20261108180000 -0300" stop="20261108203000 -0300" channel="0904">
+    <title>Especial domingo</title>
+    <desc>Programa de noticias y más.</desc>
+    <date>2020</date>
+    <category>Reportaje</category>
+    <rating><value>PG-13</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/especialdomingo.jpg" />
+  </programme>
+  <programme start="20261108203000 -0300" stop="20261108220000 -0300" channel="0904">
+    <title>La cornisa</title>
+    <desc>Un programa de política y actualidad con entrevistas a los personajes más importantes del momento.</desc>
+    <credits>
+      <actor>Luis Majul</actor>
+    </credits>
+    <date>1999</date>
+    <category>Política</category>
+    <rating><value>PG-13</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/lacornisa.jpg" />
+  </programme>
+  <programme start="20261108220000 -0300" stop="20261108233000 -0300" channel="0904">
+    <title>Comunidad de negocios</title>
+    <desc>La economía que afecta a todos los bolsillos argentinos.</desc>
+    <date>2016</date>
+    <category>Noticias</category>
+    <category>Empresarial</category>
+    <rating><value>R</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/comunidaddenegocios.jpg" />
+  </programme>
+  <programme start="20261108233000 -0300" stop="20261109003000 -0300" channel="0904">
+    <title>LN+ especiales • Mediamorfosis</title>
+    <sub-title>Mediamorfosis</sub-title>
+    <desc>Mediamorfosis | La información de este programa no se encuentra disponible.</desc>
+    <date>2017</date>
+    <category>Variedades</category>
+    <rating><value>R</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/lnespeciales.jpg" />
   </programme>
   <programme start="20261101130000 -0300" stop="20261101150000 -0300" channel="0905">
     <title>TN Deportivo a las 13</title>
@@ -653666,7 +654678,13 @@ La serie narra los acontecimientos de la Biblia, del Antiguo y Nuevo Testamento 
   <programme start="20261101220000 -0300" stop="20261101234000 -0300" channel="4909">
     <title>Susana Giménez</title>
     <desc>Un programa de concursos, sketches humorísticos, entrevistas, musicales, curiosidades internacionales, notas periodísticas de interés y mucho más.</desc>
+    <credits>
+      <director>Marcelo Ferrero</director>
+      <actor>Susana Giménez</actor>
+    </credits>
+    <date>1987</date>
     <category>Entertainment</category>
+    <country>Argentina</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261101234000 -0300" stop="20261102000000 -0300" channel="4909">
@@ -659782,7 +660800,17 @@ La emisora fue inaugurada el 1 de octubre de 1960 y desde el año 1989 es propie
   <programme start="20261102230000 -0300" stop="20261103003000 -0300" channel="0916">
     <title>El tribunero</title>
     <desc>El elenco de Paren la Mano debate sobre fútbol con la participación especial del público en tribunas. Conocé todas las novedades sobre nuestra pasión argentina con mucho humor.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <credits>
+      <actor>Lucas Rodríguez</actor>
+      <actor>Rober Galati</actor>
+      <actor>German Beder</actor>
+      <actor>Alfredo Montes de Oca</actor>
+      <actor>Joaquin Cavanna</actor>
+    </credits>
+    <date>2026</date>
+    <category>Talk</category>
+    <country>Argentina</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/eltribunero.jpg" />
   </programme>
   <programme start="20261103003000 -0300" stop="20261103010000 -0300" channel="0916">
     <title>Pastor Cinalli</title>
@@ -663490,6 +664518,213 @@ La emisora fue inaugurada el 1 de octubre de 1960 y desde el año 1989 es propie
     <rating><value>R</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/eltornillodearquimedes.jpg" />
   </programme>
+  <programme start="20261108000000 -0300" stop="20261108010000 -0300" channel="0919">
+    <title>Para alquilar balcones</title>
+    <desc>Un programa diario de actualidad, con humor inteligente e ironía mordaz, que no les escapa a los temas más espinosos que atraviesan la sociedad.</desc>
+    <date>2020</date>
+    <category>Entretenimiento</category>
+    <category>Actualidad</category>
+    <category>Reportaje</category>
+    <rating><value>PG-13</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/paraalquilarbalcones.jpg" />
+  </programme>
+  <programme start="20261108010000 -0300" stop="20261108020000 -0300" channel="0919">
+    <title>El tornillo de Arquímedes</title>
+    <desc>Un espacio en el que se indagan misterios, paradigmas, historias increíbles y muchas cosas más.</desc>
+    <date>2023</date>
+    <category>Series</category>
+    <rating><value>R</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/eltornillodearquimedes.jpg" />
+  </programme>
+  <programme start="20261108020000 -0300" stop="20261108023000 -0300" channel="0919">
+    <title>Km 0</title>
+    <desc>Espacio que busca acortar las distancias entre lo que se cultiva y lo que se come, reduciendo el costo y el impacto ecológico. Se presentan entrevistas con los productores de la materia prima de las recetas y se preparan platos con chefs reconocidos.</desc>
+    <credits>
+      <director>Marcos Guttmann</director>
+      <actor>Guido Tassi</actor>
+    </credits>
+    <date>2015</date>
+    <category>Gastronomía</category>
+    <country>PT</country>
+    <rating><value>R</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/km0.jpg" />
+  </programme>
+  <programme start="20261108023000 -0300" stop="20261108030000 -0300" channel="0919">
+    <title>Cultura DJ</title>
+    <desc>Segmento realizado especialmente para los seguidores de la escena electrónica mundial, donde se presentan notas de interés, presentaciones de diferentes DJ así como también entrevistas exclusivas.</desc>
+    <date>2017</date>
+    <category>Entrevista</category>
+    <category>Musica</category>
+    <rating><value>R</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/culturadj.jpg" />
+  </programme>
+  <programme start="20261108030000 -0300" stop="20261108040000 -0300" channel="0919">
+    <title>La clase</title>
+    <desc>La opera prima del joven realizador venezolano José Antonio Varela, &quot;La clase&quot;, un largometraje que enlaza los momentos de tensión política y social vividos en Venezuela en 1989, está basada en una novela de Francisco Sesto, la cinta transmite la idea de que &quot;en la vida siempre hay que elegir&quot;.La época histórica que se recoge en el largometraje es &quot;un telón de fondo&quot; visto desde los ojos de la protagonista, pero con la experiencia vivida del propio director, ya que, muestra algunos de sus recuerdos de 1989. Fue el del 27 de febrero de 1989 cuando tuvo la revuelta popular que se conoció con el nombre de &quot;El Carazazo&quot;.</desc>
+    <credits>
+      <director>José Antonio Varela</director>
+      <actor>Carolina Riveros</actor>
+      <actor>Laureano Olivares</actor>
+      <actor>Manuelita Zelwer</actor>
+      <actor>Gonzalo Cubero</actor>
+      <actor>Asdrúbal Meléndez</actor>
+      <actor>William Cuao</actor>
+    </credits>
+    <date>2010</date>
+    <category>Series</category>
+    <country>Venezuela</country>
+    <rating><value>R</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/laclase.jpg" />
+  </programme>
+  <programme start="20261108040000 -0300" stop="20261108050000 -0300" channel="0919">
+    <title>Clásicos del Tasso</title>
+    <desc>El Centro Cultural Torcuato Tasso recibe a los artistas para un encuentro cercano con el público e invita al templo del tango.</desc>
+    <date>2018</date>
+    <category>Musica</category>
+    <rating><value>R</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/clasicosdeltasso.jpg" />
+  </programme>
+  <programme start="20261108050000 -0300" stop="20261108060000 -0300" channel="0919">
+    <title>Nuevo cine Argentino</title>
+    <desc>Programa que ahonda sobre producciones del cine argentino a partir de entrevistas a los directores y actores.</desc>
+    <date>2018</date>
+    <category>Entrevista</category>
+    <rating><value>R</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/nuevocineargentino.jpg" />
+  </programme>
+  <programme start="20261108060000 -0300" stop="20261108070000 -0300" channel="0919">
+    <title>Para alquilar balcones</title>
+    <desc>Un programa diario de actualidad, con humor inteligente e ironía mordaz, que no les escapa a los temas más espinosos que atraviesan la sociedad.</desc>
+    <date>2020</date>
+    <category>Entretenimiento</category>
+    <category>Actualidad</category>
+    <category>Reportaje</category>
+    <rating><value>PG-13</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/paraalquilarbalcones.jpg" />
+  </programme>
+  <programme start="20261108070000 -0300" stop="20261108080000 -0300" channel="0919">
+    <title>Panorama N7</title>
+    <desc>Un noticiero con toda la información que necesitas saber antes de salir de casa para estar actualizado.</desc>
+    <date>2022</date>
+    <category>Reportaje</category>
+    <rating><value>PG-13</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/panoraman7.jpg" />
+  </programme>
+  <programme start="20261108080000 -0300" stop="20261108100000 -0300" channel="0919">
+    <title>Hoy nos toca</title>
+    <desc>Temas de conversación, entrevistas e invitados de la cultura y el entretenimiento.</desc>
+    <category>Entrevista</category>
+    <rating><value>R</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/hoynostoca.jpg" />
+  </programme>
+  <programme start="20261108100000 -0300" stop="20261108123000 -0300" channel="0919">
+    <title>Hoy nos toca</title>
+    <desc>Temas de conversación, entrevistas e invitados de la cultura y el entretenimiento.</desc>
+    <category>Entrevista</category>
+    <rating><value>R</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/hoynostoca.jpg" />
+  </programme>
+  <programme start="20261108123000 -0300" stop="20261108130000 -0300" channel="0919">
+    <title>N 12.30</title>
+    <desc>Un espacio para analizar los principales temas de interés en política, economía, sociedad, deportes, clima y el tránsito.</desc>
+    <credits>
+      <actor>Diego Morán</actor>
+    </credits>
+    <date>2020</date>
+    <category>Clima</category>
+    <category>Política</category>
+    <category>Reportaje</category>
+    <rating><value>PG-13</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/n1230.jpg" />
+  </programme>
+  <programme start="20261108130000 -0300" stop="20261108133000 -0300" channel="0919">
+    <title>En casa cocina Coco</title>
+    <desc>Un reconocido chef abre las puertas de su casa para mostrar un menú completo de entrada, plato y postre, con recetas sencillas y prácticas para preparar en menos de diez minutos.</desc>
+    <date>2019</date>
+    <category>Gastronomía</category>
+    <rating><value>R</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/encasacocinacoco.jpg" />
+  </programme>
+  <programme start="20261108133000 -0300" stop="20261108140000 -0300" channel="0919">
+    <title>Km 0</title>
+    <desc>Espacio que busca acortar las distancias entre lo que se cultiva y lo que se come, reduciendo el costo y el impacto ecológico. Se presentan entrevistas con los productores de la materia prima de las recetas y se preparan platos con chefs reconocidos.</desc>
+    <credits>
+      <director>Marcos Guttmann</director>
+      <actor>Guido Tassi</actor>
+    </credits>
+    <date>2015</date>
+    <category>Gastronomía</category>
+    <country>PT</country>
+    <rating><value>R</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/km0.jpg" />
+  </programme>
+  <programme start="20261108140000 -0300" stop="20261108163000 -0300" channel="0919">
+    <title>¿Qué pretende usted de mí?</title>
+    <desc>Un espacio para divertirse e informarse con las últimas novedades del mundo del espectáculo.</desc>
+    <date>2022</date>
+    <category>Entretenimiento</category>
+    <rating><value>R</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/quepretendeusteddemi.jpg" />
+  </programme>
+  <programme start="20261108163000 -0300" stop="20261108190000 -0300" channel="0919">
+    <title>Desperezate</title>
+    <desc>Un magacín que aborda temas tan variados como el espectáculo, el deporte, la actualidad, siempre con muchísima diversión.</desc>
+    <date>2022</date>
+    <category>Actualidad</category>
+    <category>Reportaje</category>
+    <rating><value>PG-13</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/desperezate.jpg" />
+  </programme>
+  <programme start="20261108190000 -0300" stop="20261108193000 -0300" channel="0919">
+    <title>Enredada</title>
+    <desc>Un recorrido por las redes sociales para observar los posteos más vistos de la web.</desc>
+    <date>2020</date>
+    <category>Entretenimiento</category>
+    <rating><value>R</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/enredada.jpg" />
+  </programme>
+  <programme start="20261108193000 -0300" stop="20261108200000 -0300" channel="0919">
+    <title>Lado V</title>
+    <desc>Un espacio para conocer todo lo que hay detrás de una etiqueta de vino y lo que no se conoce de esta bebida.</desc>
+    <date>2019</date>
+    <category>Entretenimiento</category>
+    <rating><value>R</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/ladov.jpg" />
+  </programme>
+  <programme start="20261108200000 -0300" stop="20261108203000 -0300" channel="0919">
+    <title>Club de vinilos</title>
+    <desc>La historia de las bandas musicales más reconocidas. En cada programa se da a conocer la historia de la música nacional e internacional de distintas bandas y personalidades que dejaron su impronta en el mundo cultural.</desc>
+    <date>2022</date>
+    <category>Musica</category>
+    <rating><value>R</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/clubdevinilos.jpg" />
+  </programme>
+  <programme start="20261108203000 -0300" stop="20261108213000 -0300" channel="0919">
+    <title>N 20.30</title>
+    <desc>Programa periodístico con las noticias del día.</desc>
+    <date>2019</date>
+    <category>Reportaje</category>
+    <rating><value>PG-13</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/n2030.jpg" />
+  </programme>
+  <programme start="20261108213000 -0300" stop="20261108230000 -0300" channel="0919">
+    <title>Para alquilar balcones</title>
+    <desc>Un programa diario de actualidad, con humor inteligente e ironía mordaz, que no les escapa a los temas más espinosos que atraviesan la sociedad.</desc>
+    <date>2020</date>
+    <category>Entretenimiento</category>
+    <category>Actualidad</category>
+    <category>Reportaje</category>
+    <rating><value>PG-13</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/paraalquilarbalcones.jpg" />
+  </programme>
+  <programme start="20261108230000 -0300" stop="20261109000000 -0300" channel="0919">
+    <title>Tan Pizarro</title>
+    <desc>Un espacio de conversación en el que diferentes artistas y personalidades comparten anécdotas y detalles de sus vidas.</desc>
+    <date>2023</date>
+    <category>Entrevista</category>
+    <rating><value>R</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/tanpizarro.jpg" />
+  </programme>
   <programme start="20261101130000 -0300" stop="20261101133000 -0300" channel="0920">
     <title>Arquitectos. Maestros del espacio • Arquitectura</title>
     <sub-title>Arquitectura</sub-title>
@@ -667116,7 +668351,7 @@ Checoslovaquia en 1992: el régimen comunista cayó hace poco y el ejército de 
     <rating><value>R</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/elvalordetusjoyas.jpg" />
   </programme>
-  <programme start="20261107233000 -0300" stop="20261108003000 -0300" channel="0922">
+  <programme start="20261107233000 -0300" stop="20261108000000 -0300" channel="0922">
     <title>Algo que contar</title>
     <desc>Un espacio íntimo, reflexivo, en el que se repasan relatos profundos de personalidades reconocidas, y de héroes anónimos con historias de vida ejemplares.</desc>
     <date>2022</date>
@@ -667124,6 +668359,178 @@ Checoslovaquia en 1992: el régimen comunista cayó hace poco y el ejército de 
     <category>Biográfica</category>
     <rating><value>R</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/algoquecontar.jpg" />
+  </programme>
+  <programme start="20261108000000 -0300" stop="20261108030000 -0300" channel="0922">
+    <title>Imagen positiva</title>
+    <desc>Un espacio de interés general, con noticias sobre arte, deportes y policiales. Además, un análisis de la coyuntura ambiental en el mundo.</desc>
+    <date>2020</date>
+    <category>Entretenimiento</category>
+    <category>Reportaje</category>
+    <rating><value>PG-13</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/imagenpositiva.jpg" />
+  </programme>
+  <programme start="20261108030000 -0300" stop="20261108060000 -0300" channel="0922">
+    <title>Somos PM</title>
+    <desc>Un repaso por los temas más destacados de la actualidad. Además, noticias sobre deportes, ciencia y espectáculos.</desc>
+    <date>2020</date>
+    <category>Entretenimiento</category>
+    <category>Reportaje</category>
+    <rating><value>PG-13</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/somospm.jpg" />
+  </programme>
+  <programme start="20261108060000 -0300" stop="20261108080000 -0300" channel="0922">
+    <title>Esto pasó</title>
+    <desc>Cobertura de eventos y noticias que ocurren en el momento.</desc>
+    <date>2023</date>
+    <category>Reportaje</category>
+    <rating><value>PG-13</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/estopaso.jpg" />
+  </programme>
+  <programme start="20261108080000 -0300" stop="20261108090000 -0300" channel="0922">
+    <title>Suterh con vos</title>
+    <desc>Programa para las trabajadoras y trabajadores de edificios con novedades gremiales, salud, capacitación profesional, deportes y turismo.</desc>
+    <date>2012</date>
+    <category>Noticias</category>
+    <rating><value>R</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/suterhconvos.jpg" />
+  </programme>
+  <programme start="20261108090000 -0300" stop="20261108110000 -0300" channel="0922">
+    <title>Eva</title>
+    <desc>La historia de una mujer que refleja la lucha de muchas figuras que logran vencer los prejuicios de la época y las desventajas de una vida colmada de miseria y obstáculos, para finalmente consagrarse como un ídolo popular.</desc>
+    <credits>
+      <actor>Zofía Buitrón Moreno</actor>
+      <actor>María Carbajal</actor>
+      <actor>Angela Gutiérrez Cuadros</actor>
+      <actor>Tatiana Espinoza Chirinos</actor>
+      <actor>Martin Abrisqueta</actor>
+    </credits>
+    <date>2014</date>
+    <category>Especial</category>
+    <rating><value>R</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/eva.jpg" />
+  </programme>
+  <programme start="20261108110000 -0300" stop="20261108120000 -0300" channel="0922">
+    <title>La letra chica</title>
+    <desc>Mediante informes, entrevistas, invitados y el análisis de destacados especialistas, se conoce el detrás de cada noticia, porque la información real está en la letra chica.</desc>
+    <date>2020</date>
+    <category>Entrevista</category>
+    <category>Reportaje</category>
+    <category>Talk Show</category>
+    <rating><value>PG-13</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/laletrachica.jpg" />
+  </programme>
+  <programme start="20261108120000 -0300" stop="20261108143000 -0300" channel="0922">
+    <title>Modo finde</title>
+    <desc>Las noticias que importan, el análisis que aporta y las voces que merece la pena escuchar. Informes especiales, entrevistas y un equipo de lujo. Con la conducción de Guadalupe Regalzi y Leandro Illia.</desc>
+    <date>2025</date>
+    <category>Actualidad</category>
+    <category>Entrevista</category>
+    <category>Relaciones Públicas</category>
+    <category>Reportaje</category>
+    <category>Social</category>
+    <rating><value>PG-13</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/modofinde.jpg" />
+  </programme>
+  <programme start="20261108143000 -0300" stop="20261108170000 -0300" channel="0922">
+    <title>Esto pasó</title>
+    <desc>Cobertura de eventos y noticias que ocurren en el momento.</desc>
+    <date>2023</date>
+    <category>Reportaje</category>
+    <rating><value>PG-13</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/estopaso.jpg" />
+  </programme>
+  <programme start="20261108170000 -0300" stop="20261108173000 -0300" channel="0922">
+    <title>Mi país</title>
+    <desc>Se conocen todas las provincias de Argentina, con una mirada federal. Se vive la cultura nacional desde Ushuaia hasta La Quiaca con el sello de IP.</desc>
+    <credits>
+      <director>Benjamín Infante</director>
+      <actor>Abel Abarca</actor>
+      <actor>Pedro Bustos</actor>
+      <actor>Dindi Jane</actor>
+      <actor>Carolina Sandoval</actor>
+      <actor>Catalina Infante</actor>
+    </credits>
+    <date>2025</date>
+    <category>Especial</category>
+    <category>Reportaje</category>
+    <country>Chile</country>
+    <rating><value>PG-13</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/mipais.jpg" />
+  </programme>
+  <programme start="20261108173000 -0300" stop="20261108180000 -0300" channel="0922">
+    <title>Esto pasó</title>
+    <desc>Cobertura de eventos y noticias que ocurren en el momento.</desc>
+    <date>2023</date>
+    <category>Reportaje</category>
+    <rating><value>PG-13</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/estopaso.jpg" />
+  </programme>
+  <programme start="20261108180000 -0300" stop="20261108190000 -0300" channel="0922">
+    <title>Área Deportiva</title>
+    <desc>La información de este programa no se encuentra disponible.</desc>
+    <category>Deportes</category>
+    <rating><value>PG-13</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/areadeportiva.jpg" />
+  </programme>
+  <programme start="20261108190000 -0300" stop="20261108200000 -0300" channel="0922">
+    <title>Crimen y misterio</title>
+    <desc>El análisis de los casos policiales más emblemáticos de la Argentina.</desc>
+    <category>Reportaje</category>
+    <category>Crimen</category>
+    <rating><value>PG-13</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/crimenymisterio.jpg" />
+  </programme>
+  <programme start="20261108200000 -0300" stop="20261108210000 -0300" channel="0922">
+    <title>Los libros cautivos</title>
+    <desc>El film aborda la censura a la literatura infantil durante la última dictadura cívico militar en Argentina, como parte del plan sistemático de acallamiento de voces sobre la cultura que se ejecutó en esa oscura etapa de la historia nacional.</desc>
+    <credits>
+      <director>Gabriela Fernandez</director>
+    </credits>
+    <date>2025</date>
+    <category>Documental</category>
+    <rating><value>R</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/loslibroscautivos.jpg" />
+  </programme>
+  <programme start="20261108210000 -0300" stop="20261108211500 -0300" channel="0922">
+    <title>Sorteo Brinco</title>
+    <desc>Transmisión del sorteo de Brinco.</desc>
+    <date>2020</date>
+    <category>Partido</category>
+    <rating><value>R</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/sorteobrinco.jpg" />
+  </programme>
+  <programme start="20261108211500 -0300" stop="20261108213000 -0300" channel="0922">
+    <title>Sorteo Quini 6</title>
+    <desc>Transmisión del sorteo del Quini 6.</desc>
+    <date>2016</date>
+    <category>Partido</category>
+    <rating><value>R</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/sorteoquini6.jpg" />
+  </programme>
+  <programme start="20261108213000 -0300" stop="20261108220000 -0300" channel="0922">
+    <title>Esto pasó</title>
+    <desc>Cobertura de eventos y noticias que ocurren en el momento.</desc>
+    <date>2023</date>
+    <category>Reportaje</category>
+    <rating><value>PG-13</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/estopaso.jpg" />
+  </programme>
+  <programme start="20261108220000 -0300" stop="20261108233000 -0300" channel="0922">
+    <title>Opinión pública</title>
+    <desc>Un programa periodístico que aborda temas políticos.</desc>
+    <date>2022</date>
+    <category>Política</category>
+    <category>Talk Show</category>
+    <rating><value>PG-13</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/opinionpublica.jpg" />
+  </programme>
+  <programme start="20261108233000 -0300" stop="20261109003000 -0300" channel="0922">
+    <title>Giuliano</title>
+    <desc>La información de este programa no se encuentra disponible.</desc>
+    <date>2025</date>
+    <category>Especial</category>
+    <rating><value>R</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/giuliano.jpg" />
   </programme>
   <programme start="20261101130000 -0300" stop="20261101200000 -0300" channel="0923">
     <title>Contenido variado</title>
@@ -676105,7 +677512,7 @@ Andrés Gil</desc>
     <rating><value>R</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/secretosverdaderos.jpg" />
   </programme>
-  <programme start="20261107220000 -0300" stop="20261107230000 -0300" channel="0935">
+  <programme start="20261107220000 -0300" stop="20261108000000 -0300" channel="0935">
     <title>Argentina de película</title>
     <desc>Emisión de películas de producción argentina con la participación de sus protagonistas, quienes comentarán el largometraje antes de presentarlo.</desc>
     <date>2024</date>
@@ -676114,11 +677521,204 @@ Andrés Gil</desc>
     <rating><value>R</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/argentinadepelicula.jpg" />
   </programme>
-  <programme start="20261107230000 -0300" stop="20261107235959 -0300" channel="0935">
-    <title>América TV</title>
-    <desc>La informacion de este programa no se encuentra disponible.</desc>
-    <category>Variedades</category>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  <programme start="20261108000000 -0300" stop="20261108003000 -0300" channel="0935">
+    <title>Argentina de película</title>
+    <desc>Emisión de películas de producción argentina con la participación de sus protagonistas, quienes comentarán el largometraje antes de presentarlo.</desc>
+    <date>2024</date>
+    <category>Entretenimiento</category>
+    <category>Entrevista</category>
+    <rating><value>R</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/argentinadepelicula.jpg" />
+  </programme>
+  <programme start="20261108003000 -0300" stop="20261108010000 -0300" channel="0935">
+    <title>Re! Te paso ubicación</title>
+    <desc>La información de este programa no se encuentra disponible.</desc>
+    <date>2026</date>
+    <category>Entretenimiento</category>
+    <rating><value>R</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/retepasoubicacion.jpg" />
+  </programme>
+  <programme start="20261108010000 -0300" stop="20261108053000 -0300" channel="0935">
+    <title>Pasión de sábado</title>
+    <desc>Presentación de los mejores grupos de la movida tropical.</desc>
+    <date>2003</date>
+    <category>Musica</category>
+    <rating><value>R</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/pasiondesabado.jpg" />
+  </programme>
+  <programme start="20261108053000 -0300" stop="20261108060000 -0300" channel="0935">
+    <title>Problemas y soluciones</title>
+    <desc>La Fé nos ayuda a encontrar la solución a los problemas y llevar una vida mejor.</desc>
+    <date>2021</date>
+    <category>Otros</category>
+    <category>Talk Show</category>
+    <country>Brasil</country>
+    <rating><value>R</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/problemasysoluciones.jpg" />
+  </programme>
+  <programme start="20261108060000 -0300" stop="20261108070000 -0300" channel="0935">
+    <title>Pasión de sábado</title>
+    <desc>Presentación de los mejores grupos de la movida tropical.</desc>
+    <date>2003</date>
+    <category>Musica</category>
+    <rating><value>R</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/pasiondesabado.jpg" />
+  </programme>
+  <programme start="20261108070000 -0300" stop="20261108080000 -0300" channel="0935">
+    <title>TeveCompras</title>
+    <desc>Compras por TV donde encuentra los últimos productos del mercado.</desc>
+    <date>2009</date>
+    <category>Series</category>
+    <rating><value>PG0</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/tevecompras.jpg" />
+  </programme>
+  <programme start="20261108080000 -0300" stop="20261108090000 -0300" channel="0935">
+    <title>Mundo visual</title>
+    <desc>Recorrida por los destinos turísticos más importantes de Argentina y el mundo, con información práctica de un viajero experimentado.</desc>
+    <date>2012</date>
+    <category>Viajes</category>
+    <rating><value>R</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/mundovisual.jpg" />
+  </programme>
+  <programme start="20261108090000 -0300" stop="20261108100000 -0300" channel="0935">
+    <title>Ambiente y medio</title>
+    <desc>Un programa de periodismo aplicado a la ecología. Un espacio amplio que abarca desde la explicación de los procesos que conducen a problemas ambientales hasta las formas de enfrentarlos.</desc>
+    <date>2016</date>
+    <category>Ecología</category>
+    <category>Educativo</category>
+    <rating><value>R</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/ambienteymedio.jpg" />
+  </programme>
+  <programme start="20261108100000 -0300" stop="20261108103000 -0300" channel="0935">
+    <title>Pedalearg</title>
+    <desc>Para los amantes de las dos ruedas, la movilidad sustentable y la vida saludable, un espacio donde los apasionados del ciclismo tienen su lugar.</desc>
+    <date>2020</date>
+    <category>Automovilismo</category>
+    <rating><value>PG-13</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/pedalearg.jpg" />
+  </programme>
+  <programme start="20261108103000 -0300" stop="20261108110000 -0300" channel="0935">
+    <title>Re! Te paso ubicación</title>
+    <desc>La información de este programa no se encuentra disponible.</desc>
+    <date>2026</date>
+    <category>Entretenimiento</category>
+    <rating><value>R</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/retepasoubicacion.jpg" />
+  </programme>
+  <programme start="20261108110000 -0300" stop="20261108113000 -0300" channel="0935">
+    <title>Tecno tendencias</title>
+    <desc>Las últimas noticias y las tendencias en el mundo de los juegos y las aplicaciones.</desc>
+    <date>2019</date>
+    <category>Tecnología</category>
+    <rating><value>R</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/tecnotendencias.jpg" />
+  </programme>
+  <programme start="20261108113000 -0300" stop="20261108120000 -0300" channel="0935">
+    <title>Destinos y sabores</title>
+    <desc>Un recorrido por los atractivos turísticos de Argentina y el mundo a través de los aromas y sabores de cada lugar.</desc>
+    <date>2025</date>
+    <category>Gastronomía</category>
+    <category>Viajes</category>
+    <rating><value>R</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/destinosysabores.jpg" />
+  </programme>
+  <programme start="20261108120000 -0300" stop="20261108140000 -0300" channel="0935">
+    <title>Viralizados</title>
+    <desc>Darío Lopilato comparte los videos virales que hay en internet. Los más graciosos, inesperados o anecdóticos que se comparten ampliamente y que generan conversaciones y memes.</desc>
+    <date>2025</date>
+    <category>Entretenimiento</category>
+    <category>Comedia</category>
+    <rating><value>R</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/viralizados.jpg" />
+  </programme>
+  <programme start="20261108140000 -0300" stop="20261108160000 -0300" channel="0935">
+    <title>Secretos verdaderos</title>
+    <desc>Las biografías no autorizadas de los artistas más importantes del mundo del espectáculo, la política, el deporte y el jet set internacional.</desc>
+    <date>2003</date>
+    <category>Entretenimiento</category>
+    <rating><value>R</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/secretosverdaderos.jpg" />
+  </programme>
+  <programme start="20261108160000 -0300" stop="20261108173000 -0300" channel="0935">
+    <title>Especiales América 60 años</title>
+    <desc>La información de este programa no se encuentra disponible.</desc>
+    <date>2026</date>
+    <category>Especial</category>
+    <category>Entretenimiento</category>
+    <rating><value>R</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/especialesamerica60anos.jpg" />
+  </programme>
+  <programme start="20261108173000 -0300" stop="20261108183000 -0300" channel="0935">
+    <title>Infama • La previa</title>
+    <sub-title>La previa</sub-title>
+    <desc>La previa | Todo lo que ocurre en la temporada más caliente, desde Mar del Plata, Punta del Este y Buenos Aires, así como las últimas novedades de la farándula.</desc>
+    <credits>
+      <actor>Karina Iavícoli</actor>
+      <actor>Laura Ubfal</actor>
+      <actor>Oliver Quiroz</actor>
+      <actor>Alfonso Oliva</actor>
+    </credits>
+    <date>2025</date>
+    <category>Entretenimiento</category>
+    <rating><value>R</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/infama.jpg" />
+  </programme>
+  <programme start="20261108183000 -0300" stop="20261108200000 -0300" channel="0935">
+    <title>Infama</title>
+    <desc>Todo lo que ocurre en la temporada más caliente, desde Mar del Plata, Punta del Este y Buenos Aires, así como las últimas novedades de la farándula.</desc>
+    <credits>
+      <actor>Karina Iavícoli</actor>
+      <actor>Laura Ubfal</actor>
+      <actor>Oliver Quiroz</actor>
+      <actor>Alfonso Oliva</actor>
+    </credits>
+    <date>2008</date>
+    <category>Entretenimiento</category>
+    <rating><value>R</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/infama.jpg" />
+  </programme>
+  <programme start="20261108200000 -0300" stop="20261108220000 -0300" channel="0935">
+    <title>GPS</title>
+    <desc>Amalia una joven toma un Uber nocturno para ir a una fiesta, pero el viaje comienza a ponerse cada vez más extraño.</desc>
+    <credits>
+      <director>Gabriela Parra</director>
+      <actor>Kevin Anger</actor>
+      <actor>Cecilia Morales</actor>
+    </credits>
+    <date>2018</date>
+    <category>Entrevista</category>
+    <category>Relaciones Públicas</category>
+    <category>Política</category>
+    <category>Social</category>
+    <country>España</country>
+    <rating><value>PG-13</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/gps.jpg" />
+  </programme>
+  <programme start="20261108220000 -0300" stop="20261108230000 -0300" channel="0935">
+    <title>Mauro Szeta presenta</title>
+    <desc>Mauro Szeta revisita los casos policiales más importantes.</desc>
+    <date>2026</date>
+    <category>Entrevista</category>
+    <category>Crimen</category>
+    <rating><value>R</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/mauroszetapresenta.jpg" />
+  </programme>
+  <programme start="20261108230000 -0300" stop="20261108233000 -0300" channel="0935">
+    <title>Entrevistas de película</title>
+    <desc>Teté Coustarot entrevista reconocidos actores de la industria del entretenimiento argentino.</desc>
+    <date>2025</date>
+    <category>Entretenimiento</category>
+    <category>Entrevista</category>
+    <rating><value>R</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/entrevistasdepelicula.jpg" />
+  </programme>
+  <programme start="20261108233000 -0300" stop="20261109003000 -0300" channel="0935">
+    <title>Modo Selfie</title>
+    <desc>Un programa que recorre distintos lugares del mundo mientras el conductor filma en modo selfi.</desc>
+    <date>2017</date>
+    <category>Viajes</category>
+    <rating><value>PG-13</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/modoselfie.jpg" />
   </programme>
   <programme start="20261101121000 -0300" stop="20261101130000 -0300" channel="0936">
     <title>El Chavo del 8</title>
@@ -678907,6 +680507,288 @@ Andrés Gil</desc>
     <country>Brasil</country>
     <rating><value>R</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/bpm.jpg" />
+  </programme>
+  <programme start="20261108000000 -0300" stop="20261108003000 -0300" channel="0939">
+    <title>Belleza Fashion</title>
+    <desc>Las últimas novedades en tendencias, peinados, desfiles y vida nocturna.</desc>
+    <date>2023</date>
+    <category>Entretenimiento</category>
+    <category>Moda</category>
+    <category>Talk Show</category>
+    <rating><value>R</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/bellezafashion.jpg" />
+  </programme>
+  <programme start="20261108003000 -0300" stop="20261108010000 -0300" channel="0939">
+    <title>Caras realeza</title>
+    <desc>Información sobre los famosos de Argentina y el mundo.</desc>
+    <date>2024</date>
+    <category>Entretenimiento</category>
+    <rating><value>R</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/carasrealeza.jpg" />
+  </programme>
+  <programme start="20261108010000 -0300" stop="20261108020000 -0300" channel="0939">
+    <title>TV compras</title>
+    <desc>Diversos productos para la venta.</desc>
+    <date>2000</date>
+    <category>Series</category>
+    <rating><value>R</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/tvcompras.jpg" />
+  </programme>
+  <programme start="20261108020000 -0300" stop="20261108023000 -0300" channel="0939">
+    <title>Desafío 10 años menos</title>
+    <desc>La información de este programa no se encuentra disponible.</desc>
+    <date>2023</date>
+    <category>Salud</category>
+    <rating><value>R</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/desafio10anosmenos.jpg" />
+  </programme>
+  <programme start="20261108023000 -0300" stop="20261108060000 -0300" channel="0939">
+    <title>El señor de los cielos</title>
+    <desc>La serie narra la historia de Aurelio Casillas, uno de los narcotraficante más importantes de México en los años 90. La única ambición de Aurelio era convertirse en el narco más poderoso de todo México, sin importarle ser cauteloso y mucho menos llamativo. Logró tener fortuna, mujeres, casas, edificios y mansiones sin mucho esfuerzo.</desc>
+    <credits>
+      <director>Miguel Varoni</director>
+      <director>Carlos Villegas Rosales</director>
+      <director>Moisés Ortiz - Urquidi</director>
+      <actor>Rafael Amaya</actor>
+      <actor>Carmen Aub</actor>
+      <actor>Robinson Díaz</actor>
+      <actor>Alejandro López</actor>
+      <actor>Jesús Moré</actor>
+      <actor>Karla Carrillo</actor>
+      <actor>Lisa Owen</actor>
+      <actor>Guy Ecker</actor>
+      <actor>Alberto Guerra</actor>
+      <actor>Francisco Gattorno</actor>
+    </credits>
+    <date>2013</date>
+    <category>Drama</category>
+    <category>Novela</category>
+    <category>Aventura</category>
+    <category>Crimen</category>
+    <country>México</country>
+    <rating><value>PG-13</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/elsenordeloscielos.jpg" />
+  </programme>
+  <programme start="20261108060000 -0300" stop="20261108070000 -0300" channel="0939">
+    <title>El señor de los cielos</title>
+    <desc>La serie narra la historia de Aurelio Casillas, uno de los narcotraficante más importantes de México en los años 90. La única ambición de Aurelio era convertirse en el narco más poderoso de todo México, sin importarle ser cauteloso y mucho menos llamativo. Logró tener fortuna, mujeres, casas, edificios y mansiones sin mucho esfuerzo.</desc>
+    <credits>
+      <director>Miguel Varoni</director>
+      <director>Carlos Villegas Rosales</director>
+      <director>Moisés Ortiz - Urquidi</director>
+      <actor>Rafael Amaya</actor>
+      <actor>Carmen Aub</actor>
+      <actor>Robinson Díaz</actor>
+      <actor>Alejandro López</actor>
+      <actor>Jesús Moré</actor>
+      <actor>Karla Carrillo</actor>
+      <actor>Lisa Owen</actor>
+      <actor>Guy Ecker</actor>
+      <actor>Alberto Guerra</actor>
+      <actor>Francisco Gattorno</actor>
+    </credits>
+    <date>2013</date>
+    <category>Drama</category>
+    <category>Novela</category>
+    <category>Aventura</category>
+    <category>Crimen</category>
+    <country>México</country>
+    <rating><value>PG-13</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/elsenordeloscielos.jpg" />
+  </programme>
+  <programme start="20261108070000 -0300" stop="20261108073000 -0300" channel="0939">
+    <title>Programa pagado</title>
+    <desc>Programa que muestra diversos productos para la venta.</desc>
+    <category>Consumer</category>
+    <rating><value>PG0</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/programapagado.jpg" />
+  </programme>
+  <programme start="20261108073000 -0300" stop="20261108080000 -0300" channel="0939">
+    <title>TV compras</title>
+    <desc>Diversos productos para la venta.</desc>
+    <date>2000</date>
+    <category>Series</category>
+    <rating><value>R</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/tvcompras.jpg" />
+  </programme>
+  <programme start="20261108080000 -0300" stop="20261108083000 -0300" channel="0939">
+    <title>Caras y negocios</title>
+    <desc>Historias de éxito, innovación y estrategia. Las mejores entrevistas con los protagonistas del mundo empresarial.</desc>
+    <date>2024</date>
+    <category>Especial</category>
+    <category>Entretenimiento</category>
+    <category>Entrevista</category>
+    <rating><value>R</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/carasynegocios.jpg" />
+  </programme>
+  <programme start="20261108083000 -0300" stop="20261108100000 -0300" channel="0939">
+    <title>Programa pagado</title>
+    <desc>Programa que muestra diversos productos para la venta.</desc>
+    <category>Consumer</category>
+    <rating><value>PG0</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/programapagado.jpg" />
+  </programme>
+  <programme start="20261108100000 -0300" stop="20261108103000 -0300" channel="0939">
+    <title>Jubilate en vivo</title>
+    <desc>La información de este programa no se encuentra disponible.</desc>
+    <category>Series</category>
+    <rating><value>R</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/jubilateenvivo.jpg" />
+  </programme>
+  <programme start="20261108103000 -0300" stop="20261108110000 -0300" channel="0939">
+    <title>Scouting para un cambio</title>
+    <desc>Se realizan castings a través de diferentes influencers para elegir a una afortunada que pasará por un proceso de cambio de imagen.</desc>
+    <date>2024</date>
+    <category>Salud</category>
+    <category>Entretenimiento</category>
+    <rating><value>R</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/scoutingparauncambio.jpg" />
+  </programme>
+  <programme start="20261108110000 -0300" stop="20261108120000 -0300" channel="0939">
+    <title>Intelexis TV</title>
+    <desc>Programa enfocado en temas de salud y bienestar.</desc>
+    <date>2025</date>
+    <category>Salud</category>
+    <category>Relaciones Públicas</category>
+    <category>Social</category>
+    <rating><value>R</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/intelexistv.jpg" />
+  </programme>
+  <programme start="20261108120000 -0300" stop="20261108130000 -0300" channel="0939">
+    <title>Fiestas argentinas</title>
+    <desc>Un programa que recorre el país visitando diferentes lugares en un recorrido por la historia, el turismo, la producción, la gente y las fiestas populares.</desc>
+    <date>2012</date>
+    <category>Viajes</category>
+    <rating><value>R</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fiestasargentinas.jpg" />
+  </programme>
+  <programme start="20261108130000 -0300" stop="20261108140000 -0300" channel="0939">
+    <title>Todos podemos viajar</title>
+    <desc>Una propuesta original que muestra los principales destinos y eventos turísticos del mundo.</desc>
+    <date>2023</date>
+    <category>Viajes</category>
+    <rating><value>R</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/todospodemosviajar.jpg" />
+  </programme>
+  <programme start="20261108140000 -0300" stop="20261108150000 -0300" channel="0939">
+    <title>Pares de comedia</title>
+    <desc>Entrevista a diferentes exponentes argentinos del humor.</desc>
+    <date>2021</date>
+    <category>Entrevista</category>
+    <category>Comedia</category>
+    <rating><value>R</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/paresdecomedia.jpg" />
+  </programme>
+  <programme start="20261108150000 -0300" stop="20261108163000 -0300" channel="0939">
+    <title>Película</title>
+    <desc>Construir vínculos, experimentar nuevos lugares, reflexionar desde el amor, abrazar el dolor, seducir los cuerpos, de-construir las miradas, abandonar la culpa, crear identidades, habitar los huecos, potenciar la conciencia, encontrarse a sí mismo, soltar vínculos.  Creating bonds, experimenting new places, reflecting from love, embracing the pain, seducing the bodies, deconstructing the looks, giving up guilt, creating identities, inhabiting the empty places, strengthening the conscience, finding yourself, letting the bonds go.</desc>
+    <credits>
+      <director>Diego Stickar</director>
+      <actor>Paolo Giuliano</actor>
+      <actor>Santiago Scauso</actor>
+      <actor>Soledad Marrero Senlle</actor>
+      <actor>Inés Recher</actor>
+      <actor>Silvio Lang</actor>
+      <actor>Santiago Bengolea</actor>
+      <actor>Francisca Capra</actor>
+      <actor>Danae Cisneros</actor>
+    </credits>
+    <date>2017</date>
+    <category>Entretenimiento</category>
+    <country>Argentina</country>
+    <rating><value>PG0</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/pelicula.jpg" />
+  </programme>
+  <programme start="20261108163000 -0300" stop="20261108180000 -0300" channel="0939">
+    <title>Película</title>
+    <desc>Construir vínculos, experimentar nuevos lugares, reflexionar desde el amor, abrazar el dolor, seducir los cuerpos, de-construir las miradas, abandonar la culpa, crear identidades, habitar los huecos, potenciar la conciencia, encontrarse a sí mismo, soltar vínculos.  Creating bonds, experimenting new places, reflecting from love, embracing the pain, seducing the bodies, deconstructing the looks, giving up guilt, creating identities, inhabiting the empty places, strengthening the conscience, finding yourself, letting the bonds go.</desc>
+    <credits>
+      <director>Diego Stickar</director>
+      <actor>Paolo Giuliano</actor>
+      <actor>Santiago Scauso</actor>
+      <actor>Soledad Marrero Senlle</actor>
+      <actor>Inés Recher</actor>
+      <actor>Silvio Lang</actor>
+      <actor>Santiago Bengolea</actor>
+      <actor>Francisca Capra</actor>
+      <actor>Danae Cisneros</actor>
+    </credits>
+    <date>2017</date>
+    <category>Entretenimiento</category>
+    <country>Argentina</country>
+    <rating><value>PG0</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/pelicula.jpg" />
+  </programme>
+  <programme start="20261108180000 -0300" stop="20261108193000 -0300" channel="0939">
+    <title>Película</title>
+    <desc>Construir vínculos, experimentar nuevos lugares, reflexionar desde el amor, abrazar el dolor, seducir los cuerpos, de-construir las miradas, abandonar la culpa, crear identidades, habitar los huecos, potenciar la conciencia, encontrarse a sí mismo, soltar vínculos.  Creating bonds, experimenting new places, reflecting from love, embracing the pain, seducing the bodies, deconstructing the looks, giving up guilt, creating identities, inhabiting the empty places, strengthening the conscience, finding yourself, letting the bonds go.</desc>
+    <credits>
+      <director>Diego Stickar</director>
+      <actor>Paolo Giuliano</actor>
+      <actor>Santiago Scauso</actor>
+      <actor>Soledad Marrero Senlle</actor>
+      <actor>Inés Recher</actor>
+      <actor>Silvio Lang</actor>
+      <actor>Santiago Bengolea</actor>
+      <actor>Francisca Capra</actor>
+      <actor>Danae Cisneros</actor>
+    </credits>
+    <date>2017</date>
+    <category>Entretenimiento</category>
+    <country>Argentina</country>
+    <rating><value>PG0</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/pelicula.jpg" />
+  </programme>
+  <programme start="20261108193000 -0300" stop="20261108210000 -0300" channel="0939">
+    <title>Película</title>
+    <desc>Construir vínculos, experimentar nuevos lugares, reflexionar desde el amor, abrazar el dolor, seducir los cuerpos, de-construir las miradas, abandonar la culpa, crear identidades, habitar los huecos, potenciar la conciencia, encontrarse a sí mismo, soltar vínculos.  Creating bonds, experimenting new places, reflecting from love, embracing the pain, seducing the bodies, deconstructing the looks, giving up guilt, creating identities, inhabiting the empty places, strengthening the conscience, finding yourself, letting the bonds go.</desc>
+    <credits>
+      <director>Diego Stickar</director>
+      <actor>Paolo Giuliano</actor>
+      <actor>Santiago Scauso</actor>
+      <actor>Soledad Marrero Senlle</actor>
+      <actor>Inés Recher</actor>
+      <actor>Silvio Lang</actor>
+      <actor>Santiago Bengolea</actor>
+      <actor>Francisca Capra</actor>
+      <actor>Danae Cisneros</actor>
+    </credits>
+    <date>2017</date>
+    <category>Entretenimiento</category>
+    <country>Argentina</country>
+    <rating><value>PG0</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/pelicula.jpg" />
+  </programme>
+  <programme start="20261108210000 -0300" stop="20261108220000 -0300" channel="0939">
+    <title>Orden en la sala</title>
+    <desc>La información de este programa no se encuentra disponible.</desc>
+    <date>2008</date>
+    <category>Educativo</category>
+    <rating><value>R</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/ordenenlasala.jpg" />
+  </programme>
+  <programme start="20261108220000 -0300" stop="20261108230000 -0300" channel="0939">
+    <title>Biri biri</title>
+    <desc>Un espacio en el que se habla de todo. Tendencias, famosos, entretenimiento digital y todos los chismes que no te quieres perder.</desc>
+    <credits>
+      <actor>Caterina Pugin</actor>
+      <actor>Alfredo Silva</actor>
+      <actor>Mauricio Jortack</actor>
+      <actor>Daniel Casanovo</actor>
+    </credits>
+    <date>2025</date>
+    <category>Entretenimiento</category>
+    <rating><value>R</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/biribiri.jpg" />
+  </programme>
+  <programme start="20261108230000 -0300" stop="20261109000000 -0300" channel="0939">
+    <title>Periodismo puro</title>
+    <desc>Ciclo de entrevistas con figuras políticas argentinas de la actualidad.</desc>
+    <date>2019</date>
+    <category>Entrevista</category>
+    <category>Política</category>
+    <rating><value>PG-13</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/periodismopuro.jpg" />
   </programme>
   <programme start="20261101130000 -0300" stop="20261101140000 -0300" channel="0940">
     <title>Cuarteteando</title>
@@ -704761,7 +706643,20 @@ La serie animada es una producción de Sony Pictures Animation y Nelvana Limited
   <programme start="20261107114600 -0300" stop="20261107153800 -0300" channel="0977">
     <title>Los Diez Mandamientos</title>
     <desc>Drama bíblico ambientado en el Antiguo Egipto que narra la historia de Moisés, favorito de la familia del faraón, el cual decide renunciar a su vida de privilegios para conducir a su pueblo, los hebreos esclavizados en Egipto, hacia la libertad.</desc>
+    <credits>
+      <director>Cecil B. DeMille</director>
+      <actor>Charlton Heston</actor>
+      <actor>Yul Brynner</actor>
+      <actor>Anne Baxter</actor>
+      <actor>Edward G. Robinson</actor>
+      <actor>Yvonne De Carlo</actor>
+      <actor>Debra Paget</actor>
+      <actor>John Derek</actor>
+      <actor>Cedric Hardwicke</actor>
+    </credits>
+    <date>1956</date>
     <category>MOVIES RETRO</category>
+    <country>Estados Unidos</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/losdiezmandamientos.jpg" />
   </programme>
   <programme start="20261107153800 -0300" stop="20261107172800 -0300" channel="0977">
