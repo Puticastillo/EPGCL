@@ -150853,7 +150853,7 @@ Claudia Gurisatti - Jefferson Beltrán - Jason Calderón</desc>
   </programme>
   <programme start="20261108140000 -0300" stop="20261108154500 -0300" channel="1304">
     <title>High School Musical</title>
-    <desc>Troy y Gabriela se conocen en un karaoke durante las vacaciones. Troy es una estrella de baloncesto, y Gabriela es la nueva estudiante. Al volver al colegio, se presentan al casting para el musical de la escuela, pero deben superar varios obstáculos.</desc>
+    <desc>Durante unas vacaciones de Navidad, los jóvenes Troy y Gabriella (dos adolescentes en principo con pocas cosas en común) se conocen. Ambos descubren su interés mutuo por la música durante un concurso de karaoke, y deciden presentarse al casting del musical del instituto.</desc>
     <credits>
       <director>Kenny Ortega</director>
       <actor>Zac Efron</actor>
@@ -150870,8 +150870,9 @@ Claudia Gurisatti - Jefferson Beltrán - Jason Calderón</desc>
     <category>Movie</category>
     <category>Children</category>
     <category>Musical comedy</category>
+    <country>Estados Unidos</country>
     <rating><value>TVG</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/highschoolmusical.jpg" />
   </programme>
   <programme start="20261108154500 -0300" stop="20261108161500 -0300" channel="1304">
     <title>Los hechiceros más allá de Waverly Place • Necesitaremos una carroza más grande</title>
@@ -279749,6 +279750,7 @@ Esta secuela ignora por completo los fillers (Capítulos y conceptos inventados 
     <category>Familia</category>
     <category>Animación</category>
     <country>Estados Unidos</country>
+    <rating><value>TE</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/tomyjerry.jpg" />
   </programme>
   <programme start="20261102140600 -0300" stop="20261102143300 -0300" channel="0325">
@@ -313786,11 +313788,13 @@ de Billy y Mandy</title>
     <title>Greenland</title>
     <desc>Una serie documental sobre los campos de fútbol más insospechados y exóticos del planeta, que impresionan por sus contrastes, pero donde jugar fútbol no es imposible.</desc>
     <credits>
+      <actor>Andres Agulla</actor>
       <presenter>Andrés Agulla</presenter>
     </credits>
     <date>2020</date>
     <category>Documentary</category>
     <category>Soccer</category>
+    <country>Estados Unidos</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/greenland.jpg" />
   </programme>
   <programme start="20261108220000 -0300" stop="20261108223000 -0300" channel="2418">
@@ -369542,10 +369546,15 @@ Estos tres estudiantes intentan ocultar sus habilidades especiales a los demás,
     <title>Yard Crashers • Mountain Retreat</title>
     <sub-title>Mountain Retreat</sub-title>
     <desc>Mountain Retreat | Chris viene con un diseño de montaña-retro para el patio vacío del nuevo hogar, incluyendo pantalla para la privacidad, la fuente de agua y la repisa de piedra.</desc>
+    <credits>
+      <actor>Matt Blashaw</actor>
+    </credits>
+    <date>2008</date>
     <category>Reality</category>
+    <country>Estados Unidos</country>
     <episode-num system="onscreen">S14E02</episode-num>
     <rating><value>TVG</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/yardcrashers.jpg" />
   </programme>
   <programme start="20261102225600 -0300" stop="20261102230000 -0300" channel="0603">
     <title>Remodelación sorpresa: jardines</title>
@@ -369559,10 +369568,15 @@ Estos tres estudiantes intentan ocultar sus habilidades especiales a los demás,
     <title>Yard Crashers • Vintage Chic</title>
     <sub-title>Vintage Chic</sub-title>
     <desc>Vintage Chic | Una familia amante del béisbol consigue un nuevo patio que incluye un camino de lajas, una pérgola de madera roja, una cocina al aire libre, bancos de madera y un marcador único en su tipo.</desc>
+    <credits>
+      <actor>Matt Blashaw</actor>
+    </credits>
+    <date>2008</date>
     <category>Reality</category>
+    <country>Estados Unidos</country>
     <episode-num system="onscreen">S14E03</episode-num>
     <rating><value>TVG</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/yardcrashers.jpg" />
   </programme>
   <programme start="20261102231600 -0300" stop="20261102233900 -0300" channel="0603">
     <title>Nuestro hogar en la montaña • Refugio para escaladores en Tucson, Arizona</title>
@@ -644211,8 +644225,18 @@ Y por último están Brenda Uriarte, su hermano Tony, su madrastra Constanza y s
   <programme start="20261105000000 -0300" stop="20261105012500 -0300" channel="0828">
     <title>En busca de la muerte</title>
     <desc>Dos hermanos se unenn al crimen organizado para saldar la deuda que su padre tiene con un cártel. Situaciones peligrosas y traiciones se hacen presentes.</desc>
+    <credits>
+      <director>Zacarías Gómez Urquiza</director>
+      <actor>Armando Silvestre</actor>
+      <actor>Lilia del Valle</actor>
+      <actor>Carlos Cores</actor>
+      <actor>Magda Guzmán</actor>
+      <actor>José Luis Moreno</actor>
+      <actor>David Silva</actor>
+    </credits>
     <date>2025</date>
     <category>Drama</category>
+    <country>México</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261105012500 -0300" stop="20261105022500 -0300" channel="0828">
@@ -753788,6 +753812,7 @@ de Billy y Mandy</title>
     </credits>
     <date>2015</date>
     <category>Aventura</category>
+    <country>España</country>
     <rating><value>6.4</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
@@ -754671,6 +754696,7 @@ de Billy y Mandy</title>
     <category>Movie</category>
     <category>Comedy</category>
     <category>Adventure</category>
+    <country>España</country>
     <rating><value>B</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
@@ -755032,6 +755058,7 @@ de Billy y Mandy</title>
     <category>Movie</category>
     <category>Comedy</category>
     <category>Adventure</category>
+    <country>España</country>
     <rating><value>B</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
@@ -756735,6 +756762,7 @@ de Billy y Mandy</title>
     <category>Movie</category>
     <category>Comedy</category>
     <category>Adventure</category>
+    <country>España</country>
     <rating><value>B</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
@@ -811417,7 +811445,12 @@ Andrés Gil</desc>
   <programme start="20261103100000 -0300" stop="20261103120000 -0300" channel="0936">
     <title>Nuevo día</title>
     <desc>Cortometraje de Luis Cazes</desc>
+    <credits>
+      <director>Luis Cazes</director>
+    </credits>
+    <date>2002</date>
     <category>Magazine</category>
+    <country>Argentina</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261103120000 -0300" stop="20261103130000 -0300" channel="0936">
@@ -818229,7 +818262,12 @@ Andrés Gil</desc>
   <programme start="20261103223000 -0300" stop="20261103233000 -0300" channel="0946">
     <title>Salió el sol</title>
     <desc>Un magazine matutino que le da los buenos días a los televidentes de las regiones y provincias de Colombia. Presenta secciones de cocina, mascotas, fitness y mucho más.</desc>
+    <credits>
+      <director>Eduardo Makoszay Mayén</director>
+    </credits>
+    <date>2023</date>
     <category>Magazine</category>
+    <country>Estados Unidos</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261103233000 -0300" stop="20261104000000 -0300" channel="0946">
@@ -844158,7 +844196,20 @@ La serie animada es una producción de Sony Pictures Animation y Nelvana Limited
   <programme start="20261107143600 -0300" stop="20261107161800 -0300" channel="0978">
     <title>Onward</title>
     <desc>Ambientado en un mundo de fantasía suburbana, dos hermanos elfos adolescentes, Ian y Barley Lightfood, se embarcan en una aventura en la que se proponen descubrir si existe aún algo de magia en el mundo que les permita pasar un último día con su padre, que falleció cuando ellos eran aún muy pequeños como para poder recordarlo.</desc>
+    <credits>
+      <director>Dan Scanlon</director>
+      <actor>Tom Holland</actor>
+      <actor>Chris Pratt</actor>
+      <actor>Julia Louis-Dreyfus</actor>
+      <actor>Octavia Spencer</actor>
+      <actor>Mel Rodriguez</actor>
+      <actor>Kyle Bornheimer</actor>
+      <actor>Lena Waithe</actor>
+      <actor>Ali Wong</actor>
+    </credits>
+    <date>2020</date>
     <category>Movies</category>
+    <country>Estados Unidos</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/onward.jpg" />
   </programme>
   <programme start="20261107161800 -0300" stop="20261107175200 -0300" channel="0978">
