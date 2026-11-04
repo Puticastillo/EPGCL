@@ -9487,7 +9487,7 @@ No aparece en el programa ningún otro superhéroe de ficción, a excepción  de
     <category>Fundraiser</category>
     <country>Chile</country>
     <rating><value>I12</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0107_fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/matinaton.jpg" />
   </programme>
   <programme start="20261106130000 -0300" stop="20261106152000 -0300" channel="0107">
     <title>Teletrece tarde</title>
@@ -16065,7 +16065,7 @@ No aparece en el programa ningún otro superhéroe de ficción, a excepción  de
     <country>Chile</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/notnews.jpg" />
   </programme>
-  <programme start="20261106043000 -0300" stop="20261106053000 -0300" channel="0112">
+  <programme start="20261106043000 -0300" stop="20261106060000 -0300" channel="0112">
     <title>Todo va a estar bien</title>
     <desc>Late show de charla en el que el conductor busca sorprender a sus invitados así como también a la audiencia. Este programa acompaña y entretiene por la noche con conversaciones con diversas personalidades.</desc>
     <credits>
@@ -16079,37 +16079,198 @@ No aparece en el programa ningún otro superhéroe de ficción, a excepción  de
     <country>Chile</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/todovaaestarbien.jpg" />
   </programme>
-  <programme start="20261106053000 -0300" stop="20261106060000 -0300" channel="0112">
-    <title>Vía X</title>
-    <desc>La informacion de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0112_fallback.jpg" />
+  <programme start="20261106060000 -0300" stop="20261106073000 -0300" channel="0112">
+    <title>Cadena nacional</title>
+    <desc>Programa informativo que da el espacio para debatir sobre la actualidad que atraviesa a los chilenos junto a invitados y personajes destacados.</desc>
+    <credits>
+      <actor>Francisco Sagredo</actor>
+    </credits>
+    <date>2006</date>
+    <category>Debate y Opinión</category>
+    <country>Chile</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/cadenanacional.jpg" />
   </programme>
-  <programme start="20261106060000 -0300" stop="20261106100000 -0300" channel="0112">
-    <title>Vía X</title>
-    <desc>La informacion de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0112_fallback.jpg" />
+  <programme start="20261106073000 -0300" stop="20261106090000 -0300" channel="0112">
+    <title>Not news</title>
+    <desc>El único programa de la televisión chilena que aborda la actualidad con una cuota de humor.</desc>
+    <credits>
+      <actor>Nicolás Larraín</actor>
+    </credits>
+    <date>2023</date>
+    <category>Debate y Opinión</category>
+    <country>Chile</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/notnews.jpg" />
   </programme>
-  <programme start="20261106100000 -0300" stop="20261106140000 -0300" channel="0112">
-    <title>Vía X</title>
-    <desc>La informacion de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0112_fallback.jpg" />
+  <programme start="20261106090000 -0300" stop="20261106103000 -0300" channel="0112">
+    <title>Todo va a estar bien</title>
+    <desc>Late show de charla en el que el conductor busca sorprender a sus invitados así como también a la audiencia. Este programa acompaña y entretiene por la noche con conversaciones con diversas personalidades.</desc>
+    <credits>
+      <presenter>Mauricio Flores</presenter>
+      <presenter>Rodrigo González</presenter>
+      <presenter>Gigi Martin</presenter>
+      <presenter>Juan Carlos Meléndez</presenter>
+    </credits>
+    <date>2024</date>
+    <category>Entretención</category>
+    <country>Chile</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/todovaaestarbien.jpg" />
   </programme>
-  <programme start="20261106140000 -0300" stop="20261106180000 -0300" channel="0112">
-    <title>Vía X</title>
-    <desc>La informacion de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0112_fallback.jpg" />
+  <programme start="20261106103000 -0300" stop="20261106120000 -0300" channel="0112">
+    <title>Cadena nacional</title>
+    <desc>Programa informativo que da el espacio para debatir sobre la actualidad que atraviesa a los chilenos junto a invitados y personajes destacados.</desc>
+    <credits>
+      <actor>Francisco Sagredo</actor>
+    </credits>
+    <date>2006</date>
+    <category>Debate y Opinión</category>
+    <country>Chile</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/cadenanacional.jpg" />
   </programme>
-  <programme start="20261106180000 -0300" stop="20261106220000 -0300" channel="0112">
-    <title>Vía X</title>
-    <desc>La informacion de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0112_fallback.jpg" />
+  <programme start="20261106120000 -0300" stop="20261106133000 -0300" channel="0112">
+    <title>Not news</title>
+    <desc>El único programa de la televisión chilena que aborda la actualidad con una cuota de humor.</desc>
+    <credits>
+      <actor>Nicolás Larraín</actor>
+    </credits>
+    <date>2023</date>
+    <category>Debate y Opinión</category>
+    <country>Chile</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/notnews.jpg" />
   </programme>
-  <programme start="20261106220000 -0300" stop="20261107020000 -0300" channel="0112">
-    <title>Vía X</title>
-    <desc>La informacion de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0112_fallback.jpg" />
+  <programme start="20261106133000 -0300" stop="20261106150000 -0300" channel="0112">
+    <title>Todo va a estar bien</title>
+    <desc>Late show de charla en el que el conductor busca sorprender a sus invitados así como también a la audiencia. Este programa acompaña y entretiene por la noche con conversaciones con diversas personalidades.</desc>
+    <credits>
+      <presenter>Mauricio Flores</presenter>
+      <presenter>Rodrigo González</presenter>
+      <presenter>Gigi Martin</presenter>
+      <presenter>Juan Carlos Meléndez</presenter>
+    </credits>
+    <date>2024</date>
+    <category>Entretención</category>
+    <country>Chile</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/todovaaestarbien.jpg" />
   </programme>
-  <programme start="20261107020000 -0300" stop="20261107060000 -0300" channel="0112">
+  <programme start="20261106150000 -0300" stop="20261106163000 -0300" channel="0112">
+    <title>Cadena nacional</title>
+    <desc>Programa informativo que da el espacio para debatir sobre la actualidad que atraviesa a los chilenos junto a invitados y personajes destacados.</desc>
+    <credits>
+      <actor>Francisco Sagredo</actor>
+    </credits>
+    <date>2006</date>
+    <category>Debate y Opinión</category>
+    <country>Chile</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/cadenanacional.jpg" />
+  </programme>
+  <programme start="20261106163000 -0300" stop="20261106180000 -0300" channel="0112">
+    <title>Not news</title>
+    <desc>El único programa de la televisión chilena que aborda la actualidad con una cuota de humor.</desc>
+    <credits>
+      <actor>Nicolás Larraín</actor>
+    </credits>
+    <date>2023</date>
+    <category>Debate y Opinión</category>
+    <country>Chile</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/notnews.jpg" />
+  </programme>
+  <programme start="20261106180000 -0300" stop="20261106193000 -0300" channel="0112">
+    <title>Todo va a estar bien</title>
+    <desc>Late show de charla en el que el conductor busca sorprender a sus invitados así como también a la audiencia. Este programa acompaña y entretiene por la noche con conversaciones con diversas personalidades.</desc>
+    <credits>
+      <presenter>Mauricio Flores</presenter>
+      <presenter>Rodrigo González</presenter>
+      <presenter>Gigi Martin</presenter>
+      <presenter>Juan Carlos Meléndez</presenter>
+    </credits>
+    <date>2024</date>
+    <category>Entretención</category>
+    <country>Chile</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/todovaaestarbien.jpg" />
+  </programme>
+  <programme start="20261106193000 -0300" stop="20261106210000 -0300" channel="0112">
+    <title>Cadena nacional</title>
+    <desc>Programa informativo que da el espacio para debatir sobre la actualidad que atraviesa a los chilenos junto a invitados y personajes destacados.</desc>
+    <credits>
+      <actor>Francisco Sagredo</actor>
+    </credits>
+    <date>2006</date>
+    <category>Debate y Opinión</category>
+    <country>Chile</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/cadenanacional.jpg" />
+  </programme>
+  <programme start="20261106210000 -0300" stop="20261106223000 -0300" channel="0112">
+    <title>Not news</title>
+    <desc>El único programa de la televisión chilena que aborda la actualidad con una cuota de humor.</desc>
+    <credits>
+      <actor>Nicolás Larraín</actor>
+    </credits>
+    <date>2023</date>
+    <category>Debate y Opinión</category>
+    <country>Chile</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/notnews.jpg" />
+  </programme>
+  <programme start="20261106223000 -0300" stop="20261107000000 -0300" channel="0112">
+    <title>Todo va a estar bien</title>
+    <desc>Late show de charla en el que el conductor busca sorprender a sus invitados así como también a la audiencia. Este programa acompaña y entretiene por la noche con conversaciones con diversas personalidades.</desc>
+    <credits>
+      <presenter>Mauricio Flores</presenter>
+      <presenter>Rodrigo González</presenter>
+      <presenter>Gigi Martin</presenter>
+      <presenter>Juan Carlos Meléndez</presenter>
+    </credits>
+    <date>2024</date>
+    <category>Entretención</category>
+    <country>Chile</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/todovaaestarbien.jpg" />
+  </programme>
+  <programme start="20261107000000 -0300" stop="20261107013000 -0300" channel="0112">
+    <title>Not news</title>
+    <desc>El único programa de la televisión chilena que aborda la actualidad con una cuota de humor.</desc>
+    <credits>
+      <actor>Nicolás Larraín</actor>
+    </credits>
+    <date>2023</date>
+    <category>Debate y Opinión</category>
+    <country>Chile</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/notnews.jpg" />
+  </programme>
+  <programme start="20261107013000 -0300" stop="20261107030000 -0300" channel="0112">
+    <title>Cadena nacional</title>
+    <desc>Programa informativo que da el espacio para debatir sobre la actualidad que atraviesa a los chilenos junto a invitados y personajes destacados.</desc>
+    <credits>
+      <actor>Francisco Sagredo</actor>
+    </credits>
+    <date>2006</date>
+    <category>Debate y Opinión</category>
+    <country>Chile</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/cadenanacional.jpg" />
+  </programme>
+  <programme start="20261107030000 -0300" stop="20261107043000 -0300" channel="0112">
+    <title>Not news</title>
+    <desc>El único programa de la televisión chilena que aborda la actualidad con una cuota de humor.</desc>
+    <credits>
+      <actor>Nicolás Larraín</actor>
+    </credits>
+    <date>2023</date>
+    <category>Debate y Opinión</category>
+    <country>Chile</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/notnews.jpg" />
+  </programme>
+  <programme start="20261107043000 -0300" stop="20261107053000 -0300" channel="0112">
+    <title>Todo va a estar bien</title>
+    <desc>Late show de charla en el que el conductor busca sorprender a sus invitados así como también a la audiencia. Este programa acompaña y entretiene por la noche con conversaciones con diversas personalidades.</desc>
+    <credits>
+      <presenter>Mauricio Flores</presenter>
+      <presenter>Rodrigo González</presenter>
+      <presenter>Gigi Martin</presenter>
+      <presenter>Juan Carlos Meléndez</presenter>
+    </credits>
+    <date>2024</date>
+    <category>Entretención</category>
+    <country>Chile</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/todovaaestarbien.jpg" />
+  </programme>
+  <programme start="20261107053000 -0300" stop="20261107060000 -0300" channel="0112">
     <title>Vía X</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0112_fallback.jpg" />
@@ -20503,7 +20664,7 @@ No aparece en el programa ningún otro superhéroe de ficción, a excepción  de
     <rating><value>18</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/dominiopublico.jpg" />
   </programme>
-  <programme start="20261106014500 -0300" stop="20261106024500 -0300" channel="0115">
+  <programme start="20261106014500 -0300" stop="20261106063500 -0300" channel="0115">
     <title>Cierre de transmisiones</title>
     <desc>Fin de emisión diaria del canal.</desc>
     <date>2022</date>
@@ -20511,127 +20672,298 @@ No aparece en el programa ningún otro superhéroe de ficción, a excepción  de
     <rating><value>18</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/cierredetransmisiones.jpg" />
   </programme>
-  <programme start="20261106024500 -0300" stop="20261106030000 -0300" channel="0115">
+  <programme start="20261106063500 -0300" stop="20261106070000 -0300" channel="0115">
+    <title>Perrito galáctico</title>
+    <desc>El quiltro chileno que viaja al espacio con sus amigos y vive aventuras singulares con extraterrestres y más.</desc>
+    <category>Infantil</category>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/perritogalactico.jpg" />
+  </programme>
+  <programme start="20261106070000 -0300" stop="20261106100000 -0300" channel="0115">
+    <title>Radio análisis</title>
+    <desc>Las noticias más relevantes ocurridas durante el día.</desc>
+    <date>2025</date>
+    <category>Noticias y Actualidad</category>
+    <rating><value>18</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/radioanalisis.jpg" />
+  </programme>
+  <programme start="20261106100000 -0300" stop="20261106120000 -0300" channel="0115">
+    <title>CNTV infantil</title>
+    <desc>Bloque de programación variada, entretenida, cultural y educativa, diseñada especialmente para estimular el aprendizaje de niños, niñas y adolescentes</desc>
+    <date>2000</date>
+    <category>Infantil</category>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/cntvinfantil.jpg" />
+  </programme>
+  <programme start="20261106120000 -0300" stop="20261106123000 -0300" channel="0115">
+    <title>Saberes inclusivos</title>
+    <desc>Serie sobre las prácticas e historias de inclusividad y esfuerzo</desc>
+    <category>Documentales</category>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/saberesinclusivos.jpg" />
+  </programme>
+  <programme start="20261106123000 -0300" stop="20261106130000 -0300" channel="0115">
+    <title>Memorias de parque</title>
+    <desc>Se desarrolla en torno a los testimonios de hombres y mujeres que tuvieron un vínculo directo con experiencias carcelarias o ex presos políticos o civiles de la Ex Cárcel de Valparaíso.</desc>
+    <category>Documentales</category>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0115_fallback.jpg" />
+  </programme>
+  <programme start="20261106130000 -0300" stop="20261106140000 -0300" channel="0115">
+    <title>Radio análisis</title>
+    <desc>Las noticias más relevantes ocurridas durante el día.</desc>
+    <date>2025</date>
+    <category>Noticias y Actualidad</category>
+    <rating><value>18</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/radioanalisis.jpg" />
+  </programme>
+  <programme start="20261106140000 -0300" stop="20261106143000 -0300" channel="0115">
+    <title>Factos</title>
+    <desc>Programa de análisis contingente, que junto a diferentes invitados, analizan las noticias y el debate político que marcan la pauta en Chile y el mundo.</desc>
+    <category>Debate y Opinión</category>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/factos.jpg" />
+  </programme>
+  <programme start="20261106143000 -0300" stop="20261106153000 -0300" channel="0115">
+    <title>La Vitrola</title>
+    <desc>La Vitrola.cl es un galardonado sitio chileno dedicado a la documentación y difusión de videoclips en vivo y unplugged.</desc>
+    <category>Música</category>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/lavitrola.jpg" />
+  </programme>
+  <programme start="20261106153000 -0300" stop="20261106163000 -0300" channel="0115">
+    <title>CNTV infantil</title>
+    <desc>Bloque de programación variada, entretenida, cultural y educativa, diseñada especialmente para estimular el aprendizaje de niños, niñas y adolescentes</desc>
+    <date>2000</date>
+    <category>Infantil</category>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/cntvinfantil.jpg" />
+  </programme>
+  <programme start="20261106163000 -0300" stop="20261106170000 -0300" channel="0115">
+    <title>Alonso y Cachudito</title>
+    <desc>Las aventuras de Alonso y Cachudito nos enseñan a jugar en nuestros patios y con la naturaleza.</desc>
+    <category>Interés General</category>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/alonsoycachudito.jpg" />
+  </programme>
+  <programme start="20261106170000 -0300" stop="20261106180000 -0300" channel="0115">
+    <title>Caleidoscopio</title>
+    <desc>Un veterano ladrón y su banda montan un golpe épico para ganar 7000 millones de dólares. Pero la traición, la avaricia y otras amenazas frustran sus planes.</desc>
+    <credits>
+      <director>Eric Garcia</director>
+      <actor>Giancarlo Esposito</actor>
+      <actor>Paz Vega</actor>
+      <actor>Rufus Sewell</actor>
+      <actor>Tati Gabrielle</actor>
+      <actor>Peter Mark Kendall</actor>
+      <actor>Rosaline Elbay</actor>
+      <actor>Jai Courtney</actor>
+      <actor>Niousha Noor</actor>
+    </credits>
+    <date>2023</date>
+    <category>Documentales</category>
+    <country>Estados Unidos</country>
+    <rating><value>14</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/caleidoscopio.jpg" />
+  </programme>
+  <programme start="20261106180000 -0300" stop="20261106183000 -0300" channel="0115">
+    <title>Repertorio CL: Solo videoclips</title>
+    <desc>En su versión más elemental, mostramos los videoclips de la música chilena contemporánea.</desc>
+    <date>2023</date>
+    <category>Música</category>
+    <rating><value>14</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/repertorioclsolovideoclips.jpg" />
+  </programme>
+  <programme start="20261106183000 -0300" stop="20261106190000 -0300" channel="0115">
+    <title>Espacio FIDOCS</title>
+    <desc>Programa de entrevistas sobre el cine de lo real.</desc>
+    <category>Interés General</category>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/espaciofidocs.jpg" />
+  </programme>
+  <programme start="20261106190000 -0300" stop="20261106193000 -0300" channel="0115">
+    <title>Conversaciones: Sala Nemesio</title>
+    <desc>Exploramos la dirección y actuación del cine chileno en este espacio conducido por Natalia Aragonese.</desc>
+    <category>Interés General</category>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/conversacionessalanemesio.jpg" />
+  </programme>
+  <programme start="20261106193000 -0300" stop="20261106194000 -0300" channel="0115">
+    <title>¿Cómo llegamos hasta aquí?</title>
+    <desc>Descubre el costo de nuestro consumo y el desafío sostenible.</desc>
+    <category>Interés General</category>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/comollegamoshastaaqui.jpg" />
+  </programme>
+  <programme start="20261106194000 -0300" stop="20261106194500 -0300" channel="0115">
+    <title>Sinopsis de libros</title>
+    <desc>Recreaciones de clásicos y nuevas obras literarias chilenas. Reconocidos elencos de actores encarnan entrañables personas.</desc>
+    <category>Interés General</category>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/sinopsisdelibros.jpg" />
+  </programme>
+  <programme start="20261106194500 -0300" stop="20261106195000 -0300" channel="0115">
+    <title>Yara Yara</title>
+    <desc>Cápsulas cortas compuestas de cuentos amateur leídos en el marco del evento &quot;Yara Yara&quot;</desc>
+    <category>Interés General</category>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/yarayara.jpg" />
+  </programme>
+  <programme start="20261106195000 -0300" stop="20261106200000 -0300" channel="0115">
+    <title>Sinopsis de libros</title>
+    <desc>Recreaciones de clásicos y nuevas obras literarias chilenas. Reconocidos elencos de actores encarnan entrañables personas.</desc>
+    <category>Interés General</category>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/sinopsisdelibros.jpg" />
+  </programme>
+  <programme start="20261106200000 -0300" stop="20261106210000 -0300" channel="0115">
+    <title>Tiempos que muerden</title>
+    <desc>Faride Zerán, periodista y Premio Nacional 2007, conduce un espacio de crítica y reflexión con invitados del mundo de la investigación, la creación y la política.</desc>
+    <category>Debate y Opinión</category>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/tiemposquemuerden.jpg" />
+  </programme>
+  <programme start="20261106210000 -0300" stop="20261106220000 -0300" channel="0115">
+    <title>Democracy Now!</title>
+    <desc>Los destacados periodistas Amy Goodman y Juan González te informan diariamente sobre el acontecer global desde Nueva York.</desc>
+    <credits>
+      <director>Amy Goodman</director>
+      <actor>Amy Goodman</actor>
+      <actor>Juan Gonzalez</actor>
+    </credits>
+    <date>2001</date>
+    <category>Debate y Opinión</category>
+    <country>Estados Unidos</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/democracynow.jpg" />
+  </programme>
+  <programme start="20261106220000 -0300" stop="20261106223000 -0300" channel="0115">
+    <title>Nuestra Locura</title>
+    <desc>Serie documental que explora los malestares de la época, abriendo la salud mental al espacio público desde una mirada filosófica y cultural.</desc>
+    <category>Interés General</category>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0115_fallback.jpg" />
+  </programme>
+  <programme start="20261106223000 -0300" stop="20261106230000 -0300" channel="0115">
+    <title>Vamos que se puede</title>
+    <desc>El ex rostro de la TV chilena, Yuyi Filipovic, regresa a las pantallas tras un largo retiro para conducir un matinal de poca monta.</desc>
+    <credits>
+      <director>Pablo Arias Daud</director>
+      <actor>Pablo Boraquevich</actor>
+      <actor>Javier Manríquez</actor>
+      <actor>Beno Espinosa</actor>
+      <actor>Antonia Rebolar</actor>
+      <actor>Isaboth Jiménez</actor>
+      <actor>Kakoamedia</actor>
+      <actor>Karol Blum</actor>
+      <actor>Carla Zuñiga</actor>
+    </credits>
+    <date>2024</date>
+    <category>Humorístico</category>
+    <rating><value>14</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/vamosquesepuede.jpg" />
+  </programme>
+  <programme start="20261106230000 -0300" stop="20261107003000 -0300" channel="0115">
+    <title>Radio Sala Master • Tomo Como Rey</title>
+    <sub-title>Tomo Como Rey</sub-title>
+    <desc>Tomo Como Rey | Conciertos y conversaciones inolvidables junto a icónicas bandas chilenas que llegan a tu pantalla.</desc>
+    <category>Música</category>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/radiosalamaster.jpg" />
+  </programme>
+  <programme start="20261107003000 -0300" stop="20261107020000 -0300" channel="0115">
+    <title>Dominio público • Mala mujer</title>
+    <sub-title>Mala mujer</sub-title>
+    <desc>Mala mujer | Exhibición de películas de bajo presupuesto, cine de género y obras de culto liberadas de derechos de exhibición, todas presentadas y analizadas por Felipe Blanco.</desc>
+    <date>2024</date>
+    <category>Película</category>
+    <rating><value>18</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/dominiopublico.jpg" />
+  </programme>
+  <programme start="20261107020000 -0300" stop="20261107030000 -0300" channel="0115">
+    <title>Imágenes paganas</title>
+    <desc>Aún hoy existe una cierta resistencia a reconocer la revolución estética causada por Virus a principios de los años ochenta. La audacia de Federico Moura al frente de la banda de La Plata superó los límites del rock y sigue siendo una fuente de conocimiento del art-pop. Imágenes Paganas explora esa tensión y ese rechazo en tiempos de dictadura, un flagelo que la familia Moura pagó con la desaparición del hermano mayor de Federico. El documental de Costantino inaugura un tiempo de reparación histórica con Federico Moura como guerrero de la modernidad.</desc>
+    <credits>
+      <director>Sergio Constantino</director>
+      <actor>Federico Moura</actor>
+    </credits>
+    <date>2024</date>
+    <category>Cultura</category>
+    <country>Argentina</country>
+    <rating><value>18</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/imagenespaganas.jpg" />
+  </programme>
+  <programme start="20261107030000 -0300" stop="20261107040000 -0300" channel="0115">
+    <title>Cierre de transmisiones</title>
+    <desc>Fin de emisión diaria del canal.</desc>
+    <date>2022</date>
+    <category>Otros</category>
+    <rating><value>18</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/cierredetransmisiones.jpg" />
+  </programme>
+  <programme start="20261107040000 -0300" stop="20261107080000 -0300" channel="0115">
     <title>UChile TV</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0115_fallback.jpg" />
   </programme>
-  <programme start="20261106030000 -0300" stop="20261106070000 -0300" channel="0115">
+  <programme start="20261107080000 -0300" stop="20261107120000 -0300" channel="0115">
     <title>UChile TV</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0115_fallback.jpg" />
   </programme>
-  <programme start="20261106070000 -0300" stop="20261106110000 -0300" channel="0115">
+  <programme start="20261107120000 -0300" stop="20261107160000 -0300" channel="0115">
     <title>UChile TV</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0115_fallback.jpg" />
   </programme>
-  <programme start="20261106110000 -0300" stop="20261106150000 -0300" channel="0115">
+  <programme start="20261107160000 -0300" stop="20261107200000 -0300" channel="0115">
     <title>UChile TV</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0115_fallback.jpg" />
   </programme>
-  <programme start="20261106150000 -0300" stop="20261106190000 -0300" channel="0115">
+  <programme start="20261107200000 -0300" stop="20261108000000 -0300" channel="0115">
     <title>UChile TV</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0115_fallback.jpg" />
   </programme>
-  <programme start="20261106190000 -0300" stop="20261106230000 -0300" channel="0115">
+  <programme start="20261108000000 -0300" stop="20261108040000 -0300" channel="0115">
     <title>UChile TV</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0115_fallback.jpg" />
   </programme>
-  <programme start="20261106230000 -0300" stop="20261107030000 -0300" channel="0115">
+  <programme start="20261108040000 -0300" stop="20261108080000 -0300" channel="0115">
     <title>UChile TV</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0115_fallback.jpg" />
   </programme>
-  <programme start="20261107030000 -0300" stop="20261107070000 -0300" channel="0115">
+  <programme start="20261108080000 -0300" stop="20261108120000 -0300" channel="0115">
     <title>UChile TV</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0115_fallback.jpg" />
   </programme>
-  <programme start="20261107070000 -0300" stop="20261107110000 -0300" channel="0115">
+  <programme start="20261108120000 -0300" stop="20261108160000 -0300" channel="0115">
     <title>UChile TV</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0115_fallback.jpg" />
   </programme>
-  <programme start="20261107110000 -0300" stop="20261107150000 -0300" channel="0115">
+  <programme start="20261108160000 -0300" stop="20261108200000 -0300" channel="0115">
     <title>UChile TV</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0115_fallback.jpg" />
   </programme>
-  <programme start="20261107150000 -0300" stop="20261107190000 -0300" channel="0115">
+  <programme start="20261108200000 -0300" stop="20261109000000 -0300" channel="0115">
     <title>UChile TV</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0115_fallback.jpg" />
   </programme>
-  <programme start="20261107190000 -0300" stop="20261107230000 -0300" channel="0115">
+  <programme start="20261109000000 -0300" stop="20261109040000 -0300" channel="0115">
     <title>UChile TV</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0115_fallback.jpg" />
   </programme>
-  <programme start="20261107230000 -0300" stop="20261108030000 -0300" channel="0115">
+  <programme start="20261109040000 -0300" stop="20261109080000 -0300" channel="0115">
     <title>UChile TV</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0115_fallback.jpg" />
   </programme>
-  <programme start="20261108030000 -0300" stop="20261108070000 -0300" channel="0115">
+  <programme start="20261109080000 -0300" stop="20261109120000 -0300" channel="0115">
     <title>UChile TV</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0115_fallback.jpg" />
   </programme>
-  <programme start="20261108070000 -0300" stop="20261108110000 -0300" channel="0115">
+  <programme start="20261109120000 -0300" stop="20261109160000 -0300" channel="0115">
     <title>UChile TV</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0115_fallback.jpg" />
   </programme>
-  <programme start="20261108110000 -0300" stop="20261108150000 -0300" channel="0115">
+  <programme start="20261109160000 -0300" stop="20261109200000 -0300" channel="0115">
     <title>UChile TV</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0115_fallback.jpg" />
   </programme>
-  <programme start="20261108150000 -0300" stop="20261108190000 -0300" channel="0115">
-    <title>UChile TV</title>
-    <desc>La informacion de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0115_fallback.jpg" />
-  </programme>
-  <programme start="20261108190000 -0300" stop="20261108230000 -0300" channel="0115">
-    <title>UChile TV</title>
-    <desc>La informacion de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0115_fallback.jpg" />
-  </programme>
-  <programme start="20261108230000 -0300" stop="20261109030000 -0300" channel="0115">
-    <title>UChile TV</title>
-    <desc>La informacion de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0115_fallback.jpg" />
-  </programme>
-  <programme start="20261109030000 -0300" stop="20261109070000 -0300" channel="0115">
-    <title>UChile TV</title>
-    <desc>La informacion de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0115_fallback.jpg" />
-  </programme>
-  <programme start="20261109070000 -0300" stop="20261109110000 -0300" channel="0115">
-    <title>UChile TV</title>
-    <desc>La informacion de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0115_fallback.jpg" />
-  </programme>
-  <programme start="20261109110000 -0300" stop="20261109150000 -0300" channel="0115">
-    <title>UChile TV</title>
-    <desc>La informacion de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0115_fallback.jpg" />
-  </programme>
-  <programme start="20261109150000 -0300" stop="20261109190000 -0300" channel="0115">
-    <title>UChile TV</title>
-    <desc>La informacion de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0115_fallback.jpg" />
-  </programme>
-  <programme start="20261109190000 -0300" stop="20261109230000 -0300" channel="0115">
-    <title>UChile TV</title>
-    <desc>La informacion de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0115_fallback.jpg" />
-  </programme>
-  <programme start="20261109230000 -0300" stop="20261109235959 -0300" channel="0115">
+  <programme start="20261109200000 -0300" stop="20261109235959 -0300" channel="0115">
     <title>UChile TV</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0115_fallback.jpg" />
@@ -22499,7 +22831,7 @@ No aparece en el programa ningún otro superhéroe de ficción, a excepción  de
     <rating><value>14</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/tierraadentro.jpg" />
   </programme>
-  <programme start="20261106050000 -0300" stop="20261106060000 -0300" channel="0117">
+  <programme start="20261106050000 -0300" stop="20261106063000 -0300" channel="0117">
     <title>Pasiones</title>
     <desc>Un programa sobre el amor, sus caídas y triunfos. Junto a nuestros animadores tendremos entrevistas, expertos y mucha pasión.</desc>
     <credits>
@@ -22516,35 +22848,403 @@ No aparece en el programa ningún otro superhéroe de ficción, a excepción  de
     <country>Chile</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/pasiones.jpg" />
   </programme>
-  <programme start="20261106060000 -0300" stop="20261106100000 -0300" channel="0117">
-    <title>TVN 3</title>
-    <desc>La informacion de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0117_fallback.jpg" />
+  <programme start="20261106063000 -0300" stop="20261106080000 -0300" channel="0117">
+    <title>Calle 7</title>
+    <desc>Programa de juegos en el que dos equipos se enfrentarán en una serie de divertidos y complejos desafíos.</desc>
+    <credits>
+      <actor>Martín Cárcamo</actor>
+      <actor>Gianella Marengo</actor>
+      <actor>Laura Prieto</actor>
+      <actor>Francisco Puelles</actor>
+      <actor>Camila Nash</actor>
+      <actor>Valentina Roth</actor>
+      <actor>Nelson Mauricio Pacheco</actor>
+      <actor>Felipe Camus</actor>
+      <presenter>Martín Cárcamo</presenter>
+      <presenter>Karen Doggenweiler</presenter>
+      <presenter>Jean Philippe Cretton</presenter>
+    </credits>
+    <date>2009</date>
+    <category>Entretención</category>
+    <country>Chile</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/calle7.jpg" />
   </programme>
-  <programme start="20261106100000 -0300" stop="20261106140000 -0300" channel="0117">
-    <title>TVN 3</title>
-    <desc>La informacion de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0117_fallback.jpg" />
+  <programme start="20261106080000 -0300" stop="20261106090000 -0300" channel="0117">
+    <title>Aquelarre</title>
+    <desc>Aquelarre, un pueblo alejado de la modernidad, se distingue de las demás localidades porque desde hace más de treinta años solo nacen mujeres. Preocupado por esta situación, un rico hacendado del lugar, hace venir de Santiago a un genetista.</desc>
+    <credits>
+      <director>María Eugenia Rencoret</director>
+      <director>Víctor Huerta</director>
+      <actor>Sigrid Alegría</actor>
+      <actor>Álvaro Rudolphy</actor>
+      <actor>Bastián Bodenhöfer</actor>
+      <actor>Coca Guazzini</actor>
+      <actor>Catalina Guerra</actor>
+      <actor>Álvaro Escobar</actor>
+      <actor>Claudia Burr</actor>
+      <actor>Maricarmen Arrigorriaga</actor>
+      <actor>Edgardo Bruna</actor>
+      <actor>Mauricio Pesutic</actor>
+      <actor>Francisco Pérez-Bannen</actor>
+      <actor>Ximena Rivas</actor>
+      <actor>Alejandra Fosalba</actor>
+      <actor>Patricia Rivadeneira</actor>
+      <actor>Yuyuniz Navas</actor>
+      <actor>Paola Volpato</actor>
+      <actor>Yael Unger</actor>
+      <actor>Jaime Vadell</actor>
+      <actor>Anita Reeves</actor>
+    </credits>
+    <date>1999</date>
+    <category>Teleseries</category>
+    <country>Chile</country>
+    <rating><value>R</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/aquelarre.jpg" />
   </programme>
-  <programme start="20261106140000 -0300" stop="20261106180000 -0300" channel="0117">
-    <title>TVN 3</title>
-    <desc>La informacion de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0117_fallback.jpg" />
+  <programme start="20261106090000 -0300" stop="20261106100000 -0300" channel="0117">
+    <title>¿Dónde Está Elisa?</title>
+    <desc>La desaparición de una adolescente hace que el mundo de su familia se ponga patas arriba. En la búsqueda policial por encontrarla, todos sus familiares se convertirán en sospechosos de su secuestro.</desc>
+    <credits>
+      <director>María Eugenia Rencoret</director>
+      <director>Claudio López de Lérida</director>
+      <director>Rodrigo Velásquez</director>
+      <actor>Sigrid Alegría</actor>
+      <actor>Francisco Melo</actor>
+      <actor>Álvaro Rudolphy</actor>
+      <actor>Montserrat Prats</actor>
+      <actor>Paola Volpato</actor>
+      <actor>Francisco Reyes</actor>
+      <actor>Juan José Gurruchaga</actor>
+      <actor>Francisca Imboden</actor>
+      <actor>Álvaro Morales</actor>
+      <actor>César Caillet</actor>
+      <actor>Andrés Velasco</actor>
+      <actor>Alejandra Fosalba</actor>
+    </credits>
+    <date>2009</date>
+    <category>Teleseries</category>
+    <country>Chile</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/dondeestaelisa.jpg" />
   </programme>
-  <programme start="20261106180000 -0300" stop="20261106220000 -0300" channel="0117">
-    <title>TVN 3</title>
-    <desc>La informacion de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0117_fallback.jpg" />
+  <programme start="20261106100000 -0300" stop="20261106111500 -0300" channel="0117">
+    <title>Pasiones</title>
+    <desc>Un programa sobre el amor, sus caídas y triunfos. Junto a nuestros animadores tendremos entrevistas, expertos y mucha pasión.</desc>
+    <credits>
+      <actor>Felipe Camiroaga</actor>
+      <actor>Bárbara Rebolledo</actor>
+      <presenter>Felipe Camiroaga</presenter>
+      <presenter>Bárbara Rebolledo</presenter>
+      <presenter>Krishna de Caso</presenter>
+      <presenter>Martín Cárcamo</presenter>
+      <presenter>Marcelo Arismendi</presenter>
+    </credits>
+    <date>2004</date>
+    <category>Entretención</category>
+    <country>Chile</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/pasiones.jpg" />
   </programme>
-  <programme start="20261106220000 -0300" stop="20261107020000 -0300" channel="0117">
-    <title>TVN 3</title>
-    <desc>La informacion de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0117_fallback.jpg" />
+  <programme start="20261106111500 -0300" stop="20261106130000 -0300" channel="0117">
+    <title>Calle 7</title>
+    <desc>Programa de juegos en el que dos equipos se enfrentarán en una serie de divertidos y complejos desafíos.</desc>
+    <credits>
+      <actor>Martín Cárcamo</actor>
+      <actor>Gianella Marengo</actor>
+      <actor>Laura Prieto</actor>
+      <actor>Francisco Puelles</actor>
+      <actor>Camila Nash</actor>
+      <actor>Valentina Roth</actor>
+      <actor>Nelson Mauricio Pacheco</actor>
+      <actor>Felipe Camus</actor>
+      <presenter>Martín Cárcamo</presenter>
+      <presenter>Karen Doggenweiler</presenter>
+      <presenter>Jean Philippe Cretton</presenter>
+    </credits>
+    <date>2009</date>
+    <category>Entretención</category>
+    <country>Chile</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/calle7.jpg" />
   </programme>
-  <programme start="20261107020000 -0300" stop="20261107060000 -0300" channel="0117">
-    <title>TVN 3</title>
-    <desc>La informacion de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0117_fallback.jpg" />
+  <programme start="20261106130000 -0300" stop="20261106140000 -0300" channel="0117">
+    <title>¿Dónde Está Elisa?</title>
+    <desc>La desaparición de una adolescente hace que el mundo de su familia se ponga patas arriba. En la búsqueda policial por encontrarla, todos sus familiares se convertirán en sospechosos de su secuestro.</desc>
+    <credits>
+      <director>María Eugenia Rencoret</director>
+      <director>Claudio López de Lérida</director>
+      <director>Rodrigo Velásquez</director>
+      <actor>Sigrid Alegría</actor>
+      <actor>Francisco Melo</actor>
+      <actor>Álvaro Rudolphy</actor>
+      <actor>Montserrat Prats</actor>
+      <actor>Paola Volpato</actor>
+      <actor>Francisco Reyes</actor>
+      <actor>Juan José Gurruchaga</actor>
+      <actor>Francisca Imboden</actor>
+      <actor>Álvaro Morales</actor>
+      <actor>César Caillet</actor>
+      <actor>Andrés Velasco</actor>
+      <actor>Alejandra Fosalba</actor>
+    </credits>
+    <date>2009</date>
+    <category>Teleseries</category>
+    <country>Chile</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/dondeestaelisa.jpg" />
+  </programme>
+  <programme start="20261106140000 -0300" stop="20261106150000 -0300" channel="0117">
+    <title>Aquelarre</title>
+    <desc>Aquelarre, un pueblo alejado de la modernidad, se distingue de las demás localidades porque desde hace más de treinta años solo nacen mujeres. Preocupado por esta situación, un rico hacendado del lugar, hace venir de Santiago a un genetista.</desc>
+    <credits>
+      <director>María Eugenia Rencoret</director>
+      <director>Víctor Huerta</director>
+      <actor>Sigrid Alegría</actor>
+      <actor>Álvaro Rudolphy</actor>
+      <actor>Bastián Bodenhöfer</actor>
+      <actor>Coca Guazzini</actor>
+      <actor>Catalina Guerra</actor>
+      <actor>Álvaro Escobar</actor>
+      <actor>Claudia Burr</actor>
+      <actor>Maricarmen Arrigorriaga</actor>
+      <actor>Edgardo Bruna</actor>
+      <actor>Mauricio Pesutic</actor>
+      <actor>Francisco Pérez-Bannen</actor>
+      <actor>Ximena Rivas</actor>
+      <actor>Alejandra Fosalba</actor>
+      <actor>Patricia Rivadeneira</actor>
+      <actor>Yuyuniz Navas</actor>
+      <actor>Paola Volpato</actor>
+      <actor>Yael Unger</actor>
+      <actor>Jaime Vadell</actor>
+      <actor>Anita Reeves</actor>
+    </credits>
+    <date>1999</date>
+    <category>Teleseries</category>
+    <country>Chile</country>
+    <rating><value>R</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/aquelarre.jpg" />
+  </programme>
+  <programme start="20261106150000 -0300" stop="20261106160000 -0300" channel="0117">
+    <title>Patiperros</title>
+    <desc>Programa que muestra las historias y experiencias de los chilenos que decidieron emigrar y vivir en distintos países alrededor de los cinco continentes.</desc>
+    <credits>
+      <director>Cristián Leighton</director>
+      <actor>Cristián Leighton</actor>
+      <presenter>Cristián Leighton</presenter>
+    </credits>
+    <date>1998</date>
+    <category>Entretención</category>
+    <country>Chile</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/patiperros.jpg" />
+  </programme>
+  <programme start="20261106160000 -0300" stop="20261106170000 -0300" channel="0117">
+    <title>Tierra adentro</title>
+    <desc>Paul Landon te lleva a conocer las historias y paisajes del Chile interior, un hermoso viaje a las raíces de nuestro país.</desc>
+    <credits>
+      <director>Paul Landon</director>
+      <actor>Paul Landon</actor>
+    </credits>
+    <date>1991</date>
+    <category>Cultura</category>
+    <country>Chile</country>
+    <rating><value>14</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/tierraadentro.jpg" />
+  </programme>
+  <programme start="20261106170000 -0300" stop="20261106181500 -0300" channel="0117">
+    <title>Pasiones</title>
+    <desc>Un programa sobre el amor, sus caídas y triunfos. Junto a nuestros animadores tendremos entrevistas, expertos y mucha pasión.</desc>
+    <credits>
+      <actor>Felipe Camiroaga</actor>
+      <actor>Bárbara Rebolledo</actor>
+      <presenter>Felipe Camiroaga</presenter>
+      <presenter>Bárbara Rebolledo</presenter>
+      <presenter>Krishna de Caso</presenter>
+      <presenter>Martín Cárcamo</presenter>
+      <presenter>Marcelo Arismendi</presenter>
+    </credits>
+    <date>2004</date>
+    <category>Entretención</category>
+    <country>Chile</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/pasiones.jpg" />
+  </programme>
+  <programme start="20261106181500 -0300" stop="20261106200000 -0300" channel="0117">
+    <title>Calle 7</title>
+    <desc>Programa de juegos en el que dos equipos se enfrentarán en una serie de divertidos y complejos desafíos.</desc>
+    <credits>
+      <actor>Martín Cárcamo</actor>
+      <actor>Gianella Marengo</actor>
+      <actor>Laura Prieto</actor>
+      <actor>Francisco Puelles</actor>
+      <actor>Camila Nash</actor>
+      <actor>Valentina Roth</actor>
+      <actor>Nelson Mauricio Pacheco</actor>
+      <actor>Felipe Camus</actor>
+      <presenter>Martín Cárcamo</presenter>
+      <presenter>Karen Doggenweiler</presenter>
+      <presenter>Jean Philippe Cretton</presenter>
+    </credits>
+    <date>2009</date>
+    <category>Entretención</category>
+    <country>Chile</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/calle7.jpg" />
+  </programme>
+  <programme start="20261106200000 -0300" stop="20261106210000 -0300" channel="0117">
+    <title>Aquelarre</title>
+    <desc>Aquelarre, un pueblo alejado de la modernidad, se distingue de las demás localidades porque desde hace más de treinta años solo nacen mujeres. Preocupado por esta situación, un rico hacendado del lugar, hace venir de Santiago a un genetista.</desc>
+    <credits>
+      <director>María Eugenia Rencoret</director>
+      <director>Víctor Huerta</director>
+      <actor>Sigrid Alegría</actor>
+      <actor>Álvaro Rudolphy</actor>
+      <actor>Bastián Bodenhöfer</actor>
+      <actor>Coca Guazzini</actor>
+      <actor>Catalina Guerra</actor>
+      <actor>Álvaro Escobar</actor>
+      <actor>Claudia Burr</actor>
+      <actor>Maricarmen Arrigorriaga</actor>
+      <actor>Edgardo Bruna</actor>
+      <actor>Mauricio Pesutic</actor>
+      <actor>Francisco Pérez-Bannen</actor>
+      <actor>Ximena Rivas</actor>
+      <actor>Alejandra Fosalba</actor>
+      <actor>Patricia Rivadeneira</actor>
+      <actor>Yuyuniz Navas</actor>
+      <actor>Paola Volpato</actor>
+      <actor>Yael Unger</actor>
+      <actor>Jaime Vadell</actor>
+      <actor>Anita Reeves</actor>
+    </credits>
+    <date>1999</date>
+    <category>Teleseries</category>
+    <country>Chile</country>
+    <rating><value>R</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/aquelarre.jpg" />
+  </programme>
+  <programme start="20261106210000 -0300" stop="20261106220000 -0300" channel="0117">
+    <title>¿Dónde Está Elisa?</title>
+    <desc>La desaparición de una adolescente hace que el mundo de su familia se ponga patas arriba. En la búsqueda policial por encontrarla, todos sus familiares se convertirán en sospechosos de su secuestro.</desc>
+    <credits>
+      <director>María Eugenia Rencoret</director>
+      <director>Claudio López de Lérida</director>
+      <director>Rodrigo Velásquez</director>
+      <actor>Sigrid Alegría</actor>
+      <actor>Francisco Melo</actor>
+      <actor>Álvaro Rudolphy</actor>
+      <actor>Montserrat Prats</actor>
+      <actor>Paola Volpato</actor>
+      <actor>Francisco Reyes</actor>
+      <actor>Juan José Gurruchaga</actor>
+      <actor>Francisca Imboden</actor>
+      <actor>Álvaro Morales</actor>
+      <actor>César Caillet</actor>
+      <actor>Andrés Velasco</actor>
+      <actor>Alejandra Fosalba</actor>
+    </credits>
+    <date>2009</date>
+    <category>Teleseries</category>
+    <country>Chile</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/dondeestaelisa.jpg" />
+  </programme>
+  <programme start="20261106220000 -0300" stop="20261107000000 -0300" channel="0117">
+    <title>Mea Culpa</title>
+    <desc>Mea Culpa es un programa de televisión dirigido por el periodista y realizador chileno, Carlos Pinto, el cual recrea casos policiales de alto impacto que han conmocionado al país.</desc>
+    <credits>
+      <director>Carlos Pinto</director>
+      <actor>Carlos Pinto</actor>
+    </credits>
+    <date>1993</date>
+    <category>Series</category>
+    <country>Chile</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/meaculpa.jpg" />
+  </programme>
+  <programme start="20261107000000 -0300" stop="20261107010000 -0300" channel="0117">
+    <title>El día menos pensado</title>
+    <desc>Una producción que recrea historias atribuidas a sucesos paranormales, como encuentros con otras dimensiones y la vida después de la muerte.</desc>
+    <credits>
+      <director>Carlos Pinto</director>
+      <actor>Carlos Pinto</actor>
+    </credits>
+    <date>1999</date>
+    <category>Series</category>
+    <country>Chile</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/eldiamenospensado.jpg" />
+  </programme>
+  <programme start="20261107010000 -0300" stop="20261107020000 -0300" channel="0117">
+    <title>Mea Culpa</title>
+    <desc>Mea Culpa es un programa de televisión dirigido por el periodista y realizador chileno, Carlos Pinto, el cual recrea casos policiales de alto impacto que han conmocionado al país.</desc>
+    <credits>
+      <director>Carlos Pinto</director>
+      <actor>Carlos Pinto</actor>
+    </credits>
+    <date>1993</date>
+    <category>Series</category>
+    <country>Chile</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/meaculpa.jpg" />
+  </programme>
+  <programme start="20261107020000 -0300" stop="20261107030000 -0300" channel="0117">
+    <title>¿Dónde Está Elisa?</title>
+    <desc>La desaparición de una adolescente hace que el mundo de su familia se ponga patas arriba. En la búsqueda policial por encontrarla, todos sus familiares se convertirán en sospechosos de su secuestro.</desc>
+    <credits>
+      <director>María Eugenia Rencoret</director>
+      <director>Claudio López de Lérida</director>
+      <director>Rodrigo Velásquez</director>
+      <actor>Sigrid Alegría</actor>
+      <actor>Francisco Melo</actor>
+      <actor>Álvaro Rudolphy</actor>
+      <actor>Montserrat Prats</actor>
+      <actor>Paola Volpato</actor>
+      <actor>Francisco Reyes</actor>
+      <actor>Juan José Gurruchaga</actor>
+      <actor>Francisca Imboden</actor>
+      <actor>Álvaro Morales</actor>
+      <actor>César Caillet</actor>
+      <actor>Andrés Velasco</actor>
+      <actor>Alejandra Fosalba</actor>
+    </credits>
+    <date>2009</date>
+    <category>Teleseries</category>
+    <country>Chile</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/dondeestaelisa.jpg" />
+  </programme>
+  <programme start="20261107030000 -0300" stop="20261107040000 -0300" channel="0117">
+    <title>Patiperros</title>
+    <desc>Programa que muestra las historias y experiencias de los chilenos que decidieron emigrar y vivir en distintos países alrededor de los cinco continentes.</desc>
+    <credits>
+      <director>Cristián Leighton</director>
+      <actor>Cristián Leighton</actor>
+      <presenter>Cristián Leighton</presenter>
+    </credits>
+    <date>1998</date>
+    <category>Entretención</category>
+    <country>Chile</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/patiperros.jpg" />
+  </programme>
+  <programme start="20261107040000 -0300" stop="20261107050000 -0300" channel="0117">
+    <title>Tierra adentro</title>
+    <desc>Paul Landon te lleva a conocer las historias y paisajes del Chile interior, un hermoso viaje a las raíces de nuestro país.</desc>
+    <credits>
+      <director>Paul Landon</director>
+      <actor>Paul Landon</actor>
+    </credits>
+    <date>1991</date>
+    <category>Cultura</category>
+    <country>Chile</country>
+    <rating><value>14</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/tierraadentro.jpg" />
+  </programme>
+  <programme start="20261107050000 -0300" stop="20261107060000 -0300" channel="0117">
+    <title>Pasiones</title>
+    <desc>Un programa sobre el amor, sus caídas y triunfos. Junto a nuestros animadores tendremos entrevistas, expertos y mucha pasión.</desc>
+    <credits>
+      <actor>Felipe Camiroaga</actor>
+      <actor>Bárbara Rebolledo</actor>
+      <presenter>Felipe Camiroaga</presenter>
+      <presenter>Bárbara Rebolledo</presenter>
+      <presenter>Krishna de Caso</presenter>
+      <presenter>Martín Cárcamo</presenter>
+      <presenter>Marcelo Arismendi</presenter>
+    </credits>
+    <date>2004</date>
+    <category>Entretención</category>
+    <country>Chile</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/pasiones.jpg" />
   </programme>
   <programme start="20261107060000 -0300" stop="20261107100000 -0300" channel="0117">
     <title>TVN 3</title>
@@ -63339,7 +64039,7 @@ Ernesto Andrés Fuenmayor y Tamara Rivera Castro serán los YouTubers que analic
     <country>Chile</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/malditamoda.jpg" />
   </programme>
-  <programme start="20261106040000 -0300" stop="20261106050000 -0300" channel="0180">
+  <programme start="20261106040000 -0300" stop="20261106060000 -0300" channel="0180">
     <title>Infieles</title>
     <desc>Una comedia picaresca que relata historias de amor, infidelidades y relaciones clandestinas.</desc>
     <credits>
@@ -63358,35 +64058,413 @@ Ernesto Andrés Fuenmayor y Tamara Rivera Castro serán los YouTubers que analic
     <country>Chile</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/infieles.jpg" />
   </programme>
-  <programme start="20261106050000 -0300" stop="20261106090000 -0300" channel="0180">
-    <title>CHV de Culto</title>
-    <desc>La informacion de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0180_fallback.jpg" />
+  <programme start="20261106060000 -0300" stop="20261106070000 -0300" channel="0180">
+    <title>Las vueltas de la vida</title>
+    <desc>Tras la súbita muerte de su prometido, Gray Wheeler (Jennifer Garner) encuentra un refugio en compañía de los amigos de él: Sam (Kevin Smith) alegre y cómico, Dennis (Sam Jaeger) el más responsable, y su viejo amigo de la infancia Fritz (Timothy Olyphant), un playboy irresponsable de quien jamás hubiera pensado que confiaría. Tras la muerte de su prometido aparecen secretos sobre él que le muestran a Gray nuevas facetas del hombre que pensaba que conocía, y al mismo tiempo, descubre su atracción por el último hombre del que hubiera pensado enamorarse...</desc>
+    <credits>
+      <director>Marcel Moya</director>
+      <actor>Fernando Villegas</actor>
+    </credits>
+    <date>1997</date>
+    <category>Interés General</category>
+    <country>Chile</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/lasvueltasdelavida.jpg" />
   </programme>
-  <programme start="20261106090000 -0300" stop="20261106130000 -0300" channel="0180">
-    <title>CHV de Culto</title>
-    <desc>La informacion de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0180_fallback.jpg" />
+  <programme start="20261106070000 -0300" stop="20261106080000 -0300" channel="0180">
+    <title>Vivir Con 10</title>
+    <desc>Los Solé son una familia adinerada con diez hijos. Leonor queda viuda y esta perdida trae consigo un sinnúmero de dificultades que la obligan a cambiar toda su vida, incluida la de sus hijos.</desc>
+    <credits>
+      <director>Ricardo Vicuña</director>
+      <director>Mauricio Bustos</director>
+      <actor>Malucha Pinto</actor>
+      <actor>María José Prieto</actor>
+      <actor>Willy Semler</actor>
+      <actor>Ignacia Allamand</actor>
+      <actor>José Palma</actor>
+      <actor>Ana Karina Casanova</actor>
+      <actor>Gonzalo Robles</actor>
+      <actor>Tiago Correa</actor>
+      <actor>Pablo Díaz</actor>
+      <actor>Marcela del Valle</actor>
+      <actor>Javiera Hernández</actor>
+      <actor>Álvaro Gómez</actor>
+      <actor>Tatiana Molina</actor>
+      <actor>Ariel Levy</actor>
+      <actor>Constanza Pozo</actor>
+      <actor>Fernando Segú</actor>
+      <actor>Alonso Quintero.</actor>
+    </credits>
+    <date>2007</date>
+    <category>Teleseries</category>
+    <country>Chile</country>
+    <rating><value>R</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/vivircon10.jpg" />
   </programme>
-  <programme start="20261106130000 -0300" stop="20261106170000 -0300" channel="0180">
-    <title>CHV de Culto</title>
-    <desc>La informacion de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0180_fallback.jpg" />
+  <programme start="20261106080000 -0300" stop="20261106100000 -0300" channel="0180">
+    <title>Imparables</title>
+    <desc>Imparables es la historia de Juanjo Méndez y de su grupo ciclista, los &quot;Piratas&quot;. Juanjo perdió el brazo y la pierna izquierda en un accidente de moto hace veinte años. Después de muchos esfuerzos, consiguió volver a subir a una bici i fundó los &quot;Piratas&quot;, un club destinado a acoger y ayudar a otras personas en una situación similar a la suya. Hoy, Juanjo es campeón del mundo, único en el mundo en su especialidad.</desc>
+    <credits>
+      <director>Daniel Jariod</director>
+      <actor>juanjo mendez</actor>
+      <actor>Bernat Moreno</actor>
+      <actor>elisa cazalla</actor>
+      <actor>miguel indurain</actor>
+      <presenter>Jean Philippe Cretton</presenter>
+      <presenter>Power Peralta</presenter>
+    </credits>
+    <date>2017</date>
+    <category>Entretención</category>
+    <country>Chile</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/imparables.jpg" />
   </programme>
-  <programme start="20261106170000 -0300" stop="20261106210000 -0300" channel="0180">
-    <title>CHV de Culto</title>
-    <desc>La informacion de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0180_fallback.jpg" />
+  <programme start="20261106100000 -0300" stop="20261106110000 -0300" channel="0180">
+    <title>Las dos Carolinas</title>
+    <desc>Narra la historia de Carolina, una joven esforzada que, por una confusión de identidad, ingresa al exclusivo mundo de la moda, enfrentando secretos, diferencias sociales y una doble vida.</desc>
+    <credits>
+      <director>Vicente Sabatini</director>
+      <director>Roberto Morales. César Opazo</director>
+      <actor>Francisca Lewin</actor>
+      <actor>Pablo Cerda</actor>
+      <actor>Claudia Di Girolamo</actor>
+      <actor>Eduardo Paxeco</actor>
+      <actor>Ximena Rivas</actor>
+      <actor>Karla Melo</actor>
+      <actor>Juan Falcón</actor>
+      <actor>Francisca Gavilán</actor>
+      <actor>Héctor Noguera</actor>
+      <actor>Luz Jiménez</actor>
+      <actor>Sofía García</actor>
+      <actor>Sebastián Layseca</actor>
+      <actor>Isidora Urrejola</actor>
+      <actor>Eyal Meyer</actor>
+      <actor>Paloma Moreno</actor>
+      <actor>Antonio Campos</actor>
+    </credits>
+    <date>2014</date>
+    <category>Teleseries</category>
+    <country>Chile</country>
+    <rating><value>R</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/lasdoscarolinas.jpg" />
   </programme>
-  <programme start="20261106210000 -0300" stop="20261107010000 -0300" channel="0180">
-    <title>CHV de Culto</title>
-    <desc>La informacion de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0180_fallback.jpg" />
+  <programme start="20261106110000 -0300" stop="20261106120000 -0300" channel="0180">
+    <title>Vivir Con 10</title>
+    <desc>Los Solé son una familia adinerada con diez hijos. Leonor queda viuda y esta perdida trae consigo un sinnúmero de dificultades que la obligan a cambiar toda su vida, incluida la de sus hijos.</desc>
+    <credits>
+      <director>Ricardo Vicuña</director>
+      <director>Mauricio Bustos</director>
+      <actor>Malucha Pinto</actor>
+      <actor>María José Prieto</actor>
+      <actor>Willy Semler</actor>
+      <actor>Ignacia Allamand</actor>
+      <actor>José Palma</actor>
+      <actor>Ana Karina Casanova</actor>
+      <actor>Gonzalo Robles</actor>
+      <actor>Tiago Correa</actor>
+      <actor>Pablo Díaz</actor>
+      <actor>Marcela del Valle</actor>
+      <actor>Javiera Hernández</actor>
+      <actor>Álvaro Gómez</actor>
+      <actor>Tatiana Molina</actor>
+      <actor>Ariel Levy</actor>
+      <actor>Constanza Pozo</actor>
+      <actor>Fernando Segú</actor>
+      <actor>Alonso Quintero.</actor>
+    </credits>
+    <date>2007</date>
+    <category>Teleseries</category>
+    <country>Chile</country>
+    <rating><value>R</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/vivircon10.jpg" />
   </programme>
-  <programme start="20261107010000 -0300" stop="20261107050000 -0300" channel="0180">
-    <title>CHV de Culto</title>
-    <desc>La informacion de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0180_fallback.jpg" />
+  <programme start="20261106120000 -0300" stop="20261106130000 -0300" channel="0180">
+    <title>Las vueltas de la vida</title>
+    <desc>Tras la súbita muerte de su prometido, Gray Wheeler (Jennifer Garner) encuentra un refugio en compañía de los amigos de él: Sam (Kevin Smith) alegre y cómico, Dennis (Sam Jaeger) el más responsable, y su viejo amigo de la infancia Fritz (Timothy Olyphant), un playboy irresponsable de quien jamás hubiera pensado que confiaría. Tras la muerte de su prometido aparecen secretos sobre él que le muestran a Gray nuevas facetas del hombre que pensaba que conocía, y al mismo tiempo, descubre su atracción por el último hombre del que hubiera pensado enamorarse...</desc>
+    <credits>
+      <director>Marcel Moya</director>
+      <actor>Fernando Villegas</actor>
+    </credits>
+    <date>1997</date>
+    <category>Interés General</category>
+    <country>Chile</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/lasvueltasdelavida.jpg" />
+  </programme>
+  <programme start="20261106130000 -0300" stop="20261106150000 -0300" channel="0180">
+    <title>Imparables</title>
+    <desc>Imparables es la historia de Juanjo Méndez y de su grupo ciclista, los &quot;Piratas&quot;. Juanjo perdió el brazo y la pierna izquierda en un accidente de moto hace veinte años. Después de muchos esfuerzos, consiguió volver a subir a una bici i fundó los &quot;Piratas&quot;, un club destinado a acoger y ayudar a otras personas en una situación similar a la suya. Hoy, Juanjo es campeón del mundo, único en el mundo en su especialidad.</desc>
+    <credits>
+      <director>Daniel Jariod</director>
+      <actor>juanjo mendez</actor>
+      <actor>Bernat Moreno</actor>
+      <actor>elisa cazalla</actor>
+      <actor>miguel indurain</actor>
+      <presenter>Jean Philippe Cretton</presenter>
+      <presenter>Power Peralta</presenter>
+    </credits>
+    <date>2017</date>
+    <category>Entretención</category>
+    <country>Chile</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/imparables.jpg" />
+  </programme>
+  <programme start="20261106150000 -0300" stop="20261106160000 -0300" channel="0180">
+    <title>Las dos Carolinas</title>
+    <desc>Narra la historia de Carolina, una joven esforzada que, por una confusión de identidad, ingresa al exclusivo mundo de la moda, enfrentando secretos, diferencias sociales y una doble vida.</desc>
+    <credits>
+      <director>Vicente Sabatini</director>
+      <director>Roberto Morales. César Opazo</director>
+      <actor>Francisca Lewin</actor>
+      <actor>Pablo Cerda</actor>
+      <actor>Claudia Di Girolamo</actor>
+      <actor>Eduardo Paxeco</actor>
+      <actor>Ximena Rivas</actor>
+      <actor>Karla Melo</actor>
+      <actor>Juan Falcón</actor>
+      <actor>Francisca Gavilán</actor>
+      <actor>Héctor Noguera</actor>
+      <actor>Luz Jiménez</actor>
+      <actor>Sofía García</actor>
+      <actor>Sebastián Layseca</actor>
+      <actor>Isidora Urrejola</actor>
+      <actor>Eyal Meyer</actor>
+      <actor>Paloma Moreno</actor>
+      <actor>Antonio Campos</actor>
+    </credits>
+    <date>2014</date>
+    <category>Teleseries</category>
+    <country>Chile</country>
+    <rating><value>R</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/lasdoscarolinas.jpg" />
+  </programme>
+  <programme start="20261106160000 -0300" stop="20261106170000 -0300" channel="0180">
+    <title>Las vueltas de la vida</title>
+    <desc>Tras la súbita muerte de su prometido, Gray Wheeler (Jennifer Garner) encuentra un refugio en compañía de los amigos de él: Sam (Kevin Smith) alegre y cómico, Dennis (Sam Jaeger) el más responsable, y su viejo amigo de la infancia Fritz (Timothy Olyphant), un playboy irresponsable de quien jamás hubiera pensado que confiaría. Tras la muerte de su prometido aparecen secretos sobre él que le muestran a Gray nuevas facetas del hombre que pensaba que conocía, y al mismo tiempo, descubre su atracción por el último hombre del que hubiera pensado enamorarse...</desc>
+    <credits>
+      <director>Marcel Moya</director>
+      <actor>Fernando Villegas</actor>
+    </credits>
+    <date>1997</date>
+    <category>Interés General</category>
+    <country>Chile</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/lasvueltasdelavida.jpg" />
+  </programme>
+  <programme start="20261106170000 -0300" stop="20261106180000 -0300" channel="0180">
+    <title>Vivir Con 10</title>
+    <desc>Los Solé son una familia adinerada con diez hijos. Leonor queda viuda y esta perdida trae consigo un sinnúmero de dificultades que la obligan a cambiar toda su vida, incluida la de sus hijos.</desc>
+    <credits>
+      <director>Ricardo Vicuña</director>
+      <director>Mauricio Bustos</director>
+      <actor>Malucha Pinto</actor>
+      <actor>María José Prieto</actor>
+      <actor>Willy Semler</actor>
+      <actor>Ignacia Allamand</actor>
+      <actor>José Palma</actor>
+      <actor>Ana Karina Casanova</actor>
+      <actor>Gonzalo Robles</actor>
+      <actor>Tiago Correa</actor>
+      <actor>Pablo Díaz</actor>
+      <actor>Marcela del Valle</actor>
+      <actor>Javiera Hernández</actor>
+      <actor>Álvaro Gómez</actor>
+      <actor>Tatiana Molina</actor>
+      <actor>Ariel Levy</actor>
+      <actor>Constanza Pozo</actor>
+      <actor>Fernando Segú</actor>
+      <actor>Alonso Quintero.</actor>
+    </credits>
+    <date>2007</date>
+    <category>Teleseries</category>
+    <country>Chile</country>
+    <rating><value>R</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/vivircon10.jpg" />
+  </programme>
+  <programme start="20261106180000 -0300" stop="20261106190000 -0300" channel="0180">
+    <title>Las dos Carolinas</title>
+    <desc>Narra la historia de Carolina, una joven esforzada que, por una confusión de identidad, ingresa al exclusivo mundo de la moda, enfrentando secretos, diferencias sociales y una doble vida.</desc>
+    <credits>
+      <director>Vicente Sabatini</director>
+      <director>Roberto Morales. César Opazo</director>
+      <actor>Francisca Lewin</actor>
+      <actor>Pablo Cerda</actor>
+      <actor>Claudia Di Girolamo</actor>
+      <actor>Eduardo Paxeco</actor>
+      <actor>Ximena Rivas</actor>
+      <actor>Karla Melo</actor>
+      <actor>Juan Falcón</actor>
+      <actor>Francisca Gavilán</actor>
+      <actor>Héctor Noguera</actor>
+      <actor>Luz Jiménez</actor>
+      <actor>Sofía García</actor>
+      <actor>Sebastián Layseca</actor>
+      <actor>Isidora Urrejola</actor>
+      <actor>Eyal Meyer</actor>
+      <actor>Paloma Moreno</actor>
+      <actor>Antonio Campos</actor>
+    </credits>
+    <date>2014</date>
+    <category>Teleseries</category>
+    <country>Chile</country>
+    <rating><value>R</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/lasdoscarolinas.jpg" />
+  </programme>
+  <programme start="20261106190000 -0300" stop="20261106210000 -0300" channel="0180">
+    <title>Imparables</title>
+    <desc>Imparables es la historia de Juanjo Méndez y de su grupo ciclista, los &quot;Piratas&quot;. Juanjo perdió el brazo y la pierna izquierda en un accidente de moto hace veinte años. Después de muchos esfuerzos, consiguió volver a subir a una bici i fundó los &quot;Piratas&quot;, un club destinado a acoger y ayudar a otras personas en una situación similar a la suya. Hoy, Juanjo es campeón del mundo, único en el mundo en su especialidad.</desc>
+    <credits>
+      <director>Daniel Jariod</director>
+      <actor>juanjo mendez</actor>
+      <actor>Bernat Moreno</actor>
+      <actor>elisa cazalla</actor>
+      <actor>miguel indurain</actor>
+      <presenter>Jean Philippe Cretton</presenter>
+      <presenter>Power Peralta</presenter>
+    </credits>
+    <date>2017</date>
+    <category>Entretención</category>
+    <country>Chile</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/imparables.jpg" />
+  </programme>
+  <programme start="20261106210000 -0300" stop="20261106230000 -0300" channel="0180">
+    <title>Maldita Moda</title>
+    <desc>Entrevistas de frandulas</desc>
+    <credits>
+      <actor>Francisca García-Huidobro</actor>
+      <actor>Jordi Castell</actor>
+      <actor>Raquel Calderón</actor>
+      <actor>Marcelo Marocchino</actor>
+      <actor>Nicanor Bravo</actor>
+      <actor>Daniela Aránguiz</actor>
+      <presenter>Francisca García-Huidobro</presenter>
+      <presenter>Nadia Cabezas</presenter>
+      <presenter>Mariela Sotomayor</presenter>
+      <presenter>Javier Fernández</presenter>
+      <presenter>Jordi Castell</presenter>
+      <presenter>Raquel Calderón</presenter>
+      <presenter>Andrés Caniulef</presenter>
+      <presenter>Marcelo Marrocchino</presenter>
+    </credits>
+    <date>2015</date>
+    <category>Entretención</category>
+    <country>Chile</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/malditamoda.jpg" />
+  </programme>
+  <programme start="20261106230000 -0300" stop="20261107000000 -0300" channel="0180">
+    <title>Mujeres De Lujo</title>
+    <desc>La vida de un grupo de mujeres que debe enfrentar una realidad en un lujoso burdel.</desc>
+    <credits>
+      <director>Ricardo Vicuña</director>
+      <director>Patricio González</director>
+      <actor>Fernanda Urrejola</actor>
+      <actor>Álvaro Morales</actor>
+      <actor>Ignacia Allamand</actor>
+      <actor>Héctor Noguera</actor>
+      <actor>Andrés Velasco</actor>
+      <actor>César Arredondo</actor>
+      <actor>Pablo Macaya</actor>
+      <actor>Catalina Guerra</actor>
+      <actor>Bárbara Ruiz-Tagle</actor>
+      <actor>Catalina Olcay</actor>
+      <actor>Javiera Díaz de Valdés</actor>
+      <actor>Malucha Pinto</actor>
+      <actor>Marcela del Valle</actor>
+      <actor>César Sepúlveda</actor>
+      <actor>Eduardo Paxeco</actor>
+      <actor>Nicolás Vigneaux</actor>
+    </credits>
+    <date>2010</date>
+    <category>Teleseries</category>
+    <country>Chile</country>
+    <rating><value>A</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/mujeresdelujo.jpg" />
+  </programme>
+  <programme start="20261107000000 -0300" stop="20261107010000 -0300" channel="0180">
+    <title>Infieles</title>
+    <desc>Una comedia picaresca que relata historias de amor, infidelidades y relaciones clandestinas.</desc>
+    <credits>
+      <director>Víctor Hugo Muñoz</director>
+      <actor>Eduardo Paxeco</actor>
+      <actor>Daniel Muniz</actor>
+      <actor>Catalina Aguayo</actor>
+      <actor>Julio González Littin</actor>
+      <actor>Arturo Ruiz Tagle</actor>
+      <actor>Carolina Paulsen</actor>
+      <actor>Pablo Sotomayor Prat</actor>
+      <actor>Noelia Arias</actor>
+    </credits>
+    <date>2005</date>
+    <category>Series</category>
+    <country>Chile</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/infieles.jpg" />
+  </programme>
+  <programme start="20261107010000 -0300" stop="20261107020000 -0300" channel="0180">
+    <title>Mujeres De Lujo</title>
+    <desc>La vida de un grupo de mujeres que debe enfrentar una realidad en un lujoso burdel.</desc>
+    <credits>
+      <director>Ricardo Vicuña</director>
+      <director>Patricio González</director>
+      <actor>Fernanda Urrejola</actor>
+      <actor>Álvaro Morales</actor>
+      <actor>Ignacia Allamand</actor>
+      <actor>Héctor Noguera</actor>
+      <actor>Andrés Velasco</actor>
+      <actor>César Arredondo</actor>
+      <actor>Pablo Macaya</actor>
+      <actor>Catalina Guerra</actor>
+      <actor>Bárbara Ruiz-Tagle</actor>
+      <actor>Catalina Olcay</actor>
+      <actor>Javiera Díaz de Valdés</actor>
+      <actor>Malucha Pinto</actor>
+      <actor>Marcela del Valle</actor>
+      <actor>César Sepúlveda</actor>
+      <actor>Eduardo Paxeco</actor>
+      <actor>Nicolás Vigneaux</actor>
+    </credits>
+    <date>2010</date>
+    <category>Teleseries</category>
+    <country>Chile</country>
+    <rating><value>A</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/mujeresdelujo.jpg" />
+  </programme>
+  <programme start="20261107020000 -0300" stop="20261107040000 -0300" channel="0180">
+    <title>Maldita Moda</title>
+    <desc>Entrevistas de frandulas</desc>
+    <credits>
+      <actor>Francisca García-Huidobro</actor>
+      <actor>Jordi Castell</actor>
+      <actor>Raquel Calderón</actor>
+      <actor>Marcelo Marocchino</actor>
+      <actor>Nicanor Bravo</actor>
+      <actor>Daniela Aránguiz</actor>
+      <presenter>Francisca García-Huidobro</presenter>
+      <presenter>Nadia Cabezas</presenter>
+      <presenter>Mariela Sotomayor</presenter>
+      <presenter>Javier Fernández</presenter>
+      <presenter>Jordi Castell</presenter>
+      <presenter>Raquel Calderón</presenter>
+      <presenter>Andrés Caniulef</presenter>
+      <presenter>Marcelo Marrocchino</presenter>
+    </credits>
+    <date>2015</date>
+    <category>Entretención</category>
+    <country>Chile</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/malditamoda.jpg" />
+  </programme>
+  <programme start="20261107040000 -0300" stop="20261107050000 -0300" channel="0180">
+    <title>Infieles</title>
+    <desc>Una comedia picaresca que relata historias de amor, infidelidades y relaciones clandestinas.</desc>
+    <credits>
+      <director>Víctor Hugo Muñoz</director>
+      <actor>Eduardo Paxeco</actor>
+      <actor>Daniel Muniz</actor>
+      <actor>Catalina Aguayo</actor>
+      <actor>Julio González Littin</actor>
+      <actor>Arturo Ruiz Tagle</actor>
+      <actor>Carolina Paulsen</actor>
+      <actor>Pablo Sotomayor Prat</actor>
+      <actor>Noelia Arias</actor>
+    </credits>
+    <date>2005</date>
+    <category>Series</category>
+    <country>Chile</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/infieles.jpg" />
   </programme>
   <programme start="20261107050000 -0300" stop="20261107090000 -0300" channel="0180">
     <title>CHV de Culto</title>
@@ -70931,7 +72009,7 @@ Tomás Mosciatti</desc>
     <country>Chile</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/elinformador.jpg" />
   </programme>
-  <programme start="20261106051000 -0300" stop="20261106061000 -0300" channel="0203">
+  <programme start="20261106051000 -0300" stop="20261106060000 -0300" channel="0203">
     <title>El trasnoche de La Radio</title>
     <desc>Tu conexión directa con la actualidad mientras el mundo duerme. Acompaña tus madrugadas con las entrevistas más profundas, las noticias del momento y el análisis que necesitas para empezar el día.</desc>
     <credits>
@@ -70944,37 +72022,558 @@ Tomás Mosciatti</desc>
     <country>Chile</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0203_eltrasnochedelaradio.jpg" />
   </programme>
-  <programme start="20261106061000 -0300" stop="20261106070000 -0300" channel="0203">
-    <title>BíoBío TV</title>
-    <desc>La informacion de este programa no se encuentra disponible.</desc>
+  <programme start="20261106060000 -0300" stop="20261106101500 -0300" channel="0203">
+    <title>Radiograma matinal</title>
+    <desc>Empezando el día informados sobre las noticias del momento sobre política, economía, tiempo, cultura, deporte, transporte, noticias del mundo y más.</desc>
+    <credits>
+      <actor>Tomás Mosciatti</actor>
+      <actor>Katherine Cubillos</actor>
+      <presenter>Tomás Mosciatti</presenter>
+      <presenter>Katherine Cubillos</presenter>
+    </credits>
+    <date>2026</date>
+    <category>Noticias y Actualidad</category>
+    <country>Chile</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/radiogramamatinal.jpg" />
+  </programme>
+  <programme start="20261106101500 -0300" stop="20261106110000 -0300" channel="0203">
+    <title>Expreso Bío Bío AM</title>
+    <desc>La información no espera: noticias en vivo, entrevistas y el análisis clave en Expreso Bío Bío.</desc>
+    <credits>
+      <actor>Loreto Álvarez</actor>
+      <actor>Pablo Flamm</actor>
+    </credits>
+    <date>2026</date>
+    <category>Debate y Opinión</category>
+    <country>Chile</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/expresobiobio.jpg" />
+  </programme>
+  <programme start="20261106110000 -0300" stop="20261106111000 -0300" channel="0203">
+    <title>El informador</title>
+    <desc>Seth ha dejado los estudios y ha montado un casino ilegal en su casa. Su padre, que es juez, no ve demasiado bien esta ocupacion, y esto provoca nuevas tiranteces en su relacion, ya de por si tensa. Todo parece cambiar cuando a Seth un cliente le ofrece trabajar como agente de bolsa. Sin embargo, pronto comprobará que no es oro todo lo que reluce. Es un mundo atractivo en el que la gran parte son jóvenes y ambiciosos. Pero en el negocio de la especulación financiera la lealtad riñe con la ambición.</desc>
+    <credits>
+      <director>Ben Younger</director>
+      <actor>Tomás Mosciatti</actor>
+      <actor>Mario Álvarez</actor>
+      <actor>Nikolay Stagnaro</actor>
+      <actor>María José de la Barra</actor>
+      <actor>Nicolás Bravo</actor>
+      <actor>Valentina Hernández</actor>
+      <actor>Leila González</actor>
+      <actor>Katherine Cubillos</actor>
+    </credits>
+    <date>2026</date>
+    <category>Noticias y Actualidad</category>
+    <country>Chile</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/elinformador.jpg" />
+  </programme>
+  <programme start="20261106111000 -0300" stop="20261106120000 -0300" channel="0203">
+    <title>Expreso Bío Bío AM</title>
+    <desc>La información no espera: noticias en vivo, entrevistas y el análisis clave en Expreso Bío Bío.</desc>
+    <credits>
+      <actor>Loreto Álvarez</actor>
+      <actor>Pablo Flamm</actor>
+    </credits>
+    <date>2026</date>
+    <category>Debate y Opinión</category>
+    <country>Chile</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/expresobiobio.jpg" />
+  </programme>
+  <programme start="20261106120000 -0300" stop="20261106121000 -0300" channel="0203">
+    <title>El informador</title>
+    <desc>Seth ha dejado los estudios y ha montado un casino ilegal en su casa. Su padre, que es juez, no ve demasiado bien esta ocupacion, y esto provoca nuevas tiranteces en su relacion, ya de por si tensa. Todo parece cambiar cuando a Seth un cliente le ofrece trabajar como agente de bolsa. Sin embargo, pronto comprobará que no es oro todo lo que reluce. Es un mundo atractivo en el que la gran parte son jóvenes y ambiciosos. Pero en el negocio de la especulación financiera la lealtad riñe con la ambición.</desc>
+    <credits>
+      <director>Ben Younger</director>
+      <actor>Tomás Mosciatti</actor>
+      <actor>Mario Álvarez</actor>
+      <actor>Nikolay Stagnaro</actor>
+      <actor>María José de la Barra</actor>
+      <actor>Nicolás Bravo</actor>
+      <actor>Valentina Hernández</actor>
+      <actor>Leila González</actor>
+      <actor>Katherine Cubillos</actor>
+    </credits>
+    <date>2026</date>
+    <category>Noticias y Actualidad</category>
+    <country>Chile</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/elinformador.jpg" />
+  </programme>
+  <programme start="20261106121000 -0300" stop="20261106130000 -0300" channel="0203">
+    <title>Expreso Bío Bío AM</title>
+    <desc>La información no espera: noticias en vivo, entrevistas y el análisis clave en Expreso Bío Bío.</desc>
+    <credits>
+      <actor>Loreto Álvarez</actor>
+      <actor>Pablo Flamm</actor>
+    </credits>
+    <date>2026</date>
+    <category>Debate y Opinión</category>
+    <country>Chile</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/expresobiobio.jpg" />
+  </programme>
+  <programme start="20261106130000 -0300" stop="20261106141500 -0300" channel="0203">
+    <title>Radiograma mediodía</title>
+    <desc>Radiograma Mediodía te mantiene completamente informado sobre las noticias de actualidad más importantes, las cuales se han ido desarrollando durante el día.</desc>
+    <credits>
+      <actor>Katherine Cubillos</actor>
+      <actor>Nibaldo Mosciatti</actor>
+      <presenter>Nibaldo Mosciatti</presenter>
+      <presenter>Katherine Cubillos</presenter>
+    </credits>
+    <date>2026</date>
+    <category>Noticias y Actualidad</category>
+    <country>Chile</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/radiogramamediodia.jpg" />
+  </programme>
+  <programme start="20261106141500 -0300" stop="20261106150000 -0300" channel="0203">
+    <title>Expreso Bío Bío PM</title>
+    <desc>Cultura, deporte y entretenimiento en la voz de sus protagonistas y nuestros auditores.</desc>
+    <credits>
+      <actor>Loreto Álvarez</actor>
+      <actor>Rodrigo Ried</actor>
+      <actor>Álvaro Escobar</actor>
+      <presenter>Loreto Álvarez</presenter>
+      <presenter>Rodrigo Reid</presenter>
+      <presenter>Pablo Flamm</presenter>
+    </credits>
+    <date>2026</date>
+    <category>Entretención</category>
+    <country>Chile</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/expresopm.jpg" />
+  </programme>
+  <programme start="20261106150000 -0300" stop="20261106151500 -0300" channel="0203">
+    <title>El informador</title>
+    <desc>Seth ha dejado los estudios y ha montado un casino ilegal en su casa. Su padre, que es juez, no ve demasiado bien esta ocupacion, y esto provoca nuevas tiranteces en su relacion, ya de por si tensa. Todo parece cambiar cuando a Seth un cliente le ofrece trabajar como agente de bolsa. Sin embargo, pronto comprobará que no es oro todo lo que reluce. Es un mundo atractivo en el que la gran parte son jóvenes y ambiciosos. Pero en el negocio de la especulación financiera la lealtad riñe con la ambición.</desc>
+    <credits>
+      <director>Ben Younger</director>
+      <actor>Tomás Mosciatti</actor>
+      <actor>Mario Álvarez</actor>
+      <actor>Nikolay Stagnaro</actor>
+      <actor>María José de la Barra</actor>
+      <actor>Nicolás Bravo</actor>
+      <actor>Valentina Hernández</actor>
+      <actor>Leila González</actor>
+      <actor>Katherine Cubillos</actor>
+    </credits>
+    <date>2026</date>
+    <category>Noticias y Actualidad</category>
+    <country>Chile</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/elinformador.jpg" />
+  </programme>
+  <programme start="20261106151500 -0300" stop="20261106160000 -0300" channel="0203">
+    <title>Expreso Bío Bío PM</title>
+    <desc>Cultura, deporte y entretenimiento en la voz de sus protagonistas y nuestros auditores.</desc>
+    <credits>
+      <actor>Loreto Álvarez</actor>
+      <actor>Rodrigo Ried</actor>
+      <actor>Álvaro Escobar</actor>
+      <presenter>Loreto Álvarez</presenter>
+      <presenter>Rodrigo Reid</presenter>
+      <presenter>Pablo Flamm</presenter>
+    </credits>
+    <date>2026</date>
+    <category>Entretención</category>
+    <country>Chile</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/expresopm.jpg" />
+  </programme>
+  <programme start="20261106160000 -0300" stop="20261106161000 -0300" channel="0203">
+    <title>El informador</title>
+    <desc>Seth ha dejado los estudios y ha montado un casino ilegal en su casa. Su padre, que es juez, no ve demasiado bien esta ocupacion, y esto provoca nuevas tiranteces en su relacion, ya de por si tensa. Todo parece cambiar cuando a Seth un cliente le ofrece trabajar como agente de bolsa. Sin embargo, pronto comprobará que no es oro todo lo que reluce. Es un mundo atractivo en el que la gran parte son jóvenes y ambiciosos. Pero en el negocio de la especulación financiera la lealtad riñe con la ambición.</desc>
+    <credits>
+      <director>Ben Younger</director>
+      <actor>Tomás Mosciatti</actor>
+      <actor>Mario Álvarez</actor>
+      <actor>Nikolay Stagnaro</actor>
+      <actor>María José de la Barra</actor>
+      <actor>Nicolás Bravo</actor>
+      <actor>Valentina Hernández</actor>
+      <actor>Leila González</actor>
+      <actor>Katherine Cubillos</actor>
+    </credits>
+    <date>2026</date>
+    <category>Noticias y Actualidad</category>
+    <country>Chile</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/elinformador.jpg" />
+  </programme>
+  <programme start="20261106161000 -0300" stop="20261106170000 -0300" channel="0203">
+    <title>La Tarde de Bio Bio</title>
+    <desc>Información y conversación con el sello de Bío Bío. Un espacio para analizar la contingencia, escuchar las entrevistas que marcan pauta y profundizar en los temas que hoy son noticia en Chile.</desc>
+    <credits>
+      <actor>Julio Sánchez</actor>
+    </credits>
+    <date>2026</date>
+    <category>Debate y Opinión</category>
+    <country>Chile</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0203_fallback.jpg" />
   </programme>
-  <programme start="20261106070000 -0300" stop="20261106110000 -0300" channel="0203">
-    <title>BíoBío TV</title>
-    <desc>La informacion de este programa no se encuentra disponible.</desc>
+  <programme start="20261106170000 -0300" stop="20261106171000 -0300" channel="0203">
+    <title>El informador</title>
+    <desc>Seth ha dejado los estudios y ha montado un casino ilegal en su casa. Su padre, que es juez, no ve demasiado bien esta ocupacion, y esto provoca nuevas tiranteces en su relacion, ya de por si tensa. Todo parece cambiar cuando a Seth un cliente le ofrece trabajar como agente de bolsa. Sin embargo, pronto comprobará que no es oro todo lo que reluce. Es un mundo atractivo en el que la gran parte son jóvenes y ambiciosos. Pero en el negocio de la especulación financiera la lealtad riñe con la ambición.</desc>
+    <credits>
+      <director>Ben Younger</director>
+      <actor>Tomás Mosciatti</actor>
+      <actor>Mario Álvarez</actor>
+      <actor>Nikolay Stagnaro</actor>
+      <actor>María José de la Barra</actor>
+      <actor>Nicolás Bravo</actor>
+      <actor>Valentina Hernández</actor>
+      <actor>Leila González</actor>
+      <actor>Katherine Cubillos</actor>
+    </credits>
+    <date>2026</date>
+    <category>Noticias y Actualidad</category>
+    <country>Chile</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/elinformador.jpg" />
+  </programme>
+  <programme start="20261106171000 -0300" stop="20261106180000 -0300" channel="0203">
+    <title>La Tarde de Bio Bio</title>
+    <desc>Información y conversación con el sello de Bío Bío. Un espacio para analizar la contingencia, escuchar las entrevistas que marcan pauta y profundizar en los temas que hoy son noticia en Chile.</desc>
+    <credits>
+      <actor>Julio Sánchez</actor>
+    </credits>
+    <date>2026</date>
+    <category>Debate y Opinión</category>
+    <country>Chile</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0203_fallback.jpg" />
   </programme>
-  <programme start="20261106110000 -0300" stop="20261106150000 -0300" channel="0203">
-    <title>BíoBío TV</title>
-    <desc>La informacion de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0203_fallback.jpg" />
+  <programme start="20261106180000 -0300" stop="20261106200000 -0300" channel="0203">
+    <title>Radiograma Vespertino</title>
+    <desc>El balance informativo de la jornada con análisis a fondo y contexto. Una revisión detallada de las noticias del momento para entender la realidad política, social y económica del país.</desc>
+    <credits>
+      <actor>Néstor Aburto</actor>
+      <actor>Nibaldo Mosciatti</actor>
+      <presenter>Nibaldo Mosciatti</presenter>
+      <presenter>Néstor Aburto</presenter>
+    </credits>
+    <date>2026</date>
+    <category>Noticias y Actualidad</category>
+    <country>Chile</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/radiogramavespertino.jpg" />
   </programme>
-  <programme start="20261106150000 -0300" stop="20261106190000 -0300" channel="0203">
-    <title>BíoBío TV</title>
-    <desc>La informacion de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0203_fallback.jpg" />
+  <programme start="20261106200000 -0300" stop="20261106201500 -0300" channel="0203">
+    <title>Causa y efecto</title>
+    <desc>Un comentario sin filtros y punzante sobre la noticia del día. Analizamos el origen de los hechos y sus consecuencias reales, con la mirada ácida que la actualidad nacional merece.</desc>
+    <credits>
+      <actor>Nibaldo Mosciatti</actor>
+      <actor>Néstor Aburto</actor>
+    </credits>
+    <category>Debate y Opinión</category>
+    <country>Chile</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/causayefecto.jpg" />
   </programme>
-  <programme start="20261106190000 -0300" stop="20261106230000 -0300" channel="0203">
-    <title>BíoBío TV</title>
-    <desc>La informacion de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0203_fallback.jpg" />
+  <programme start="20261106201500 -0300" stop="20261106203000 -0300" channel="0203">
+    <title>Tema del día</title>
+    <desc>¿Qué pasó hoy y por qué importa? El Tema del Día desentraña la noticia principal con sus propios protagonistas. Entrevistas directas para que formes tu propia opinión sobre la actualidad del país.</desc>
+    <credits>
+      <actor>Nibaldo Mosciatti</actor>
+      <actor>Néstor Aburto</actor>
+    </credits>
+    <date>2026</date>
+    <category>Debate y Opinión</category>
+    <country>Chile</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/temadeldia.jpg" />
   </programme>
-  <programme start="20261106230000 -0300" stop="20261107030000 -0300" channel="0203">
-    <title>BíoBío TV</title>
-    <desc>La informacion de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0203_fallback.jpg" />
+  <programme start="20261106203000 -0300" stop="20261106210000 -0300" channel="0203">
+    <title>Hoy en la radio</title>
+    <desc>Noticias, contingencia y entrevistas a grandes artistas. La actualidad compartida en un solo lugar.</desc>
+    <credits>
+      <actor>Claudia Salas</actor>
+      <actor>Julio Sanchez</actor>
+      <actor>Mario Álvarez</actor>
+      <actor>Julio Sánchez y Camila Jara</actor>
+      <presenter>Julio Sánchez</presenter>
+    </credits>
+    <date>2026</date>
+    <category>Entretención</category>
+    <country>Chile</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/hoyenlaradio.jpg" />
   </programme>
-  <programme start="20261107030000 -0300" stop="20261107070000 -0300" channel="0203">
+  <programme start="20261106210000 -0300" stop="20261106210500 -0300" channel="0203">
+    <title>El informador</title>
+    <desc>Seth ha dejado los estudios y ha montado un casino ilegal en su casa. Su padre, que es juez, no ve demasiado bien esta ocupacion, y esto provoca nuevas tiranteces en su relacion, ya de por si tensa. Todo parece cambiar cuando a Seth un cliente le ofrece trabajar como agente de bolsa. Sin embargo, pronto comprobará que no es oro todo lo que reluce. Es un mundo atractivo en el que la gran parte son jóvenes y ambiciosos. Pero en el negocio de la especulación financiera la lealtad riñe con la ambición.</desc>
+    <credits>
+      <director>Ben Younger</director>
+      <actor>Tomás Mosciatti</actor>
+      <actor>Mario Álvarez</actor>
+      <actor>Nikolay Stagnaro</actor>
+      <actor>María José de la Barra</actor>
+      <actor>Nicolás Bravo</actor>
+      <actor>Valentina Hernández</actor>
+      <actor>Leila González</actor>
+      <actor>Katherine Cubillos</actor>
+    </credits>
+    <date>2026</date>
+    <category>Noticias y Actualidad</category>
+    <country>Chile</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/elinformador.jpg" />
+  </programme>
+  <programme start="20261106210500 -0300" stop="20261106220000 -0300" channel="0203">
+    <title>Hoy en la radio</title>
+    <desc>Noticias, contingencia y entrevistas a grandes artistas. La actualidad compartida en un solo lugar.</desc>
+    <credits>
+      <actor>Claudia Salas</actor>
+      <actor>Julio Sanchez</actor>
+      <actor>Mario Álvarez</actor>
+      <actor>Julio Sánchez y Camila Jara</actor>
+      <presenter>Julio Sánchez</presenter>
+    </credits>
+    <date>2026</date>
+    <category>Entretención</category>
+    <country>Chile</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/hoyenlaradio.jpg" />
+  </programme>
+  <programme start="20261106220000 -0300" stop="20261106220500 -0300" channel="0203">
+    <title>El informador</title>
+    <desc>Seth ha dejado los estudios y ha montado un casino ilegal en su casa. Su padre, que es juez, no ve demasiado bien esta ocupacion, y esto provoca nuevas tiranteces en su relacion, ya de por si tensa. Todo parece cambiar cuando a Seth un cliente le ofrece trabajar como agente de bolsa. Sin embargo, pronto comprobará que no es oro todo lo que reluce. Es un mundo atractivo en el que la gran parte son jóvenes y ambiciosos. Pero en el negocio de la especulación financiera la lealtad riñe con la ambición.</desc>
+    <credits>
+      <director>Ben Younger</director>
+      <actor>Tomás Mosciatti</actor>
+      <actor>Mario Álvarez</actor>
+      <actor>Nikolay Stagnaro</actor>
+      <actor>María José de la Barra</actor>
+      <actor>Nicolás Bravo</actor>
+      <actor>Valentina Hernández</actor>
+      <actor>Leila González</actor>
+      <actor>Katherine Cubillos</actor>
+    </credits>
+    <date>2026</date>
+    <category>Noticias y Actualidad</category>
+    <country>Chile</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/elinformador.jpg" />
+  </programme>
+  <programme start="20261106220500 -0300" stop="20261106230000 -0300" channel="0203">
+    <title>Hoy en la radio</title>
+    <desc>Noticias, contingencia y entrevistas a grandes artistas. La actualidad compartida en un solo lugar.</desc>
+    <credits>
+      <actor>Claudia Salas</actor>
+      <actor>Julio Sanchez</actor>
+      <actor>Mario Álvarez</actor>
+      <actor>Julio Sánchez y Camila Jara</actor>
+      <presenter>Julio Sánchez</presenter>
+    </credits>
+    <date>2026</date>
+    <category>Entretención</category>
+    <country>Chile</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/hoyenlaradio.jpg" />
+  </programme>
+  <programme start="20261106230000 -0300" stop="20261106230500 -0300" channel="0203">
+    <title>El informador</title>
+    <desc>Seth ha dejado los estudios y ha montado un casino ilegal en su casa. Su padre, que es juez, no ve demasiado bien esta ocupacion, y esto provoca nuevas tiranteces en su relacion, ya de por si tensa. Todo parece cambiar cuando a Seth un cliente le ofrece trabajar como agente de bolsa. Sin embargo, pronto comprobará que no es oro todo lo que reluce. Es un mundo atractivo en el que la gran parte son jóvenes y ambiciosos. Pero en el negocio de la especulación financiera la lealtad riñe con la ambición.</desc>
+    <credits>
+      <director>Ben Younger</director>
+      <actor>Tomás Mosciatti</actor>
+      <actor>Mario Álvarez</actor>
+      <actor>Nikolay Stagnaro</actor>
+      <actor>María José de la Barra</actor>
+      <actor>Nicolás Bravo</actor>
+      <actor>Valentina Hernández</actor>
+      <actor>Leila González</actor>
+      <actor>Katherine Cubillos</actor>
+    </credits>
+    <date>2026</date>
+    <category>Noticias y Actualidad</category>
+    <country>Chile</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/elinformador.jpg" />
+  </programme>
+  <programme start="20261106230500 -0300" stop="20261107000000 -0300" channel="0203">
+    <title>Hoy en la radio</title>
+    <desc>Noticias, contingencia y entrevistas a grandes artistas. La actualidad compartida en un solo lugar.</desc>
+    <credits>
+      <actor>Claudia Salas</actor>
+      <actor>Julio Sanchez</actor>
+      <actor>Mario Álvarez</actor>
+      <actor>Julio Sánchez y Camila Jara</actor>
+      <presenter>Julio Sánchez</presenter>
+    </credits>
+    <date>2026</date>
+    <category>Entretención</category>
+    <country>Chile</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/hoyenlaradio.jpg" />
+  </programme>
+  <programme start="20261107000000 -0300" stop="20261107003000 -0300" channel="0203">
+    <title>Radiograma medianoche</title>
+    <desc>El resumen definitivo: las noticias más importantes y los hechos que marcaron la pauta hoy.</desc>
+    <credits>
+      <actor>Mario Álvarez</actor>
+    </credits>
+    <date>2026</date>
+    <category>Noticias y Actualidad</category>
+    <country>Chile</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/radiogramamedianoche.jpg" />
+  </programme>
+  <programme start="20261107003000 -0300" stop="20261107010000 -0300" channel="0203">
+    <title>El trasnoche de La Radio</title>
+    <desc>Tu conexión directa con la actualidad mientras el mundo duerme. Acompaña tus madrugadas con las entrevistas más profundas, las noticias del momento y el análisis que necesitas para empezar el día.</desc>
+    <credits>
+      <actor>Mario Álvarez</actor>
+      <presenter>Nikolay Stagnaro</presenter>
+      <presenter>Mario Álvarez</presenter>
+    </credits>
+    <date>2026</date>
+    <category>Entretención</category>
+    <country>Chile</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0203_eltrasnochedelaradio.jpg" />
+  </programme>
+  <programme start="20261107010000 -0300" stop="20261107011000 -0300" channel="0203">
+    <title>El informador</title>
+    <desc>Seth ha dejado los estudios y ha montado un casino ilegal en su casa. Su padre, que es juez, no ve demasiado bien esta ocupacion, y esto provoca nuevas tiranteces en su relacion, ya de por si tensa. Todo parece cambiar cuando a Seth un cliente le ofrece trabajar como agente de bolsa. Sin embargo, pronto comprobará que no es oro todo lo que reluce. Es un mundo atractivo en el que la gran parte son jóvenes y ambiciosos. Pero en el negocio de la especulación financiera la lealtad riñe con la ambición.</desc>
+    <credits>
+      <director>Ben Younger</director>
+      <actor>Tomás Mosciatti</actor>
+      <actor>Mario Álvarez</actor>
+      <actor>Nikolay Stagnaro</actor>
+      <actor>María José de la Barra</actor>
+      <actor>Nicolás Bravo</actor>
+      <actor>Valentina Hernández</actor>
+      <actor>Leila González</actor>
+      <actor>Katherine Cubillos</actor>
+    </credits>
+    <date>2026</date>
+    <category>Noticias y Actualidad</category>
+    <country>Chile</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/elinformador.jpg" />
+  </programme>
+  <programme start="20261107011000 -0300" stop="20261107020000 -0300" channel="0203">
+    <title>El trasnoche de La Radio</title>
+    <desc>Tu conexión directa con la actualidad mientras el mundo duerme. Acompaña tus madrugadas con las entrevistas más profundas, las noticias del momento y el análisis que necesitas para empezar el día.</desc>
+    <credits>
+      <actor>Mario Álvarez</actor>
+      <presenter>Nikolay Stagnaro</presenter>
+      <presenter>Mario Álvarez</presenter>
+    </credits>
+    <date>2026</date>
+    <category>Entretención</category>
+    <country>Chile</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0203_eltrasnochedelaradio.jpg" />
+  </programme>
+  <programme start="20261107020000 -0300" stop="20261107021000 -0300" channel="0203">
+    <title>El informador</title>
+    <desc>Seth ha dejado los estudios y ha montado un casino ilegal en su casa. Su padre, que es juez, no ve demasiado bien esta ocupacion, y esto provoca nuevas tiranteces en su relacion, ya de por si tensa. Todo parece cambiar cuando a Seth un cliente le ofrece trabajar como agente de bolsa. Sin embargo, pronto comprobará que no es oro todo lo que reluce. Es un mundo atractivo en el que la gran parte son jóvenes y ambiciosos. Pero en el negocio de la especulación financiera la lealtad riñe con la ambición.</desc>
+    <credits>
+      <director>Ben Younger</director>
+      <actor>Tomás Mosciatti</actor>
+      <actor>Mario Álvarez</actor>
+      <actor>Nikolay Stagnaro</actor>
+      <actor>María José de la Barra</actor>
+      <actor>Nicolás Bravo</actor>
+      <actor>Valentina Hernández</actor>
+      <actor>Leila González</actor>
+      <actor>Katherine Cubillos</actor>
+    </credits>
+    <date>2026</date>
+    <category>Noticias y Actualidad</category>
+    <country>Chile</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/elinformador.jpg" />
+  </programme>
+  <programme start="20261107021000 -0300" stop="20261107030000 -0300" channel="0203">
+    <title>El trasnoche de La Radio</title>
+    <desc>Tu conexión directa con la actualidad mientras el mundo duerme. Acompaña tus madrugadas con las entrevistas más profundas, las noticias del momento y el análisis que necesitas para empezar el día.</desc>
+    <credits>
+      <actor>Mario Álvarez</actor>
+      <presenter>Nikolay Stagnaro</presenter>
+      <presenter>Mario Álvarez</presenter>
+    </credits>
+    <date>2026</date>
+    <category>Entretención</category>
+    <country>Chile</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0203_eltrasnochedelaradio.jpg" />
+  </programme>
+  <programme start="20261107030000 -0300" stop="20261107031000 -0300" channel="0203">
+    <title>El informador</title>
+    <desc>Seth ha dejado los estudios y ha montado un casino ilegal en su casa. Su padre, que es juez, no ve demasiado bien esta ocupacion, y esto provoca nuevas tiranteces en su relacion, ya de por si tensa. Todo parece cambiar cuando a Seth un cliente le ofrece trabajar como agente de bolsa. Sin embargo, pronto comprobará que no es oro todo lo que reluce. Es un mundo atractivo en el que la gran parte son jóvenes y ambiciosos. Pero en el negocio de la especulación financiera la lealtad riñe con la ambición.</desc>
+    <credits>
+      <director>Ben Younger</director>
+      <actor>Tomás Mosciatti</actor>
+      <actor>Mario Álvarez</actor>
+      <actor>Nikolay Stagnaro</actor>
+      <actor>María José de la Barra</actor>
+      <actor>Nicolás Bravo</actor>
+      <actor>Valentina Hernández</actor>
+      <actor>Leila González</actor>
+      <actor>Katherine Cubillos</actor>
+    </credits>
+    <date>2026</date>
+    <category>Noticias y Actualidad</category>
+    <country>Chile</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/elinformador.jpg" />
+  </programme>
+  <programme start="20261107031000 -0300" stop="20261107040000 -0300" channel="0203">
+    <title>El trasnoche de La Radio</title>
+    <desc>Tu conexión directa con la actualidad mientras el mundo duerme. Acompaña tus madrugadas con las entrevistas más profundas, las noticias del momento y el análisis que necesitas para empezar el día.</desc>
+    <credits>
+      <actor>Mario Álvarez</actor>
+      <presenter>Nikolay Stagnaro</presenter>
+      <presenter>Mario Álvarez</presenter>
+    </credits>
+    <date>2026</date>
+    <category>Entretención</category>
+    <country>Chile</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0203_eltrasnochedelaradio.jpg" />
+  </programme>
+  <programme start="20261107040000 -0300" stop="20261107041000 -0300" channel="0203">
+    <title>El informador</title>
+    <desc>Seth ha dejado los estudios y ha montado un casino ilegal en su casa. Su padre, que es juez, no ve demasiado bien esta ocupacion, y esto provoca nuevas tiranteces en su relacion, ya de por si tensa. Todo parece cambiar cuando a Seth un cliente le ofrece trabajar como agente de bolsa. Sin embargo, pronto comprobará que no es oro todo lo que reluce. Es un mundo atractivo en el que la gran parte son jóvenes y ambiciosos. Pero en el negocio de la especulación financiera la lealtad riñe con la ambición.</desc>
+    <credits>
+      <director>Ben Younger</director>
+      <actor>Tomás Mosciatti</actor>
+      <actor>Mario Álvarez</actor>
+      <actor>Nikolay Stagnaro</actor>
+      <actor>María José de la Barra</actor>
+      <actor>Nicolás Bravo</actor>
+      <actor>Valentina Hernández</actor>
+      <actor>Leila González</actor>
+      <actor>Katherine Cubillos</actor>
+    </credits>
+    <date>2026</date>
+    <category>Noticias y Actualidad</category>
+    <country>Chile</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/elinformador.jpg" />
+  </programme>
+  <programme start="20261107041000 -0300" stop="20261107050000 -0300" channel="0203">
+    <title>El trasnoche de La Radio</title>
+    <desc>Tu conexión directa con la actualidad mientras el mundo duerme. Acompaña tus madrugadas con las entrevistas más profundas, las noticias del momento y el análisis que necesitas para empezar el día.</desc>
+    <credits>
+      <actor>Mario Álvarez</actor>
+      <presenter>Nikolay Stagnaro</presenter>
+      <presenter>Mario Álvarez</presenter>
+    </credits>
+    <date>2026</date>
+    <category>Entretención</category>
+    <country>Chile</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0203_eltrasnochedelaradio.jpg" />
+  </programme>
+  <programme start="20261107050000 -0300" stop="20261107051000 -0300" channel="0203">
+    <title>El informador</title>
+    <desc>Seth ha dejado los estudios y ha montado un casino ilegal en su casa. Su padre, que es juez, no ve demasiado bien esta ocupacion, y esto provoca nuevas tiranteces en su relacion, ya de por si tensa. Todo parece cambiar cuando a Seth un cliente le ofrece trabajar como agente de bolsa. Sin embargo, pronto comprobará que no es oro todo lo que reluce. Es un mundo atractivo en el que la gran parte son jóvenes y ambiciosos. Pero en el negocio de la especulación financiera la lealtad riñe con la ambición.</desc>
+    <credits>
+      <director>Ben Younger</director>
+      <actor>Tomás Mosciatti</actor>
+      <actor>Mario Álvarez</actor>
+      <actor>Nikolay Stagnaro</actor>
+      <actor>María José de la Barra</actor>
+      <actor>Nicolás Bravo</actor>
+      <actor>Valentina Hernández</actor>
+      <actor>Leila González</actor>
+      <actor>Katherine Cubillos</actor>
+    </credits>
+    <date>2026</date>
+    <category>Noticias y Actualidad</category>
+    <country>Chile</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/elinformador.jpg" />
+  </programme>
+  <programme start="20261107051000 -0300" stop="20261107061000 -0300" channel="0203">
+    <title>El trasnoche de La Radio</title>
+    <desc>Tu conexión directa con la actualidad mientras el mundo duerme. Acompaña tus madrugadas con las entrevistas más profundas, las noticias del momento y el análisis que necesitas para empezar el día.</desc>
+    <credits>
+      <actor>Mario Álvarez</actor>
+      <presenter>Nikolay Stagnaro</presenter>
+      <presenter>Mario Álvarez</presenter>
+    </credits>
+    <date>2026</date>
+    <category>Entretención</category>
+    <country>Chile</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0203_eltrasnochedelaradio.jpg" />
+  </programme>
+  <programme start="20261107061000 -0300" stop="20261107070000 -0300" channel="0203">
     <title>BíoBío TV</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0203_fallback.jpg" />
@@ -140967,7 +142566,7 @@ Mucho tiempo después, luego de un suceso inesperado Sim Chung llega a tierra fi
     <category>Historical drama</category>
     <country>Corea del Sur</country>
     <rating><value>12A</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0302_fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/theroundup.jpg" />
   </programme>
   <programme start="20261107005200 -0300" stop="20261107013800 -0300" channel="0302">
     <title>Yu-Gi-Oh! Duel Monsters</title>
@@ -141036,7 +142635,7 @@ Mucho tiempo después, luego de un suceso inesperado Sim Chung llega a tierra fi
     <category>Historical drama</category>
     <country>Corea del Sur</country>
     <rating><value>12A</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0302_fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/theroundup.jpg" />
   </programme>
   <programme start="20261107042700 -0300" stop="20261107053700 -0300" channel="0302">
     <title>Un remedio para el corazón</title>
@@ -751805,8 +753404,18 @@ Y por último están Brenda Uriarte, su hermano Tony, su madrastra Constanza y s
   <programme start="20261106074500 -0300" stop="20261106091000 -0300" channel="0828">
     <title>En altamar</title>
     <desc>Una pareja infiel termina varada en un bote en mar abierto.</desc>
+    <credits>
+      <director>Alfonso Rodriguez</director>
+      <actor>Christian Álvarez</actor>
+      <actor>Hemky Madera</actor>
+      <actor>Mimi Pabon</actor>
+      <actor>Jessica Vargas</actor>
+      <actor>Vanessa Villela</actor>
+      <actor>Joshua Wagner</actor>
+    </credits>
     <date>2018</date>
     <category>Suspenso</category>
+    <country>Dominican Republic</country>
     <rating><value>4.6</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/enaltamar.jpg" />
   </programme>
@@ -885383,6 +886992,14 @@ Columbus,  un estudiante universitario poco social, se dirige hacia casa de sus 
   <programme start="20261104134600 -0300" stop="20261104151100 -0300" channel="0853">
     <title>Monster Buster</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
+    <credits>
+      <actor>Mille Gori</actor>
+      <actor>Silja Okking</actor>
+      <actor>Jacinta Madsen</actor>
+    </credits>
+    <date>2014</date>
+    <category>Kids</category>
+    <country>Dinamarca</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/monsterbuster.jpg" />
   </programme>
   <programme start="20261104151100 -0300" stop="20261104170700 -0300" channel="0853">
@@ -894731,6 +896348,7 @@ La serie narra los acontecimientos de la Biblia, del Antiguo y Nuevo Testamento 
     <date>1965</date>
     <category>Movie</category>
     <category>Drama</category>
+    <country>Estados Unidos</country>
     <rating><value>A</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
@@ -906352,9 +907970,14 @@ La serie narra los acontecimientos de la Biblia, del Antiguo y Nuevo Testamento 
   <programme start="20261109190000 -0300" stop="20261109204000 -0300" channel="0906">
     <title>Filme</title>
     <desc>Acompanhe uma produção cinematográfica.</desc>
+    <credits>
+      <director>Petter Baiestorf</director>
+      <actor>Petter Baiestorf</actor>
+    </credits>
     <date>2009</date>
     <category>Variety</category>
     <category>Entertainment</category>
+    <country>Brasil</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/filme.jpg" />
   </programme>
   <programme start="20261109204000 -0300" stop="20261109211500 -0300" channel="0906">
@@ -932771,8 +934394,13 @@ La serie narra los acontecimientos de la Biblia, del Antiguo y Nuevo Testamento 
   </programme>
   <programme start="20261103220000 -0300" stop="20261103223000 -0300" channel="0947">
     <title>Hecho a mano</title>
-    <desc>En un mundo donde persiste una constante revolución tecnológica que ha transformado la sociedad y la producción industrial, aún sobreviven algunos héroes que realizan trabajos con sus propias manos dotándolos de personalidad.</desc>
+    <desc>En un registro íntimo y descontracturado, Julia indaga sobre los efectos del encierro y el paso a la virtualidad, mientras su hija Nina juega a ser una especie de maestra del futuro. Un diario íntimo, pequeño y profundo: personal y político.</desc>
+    <credits>
+      <director>Julia Solomonoff</director>
+    </credits>
+    <date>2021</date>
     <category>Documental</category>
+    <country>España</country>
     <rating><value>TE</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
@@ -933125,8 +934753,13 @@ La serie narra los acontecimientos de la Biblia, del Antiguo y Nuevo Testamento 
   </programme>
   <programme start="20261105220000 -0300" stop="20261105220000 -0300" channel="0947">
     <title>Hecho a mano</title>
-    <desc>En un mundo donde persiste una constante revolución tecnológica que ha transformado la sociedad y la producción industrial, aún sobreviven algunos héroes que realizan trabajos con sus propias manos dotándolos de personalidad.</desc>
+    <desc>En un registro íntimo y descontracturado, Julia indaga sobre los efectos del encierro y el paso a la virtualidad, mientras su hija Nina juega a ser una especie de maestra del futuro. Un diario íntimo, pequeño y profundo: personal y político.</desc>
+    <credits>
+      <director>Julia Solomonoff</director>
+    </credits>
+    <date>2021</date>
     <category>Documental</category>
+    <country>España</country>
     <rating><value>TE</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
@@ -942702,163 +944335,192 @@ La serie narra los acontecimientos de la Biblia, del Antiguo y Nuevo Testamento 
     <category>drama</category>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261105011900 -0300" stop="20261105021900 -0300" channel="0967">
+  <programme start="20261105011900 -0300" stop="20261105020500 -0300" channel="0967">
     <title>El mundo de Julius- Episodio 30</title>
     <desc>Todo era perfecto para Julius, hasta que su mundo se rompe. Entre nuevos retos y aventuras, lucha por seguir siendo un niño feliz.</desc>
     <category>drama</category>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261105021900 -0300" stop="20261105030000 -0300" channel="0967">
+  <programme start="20261105020500 -0300" stop="20261105025000 -0300" channel="0967">
+    <title>La magia de Sofía- Episodio 11</title>
+    <desc>Sofía enfrenta lo desconocido y, Entre cuentos y fantasía, Sofía busca respuestas simples a la vida compleja que los adultos parecen complicar siempre.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261105025000 -0300" stop="20261105033100 -0300" channel="0967">
+    <title>La magia de Sofía- Episodio 12</title>
+    <desc>Sofía enfrenta lo desconocido y, Entre cuentos y fantasía, Sofía busca respuestas simples a la vida compleja que los adultos parecen complicar siempre.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261105033100 -0300" stop="20261105040000 -0300" channel="0967">
+    <title>Club 10 - Año 11- - Episodio 292</title>
+    <desc>Un grupo de niños y su amigo Dinodoro viven emocionantes aventuras llenas de humor, aprendizaje y diversión en Club 10.</desc>
+    <category>fantasy</category>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261105040000 -0300" stop="20261105043100 -0300" channel="0967">
+    <title>Club 10 - Año 11- - Episodio 293</title>
+    <desc>Un grupo de niños y su amigo Dinodoro viven emocionantes aventuras llenas de humor, aprendizaje y diversión en Club 10.</desc>
+    <category>fantasy</category>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261105043100 -0300" stop="20261105045500 -0300" channel="0967">
+    <title>Cuentos de los Hermanos Grimm - Episodio 5. El ganso de oro</title>
+    <desc>Emitida por Caracol desde 1988, esta serie trajo los cuentos Grimm a la TV con emoción, valores y estilo inolvidable.</desc>
+    <category>animation</category>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261105045500 -0300" stop="20261105055500 -0300" channel="0967">
+    <title>Cuentos de los Hermanos Grimm - Episodio 8. Nieve blanca y rosa roja</title>
+    <desc>Emitida por Caracol desde 1988, esta serie trajo los cuentos Grimm a la TV con emoción, valores y estilo inolvidable.</desc>
+    <category>animation</category>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261105055500 -0300" stop="20261105060000 -0300" channel="0967">
     <title>TEST DITU CARACOL KIDS</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261105030000 -0300" stop="20261105070000 -0300" channel="0967">
+  <programme start="20261105060000 -0300" stop="20261105100000 -0300" channel="0967">
     <title>TEST DITU CARACOL KIDS</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261105070000 -0300" stop="20261105110000 -0300" channel="0967">
+  <programme start="20261105100000 -0300" stop="20261105140000 -0300" channel="0967">
     <title>TEST DITU CARACOL KIDS</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261105110000 -0300" stop="20261105150000 -0300" channel="0967">
+  <programme start="20261105140000 -0300" stop="20261105180000 -0300" channel="0967">
     <title>TEST DITU CARACOL KIDS</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261105150000 -0300" stop="20261105190000 -0300" channel="0967">
+  <programme start="20261105180000 -0300" stop="20261105220000 -0300" channel="0967">
     <title>TEST DITU CARACOL KIDS</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261105190000 -0300" stop="20261105230000 -0300" channel="0967">
+  <programme start="20261105220000 -0300" stop="20261106020000 -0300" channel="0967">
     <title>TEST DITU CARACOL KIDS</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261105230000 -0300" stop="20261106030000 -0300" channel="0967">
+  <programme start="20261106020000 -0300" stop="20261106060000 -0300" channel="0967">
     <title>TEST DITU CARACOL KIDS</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261106030000 -0300" stop="20261106070000 -0300" channel="0967">
+  <programme start="20261106060000 -0300" stop="20261106100000 -0300" channel="0967">
     <title>TEST DITU CARACOL KIDS</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261106070000 -0300" stop="20261106110000 -0300" channel="0967">
+  <programme start="20261106100000 -0300" stop="20261106140000 -0300" channel="0967">
     <title>TEST DITU CARACOL KIDS</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261106110000 -0300" stop="20261106150000 -0300" channel="0967">
+  <programme start="20261106140000 -0300" stop="20261106180000 -0300" channel="0967">
     <title>TEST DITU CARACOL KIDS</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261106150000 -0300" stop="20261106190000 -0300" channel="0967">
+  <programme start="20261106180000 -0300" stop="20261106220000 -0300" channel="0967">
     <title>TEST DITU CARACOL KIDS</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261106190000 -0300" stop="20261106230000 -0300" channel="0967">
+  <programme start="20261106220000 -0300" stop="20261107020000 -0300" channel="0967">
     <title>TEST DITU CARACOL KIDS</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261106230000 -0300" stop="20261107030000 -0300" channel="0967">
+  <programme start="20261107020000 -0300" stop="20261107060000 -0300" channel="0967">
     <title>TEST DITU CARACOL KIDS</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261107030000 -0300" stop="20261107070000 -0300" channel="0967">
+  <programme start="20261107060000 -0300" stop="20261107100000 -0300" channel="0967">
     <title>TEST DITU CARACOL KIDS</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261107070000 -0300" stop="20261107110000 -0300" channel="0967">
+  <programme start="20261107100000 -0300" stop="20261107140000 -0300" channel="0967">
     <title>TEST DITU CARACOL KIDS</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261107110000 -0300" stop="20261107150000 -0300" channel="0967">
+  <programme start="20261107140000 -0300" stop="20261107180000 -0300" channel="0967">
     <title>TEST DITU CARACOL KIDS</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261107150000 -0300" stop="20261107190000 -0300" channel="0967">
+  <programme start="20261107180000 -0300" stop="20261107220000 -0300" channel="0967">
     <title>TEST DITU CARACOL KIDS</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261107190000 -0300" stop="20261107230000 -0300" channel="0967">
+  <programme start="20261107220000 -0300" stop="20261108020000 -0300" channel="0967">
     <title>TEST DITU CARACOL KIDS</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261107230000 -0300" stop="20261108030000 -0300" channel="0967">
+  <programme start="20261108020000 -0300" stop="20261108060000 -0300" channel="0967">
     <title>TEST DITU CARACOL KIDS</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261108030000 -0300" stop="20261108070000 -0300" channel="0967">
+  <programme start="20261108060000 -0300" stop="20261108100000 -0300" channel="0967">
     <title>TEST DITU CARACOL KIDS</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261108070000 -0300" stop="20261108110000 -0300" channel="0967">
+  <programme start="20261108100000 -0300" stop="20261108140000 -0300" channel="0967">
     <title>TEST DITU CARACOL KIDS</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261108110000 -0300" stop="20261108150000 -0300" channel="0967">
+  <programme start="20261108140000 -0300" stop="20261108180000 -0300" channel="0967">
     <title>TEST DITU CARACOL KIDS</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261108150000 -0300" stop="20261108190000 -0300" channel="0967">
+  <programme start="20261108180000 -0300" stop="20261108220000 -0300" channel="0967">
     <title>TEST DITU CARACOL KIDS</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261108190000 -0300" stop="20261108230000 -0300" channel="0967">
+  <programme start="20261108220000 -0300" stop="20261109020000 -0300" channel="0967">
     <title>TEST DITU CARACOL KIDS</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261108230000 -0300" stop="20261109030000 -0300" channel="0967">
+  <programme start="20261109020000 -0300" stop="20261109060000 -0300" channel="0967">
     <title>TEST DITU CARACOL KIDS</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261109030000 -0300" stop="20261109070000 -0300" channel="0967">
+  <programme start="20261109060000 -0300" stop="20261109100000 -0300" channel="0967">
     <title>TEST DITU CARACOL KIDS</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261109070000 -0300" stop="20261109110000 -0300" channel="0967">
+  <programme start="20261109100000 -0300" stop="20261109140000 -0300" channel="0967">
     <title>TEST DITU CARACOL KIDS</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261109110000 -0300" stop="20261109150000 -0300" channel="0967">
+  <programme start="20261109140000 -0300" stop="20261109180000 -0300" channel="0967">
     <title>TEST DITU CARACOL KIDS</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261109150000 -0300" stop="20261109190000 -0300" channel="0967">
+  <programme start="20261109180000 -0300" stop="20261109220000 -0300" channel="0967">
     <title>TEST DITU CARACOL KIDS</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261109190000 -0300" stop="20261109230000 -0300" channel="0967">
-    <title>TEST DITU CARACOL KIDS</title>
-    <desc>La informacion de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
-  </programme>
-  <programme start="20261109230000 -0300" stop="20261109235959 -0300" channel="0967">
+  <programme start="20261109220000 -0300" stop="20261109235959 -0300" channel="0967">
     <title>TEST DITU CARACOL KIDS</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
@@ -1050411,8 +1052073,13 @@ Primer plano: interesante, impactante, informativo.</desc>
   </programme>
   <programme start="20261105100000 -0300" stop="20261105103000 -0300" channel="co0014">
     <title>Hecho a mano</title>
-    <desc>Desde arreglos florales hasta juguetes e instrumentos, el arte de confeccionar todo a mano, siguiendo la tradición y aplicando nuevas metodologías.</desc>
+    <desc>En un registro íntimo y descontracturado, Julia indaga sobre los efectos del encierro y el paso a la virtualidad, mientras su hija Nina juega a ser una especie de maestra del futuro. Un diario íntimo, pequeño y profundo: personal y político.</desc>
+    <credits>
+      <director>Julia Solomonoff</director>
+    </credits>
+    <date>2021</date>
     <category>Series</category>
+    <country>España</country>
     <rating><value>TE</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
@@ -1050694,8 +1052361,13 @@ Primer plano: interesante, impactante, informativo.</desc>
   </programme>
   <programme start="20261106060000 -0300" stop="20261106063000 -0300" channel="co0014">
     <title>Hecho a mano</title>
-    <desc>Desde arreglos florales hasta juguetes e instrumentos, el arte de confeccionar todo a mano, siguiendo la tradición y aplicando nuevas metodologías.</desc>
+    <desc>En un registro íntimo y descontracturado, Julia indaga sobre los efectos del encierro y el paso a la virtualidad, mientras su hija Nina juega a ser una especie de maestra del futuro. Un diario íntimo, pequeño y profundo: personal y político.</desc>
+    <credits>
+      <director>Julia Solomonoff</director>
+    </credits>
+    <date>2021</date>
     <category>Series</category>
+    <country>España</country>
     <rating><value>TE</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
@@ -1050738,8 +1052410,13 @@ Primer plano: interesante, impactante, informativo.</desc>
   </programme>
   <programme start="20261106100000 -0300" stop="20261106103000 -0300" channel="co0014">
     <title>Hecho a mano</title>
-    <desc>Desde arreglos florales hasta juguetes e instrumentos, el arte de confeccionar todo a mano, siguiendo la tradición y aplicando nuevas metodologías.</desc>
+    <desc>En un registro íntimo y descontracturado, Julia indaga sobre los efectos del encierro y el paso a la virtualidad, mientras su hija Nina juega a ser una especie de maestra del futuro. Un diario íntimo, pequeño y profundo: personal y político.</desc>
+    <credits>
+      <director>Julia Solomonoff</director>
+    </credits>
+    <date>2021</date>
     <category>Series</category>
+    <country>España</country>
     <rating><value>TE</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
@@ -1050994,8 +1052671,13 @@ Primer plano: interesante, impactante, informativo.</desc>
   </programme>
   <programme start="20261107050000 -0300" stop="20261107053000 -0300" channel="co0014">
     <title>Hecho a mano</title>
-    <desc>Desde arreglos florales hasta juguetes e instrumentos, el arte de confeccionar todo a mano, siguiendo la tradición y aplicando nuevas metodologías.</desc>
+    <desc>En un registro íntimo y descontracturado, Julia indaga sobre los efectos del encierro y el paso a la virtualidad, mientras su hija Nina juega a ser una especie de maestra del futuro. Un diario íntimo, pequeño y profundo: personal y político.</desc>
+    <credits>
+      <director>Julia Solomonoff</director>
+    </credits>
+    <date>2021</date>
     <category>Series</category>
+    <country>España</country>
     <rating><value>TE</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
