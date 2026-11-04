@@ -19892,7 +19892,14 @@ No aparece en el programa ningún otro superhéroe de ficción, a excepción  de
   <programme start="20261103210000 -0300" stop="20261103220000 -0300" channel="0115">
     <title>Democracy Now!</title>
     <desc>Los destacados periodistas Amy Goodman y Juan González te informan diariamente sobre el acontecer global desde Nueva York.</desc>
+    <credits>
+      <director>Amy Goodman</director>
+      <actor>Amy Goodman</actor>
+      <actor>Juan Gonzalez</actor>
+    </credits>
+    <date>2001</date>
     <category>Debate y Opinión</category>
+    <country>Estados Unidos</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/democracynow.jpg" />
   </programme>
   <programme start="20261103220000 -0300" stop="20261103223000 -0300" channel="0115">
@@ -20099,7 +20106,14 @@ No aparece en el programa ningún otro superhéroe de ficción, a excepción  de
   <programme start="20261104210000 -0300" stop="20261104220000 -0300" channel="0115">
     <title>Democracy Now!</title>
     <desc>Los destacados periodistas Amy Goodman y Juan González te informan diariamente sobre el acontecer global desde Nueva York.</desc>
+    <credits>
+      <director>Amy Goodman</director>
+      <actor>Amy Goodman</actor>
+      <actor>Juan Gonzalez</actor>
+    </credits>
+    <date>2001</date>
     <category>Debate y Opinión</category>
+    <country>Estados Unidos</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/democracynow.jpg" />
   </programme>
   <programme start="20261104220000 -0300" stop="20261104230000 -0300" channel="0115">
@@ -20310,7 +20324,14 @@ No aparece en el programa ningún otro superhéroe de ficción, a excepción  de
   <programme start="20261105210000 -0300" stop="20261105220000 -0300" channel="0115">
     <title>Democracy Now!</title>
     <desc>Los destacados periodistas Amy Goodman y Juan González te informan diariamente sobre el acontecer global desde Nueva York.</desc>
+    <credits>
+      <director>Amy Goodman</director>
+      <actor>Amy Goodman</actor>
+      <actor>Juan Gonzalez</actor>
+    </credits>
+    <date>2001</date>
     <category>Debate y Opinión</category>
+    <country>Estados Unidos</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/democracynow.jpg" />
   </programme>
   <programme start="20261105220000 -0300" stop="20261105223000 -0300" channel="0115">
@@ -616287,11 +616308,23 @@ Hank en su nueva vida tendrá como acompañantes a su hermano, quien ve tener un
   </programme>
   <programme start="20261106000000 -0300" stop="20261106021800 -0300" channel="0801">
     <title>Cascanueces</title>
-    <desc>En el más improbable de los lugares, cuatro hermanos encuentran refugio emocional en un giro inesperado de los acontecimientos.</desc>
+    <desc>En Nochebuena, una niña llamada Marie (Cohen) se queda dormido después de una fiesta en su casa y sueña a sí misma en un mundo fantástico donde los juguetes se hacen más grandes que la vida. Ella se encuentra con el Príncipe Cascanueces (Culkin), quien la defiende del Rey Ratón.</desc>
+    <credits>
+      <director>Emile Ardolino</director>
+      <actor>Kevin Kline</actor>
+      <actor>Macaulay Culkin</actor>
+      <actor>Marina Squerciati</actor>
+      <actor>Alex Wiesendanger</actor>
+      <actor>Zoe Zien</actor>
+      <actor>Lauren D&#x27;Avella</actor>
+      <actor>Peter Reznick</actor>
+      <actor>Darci Kistler</actor>
+    </credits>
     <date>2024</date>
     <category>Comedia</category>
+    <country>Estados Unidos</country>
     <rating><value>5.5</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/cascanueces.jpg" />
   </programme>
   <programme start="20261106021800 -0300" stop="20261106022200 -0300" channel="0801">
     <title>Mente siniestra</title>
@@ -621847,11 +621880,23 @@ Hank en su nueva vida tendrá como acompañantes a su hermano, quien ve tener un
   </programme>
   <programme start="20261105010000 -0300" stop="20261105030900 -0300" channel="2801">
     <title>Cascanueces</title>
-    <desc>En el más improbable de los lugares, cuatro hermanos encuentran refugio emocional en un giro inesperado de los acontecimientos.</desc>
+    <desc>En Nochebuena, una niña llamada Marie (Cohen) se queda dormido después de una fiesta en su casa y sueña a sí misma en un mundo fantástico donde los juguetes se hacen más grandes que la vida. Ella se encuentra con el Príncipe Cascanueces (Culkin), quien la defiende del Rey Ratón.</desc>
+    <credits>
+      <director>Emile Ardolino</director>
+      <actor>Kevin Kline</actor>
+      <actor>Macaulay Culkin</actor>
+      <actor>Marina Squerciati</actor>
+      <actor>Alex Wiesendanger</actor>
+      <actor>Zoe Zien</actor>
+      <actor>Lauren D&#x27;Avella</actor>
+      <actor>Peter Reznick</actor>
+      <actor>Darci Kistler</actor>
+    </credits>
     <date>2024</date>
     <category>Comedia</category>
+    <country>Estados Unidos</country>
     <rating><value>5.5</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/cascanueces.jpg" />
   </programme>
   <programme start="20261105030900 -0300" stop="20261105051300 -0300" channel="2801">
     <title>Mente siniestra</title>
@@ -741673,6 +741718,7 @@ El objetivo del foraster es, en cuarenta y ocho horas, conocer el mayor número 
     <category>Movie</category>
     <category>Thriller</category>
     <category>Drama</category>
+    <country>México</country>
     <rating><value>A</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
@@ -768279,7 +768325,7 @@ El objetivo del foraster es, en cuarenta y ocho horas, conocer el mayor número 
   </programme>
   <programme start="20261106083000 -0300" stop="20261106100500 -0300" channel="1834">
     <title>Destino: Navidad</title>
-    <desc>Emma, una vicepresidenta sénior, decide irse de vacaciones y reserva un vuelo a St. John, pero termina en Alaska debido a una confusión. Connor, un chico del lugar, debe lidiar con Emma, que no quiere saber nada de la Navidad.</desc>
+    <desc>Emma Warner (Natasha Wilson), como vicepresidenta senior de una empresa de juguetes, pasa 12 meses al año enfocándose en la Navidad, sin dejar tiempo para las citas. Este año, planea un viaje a un centro turístico tropical para solteros, pero un error de reserva la lleva a un pueblo obsesionado con la Navidad.</desc>
     <credits>
       <director>Wendy Ord</director>
       <actor>Natasha Wilson</actor>
@@ -768297,7 +768343,7 @@ El objetivo del foraster es, en cuarenta y ocho horas, conocer el mayor número 
     <category>Navidad</category>
     <country>Canadá,Estados Unidos</country>
     <rating><value>18</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/destinonavidad.jpg" />
   </programme>
   <programme start="20261106100500 -0300" stop="20261106114500 -0300" channel="1834">
     <title>Amor bajo el muérdago</title>
@@ -770563,10 +770609,22 @@ El objetivo del foraster es, en cuarenta y ocho horas, conocer el mayor número 
   <programme start="20261104230000 -0300" stop="20261105005500 -0300" channel="2834">
     <title>A Lust to Kill</title>
     <desc>Un vaquero escapa de la cárcel con la ayuda de su novia y persigue a los hombres que cree responsables por la muerte de su hermano.</desc>
+    <credits>
+      <director>Oliver Drake</director>
+      <actor>Jim Davis</actor>
+      <actor>Allison Hayes</actor>
+      <actor>Don Megowan</actor>
+      <actor>Gerald Milton</actor>
+      <actor>Tom Hubbard</actor>
+      <actor>Al Terr</actor>
+      <actor>Claire Carleton</actor>
+      <actor>John Holland</actor>
+    </credits>
     <date>1958</date>
     <category>Western</category>
+    <country>Estados Unidos</country>
     <rating><value>5.8</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/alusttokill.jpg" />
   </programme>
   <programme start="20261105005500 -0300" stop="20261105034000 -0300" channel="2834">
     <title>Perdida</title>
@@ -869947,6 +870005,20 @@ La serie narra los acontecimientos de la Biblia, del Antiguo y Nuevo Testamento 
   <programme start="20261107080000 -0300" stop="20261107093000 -0300" channel="0867">
     <title>¡Cuando la Tierra tembló!</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
+    <credits>
+      <director>Antonio Helú</director>
+      <actor>Arturo de Córdova</actor>
+      <actor>Emilio Tuero</actor>
+      <actor>Carmen Hermosillo</actor>
+      <actor>María Luisa Zea</actor>
+      <actor>Consuelo Miller</actor>
+      <actor>Matilde Palou</actor>
+      <actor>Ramón Vallarino</actor>
+      <actor>Víctor Urruchúa</actor>
+    </credits>
+    <date>1942</date>
+    <category>Drama</category>
+    <country>México</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261107093000 -0300" stop="20261107123000 -0300" channel="0867">
@@ -872553,6 +872625,7 @@ La serie narra los acontecimientos de la Biblia, del Antiguo y Nuevo Testamento 
     <date>1958</date>
     <category>Movie</category>
     <category>Drama</category>
+    <country>México</country>
     <rating><value>A</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
@@ -872659,6 +872732,7 @@ La serie narra los acontecimientos de la Biblia, del Antiguo y Nuevo Testamento 
     <date>1958</date>
     <category>Movie</category>
     <category>Drama</category>
+    <country>México</country>
     <rating><value>A</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
@@ -1019524,11 +1019598,21 @@ Primer plano: interesante, impactante, informativo.</desc>
   </programme>
   <programme start="20261110213000 -0300" stop="20261110220000 -0300" channel="co0012">
     <title>Entre vivos y muertos</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
+    <desc>Casi rozando la bancarrota, el ex Lord Donald Brocklebank se ve obligado a vender la deslumbrante mansión donde vive junto a su esposa y a su esquizofrénico hijo James. Lady Nancy Brocklebank cae muy enferma y Donald ha de organizar todo para que una enfermera se haga cargo de su madre. James intenta por todos los medios demostrar a su padre que ya es un adulto responsable. Pero por accidente James deja fuera de la casa a la enfermera Mary, su madre empeora, sus nervios aumentan y el estado mental del joven comienza a mezclar peligrosamente realidad y ficción, adentrándose en una pesadilla infernal.</desc>
+    <credits>
+      <director>Simon Rumley</director>
+      <actor>Leo Bill</actor>
+      <actor>Roger Lloyd Pack</actor>
+      <actor>Kate Fahy</actor>
+      <actor>Sarah Ball</actor>
+      <actor>Neil Conrich</actor>
+      <actor>Richard Wills-Cotton</actor>
+    </credits>
     <date>2025</date>
     <category>Series</category>
+    <country>Reino Unido</country>
     <rating><value>+15</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/entrevivosymuertos.jpg" />
   </programme>
   <programme start="20261110220000 -0300" stop="20261110233000 -0300" channel="co0012">
     <title>Citynoticias de las 8</title>
@@ -1036876,6 +1036960,7 @@ María es bienvenida en la casa del empresario Fernando de la Vega, uno de los h
     <date>1948</date>
     <category>Movie</category>
     <category>Drama</category>
+    <country>México</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261108130000 -0300" stop="20261108140000 -0300" channel="mx0002">
@@ -1081720,7 +1081805,17 @@ Escápate los lleva por rutas desconocidas y les muestra la otra cara de los lug
     <title>Camarim • Matheus Castro</title>
     <sub-title>Matheus Castro</sub-title>
     <desc>Matheus Castro | Acompanhe o bate-bola sobre as curiosidades e os bastidores do mundo pornô com Matheus Castro.</desc>
+    <credits>
+      <director>Ângela Ramos</director>
+      <actor>Bernardo Lobo Faria</actor>
+      <actor>Felipe Fernandes</actor>
+      <actor>Bernardo Lacerda</actor>
+      <actor>Manuel Lourenço</actor>
+      <actor>Rui Raposo</actor>
+    </credits>
+    <date>2016</date>
     <category>Adults only</category>
+    <country>PT</country>
     <rating><value>A16</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
