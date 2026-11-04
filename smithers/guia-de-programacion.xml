@@ -131456,11 +131456,23 @@ Claudia Gurisatti - Jefferson Beltrán - Jason Calderón</desc>
   <programme start="20261109042500 -0300" stop="20261109060000 -0300" channel="0224">
     <title>Fiction</title>
     <desc>El creador de una obra de ficción de producción reciente explica las claves de su trabajo y ofrece a los espectadores el punto de vista de quien ha pergeñado aquello que ellos han visto.</desc>
+    <credits>
+      <director>Ambroise Rateau</director>
+      <actor>Philippe Rebbot</actor>
+      <actor>Marc Riso</actor>
+      <actor>Blanche Gardin</actor>
+      <actor>Afrika Baso Gohier</actor>
+      <actor>Andranic Manet</actor>
+      <actor>Augustin Shackelpopoulos</actor>
+      <actor>Carla Audebaud</actor>
+      <actor>Victoire du Bois</actor>
+    </credits>
     <date>2015</date>
     <category>Reportaje</category>
     <category>Talk Show</category>
+    <country>Francia</country>
     <rating><value>14</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fiction.jpg" />
   </programme>
   <programme start="20261109060000 -0300" stop="20261109063000 -0300" channel="0224">
     <title>Le téléjournal de radio-canada</title>
@@ -768281,7 +768293,7 @@ El objetivo del foraster es, en cuarenta y ocho horas, conocer el mayor número 
   </programme>
   <programme start="20261103210400 -0300" stop="20261103225200 -0300" channel="0830">
     <title>Por tu maldito amor</title>
-    <desc>Ernesto Santos, sobrevive a una tragedia en la selva. En su pueblo lo creían muerto y al volver, se entera que su mujer, tiene un romance con otro. Ernesto se tiene que enfrentar con él, al que mata y por eso tiene que huir.</desc>
+    <desc>Un hombre tiene que decidir entre dos mujeres, una es madura, segura de si mima y dueña de muchas tierras y la otra es joven, bella y muy impetuosa, pero ademas hay un problema; ellas son hermanas.</desc>
     <credits>
       <director>Rafael Villaseñor Kuri</director>
       <actor>Vicente Fernández</actor>
@@ -768295,8 +768307,9 @@ El objetivo del foraster es, en cuarenta y ocho horas, conocer el mayor número 
     </credits>
     <date>1990</date>
     <category>Drama</category>
+    <country>México</country>
     <rating><value>6.5</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/portumalditoamor.jpg" />
   </programme>
   <programme start="20261103225200 -0300" stop="20261104021800 -0300" channel="0830">
     <title>¡Acorralados!</title>
@@ -769170,7 +769183,7 @@ El objetivo del foraster es, en cuarenta y ocho horas, conocer el mayor número 
   </programme>
   <programme start="20261103210400 -0300" stop="20261103225200 -0300" channel="1830">
     <title>Por tu maldito amor</title>
-    <desc>Un hombre aventurero y apasionado se encuentra en una encrucijada compuesta de dos amores y dos pasiones.</desc>
+    <desc>Un hombre tiene que decidir entre dos mujeres, una es madura, segura de si mima y dueña de muchas tierras y la otra es joven, bella y muy impetuosa, pero ademas hay un problema; ellas son hermanas.</desc>
     <credits>
       <director>Rafael Villaseñor Kuri</director>
       <actor>Vicente Fernández</actor>
@@ -769186,8 +769199,9 @@ El objetivo del foraster es, en cuarenta y ocho horas, conocer el mayor número 
     <date>1990</date>
     <category>Movie</category>
     <category>Romance</category>
+    <country>México</country>
     <rating><value>B</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/portumalditoamor.jpg" />
   </programme>
   <programme start="20261103225200 -0300" stop="20261104021800 -0300" channel="1830">
     <title>¡Acorralados!</title>
@@ -799568,6 +799582,7 @@ El objetivo del foraster es, en cuarenta y ocho horas, conocer el mayor número 
     <title>Uncorked</title>
     <desc>Hay muchos sommeliers que ayudan a los comensales a elegir el vino correcto, pero solo un grupo selecto logra titularse de máster. Seis expertos en vino trabajan hacia la consecución del objetivo final: convertirse en un Master Sommelier.</desc>
     <credits>
+      <director>David S. Cass Sr.</director>
       <actor>Jack Mason</actor>
       <actor>Yannick Benjamin</actor>
       <actor>Jane Lopes</actor>
@@ -799578,6 +799593,7 @@ El objetivo del foraster es, en cuarenta y ocho horas, conocer el mayor número 
     <date>2015</date>
     <category>Gastronomía</category>
     <category>Reality</category>
+    <country>Estados Unidos</country>
     <rating><value>14</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
@@ -906080,7 +906096,7 @@ El programa está compuesto por Ana Morgade, Anna Simon, Cristina Pedroche, Miki
   </programme>
   <programme start="20261107174000 -0300" stop="20261107185000 -0300" channel="0859">
     <title>El Sádico de Notre-Dame</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
+    <desc>Un extraño y perturbado ex sacerdote cree tener el don de visualizar los pecados ajenos y expulsar el demonio de los posesos. Siendo testigo de un rito satánico, decide actuar para exorcisar a algunos de los participantes inflingiéndoles terribles torturas, al estilo de la inquisición, llegando hasta la muerte de sus indefensas víctimas.</desc>
     <credits>
       <director>Jesús Franco</director>
       <actor>Lina Romay</actor>
@@ -906100,7 +906116,7 @@ El programa está compuesto por Ana Morgade, Anna Simon, Cristina Pedroche, Miki
     <date>1974</date>
     <category>Thriller</category>
     <country>Francia</country>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/elsadicodenotredame.jpg" />
   </programme>
   <programme start="20261107185000 -0300" stop="20261107202000 -0300" channel="0859">
     <title>Ring Around the Rosie</title>
@@ -1078872,7 +1078888,13 @@ No aparece en el programa ningún otro superhéroe de ficción, a excepción  de
   <programme start="20261103180000 -0300" stop="20261103183000 -0300" channel="hn0005">
     <title>Doble Play</title>
     <desc>Un programa sobre lo que sucede en el mundo digital, la música y las tendencias en redes sociales. Cada emisión promete ser un punto de encuentro para quienes disfrutan de estar informados y entretenidos.</desc>
+    <credits>
+      <director>Carlos Daniel Hernández León</director>
+      <actor>Iván González</actor>
+      <actor>William Quintana</actor>
+    </credits>
     <category>Entretenimiento</category>
+    <country>Cuba</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261103183000 -0300" stop="20261103193000 -0300" channel="hn0005">
@@ -1079019,7 +1079041,13 @@ No aparece en el programa ningún otro superhéroe de ficción, a excepción  de
   <programme start="20261104180000 -0300" stop="20261104183000 -0300" channel="hn0005">
     <title>Doble Play</title>
     <desc>Un programa sobre lo que sucede en el mundo digital, la música y las tendencias en redes sociales. Cada emisión promete ser un punto de encuentro para quienes disfrutan de estar informados y entretenidos.</desc>
+    <credits>
+      <director>Carlos Daniel Hernández León</director>
+      <actor>Iván González</actor>
+      <actor>William Quintana</actor>
+    </credits>
     <category>Entretenimiento</category>
+    <country>Cuba</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261104183000 -0300" stop="20261104193000 -0300" channel="hn0005">
@@ -1079171,7 +1079199,13 @@ No aparece en el programa ningún otro superhéroe de ficción, a excepción  de
   <programme start="20261105180000 -0300" stop="20261105183000 -0300" channel="hn0005">
     <title>Doble Play</title>
     <desc>Un programa sobre lo que sucede en el mundo digital, la música y las tendencias en redes sociales. Cada emisión promete ser un punto de encuentro para quienes disfrutan de estar informados y entretenidos.</desc>
+    <credits>
+      <director>Carlos Daniel Hernández León</director>
+      <actor>Iván González</actor>
+      <actor>William Quintana</actor>
+    </credits>
     <category>Entretenimiento</category>
+    <country>Cuba</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261105183000 -0300" stop="20261105193000 -0300" channel="hn0005">
@@ -1109051,8 +1109085,12 @@ Noticiero matutino, decano de la TV peruana, que viene llevando a sus hogares la
   <programme start="20261109003000 -0300" stop="20261109080000 -0300" channel="pe0009">
     <title>Noche de luna</title>
     <desc>Historias y tradiciones compartidas por sus protagonistas que han guardado datos y anécdotas, a través del tiempo y atesorándoles como ninguno. Un espacio propicio para darlos a conocer a través de la remembranza.</desc>
+    <credits>
+      <director>Tomás Morelli</director>
+    </credits>
     <date>2019</date>
     <category>Entrevista</category>
+    <country>Argentina</country>
     <rating><value>14</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
