@@ -1,7 +1,7 @@
 /**
  * ============================================================================
- * EPG VISOR PRO V2.0 — MOTOR JAVASCRIPT
- * Alto Rendimiento, Parser Inteligente y Persistencia IndexedDB
+ * EPG VISOR PRO V2.1 — MOTOR JAVASCRIPT OPTIMIZADO
+ * Diseño Plano, Carga GZIP, Evaluación Perezosa y Cero Layout Shift
  * ============================================================================
  */
 
@@ -9,13 +9,17 @@
   'use strict';
 
   // --- CONFIGURACIÓN Y CONSTANTES ---
-  const DEFAULT_EPG_URL = "https://puticastillo.github.io/EPGCL/vilma/public/guia-de-programacion.xml";
+  const DEFAULT_EPG_URL = "https://puticastillo.github.io/EPGCL/vilma/public/guia-de-programacion.xml.gz";
+  const LEGACY_EPG_URL = "https://puticastillo.github.io/EPGCL/vilma/public/guia-de-programacion.xml";
   const DB_NAME = "EPG_CACHE_DB_V2";
   const DB_VERSION = 2;
   const STORE_NAME = "epg_data";
+  const CACHE_TTL_MS = 45 * 60 * 1000; // 45 minutos de validez de caché local
   const EMPTY_IMG = "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7";
   const CARDS_INITIAL_LIMIT = 28;
   const CARDS_STEP = 28;
+  // 8 canales fijos (2 filas) + 4 canales random (1 fila) = 12 tarjetas con banner en Inicio
+  const BANNER_CARDS_LIMIT = 12;
   const VALID_TAG_REGEX = /^(en\s*vivo|al\s*aire|estreno|repetici[oó]n|grabado|diferido|vivo|nuevo|live|premiere|repeat|recorded)$/i;
 
   // --- ESTADO DE LA APLICACIÓN ---
@@ -99,8 +103,6 @@
     el.viewList = document.getElementById('viewList');
     el.listContainer = document.getElementById('listContainer');
     el.emptyList = document.getElementById('emptyList');
-
-
 
     // 4. Canales (Guía)
     el.viewGuide = document.getElementById('viewGuide');
@@ -258,7 +260,6 @@
           isBroadcastLive = true;
         }
       } else {
-        // No es una etiqueta de emisión (ej. descripción de episodio ║ sinopsis de serie, o elenco colado)
         desc = parts.map(p => p.trim()).filter(Boolean).join('. ');
       }
     }
@@ -290,22 +291,57 @@
   }
 
   /**
-   * Ordena canales respetando la estructura numérica de los IDs (YXXX):
-   * Los últimos 3 dígitos indican el número/dial, y el primer dígito indica el feed.
+   * Clasifica y ordena canales respetando la jerarquía real de IDs:
+   * 1. Canales numéricos estándar (^\d+$): ordenados por los últimos 3 dígitos (grupo + correlativo)
+   *    y luego por el prefijo de feed (primeros dígitos).
+   * 2. Canales locales por país (^[a-zA-Z]{2}\d+$): ordenados alfabéticamente por código de país
+   *    y luego por su número correlativo.
+   * 3. Otros / Adultos (XXX...): al final, en orden natural.
    */
+  function getChannelSortGroup(id) {
+    if (/^\d+$/.test(id)) return 0;
+    if (/^[a-zA-Z]{2}\d+$/.test(id) && !/^xxx/i.test(id)) return 1;
+    return 2;
+  }
+
   function compareYXXX(a, b) {
-    const idA = String(a.id || '');
-    const idB = String(b.id || '');
+    const idA = String(a.id || '').trim();
+    const idB = String(b.id || '').trim();
 
-    const baseA = parseInt(idA.slice(-3), 10);
-    const baseB = parseInt(idB.slice(-3), 10);
-    const feedA = parseInt(idA.slice(0, -3), 10);
-    const feedB = parseInt(idB.slice(0, -3), 10);
+    const groupA = getChannelSortGroup(idA);
+    const groupB = getChannelSortGroup(idB);
 
-    if (!isNaN(baseA) && !isNaN(baseB)) {
-      if (baseA !== baseB) return baseA - baseB;
-      if (!isNaN(feedA) && !isNaN(feedB)) return feedA - feedB;
+    if (groupA !== groupB) {
+      return groupA - groupB;
     }
+
+    // Grupo 0: Canales numéricos estándar ([feed][grupo][correlativo])
+    if (groupA === 0) {
+      const baseA = parseInt(idA.slice(-3), 10);
+      const baseB = parseInt(idB.slice(-3), 10);
+      if (baseA !== baseB) return baseA - baseB;
+
+      const feedA = parseInt(idA.slice(0, -3) || '0', 10);
+      const feedB = parseInt(idB.slice(0, -3) || '0', 10);
+      if (feedA !== feedB) return feedA - feedB;
+
+      return idA.localeCompare(idB);
+    }
+
+    // Grupo 1: Canales locales por país (ej: ar0001..uy0005)
+    if (groupA === 1) {
+      const prefixA = idA.slice(0, 2).toLowerCase();
+      const prefixB = idB.slice(0, 2).toLowerCase();
+      if (prefixA !== prefixB) return prefixA.localeCompare(prefixB);
+
+      const numA = parseInt(idA.slice(2), 10);
+      const numB = parseInt(idB.slice(2), 10);
+      if (numA !== numB) return numA - numB;
+
+      return idA.localeCompare(idB);
+    }
+
+    // Grupo 2: Resto (ej: XXX)
     return idA.localeCompare(idB, undefined, { numeric: true });
   }
 
@@ -314,7 +350,6 @@
    */
   function getTvDayRange(dayOffset = 0) {
     const now = new Date();
-    // Si la hora actual es antes de las 06:00, pertenece al día televisivo que empezó ayer
     if (now.getHours() < 6) {
       now.setDate(now.getDate() - 1);
     }
@@ -451,7 +486,7 @@
         observer.unobserve(img);
       }
     });
-  }, { rootMargin: '200px 0px' });
+  }, { rootMargin: '180px 0px' });
 
   // ==========================================================================
   // 3. NAVEGACIÓN INDEPENDIENTE, URL HASH ROUTING E HISTORIAL
@@ -553,7 +588,7 @@
     }
   }
 
-  function switchView(targetView, channelId = null, updateHash = true) {
+  function switchView(targetView, channelId = null) {
     navigateTo(targetView, channelId, false);
   }
 
@@ -582,6 +617,7 @@
   function renderActiveView() {
     updateChannelCounter();
     if (state.searchQuery) {
+      stopHeroAutoPlay();
       if (el.viewSearch) el.viewSearch.classList.remove('hidden');
       el.viewCards.classList.add('hidden');
       el.viewList.classList.add('hidden');
@@ -608,30 +644,32 @@
 
       if (!query) return true;
 
-      // Buscar por nombre, ID o programa actual
       if (ch.cleanName.includes(query) || ch.id.toLowerCase().includes(query)) return true;
       const now = Date.now();
       const cur = getCurrentProgram(ch, now);
-      if (cur && cleanStr(cur.title).includes(query)) return true;
+      if (cur) {
+        const cTitle = cur.cleanTitle || (cur.cleanTitle = cleanStr(cur.title));
+        if (cTitle.includes(query)) return true;
+      }
 
       return false;
     });
   }
 
-  function getCurrentProgram(ch, nowMs) {
-    if (!ch.programs || ch.programs.length === 0) return null;
-    return ch.programs.find(p => p.start <= nowMs && p.stop > nowMs) ||
-           ch.programs.find(p => p.start > nowMs) ||
-           ch.programs[0];
+  function getCurrentProgramIndex(ch, nowMs) {
+    const progs = ch.programs;
+    if (!progs || progs.length === 0) return -1;
+    for (let i = 0; i < progs.length; i++) {
+      const p = progs[i];
+      if (p.start <= nowMs && p.stop > nowMs) return i;
+      if (p.start > nowMs) return i;
+    }
+    return 0;
   }
 
-  function getNextProgram(ch, curProg) {
-    if (!ch.programs || !curProg) return null;
-    const idx = ch.programs.indexOf(curProg);
-    if (idx !== -1 && idx + 1 < ch.programs.length) {
-      return ch.programs[idx + 1];
-    }
-    return null;
+  function getCurrentProgram(ch, nowMs) {
+    const idx = getCurrentProgramIndex(ch, nowMs);
+    return idx !== -1 ? ch.programs[idx] : null;
   }
 
   // ==========================================================================
@@ -672,27 +710,24 @@
   function setupHeroChannels() {
     const now = Date.now();
 
-    // Canales base elegibles (excluyendo 000x y adultos si no están permitidos)
     const baseChannels = state.channels.filter(ch => {
       if (ch.id.startsWith('000')) return false;
       if (!state.showAdults && ch.isAdult) return false;
       return ch.programs && ch.programs.length > 0;
     });
 
-    // NIVEL 1: Programas con BANNER REAL (no fallback, no logo de canal) y descripción real
+    // NIVEL 1: Programas con BANNER REAL y descripción real
     let candidateList = [];
     const seenIdsTier1 = new Set();
 
     for (const ch of baseChannels) {
       if (seenIdsTier1.has(ch.id)) continue;
-      // 1. Probar con el programa que está al aire ahora mismo
       const cur = ch.programs.find(p => p.start <= now && p.stop > now);
       if (cur && isRealBannerProg(cur, ch)) {
         seenIdsTier1.add(ch.id);
         candidateList.push({ channel: ch, program: cur });
         continue;
       }
-      // 2. Si el actual no califica, buscar en los próximos programas (dentro de 4 horas)
       const nextProg = ch.programs.find(p => p.start > now && p.start <= now + 4 * 3600000 && isRealBannerProg(p, ch));
       if (nextProg) {
         seenIdsTier1.add(ch.id);
@@ -700,8 +735,7 @@
       }
     }
 
-    // NIVEL 2: Si por algún error o actualización no hay programas con banners reales,
-    // buscar los canales con fallback de los propios canales (con el id del canal)
+    // NIVEL 2: Fallback de canal
     if (candidateList.length === 0) {
       const seenIdsTier2 = new Set();
       for (const ch of baseChannels) {
@@ -715,14 +749,12 @@
       }
     }
 
-    // NIVEL 3: Si aún no hay nada disponible, usar todo lo que haya disponible
+    // NIVEL 3: Cualquier programa disponible
     if (candidateList.length === 0) {
       const seenIdsTier3 = new Set();
       for (const ch of baseChannels) {
         if (seenIdsTier3.has(ch.id)) continue;
-        const cur = ch.programs.find(p => p.start <= now && p.stop > now) ||
-                    ch.programs.find(p => p.start > now) ||
-                    ch.programs[0];
+        const cur = getCurrentProgram(ch, now);
         if (cur) {
           seenIdsTier3.add(ch.id);
           candidateList.push({ channel: ch, program: cur });
@@ -730,8 +762,6 @@
       }
     }
 
-    // REQUERIMIENTO: Los canales de banner hero no deben repetirse hasta haber pasado por todos
-    // Barajar aleatoriamente para una rotación fresca y sin duplicados por ciclo
     candidateList.sort(() => Math.random() - 0.5);
 
     state.heroList = candidateList;
@@ -759,22 +789,22 @@
     const ch = item.channel;
     const now = Date.now();
 
-    // Obtener el programa más fresco (si el actual al aire tiene banner real, usarlo; sino el guardado; sino el actual)
     let cur = ch.programs.find(p => p.start <= now && p.stop > now);
     if (!cur || !isRealBannerProg(cur, ch)) {
       if (item.program && item.program.stop > now) {
         cur = item.program;
       } else {
-        cur = cur || ch.programs.find(p => p.start > now) || ch.programs[0];
+        cur = cur || getCurrentProgram(ch, now);
       }
     }
     if (!cur) return;
 
     const applyData = () => {
-      // Banner nítido 16:9 del programa (sin fallback a logo)
-      const bannerSrc = cur.icon;
-      if (bannerSrc && state.showBanners) {
+      const bannerSrc = cur.icon || ch.icon || EMPTY_IMG;
+      const isFallback = !cur.icon;
+      if (state.showBanners) {
         el.heroBannerSide.classList.remove('hidden');
+        el.heroBannerImg.classList.toggle('fallback-img', isFallback);
         el.heroBannerImg.src = bannerSrc;
       } else {
         el.heroBannerSide.classList.add('hidden');
@@ -782,8 +812,8 @@
 
       el.heroChLogo.src = ch.icon || EMPTY_IMG;
       el.heroChName.innerText = ch.name;
+      el.heroChName.title = ch.name;
 
-      // Regla de Insignias: Rojo EN VIVO exclusivo para [En vivo], Verde AL AIRE para los demás
       if (cur.isBroadcastLive) {
         el.heroLiveBadge.className = 'live-pill badge-en-vivo';
         el.heroLiveBadge.innerText = 'EN VIVO';
@@ -792,28 +822,37 @@
         el.heroLiveBadge.innerText = 'AL AIRE';
       }
 
-      el.heroTitle.innerText = cur.title;
+      // Título: máximo 1 línea con (...)
+      const titleText = cur.title || 'Sin título';
+      el.heroTitle.innerText = titleText;
+      el.heroTitle.title = titleText;
+
+      // Capítulo: siempre reserva su línea de espacio fijo; máximo 1 línea con (...)
       if (cur.episode) {
         el.heroEpisode.innerText = cur.episode;
-        el.heroEpisode.classList.remove('hidden');
+        el.heroEpisode.title = cur.episode;
+        el.heroEpisode.classList.remove('is-empty', 'hidden');
       } else {
-        el.heroEpisode.classList.add('hidden');
+        el.heroEpisode.innerText = '\u00A0';
+        el.heroEpisode.title = '';
+        el.heroEpisode.classList.remove('hidden');
+        el.heroEpisode.classList.add('is-empty');
       }
 
-      el.heroDesc.innerText = cur.desc;
+      // Descripción: siempre reserva su espacio de 2 líneas fijas; máximo 2 líneas con (...)
+      const descText = cur.desc || 'Sin descripción disponible.';
+      el.heroDesc.innerText = descText;
+      el.heroDesc.title = descText;
 
-      // Botón para ir directo a la programación del canal
       el.heroBtnGoChannel.onclick = (e) => {
         e.stopPropagation();
         navigateTo('guide', ch.id);
       };
 
-      // Click en el contenido o banner abre el detalle del programa
       el.heroContentBox.onclick = () => openProgramDetail(ch, cur);
       el.heroBannerSide.onclick = () => openProgramDetail(ch, cur);
     };
 
-        // Transición suave al cambiar de programa
     if (withTransition && el.heroContentBox && el.heroBannerImg) {
       el.heroContentBox.classList.add('is-fading');
       el.heroBannerImg.classList.add('is-fading');
@@ -829,7 +868,8 @@
             if (handleTmsImageError(el.heroBannerImg)) {
               return;
             }
-            el.heroBannerSide.classList.add('hidden');
+            el.heroBannerImg.classList.add('fallback-img');
+            el.heroBannerImg.src = ch.icon || EMPTY_IMG;
             el.heroContentBox.classList.remove('is-fading');
             el.heroBannerImg.classList.remove('is-fading');
             el.heroBannerImg.onerror = null;
@@ -838,7 +878,7 @@
           el.heroContentBox.classList.remove('is-fading');
           el.heroBannerImg.classList.remove('is-fading');
         }
-      }, 160);
+      }, 120);
     } else {
       applyData();
     }
@@ -848,8 +888,8 @@
     if (!el.heroProgressBar) return;
     el.heroProgressBar.style.transition = 'none';
     el.heroProgressBar.style.width = '0%';
-    void el.heroProgressBar.offsetWidth; // Forzar reflow en el navegador
-    if (state.heroPlaying && state.heroList && state.heroList.length > 1) {
+    void el.heroProgressBar.offsetWidth;
+    if (state.heroPlaying && state.heroList && state.heroList.length > 1 && state.currentView === 'cards' && !state.searchQuery && !document.hidden) {
       el.heroProgressBar.style.transition = `width ${HERO_CYCLE_DURATION}ms linear`;
       el.heroProgressBar.style.width = '100%';
     }
@@ -863,12 +903,16 @@
 
   function startHeroAutoPlay() {
     clearInterval(state.heroTimer);
-    if (!state.heroPlaying || !state.heroList || state.heroList.length <= 1) {
+    if (!state.heroPlaying || !state.heroList || state.heroList.length <= 1 || state.currentView !== 'cards' || state.searchQuery || document.hidden) {
       stopHeroProgressBar();
       return;
     }
     resetHeroProgressBar();
     state.heroTimer = setInterval(() => {
+      if (state.currentView !== 'cards' || state.searchQuery || document.hidden) {
+        stopHeroAutoPlay();
+        return;
+      }
       if (state.heroList.length > 1) {
         state.heroIndex = (state.heroIndex + 1) % state.heroList.length;
         updateHeroBanner(true);
@@ -879,6 +923,7 @@
 
   function stopHeroAutoPlay() {
     clearInterval(state.heroTimer);
+    state.heroTimer = null;
     stopHeroProgressBar();
   }
 
@@ -886,7 +931,6 @@
     const fixedSet = new Set(FIXED_CARDS_IDS);
     const now = Date.now();
 
-    // Filtrar piscina base: excluir canales 000x y los fijos
     const pool = state.channels.filter(ch => {
       if (ch.id.startsWith('000')) return false;
       if (fixedSet.has(ch.id)) return false;
@@ -894,11 +938,8 @@
       return ch.programs && ch.programs.length > 0;
     });
 
-    // NIVEL 1: Canales con banner REAL del programa (no fallback, no logo de canal) y descripción real
     const tier1 = [];
-    // NIVEL 2: Canales con banner fallback propio del canal (id_fallback)
     const tier2 = [];
-    // NIVEL 3: Canales restantes disponibles
     const tier3 = [];
 
     for (const ch of pool) {
@@ -915,12 +956,10 @@
       }
     }
 
-    // Barajar aleatoriamente cada nivel para garantizar frescura y variedad
     tier1.sort(() => Math.random() - 0.5);
     tier2.sort(() => Math.random() - 0.5);
     tier3.sort(() => Math.random() - 0.5);
 
-    // REQUERIMIENTO: Misma lógica del hero (banners reales primero, luego fallback de canal, luego disponibles)
     state.randomCardsPool = [...tier1, ...tier2, ...tier3];
   }
 
@@ -932,16 +971,12 @@
     let displayedChannels = [];
 
     if (query || state.filter !== 'all') {
-      // Si el usuario busca o filtra, mostrar los que coincidan (ocultando 000x)
       displayedChannels = getFilteredChannels().filter(ch => !ch.id.startsWith('000'));
       el.cardsCounterText.innerText = `Resultados: ${displayedChannels.length} canales`;
       el.cardsLoadMoreBox.classList.add('hidden');
     } else {
-      // Vista Inicio normal:
-      // 1. Canales fijos siempre: 0102 al 0107, 0401 y 0403
       const fixedChannels = FIXED_CARDS_IDS.map(id => state.channelsMap[id]).filter(Boolean);
       
-      // 2. Rellenar el resto con la piscina priorizada hasta cardsLimit
       if (!state.randomCardsPool || state.randomCardsPool.length === 0) {
         initCardsPool();
       }
@@ -949,8 +984,6 @@
       const randomChannels = (state.randomCardsPool || []).slice(0, neededRandom);
 
       displayedChannels = [...fixedChannels, ...randomChannels];
-
-      // REQUERIMIENTO: Quitar el texto de "Mostrando 28 canales destacados y aleatorios"
       el.cardsCounterText.innerText = '';
 
       const totalAvailable = fixedChannels.length + (state.randomCardsPool ? state.randomCardsPool.length : 0);
@@ -977,8 +1010,9 @@
 
     for (let i = 0; i < displayedChannels.length; i++) {
       const ch = displayedChannels[i];
-      const prog = getCurrentProgram(ch, now);
-      if (!prog) continue;
+      const curIdx = getCurrentProgramIndex(ch, now);
+      if (curIdx === -1) continue;
+      const prog = ch.programs[curIdx];
 
       const isLive = prog.start <= now && prog.stop > now;
       let progressPercent = 0;
@@ -986,34 +1020,57 @@
         progressPercent = Math.min(100, Math.max(0, ((now - prog.start) / (prog.stop - prog.start)) * 100));
       }
 
-      const nextProg = ch.programs[ch.programs.indexOf(prog) + 1];
+      const nextProg = ch.programs[curIdx + 1] || null;
       const nextTitle = nextProg ? escapeHtml(nextProg.title) : 'Sin información';
-      const bannerSrc = prog.icon || ch.icon || '';
-      const isFallback = !prog.icon;
+
+      // REQUERIMIENTO: Solo mostrar banner en las filas de canales fijos (8) + 1 fila de canales random (4) = primeros 12 canales
+      const showCardBanner = state.showBanners && i < BANNER_CARDS_LIMIT;
 
       const card = document.createElement('div');
-      card.className = 'card-item-emision';
+      card.className = showCardBanner ? 'card-item-emision' : 'card-item-emision no-banner';
       card.setAttribute('data-ch-id', ch.id);
-      card.innerHTML = `
-        <div class="emision-banner-container">
-          <img class="emision-banner-img ${isFallback ? 'fallback-img' : ''}" src="${bannerSrc || EMPTY_IMG}" alt="${escapeHtml(prog.title)}" loading="lazy" onerror="this.onerror=null;this.classList.add('fallback-img');this.src='${ch.icon || EMPTY_IMG}';">
-          <div class="emision-banner-gradient"></div>
-          <div class="emision-ch-logo-badge" title="${escapeHtml(ch.name)}">
-            <img class="emision-ch-logo" src="${ch.icon || EMPTY_IMG}" alt="" loading="lazy">
+
+      if (showCardBanner) {
+        const bannerSrc = prog.icon || ch.icon || '';
+        const isFallback = !prog.icon;
+        card.innerHTML = `
+          <div class="emision-banner-container">
+            <img class="emision-banner-img ${isFallback ? 'fallback-img' : ''}" src="${bannerSrc || EMPTY_IMG}" alt="" loading="lazy" decoding="async" onerror="this.onerror=null;this.classList.add('fallback-img');this.src='${ch.icon || EMPTY_IMG}';">
+            <div class="emision-ch-logo-badge" title="${escapeHtml(ch.name)}">
+              <img class="emision-ch-logo" src="${ch.icon || EMPTY_IMG}" alt="" loading="lazy" decoding="async">
+            </div>
+            ${progressPercent > 0 ? `<div class="emision-progress-track"><div class="emision-progress-bar" style="width: ${progressPercent}%;"></div></div>` : ''}
           </div>
-          ${progressPercent > 0 ? `<div class="emision-progress-track"><div class="emision-progress-bar" style="width: ${progressPercent}%;"></div></div>` : ''}
-        </div>
-        <div class="emision-info">
-          <div class="emision-row emision-now">
-            <span class="emision-label label-ahora">Ahora:</span>
-            <span class="emision-title title-now" title="${escapeHtml(prog.title)}">${escapeHtml(prog.title)}</span>
+          <div class="emision-info">
+            <div class="emision-row emision-now">
+              <span class="emision-label label-ahora">Ahora:</span>
+              <span class="emision-title title-now" title="${escapeHtml(prog.title)}">${escapeHtml(prog.title)}</span>
+            </div>
+            <div class="emision-row emision-next">
+              <span class="emision-label label-despues">Después:</span>
+              <span class="emision-title title-next" title="${ nextTitle }">${nextTitle}</span>
+            </div>
           </div>
-          <div class="emision-row emision-next">
-            <span class="emision-label label-despues">Después:</span>
-            <span class="emision-title title-next" title="${escapeHtml(nextTitle)}">${nextTitle}</span>
+        `;
+      } else {
+        card.innerHTML = `
+          <div class="emision-compact-header">
+            <img class="emision-compact-logo" src="${ch.icon || EMPTY_IMG}" alt="" loading="lazy" decoding="async">
+            <span class="emision-compact-ch-name" title="${escapeHtml(ch.name)}">${escapeHtml(ch.name)}</span>
+            ${progressPercent > 0 ? `<div class="emision-progress-track"><div class="emision-progress-bar" style="width: ${progressPercent}%;"></div></div>` : ''}
           </div>
-        </div>
-      `;
+          <div class="emision-info">
+            <div class="emision-row emision-now">
+              <span class="emision-label label-ahora">Ahora:</span>
+              <span class="emision-title title-now" title="${escapeHtml(prog.title)}">${escapeHtml(prog.title)}</span>
+            </div>
+            <div class="emision-row emision-next">
+              <span class="emision-label label-despues">Después:</span>
+              <span class="emision-title title-next" title="${nextTitle}">${nextTitle}</span>
+            </div>
+          </div>
+        `;
+      }
 
       card.onclick = () => {
         openProgramDetail(ch, prog);
@@ -1036,8 +1093,7 @@
   }
 
   // ==========================================================================
-  // 5. VISTA LISTA COMPACTA
-  // Logo, actual en verde y negrita, siguiente atenuado
+  // 5. VISTA LISTA COMPACTA (Truncado 100% por CSS sin reflow JS)
   // ==========================================================================
   function renderListView() {
     const channels = getFilteredChannels();
@@ -1060,16 +1116,15 @@
 
     for (let i = 0; i < channels.length; i++) {
       const ch = channels[i];
-      const curProg = getCurrentProgram(ch, now);
-      if (!curProg) continue;
-
-      const nextProg = getNextProgram(ch, curProg);
+      const curIdx = getCurrentProgramIndex(ch, now);
+      if (curIdx === -1) continue;
+      const curProg = ch.programs[curIdx];
+      const nextProg = ch.programs[curIdx + 1] || null;
 
       const row = document.createElement('div');
       row.className = 'list-row';
       row.onclick = () => openQuickTodayPopup(ch);
 
-      // Insignia en vivo compacta / adaptativa (punto rojo en móvil, badge en desktop)
       let curLiveHtml = '';
       if (curProg.isBroadcastLive) {
         curLiveHtml = `
@@ -1092,14 +1147,13 @@
 
       row.innerHTML = `
         <div class="list-ch-col">
-          <img class="list-ch-logo" src="${ch.icon || EMPTY_IMG}" alt="" loading="lazy">
+          <img class="list-ch-logo" src="${ch.icon || EMPTY_IMG}" alt="" loading="lazy" decoding="async">
           <div class="list-ch-name-group">
             <span class="list-ch-number">${escapeHtml(ch.id)}</span>
             <span class="list-ch-name">${escapeHtml(ch.name)}</span>
           </div>
         </div>
         <div class="list-programs-col">
-          <!-- Programa Actual: Prioridad al título completo -->
           <div class="list-prog-now">
             <span class="list-time-now">${formatTime(curProg.start)}</span>
             ${curLiveHtml}
@@ -1111,7 +1165,6 @@
               </span>
             ` : ''}
           </div>
-          <!-- Siguiente Programa -->
           ${nextProg ? `
             <div class="list-prog-next">
               <span class="list-time-next">${formatTime(nextProg.start)}</span>
@@ -1132,37 +1185,6 @@
     }
 
     container.appendChild(fragment);
-    requestAnimationFrame(() => adjustListChapters());
-  }
-
-  /**
-   * Ajusta la visibilidad del nombre del capítulo en la Vista Lista.
-   * Si no hay espacio suficiente para mostrar el título y el capítulo completo sin
-   * recortar el título o el nombre del capítulo, se oculta el texto del capítulo y
-   * se mantiene únicamente el punto azul (•), priorizando siempre el título completo.
-   */
-  function adjustListChapters() {
-    if (!el.listContainer) return;
-    if (window.innerWidth <= 768) return; // En móvil se fuerza por CSS
-
-    const badges = el.listContainer.querySelectorAll('.list-chapter-badge');
-    if (badges.length === 0) return;
-
-    badges.forEach(badge => {
-      const parent = badge.parentElement;
-      if (!parent) return;
-
-      badge.classList.remove('dot-only');
-
-      const nameEl = badge.querySelector('.chapter-name');
-      const titleEl = parent.querySelector('.list-title-now, .list-title-next');
-      if (!nameEl || !titleEl) return;
-
-      // Si el contenedor desborda o el texto del capítulo se comprime, dejamos solo el punto
-      if (parent.scrollWidth > parent.clientWidth || (nameEl.offsetWidth < nameEl.scrollWidth - 1)) {
-        badge.classList.add('dot-only');
-      }
-    });
   }
 
   // ==========================================================================
@@ -1179,7 +1201,6 @@
     const now = Date.now();
     const tvDay = getTvDayRange(0);
 
-    // Filtrar desde el momento actual hasta el fin del día televisivo (06:00 AM de mañana)
     const progs = (ch.programs || []).filter(p => p.stop > now && p.start < tvDay.end);
 
     if (progs.length === 0) {
@@ -1205,7 +1226,6 @@
           </span>
         ` : '';
 
-        // REQUERIMIENTO: Solo mostrar el punto azul en caso de tener capítulo
         const chapterDotHtml = p.episode ? `
           <span class="chapter-dot" title="Capítulo: ${escapeHtml(p.episode)}">•</span>
         ` : '';
@@ -1230,10 +1250,8 @@
     state.activeChannelForQuick = null;
   }
 
-
-
   // ==========================================================================
-  // 8. VISTA CANALES (was Guía: Banner a la derecha y solo hora de inicio)
+  // 8. VISTA CANALES (Banner a la derecha y solo hora de inicio)
   // ==========================================================================
   function renderGuideView() {
     const channels = getFilteredChannels();
@@ -1257,7 +1275,7 @@
       item.onclick = () => selectGuideChannel(ch.id);
 
       item.innerHTML = `
-        <img src="${ch.icon || EMPTY_IMG}" alt="" loading="lazy">
+        <img src="${ch.icon || EMPTY_IMG}" alt="" loading="lazy" decoding="async">
         <span>${escapeHtml(ch.name)}</span>
       `;
       fragment.appendChild(item);
@@ -1299,7 +1317,7 @@
       const isActive = channels[idx] && channels[idx].id === chId;
       it.classList.toggle('active', isActive);
       if (isActive) {
-        it.scrollIntoView({ block: 'nearest', behavior: 'smooth' });
+        it.scrollIntoView({ block: 'nearest' });
       }
     });
     if (updateHash) {
@@ -1314,7 +1332,6 @@
 
     el.guideSelectedLogo.src = ch.icon || EMPTY_IMG;
     el.guideSelectedName.innerText = ch.name;
-    // Ocultar ID del canal por completo
     el.guideSelectedMeta.innerText = `${ch.programs ? ch.programs.length : 0} programas en guía`;
 
     renderGuideDateTabs();
@@ -1338,15 +1355,11 @@
       const prog = dayProgs[i];
       const isLive = prog.start <= now && prog.stop > now;
 
-      // Línea de la izquierda (borde): SOLO para el programa que está al aire en este momento
       let cardBorderClass = '';
       if (isLive) {
         cardBorderClass = prog.isBroadcastLive ? 'is-broadcast-live' : 'is-live';
       }
 
-      // Insignias:
-      // - Si es transmisión en vivo (prog.isBroadcastLive), SIEMPRE muestra su badge rojo "EN VIVO"
-      // - Si no es en vivo pero está al aire en este momento (isLive), muestra el badge verde "AL AIRE"
       let badgeHtml = '';
       if (prog.isBroadcastLive) {
         badgeHtml = '<span class="live-pill badge-en-vivo" style="font-size:0.75rem; padding:2px 8px;">EN VIVO</span>';
@@ -1363,23 +1376,18 @@
       }
       card.onclick = () => openProgramDetail(ch, prog);
 
-      const bannerSrc = prog.icon || ch.icon || '';
+      const bannerSrc = state.showBanners ? (prog.icon || ch.icon || '') : '';
 
-      // REQUERIMIENTO: Quitar el cartel duplicado en vivo (el azul)
       let tagHtml = '';
       if (prog.tag && VALID_TAG_REGEX.test(prog.tag) && !/en\s*vivo/i.test(prog.tag)) {
         tagHtml = `<span class="tag-pill">${escapeHtml(prog.tag)}</span>`;
       }
 
-      // Etiquetas de metadatos rápidos (Solo Clasificación de edad, quitando año y categoría)
       let metaExtraHtml = '';
-      const metaItems = [];
-      if (prog.rating) metaItems.push(`<span class="guide-chip-rating">${escapeHtml(prog.rating)}</span>`);
-      if (metaItems.length > 0) {
-        metaExtraHtml = `<div class="guide-prog-chips-row">${metaItems.join('')}</div>`;
+      if (prog.rating) {
+        metaExtraHtml = `<div class="guide-prog-chips-row"><span class="guide-chip-rating">${escapeHtml(prog.rating)}</span></div>`;
       }
 
-      // REQUERIMIENTO: Banner a la derecha y solo hora de inicio (sin hora de fin)
       card.innerHTML = `
         <div class="guide-prog-content">
           <div class="guide-prog-time-row">
@@ -1393,7 +1401,7 @@
           <p class="guide-prog-desc">${escapeHtml(prog.desc || 'Sin descripción disponible.')}</p>
         </div>
         ${bannerSrc ? `
-          <img class="guide-prog-banner" data-src="${bannerSrc}" alt="" loading="lazy" src="${EMPTY_IMG}">
+          <img class="guide-prog-banner" data-src="${bannerSrc}" alt="" loading="lazy" decoding="async" src="${EMPTY_IMG}">
         ` : ''}
       `;
 
@@ -1407,11 +1415,10 @@
 
     timeline.appendChild(fragment);
 
-    // REQUERIMIENTO: En canales, hacer scroll automático al programa que está al aire
     if (liveCardElement && state.selectedGuideDayOffset === 0) {
       setTimeout(() => {
-        liveCardElement.scrollIntoView({ behavior: 'smooth', block: 'center' });
-      }, 80);
+        liveCardElement.scrollIntoView({ behavior: 'auto', block: 'center' });
+      }, 50);
     } else {
       timeline.scrollTop = 0;
     }
@@ -1435,7 +1442,6 @@
 
   // ==========================================================================
   // 8B. VISTA BÚSQUEDA Y RESULTADOS
-  // Canales primero, luego programas al aire, luego próximos y finalizados
   // ==========================================================================
   function clearSearchState() {
     state.searchQuery = '';
@@ -1475,7 +1481,6 @@
     }
     card.className = cardClasses;
 
-    // Badges de estado diferenciados
     let badgeHtml = '';
     if (isLive) {
       if (p.isBroadcastLive) {
@@ -1492,7 +1497,6 @@
     const metaString = getSearchDateString(p, ch.name);
     const posterSrc = state.showBanners ? (p.icon || '') : '';
 
-    // Barra de progreso si está al aire
     let progressBarHtml = '';
     if (isLive && p.stop > p.start) {
       const pct = Math.min(100, Math.max(0, ((now - p.start) / (p.stop - p.start)) * 100));
@@ -1505,7 +1509,7 @@
 
     card.innerHTML = `
       <div class="search-prog-ch-logo" title="${escapeHtml(ch.name)} (${escapeHtml(ch.id)})">
-        <img src="${ch.icon || EMPTY_IMG}" alt="" loading="lazy" onerror="this.src='${EMPTY_IMG}'">
+        <img src="${ch.icon || EMPTY_IMG}" alt="" loading="lazy" decoding="async" onerror="this.src='${EMPTY_IMG}'">
       </div>
       <div class="search-prog-main">
         <div class="search-prog-header">
@@ -1520,7 +1524,7 @@
       </div>
       ${posterSrc ? `
         <div class="search-prog-banner">
-          <img src="${posterSrc}" alt="" loading="lazy" onerror="if (window.handleTmsImgErr && window.handleTmsImgErr(this)) return; this.parentElement.style.display='none'">
+          <img src="${posterSrc}" alt="" loading="lazy" decoding="async" onerror="if (window.handleTmsImgErr && window.handleTmsImgErr(this)) return; this.parentElement.style.display='none'">
         </div>
       ` : ''}
     `;
@@ -1559,25 +1563,23 @@
     const upcomingPrograms = [];
     const pastPrograms = [];
 
-    // 1. Buscar canales y programas en el catálogo completo
     state.channels.forEach(ch => {
       if (!state.showAdults && ch.isAdult) return;
       if (state.filter === 'favorites' && !state.favorites.has(ch.id)) return;
       if (state.filter === 'adults' && !ch.isAdult) return;
 
-      // Coincidencia de canal (por nombre o dial/id)
       const isChMatch = fuzzyMatchPreCleaned(ch.cleanName, searchWords) ||
                         ch.id.toLowerCase().includes(cleanTerm);
       if (isChMatch) {
         matchedChannels.push(ch);
       }
 
-      // Coincidencia en programas del canal
       if (ch.programs && ch.programs.length > 0) {
         ch.programs.forEach(p => {
-          const cTitle = p.cleanTitle || (p.cleanTitle = cleanStr(p.title));
-          const cDesc = p.cleanDesc || (p.cleanDesc = cleanStr(p.desc));
-          const cEp = p.cleanEpisode || (p.cleanEpisode = cleanStr(p.episode));
+          // Evaluación perezosa (lazy) de strings limpios únicamente al buscar
+          const cTitle = p.cleanTitle !== undefined ? p.cleanTitle : (p.cleanTitle = cleanStr(p.title));
+          const cDesc = p.cleanDesc !== undefined ? p.cleanDesc : (p.cleanDesc = cleanStr(p.desc));
+          const cEp = p.cleanEpisode !== undefined ? p.cleanEpisode : (p.cleanEpisode = cleanStr(p.episode));
 
           if (fuzzyMatchPreCleaned(cTitle, searchWords) ||
               fuzzyMatchPreCleaned(cDesc, searchWords) ||
@@ -1596,13 +1598,11 @@
       }
     });
 
-    // 2. Ordenamiento específico
     matchedChannels.sort(compareYXXX);
     livePrograms.sort((a, b) => a.prog.start - b.prog.start);
     upcomingPrograms.sort((a, b) => a.prog.start - b.prog.start);
     pastPrograms.sort((a, b) => b.prog.stop - a.prog.stop);
 
-    // 3. Estado vacío si no hay nada
     if (matchedChannels.length === 0 && livePrograms.length === 0 && upcomingPrograms.length === 0 && pastPrograms.length === 0) {
       container.innerHTML = `
         <div class="search-empty-state">
@@ -1618,9 +1618,7 @@
 
     container.innerHTML = '';
 
-    // =========================================================
-    // SECCIÓN 1: CANALES ENCONTRADOS (PRIMERO)
-    // =========================================================
+    // SECCIÓN 1: CANALES ENCONTRADOS
     if (matchedChannels.length > 0) {
       const chSec = document.createElement('div');
       chSec.className = 'search-results-section';
@@ -1643,7 +1641,7 @@
         item.title = `${ch.name} (Dial ${ch.id})`;
         item.innerHTML = `
           <div class="search-ch-logo-wrap">
-            <img src="${ch.icon || EMPTY_IMG}" alt="" loading="lazy" onerror="this.src='${EMPTY_IMG}'">
+            <img src="${ch.icon || EMPTY_IMG}" alt="" loading="lazy" decoding="async" onerror="this.src='${EMPTY_IMG}'">
           </div>
           <span class="search-ch-card-name">${escapeHtml(ch.name)}</span>
           <span class="search-ch-card-id">${escapeHtml(ch.id)}</span>
@@ -1660,9 +1658,7 @@
       container.appendChild(chSec);
     }
 
-    // =========================================================
-    // SECCIÓN 2: PROGRAMAS AL AIRE (SEGUNDO)
-    // =========================================================
+    // SECCIÓN 2: PROGRAMAS AL AIRE
     if (livePrograms.length > 0) {
       const liveSec = document.createElement('div');
       liveSec.className = 'search-results-section';
@@ -1687,9 +1683,7 @@
       container.appendChild(liveSec);
     }
 
-    // =========================================================
-    // SECCIÓN 3: PROGRAMAS QUE SE TRANSMITIRÁN (PRÓXIMOS)
-    // =========================================================
+    // SECCIÓN 3: PRÓXIMAS EMISIONES
     if (upcomingPrograms.length > 0) {
       const upSec = document.createElement('div');
       upSec.className = 'search-results-section';
@@ -1734,9 +1728,7 @@
       container.appendChild(upSec);
     }
 
-    // =========================================================
-    // SECCIÓN 4: PROGRAMAS YA TRANSMITIDOS (FINALIZADOS)
-    // =========================================================
+    // SECCIÓN 4: YA TRANSMITIDOS
     if (pastPrograms.length > 0) {
       const pastSec = document.createElement('div');
       pastSec.className = 'search-results-section';
@@ -1789,7 +1781,6 @@
     state.activeModalProg = prog;
     state.modalActiveChannel = ch;
 
-    // Logo del canal en la esquina inferior izquierda
     if (el.modalBannerChLogo) {
       el.modalBannerChLogo.src = ch.icon || EMPTY_IMG;
     }
@@ -1797,7 +1788,6 @@
     const now = Date.now();
     const isLive = prog.start <= now && prog.stop > now;
 
-    // Badge de AL AIRE / EN VIVO en la esquina inferior derecha del banner (arriba del tiempo restante)
     if (el.modalBannerLiveBadge) {
       if (prog.isBroadcastLive) {
         el.modalBannerLiveBadge.className = 'live-pill badge-en-vivo';
@@ -1812,13 +1802,11 @@
       }
     }
 
-    // Hora de inicio y fin sobre el banner (abajo a la izquierda junto al logo)
     const timeFormatted = `${formatTime(prog.start)} - ${formatTime(prog.stop)}`;
     if (el.modalBannerTimeText) {
       el.modalBannerTimeText.innerText = timeFormatted;
     }
 
-    // Cuántos minutos quedan sobre el banner (abajo a la derecha, debajo del badge al aire)
     if (el.modalBannerRemainingText) {
       if (now >= prog.start && now < prog.stop) {
         const minsLeft = Math.max(1, Math.round((prog.stop - now) / 60000));
@@ -1840,10 +1828,8 @@
       }
     }
 
-    // 1. TÍTULO
     el.modalTitle.innerText = prog.title;
 
-    // 2. CAPÍTULO (si existe)
     if (el.modalEpisode) {
       if (prog.episode) {
         el.modalEpisode.innerText = prog.episode;
@@ -1854,17 +1840,14 @@
       }
     }
 
-    // 3. DESCRIPCIÓN
     el.modalDescription.innerText = prog.desc || 'Sin descripción disponible para este programa.';
 
-    // 4. CATEGORÍAS (con la etiqueta de emisión saliendo de primero en la misma línea)
     const cats = (prog.categories && prog.categories.length > 0) ? [...prog.categories] : (prog.category ? [prog.category] : []);
     const hasTag = prog.tag && VALID_TAG_REGEX.test(prog.tag) && !/en\s*vivo/i.test(prog.tag);
 
     if (hasTag || cats.length > 0) {
       el.modalCategoriesList.innerHTML = '';
 
-      // Si hay etiqueta (ej: Estreno, Película, Especial), se muestra primero
       if (hasTag) {
         const tagChip = document.createElement('span');
         tagChip.className = 'category-chip tag-chip';
@@ -1872,7 +1855,6 @@
         el.modalCategoriesList.appendChild(tagChip);
       }
 
-      // Luego el resto de categorías
       cats.forEach(cat => {
         if (hasTag && cat.toLowerCase() === prog.tag.toLowerCase()) return;
         const chip = document.createElement('span');
@@ -1886,7 +1868,6 @@
       el.modalCategoriesRow.classList.add('hidden');
     }
 
-    // 5. REPARTO
     let hasCredits = false;
     if (prog.directors && prog.directors.length > 0) {
       el.modalDirectorText.innerText = prog.directors.join(', ');
@@ -1928,7 +1909,6 @@
 
     el.modalCreditsSection.classList.toggle('hidden', !hasCredits);
 
-    // 6. OTRA INFO (duración, año, país, etc.)
     let hasExtra = false;
     const durationMins = Math.round((prog.stop - prog.start) / 60000);
     if (durationMins > 0) {
@@ -2032,8 +2012,22 @@
   }
 
   // ==========================================================================
-  // 11. PARSER XMLTV ALTA VELOCIDAD Y GESTIÓN DE CACHÉ
+  // 11. PARSER XMLTV ALTA VELOCIDAD, DESCOMPRESIÓN GZIP Y GESTIÓN DE CACHÉ
   // ==========================================================================
+  function pruneAndSortChannels(channels, channelsMap) {
+    const cutoffMs = getTvDayRange(0).start;
+    for (let i = 0; i < channels.length; i++) {
+      const ch = channels[i];
+      if (ch.programs && ch.programs.length > 0) {
+        ch.programs = ch.programs.filter(p => p.stop > cutoffMs);
+      }
+      if (channelsMap && ch.id) {
+        channelsMap[ch.id] = ch;
+      }
+    }
+    channels.sort(compareYXXX);
+  }
+
   function parseXMLTV(xmlString) {
     const parser = new DOMParser();
     const xmlDoc = parser.parseFromString(xmlString, "application/xml");
@@ -2069,6 +2063,8 @@
     }
 
     const progNodes = xmlDoc.getElementsByTagName("programme");
+    // Descartar programas anteriores al inicio del día televisivo actual (06:00 AM)
+    const cutoffMs = getTvDayRange(0).start;
 
     for (let i = 0; i < progNodes.length; i++) {
       const p = progNodes[i];
@@ -2080,9 +2076,11 @@
       const stopStr = p.getAttribute("stop");
       if (!startStr || !stopStr) continue;
 
-      const start = parseXMLTVDate(startStr);
       const stop = parseXMLTVDate(stopStr);
-      if (!start || !stop) continue;
+      if (!stop || stop <= cutoffMs) continue;
+
+      const start = parseXMLTVDate(startStr);
+      if (!start) continue;
 
       const titleEl = p.getElementsByTagName("title")[0];
       const rawTitle = titleEl ? titleEl.textContent : '';
@@ -2107,7 +2105,6 @@
         }
       }
 
-      // Categorías múltiples y filtrado de episodios colados (ej: mitv)
       const catEls = p.getElementsByTagName("category");
       const categories = [];
       let catEpRescued = '';
@@ -2136,7 +2133,6 @@
       }
       const category = categories[0] || "";
 
-      // Año de lanzamiento (<date>) - extraer solo 4 dígitos
       const dateEl = p.getElementsByTagName("date")[0];
       let year = dateEl ? dateEl.textContent.trim() : "";
       if (year) {
@@ -2148,11 +2144,9 @@
         }
       }
 
-      // País de origen (<country>)
       const countryEl = p.getElementsByTagName("country")[0];
       const country = countryEl ? countryEl.textContent.trim() : "";
 
-      // Clasificación por edad (<rating><value>)
       const ratingEl = p.getElementsByTagName("rating")[0];
       let rating = "";
       if (ratingEl) {
@@ -2160,7 +2154,6 @@
         rating = valEl ? valEl.textContent.trim() : ratingEl.textContent.trim();
       }
 
-      // Créditos (<credits>: director, actor, presenter, writer)
       const creditsEl = p.getElementsByTagName("credits")[0];
       const directors = [];
       const actors = [];
@@ -2189,10 +2182,8 @@
         }
       }
 
-      // Extracción limpia de título, capítulo y etiquetas
       const parsed = parseProgramInfo(rawTitle, rawDesc);
 
-      // Si no detectó capítulo en texto pero viene <sub-title> o <episode-num>
       const subTitleEl = p.getElementsByTagName("sub-title")[0];
       let cleanSub = subTitleEl ? subTitleEl.textContent.trim() : '';
       if (!cleanSub && catSubRescued) {
@@ -2233,15 +2224,13 @@
         parsed.episode = extraEp;
       }
 
+      // NOTA: cleanTitle, cleanDesc y cleanEpisode se calculan bajo demanda solo al usar el buscador
       chObj.programs.push({
         start,
         stop,
         title: parsed.title,
-        cleanTitle: cleanStr(parsed.title),
         desc: parsed.desc,
-        cleanDesc: cleanStr(parsed.desc),
         episode: parsed.episode,
-        cleanEpisode: cleanStr(parsed.episode),
         tag: parsed.tag,
         isBroadcastLive: parsed.isBroadcastLive,
         icon,
@@ -2257,12 +2246,10 @@
       });
     }
 
-    // Ordenar programas cronológicamente dentro de cada canal
     for (let i = 0; i < channels.length; i++) {
       channels[i].programs.sort((a, b) => a.start - b.start);
     }
 
-    // REQUERIMIENTO: Ordenar canales estrictamente por regla de ID numérico (YXXX)
     channels.sort(compareYXXX);
 
     return { channels, channelsMap };
@@ -2331,6 +2318,36 @@
     }
   }
 
+  /**
+   * Descarga el archivo XMLTV soportando descompresión GZIP nativa (5.8 MB vs 61 MB)
+   * y fallback automático a XML plano.
+   */
+  async function fetchXMLText(url) {
+    const response = await fetch(url, { cache: "no-cache" });
+    if (!response.ok) throw new Error(`HTTP ${response.status}`);
+
+    const buffer = await response.arrayBuffer();
+    const bytes = new Uint8Array(buffer);
+
+    // Verificar firma GZIP (0x1f 0x8b)
+    if (bytes.length >= 2 && bytes[0] === 0x1f && bytes[1] === 0x8b) {
+      if (typeof DecompressionStream !== 'undefined') {
+        const ds = new DecompressionStream('gzip');
+        const decompressedStream = new Blob([buffer]).stream().pipeThrough(ds);
+        return await new Response(decompressedStream).text();
+      } else {
+        const fallbackUrl = url.replace(/\.gz(\?.*)?$/i, '$1');
+        if (fallbackUrl !== url) {
+          const fallbackResp = await fetch(fallbackUrl, { cache: "no-cache" });
+          if (!fallbackResp.ok) throw new Error(`HTTP ${fallbackResp.status}`);
+          return await fallbackResp.text();
+        }
+      }
+    }
+
+    return new TextDecoder('utf-8').decode(buffer);
+  }
+
   async function fetchAndProcessEPG(forceRefresh = false) {
     const url = localStorage.getItem('epg_custom_url') || DEFAULT_EPG_URL;
 
@@ -2338,10 +2355,18 @@
     if (!forceRefresh) {
       const cached = await getFromIndexedDB("parsed_epg");
       if (cached && cached.channels && cached.channels.length > 0) {
+        pruneAndSortChannels(cached.channels, cached.channelsMap);
         state.channels = cached.channels;
         state.channelsMap = cached.channelsMap;
+        state.randomCardsPool = null;
         setupHeroChannels();
         renderActiveView();
+
+        // Si la caché es reciente (< 45 min), evitar doble descarga y doble renderizado
+        const cacheAge = Date.now() - (cached.timestamp || 0);
+        if (cached.timestamp && cacheAge >= 0 && cacheAge < CACHE_TTL_MS) {
+          return;
+        }
       }
     }
 
@@ -2350,14 +2375,25 @@
     }
 
     try {
-      const response = await fetch(url, { cache: "no-cache" });
-      if (!response.ok) throw new Error(`HTTP ${response.status}`);
+      let xmlText;
+      try {
+        xmlText = await fetchXMLText(url);
+      } catch (primaryErr) {
+        const fallbackUrl = url.replace(/\.gz(\?.*)?$/i, '$1');
+        if (fallbackUrl !== url) {
+          xmlText = await fetchXMLText(fallbackUrl);
+        } else {
+          throw primaryErr;
+        }
+      }
 
-      const xmlText = await response.text();
       const parsed = parseXMLTV(xmlText);
+      parsed.timestamp = Date.now();
+      parsed.url = url;
 
       state.channels = parsed.channels;
       state.channelsMap = parsed.channelsMap;
+      state.randomCardsPool = null;
 
       await saveToIndexedDB("parsed_epg", parsed);
 
@@ -2409,12 +2445,13 @@
     if (!ch) return [];
     const base = getChannelBaseName(ch.name);
     const cleanBase = cleanStr(base);
-    const dial = (ch.id && ch.id.length >= 4) ? ch.id.slice(-3) : null;
+    const isNumericId = /^\d{4,}$/.test(ch.id || '');
+    const dial = isNumericId ? ch.id.slice(-3) : null;
 
     return state.channels.filter(c => {
       if (c.id === ch.id) return false;
       if (cleanBase.length >= 3 && c.cleanName.includes(cleanBase)) return true;
-      if (dial && c.id && c.id.length >= 4 && c.id.slice(-3) === dial) return true;
+      if (dial && /^\d{4,}$/.test(c.id || '') && c.id.slice(-3) === dial) return true;
       return false;
     });
   }
@@ -2556,6 +2593,7 @@
             state.activeViewBeforeSearch = state.currentView;
           }
           state.searchQuery = val;
+          stopHeroAutoPlay();
           el.viewCards.classList.add('hidden');
           el.viewList.classList.add('hidden');
           el.viewGuide.classList.add('hidden');
@@ -2626,6 +2664,15 @@
         stopHeroAutoPlay();
       }
     };
+
+    // Pausar rotación del Hero cuando la pestaña del navegador no está visible
+    document.addEventListener('visibilitychange', () => {
+      if (document.hidden) {
+        stopHeroAutoPlay();
+      } else if (state.currentView === 'cards' && !state.searchQuery && state.heroPlaying) {
+        startHeroAutoPlay();
+      }
+    });
 
     // Botón Cargar Más Canales
     el.btnLoadMoreCards.onclick = () => {
@@ -2707,7 +2754,6 @@
 
     const targetHeader = el.guideChHeaderMain || el.guideChHeader;
     if (targetHeader) {
-      // Touch events (Móvil)
       targetHeader.addEventListener('touchstart', (e) => {
         if (e.target.closest('#btnToggleGuideChannels')) return;
         if (e.touches && e.touches[0]) {
@@ -2726,7 +2772,6 @@
       targetHeader.addEventListener('touchend', cancelChannelHold);
       targetHeader.addEventListener('touchcancel', cancelChannelHold);
 
-      // Mouse events (Desktop)
       targetHeader.addEventListener('mousedown', (e) => {
         if (e.target.closest('#btnToggleGuideChannels')) return;
         if (e.button === 0) {
@@ -2741,7 +2786,6 @@
       targetHeader.addEventListener('mouseup', cancelChannelHold);
       targetHeader.addEventListener('mouseleave', cancelChannelHold);
 
-      // Clic derecho (Desktop)
       targetHeader.addEventListener('contextmenu', (e) => {
         if (e.target.closest('#btnToggleGuideChannels')) return;
         e.preventDefault();
@@ -2749,7 +2793,6 @@
         openChannelActionsModal();
       });
 
-      // Clic normal
       targetHeader.addEventListener('click', (e) => {
         if (isLongPressTriggered) {
           isLongPressTriggered = false;
@@ -2762,7 +2805,6 @@
       });
     }
 
-    // Cerrar menú desplegable de canales si se hace clic fuera
     document.addEventListener('click', (e) => {
       if (el.guideSidebar && el.guideSidebar.classList.contains('mobile-open')) {
         if (!el.guideSidebar.contains(e.target) &&
@@ -2773,7 +2815,6 @@
       }
     });
 
-    // Ir a Guía completa desde el popup de Lista
     el.btnOpenFullGuideFromQuick.onclick = () => {
       const ch = state.activeChannelForQuick;
       if (ch) {
@@ -2783,7 +2824,6 @@
       }
     };
 
-    // Cerrar Popups
     el.btnCloseQuick.onclick = closeQuickPopup;
     el.popupQuickList.onclick = (e) => {
       if (e.target === el.popupQuickList) closeQuickPopup();
@@ -2826,6 +2866,7 @@
       state.showBanners = e.target.checked;
       localStorage.setItem('epg_show_banners', state.showBanners);
       document.body.classList.toggle('hide-banners', !state.showBanners);
+      updateHeroBanner(false);
       renderActiveView();
     };
 
@@ -2851,7 +2892,6 @@
       fetchAndProcessEPG(true);
     };
 
-    // Soporte para botones Atrás/Adelante del navegador con URL Hash
     window.addEventListener('popstate', () => {
       if (state.searchQuery) {
         state.searchQuery = '';
@@ -2861,10 +2901,9 @@
         state.activeViewBeforeSearch = null;
       }
       const route = parseCurrentHash();
-      switchView(route.view, route.channelId, false);
+      switchView(route.view, route.channelId);
     });
 
-    // Tecla Escape para cerrar modales y menús desplegables
     window.addEventListener('keydown', (e) => {
       if (e.key === 'Escape') {
         if (state.searchQuery) {
@@ -2879,16 +2918,6 @@
       }
     });
 
-    // Auto-refresh removido para evitar resets indeseados
-
-    // Ajustar capítulos en vista lista ante cambios de tamaño de ventana
-    window.addEventListener('resize', () => {
-      if (state.currentView === 'list') {
-        adjustListChapters();
-      }
-    });
-
-    // Ocultar barra principal (#mainHeader) al deslizar hacia abajo y restaurar al deslizar hacia arriba
     let lastScrollTop = 0;
     let isHeaderHidden = false;
     if (el.appContainer) {
@@ -2915,7 +2944,6 @@
     }
   }
 
-  
   // ==========================================================================
   // CONTEXT MENU LOGIC
   // ==========================================================================
@@ -2962,12 +2990,11 @@
   }
 
   // ==========================================================================
-  // 13. INICIALIZACI
+  // 13. INICIALIZACIÓN
   // ==========================================================================
   function init() {
     initDOMElements();
 
-    // Restaurar vista desde URL hash si existe
     const initialRoute = parseCurrentHash();
     state.currentView = initialRoute.view;
     if (initialRoute.channelId) {
@@ -2981,7 +3008,6 @@
     el.viewList.classList.toggle('hidden', initialRoute.view !== 'list');
     el.viewGuide.classList.toggle('hidden', initialRoute.view !== 'guide');
 
-    // Cargar preferencias
     try {
       const favs = localStorage.getItem('epg_favorites');
       if (favs) state.favorites = new Set(JSON.parse(favs));
@@ -3000,6 +3026,11 @@
       el.chkShowAdults.checked = state.showAdults;
     }
 
+    // Actualizar automáticamente si tenía guardada la URL antigua sin comprimir
+    const savedCustomUrl = localStorage.getItem('epg_custom_url');
+    if (savedCustomUrl === LEGACY_EPG_URL) {
+      localStorage.removeItem('epg_custom_url');
+    }
     el.customEpgUrl.value = localStorage.getItem('epg_custom_url') || DEFAULT_EPG_URL;
 
     updateFavCount();
