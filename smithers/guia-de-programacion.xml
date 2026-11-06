@@ -9274,21 +9274,24 @@ No aparece en el programa ningún otro superhéroe de ficción, a excepción  de
       <actor>Patricia Venegas</actor>
       <actor>Patricio Angulo</actor>
       <actor>Humberto Sichel</actor>
+      <presenter>Humberto Sichel</presenter>
+      <presenter>Patricia Venegas</presenter>
+      <presenter>Soledad Agüero</presenter>
     </credits>
-    <date>2020</date>
-    <category>Noticiero</category>
+    <date>1996</date>
+    <category>Noticias y Actualidad</category>
     <country>Chile</country>
     <rating><value>14</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/chvnoticiastarde.jpg" />
   </programme>
   <programme start="20261105153000 -0300" stop="20261105173000 -0300" channel="0106">
     <title>Contigo en directo</title>
-    <desc>Acompaña a Karina Álvarez a analizar todos los acontecimientos de la jornada a nivel político y policial del país, junto a un destacado equipo periodístico y diversos panelistas invitados.</desc>
+    <desc>Análisis de la contingencia, con una amplia cobertura de los temas más relevantes del día a día.</desc>
     <credits>
       <actor>Karina Álvarez</actor>
     </credits>
     <date>2020</date>
-    <category>Noticiero</category>
+    <category>Magazín Informativo</category>
     <country>Chile</country>
     <rating><value>R</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/contigoendirecto.jpg" />
@@ -9300,37 +9303,64 @@ No aparece en el programa ningún otro superhéroe de ficción, a excepción  de
       <director>Mike Barker</director>
       <actor>Francisca García Huidobro</actor>
       <actor>Eduardo de la Iglesia</actor>
+      <presenter>Francisca García-Huidobro</presenter>
+      <presenter>Eduardo de la Iglesia</presenter>
+      <presenter>Gala Caldirola</presenter>
+      <presenter>Sergio Maraboli</presenter>
+      <presenter>Antonela Ríos</presenter>
+      <presenter>Eli de Caso</presenter>
+      <presenter>Patricio Sotomayor</presenter>
+      <presenter>Renata Bravo</presenter>
+      <presenter>Macarena Venegas</presenter>
     </credits>
-    <date>2026</date>
-    <category>Entretenimiento</category>
+    <date>2025</date>
+    <category>Entretención</category>
     <country>Chile</country>
     <rating><value>R</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/planperfecto.jpg" />
   </programme>
-  <programme start="20261105200000 -0300" stop="20261105224500 -0300" channel="0106">
+  <programme start="20261105200000 -0300" stop="20261105223000 -0300" channel="0106">
     <title>CHV noticias central</title>
-    <desc>Macarena Pizarro y Daniel Matamala presentan el noticiero más creíble del país. Coberturas, notas y reportajes a fondo para estar informado con todo lo que ocurrió durante la jornada.</desc>
+    <desc>Todas las noticias de Chile y el mundo tratadas con seriedad, rigurosidad, profundidad y objetividad, con los temas que de verdad le interesan a la gente y un punto de vista crítico e independiente.</desc>
     <credits>
       <actor>Macarena Pizarro</actor>
       <actor>Daniel Matamala</actor>
       <actor>Soledad Agüero</actor>
+      <presenter>Daniel Matamala</presenter>
+      <presenter>Macarena Pizarro</presenter>
     </credits>
-    <date>2024</date>
-    <category>Noticiero</category>
+    <date>1996</date>
+    <category>Noticias y Actualidad</category>
     <country>Chile</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/chvnoticiascentral.jpg" />
   </programme>
-  <programme start="20261105224500 -0300" stop="20261106004500 -0300" channel="0106">
+  <programme start="20261105223000 -0300" stop="20261105223500 -0300" channel="0106">
+    <title>El tiempo CHV</title>
+    <desc>Conoce los detalles del tiempo a lo largo de todo el territorio nacional, con el informe metorológico completo junto a Chilevisión.</desc>
+    <credits>
+      <actor>Allison Göller</actor>
+      <actor>Vanesa Noe</actor>
+      <actor>Eduardo Sáez</actor>
+    </credits>
+    <date>2024</date>
+    <category>Clima</category>
+    <country>Chile</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/eltiempochv.jpg" />
+  </programme>
+  <programme start="20261105223500 -0300" stop="20261106004500 -0300" channel="0106">
     <title>El club de la comedia</title>
     <desc>El club de la comedia es un programa de monólogos humorísticos, así como un espectáculo teatral, que se graba en un teatro y que ha sido retransmitido por distintas cadenas de televisión españolas a lo largo de sus nueve temporadas desde el 26 de septiembre de 1999.</desc>
     <credits>
       <director>José Miguel Contreras</director>
-      <actor>Kurt Carrera</actor>
-      <actor>Christian Henríquez</actor>
+      <actor>Claudio Michaux</actor>
       <actor>María José Quiroz</actor>
+      <actor>Cristián Hernández</actor>
+      <actor>Kurt Carrera</actor>
+      <actor>Antonella Henríquez</actor>
+      <actor>Daniel Alcaíno</actor>
     </credits>
     <date>2026</date>
-    <category>Comedia</category>
+    <category>Humorístico</category>
     <country>Chile</country>
     <rating><value>A</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/elclubdelacomedia.jpg" />
@@ -9354,71 +9384,118 @@ No aparece en el programa ningún otro superhéroe de ficción, a excepción  de
       <actor>Mutlunur Lafçi</actor>
     </credits>
     <date>2020</date>
-    <category>Telenovela</category>
+    <category>Teleseries</category>
     <country>Turquía</country>
-    <rating><value>12</value></rating>
+    <rating><value>A</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/traicionada.jpg" />
   </programme>
-  <programme start="20261106014500 -0300" stop="20261106053000 -0300" channel="0106">
-    <title>Programación trasnoche</title>
-    <desc>Una selección de los mejores programas históricos de Chilevisión.</desc>
-    <date>2000</date>
-    <category>Entretenimiento</category>
+  <programme start="20261106014500 -0300" stop="20261106033000 -0300" channel="0106">
+    <title>El club de la comedia - Lo mejor</title>
+    <desc>Comediantes realizan los más divertidos monólogos en el estilo &quot;stand-up comedy&quot;, además de parodias de personajes conocidos de Chile.</desc>
+    <credits>
+      <actor>Claudio Michaux</actor>
+      <actor>María José Quiroz</actor>
+      <actor>Cristián Hernández</actor>
+      <actor>Kurt Carrera</actor>
+      <actor>Antonella Henríquez</actor>
+      <actor>Daniel Alcaíno</actor>
+    </credits>
+    <date>2026</date>
+    <category>Humorístico</category>
     <country>Chile</country>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0106_fallback.jpg" />
+    <rating><value>A</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/elclubdelacomedialomejor.jpg" />
+  </programme>
+  <programme start="20261106033000 -0300" stop="20261106043000 -0300" channel="0106">
+    <title>Humor en CHV</title>
+    <desc>Una selección de los mejores sketches de los programas de humor de Chilevisión.</desc>
+    <date>2026</date>
+    <category>Humorístico</category>
+    <country>Chile</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/humorenchv.jpg" />
+  </programme>
+  <programme start="20261106043000 -0300" stop="20261106050000 -0300" channel="0106">
+    <title>Contigo en directo</title>
+    <desc>Repetición ║ Análisis de la contingencia, con una amplia cobertura de los temas más relevantes del día a día.</desc>
+    <credits>
+      <actor>Karina Álvarez</actor>
+    </credits>
+    <date>2020</date>
+    <category>Magazín Informativo</category>
+    <country>Chile</country>
+    <rating><value>R</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/contigoendirecto.jpg" />
+  </programme>
+  <programme start="20261106050000 -0300" stop="20261106053000 -0300" channel="0106">
+    <title>El Lado B de las Noticias</title>
+    <desc>Una revisión de las noticias sobre espectáculos, cine, tecnología y virales para despertar de buen ánimo.</desc>
+    <credits>
+      <presenter>Pablo Torres</presenter>
+    </credits>
+    <date>2026</date>
+    <category>Noticias y Actualidad</category>
+    <country>Chile</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/elladobdelasnoticias.jpg" />
   </programme>
   <programme start="20261106053000 -0300" stop="20261106060000 -0300" channel="0106">
     <title>Primera página</title>
-    <desc>Espacio que cuenta con la información más importante de las primeras horas del día.</desc>
+    <desc>Resumen noticioso para iniciar el día con ánimo y bien informado.</desc>
     <credits>
       <actor>Karina Álvarez</actor>
       <actor>Roberto Cox</actor>
+      <presenter>Karina Álvarez</presenter>
+      <presenter>Patricio Angulo</presenter>
+      <presenter>Carlos Grage</presenter>
     </credits>
     <date>2020</date>
-    <category>Noticiero</category>
+    <category>Noticias y Actualidad</category>
     <country>Chile</country>
     <rating><value>18</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/primerapagina.jpg" />
   </programme>
   <programme start="20261106060000 -0300" stop="20261106080000 -0300" channel="0106">
     <title>Contigo CHV noticias AM</title>
-    <desc>Información fresca de lo que pasa en nuestro país como también a nivel mundial. Todo esto a través del profesionalismo que caracteriza a ambos conductores, acompañado de carisma y cercanía... ese es el sello. En este se incluyen temáticas, policiales, contingencia, servicios, deportes, internacional, espectáculos y redes sociales.</desc>
+    <desc>Es un noticiero cuyo principal objetivo es convertirse en la mejor compañía de aquellos que comienzan a levantarse y que necesitan salir informados de sus hogares.</desc>
     <credits>
       <actor>Karina Álvarez</actor>
       <actor>Roberto Cox</actor>
+      <presenter>Karina Álvarez</presenter>
+      <presenter>Carlos Grage</presenter>
+      <presenter>Marianela Estrada</presenter>
     </credits>
-    <date>2020</date>
-    <category>Noticiero</category>
+    <date>2019</date>
+    <category>Noticias y Actualidad</category>
     <country>Chile</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/contigochvnoticiasam.jpg" />
   </programme>
   <programme start="20261106080000 -0300" stop="20261106120000 -0300" channel="0106">
     <title>Contigo en la mañana</title>
-    <desc>Un espacio informativo y de entretenimiento que aborda diversas temáticas de actualidad con un estilo claro y ameno. Invitamos al público a mantenerse al día sobre los acontecimientos más relevantes.</desc>
+    <desc>Información y entretención para mantenerse al día sobre los temas que mueven la vida.</desc>
     <credits>
       <director>Felipe Cisternas</director>
-      <actor>Julio César Rodriguez</actor>
-      <actor>Andrea Aristegui</actor>
-      <actor>Alison Göhler</actor>
+      <actor>Andrea Arístegui</actor>
       <actor>Eduardo de la Iglesia</actor>
+      <actor>Roberto Cox</actor>
+      <actor>Allison Göller</actor>
+      <actor>Gino Costa</actor>
     </credits>
-    <date>2025</date>
-    <category>Magazine</category>
+    <date>2019</date>
+    <category>Magazín Informativo</category>
     <country>Chile</country>
     <rating><value>R</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/contigoenlamanana.jpg" />
   </programme>
   <programme start="20261106120000 -0300" stop="20261106130000 -0300" channel="0106">
-    <title>Teletón Chile 2026</title>
-    <desc>&#x27;Súmate a lo que nos une&#x27; es el eslogan escogido este año para este evento solidario que busca recaudar fondos para financiar la rehabilitación integral de cerca de 32 mil niños, niñas y jóvenes con discapacidad motora en Chile.</desc>
+    <title>[En vivo] Matinatón</title>
+    <desc>En vivo ║ Programa especial que reúne a los presentadores de todos los matinales de la televisión para dar el puntapié inicial a la campaña de la Teletón, horas antes del comienzo oficial del show televisivo.</desc>
     <credits>
       <actor>Mario Kreutzberger</actor>
     </credits>
     <date>2026</date>
-    <category>Especial</category>
+    <category>Evento Especial</category>
     <country>Chile</country>
     <rating><value>TE</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/teletonchile2026.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/matinaton.jpg" />
   </programme>
   <programme start="20261106130000 -0300" stop="20261106153000 -0300" channel="0106">
     <title>CHV noticias tarde</title>
@@ -9427,21 +9504,24 @@ No aparece en el programa ningún otro superhéroe de ficción, a excepción  de
       <actor>Patricia Venegas</actor>
       <actor>Patricio Angulo</actor>
       <actor>Humberto Sichel</actor>
+      <presenter>Humberto Sichel</presenter>
+      <presenter>Patricia Venegas</presenter>
+      <presenter>Soledad Agüero</presenter>
     </credits>
-    <date>2020</date>
-    <category>Noticiero</category>
+    <date>1996</date>
+    <category>Noticias y Actualidad</category>
     <country>Chile</country>
     <rating><value>14</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/chvnoticiastarde.jpg" />
   </programme>
   <programme start="20261106153000 -0300" stop="20261106173000 -0300" channel="0106">
     <title>Contigo en directo</title>
-    <desc>Acompaña a Karina Álvarez a analizar todos los acontecimientos de la jornada a nivel político y policial del país, junto a un destacado equipo periodístico y diversos panelistas invitados.</desc>
+    <desc>Análisis de la contingencia, con una amplia cobertura de los temas más relevantes del día a día.</desc>
     <credits>
       <actor>Karina Álvarez</actor>
     </credits>
     <date>2020</date>
-    <category>Noticiero</category>
+    <category>Magazín Informativo</category>
     <country>Chile</country>
     <rating><value>R</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/contigoendirecto.jpg" />
@@ -9453,376 +9533,142 @@ No aparece en el programa ningún otro superhéroe de ficción, a excepción  de
       <director>Mike Barker</director>
       <actor>Francisca García Huidobro</actor>
       <actor>Eduardo de la Iglesia</actor>
+      <presenter>Francisca García-Huidobro</presenter>
+      <presenter>Eduardo de la Iglesia</presenter>
+      <presenter>Gala Caldirola</presenter>
+      <presenter>Sergio Maraboli</presenter>
+      <presenter>Antonela Ríos</presenter>
+      <presenter>Eli de Caso</presenter>
+      <presenter>Patricio Sotomayor</presenter>
+      <presenter>Renata Bravo</presenter>
+      <presenter>Macarena Venegas</presenter>
     </credits>
-    <date>2026</date>
-    <category>Entretenimiento</category>
+    <date>2025</date>
+    <category>Entretención</category>
     <country>Chile</country>
     <rating><value>R</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/planperfecto.jpg" />
   </programme>
   <programme start="20261106200000 -0300" stop="20261106220000 -0300" channel="0106">
     <title>CHV noticias central</title>
-    <desc>Macarena Pizarro y Daniel Matamala presentan el noticiero más creíble del país. Coberturas, notas y reportajes a fondo para estar informado con todo lo que ocurrió durante la jornada.</desc>
+    <desc>Todas las noticias de Chile y el mundo tratadas con seriedad, rigurosidad, profundidad y objetividad, con los temas que de verdad le interesan a la gente y un punto de vista crítico e independiente.</desc>
     <credits>
       <actor>Macarena Pizarro</actor>
       <actor>Daniel Matamala</actor>
       <actor>Soledad Agüero</actor>
+      <presenter>Daniel Matamala</presenter>
+      <presenter>Macarena Pizarro</presenter>
     </credits>
-    <date>2024</date>
-    <category>Noticiero</category>
+    <date>1996</date>
+    <category>Noticias y Actualidad</category>
     <country>Chile</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/chvnoticiascentral.jpg" />
   </programme>
-  <programme start="20261106220000 -0300" stop="20261107060000 -0300" channel="0106">
-    <title>Teletón Chile 2026</title>
-    <desc>&#x27;Súmate a lo que nos une&#x27; es el eslogan escogido este año para este evento solidario que busca recaudar fondos para financiar la rehabilitación integral de cerca de 32 mil niños, niñas y jóvenes con discapacidad motora en Chile.</desc>
+  <programme start="20261106220000 -0300" stop="20261106230000 -0300" channel="0106">
+    <title>[En vivo] Teletón Chile 2026</title>
+    <desc>En vivo ║ &#x27;Súmate a lo que nos une&#x27; es el eslogan escogido este año para este evento solidario que busca recaudar fondos para financiar la rehabilitación integral de cerca de 32 mil niños, niñas y jóvenes con discapacidad motora en Chile.</desc>
     <credits>
       <actor>Mario Kreutzberger</actor>
     </credits>
     <date>2026</date>
-    <category>Especial</category>
+    <category>Evento Especial</category>
     <country>Chile</country>
     <rating><value>TE</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/teletonchile2026.jpg" />
   </programme>
-  <programme start="20261107060000 -0300" stop="20261107133000 -0300" channel="0106">
-    <title>Teletón Chile 2026</title>
-    <desc>&#x27;Súmate a lo que nos une&#x27; es el eslogan escogido este año para este evento solidario que busca recaudar fondos para financiar la rehabilitación integral de cerca de 32 mil niños, niñas y jóvenes con discapacidad motora en Chile.</desc>
-    <credits>
-      <actor>Mario Kreutzberger</actor>
-    </credits>
-    <date>2026</date>
-    <category>Especial</category>
-    <country>Chile</country>
-    <rating><value>TE</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/teletonchile2026.jpg" />
+  <programme start="20261106230000 -0300" stop="20261107020000 -0300" channel="0106">
+    <title>CHV</title>
+    <desc>La información de este programa no se encuentra disponible.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0106_fallback.jpg" />
   </programme>
-  <programme start="20261107133000 -0300" stop="20261107210000 -0300" channel="0106">
-    <title>Teletón Chile 2026</title>
-    <desc>&#x27;Súmate a lo que nos une&#x27; es el eslogan escogido este año para este evento solidario que busca recaudar fondos para financiar la rehabilitación integral de cerca de 32 mil niños, niñas y jóvenes con discapacidad motora en Chile.</desc>
+  <programme start="20261107020000 -0300" stop="20261107060000 -0300" channel="0106">
+    <title>CHV</title>
+    <desc>La información de este programa no se encuentra disponible.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0106_fallback.jpg" />
+  </programme>
+  <programme start="20261107060000 -0300" stop="20261107210000 -0300" channel="0106">
+    <title>[En vivo] Teletón Chile 2026</title>
+    <desc>En vivo ║ &#x27;Súmate a lo que nos une&#x27; es el eslogan escogido este año para este evento solidario que busca recaudar fondos para financiar la rehabilitación integral de cerca de 32 mil niños, niñas y jóvenes con discapacidad motora en Chile.</desc>
     <credits>
       <actor>Mario Kreutzberger</actor>
     </credits>
     <date>2026</date>
-    <category>Especial</category>
+    <category>Evento Especial</category>
     <country>Chile</country>
     <rating><value>TE</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/teletonchile2026.jpg" />
   </programme>
   <programme start="20261107210000 -0300" stop="20261107220000 -0300" channel="0106">
     <title>CHV noticias central</title>
-    <desc>Macarena Pizarro y Daniel Matamala presentan el noticiero más creíble del país. Coberturas, notas y reportajes a fondo para estar informado con todo lo que ocurrió durante la jornada.</desc>
+    <desc>Todas las noticias de Chile y el mundo tratadas con seriedad, rigurosidad, profundidad y objetividad, con los temas que de verdad le interesan a la gente y un punto de vista crítico e independiente.</desc>
     <credits>
       <actor>Macarena Pizarro</actor>
       <actor>Daniel Matamala</actor>
       <actor>Soledad Agüero</actor>
+      <presenter>Daniel Matamala</presenter>
+      <presenter>Macarena Pizarro</presenter>
     </credits>
-    <date>2024</date>
-    <category>Noticiero</category>
+    <date>1996</date>
+    <category>Noticias y Actualidad</category>
     <country>Chile</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/chvnoticiascentral.jpg" />
   </programme>
-  <programme start="20261107220000 -0300" stop="20261108010000 -0300" channel="0106">
-    <title>Teletón Chile 2026</title>
-    <desc>&#x27;Súmate a lo que nos une&#x27; es el eslogan escogido este año para este evento solidario que busca recaudar fondos para financiar la rehabilitación integral de cerca de 32 mil niños, niñas y jóvenes con discapacidad motora en Chile.</desc>
+  <programme start="20261107220000 -0300" stop="20261108004500 -0300" channel="0106">
+    <title>[En vivo] Teletón Chile 2026</title>
+    <desc>En vivo ║ &#x27;Súmate a lo que nos une&#x27; es el eslogan escogido este año para este evento solidario que busca recaudar fondos para financiar la rehabilitación integral de cerca de 32 mil niños, niñas y jóvenes con discapacidad motora en Chile.</desc>
     <credits>
       <actor>Mario Kreutzberger</actor>
     </credits>
     <date>2026</date>
-    <category>Especial</category>
+    <category>Evento Especial</category>
     <country>Chile</country>
     <rating><value>TE</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/teletonchile2026.jpg" />
   </programme>
-  <programme start="20261108010000 -0300" stop="20261108030000 -0300" channel="0106">
-    <title>Divina comida de selección</title>
-    <desc>Revivimos las mejores mesas en Divina Comida De Selección, un ciclo en el que cuatro famosos son anfitriones por una noche y preparan una cena (entrada, plato de fondo y postre) para los demás participantes.</desc>
-    <credits>
-      <director>Luis Berroeta</director>
-      <director>Rodrigo Velásquez</director>
-      <director>Elías Garay</director>
-      <actor>Jani Dueñas</actor>
-      <actor>Juan Pablo Sepúlveda</actor>
-    </credits>
-    <date>2023</date>
-    <category>Entretenimiento</category>
-    <country>Chile</country>
+  <programme start="20261108004500 -0300" stop="20261108020000 -0300" channel="0106">
+    <title>JJOO de la Juventud</title>
+    <desc>La información de este programa no se encuentra disponible.</desc>
+    <date>2026</date>
+    <category>Otros</category>
+    <country>Senegal</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0106_fallback.jpg" />
   </programme>
-  <programme start="20261108030000 -0300" stop="20261108053000 -0300" channel="0106">
-    <title>Programación trasnoche</title>
-    <desc>Una selección de los mejores programas históricos de Chilevisión.</desc>
-    <date>2000</date>
-    <category>Entretenimiento</category>
-    <country>Chile</country>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0106_fallback.jpg" />
-  </programme>
-  <programme start="20261108053000 -0300" stop="20261108070000 -0300" channel="0106">
-    <title>Sabingo</title>
-    <desc>Vamos en busca de emprendedores a lo largo de Chile, contamos historias humanas, notas de viajes, disfrutamos de comidas típicas y también de fiestas costumbristas. Descubrimos el país a través del turismo rural, recorriendo distintas localidades y conociendo a los protagonistas de cada historia.</desc>
+  <programme start="20261108020000 -0300" stop="20261108040000 -0300" channel="0106">
+    <title>La divina comida - Lo mejor</title>
+    <desc>Cada semana, cuatro famosos compiten por ver quién es el mejor anfitrión. Un show que combina elementos de cocina, celebridades y diversión.</desc>
     <credits>
-      <director>Antonio Peredo</director>
-      <actor>Emilia Daiber</actor>
-      <actor>Juan Pablo Queraltó</actor>
+      <presenter>Jani Dueñas</presenter>
     </credits>
-    <date>2024</date>
-    <category>Interés general</category>
+    <date>2016</date>
+    <category>Entretención</category>
     <country>Chile</country>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/sabingo.jpg" />
+    <rating><value>R</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/ladivinacomidalomejor.jpg" />
   </programme>
-  <programme start="20261108070000 -0300" stop="20261108080000 -0300" channel="0106">
-    <title>Casado con hijos</title>
-    <desc>La vida de la caótica familia Olivares de clase media que vive en el corazón del barrio de Villa Coapa, en la Ciudad de México.</desc>
-    <credits>
-      <director>Gustavo Loza</director>
-      <director>Pitipol Ybarra</director>
-      <actor>Fernando Godoy</actor>
-      <actor>Dayana Amigo</actor>
-      <actor>Fernando Larraín</actor>
-      <actor>Marcial Tagle</actor>
-      <actor>Jaime Omeñaca</actor>
-      <actor>Renata Bravo</actor>
-      <actor>Javiera Contador</actor>
-      <actor>Carmen Gloria Bresky</actor>
-    </credits>
-    <date>2006</date>
-    <category>Comedia</category>
-    <country>Chile</country>
-    <rating><value>SAM 13</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0106_casadoconhijos.jpg" />
-  </programme>
-  <programme start="20261108080000 -0300" stop="20261108083000 -0300" channel="0106">
-    <title>Primera página</title>
-    <desc>Espacio que cuenta con la información más importante de las primeras horas del día.</desc>
-    <credits>
-      <actor>Karina Álvarez</actor>
-      <actor>Roberto Cox</actor>
-    </credits>
-    <date>2020</date>
-    <category>Noticiero</category>
-    <country>Chile</country>
-    <rating><value>18</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/primerapagina.jpg" />
-  </programme>
-  <programme start="20261108083000 -0300" stop="20261108130000 -0300" channel="0106">
-    <title>CHV noticias AM - Fin de semana</title>
-    <desc>Infórmate al minuto y en video con uno de los principales noticieros de Chile. Actualización constante de lo que sucede en el país y el mundo.</desc>
-    <credits>
-      <actor>Patricia Venegas</actor>
-      <actor>Patricio Angulo</actor>
-      <actor>Humberto Sichel</actor>
-    </credits>
-    <date>2021</date>
-    <category>Noticiero</category>
-    <country>Chile</country>
-    <rating><value>18</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/chvnoticiasamfindesemana.jpg" />
-  </programme>
-  <programme start="20261108130000 -0300" stop="20261108150000 -0300" channel="0106">
-    <title>CHV noticias tarde</title>
-    <desc>La más completa información de los principales acontecimientos que están marcando la jornada, con despachos y móviles en directo desde el lugar de los hechos.</desc>
-    <credits>
-      <actor>Patricia Venegas</actor>
-      <actor>Patricio Angulo</actor>
-      <actor>Humberto Sichel</actor>
-    </credits>
-    <date>2020</date>
-    <category>Noticiero</category>
-    <country>Chile</country>
-    <rating><value>14</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/chvnoticiastarde.jpg" />
-  </programme>
-  <programme start="20261108150000 -0300" stop="20261108180000 -0300" channel="0106">
-    <title>Sabingo</title>
-    <desc>Vamos en busca de emprendedores a lo largo de Chile, contamos historias humanas, notas de viajes, disfrutamos de comidas típicas y también de fiestas costumbristas. Descubrimos el país a través del turismo rural, recorriendo distintas localidades y conociendo a los protagonistas de cada historia.</desc>
-    <credits>
-      <director>Antonio Peredo</director>
-      <actor>Emilia Daiber</actor>
-      <actor>Juan Pablo Queraltó</actor>
-    </credits>
-    <date>2024</date>
-    <category>Interés general</category>
-    <country>Chile</country>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/sabingo.jpg" />
-  </programme>
-  <programme start="20261108180000 -0300" stop="20261108202000 -0300" channel="0106">
-    <title>Sabingo</title>
-    <desc>Vamos en busca de emprendedores a lo largo de Chile, contamos historias humanas, notas de viajes, disfrutamos de comidas típicas y también de fiestas costumbristas. Descubrimos el país a través del turismo rural, recorriendo distintas localidades y conociendo a los protagonistas de cada historia.</desc>
-    <credits>
-      <director>Antonio Peredo</director>
-      <actor>Emilia Daiber</actor>
-      <actor>Juan Pablo Queraltó</actor>
-    </credits>
-    <date>2024</date>
-    <category>Interés general</category>
-    <country>Chile</country>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/sabingo.jpg" />
-  </programme>
-  <programme start="20261108202000 -0300" stop="20261108224500 -0300" channel="0106">
-    <title>CHV noticias central</title>
-    <desc>Macarena Pizarro y Daniel Matamala presentan el noticiero más creíble del país. Coberturas, notas y reportajes a fondo para estar informado con todo lo que ocurrió durante la jornada.</desc>
-    <credits>
-      <actor>Macarena Pizarro</actor>
-      <actor>Daniel Matamala</actor>
-      <actor>Soledad Agüero</actor>
-    </credits>
-    <date>2024</date>
-    <category>Noticiero</category>
-    <country>Chile</country>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/chvnoticiascentral.jpg" />
-  </programme>
-  <programme start="20261108224500 -0300" stop="20261109004500 -0300" channel="0106">
-    <title>Fiebre de canto</title>
+  <programme start="20261108040000 -0300" stop="20261108050000 -0300" channel="0106">
+    <title>Fiebre de canto - Lo mejor</title>
     <desc>Famosos compiten poniendo a prueba todo su talento, evaluados por un estricto jurado.</desc>
     <credits>
-      <director>Carlor Mati</director>
-      <actor>Diana Bolocco</actor>
-      <actor>Emilia Dides</actor>
-      <actor>Luis Jara</actor>
-      <actor>Verónica Villarroel</actor>
-      <actor>Vasco Moulian</actor>
+      <presenter>Diana Bolocco</presenter>
+      <presenter>Vasco Moulian</presenter>
+      <presenter>Verónica Villarroel</presenter>
+      <presenter>Emilia Dides</presenter>
+      <presenter>Luis Jara</presenter>
+      <presenter>Ale Sergi</presenter>
+      <presenter>Emilia Daiber</presenter>
+      <presenter>Claudio Michaux</presenter>
     </credits>
     <date>2026</date>
-    <category>Entretenimiento</category>
+    <category>Entretención</category>
     <country>Chile</country>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fiebredecanto.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fiebredecantolomejor.jpg" />
   </programme>
-  <programme start="20261109004500 -0300" stop="20261109013000 -0300" channel="0106">
-    <title>El VAR de Fiebre de canto</title>
-    <desc>Espacio de conversación y análisis tras cada capítulo del reality Fiebre de canto. Junto a Emilia Daiber, se revisan en detalle las mejores presentaciones, polémicas, evaluaciones del jurado y momentos de tensión de la competencia.</desc>
-    <credits>
-      <director>Carlor Mati</director>
-      <actor>Emilia Daiber</actor>
-    </credits>
-    <date>2026</date>
-    <category>Reality Show</category>
-    <country>Chile</country>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/elvardefiebredecanto.jpg" />
-  </programme>
-  <programme start="20261109013000 -0300" stop="20261109053000 -0300" channel="0106">
-    <title>Programación trasnoche</title>
-    <desc>Una selección de los mejores programas históricos de Chilevisión.</desc>
-    <date>2000</date>
-    <category>Entretenimiento</category>
-    <country>Chile</country>
+  <programme start="20261108050000 -0300" stop="20261108060000 -0300" channel="0106">
+    <title>CHV</title>
+    <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0106_fallback.jpg" />
   </programme>
-  <programme start="20261109053000 -0300" stop="20261109060000 -0300" channel="0106">
-    <title>Primera página</title>
-    <desc>Espacio que cuenta con la información más importante de las primeras horas del día.</desc>
-    <credits>
-      <actor>Karina Álvarez</actor>
-      <actor>Roberto Cox</actor>
-    </credits>
-    <date>2020</date>
-    <category>Noticiero</category>
-    <country>Chile</country>
-    <rating><value>18</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/primerapagina.jpg" />
-  </programme>
-  <programme start="20261109060000 -0300" stop="20261109080000 -0300" channel="0106">
-    <title>Contigo CHV noticias AM</title>
-    <desc>Información fresca de lo que pasa en nuestro país como también a nivel mundial. Todo esto a través del profesionalismo que caracteriza a ambos conductores, acompañado de carisma y cercanía... ese es el sello. En este se incluyen temáticas, policiales, contingencia, servicios, deportes, internacional, espectáculos y redes sociales.</desc>
-    <credits>
-      <actor>Karina Álvarez</actor>
-      <actor>Roberto Cox</actor>
-    </credits>
-    <date>2020</date>
-    <category>Noticiero</category>
-    <country>Chile</country>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/contigochvnoticiasam.jpg" />
-  </programme>
-  <programme start="20261109080000 -0300" stop="20261109130000 -0300" channel="0106">
-    <title>Contigo en la mañana</title>
-    <desc>Un espacio informativo y de entretenimiento que aborda diversas temáticas de actualidad con un estilo claro y ameno. Invitamos al público a mantenerse al día sobre los acontecimientos más relevantes.</desc>
-    <credits>
-      <director>Felipe Cisternas</director>
-      <actor>Julio César Rodriguez</actor>
-      <actor>Andrea Aristegui</actor>
-      <actor>Alison Göhler</actor>
-      <actor>Eduardo de la Iglesia</actor>
-    </credits>
-    <date>2025</date>
-    <category>Magazine</category>
-    <country>Chile</country>
-    <rating><value>R</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/contigoenlamanana.jpg" />
-  </programme>
-  <programme start="20261109130000 -0300" stop="20261109153000 -0300" channel="0106">
-    <title>CHV noticias tarde</title>
-    <desc>La más completa información de los principales acontecimientos que están marcando la jornada, con despachos y móviles en directo desde el lugar de los hechos.</desc>
-    <credits>
-      <actor>Patricia Venegas</actor>
-      <actor>Patricio Angulo</actor>
-      <actor>Humberto Sichel</actor>
-    </credits>
-    <date>2020</date>
-    <category>Noticiero</category>
-    <country>Chile</country>
-    <rating><value>14</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/chvnoticiastarde.jpg" />
-  </programme>
-  <programme start="20261109153000 -0300" stop="20261109170000 -0300" channel="0106">
-    <title>Contigo en directo</title>
-    <desc>Acompaña a Karina Álvarez a analizar todos los acontecimientos de la jornada a nivel político y policial del país, junto a un destacado equipo periodístico y diversos panelistas invitados.</desc>
-    <credits>
-      <actor>Karina Álvarez</actor>
-    </credits>
-    <date>2020</date>
-    <category>Noticiero</category>
-    <country>Chile</country>
-    <rating><value>R</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/contigoendirecto.jpg" />
-  </programme>
-  <programme start="20261109170000 -0300" stop="20261109200000 -0300" channel="0106">
-    <title>Plan perfecto</title>
-    <desc>Nick (Alessandro Nivola)es un joven sin estudios que ve acercarse un futuro de penuria económica a causa de la grave enfermedad de su padre y las deudas contraídas con un mafioso. Con la ayuda de su novia, la sensual Lissa (Reese Witherspoon), deciden tender una trampa a su millonario amigo Bryce (Josh Brolin), chantajeándolo para no acusarle de violación. Ambos huyen a un pueblo solitario en una zona tropical...</desc>
-    <credits>
-      <director>Mike Barker</director>
-      <actor>Francisca García Huidobro</actor>
-      <actor>Eduardo de la Iglesia</actor>
-    </credits>
-    <date>2026</date>
-    <category>Entretenimiento</category>
-    <country>Chile</country>
-    <rating><value>R</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/planperfecto.jpg" />
-  </programme>
-  <programme start="20261109200000 -0300" stop="20261109223500 -0300" channel="0106">
-    <title>CHV noticias central</title>
-    <desc>Macarena Pizarro y Daniel Matamala presentan el noticiero más creíble del país. Coberturas, notas y reportajes a fondo para estar informado con todo lo que ocurrió durante la jornada.</desc>
-    <credits>
-      <actor>Macarena Pizarro</actor>
-      <actor>Daniel Matamala</actor>
-      <actor>Soledad Agüero</actor>
-    </credits>
-    <date>2024</date>
-    <category>Noticiero</category>
-    <country>Chile</country>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/chvnoticiascentral.jpg" />
-  </programme>
-  <programme start="20261109223500 -0300" stop="20261110003000 -0300" channel="0106">
-    <title>Fiebre de baile</title>
-    <desc>Diez participantes lucharán por ganar el concurso de baile y demostrar que son los mejores.</desc>
-    <credits>
-      <director>Carlor Mati</director>
-      <actor>Diana Bolocco</actor>
-      <actor>Edymar Acevedo</actor>
-      <actor>Vasco Moulian</actor>
-      <actor>Raquel Argandoña</actor>
-      <actor>Power Peralta</actor>
-      <actor>Juan Pablo Queraltó</actor>
-      <actor>Luis Jara Jr</actor>
-      <actor>Michelle Carvalho</actor>
-      <actor>Skarleth Labra</actor>
-      <actor>Francisco Reyes Cristi</actor>
-    </credits>
-    <date>2025</date>
-    <category>Reality Show</category>
-    <country>Chile</country>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fiebredebaile.jpg" />
-  </programme>
-  <programme start="20261110003000 -0300" stop="20261110010000 -0300" channel="0106">
+  <programme start="20261108060000 -0300" stop="20261108100000 -0300" channel="0106">
     <title>Chilevisión</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <credits>
@@ -9834,7 +9680,7 @@ No aparece en el programa ningún otro superhéroe de ficción, a excepción  de
     <country>Chile</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0106_fallback.jpg" />
   </programme>
-  <programme start="20261110010000 -0300" stop="20261110050000 -0300" channel="0106">
+  <programme start="20261108100000 -0300" stop="20261108140000 -0300" channel="0106">
     <title>Chilevisión</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <credits>
@@ -9846,7 +9692,7 @@ No aparece en el programa ningún otro superhéroe de ficción, a excepción  de
     <country>Chile</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0106_fallback.jpg" />
   </programme>
-  <programme start="20261110050000 -0300" stop="20261110090000 -0300" channel="0106">
+  <programme start="20261108140000 -0300" stop="20261108180000 -0300" channel="0106">
     <title>Chilevisión</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <credits>
@@ -9858,7 +9704,7 @@ No aparece en el programa ningún otro superhéroe de ficción, a excepción  de
     <country>Chile</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0106_fallback.jpg" />
   </programme>
-  <programme start="20261110090000 -0300" stop="20261110130000 -0300" channel="0106">
+  <programme start="20261108180000 -0300" stop="20261108220000 -0300" channel="0106">
     <title>Chilevisión</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <credits>
@@ -9870,7 +9716,7 @@ No aparece en el programa ningún otro superhéroe de ficción, a excepción  de
     <country>Chile</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0106_fallback.jpg" />
   </programme>
-  <programme start="20261110130000 -0300" stop="20261110170000 -0300" channel="0106">
+  <programme start="20261108220000 -0300" stop="20261109020000 -0300" channel="0106">
     <title>Chilevisión</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <credits>
@@ -9882,7 +9728,7 @@ No aparece en el programa ningún otro superhéroe de ficción, a excepción  de
     <country>Chile</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0106_fallback.jpg" />
   </programme>
-  <programme start="20261110170000 -0300" stop="20261110210000 -0300" channel="0106">
+  <programme start="20261109020000 -0300" stop="20261109060000 -0300" channel="0106">
     <title>Chilevisión</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <credits>
@@ -9894,7 +9740,7 @@ No aparece en el programa ningún otro superhéroe de ficción, a excepción  de
     <country>Chile</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0106_fallback.jpg" />
   </programme>
-  <programme start="20261110210000 -0300" stop="20261111010000 -0300" channel="0106">
+  <programme start="20261109060000 -0300" stop="20261109100000 -0300" channel="0106">
     <title>Chilevisión</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <credits>
@@ -9906,7 +9752,7 @@ No aparece en el programa ningún otro superhéroe de ficción, a excepción  de
     <country>Chile</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0106_fallback.jpg" />
   </programme>
-  <programme start="20261111010000 -0300" stop="20261111050000 -0300" channel="0106">
+  <programme start="20261109100000 -0300" stop="20261109140000 -0300" channel="0106">
     <title>Chilevisión</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <credits>
@@ -9918,7 +9764,7 @@ No aparece en el programa ningún otro superhéroe de ficción, a excepción  de
     <country>Chile</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0106_fallback.jpg" />
   </programme>
-  <programme start="20261111050000 -0300" stop="20261111090000 -0300" channel="0106">
+  <programme start="20261109140000 -0300" stop="20261109180000 -0300" channel="0106">
     <title>Chilevisión</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <credits>
@@ -9930,7 +9776,7 @@ No aparece en el programa ningún otro superhéroe de ficción, a excepción  de
     <country>Chile</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0106_fallback.jpg" />
   </programme>
-  <programme start="20261111090000 -0300" stop="20261111130000 -0300" channel="0106">
+  <programme start="20261109180000 -0300" stop="20261109220000 -0300" channel="0106">
     <title>Chilevisión</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <credits>
@@ -9942,7 +9788,7 @@ No aparece en el programa ningún otro superhéroe de ficción, a excepción  de
     <country>Chile</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0106_fallback.jpg" />
   </programme>
-  <programme start="20261111130000 -0300" stop="20261111170000 -0300" channel="0106">
+  <programme start="20261109220000 -0300" stop="20261110020000 -0300" channel="0106">
     <title>Chilevisión</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <credits>
@@ -9954,7 +9800,7 @@ No aparece en el programa ningún otro superhéroe de ficción, a excepción  de
     <country>Chile</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0106_fallback.jpg" />
   </programme>
-  <programme start="20261111170000 -0300" stop="20261111210000 -0300" channel="0106">
+  <programme start="20261110020000 -0300" stop="20261110060000 -0300" channel="0106">
     <title>Chilevisión</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <credits>
@@ -9966,7 +9812,127 @@ No aparece en el programa ningún otro superhéroe de ficción, a excepción  de
     <country>Chile</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0106_fallback.jpg" />
   </programme>
-  <programme start="20261111210000 -0300" stop="20261111235959 -0300" channel="0106">
+  <programme start="20261110060000 -0300" stop="20261110100000 -0300" channel="0106">
+    <title>Chilevisión</title>
+    <desc>La informacion de este programa no se encuentra disponible.</desc>
+    <credits>
+      <actor>Jean-Philippe Cretton</actor>
+      <actor>Bárbara Ruiz-Tagle</actor>
+    </credits>
+    <date>2020</date>
+    <category>Documental</category>
+    <country>Chile</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0106_fallback.jpg" />
+  </programme>
+  <programme start="20261110100000 -0300" stop="20261110140000 -0300" channel="0106">
+    <title>Chilevisión</title>
+    <desc>La informacion de este programa no se encuentra disponible.</desc>
+    <credits>
+      <actor>Jean-Philippe Cretton</actor>
+      <actor>Bárbara Ruiz-Tagle</actor>
+    </credits>
+    <date>2020</date>
+    <category>Documental</category>
+    <country>Chile</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0106_fallback.jpg" />
+  </programme>
+  <programme start="20261110140000 -0300" stop="20261110180000 -0300" channel="0106">
+    <title>Chilevisión</title>
+    <desc>La informacion de este programa no se encuentra disponible.</desc>
+    <credits>
+      <actor>Jean-Philippe Cretton</actor>
+      <actor>Bárbara Ruiz-Tagle</actor>
+    </credits>
+    <date>2020</date>
+    <category>Documental</category>
+    <country>Chile</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0106_fallback.jpg" />
+  </programme>
+  <programme start="20261110180000 -0300" stop="20261110220000 -0300" channel="0106">
+    <title>Chilevisión</title>
+    <desc>La informacion de este programa no se encuentra disponible.</desc>
+    <credits>
+      <actor>Jean-Philippe Cretton</actor>
+      <actor>Bárbara Ruiz-Tagle</actor>
+    </credits>
+    <date>2020</date>
+    <category>Documental</category>
+    <country>Chile</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0106_fallback.jpg" />
+  </programme>
+  <programme start="20261110220000 -0300" stop="20261111020000 -0300" channel="0106">
+    <title>Chilevisión</title>
+    <desc>La informacion de este programa no se encuentra disponible.</desc>
+    <credits>
+      <actor>Jean-Philippe Cretton</actor>
+      <actor>Bárbara Ruiz-Tagle</actor>
+    </credits>
+    <date>2020</date>
+    <category>Documental</category>
+    <country>Chile</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0106_fallback.jpg" />
+  </programme>
+  <programme start="20261111020000 -0300" stop="20261111060000 -0300" channel="0106">
+    <title>Chilevisión</title>
+    <desc>La informacion de este programa no se encuentra disponible.</desc>
+    <credits>
+      <actor>Jean-Philippe Cretton</actor>
+      <actor>Bárbara Ruiz-Tagle</actor>
+    </credits>
+    <date>2020</date>
+    <category>Documental</category>
+    <country>Chile</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0106_fallback.jpg" />
+  </programme>
+  <programme start="20261111060000 -0300" stop="20261111100000 -0300" channel="0106">
+    <title>Chilevisión</title>
+    <desc>La informacion de este programa no se encuentra disponible.</desc>
+    <credits>
+      <actor>Jean-Philippe Cretton</actor>
+      <actor>Bárbara Ruiz-Tagle</actor>
+    </credits>
+    <date>2020</date>
+    <category>Documental</category>
+    <country>Chile</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0106_fallback.jpg" />
+  </programme>
+  <programme start="20261111100000 -0300" stop="20261111140000 -0300" channel="0106">
+    <title>Chilevisión</title>
+    <desc>La informacion de este programa no se encuentra disponible.</desc>
+    <credits>
+      <actor>Jean-Philippe Cretton</actor>
+      <actor>Bárbara Ruiz-Tagle</actor>
+    </credits>
+    <date>2020</date>
+    <category>Documental</category>
+    <country>Chile</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0106_fallback.jpg" />
+  </programme>
+  <programme start="20261111140000 -0300" stop="20261111180000 -0300" channel="0106">
+    <title>Chilevisión</title>
+    <desc>La informacion de este programa no se encuentra disponible.</desc>
+    <credits>
+      <actor>Jean-Philippe Cretton</actor>
+      <actor>Bárbara Ruiz-Tagle</actor>
+    </credits>
+    <date>2020</date>
+    <category>Documental</category>
+    <country>Chile</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0106_fallback.jpg" />
+  </programme>
+  <programme start="20261111180000 -0300" stop="20261111220000 -0300" channel="0106">
+    <title>Chilevisión</title>
+    <desc>La informacion de este programa no se encuentra disponible.</desc>
+    <credits>
+      <actor>Jean-Philippe Cretton</actor>
+      <actor>Bárbara Ruiz-Tagle</actor>
+    </credits>
+    <date>2020</date>
+    <category>Documental</category>
+    <country>Chile</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0106_fallback.jpg" />
+  </programme>
+  <programme start="20261111220000 -0300" stop="20261111235959 -0300" channel="0106">
     <title>Chilevisión</title>
     <desc>La informacion de este programa no se encuentra disponible.</desc>
     <credits>
@@ -11144,8 +11110,9 @@ La serie refleja también la compleja situación de la ciudad de Miami, combinan
   </programme>
   <programme start="20261106020000 -0300" stop="20261106023000 -0300" channel="0108">
     <title>Sam, el rey del judo</title>
-    <desc>Un joven busca venganza por el asesinato de su padre.</desc>
+    <desc>Sanshiro, un artista marcial adolescente, entrena en la Escuela Kurenai de Jiujitsu y busca al asesino de su padre. Acompañando a Sanshiro está un niño huérfano llamado Kenbo y su perro Boke. La única pista de Sanshiro sobre el asesino de su padre es un ojo de cristal que quedó en la escena del crimen, lo que sugiere que el asesino de su padre tenía un solo ojo.</desc>
     <credits>
+      <director>九里一平</director>
       <actor>Azumato Kenbo</actor>
       <actor>Hiroshi Ōtake</actor>
       <actor>Kenji Utsumi</actor>
@@ -11153,7 +11120,8 @@ La serie refleja también la compleja situación de la ciudad de Miami, combinan
     </credits>
     <date>1969</date>
     <category>Serie</category>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0108_fallback.jpg" />
+    <country>Japón</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/samelreydeljudo.jpg" />
   </programme>
   <programme start="20261106023000 -0300" stop="20261106030000 -0300" channel="0108">
     <title>Capitán Centella</title>
@@ -12049,8 +12017,9 @@ La serie refleja también la compleja situación de la ciudad de Miami, combinan
   </programme>
   <programme start="20261109020000 -0300" stop="20261109023000 -0300" channel="0108">
     <title>Sam, el rey del judo</title>
-    <desc>Un joven busca venganza por el asesinato de su padre.</desc>
+    <desc>Sanshiro, un artista marcial adolescente, entrena en la Escuela Kurenai de Jiujitsu y busca al asesino de su padre. Acompañando a Sanshiro está un niño huérfano llamado Kenbo y su perro Boke. La única pista de Sanshiro sobre el asesino de su padre es un ojo de cristal que quedó en la escena del crimen, lo que sugiere que el asesino de su padre tenía un solo ojo.</desc>
     <credits>
+      <director>九里一平</director>
       <actor>Azumato Kenbo</actor>
       <actor>Hiroshi Ōtake</actor>
       <actor>Kenji Utsumi</actor>
@@ -12058,7 +12027,8 @@ La serie refleja también la compleja situación de la ciudad de Miami, combinan
     </credits>
     <date>1969</date>
     <category>Serie</category>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0108_fallback.jpg" />
+    <country>Japón</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/samelreydeljudo.jpg" />
   </programme>
   <programme start="20261109023000 -0300" stop="20261109030000 -0300" channel="0108">
     <title>Capitán Centella</title>
@@ -12369,8 +12339,9 @@ La serie refleja también la compleja situación de la ciudad de Miami, combinan
   </programme>
   <programme start="20261110020000 -0300" stop="20261110023000 -0300" channel="0108">
     <title>Sam, el rey del judo</title>
-    <desc>Un joven busca venganza por el asesinato de su padre.</desc>
+    <desc>Sanshiro, un artista marcial adolescente, entrena en la Escuela Kurenai de Jiujitsu y busca al asesino de su padre. Acompañando a Sanshiro está un niño huérfano llamado Kenbo y su perro Boke. La única pista de Sanshiro sobre el asesino de su padre es un ojo de cristal que quedó en la escena del crimen, lo que sugiere que el asesino de su padre tenía un solo ojo.</desc>
     <credits>
+      <director>九里一平</director>
       <actor>Azumato Kenbo</actor>
       <actor>Hiroshi Ōtake</actor>
       <actor>Kenji Utsumi</actor>
@@ -12378,7 +12349,8 @@ La serie refleja también la compleja situación de la ciudad de Miami, combinan
     </credits>
     <date>1969</date>
     <category>Serie</category>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0108_fallback.jpg" />
+    <country>Japón</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/samelreydeljudo.jpg" />
   </programme>
   <programme start="20261110023000 -0300" stop="20261110030000 -0300" channel="0108">
     <title>Capitán Centella</title>
@@ -12702,8 +12674,9 @@ La serie refleja también la compleja situación de la ciudad de Miami, combinan
   </programme>
   <programme start="20261111020000 -0300" stop="20261111023000 -0300" channel="0108">
     <title>Sam, el rey del judo</title>
-    <desc>Un joven busca venganza por el asesinato de su padre.</desc>
+    <desc>Sanshiro, un artista marcial adolescente, entrena en la Escuela Kurenai de Jiujitsu y busca al asesino de su padre. Acompañando a Sanshiro está un niño huérfano llamado Kenbo y su perro Boke. La única pista de Sanshiro sobre el asesino de su padre es un ojo de cristal que quedó en la escena del crimen, lo que sugiere que el asesino de su padre tenía un solo ojo.</desc>
     <credits>
+      <director>九里一平</director>
       <actor>Azumato Kenbo</actor>
       <actor>Hiroshi Ōtake</actor>
       <actor>Kenji Utsumi</actor>
@@ -12711,7 +12684,8 @@ La serie refleja también la compleja situación de la ciudad de Miami, combinan
     </credits>
     <date>1969</date>
     <category>Serie</category>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0108_fallback.jpg" />
+    <country>Japón</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/samelreydeljudo.jpg" />
   </programme>
   <programme start="20261111023000 -0300" stop="20261111030000 -0300" channel="0108">
     <title>Capitán Centella</title>
@@ -13017,8 +12991,9 @@ La serie refleja también la compleja situación de la ciudad de Miami, combinan
   </programme>
   <programme start="20261112020000 -0300" stop="20261112023000 -0300" channel="0108">
     <title>Sam, el rey del judo</title>
-    <desc>Un joven busca venganza por el asesinato de su padre.</desc>
+    <desc>Sanshiro, un artista marcial adolescente, entrena en la Escuela Kurenai de Jiujitsu y busca al asesino de su padre. Acompañando a Sanshiro está un niño huérfano llamado Kenbo y su perro Boke. La única pista de Sanshiro sobre el asesino de su padre es un ojo de cristal que quedó en la escena del crimen, lo que sugiere que el asesino de su padre tenía un solo ojo.</desc>
     <credits>
+      <director>九里一平</director>
       <actor>Azumato Kenbo</actor>
       <actor>Hiroshi Ōtake</actor>
       <actor>Kenji Utsumi</actor>
@@ -13026,7 +13001,8 @@ La serie refleja también la compleja situación de la ciudad de Miami, combinan
     </credits>
     <date>1969</date>
     <category>Serie</category>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0108_fallback.jpg" />
+    <country>Japón</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/samelreydeljudo.jpg" />
   </programme>
   <programme start="20261112023000 -0300" stop="20261112030000 -0300" channel="0108">
     <title>Capitán Centella</title>
@@ -320596,8 +320572,9 @@ Esta secuela ignora por completo los fillers (Capítulos y conceptos inventados 
   </programme>
   <programme start="20261106040000 -0300" stop="20261106050000 -0300" channel="0320">
     <title>Sam, el rey del judo</title>
-    <desc>La historia de un joven judoka que busca vengar el asesinato de su padre.</desc>
+    <desc>Sanshiro, un artista marcial adolescente, entrena en la Escuela Kurenai de Jiujitsu y busca al asesino de su padre. Acompañando a Sanshiro está un niño huérfano llamado Kenbo y su perro Boke. La única pista de Sanshiro sobre el asesino de su padre es un ojo de cristal que quedó en la escena del crimen, lo que sugiere que el asesino de su padre tenía un solo ojo.</desc>
     <credits>
+      <director>九里一平</director>
       <actor>Azumato Kenbo</actor>
       <actor>Hiroshi Ōtake</actor>
       <actor>Kenji Utsumi</actor>
@@ -320605,7 +320582,8 @@ Esta secuela ignora por completo los fillers (Capítulos y conceptos inventados 
     </credits>
     <date>1969</date>
     <category>Serie</category>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0320_fallback.jpg" />
+    <country>Japón</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/samelreydeljudo.jpg" />
   </programme>
   <programme start="20261106050000 -0300" stop="20261106063000 -0300" channel="0320">
     <title>Capitán Centella</title>
@@ -767213,7 +767191,7 @@ El brujo Gargamel y su gato Azrael, intentan siempre y por todos los medios capt
   </programme>
   <programme start="20261112150800 -0300" stop="20261112172200 -0300" channel="0817">
     <title>Tony Hawk: Hasta que las ruedas aguanten</title>
-    <desc>Entrevistas con patinadores profesionales e imágenes de archivo ponen de relieve la vida de Tony Hawk, su legendaria carrera y su relación con el deporte del que es un exponente desde hace décadas.</desc>
+    <desc>La vida personal del famoso skater Tony Hawk, su carrera y su relación con el skateboarding, incluyendo imágenes nunca vistas y un acceso sin precedentes a Hawk, junto con entrevistas con figuras del mundo del skate.</desc>
     <credits>
       <director>Sam Jones</director>
       <actor>Tony Hawk</actor>
@@ -767221,8 +767199,9 @@ El brujo Gargamel y su gato Azrael, intentan siempre y por todos los medios capt
     <date>2022</date>
     <category>Skateboarding</category>
     <category>Deportes</category>
+    <country>Estados Unidos</country>
     <rating><value>18</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/tonyhawkhastaquelasruedasaguanten.jpg" />
   </programme>
   <programme start="20261112172200 -0300" stop="20261112185600 -0300" channel="0817">
     <title>A Killer Story</title>
@@ -996399,6 +996378,8 @@ Escápate los lleva por rutas desconocidas y les muestra la otra cara de los lug
     <desc>Un íntimo recorrido geográfico, donde el director narra en primera persona la historia de su abuelo Ludovico, un italiano llegado a la Argentina luego de combatir en la Segunda Guerra Mundial. Con muy pocas pistas comienza a trazar los rasgos de un abuelo a quien nunca conoció y que pronto se revela perturbadoramente contradictorio.</desc>
     <credits>
       <director>Miguel Colombo</director>
+      <actor>Tony Rigus</actor>
+      <actor>Raúl Carbonell Jr.</actor>
     </credits>
     <date>2012</date>
     <category>Agro</category>
@@ -996547,6 +996528,8 @@ Escápate los lleva por rutas desconocidas y les muestra la otra cara de los lug
     <desc>Un íntimo recorrido geográfico, donde el director narra en primera persona la historia de su abuelo Ludovico, un italiano llegado a la Argentina luego de combatir en la Segunda Guerra Mundial. Con muy pocas pistas comienza a trazar los rasgos de un abuelo a quien nunca conoció y que pronto se revela perturbadoramente contradictorio.</desc>
     <credits>
       <director>Miguel Colombo</director>
+      <actor>Tony Rigus</actor>
+      <actor>Raúl Carbonell Jr.</actor>
     </credits>
     <date>2012</date>
     <category>Agro</category>
@@ -996822,6 +996805,8 @@ Escápate los lleva por rutas desconocidas y les muestra la otra cara de los lug
     <desc>Un íntimo recorrido geográfico, donde el director narra en primera persona la historia de su abuelo Ludovico, un italiano llegado a la Argentina luego de combatir en la Segunda Guerra Mundial. Con muy pocas pistas comienza a trazar los rasgos de un abuelo a quien nunca conoció y que pronto se revela perturbadoramente contradictorio.</desc>
     <credits>
       <director>Miguel Colombo</director>
+      <actor>Tony Rigus</actor>
+      <actor>Raúl Carbonell Jr.</actor>
     </credits>
     <date>2012</date>
     <category>Agro</category>
@@ -996950,6 +996935,8 @@ Escápate los lleva por rutas desconocidas y les muestra la otra cara de los lug
     <desc>Un íntimo recorrido geográfico, donde el director narra en primera persona la historia de su abuelo Ludovico, un italiano llegado a la Argentina luego de combatir en la Segunda Guerra Mundial. Con muy pocas pistas comienza a trazar los rasgos de un abuelo a quien nunca conoció y que pronto se revela perturbadoramente contradictorio.</desc>
     <credits>
       <director>Miguel Colombo</director>
+      <actor>Tony Rigus</actor>
+      <actor>Raúl Carbonell Jr.</actor>
     </credits>
     <date>2012</date>
     <category>Agro</category>
@@ -997125,6 +997112,8 @@ Escápate los lleva por rutas desconocidas y les muestra la otra cara de los lug
     <desc>Un íntimo recorrido geográfico, donde el director narra en primera persona la historia de su abuelo Ludovico, un italiano llegado a la Argentina luego de combatir en la Segunda Guerra Mundial. Con muy pocas pistas comienza a trazar los rasgos de un abuelo a quien nunca conoció y que pronto se revela perturbadoramente contradictorio.</desc>
     <credits>
       <director>Miguel Colombo</director>
+      <actor>Tony Rigus</actor>
+      <actor>Raúl Carbonell Jr.</actor>
     </credits>
     <date>2012</date>
     <category>Agro</category>
@@ -1082182,6 +1082171,8 @@ Checoslovaquia en 1992: el régimen comunista cayó hace poco y el ejército de 
     <desc>Repetición ║ Un íntimo recorrido geográfico, donde el director narra en primera persona la historia de su abuelo Ludovico, un italiano llegado a la Argentina luego de combatir en la Segunda Guerra Mundial. Con muy pocas pistas comienza a trazar los rasgos de un abuelo a quien nunca conoció y que pronto se revela perturbadoramente contradictorio.</desc>
     <credits>
       <director>Miguel Colombo</director>
+      <actor>Tony Rigus</actor>
+      <actor>Raúl Carbonell Jr.</actor>
     </credits>
     <date>2000</date>
     <category>Variedades</category>
@@ -1142866,11 +1142857,12 @@ La serie animada es una producción de Sony Pictures Animation y Nelvana Limited
   </programme>
   <programme start="20261106040000 -0300" stop="20261106060000 -0300" channel="pe0003">
     <title>Combate</title>
-    <desc>Dos equipos de jóvenes se enfrentan y deben realizar diferentes pruebas para demostrar cuál de los dos es el más ágil, el más fuerte, el más rápido y el más inteligente.</desc>
+    <desc>Reality show de competencia física y mental originado en Ecuador y transmitido por la señal de RTS. El programa enfrenta a dos equipos (generalmente el Equipo Naranja y el Equipo Azul) formados por jóvenes participantes y deportistas, quienes deben superar intensos circuitos de pruebas de fuerza, velocidad, destreza, agua y altura para acumular puntos, evitar la eliminación y luchar por el título de campeones de temporada. Debido a su enorme éxito e impacto como franquicia internacional, el formato de competencia y telerrealidad se expandió con adaptaciones y enfrentamientos especiales a nivel internacional en países de la región como Argentina, Perú, Costa Rica y Guatemala.</desc>
     <date>2014</date>
     <category>Reality</category>
+    <country>EC</country>
     <rating><value>14</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/combate.jpg" />
   </programme>
   <programme start="20261106060000 -0300" stop="20261106073000 -0300" channel="pe0003">
     <title>Águila Roja</title>
@@ -1143134,11 +1143126,12 @@ La serie animada es una producción de Sony Pictures Animation y Nelvana Limited
   </programme>
   <programme start="20261107040000 -0300" stop="20261107060000 -0300" channel="pe0003">
     <title>Combate</title>
-    <desc>Dos equipos de jóvenes se enfrentan y deben realizar diferentes pruebas para demostrar cuál de los dos es el más ágil, el más fuerte, el más rápido y el más inteligente.</desc>
+    <desc>Reality show de competencia física y mental originado en Ecuador y transmitido por la señal de RTS. El programa enfrenta a dos equipos (generalmente el Equipo Naranja y el Equipo Azul) formados por jóvenes participantes y deportistas, quienes deben superar intensos circuitos de pruebas de fuerza, velocidad, destreza, agua y altura para acumular puntos, evitar la eliminación y luchar por el título de campeones de temporada. Debido a su enorme éxito e impacto como franquicia internacional, el formato de competencia y telerrealidad se expandió con adaptaciones y enfrentamientos especiales a nivel internacional en países de la región como Argentina, Perú, Costa Rica y Guatemala.</desc>
     <date>2014</date>
     <category>Reality</category>
+    <country>EC</country>
     <rating><value>14</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/combate.jpg" />
   </programme>
   <programme start="20261107060000 -0300" stop="20261107080000 -0300" channel="pe0003">
     <title>Águila Roja</title>
@@ -1143493,11 +1143486,12 @@ La serie animada es una producción de Sony Pictures Animation y Nelvana Limited
   </programme>
   <programme start="20261108040000 -0300" stop="20261108060000 -0300" channel="pe0003">
     <title>Combate</title>
-    <desc>Dos equipos de jóvenes se enfrentan y deben realizar diferentes pruebas para demostrar cuál de los dos es el más ágil, el más fuerte, el más rápido y el más inteligente.</desc>
+    <desc>Reality show de competencia física y mental originado en Ecuador y transmitido por la señal de RTS. El programa enfrenta a dos equipos (generalmente el Equipo Naranja y el Equipo Azul) formados por jóvenes participantes y deportistas, quienes deben superar intensos circuitos de pruebas de fuerza, velocidad, destreza, agua y altura para acumular puntos, evitar la eliminación y luchar por el título de campeones de temporada. Debido a su enorme éxito e impacto como franquicia internacional, el formato de competencia y telerrealidad se expandió con adaptaciones y enfrentamientos especiales a nivel internacional en países de la región como Argentina, Perú, Costa Rica y Guatemala.</desc>
     <date>2014</date>
     <category>Reality</category>
+    <country>EC</country>
     <rating><value>14</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/combate.jpg" />
   </programme>
   <programme start="20261108060000 -0300" stop="20261108080000 -0300" channel="pe0003">
     <title>Águila Roja</title>
@@ -1144149,11 +1144143,12 @@ Todos ellos forman el grupo de investigadores de NCIS: New Orleans que resolver�
   </programme>
   <programme start="20261110040000 -0300" stop="20261110060000 -0300" channel="pe0003">
     <title>Combate</title>
-    <desc>Dos equipos de jóvenes se enfrentan y deben realizar diferentes pruebas para demostrar cuál de los dos es el más ágil, el más fuerte, el más rápido y el más inteligente.</desc>
+    <desc>Reality show de competencia física y mental originado en Ecuador y transmitido por la señal de RTS. El programa enfrenta a dos equipos (generalmente el Equipo Naranja y el Equipo Azul) formados por jóvenes participantes y deportistas, quienes deben superar intensos circuitos de pruebas de fuerza, velocidad, destreza, agua y altura para acumular puntos, evitar la eliminación y luchar por el título de campeones de temporada. Debido a su enorme éxito e impacto como franquicia internacional, el formato de competencia y telerrealidad se expandió con adaptaciones y enfrentamientos especiales a nivel internacional en países de la región como Argentina, Perú, Costa Rica y Guatemala.</desc>
     <date>2014</date>
     <category>Reality</category>
+    <country>EC</country>
     <rating><value>14</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/combate.jpg" />
   </programme>
   <programme start="20261110060000 -0300" stop="20261110073000 -0300" channel="pe0003">
     <title>Águila Roja</title>

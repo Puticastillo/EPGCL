@@ -1053,11 +1053,11 @@
           </div>
         `;
       } else {
+        const nextTimeLabel = nextProg ? `${formatTime(nextProg.start)}:` : 'Después:';
         card.innerHTML = `
           <div class="emision-compact-header">
             <img class="emision-compact-logo" src="${ch.icon || EMPTY_IMG}" alt="" loading="lazy" decoding="async">
             <span class="emision-compact-ch-name" title="${escapeHtml(ch.name)}">${escapeHtml(ch.name)}</span>
-            ${progressPercent > 0 ? `<div class="emision-progress-track"><div class="emision-progress-bar" style="width: ${progressPercent}%;"></div></div>` : ''}
           </div>
           <div class="emision-info">
             <div class="emision-row emision-now">
@@ -1065,7 +1065,7 @@
               <span class="emision-title title-now" title="${escapeHtml(prog.title)}">${escapeHtml(prog.title)}</span>
             </div>
             <div class="emision-row emision-next">
-              <span class="emision-label label-despues">Después:</span>
+              <span class="emision-label label-despues">${nextTimeLabel}</span>
               <span class="emision-title title-next" title="${nextTitle}">${nextTitle}</span>
             </div>
           </div>
