@@ -487810,6 +487810,7 @@ El personaje de El Pantera fue creado en los años 70 por el escritor Daniel Mu�
     </credits>
     <date>2018</date>
     <category>Travel</category>
+    <country>España</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261112220000 -0300" stop="20261112223000 -0300" channel="0636">
@@ -594175,6 +594176,7 @@ Tras la promoción de cinco profesionales destacadas, Vicente invita a las selec
     <date>1990</date>
     <category>Movie</category>
     <category>Action</category>
+    <country>Hong Kong</country>
     <rating><value>R</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/durodematar.jpg" />
   </programme>
@@ -598358,10 +598360,23 @@ Tras la promoción de cinco profesionales destacadas, Vicente invita a las selec
   </programme>
   <programme start="20261109200800 -0300" stop="20261109220000 -0300" channel="0807">
     <title>En aquel viejo verano</title>
-    <desc>Andrew y Verónica han peleado desde la primera vez que se encontraron. La situación se complica cuando Andrew está obligado a contratar a Verónica como vendedora. Lo que no saben es que son amigos por correspondencia.</desc>
+    <desc>Estados Unidos, principios del siglo XX. Andrew y Veronica se conocen a raíz de un accidente que desencadena entre ellos un odio que aumenta cuando obligan a Andrew a contratar a Veronica como vendedora en la tienda de música de Oberkugen. Lo que ambos ignoran es que mientras discuten y pelean constantemente durante el día, mantienen una relación inocente, romántica y completamente anónima durante la noche, a través del correo.</desc>
+    <credits>
+      <director>Robert Z. Leonard</director>
+      <actor>Judy Garland</actor>
+      <actor>Van Johnson</actor>
+      <actor>S.Z. Sakall</actor>
+      <actor>Spring Byington</actor>
+      <actor>Clinton Sundberg</actor>
+      <actor>Buster Keaton</actor>
+      <actor>Marcia Van Dyke</actor>
+      <actor>Lillian Bronson</actor>
+    </credits>
+    <date>1949</date>
     <category>Musical comedy</category>
+    <country>Estados Unidos</country>
     <rating><value>G</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/enaquelviejoverano.jpg" />
   </programme>
   <programme start="20261109220000 -0300" stop="20261110020000 -0300" channel="0807">
     <title>TCM</title>
@@ -685206,6 +685221,7 @@ El objetivo del foraster es, en cuarenta y ocho horas, conocer el mayor número 
     <category>Movie</category>
     <category>Drama</category>
     <category>Adventure</category>
+    <country>México</country>
     <rating><value>A</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
@@ -915348,7 +915364,7 @@ No aparece en el programa ningún otro superhéroe de ficción, a excepción  de
     <date>2020</date>
     <category>Drama</category>
     <country>Turquía</country>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/ellegado.jpg" />
   </programme>
   <programme start="20261106154500 -0300" stop="20261106163000 -0300" channel="bo0005">
     <title>Los hilos del pasado</title>
@@ -916476,7 +916492,7 @@ No aparece en el programa ningún otro superhéroe de ficción, a excepción  de
     <date>2020</date>
     <category>Drama</category>
     <country>Turquía</country>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/ellegado.jpg" />
   </programme>
   <programme start="20261109154500 -0300" stop="20261109163000 -0300" channel="bo0005">
     <title>Los hilos del pasado</title>
@@ -923616,8 +923632,10 @@ El brujo Gargamel y su gato Azrael, intentan siempre y por todos los medios capt
     <title>Don Quijote de la láctea • Capítulo 8</title>
     <sub-title>Episodio 8</sub-title>
     <desc>Capítulo 8 | ¡Habrá Palabra! Es el lema que identifica a estos divertidos personajes quienes estarán llenos de aventuras en sus recorridos espaciales.</desc>
+    <date>2013</date>
+    <country>Colombia</country>
     <episode-num system="onscreen">E8</episode-num>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/donquijotedelalactea.jpg" />
   </programme>
   <programme start="20261108010000 -0300" stop="20261108011500 -0300" channel="co0004">
     <title>Danza Colombia • Trayecto Llanos</title>
@@ -950975,9 +950993,21 @@ María es bienvenida en la casa del empresario Fernando de la Vega, uno de los h
   </programme>
   <programme start="20261107120000 -0300" stop="20261107133000 -0300" channel="mx0003">
     <title>Garfield y sus amigos</title>
-    <desc>Garfield es un gato que ama las siestas, adora la lasagna, bebe café empedernidamente y odia los lunes.</desc>
+    <desc>Cada espectáculo se divide en historias sobre ya sea Garfield y Odie y en los problemas en los que se meten, u Orson el cerdo y sus aventuras en una granja con sus compañeros los animales de granja.</desc>
+    <credits>
+      <director>Jim Davis</director>
+      <actor>Lorenzo Music</actor>
+      <actor>Gregg Berger</actor>
+      <actor>Thom Huge</actor>
+      <actor>Howard Morris</actor>
+      <actor>Frank Welker</actor>
+      <actor>Julie Payne</actor>
+      <actor>Desiree Goyette</actor>
+    </credits>
+    <date>1988</date>
     <category>Infantil</category>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <country>Estados Unidos</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/garfieldysusamigos.jpg" />
   </programme>
   <programme start="20261107133000 -0300" stop="20261107153000 -0300" channel="mx0003">
     <title>Los pequeños gladiadores de Roma</title>
@@ -955318,6 +955348,7 @@ La serie animada es una producción de Sony Pictures Animation y Nelvana Limited
     <sub-title>De criolla con mestizo</sub-title>
     <desc>De criolla con mestizo | Mientras busca la verdad sobre la muerte de su padre, el taxista Raúl forma un lazo con Lucía, una chica que acaba de escapar de una situación de abuso.</desc>
     <credits>
+      <director>Daniel Giménez Cacho</director>
       <actor>Naian González Norvind</actor>
       <actor>Harold Torres</actor>
       <actor>Nailea Norvind</actor>
@@ -955327,7 +955358,9 @@ La serie animada es una producción de Sony Pictures Animation y Nelvana Limited
       <actor>Rafael Inclán</actor>
       <actor>Rodrigo Corea</actor>
     </credits>
+    <date>2014</date>
     <category>Drama</category>
+    <country>México</country>
     <episode-num system="onscreen">T1 E1</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
@@ -964309,6 +964342,7 @@ La serie animada es una producción de Sony Pictures Animation y Nelvana Limited
     <title>Amor eterno</title>
     <desc>Kemal y Nihan viven un amor imposible por la diferencia de clases, Kemal, nacido en una familia de clase media y a punto de convertirse en ingeniero, y Nihan, nacida en una familia rica, pero destinada a cambiar su vida para siempre.</desc>
     <credits>
+      <director>Hilal Saral</director>
       <actor>Burak Özçivit</actor>
       <actor>Neslihan Atagül</actor>
       <actor>Zerrin Tekindor</actor>
@@ -964324,8 +964358,9 @@ La serie animada es una producción de Sony Pictures Animation y Nelvana Limited
     <category>Drama</category>
     <category>Novela</category>
     <category>Romance</category>
+    <country>Turquía</country>
     <rating><value>14</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/amoreterno.jpg" />
   </programme>
   <programme start="20261106190000 -0300" stop="20261106200000 -0300" channel="pe0003">
     <title>Esposa por obligación</title>
@@ -965315,6 +965350,7 @@ Todos ellos forman el grupo de investigadores de NCIS: New Orleans que resolver�
     <title>Amor eterno</title>
     <desc>Kemal y Nihan viven un amor imposible por la diferencia de clases, Kemal, nacido en una familia de clase media y a punto de convertirse en ingeniero, y Nihan, nacida en una familia rica, pero destinada a cambiar su vida para siempre.</desc>
     <credits>
+      <director>Hilal Saral</director>
       <actor>Burak Özçivit</actor>
       <actor>Neslihan Atagül</actor>
       <actor>Zerrin Tekindor</actor>
@@ -965330,8 +965366,9 @@ Todos ellos forman el grupo de investigadores de NCIS: New Orleans que resolver�
     <category>Drama</category>
     <category>Novela</category>
     <category>Romance</category>
+    <country>Turquía</country>
     <rating><value>14</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/amoreterno.jpg" />
   </programme>
   <programme start="20261109190000 -0300" stop="20261109200000 -0300" channel="pe0003">
     <title>Esposa por obligación</title>
@@ -965585,6 +965622,7 @@ Todos ellos forman el grupo de investigadores de NCIS: New Orleans que resolver�
     <title>Amor eterno</title>
     <desc>Kemal y Nihan viven un amor imposible por la diferencia de clases, Kemal, nacido en una familia de clase media y a punto de convertirse en ingeniero, y Nihan, nacida en una familia rica, pero destinada a cambiar su vida para siempre.</desc>
     <credits>
+      <director>Hilal Saral</director>
       <actor>Burak Özçivit</actor>
       <actor>Neslihan Atagül</actor>
       <actor>Zerrin Tekindor</actor>
@@ -965600,8 +965638,9 @@ Todos ellos forman el grupo de investigadores de NCIS: New Orleans que resolver�
     <category>Drama</category>
     <category>Novela</category>
     <category>Romance</category>
+    <country>Turquía</country>
     <rating><value>14</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/amoreterno.jpg" />
   </programme>
   <programme start="20261110190000 -0300" stop="20261110200000 -0300" channel="pe0003">
     <title>Esposa por obligación</title>
@@ -975515,9 +975554,22 @@ Serie que busca que los niños en edad preescolar se interesen por llevar una di
   </programme>
   <programme start="20261107130000 -0300" stop="20261107140000 -0300" channel="sv0002">
     <title>Cero en conducta</title>
-    <desc>La Escuela Mártires de Almoloya es dirigida por el Sr. Patiño, quien tiene la difícil labor de educar a un grupo de niños irrespetuosos y traviesos. En su tarea lo ayuda la maestra Canuta, que también debe lidiar con los revoltosos jóvenes.</desc>
+    <desc>Jorgito es un estudiante rebelde e insolente que no tiene pelos en la lengua a la hora de burlarse de sus maestros. La maestra Canuta y el director Rigoberto Patiño son el blanco de todos sus chistes y no dudan en propinarle fuertes castigos cuando se dan cuenta de que la filosa lengua de Jorgito los está atacando. Este programa de comedia muestra a un grupo de irreverentes alumnos que por medio de sus chistes se burlan de la actualidad política y social mexicana. Nadie se salva de las burlas y de las ocurrencias de estos chicos detrás de su apariencia inofensiva.</desc>
+    <credits>
+      <director>Jorge Ortiz de Pinedo</director>
+      <actor>Jorge Ortiz de Pinedo</actor>
+      <actor>Martha Ofelia Galindo</actor>
+      <actor>David Villalpando</actor>
+      <actor>Homero Ferruzca</actor>
+      <actor>Gerardo Flores</actor>
+      <actor>Alfonso Iglesias Ruaix &quot;Pompin III&quot;</actor>
+      <actor>Luis Miguel Hernández &quot;Queli&quot;</actor>
+      <actor>Patricia Álvarez</actor>
+    </credits>
+    <date>1999</date>
     <category>Comedia</category>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <country>México</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/ceroenconducta.jpg" />
   </programme>
   <programme start="20261107140000 -0300" stop="20261107140200 -0300" channel="sv0002">
     <title>Sorteo de Loto • Juegos</title>
