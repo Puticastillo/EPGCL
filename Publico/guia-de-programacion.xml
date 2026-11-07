@@ -11189,6 +11189,8 @@ No aparece en el programa ningún otro superhéroe de ficción, a excepción  de
     <credits>
       <actor>Ramón Madrid</actor>
       <actor>Karina Fuentes</actor>
+      <presenter>Ramón Madrid</presenter>
+      <presenter>Karina Fuentes</presenter>
     </credits>
     <date>2024</date>
     <category>Variedades</category>
@@ -14401,6 +14403,8 @@ No aparece en el programa ningún otro superhéroe de ficción, a excepción  de
     <credits>
       <actor>Ramón Madrid</actor>
       <actor>Karina Fuentes</actor>
+      <presenter>Ramón Madrid</presenter>
+      <presenter>Karina Fuentes</presenter>
     </credits>
     <date>2024</date>
     <category>Talk</category>
@@ -35406,7 +35410,7 @@ Claudia Gurisatti - Jefferson Beltrán - Jason Calderón</desc>
   </programme>
   <programme start="20261106150000 -0300" stop="20261106153000 -0300" channel="0132">
     <title>Por la razón y la ciencia</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
+    <desc>Programa que busca acercar variados temas científicos a los televidentes.</desc>
     <date>2016</date>
     <category>Series</category>
     <rating><value>14</value></rating>
@@ -35901,7 +35905,7 @@ Claudia Gurisatti - Jefferson Beltrán - Jason Calderón</desc>
   </programme>
   <programme start="20261108050000 -0300" stop="20261108053000 -0300" channel="0132">
     <title>Por la razón y la ciencia</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
+    <desc>Programa que busca acercar variados temas científicos a los televidentes.</desc>
     <date>2016</date>
     <category>Series</category>
     <rating><value>14</value></rating>
@@ -42949,7 +42953,7 @@ Ernesto Andrés Fuenmayor y Tamara Rivera Castro serán los YouTubers que analic
   </programme>
   <programme start="20261106210000 -0300" stop="20261106211500 -0300" channel="0142">
     <title>Resumen legislativo</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
+    <desc>Todos los detalles sobre el trabajo que realizan los diputados salteños en sus sesiones. Leyes, normativas y toda la actualidad en 30 minutos.</desc>
     <credits>
       <actor>José Ruiz</actor>
     </credits>
@@ -124520,6 +124524,7 @@ Claudia Gurisatti - Jefferson Beltrán - Jason Calderón</desc>
     <date>2026</date>
     <category>Noticiero</category>
     <country>Argentina</country>
+    <rating><value>PG-13</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261107000000 -0300" stop="20261107003000 -0300" channel="0222">
@@ -231531,7 +231536,7 @@ Mucho tiempo después, luego de un suceso inesperado Sim Chung llega a tierra fi
   </programme>
   <programme start="20261108182500 -0300" stop="20261108200000 -0300" channel="0309">
     <title>Astro Boy</title>
-    <desc>En la futurista Metro City vive Astro Boy, un joven robot con increíbles poderes creado por el brillante científico Tenma. Astro se embarca en un viaje en busca de aceptación, encontrando muchos otros personajes en el camino. A través de sus aventuras aprenderá sobre las emociones humanas, abrazando así su destino. Y cuando su familia y amigos están en peligro, Astro regresará a Metro City para salvarlos y entender lo que se necesita para ser un héroe.</desc>
+    <desc>&quot;Astro Boy&quot; es la adaptación cinematográfica de un cómic del prestigioso Osamu Tezuka que dio origen a una popular serie de televisión japonesa de los 60. Su protagonista es un joven robot con increíbles poderes que ha sido creado por un brillante científico para reemplazar al hijo que perdió. Sintiéndose incapaz de colmar las expectativas que el hombre ha depositado en él, se embarcará en un viaje en busca de aceptación, experimentará la traición y descubrirá un mundo de robots gladiadores.</desc>
     <credits>
       <director>David Bowers</director>
       <actor>Charlize Theron</actor>
@@ -439369,6 +439374,7 @@ Estos tres estudiantes intentan ocultar sus habilidades especiales a los demás,
     <category>Reality Show</category>
     <country>EE. UU</country>
     <episode-num system="onscreen">S5 E1</episode-num>
+    <rating><value>TVG</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261106141000 -0300" stop="20261106145700 -0300" channel="0601">
@@ -439382,6 +439388,7 @@ Estos tres estudiantes intentan ocultar sus habilidades especiales a los demás,
     <category>Reality Show</category>
     <country>EE. UU</country>
     <episode-num system="onscreen">S5 E2</episode-num>
+    <rating><value>TVG</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261106145700 -0300" stop="20261106154500 -0300" channel="0601">
@@ -439395,6 +439402,7 @@ Estos tres estudiantes intentan ocultar sus habilidades especiales a los demás,
     <category>Reality Show</category>
     <country>EE. UU</country>
     <episode-num system="onscreen">S5 E3</episode-num>
+    <rating><value>TVG</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261106154500 -0300" stop="20261106163200 -0300" channel="0601">
@@ -439408,6 +439416,7 @@ Estos tres estudiantes intentan ocultar sus habilidades especiales a los demás,
     <category>Reality Show</category>
     <country>EE. UU</country>
     <episode-num system="onscreen">S5 E4</episode-num>
+    <rating><value>TVG</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261106163200 -0300" stop="20261106171900 -0300" channel="0601">
@@ -439421,6 +439430,7 @@ Estos tres estudiantes intentan ocultar sus habilidades especiales a los demás,
     <category>Reality Show</category>
     <country>EE. UU</country>
     <episode-num system="onscreen">S5 E5</episode-num>
+    <rating><value>TVG</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261106171900 -0300" stop="20261106180700 -0300" channel="0601">
@@ -439434,6 +439444,7 @@ Estos tres estudiantes intentan ocultar sus habilidades especiales a los demás,
     <category>Reality Show</category>
     <country>EE. UU</country>
     <episode-num system="onscreen">S6 E6</episode-num>
+    <rating><value>TVG</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261106180700 -0300" stop="20261106185400 -0300" channel="0601">
@@ -439447,6 +439458,7 @@ Estos tres estudiantes intentan ocultar sus habilidades especiales a los demás,
     <category>Reality Show</category>
     <country>EE. UU</country>
     <episode-num system="onscreen">S5 E7</episode-num>
+    <rating><value>TVG</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261106185400 -0300" stop="20261106202200 -0300" channel="0601">
@@ -439633,6 +439645,7 @@ Estos tres estudiantes intentan ocultar sus habilidades especiales a los demás,
     <category>Reality Show</category>
     <country>EE. UU</country>
     <episode-num system="onscreen">S4E6</episode-num>
+    <rating><value>TVG</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261107053800 -0300" stop="20261107060000 -0300" channel="0601">
@@ -439647,6 +439660,7 @@ Estos tres estudiantes intentan ocultar sus habilidades especiales a los demás,
     <category>Reality Show</category>
     <country>EE. UU</country>
     <episode-num system="onscreen">S1 E2</episode-num>
+    <rating><value>TVG</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261107060000 -0300" stop="20261107065800 -0300" channel="0601">
@@ -440020,6 +440034,7 @@ Estos tres estudiantes intentan ocultar sus habilidades especiales a los demás,
     <category>Reality Show</category>
     <country>EE. UU</country>
     <episode-num system="onscreen">S8E54</episode-num>
+    <rating><value>TVG</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261108053900 -0300" stop="20261108060000 -0300" channel="0601">
@@ -440034,6 +440049,7 @@ Estos tres estudiantes intentan ocultar sus habilidades especiales a los demás,
     <category>Reality Show</category>
     <country>EE. UU</country>
     <episode-num system="onscreen">S7E1</episode-num>
+    <rating><value>TVG</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261108060000 -0300" stop="20261108074700 -0300" channel="0601">
@@ -440369,6 +440385,7 @@ Estos tres estudiantes intentan ocultar sus habilidades especiales a los demás,
     <category>Reality Show</category>
     <country>EE. UU</country>
     <episode-num system="onscreen">S5 E3</episode-num>
+    <rating><value>TVG</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261108220000 -0300" stop="20261108224700 -0300" channel="0601">
@@ -440382,6 +440399,7 @@ Estos tres estudiantes intentan ocultar sus habilidades especiales a los demás,
     <category>Reality Show</category>
     <country>EE. UU</country>
     <episode-num system="onscreen">S5 E4</episode-num>
+    <rating><value>TVG</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261108224700 -0300" stop="20261108233300 -0300" channel="0601">
@@ -440497,6 +440515,7 @@ Estos tres estudiantes intentan ocultar sus habilidades especiales a los demás,
     <category>Reality Show</category>
     <country>EE. UU</country>
     <episode-num system="onscreen">S7E2</episode-num>
+    <rating><value>TVG</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261109053800 -0300" stop="20261109060000 -0300" channel="0601">
@@ -440511,6 +440530,7 @@ Estos tres estudiantes intentan ocultar sus habilidades especiales a los demás,
     <category>Reality Show</category>
     <country>EE. UU</country>
     <episode-num system="onscreen">S1 E12</episode-num>
+    <rating><value>TVG</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261109060000 -0300" stop="20261109065000 -0300" channel="0601">
@@ -441099,6 +441119,7 @@ Estos tres estudiantes intentan ocultar sus habilidades especiales a los demás,
     <category>Reality Show</category>
     <country>EE. UU</country>
     <episode-num system="onscreen">S7E3</episode-num>
+    <rating><value>TVG</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261110053300 -0300" stop="20261110060000 -0300" channel="0601">
@@ -441113,6 +441134,7 @@ Estos tres estudiantes intentan ocultar sus habilidades especiales a los demás,
     <category>Reality Show</category>
     <country>EE. UU</country>
     <episode-num system="onscreen">S1 E8</episode-num>
+    <rating><value>TVG</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261110060000 -0300" stop="20261110065000 -0300" channel="0601">
@@ -509193,7 +509215,20 @@ El cambio climático y la pérdida de biodiversidad exigen una nueva forma de ec
   <programme start="20261107120000 -0300" stop="20261107140000 -0300" channel="0617">
     <title>Paloma herida</title>
     <desc>Un hombre llega a una isla para abusar y robar a los indios, mas este es asesinado por una joven desconocida.</desc>
+    <credits>
+      <director>Emilio Fernández</director>
+      <actor>Patricia Conde</actor>
+      <actor>Emilio Fernández</actor>
+      <actor>Andrés Soler</actor>
+      <actor>Noé Murayama</actor>
+      <actor>Georgia Quental</actor>
+      <actor>Columba Domínguez</actor>
+      <actor>Raúl Ferrer</actor>
+      <actor>Alberto Martínez</actor>
+    </credits>
+    <date>1963</date>
     <category>Drama</category>
+    <country>Guatemala</country>
     <rating><value>A</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/palomaherida.jpg" />
   </programme>
@@ -509555,7 +509590,20 @@ El cambio climático y la pérdida de biodiversidad exigen una nueva forma de ec
   <programme start="20261108050000 -0300" stop="20261108070000 -0300" channel="0617">
     <title>Paloma herida</title>
     <desc>Un hombre llega a una isla para abusar y robar a los indios, mas este es asesinado por una joven desconocida.</desc>
+    <credits>
+      <director>Emilio Fernández</director>
+      <actor>Patricia Conde</actor>
+      <actor>Emilio Fernández</actor>
+      <actor>Andrés Soler</actor>
+      <actor>Noé Murayama</actor>
+      <actor>Georgia Quental</actor>
+      <actor>Columba Domínguez</actor>
+      <actor>Raúl Ferrer</actor>
+      <actor>Alberto Martínez</actor>
+    </credits>
+    <date>1963</date>
     <category>Drama</category>
+    <country>Guatemala</country>
     <rating><value>A</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/palomaherida.jpg" />
   </programme>
@@ -519114,6 +519162,7 @@ Jorge (Raúl Arévalo) se imaginaba a su edad casado por la iglesia, con hijos y
     <category>Comedy</category>
     <category>Romance</category>
     <category>Adventure</category>
+    <country>Chile</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/lasfugitivas.jpg" />
   </programme>
   <programme start="20261107210000 -0300" stop="20261107223500 -0300" channel="0621">
@@ -556407,7 +556456,7 @@ Diarios de un nómada es adrenalina, paisajes y experiencias, pero también Hist
   </programme>
   <programme start="20261109190000 -0300" stop="20261109194000 -0300" channel="0639">
     <title>Santo Rosario - Misterios gloriosos</title>
-    <desc>Meditación sobre la vida de Jesús desde la Resurrección del Señor hasta la Coronación de la Santísima Virgen María.</desc>
+    <desc>Realicemos una plegaria popular a la Virgen María que contempla los misterios de nuestra fe.</desc>
     <category>Religious</category>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
@@ -586625,11 +586674,21 @@ Hank en su nueva vida tendrá como acompañantes a su hermano, quien ve tener un
     <title>Huracán Katrina: carrera contra el tiempo • La tormenta que se avecina</title>
     <sub-title>La tormenta que se avecina</sub-title>
     <desc>La tormenta que se avecina | Es un verano típicamente vibrante en Nueva Orleans cuando se avecina el huracán Katrina. En el punto de mira de un huracán de categoría 5, la ciudad se enfrenta a una dura prueba de la realidad. Con una orden de evacuación retrasada, muchos están atrapados y obligados a prepararse para la furia de la tormenta.</desc>
+    <credits>
+      <actor>Russel Honoré</actor>
+      <actor>Malik Rahim</actor>
+      <actor>Thanh Truong</actor>
+      <actor>Kevin Goodman</actor>
+      <actor>Marty Bahamonde</actor>
+      <actor>Lynette Boutte</actor>
+      <actor>Ivor Van Heerden</actor>
+      <actor>Alice Craft-Kerney</actor>
+    </credits>
     <date>2025</date>
     <category>Documental</category>
     <country>EE. UU</country>
     <episode-num system="onscreen">S1E1</episode-num>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/huracankatrinacarreracontraeltiempo.jpg" />
   </programme>
   <programme start="20261108220000 -0300" stop="20261108230000 -0300" channel="0702">
     <title>Lobos de cerca con Bertie Gregory</title>
@@ -604174,6 +604233,7 @@ Hank en su nueva vida tendrá como acompañantes a su hermano, quien ve tener un
     <credits>
       <actor>Laurence Fishburne</actor>
       <actor>Oliver Twinch</actor>
+      <presenter>Laurence Fishburne</presenter>
     </credits>
     <date>2020</date>
     <category>Documental</category>
@@ -605495,6 +605555,7 @@ Hank en su nueva vida tendrá como acompañantes a su hermano, quien ve tener un
     <credits>
       <actor>Laurence Fishburne</actor>
       <actor>Oliver Twinch</actor>
+      <presenter>Laurence Fishburne</presenter>
     </credits>
     <date>2020</date>
     <category>Documental</category>
@@ -605510,6 +605571,7 @@ Hank en su nueva vida tendrá como acompañantes a su hermano, quien ve tener un
     <credits>
       <actor>Laurence Fishburne</actor>
       <actor>Oliver Twinch</actor>
+      <presenter>Laurence Fishburne</presenter>
     </credits>
     <date>2020</date>
     <category>Documental</category>
@@ -605525,6 +605587,7 @@ Hank en su nueva vida tendrá como acompañantes a su hermano, quien ve tener un
     <credits>
       <actor>Laurence Fishburne</actor>
       <actor>Oliver Twinch</actor>
+      <presenter>Laurence Fishburne</presenter>
     </credits>
     <date>2020</date>
     <category>Documental</category>
@@ -605540,6 +605603,7 @@ Hank en su nueva vida tendrá como acompañantes a su hermano, quien ve tener un
     <credits>
       <actor>Laurence Fishburne</actor>
       <actor>Oliver Twinch</actor>
+      <presenter>Laurence Fishburne</presenter>
     </credits>
     <date>2020</date>
     <category>Documental</category>
@@ -605555,6 +605619,7 @@ Hank en su nueva vida tendrá como acompañantes a su hermano, quien ve tener un
     <credits>
       <actor>Laurence Fishburne</actor>
       <actor>Oliver Twinch</actor>
+      <presenter>Laurence Fishburne</presenter>
     </credits>
     <date>2020</date>
     <category>Documental</category>
@@ -605636,6 +605701,7 @@ Hank en su nueva vida tendrá como acompañantes a su hermano, quien ve tener un
     <credits>
       <actor>Laurence Fishburne</actor>
       <actor>Oliver Twinch</actor>
+      <presenter>Laurence Fishburne</presenter>
     </credits>
     <date>2020</date>
     <category>Documental</category>
@@ -605987,6 +606053,7 @@ Hank en su nueva vida tendrá como acompañantes a su hermano, quien ve tener un
     <credits>
       <actor>Laurence Fishburne</actor>
       <actor>Oliver Twinch</actor>
+      <presenter>Laurence Fishburne</presenter>
     </credits>
     <date>2020</date>
     <category>Documental</category>
@@ -606069,6 +606136,7 @@ Hank en su nueva vida tendrá como acompañantes a su hermano, quien ve tener un
     <credits>
       <actor>Laurence Fishburne</actor>
       <actor>Oliver Twinch</actor>
+      <presenter>Laurence Fishburne</presenter>
     </credits>
     <date>2020</date>
     <category>Documental</category>
@@ -606599,6 +606667,7 @@ Hank en su nueva vida tendrá como acompañantes a su hermano, quien ve tener un
     <credits>
       <actor>Laurence Fishburne</actor>
       <actor>Oliver Twinch</actor>
+      <presenter>Laurence Fishburne</presenter>
     </credits>
     <date>2020</date>
     <category>Documental</category>
@@ -612284,7 +612353,9 @@ Hank en su nueva vida tendrá como acompañantes a su hermano, quien ve tener un
   <programme start="20261107034700 -0300" stop="20261107051700 -0300" channel="0707">
     <title>D-Day: Lost Films</title>
     <desc>S01E01 | La verdadera historia del Día D, entrevistas a las potencias Aliadas y sobrevivientes alemanes que vivieron el desgarrador Día D.</desc>
+    <date>2014</date>
     <category>Documentary</category>
+    <country>Estados Unidos</country>
     <episode-num system="onscreen">S01E01</episode-num>
     <rating><value>M</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/ddaylostfilms.jpg" />
@@ -612374,7 +612445,9 @@ Hank en su nueva vida tendrá como acompañantes a su hermano, quien ve tener un
   <programme start="20261107093500 -0300" stop="20261107110700 -0300" channel="0707">
     <title>D-Day: Lost Films</title>
     <desc>S01E01 | La verdadera historia del Día D, entrevistas a las potencias Aliadas y sobrevivientes alemanes que vivieron el desgarrador Día D.</desc>
+    <date>2014</date>
     <category>Documentary</category>
+    <country>Estados Unidos</country>
     <episode-num system="onscreen">S01E01</episode-num>
     <rating><value>M</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/ddaylostfilms.jpg" />
@@ -612629,7 +612702,13 @@ Hank en su nueva vida tendrá como acompañantes a su hermano, quien ve tener un
     <title>Secretos de guerra • El eje latino de la Segunda Guerra</title>
     <sub-title>El eje latino de la Segunda Guerra</sub-title>
     <desc>El eje latino de la Segunda Guerra | Con el ingreso de los Estados Unidos en la contienda mundial en diciembre de 1941, América abandona la neutralidad. Uno a uno, los países latinos empiezan a participar en la disputa en el plano comercial, pues el bando Aliado y las fuerzas del Eje requieren sus recursos naturales para abastecer la maquinaria militar.</desc>
+    <credits>
+      <director>Helen Roca</director>
+      <actor>Juan Pablo Medina</actor>
+    </credits>
+    <date>2020</date>
     <category>History</category>
+    <country>Argentina</country>
     <episode-num system="onscreen">S01E01</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/secretosdeguerra.jpg" />
   </programme>
@@ -641112,6 +641191,8 @@ Hank en su nueva vida tendrá como acompañantes a su hermano, quien ve tener un
     <desc>Laurel, una mujer tímida y recluida, asume en secreto la identidad de su glamorosa hermana gemela, quien falleció en un accidente automovilístico. Mientras disfruta de su vida ideal, Laurel debe decidir si continúa con su engaño.</desc>
     <credits>
       <director>Maria del Mar Rosario</director>
+      <actor>Alba Fontecha</actor>
+      <actor>Alejandro Tous</actor>
     </credits>
     <date>2013</date>
     <category>Comedia</category>
@@ -652529,7 +652610,7 @@ Hank en su nueva vida tendrá como acompañantes a su hermano, quien ve tener un
   </programme>
   <programme start="20261109024200 -0300" stop="20261109042100 -0300" channel="0805">
     <title>Manos a las armas</title>
-    <desc>El apacible Miles se encuentra involucrado en un sitio web de una red oscura que designa a extraños a pelear a muerte, mientras todo esto se ve por streaming con un público mundial sediento de sangre.</desc>
+    <desc>Miles es un desarrollador de videojuegos que, sin darse cuenta, se convierte en participante de un juego letal. Aunque Miles tiene una gran habilidad para escapar de todo, deberá enfrentarse a un peligroso asesino creado en su propio juego.</desc>
     <credits>
       <director>Jason Lei Howden</director>
       <actor>Daniel Radcliffe</actor>
@@ -654760,7 +654841,7 @@ Hank en su nueva vida tendrá como acompañantes a su hermano, quien ve tener un
   </programme>
   <programme start="20261109122700 -0300" stop="20261109142300 -0300" channel="1805">
     <title>El juego del crimen</title>
-    <desc>Un vendedor de carros y su pandilla de ladrones llegan hasta la bóveda de un banco y descubren mucho más que dinero y joyas.</desc>
+    <desc>Un grupo de ladrones planea y ejecuta un golpe maestro: un espectacular atraco a un banco. Además del dinero y las joyas, forman parte del botín ciertos documentos que permitirían sacar a la luz un escándalo de corrupción que involucra no sólo a altos funcionarios del gobierno británico, sino también a un miembro de la familia real.</desc>
     <credits>
       <director>Roger Donaldson</director>
       <actor>Jason Statham</actor>
@@ -656918,7 +656999,7 @@ Hank en su nueva vida tendrá como acompañantes a su hermano, quien ve tener un
   </programme>
   <programme start="20261107193000 -0300" stop="20261107205400 -0300" channel="2805">
     <title>MasterChef Junior</title>
-    <desc>Una competencia en la que 12 niños y niñas fanáticos de la cocina se convertirán en los grandes protagonistas de los desafíos más sorprendentes. Del otro lado de las hornallas estarán Germán Martitegui, Maru Botana e Ian Lucas, quienes tendrán la difícil misión de evaluar cada preparación, acompañar a los participantes y descubrir quiénes tienen todo lo necesario para convertirse en los próximos grandes talentos de la cocina.</desc>
+    <desc>Una serie de competencias culinarias para chicos con talento, entre los 8 y 12 años, que aman la cocina, que concursan para transformarse en el campeón de los chefs.</desc>
     <credits>
       <actor>Verónica Lozano</actor>
       <actor>Germán Martitegui</actor>
@@ -674827,6 +674908,7 @@ Hank en su nueva vida tendrá como acompañantes a su hermano, quien ve tener un
       <actor>Mario J Smith</actor>
       <actor>Karen Rothschild</actor>
       <actor>Hillaire Hess</actor>
+      <presenter>Helen Hunt</presenter>
     </credits>
     <date>2022</date>
     <category>Documental</category>
@@ -674850,6 +674932,7 @@ Hank en su nueva vida tendrá como acompañantes a su hermano, quien ve tener un
       <actor>Mario J Smith</actor>
       <actor>Karen Rothschild</actor>
       <actor>Hillaire Hess</actor>
+      <presenter>Helen Hunt</presenter>
     </credits>
     <date>2022</date>
     <category>Documental</category>
@@ -674873,6 +674956,7 @@ Hank en su nueva vida tendrá como acompañantes a su hermano, quien ve tener un
       <actor>Mario J Smith</actor>
       <actor>Karen Rothschild</actor>
       <actor>Hillaire Hess</actor>
+      <presenter>Helen Hunt</presenter>
     </credits>
     <date>2022</date>
     <category>Documental</category>
@@ -709997,7 +710081,7 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
   </programme>
   <programme start="20261110170800 -0300" stop="20261110190800 -0300" channel="1813">
     <title>Sé lo que hicieron el verano pasado</title>
-    <desc>Cinco amigos causan un accidente automovilístico y, en lugar de asumir la culpa, deciden silenciar su implicación con un pacto.</desc>
+    <desc>Cuando cinco amigos provocan un accidente mortal de coche, ocultan su implicación y hacen un pacto para guardar el secreto. Un año después, su pasado vuelve para atormentarlos y enfrentarlos a la verdad: alguien sabe lo que hicieron el verano pasado... y quiere venganza.</desc>
     <credits>
       <director>Jennifer Kaytin Robinson</director>
       <actor>Madelyn Cline</actor>
@@ -727645,7 +727729,20 @@ El brujo Gargamel y su gato Azrael, intentan siempre y por todos los medios capt
   <programme start="20261106230000 -0300" stop="20261106235800 -0300" channel="0819">
     <title>An Intimate Evening With Adam Pally</title>
     <desc>En un especial que es a la vez stand-up, documental y concierto de rock, Adam Pally toca la guitarra y juega con la verdad en una presentación única.</desc>
+    <credits>
+      <director>Brent Hodge</director>
+      <actor>Adam Pally</actor>
+      <actor>Dave Hill</actor>
+      <actor>Max Ash</actor>
+      <actor>Eric Gersh</actor>
+      <actor>David Krumholtz</actor>
+      <actor>Benjamin Stricof</actor>
+      <actor>Steven Pally</actor>
+      <actor>Daniella Anne Liben Pally</actor>
+    </credits>
+    <date>2025</date>
     <category>Special</category>
+    <country>Estados Unidos</country>
     <rating><value>AL</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/anintimateeveningwithadampally.jpg" />
   </programme>
@@ -751182,79 +751279,79 @@ El brujo Gargamel y su gato Azrael, intentan siempre y por todos los medios capt
   </programme>
   <programme start="20261111000900 -0300" stop="20261111010000 -0300" channel="0825">
     <title>Cine familiar</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
+    <desc>Disfruta del mejor cine para toda la familia.</desc>
     <category>Película</category>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261111010000 -0300" stop="20261111050000 -0300" channel="0825">
     <title>Cine familiar</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
+    <desc>Disfruta del mejor cine para toda la familia.</desc>
     <category>Película</category>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261111050000 -0300" stop="20261111090000 -0300" channel="0825">
     <title>Cine familiar</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
+    <desc>Disfruta del mejor cine para toda la familia.</desc>
     <category>Película</category>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261111090000 -0300" stop="20261111130000 -0300" channel="0825">
     <title>Cine familiar</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
+    <desc>Disfruta del mejor cine para toda la familia.</desc>
     <category>Película</category>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261111130000 -0300" stop="20261111170000 -0300" channel="0825">
     <title>Cine familiar</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
+    <desc>Disfruta del mejor cine para toda la familia.</desc>
     <category>Película</category>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261111170000 -0300" stop="20261111210000 -0300" channel="0825">
     <title>Cine familiar</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
+    <desc>Disfruta del mejor cine para toda la familia.</desc>
     <category>Película</category>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261111210000 -0300" stop="20261112010000 -0300" channel="0825">
     <title>Cine familiar</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
+    <desc>Disfruta del mejor cine para toda la familia.</desc>
     <category>Película</category>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261112010000 -0300" stop="20261112050000 -0300" channel="0825">
     <title>Cine familiar</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
+    <desc>Disfruta del mejor cine para toda la familia.</desc>
     <category>Película</category>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261112050000 -0300" stop="20261112090000 -0300" channel="0825">
     <title>Cine familiar</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
+    <desc>Disfruta del mejor cine para toda la familia.</desc>
     <category>Película</category>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261112090000 -0300" stop="20261112130000 -0300" channel="0825">
     <title>Cine familiar</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
+    <desc>Disfruta del mejor cine para toda la familia.</desc>
     <category>Película</category>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261112130000 -0300" stop="20261112170000 -0300" channel="0825">
     <title>Cine familiar</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
+    <desc>Disfruta del mejor cine para toda la familia.</desc>
     <category>Película</category>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261112170000 -0300" stop="20261112210000 -0300" channel="0825">
     <title>Cine familiar</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
+    <desc>Disfruta del mejor cine para toda la familia.</desc>
     <category>Película</category>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261112210000 -0300" stop="20261112235959 -0300" channel="0825">
     <title>Cine familiar</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
+    <desc>Disfruta del mejor cine para toda la familia.</desc>
     <category>Película</category>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
@@ -788209,7 +788306,7 @@ El objetivo del foraster es, en cuarenta y ocho horas, conocer el mayor número 
   </programme>
   <programme start="20261107014500 -0300" stop="20261107033500 -0300" channel="0834">
     <title>Krampus: El terror de la Navidad</title>
-    <desc>Una familia disfuncional se reúne para Navidad, a pesar de haber perdido hace tiempo su espíritu navideño. Cuando el pequeño Max libere accidentalmente a un monstruo demoníaco, cuyo fin es castigar a los incrédulos, el terror se apoderará de su casa.</desc>
+    <desc>Los miembros de una familia disfuncional enfrentan la ira de Krampus, un antiguo demonio del folclore europeo, quien castiga a los chicos necios durante la Navidad.</desc>
     <credits>
       <director>Michael Dougherty</director>
       <actor>Emjay Anthony</actor>
@@ -788348,7 +788445,7 @@ El objetivo del foraster es, en cuarenta y ocho horas, conocer el mayor número 
   </programme>
   <programme start="20261107113000 -0300" stop="20261107131500 -0300" channel="0834">
     <title>El desfile navideño</title>
-    <desc>Jessica está emocionada por encargarse de la organización del desfile navideño de su ciudad en Nueva Inglaterra. Cuando la persona encargada de interpretar a Santa se enferma, deberá encontrar un reemplazo, aunque este no esté dispuesto.</desc>
+    <desc>Jessica está emocionada por encargarse de la organización del desfile navideño de su ciudad en Nueva Inglaterra. Cuando la persona encargada de interpretar a Santa se enferma, ella debe encontrar un reemplazo, aunque este no esté dispuesto.</desc>
     <credits>
       <director>David Winning</director>
       <actor>Jodie Sweetin</actor>
@@ -788617,7 +788714,7 @@ El objetivo del foraster es, en cuarenta y ocho horas, conocer el mayor número 
   </programme>
   <programme start="20261108080000 -0300" stop="20261108094500 -0300" channel="0834">
     <title>La Casa Navideña</title>
-    <desc>Mientras lidian con algunas decisiones difíciles, una madre y un padre invitan a sus dos hijos a que regresen a casa por Navidad.</desc>
+    <desc>Un padre y una madre convocan a sus hijos adultos a su casa en Navidad para anunciarles sobre unas decisiones difíciles que deben tomar.</desc>
     <credits>
       <director>Michael Grossman</director>
       <actor>Ana Ayora</actor>
@@ -788740,6 +788837,7 @@ El objetivo del foraster es, en cuarenta y ocho horas, conocer el mayor número 
     <date>2024</date>
     <category>Romántica</category>
     <country>EE. UU</country>
+    <rating><value>7.2</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261108183500 -0300" stop="20261108202000 -0300" channel="0834">
@@ -788858,7 +788956,7 @@ El objetivo del foraster es, en cuarenta y ocho horas, conocer el mayor número 
   </programme>
   <programme start="20261109031500 -0300" stop="20261109050000 -0300" channel="0834">
     <title>Rescatando la Navidad</title>
-    <desc>En un mundo donde Papá Noel es real y quiere despertar el espíritu navideño, dos de los elfos de Papá Noel, Chuck y Debbie, idean un plan para concederle a un humano en la Tierra tres deseos para dar inicio a las fiestas. Desafortunadamente, ese humano es Erin, quien ha perdido todo afecto por la temporada. Ni siquiera una cita a ciegas organizada por su hermana, con el afable y encantador Sam, hará que cambie de opinión sobre la Navidad. Pero cuando comete el error de desear que la Navidad &#x27;simplemente desaparezca&#x27;, Erin se despierta en un mundo donde la festividad nunca existió. Horrorizada, se da cuenta de que le ha quitado la alegría a todos, por lo que recluta a Sam para que la ayude a reinventar las festividades desde cero. En el proceso, Erin descubre cuánto han significado esta festividad y sus tradiciones para todos los que la rodean, y cuánto ha llegado a significar Sam para ella.</desc>
+    <desc>Sin ser consciente de ello, Erin desea que no exista la Navidad, pero Sam interviene para ayudarle a recuperarla.</desc>
     <credits>
       <director>Emily Moss Wilson</director>
       <actor>Rachael Leigh Cook</actor>
@@ -789197,7 +789295,7 @@ El objetivo del foraster es, en cuarenta y ocho horas, conocer el mayor número 
   </programme>
   <programme start="20261109234500 -0300" stop="20261110012500 -0300" channel="0834">
     <title>Deseos de navidad</title>
-    <desc>Semanas antes de Navidad, Abbey es contratada para decorar la finca del empresario Nick. Pero para hacer bien su trabajo, debe descubrir cómo derribar el muro entre ella y Nick, mientras mantiene vivo el espíritu navideño.</desc>
+    <desc>Semanas antes de Navidad, una persona profesional de la decoración de interiores es contratada para decorar la propiedad de un empresario.</desc>
     <credits>
       <director>DJ Viola</director>
       <actor>Jill Wagner</actor>
@@ -789217,7 +789315,7 @@ El objetivo del foraster es, en cuarenta y ocho horas, conocer el mayor número 
   </programme>
   <programme start="20261110012500 -0300" stop="20261110031000 -0300" channel="0834">
     <title>Intercambio navideño</title>
-    <desc>Durante una comida poco antes de Navidad, celebrada cuando se cumple un año del fallecimiento de su madre, unas hermanas gemelas, envidiosas cada una de la vida de la otra, deciden intercambiarse en secreto hasta el día de Navidad. Al hacerlo, aprenden a comprenderse mejor y ser más tolerantes.</desc>
+    <desc>Durante una comida poco antes de Navidad, unas hermanas gemelas, envidiosas cada una de la vida de la otra, deciden intercambiarse en secreto hasta el día de Navidad. Al hacerlo, aprenden a comprenderse mejor y ser más tolerantes.</desc>
     <credits>
       <director>Lee Friedlander</director>
       <actor>Natasha Bure</actor>
@@ -809425,9 +809523,33 @@ No aparece en el programa ningún otro superhéroe de ficción, a excepción  de
     <desc>Texas, 1978. Una ex estrella de rodeo y criador de caballos retirado (Eastwood) acepta un encargo de un antiguo jefe: traer a su hijo pequeño desde México de vuelta a casa para alejarlo de su madre alcohólica. En el viaje, ambos se embarcarán en una inesperada aventura.</desc>
     <credits>
       <director>Clint Eastwood</director>
+      <actor>Clint Eastwood</actor>
+      <actor>Eduardo Minett</actor>
+      <actor>Dwight Yoakam</actor>
+      <actor>Natalia Traven</actor>
+      <actor>Fernanda Urrejola</actor>
+      <actor>Horacio Garcia-Rojas</actor>
+      <actor>Jorge-Luis Pallo</actor>
+      <actor>Rocko Reyes</actor>
+      <actor>Brytnee Ratledge</actor>
+      <actor>Paul Lincoln Alayo</actor>
+      <actor>Nick Schenk</actor>
+      <actor>N. Richard Nash</actor>
+      <actor>Ben Davis</actor>
+      <actor>Joel Cox</actor>
+      <actor>David Cox</actor>
+      <actor>Mark Mancina</actor>
+      <actor>Ron Reiss</actor>
+      <actor>Christopher Carlson</actor>
+      <actor>Deborah Hopper</actor>
+      <actor>Geoffrey Miclat</actor>
     </credits>
     <date>2021</date>
+    <category>Movie</category>
+    <category>Drama</category>
+    <category>Western</category>
     <country>USA</country>
+    <rating><value>B</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/crymacho.jpg" />
   </programme>
   <programme start="20261113014600 -0300" stop="20261113032900 -0300" channel="0840">
@@ -884711,6 +884833,7 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
     <date>2008</date>
     <category>Movie</category>
     <category>Drama</category>
+    <country>México</country>
     <rating><value>B15</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/purgatorio.jpg" />
   </programme>
@@ -889562,7 +889685,16 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
   <programme start="20261109042000 -0300" stop="20261109055400 -0300" channel="0865">
     <title>Black Butterfly</title>
     <desc>Feature Film • 2017. A deranged drifter takes an unlucky screenwriter hostage and forces him to write.</desc>
+    <credits>
+      <director>Mark Harris</director>
+      <actor>Elizabeth Abraham</actor>
+      <actor>Sheree Bynum</actor>
+      <actor>Ron Cooper</actor>
+      <actor>Tiffany J. Curtis</actor>
+    </credits>
+    <date>2010</date>
     <category>Feature Film • 2017</category>
+    <country>Estados Unidos</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261109055400 -0300" stop="20261109075200 -0300" channel="0865">
@@ -890084,7 +890216,16 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
   <programme start="20261112181500 -0300" stop="20261112194900 -0300" channel="0865">
     <title>Black Butterfly</title>
     <desc>Feature Film • 2017. A deranged drifter takes an unlucky screenwriter hostage and forces him to write.</desc>
+    <credits>
+      <director>Mark Harris</director>
+      <actor>Elizabeth Abraham</actor>
+      <actor>Sheree Bynum</actor>
+      <actor>Ron Cooper</actor>
+      <actor>Tiffany J. Curtis</actor>
+    </credits>
+    <date>2010</date>
     <category>Feature Film • 2017</category>
+    <country>Estados Unidos</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261112194900 -0300" stop="20261112220100 -0300" channel="0865">
@@ -909258,7 +909399,7 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
   </programme>
   <programme start="20261106213000 -0300" stop="20261106224500 -0300" channel="1909">
     <title>MasterChef Junior</title>
-    <desc>Una competencia en la que 12 niños y niñas fanáticos de la cocina se convertirán en los grandes protagonistas de los desafíos más sorprendentes. Del otro lado de las hornallas estarán Germán Martitegui, Maru Botana e Ian Lucas, quienes tendrán la difícil misión de evaluar cada preparación, acompañar a los participantes y descubrir quiénes tienen todo lo necesario para convertirse en los próximos grandes talentos de la cocina.</desc>
+    <desc>Una serie de competencias culinarias para chicos con talento, entre los 8 y 12 años, que aman la cocina, que concursan para transformarse en el campeón de los chefs.</desc>
     <credits>
       <actor>Verónica Lozano</actor>
       <actor>Germán Martitegui</actor>
@@ -910621,7 +910762,7 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
   </programme>
   <programme start="20261106213000 -0300" stop="20261106224500 -0300" channel="2909">
     <title>MasterChef Junior</title>
-    <desc>Una competencia en la que 12 niños y niñas fanáticos de la cocina se convertirán en los grandes protagonistas de los desafíos más sorprendentes. Del otro lado de las hornallas estarán Germán Martitegui, Maru Botana e Ian Lucas, quienes tendrán la difícil misión de evaluar cada preparación, acompañar a los participantes y descubrir quiénes tienen todo lo necesario para convertirse en los próximos grandes talentos de la cocina.</desc>
+    <desc>Una serie de competencias culinarias para chicos con talento, entre los 8 y 12 años, que aman la cocina, que concursan para transformarse en el campeón de los chefs.</desc>
     <credits>
       <actor>Verónica Lozano</actor>
       <actor>Germán Martitegui</actor>
@@ -911077,6 +911218,7 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
     <date>2026</date>
     <category>Especial</category>
     <country>Argentina</country>
+    <rating><value>TV-G</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261108200000 -0300" stop="20261108221500 -0300" channel="2909">
@@ -912250,6 +912392,7 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
     <date>2026</date>
     <category>Especial</category>
     <country>Argentina</country>
+    <rating><value>TV-G</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261108200000 -0300" stop="20261108211500 -0300" channel="3909">
@@ -929472,7 +929615,7 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
   </programme>
   <programme start="20261108080000 -0300" stop="20261108080000 -0300" channel="0946">
     <title>El campo no para</title>
-    <desc>El campo no para, es el informativo del sector agropecuario colombiano, que busca resaltar la labor, planificación, eficiencia y desarrollo del trabajo de los campesinos que trabajan por la seguridad alimentaria, la productividad y</desc>
+    <desc>Espacio informativo destinado a productores, campesinos y proveedores del campo. Las medidas que toma el gobierno nacional, boletines de precios y abastecimiento de alimentos, y toda la información pertinente al mundo rural.</desc>
     <date>2020</date>
     <category>Cultural</category>
     <rating><value>+15</value></rating>
@@ -930354,7 +930497,7 @@ Escápate los lleva por rutas desconocidas y les muestra la otra cara de los lug
   </programme>
   <programme start="20261110000000 -0300" stop="20261110003000 -0300" channel="0947">
     <title>Misterio en Laguna Negra</title>
-    <desc>Maité, una niña de 13 años, regresa a casa con flores secas sin saber que su vida está a punto de cambiar para siempre.</desc>
+    <desc>Maité, una niña de 13 años, regresa a casa con flores secas sin saber que su vida está a punto de cambiar para siempre. En las montañas del Nevado del Ruiz, su padre James es asesinado, y Maité descubre los recuerdos ocultos de su madre.</desc>
     <date>2025</date>
     <category>Drama</category>
     <rating><value>18</value></rating>
@@ -931782,7 +931925,7 @@ Escápate los lleva por rutas desconocidas y les muestra la otra cara de los lug
   </programme>
   <programme start="20261109073000 -0300" stop="20261109075500 -0300" channel="0949">
     <title>Estilo de vida planeta</title>
-    <desc>Se explora cómo la vida cotidiana puede convertirse en un aliado contra la crisis ambiental. A lo largo de cinco episodios, profundizamos en los esfuerzos de individuos apasionados que abordan temas críticos.</desc>
+    <desc>Se muestran acciones cotidianas que pueden servir de aliadas en la lucha contra la crisis ambiental.</desc>
     <credits>
       <director>Juan Manuel Almario</director>
     </credits>
@@ -933734,7 +933877,9 @@ Escápate los lleva por rutas desconocidas y les muestra la otra cara de los lug
   <programme start="20261107040000 -0300" stop="20261107043000 -0300" channel="0951">
     <title>Al día con el agro</title>
     <desc>Un magazine dedicado a la actualidad del agro en Colombia con todo lo que tenés que saber del campo y la agricultura.</desc>
+    <date>2018</date>
     <category>Agro</category>
+    <rating><value>TE</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261107043000 -0300" stop="20261107050000 -0300" channel="0951">
@@ -933834,7 +933979,9 @@ Escápate los lleva por rutas desconocidas y les muestra la otra cara de los lug
   <programme start="20261107230000 -0300" stop="20261107233000 -0300" channel="0951">
     <title>Al día con el agro</title>
     <desc>Un magazine dedicado a la actualidad del agro en Colombia con todo lo que tenés que saber del campo y la agricultura.</desc>
+    <date>2018</date>
     <category>Agro</category>
+    <rating><value>TE</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261107233000 -0300" stop="20261108000000 -0300" channel="0951">
@@ -934351,7 +934498,7 @@ Escápate los lleva por rutas desconocidas y les muestra la otra cara de los lug
   </programme>
   <programme start="20261110033000 -0300" stop="20261110040000 -0300" channel="0951">
     <title>TV Agro</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
+    <desc>Difusión de temas del sector agropecuario dentro de un contexto didáctico e informativo.</desc>
     <date>2011</date>
     <category>Reportaje</category>
     <rating><value>+15</value></rating>
@@ -934359,7 +934506,7 @@ Escápate los lleva por rutas desconocidas y les muestra la otra cara de los lug
   </programme>
   <programme start="20261110040000 -0300" stop="20261110080000 -0300" channel="0951">
     <title>TV Agro</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
+    <desc>Difusión de temas del sector agropecuario dentro de un contexto didáctico e informativo.</desc>
     <date>2011</date>
     <category>Reportaje</category>
     <rating><value>+15</value></rating>
@@ -934367,7 +934514,7 @@ Escápate los lleva por rutas desconocidas y les muestra la otra cara de los lug
   </programme>
   <programme start="20261110080000 -0300" stop="20261110120000 -0300" channel="0951">
     <title>TV Agro</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
+    <desc>Difusión de temas del sector agropecuario dentro de un contexto didáctico e informativo.</desc>
     <date>2011</date>
     <category>Reportaje</category>
     <rating><value>+15</value></rating>
@@ -934375,7 +934522,7 @@ Escápate los lleva por rutas desconocidas y les muestra la otra cara de los lug
   </programme>
   <programme start="20261110120000 -0300" stop="20261110160000 -0300" channel="0951">
     <title>TV Agro</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
+    <desc>Difusión de temas del sector agropecuario dentro de un contexto didáctico e informativo.</desc>
     <date>2011</date>
     <category>Reportaje</category>
     <rating><value>+15</value></rating>
@@ -934383,7 +934530,7 @@ Escápate los lleva por rutas desconocidas y les muestra la otra cara de los lug
   </programme>
   <programme start="20261110160000 -0300" stop="20261110200000 -0300" channel="0951">
     <title>TV Agro</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
+    <desc>Difusión de temas del sector agropecuario dentro de un contexto didáctico e informativo.</desc>
     <date>2011</date>
     <category>Reportaje</category>
     <rating><value>+15</value></rating>
@@ -934391,7 +934538,7 @@ Escápate los lleva por rutas desconocidas y les muestra la otra cara de los lug
   </programme>
   <programme start="20261110200000 -0300" stop="20261111000000 -0300" channel="0951">
     <title>TV Agro</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
+    <desc>Difusión de temas del sector agropecuario dentro de un contexto didáctico e informativo.</desc>
     <date>2011</date>
     <category>Reportaje</category>
     <rating><value>+15</value></rating>
@@ -934399,7 +934546,7 @@ Escápate los lleva por rutas desconocidas y les muestra la otra cara de los lug
   </programme>
   <programme start="20261111000000 -0300" stop="20261111040000 -0300" channel="0951">
     <title>TV Agro</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
+    <desc>Difusión de temas del sector agropecuario dentro de un contexto didáctico e informativo.</desc>
     <date>2011</date>
     <category>Reportaje</category>
     <rating><value>+15</value></rating>
@@ -934407,7 +934554,7 @@ Escápate los lleva por rutas desconocidas y les muestra la otra cara de los lug
   </programme>
   <programme start="20261111040000 -0300" stop="20261111080000 -0300" channel="0951">
     <title>TV Agro</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
+    <desc>Difusión de temas del sector agropecuario dentro de un contexto didáctico e informativo.</desc>
     <date>2011</date>
     <category>Reportaje</category>
     <rating><value>+15</value></rating>
@@ -934415,7 +934562,7 @@ Escápate los lleva por rutas desconocidas y les muestra la otra cara de los lug
   </programme>
   <programme start="20261111080000 -0300" stop="20261111120000 -0300" channel="0951">
     <title>TV Agro</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
+    <desc>Difusión de temas del sector agropecuario dentro de un contexto didáctico e informativo.</desc>
     <date>2011</date>
     <category>Reportaje</category>
     <rating><value>+15</value></rating>
@@ -934423,7 +934570,7 @@ Escápate los lleva por rutas desconocidas y les muestra la otra cara de los lug
   </programme>
   <programme start="20261111120000 -0300" stop="20261111160000 -0300" channel="0951">
     <title>TV Agro</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
+    <desc>Difusión de temas del sector agropecuario dentro de un contexto didáctico e informativo.</desc>
     <date>2011</date>
     <category>Reportaje</category>
     <rating><value>+15</value></rating>
@@ -934431,7 +934578,7 @@ Escápate los lleva por rutas desconocidas y les muestra la otra cara de los lug
   </programme>
   <programme start="20261111160000 -0300" stop="20261111200000 -0300" channel="0951">
     <title>TV Agro</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
+    <desc>Difusión de temas del sector agropecuario dentro de un contexto didáctico e informativo.</desc>
     <date>2011</date>
     <category>Reportaje</category>
     <rating><value>+15</value></rating>
@@ -934439,7 +934586,7 @@ Escápate los lleva por rutas desconocidas y les muestra la otra cara de los lug
   </programme>
   <programme start="20261111200000 -0300" stop="20261112000000 -0300" channel="0951">
     <title>TV Agro</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
+    <desc>Difusión de temas del sector agropecuario dentro de un contexto didáctico e informativo.</desc>
     <date>2011</date>
     <category>Reportaje</category>
     <rating><value>+15</value></rating>
@@ -934447,7 +934594,7 @@ Escápate los lleva por rutas desconocidas y les muestra la otra cara de los lug
   </programme>
   <programme start="20261112000000 -0300" stop="20261112040000 -0300" channel="0951">
     <title>TV Agro</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
+    <desc>Difusión de temas del sector agropecuario dentro de un contexto didáctico e informativo.</desc>
     <date>2011</date>
     <category>Reportaje</category>
     <rating><value>+15</value></rating>
@@ -934455,7 +934602,7 @@ Escápate los lleva por rutas desconocidas y les muestra la otra cara de los lug
   </programme>
   <programme start="20261112040000 -0300" stop="20261112080000 -0300" channel="0951">
     <title>TV Agro</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
+    <desc>Difusión de temas del sector agropecuario dentro de un contexto didáctico e informativo.</desc>
     <date>2011</date>
     <category>Reportaje</category>
     <rating><value>+15</value></rating>
@@ -934463,7 +934610,7 @@ Escápate los lleva por rutas desconocidas y les muestra la otra cara de los lug
   </programme>
   <programme start="20261112080000 -0300" stop="20261112120000 -0300" channel="0951">
     <title>TV Agro</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
+    <desc>Difusión de temas del sector agropecuario dentro de un contexto didáctico e informativo.</desc>
     <date>2011</date>
     <category>Reportaje</category>
     <rating><value>+15</value></rating>
@@ -934471,7 +934618,7 @@ Escápate los lleva por rutas desconocidas y les muestra la otra cara de los lug
   </programme>
   <programme start="20261112120000 -0300" stop="20261112160000 -0300" channel="0951">
     <title>TV Agro</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
+    <desc>Difusión de temas del sector agropecuario dentro de un contexto didáctico e informativo.</desc>
     <date>2011</date>
     <category>Reportaje</category>
     <rating><value>+15</value></rating>
@@ -934479,7 +934626,7 @@ Escápate los lleva por rutas desconocidas y les muestra la otra cara de los lug
   </programme>
   <programme start="20261112160000 -0300" stop="20261112200000 -0300" channel="0951">
     <title>TV Agro</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
+    <desc>Difusión de temas del sector agropecuario dentro de un contexto didáctico e informativo.</desc>
     <date>2011</date>
     <category>Reportaje</category>
     <rating><value>+15</value></rating>
@@ -934487,7 +934634,7 @@ Escápate los lleva por rutas desconocidas y les muestra la otra cara de los lug
   </programme>
   <programme start="20261112200000 -0300" stop="20261112235959 -0300" channel="0951">
     <title>TV Agro</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
+    <desc>Difusión de temas del sector agropecuario dentro de un contexto didáctico e informativo.</desc>
     <date>2011</date>
     <category>Reportaje</category>
     <rating><value>+15</value></rating>
@@ -950983,7 +951130,20 @@ El cambio climático y la pérdida de biodiversidad exigen una nueva forma de ec
   <programme start="20261111211700 -0300" stop="20261111224600 -0300" channel="0977">
     <title>El Señor de las Moscas</title>
     <desc>Relata la historia de un grupo de chicos británicos atrapados en una isla tropical desocupada. Poco a poco van cayendo en la anarquía a medida que desaparecen las convenciones sociales y fracasan los intentos de gobernar responsablemente.</desc>
+    <credits>
+      <director>Jack Thorne</director>
+      <actor>Winston Sawyers</actor>
+      <actor>David McKenna</actor>
+      <actor>Lox Pratt</actor>
+      <actor>Ike Talbut</actor>
+      <actor>Thomas Connor</actor>
+      <actor>Cornelius Brandreth</actor>
+      <actor>Cassius Flemyng</actor>
+      <actor>Noah Flemyng</actor>
+    </credits>
+    <date>2026</date>
     <category>MOVIES RETRO</category>
+    <country>Reino Unido</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/elsenordelasmoscas.jpg" />
   </programme>
   <programme start="20261111224600 -0300" stop="20261112004200 -0300" channel="0977">
@@ -951867,7 +952027,20 @@ El cambio climático y la pérdida de biodiversidad exigen una nueva forma de ec
   <programme start="20261111122400 -0300" stop="20261111135700 -0300" channel="0978">
     <title>La familia Addams La tradición continua</title>
     <desc>Fue amor al primer susto cuando Gomez y Morticia acogieron a un nuevo miembro en el grupo familiar -Pubert, su delicado, blandito y bigotudo niño. Fue entonces cuando Fétido se enamoró de la voluptuosa niñera. Pero tras algunas investigaciones, Miércoles y Pugsley descubren que la inocente niñera es en realidad una viuda negra asesina que planea añadir a Fétido a su colección de maridos muertos.</desc>
+    <credits>
+      <director>Barry Sonnenfeld</director>
+      <actor>Anjelica Huston</actor>
+      <actor>Raúl Juliá</actor>
+      <actor>Christopher Lloyd</actor>
+      <actor>Joan Cusack</actor>
+      <actor>Christina Ricci</actor>
+      <actor>Carol Kane</actor>
+      <actor>Jimmy Workman</actor>
+      <actor>David Krumholtz</actor>
+    </credits>
+    <date>1993</date>
     <category>Movies</category>
+    <country>Estados Unidos</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/lafamiliaaddamslatradicioncontinua.jpg" />
   </programme>
   <programme start="20261111135700 -0300" stop="20261111151800 -0300" channel="0978">
@@ -955612,7 +955785,10 @@ El cambio climático y la pérdida de biodiversidad exigen una nueva forma de ec
   </programme>
   <programme start="20261109021500 -0300" stop="20261109034400 -0300" channel="0980">
     <title>El transportador</title>
-    <desc>El ex operador de Fuerzas Especiales Frank Martin vive lo que parece ser una vida tranquila a orillas del Mediterráneo francés, donde presta sus servicios como un “transportador”, un mercenario que traslada bienes -humanos o de cualquier tipo- de un lugar a otro. Siempre sin preguntas de por medio. Frank, que en su BMW equipado lleva a cabo misiones secretas y a veces peligrosas, se apega a un estricto juego de 3 reglas que nunca rompe. Regla número uno: Nunca modifiques el trato. Dos: Omitir nombres, Frank no quiere saber para quién trabaja o qué es lo que transporta. Tres: Nunca ver qué hay dentro del paquete. La carga más reciente de Frank aparenta ser igual a los incontables paquetes que ha entregado en el pasado. Ha sido contratado por un norteamericano conocido solamente como “Wall Street” para que lleve a cabo una entrega. Pero cuando Frank se detiene en el trayecto, se percata que su “paquete” se mueve...</desc>
+    <desc>Una mujer, elegida para ser la conductora de una de las operaciones de drogas más grandes del mundo, debe superar a los enemigos en lugares fabulosos y exóticos.</desc>
+    <credits>
+      <director>Silk White</director>
+    </credits>
     <date>2022</date>
     <category>MOVIES</category>
     <country>Estados Unidos</country>
@@ -988404,7 +988580,7 @@ El cambio climático y la pérdida de biodiversidad exigen una nueva forma de ec
   </programme>
   <programme start="20261108100000 -0300" stop="20261108103000 -0300" channel="ar0009">
     <title>Un gol al arcoíris</title>
-    <desc>Una serie documental que recorre los ámbitos futbolísticos donde aprenden a jugar los niños y las niñas, donde se relacionan con los adultos y aprenden a formar parte de un deporte colectivo. Un recorrido por aquellos lugares donde el fútbol se constituye en ámbito pedagógico y donde se inculca y desarrolla un inmenso abanico de valores y principios humanos.</desc>
+    <desc>Serie documental donde se recorren ámbitos futbolísticos donde aprenden a jugar los niños y las niñas, se relacionan con adultos y forman parte de un deporte colectivo.</desc>
     <credits>
       <director>Sebastián Kohan Esquenazi</director>
     </credits>
@@ -1004746,7 +1004922,7 @@ Andrés Gil</desc>
   </programme>
   <programme start="20261107090000 -0300" stop="20261107120000 -0300" channel="ar0017">
     <title>Rompiendo moldes</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
+    <desc>Un espacio seguro hecho por y para adolescentes que cuestionan los estereotipos de género que la sociedad les impone. Es un espacio de construcción y de expresión de nuevas identidades que surgen de forma fluida y natural.</desc>
     <date>2026</date>
     <category>Entretenimiento</category>
     <rating><value>R</value></rating>
@@ -1019290,8 +1019466,23 @@ Escápate los lleva por rutas desconocidas y les muestra la otra cara de los lug
     <title>Extramuros • Andrés denegri</title>
     <sub-title>Andrés denegri</sub-title>
     <desc>Andrés denegri | Miguel Ángel Molfino es escritor, tiene sesenta y cinco años. En su juventud compromete su vida con la revolución. Su familia entera vive una tragedia, exilio, secuestros y muerte. En la cárcel la escritura se transforma en su sostén.</desc>
+    <credits>
+      <director>Miguel Picazo</director>
+      <actor>Carmen Maura</actor>
+      <actor>Mercedes Sampietro</actor>
+      <actor>Aurora Bautista</actor>
+      <actor>Assumpta Serna</actor>
+      <actor>Antonio Ferrandis</actor>
+      <actor>Manuel Alexandre</actor>
+      <actor>Conrado San Martín</actor>
+      <actor>Valentín Paredes</actor>
+    </credits>
+    <date>1985</date>
+    <category>Drama</category>
+    <category>Romance</category>
+    <country>España</country>
     <episode-num system="onscreen">E78</episode-num>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/extramuros.jpg" />
   </programme>
   <programme start="20261108050000 -0300" stop="20261108053000 -0300" channel="co0004">
     <title>Señal literaria</title>
@@ -1054393,6 +1054584,7 @@ María es bienvenida en la casa del empresario Fernando de la Vega, uno de los h
     <sub-title>De criolla con mestizo</sub-title>
     <desc>De criolla con mestizo | Mientras busca la verdad sobre la muerte de su padre, el taxista Raúl forma un lazo con Lucía, una chica que acaba de escapar de una situación de abuso.</desc>
     <credits>
+      <director>Daniel Giménez Cacho</director>
       <actor>Naian González Norvind</actor>
       <actor>Harold Torres</actor>
       <actor>Nailea Norvind</actor>
@@ -1054402,7 +1054594,9 @@ María es bienvenida en la casa del empresario Fernando de la Vega, uno de los h
       <actor>Rafael Inclán</actor>
       <actor>Rodrigo Corea</actor>
     </credits>
+    <date>2014</date>
     <category>Drama</category>
+    <country>México</country>
     <episode-num system="onscreen">T1 E1</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
@@ -1056144,7 +1056338,7 @@ María es bienvenida en la casa del empresario Fernando de la Vega, uno de los h
   </programme>
   <programme start="20261111193000 -0300" stop="20261111200000 -0300" channel="mx0007">
     <title>El escritor fantasma</title>
-    <desc>Un fantasma ronda una librería del vecindario y comienza a liberar personajes ficticios en el mundo real, cuatro niños deben formar equipo para resolver un apasionante misterio que rodea los asuntos pendientes del fantasma.</desc>
+    <desc>Cuando un fantasma acecha una librería local y empieza a liberar a personajes de ficción en el mundo real, cuatro niños tendrán que trabajar juntos para resolver un emocionante misterio relacionado con los asuntos pendientes del fantasma. Armados con mensajes secretos que solo ellos pueden ver, los jóvenes héroes tendrán que descubrir la verdad.</desc>
     <credits>
       <actor>Nour Assaf</actor>
       <actor>Princess K. Mapp</actor>
@@ -1056161,8 +1056355,9 @@ María es bienvenida en la casa del empresario Fernando de la Vega, uno de los h
     <category>Drama</category>
     <category>Adventure</category>
     <category>Educational</category>
+    <country>Canadá</country>
     <rating><value>TVG</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/elescritorfantasma.jpg" />
   </programme>
   <programme start="20261111200000 -0300" stop="20261111210000 -0300" channel="mx0007">
     <title>Derecho de réplica</title>
@@ -1064288,6 +1064483,7 @@ María es bienvenida en la casa del empresario Fernando de la Vega, uno de los h
     <category>Dibujo Animado</category>
     <category>Comedia</category>
     <category>Niños</category>
+    <country>España</country>
     <rating><value>TE</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
@@ -1064630,6 +1064826,7 @@ María es bienvenida en la casa del empresario Fernando de la Vega, uno de los h
     <category>Dibujo Animado</category>
     <category>Comedia</category>
     <category>Niños</category>
+    <country>España</country>
     <rating><value>TE</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
@@ -1068087,6 +1068284,7 @@ Escápate los lleva por rutas desconocidas y les muestra la otra cara de los lug
     <title>Corazón de fuego</title>
     <desc>Honorio Vásquez está casado con Emilia, pero mantiene una relación con Rosaura Montenegro; ésta última decide matarla para que Honorio enviude y se quede con toda las tierras de Sierra Morena.</desc>
     <category>Telenovela</category>
+    <country>Perú</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261107180000 -0300" stop="20261107210000 -0300" channel="pe0006">
@@ -1068172,6 +1068370,7 @@ Escápate los lleva por rutas desconocidas y les muestra la otra cara de los lug
     <title>Corazón de fuego</title>
     <desc>Honorio Vásquez está casado con Emilia, pero mantiene una relación con Rosaura Montenegro; ésta última decide matarla para que Honorio enviude y se quede con toda las tierras de Sierra Morena.</desc>
     <category>Telenovela</category>
+    <country>Perú</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261108180000 -0300" stop="20261108210000 -0300" channel="pe0006">
