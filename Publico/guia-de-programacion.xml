@@ -763390,6 +763390,7 @@ El objetivo del foraster es, en cuarenta y ocho horas, conocer el mayor número 
     </credits>
     <date>1955</date>
     <category>Drama</category>
+    <country>México</country>
     <rating><value>6.0</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
@@ -764338,6 +764339,7 @@ El objetivo del foraster es, en cuarenta y ocho horas, conocer el mayor número 
     <date>1955</date>
     <category>Movie</category>
     <category>Drama</category>
+    <country>México</country>
     <rating><value>A</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
@@ -764525,6 +764527,7 @@ El objetivo del foraster es, en cuarenta y ocho horas, conocer el mayor número 
     <date>1955</date>
     <category>Movie</category>
     <category>Drama</category>
+    <country>México</country>
     <rating><value>A</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
@@ -765467,6 +765470,7 @@ El objetivo del foraster es, en cuarenta y ocho horas, conocer el mayor número 
     <date>1968</date>
     <category>Movie</category>
     <category>Adventure</category>
+    <country>México</country>
     <rating><value>A</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
@@ -810008,13 +810012,24 @@ No aparece en el programa ningún otro superhéroe de ficción, a excepción  de
   </programme>
   <programme start="20261113014600 -0300" stop="20261113032900 -0300" channel="0840">
     <title>María LLena Eres De Gracia</title>
-    <desc>Rodeada de pobreza y escasas oportunidades, una joven colombiana descubre que está embarazada. En busca de una vida mejor, acepta convertirse en mula del narcotráfico, pero los riesgos serán mucho más grandes de lo que imagina. Por su impecable interpretación, Catalina Sandino Moreno fue nominada al Oscar de la Academia, convirtiéndose en la primera actriz en recibir tal distinción por participar en una producción original de HBO. Catalina Sandino compartió el Oso de Plata a la mejor actriz con Charlize Theron Monster en el Festival de Cine de Berlín, donde Maria Full of Grace recibió además el Premio Alfred Bauer a la mejor ópera prima.</desc>
+    <desc>María, una joven de 17 años, en una pequeña población al norte de Bogotá. Ella y Blanca trabajan en una gran plantación de rosas preparando las flores para la exportación. La única distracción de María son los bailes a los que acude cada fin de semana con su novio Juan. Un día, para sorpresa de su familia, abandona su trabajo y decide irse a Bogotá. Lo que nadie sospecha es que María está embarazada. Durante el viaje, se encuentra con un conocido que le habla de su lucrativo trabajo como correo en el tráfico de drogas y la convence para que ella y su amiga Blanca se unan a la banda.</desc>
     <credits>
       <director>Joshua Marston</director>
+      <actor>Catalina Sandino Moreno</actor>
+      <actor>Yenny Paola Vega</actor>
+      <actor>Jhon Álex Toro</actor>
+      <actor>Guilied Lopez</actor>
+      <actor>Patricia Rae</actor>
+      <actor>Virgina Ariza</actor>
+      <actor>Rodrigo Sánchez Borhorquez</actor>
+      <actor>Charles Albert Patiño</actor>
     </credits>
     <date>2004</date>
+    <category>Drama</category>
+    <category>Suspense</category>
+    <category>Crimen</category>
     <country>COL</country>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/mariallenaeresdegracia.jpg" />
   </programme>
   <programme start="20261113032900 -0300" stop="20261113092900 -0300" channel="0840">
     <title>NA</title>
@@ -888932,7 +888947,16 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
   <programme start="20261110054400 -0300" stop="20261110071500 -0300" channel="0863">
     <title>Odd Jobs</title>
     <desc>Feature Film • 1986. Five college buddies form their own moving business, competing with organized crime.</desc>
+    <credits>
+      <director>Jeremy Redleaf</director>
+      <actor>Jeremy Redleaf</actor>
+      <actor>Devin Ratray</actor>
+      <actor>Alexandra Daddario</actor>
+      <actor>Perry Silver</actor>
+    </credits>
+    <date>2009</date>
     <category>Feature Film • 1986</category>
+    <country>Estados Unidos</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261110071500 -0300" stop="20261110092300 -0300" channel="0863">
@@ -889354,7 +889378,17 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
   <programme start="20261108010300 -0300" stop="20261108024400 -0300" channel="0864">
     <title>Game Night</title>
     <desc>Feature Film • 2018. A murder mystery party turns into a wild and chaotic night for a group of unsuspecting couples.</desc>
+    <credits>
+      <director>Thomas McIntosh</director>
+      <actor>Preston Sabharwal</actor>
+      <actor>Alex Berka</actor>
+      <actor>Ronnie L. Cleary</actor>
+      <actor>Megan Aldridge</actor>
+      <actor>Troy Davis</actor>
+    </credits>
+    <date>2021</date>
     <category>Feature Film • 2018</category>
+    <country>Estados Unidos</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261108024400 -0300" stop="20261108042600 -0300" channel="0864">
@@ -890444,7 +890478,17 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
   <programme start="20261110131100 -0300" stop="20261110145200 -0300" channel="0865">
     <title>Game Night</title>
     <desc>Feature Film • 2018. A murder mystery party turns into a wild and chaotic night for a group of unsuspecting couples.</desc>
+    <credits>
+      <director>Thomas McIntosh</director>
+      <actor>Preston Sabharwal</actor>
+      <actor>Alex Berka</actor>
+      <actor>Ronnie L. Cleary</actor>
+      <actor>Megan Aldridge</actor>
+      <actor>Troy Davis</actor>
+    </credits>
+    <date>2021</date>
     <category>Feature Film • 2018</category>
+    <country>Estados Unidos</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261110145200 -0300" stop="20261110163000 -0300" channel="0865">
@@ -897057,7 +897101,7 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
   </programme>
   <programme start="20261107001000 -0300" stop="20261107022500 -0300" channel="0870">
     <title>La conjura de El Escorial</title>
-    <desc>Drama histórico que se desarrolla en la corte de Felipe II (1559-1598), donde se cruzan intrigas políticas y policíacas.</desc>
+    <desc>Drama histórico que se desarrolla en la Corte de Felipe II (1559-1598), donde se cruzan intrigas políticas y policíacas. No menos importante es el litigio que enfrenta a la Casa de Alba y con la Casa de los Mendoza, en la que Antonio Pérez y la Princesa de Éboli desempeñan un papel determinante. La noche del lunes de Pascua de 1578, tras tenderle una emboscada, unos asesinos a sueldo matan a Juan de Escobedo.</desc>
     <credits>
       <director>Antonio del Real</director>
       <actor>Julia Ormond</actor>
@@ -897076,6 +897120,7 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
     <date>2008</date>
     <category>Movie</category>
     <category>Drama</category>
+    <country>España</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/laconjuradeelescorial.jpg" />
   </programme>
   <programme start="20261107022500 -0300" stop="20261107040000 -0300" channel="0870">
@@ -952686,7 +952731,7 @@ El cambio climático y la pérdida de biodiversidad exigen una nueva forma de ec
   </programme>
   <programme start="20261107172800 -0300" stop="20261107194600 -0300" channel="0977">
     <title>Romeo y Julieta</title>
-    <desc>La paz de Verona se ve perturbada por la rivalidad existente entre nobles familias: los Montesco y los Capuleto, enemigos irreconciliables. Tienen contínuos enfrentamientos y, para evitarlos, el príncipe de Verona comunica a los jefes que las dos familias responderán con sus vidas si se producen nuevas luchas. En un baile, tiene lugar una fiesta en honor a Julieta.</desc>
+    <desc>La adaptación de la tragedia de Shakespeare acerca del romance entre los hijos de dos familias enemigas.</desc>
     <category>MOVIES RETRO</category>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/romeoyjulieta.jpg" />
   </programme>
@@ -953316,7 +953361,7 @@ El cambio climático y la pérdida de biodiversidad exigen una nueva forma de ec
   </programme>
   <programme start="20261113042100 -0300" stop="20261113061900 -0300" channel="0977">
     <title>Romeo y Julieta</title>
-    <desc>La paz de Verona se ve perturbada por la rivalidad existente entre nobles familias: los Montesco y los Capuleto, enemigos irreconciliables. Tienen contínuos enfrentamientos y, para evitarlos, el príncipe de Verona comunica a los jefes que las dos familias responderán con sus vidas si se producen nuevas luchas. En un baile, tiene lugar una fiesta en honor a Julieta.</desc>
+    <desc>La adaptación de la tragedia de Shakespeare acerca del romance entre los hijos de dos familias enemigas.</desc>
     <category>MOVIES RETRO</category>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/romeoyjulieta.jpg" />
   </programme>
@@ -1039500,11 +1039545,23 @@ El cambio climático y la pérdida de biodiversidad exigen una nueva forma de ec
   <programme start="20261106120000 -0300" stop="20261106133000 -0300" channel="co0014">
     <title>Las poderosas</title>
     <desc>Un manual de iniciación para todos aquellos que quizás han escuchado hablar sobre conceptos relacionados con los feminismos, pero que realmente no entienden de qué se está hablando y terminan, a veces, opinando desde la intuición o el prejuicio.</desc>
+    <credits>
+      <director>Tim Chambers</director>
+      <actor>Carla Gugino</actor>
+      <actor>Marley Shelton</actor>
+      <actor>Ellen Burstyn</actor>
+      <actor>David Boreanaz</actor>
+      <actor>Katie Hayek</actor>
+      <actor>Kim Blair</actor>
+      <actor>Meghan Sabia</actor>
+      <actor>Margaret Anne Florence</actor>
+    </credits>
     <date>2023</date>
     <category>Entretenimiento</category>
     <category>Talk Show</category>
+    <country>Estados Unidos</country>
     <rating><value>+15</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/laspoderosas.jpg" />
   </programme>
   <programme start="20261106133000 -0300" stop="20261106140000 -0300" channel="co0014">
     <title>Rodando caminos</title>
@@ -1040551,11 +1040608,23 @@ Escápate los lleva por rutas desconocidas y les muestra la otra cara de los lug
   <programme start="20261109120000 -0300" stop="20261109133000 -0300" channel="co0014">
     <title>Las poderosas</title>
     <desc>Un manual de iniciación para todos aquellos que quizás han escuchado hablar sobre conceptos relacionados con los feminismos, pero que realmente no entienden de qué se está hablando y terminan, a veces, opinando desde la intuición o el prejuicio.</desc>
+    <credits>
+      <director>Tim Chambers</director>
+      <actor>Carla Gugino</actor>
+      <actor>Marley Shelton</actor>
+      <actor>Ellen Burstyn</actor>
+      <actor>David Boreanaz</actor>
+      <actor>Katie Hayek</actor>
+      <actor>Kim Blair</actor>
+      <actor>Meghan Sabia</actor>
+      <actor>Margaret Anne Florence</actor>
+    </credits>
     <date>2023</date>
     <category>Entretenimiento</category>
     <category>Talk Show</category>
+    <country>Estados Unidos</country>
     <rating><value>+15</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/laspoderosas.jpg" />
   </programme>
   <programme start="20261109133000 -0300" stop="20261109140000 -0300" channel="co0014">
     <title>Rodando caminos</title>
@@ -1040898,11 +1040967,23 @@ Escápate los lleva por rutas desconocidas y les muestra la otra cara de los lug
   <programme start="20261110120000 -0300" stop="20261110133000 -0300" channel="co0014">
     <title>Las poderosas</title>
     <desc>Un manual de iniciación para todos aquellos que quizás han escuchado hablar sobre conceptos relacionados con los feminismos, pero que realmente no entienden de qué se está hablando y terminan, a veces, opinando desde la intuición o el prejuicio.</desc>
+    <credits>
+      <director>Tim Chambers</director>
+      <actor>Carla Gugino</actor>
+      <actor>Marley Shelton</actor>
+      <actor>Ellen Burstyn</actor>
+      <actor>David Boreanaz</actor>
+      <actor>Katie Hayek</actor>
+      <actor>Kim Blair</actor>
+      <actor>Meghan Sabia</actor>
+      <actor>Margaret Anne Florence</actor>
+    </credits>
     <date>2023</date>
     <category>Entretenimiento</category>
     <category>Talk Show</category>
+    <country>Estados Unidos</country>
     <rating><value>+15</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/laspoderosas.jpg" />
   </programme>
   <programme start="20261110133000 -0300" stop="20261110140000 -0300" channel="co0014">
     <title>Rodando caminos</title>
@@ -1041240,11 +1041321,23 @@ Escápate los lleva por rutas desconocidas y les muestra la otra cara de los lug
   <programme start="20261111120000 -0300" stop="20261111133000 -0300" channel="co0014">
     <title>Las poderosas</title>
     <desc>Un manual de iniciación para todos aquellos que quizás han escuchado hablar sobre conceptos relacionados con los feminismos, pero que realmente no entienden de qué se está hablando y terminan, a veces, opinando desde la intuición o el prejuicio.</desc>
+    <credits>
+      <director>Tim Chambers</director>
+      <actor>Carla Gugino</actor>
+      <actor>Marley Shelton</actor>
+      <actor>Ellen Burstyn</actor>
+      <actor>David Boreanaz</actor>
+      <actor>Katie Hayek</actor>
+      <actor>Kim Blair</actor>
+      <actor>Meghan Sabia</actor>
+      <actor>Margaret Anne Florence</actor>
+    </credits>
     <date>2023</date>
     <category>Entretenimiento</category>
     <category>Talk Show</category>
+    <country>Estados Unidos</country>
     <rating><value>+15</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/laspoderosas.jpg" />
   </programme>
   <programme start="20261111133000 -0300" stop="20261111140000 -0300" channel="co0014">
     <title>Aqua</title>
@@ -1041615,11 +1041708,23 @@ Escápate los lleva por rutas desconocidas y les muestra la otra cara de los lug
   <programme start="20261112120000 -0300" stop="20261112133000 -0300" channel="co0014">
     <title>Las poderosas</title>
     <desc>Un manual de iniciación para todos aquellos que quizás han escuchado hablar sobre conceptos relacionados con los feminismos, pero que realmente no entienden de qué se está hablando y terminan, a veces, opinando desde la intuición o el prejuicio.</desc>
+    <credits>
+      <director>Tim Chambers</director>
+      <actor>Carla Gugino</actor>
+      <actor>Marley Shelton</actor>
+      <actor>Ellen Burstyn</actor>
+      <actor>David Boreanaz</actor>
+      <actor>Katie Hayek</actor>
+      <actor>Kim Blair</actor>
+      <actor>Meghan Sabia</actor>
+      <actor>Margaret Anne Florence</actor>
+    </credits>
     <date>2023</date>
     <category>Entretenimiento</category>
     <category>Talk Show</category>
+    <country>Estados Unidos</country>
     <rating><value>+15</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/laspoderosas.jpg" />
   </programme>
   <programme start="20261112133000 -0300" stop="20261112140000 -0300" channel="co0014">
     <title>Aqua</title>
@@ -1041979,11 +1042084,23 @@ Escápate los lleva por rutas desconocidas y les muestra la otra cara de los lug
   <programme start="20261113120000 -0300" stop="20261113133000 -0300" channel="co0014">
     <title>Las poderosas</title>
     <desc>Un manual de iniciación para todos aquellos que quizás han escuchado hablar sobre conceptos relacionados con los feminismos, pero que realmente no entienden de qué se está hablando y terminan, a veces, opinando desde la intuición o el prejuicio.</desc>
+    <credits>
+      <director>Tim Chambers</director>
+      <actor>Carla Gugino</actor>
+      <actor>Marley Shelton</actor>
+      <actor>Ellen Burstyn</actor>
+      <actor>David Boreanaz</actor>
+      <actor>Katie Hayek</actor>
+      <actor>Kim Blair</actor>
+      <actor>Meghan Sabia</actor>
+      <actor>Margaret Anne Florence</actor>
+    </credits>
     <date>2023</date>
     <category>Entretenimiento</category>
     <category>Talk Show</category>
+    <country>Estados Unidos</country>
     <rating><value>+15</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/laspoderosas.jpg" />
   </programme>
   <programme start="20261113133000 -0300" stop="20261113140000 -0300" channel="co0014">
     <title>Aqua</title>
