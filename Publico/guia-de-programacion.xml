@@ -7939,7 +7939,7 @@ No aparece en el programa ningún otro superhéroe de ficción, a excepción  de
   </programme>
   <programme start="20261114173000 -0300" stop="20261114193000 -0300" channel="0104">
     <title>Orgullo y prejuicio</title>
-    <desc>A fines del Siglo XVIII en Inglaterra, las hermanas Bennet, hijas de una familia sin fortuna, buscan marido. Cuando un soltero rico y su círculo de sofisticados amigos se instalan en una mansión vecina para pasar el verano, las Bennett se entusiasman con la posibilidad de nuevos pretendientes. Pronto el idilio de una de las hermanas se convertirá en una de las clásicas batallas entre los dos sexos jamás descrita.</desc>
+    <desc>Las cinco hermanas Bennet han sido criadas por una madre obsesionada por encontrarles marido. Pero una de ellas, Lizzie, inteligente y con carácter, desea una vida con perspectivas más abiertas, un anhelo respaldado por su padre. Cuando el señor Bingley, un soltero rico, y su círculo de sofisticados amigos se instalan en una mansión vecina para pasar el verano, las Bennett se entusiasman con la posibilidad de encontrar pretendientes. En el baile de bienvenida, Lizzie conoce al apuesto y elegante señor Darcy, pero, a primera vista, le parece demasiado orgulloso y arrogante.</desc>
     <credits>
       <director>Joe Wright</director>
       <actor>Keira Knightley</actor>
@@ -7962,7 +7962,7 @@ No aparece en el programa ningún otro superhéroe de ficción, a excepción  de
     <date>2005</date>
     <category>Drama</category>
     <country>Francia</country>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0104_fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/orgulloyprejuicio.jpg" />
   </programme>
   <programme start="20261114193000 -0300" stop="20261114210000 -0300" channel="0104">
     <title>Masterchef Chile - Lo mejor</title>
@@ -11209,7 +11209,7 @@ Primer plano: interesante, impactante, informativo.</desc>
     <category>Acción</category>
     <country>EE. UU</country>
     <rating><value>B15</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0107_fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/elimplacable.jpg" />
   </programme>
   <programme start="20261115183000 -0300" stop="20261115210000 -0300" channel="0107">
     <title>Lugares que hablan</title>
@@ -17769,32 +17769,198 @@ Primer plano: interesante, impactante, informativo.</desc>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0112_fallback.jpg" />
   </programme>
-  <programme start="20261115060000 -0300" stop="20261115100000 -0300" channel="0112">
-    <title>Vía X</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0112_fallback.jpg" />
+  <programme start="20261115060000 -0300" stop="20261115073000 -0300" channel="0112">
+    <title>Cadena Nacional - Lo mejor</title>
+    <desc>Acompaña junto a Francisco Sagredo con los temas de actualidad que están cambiando al mundo, para entenderla y mirar la realidad de frente.</desc>
+    <credits>
+      <actor>Francisco Sagredo</actor>
+    </credits>
+    <date>2006</date>
+    <category>Debate y Opinión</category>
+    <country>Chile</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/cadenanacionallomejor.jpg" />
   </programme>
-  <programme start="20261115100000 -0300" stop="20261115140000 -0300" channel="0112">
-    <title>Vía X</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0112_fallback.jpg" />
+  <programme start="20261115073000 -0300" stop="20261115090000 -0300" channel="0112">
+    <title>Not News - Lo mejor</title>
+    <desc>El único programa de la televisión chilena que aborda la actualidad con una cuota de humor.</desc>
+    <credits>
+      <actor>Nicolás Larraín</actor>
+    </credits>
+    <date>2023</date>
+    <category>Debate y Opinión</category>
+    <country>Chile</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/notnewslomejor.jpg" />
   </programme>
-  <programme start="20261115140000 -0300" stop="20261115180000 -0300" channel="0112">
-    <title>Vía X</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0112_fallback.jpg" />
+  <programme start="20261115090000 -0300" stop="20261115103000 -0300" channel="0112">
+    <title>Todo va a estar bien - Lo mejor</title>
+    <desc>Un late show junto a grandes invitados que cambiarán tu experiencia televisiva, donde sucede todo lo inesperado.</desc>
+    <credits>
+      <presenter>Mauricio Flores</presenter>
+      <presenter>Rodrigo González</presenter>
+      <presenter>Gigi Martin</presenter>
+      <presenter>Juan Carlos Meléndez</presenter>
+    </credits>
+    <date>2024</date>
+    <category>Entretención</category>
+    <country>Chile</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/todovaaestarbienlomejor.jpg" />
   </programme>
-  <programme start="20261115180000 -0300" stop="20261115220000 -0300" channel="0112">
-    <title>Vía X</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0112_fallback.jpg" />
+  <programme start="20261115103000 -0300" stop="20261115120000 -0300" channel="0112">
+    <title>Cadena Nacional - Lo mejor</title>
+    <desc>Acompaña junto a Francisco Sagredo con los temas de actualidad que están cambiando al mundo, para entenderla y mirar la realidad de frente.</desc>
+    <credits>
+      <actor>Francisco Sagredo</actor>
+    </credits>
+    <date>2006</date>
+    <category>Debate y Opinión</category>
+    <country>Chile</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/cadenanacionallomejor.jpg" />
   </programme>
-  <programme start="20261115220000 -0300" stop="20261116020000 -0300" channel="0112">
-    <title>Vía X</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0112_fallback.jpg" />
+  <programme start="20261115120000 -0300" stop="20261115133000 -0300" channel="0112">
+    <title>Not News - Lo mejor</title>
+    <desc>El único programa de la televisión chilena que aborda la actualidad con una cuota de humor.</desc>
+    <credits>
+      <actor>Nicolás Larraín</actor>
+    </credits>
+    <date>2023</date>
+    <category>Debate y Opinión</category>
+    <country>Chile</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/notnewslomejor.jpg" />
   </programme>
-  <programme start="20261116020000 -0300" stop="20261116060000 -0300" channel="0112">
+  <programme start="20261115133000 -0300" stop="20261115150000 -0300" channel="0112">
+    <title>Todo va a estar bien - Lo mejor</title>
+    <desc>Un late show junto a grandes invitados que cambiarán tu experiencia televisiva, donde sucede todo lo inesperado.</desc>
+    <credits>
+      <presenter>Mauricio Flores</presenter>
+      <presenter>Rodrigo González</presenter>
+      <presenter>Gigi Martin</presenter>
+      <presenter>Juan Carlos Meléndez</presenter>
+    </credits>
+    <date>2024</date>
+    <category>Entretención</category>
+    <country>Chile</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/todovaaestarbienlomejor.jpg" />
+  </programme>
+  <programme start="20261115150000 -0300" stop="20261115163000 -0300" channel="0112">
+    <title>Cadena Nacional - Lo mejor</title>
+    <desc>Acompaña junto a Francisco Sagredo con los temas de actualidad que están cambiando al mundo, para entenderla y mirar la realidad de frente.</desc>
+    <credits>
+      <actor>Francisco Sagredo</actor>
+    </credits>
+    <date>2006</date>
+    <category>Debate y Opinión</category>
+    <country>Chile</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/cadenanacionallomejor.jpg" />
+  </programme>
+  <programme start="20261115163000 -0300" stop="20261115180000 -0300" channel="0112">
+    <title>Not News - Lo mejor</title>
+    <desc>El único programa de la televisión chilena que aborda la actualidad con una cuota de humor.</desc>
+    <credits>
+      <actor>Nicolás Larraín</actor>
+    </credits>
+    <date>2023</date>
+    <category>Debate y Opinión</category>
+    <country>Chile</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/notnewslomejor.jpg" />
+  </programme>
+  <programme start="20261115180000 -0300" stop="20261115193000 -0300" channel="0112">
+    <title>Todo va a estar bien - Lo mejor</title>
+    <desc>Un late show junto a grandes invitados que cambiarán tu experiencia televisiva, donde sucede todo lo inesperado.</desc>
+    <credits>
+      <presenter>Mauricio Flores</presenter>
+      <presenter>Rodrigo González</presenter>
+      <presenter>Gigi Martin</presenter>
+      <presenter>Juan Carlos Meléndez</presenter>
+    </credits>
+    <date>2024</date>
+    <category>Entretención</category>
+    <country>Chile</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/todovaaestarbienlomejor.jpg" />
+  </programme>
+  <programme start="20261115193000 -0300" stop="20261115210000 -0300" channel="0112">
+    <title>Cadena Nacional - Lo mejor</title>
+    <desc>Acompaña junto a Francisco Sagredo con los temas de actualidad que están cambiando al mundo, para entenderla y mirar la realidad de frente.</desc>
+    <credits>
+      <actor>Francisco Sagredo</actor>
+    </credits>
+    <date>2006</date>
+    <category>Debate y Opinión</category>
+    <country>Chile</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/cadenanacionallomejor.jpg" />
+  </programme>
+  <programme start="20261115210000 -0300" stop="20261115223000 -0300" channel="0112">
+    <title>Not News - Lo mejor</title>
+    <desc>El único programa de la televisión chilena que aborda la actualidad con una cuota de humor.</desc>
+    <credits>
+      <actor>Nicolás Larraín</actor>
+    </credits>
+    <date>2023</date>
+    <category>Debate y Opinión</category>
+    <country>Chile</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/notnewslomejor.jpg" />
+  </programme>
+  <programme start="20261115223000 -0300" stop="20261116000000 -0300" channel="0112">
+    <title>Todo va a estar bien - Lo mejor</title>
+    <desc>Un late show junto a grandes invitados que cambiarán tu experiencia televisiva, donde sucede todo lo inesperado.</desc>
+    <credits>
+      <presenter>Mauricio Flores</presenter>
+      <presenter>Rodrigo González</presenter>
+      <presenter>Gigi Martin</presenter>
+      <presenter>Juan Carlos Meléndez</presenter>
+    </credits>
+    <date>2024</date>
+    <category>Entretención</category>
+    <country>Chile</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/todovaaestarbienlomejor.jpg" />
+  </programme>
+  <programme start="20261116000000 -0300" stop="20261116013000 -0300" channel="0112">
+    <title>Not News - Lo mejor</title>
+    <desc>El único programa de la televisión chilena que aborda la actualidad con una cuota de humor.</desc>
+    <credits>
+      <actor>Nicolás Larraín</actor>
+    </credits>
+    <date>2023</date>
+    <category>Debate y Opinión</category>
+    <country>Chile</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/notnewslomejor.jpg" />
+  </programme>
+  <programme start="20261116013000 -0300" stop="20261116030000 -0300" channel="0112">
+    <title>Cadena nacional</title>
+    <desc>Programa informativo que da el espacio para debatir sobre la actualidad que atraviesa a los chilenos junto a invitados y personajes destacados.</desc>
+    <credits>
+      <actor>Francisco Sagredo</actor>
+    </credits>
+    <date>2006</date>
+    <category>Debate y Opinión</category>
+    <country>Chile</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/cadenanacional.jpg" />
+  </programme>
+  <programme start="20261116030000 -0300" stop="20261116043000 -0300" channel="0112">
+    <title>Not news</title>
+    <desc>El único programa de la televisión chilena que aborda la actualidad con una cuota de humor.</desc>
+    <credits>
+      <actor>Nicolás Larraín</actor>
+    </credits>
+    <date>2023</date>
+    <category>Debate y Opinión</category>
+    <country>Chile</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/notnews.jpg" />
+  </programme>
+  <programme start="20261116043000 -0300" stop="20261116053000 -0300" channel="0112">
+    <title>Todo va a estar bien</title>
+    <desc>Late show de charla en el que el conductor busca sorprender a sus invitados así como también a la audiencia. Este programa acompaña y entretiene por la noche con conversaciones con diversas personalidades.</desc>
+    <credits>
+      <presenter>Mauricio Flores</presenter>
+      <presenter>Rodrigo González</presenter>
+      <presenter>Gigi Martin</presenter>
+      <presenter>Juan Carlos Meléndez</presenter>
+    </credits>
+    <date>2024</date>
+    <category>Entretención</category>
+    <country>Chile</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/todovaaestarbien.jpg" />
+  </programme>
+  <programme start="20261116053000 -0300" stop="20261116060000 -0300" channel="0112">
     <title>Vía X</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0112_fallback.jpg" />
@@ -23936,35 +24102,197 @@ Primer plano: interesante, impactante, informativo.</desc>
     <rating><value>14</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/tierraadentro.jpg" />
   </programme>
-  <programme start="20261115060000 -0300" stop="20261115100000 -0300" channel="0117">
-    <title>TVN 3</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0117_fallback.jpg" />
+  <programme start="20261115060000 -0300" stop="20261115071500 -0300" channel="0117">
+    <title>Patiperros</title>
+    <desc>Programa que muestra las historias y experiencias de los chilenos que decidieron emigrar y vivir en distintos países alrededor de los cinco continentes.</desc>
+    <credits>
+      <director>Cristián Leighton</director>
+      <actor>Cristián Leighton</actor>
+      <presenter>Cristián Leighton</presenter>
+    </credits>
+    <date>1998</date>
+    <category>Entretención</category>
+    <country>Chile</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/patiperros.jpg" />
   </programme>
-  <programme start="20261115100000 -0300" stop="20261115140000 -0300" channel="0117">
-    <title>TVN 3</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0117_fallback.jpg" />
+  <programme start="20261115071500 -0300" stop="20261115074500 -0300" channel="0117">
+    <title>31 Minutos</title>
+    <desc>El programa se centra en las aventuras del equipo de un noticiero de poco prestigio, donde siempre ocurre algo inesperado. Sus notas, mientras algunas son bastante ridículas, otras son educativas y dejan un mensaje tanto explícita como implícitamente. El noticiario es conducido por Tulio Triviño.</desc>
+    <credits>
+      <director>Alvaro Díaz</director>
+      <director>Pedro Peirano</director>
+      <actor>Pedro Peirano</actor>
+      <actor>Rodrigo Salinas</actor>
+      <actor>Daniel Castro</actor>
+      <actor>Patricio Díaz</actor>
+      <actor>Alejandra Dueñas</actor>
+      <actor>Francisco Schultz</actor>
+      <actor>Fernando Solís</actor>
+      <actor>Alvaro Díaz</actor>
+    </credits>
+    <date>2003</date>
+    <category>Humorístico</category>
+    <country>Chile</country>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/31minutos.jpg" />
   </programme>
-  <programme start="20261115140000 -0300" stop="20261115180000 -0300" channel="0117">
-    <title>TVN 3</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0117_fallback.jpg" />
+  <programme start="20261115074500 -0300" stop="20261115130000 -0300" channel="0117">
+    <title>Calle 7</title>
+    <desc>Programa de juegos en el que dos equipos se enfrentarán en una serie de divertidos y complejos desafíos.</desc>
+    <credits>
+      <actor>Gianella Marengo</actor>
+      <actor>Laura Prieto</actor>
+      <actor>Francisco Puelles</actor>
+      <actor>Camila Nash</actor>
+      <actor>Valentina Roth</actor>
+      <actor>Nelson Mauricio Pacheco</actor>
+      <actor>Felipe Camus</actor>
+      <presenter>Martín Cárcamo</presenter>
+      <presenter>Karen Doggenweiler</presenter>
+      <presenter>Jean Philippe Cretton</presenter>
+    </credits>
+    <date>2009</date>
+    <category>Entretención</category>
+    <country>Chile</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/calle7.jpg" />
   </programme>
-  <programme start="20261115180000 -0300" stop="20261115220000 -0300" channel="0117">
-    <title>TVN 3</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0117_fallback.jpg" />
+  <programme start="20261115130000 -0300" stop="20261115143000 -0300" channel="0117">
+    <title>El festival de la una</title>
+    <desc>Cantantes, concursos, presentaciones en vivo y mucho más en un clásico de la televisión criolla. El Festival de la una llega junto a Enrique Maluenda y todo su equipo para hacer la tarde más amena.</desc>
+    <credits>
+      <director>René Schneider</director>
+      <presenter>Enrique Maluenda</presenter>
+    </credits>
+    <date>1980</date>
+    <category>Entretención</category>
+    <country>Chile</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/elfestivaldelauna.jpg" />
   </programme>
-  <programme start="20261115220000 -0300" stop="20261116020000 -0300" channel="0117">
-    <title>TVN 3</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0117_fallback.jpg" />
+  <programme start="20261115143000 -0300" stop="20261115150000 -0300" channel="0117">
+    <title>31 Minutos</title>
+    <desc>El programa se centra en las aventuras del equipo de un noticiero de poco prestigio, donde siempre ocurre algo inesperado. Sus notas, mientras algunas son bastante ridículas, otras son educativas y dejan un mensaje tanto explícita como implícitamente. El noticiario es conducido por Tulio Triviño.</desc>
+    <credits>
+      <director>Alvaro Díaz</director>
+      <director>Pedro Peirano</director>
+      <actor>Pedro Peirano</actor>
+      <actor>Rodrigo Salinas</actor>
+      <actor>Daniel Castro</actor>
+      <actor>Patricio Díaz</actor>
+      <actor>Alejandra Dueñas</actor>
+      <actor>Francisco Schultz</actor>
+      <actor>Fernando Solís</actor>
+      <actor>Alvaro Díaz</actor>
+    </credits>
+    <date>2003</date>
+    <category>Humorístico</category>
+    <country>Chile</country>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/31minutos.jpg" />
   </programme>
-  <programme start="20261116020000 -0300" stop="20261116060000 -0300" channel="0117">
-    <title>TVN 3</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0117_fallback.jpg" />
+  <programme start="20261115150000 -0300" stop="20261115170000 -0300" channel="0117">
+    <title>Patiperros</title>
+    <desc>Programa que muestra las historias y experiencias de los chilenos que decidieron emigrar y vivir en distintos países alrededor de los cinco continentes.</desc>
+    <credits>
+      <director>Cristián Leighton</director>
+      <actor>Cristián Leighton</actor>
+      <presenter>Cristián Leighton</presenter>
+    </credits>
+    <date>1998</date>
+    <category>Entretención</category>
+    <country>Chile</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/patiperros.jpg" />
+  </programme>
+  <programme start="20261115170000 -0300" stop="20261115210000 -0300" channel="0117">
+    <title>Aquelarre</title>
+    <desc>Una historia de misterios y amores apasionados que se desarrollan en un mágico ambiente en la zona central de Chile.</desc>
+    <credits>
+      <director>María Eugenia Rencoret</director>
+      <director>Víctor Huerta</director>
+      <actor>Sigrid Alegría</actor>
+      <actor>Álvaro Rudolphy</actor>
+      <actor>Bastián Bodenhöfer</actor>
+      <actor>Coca Guazzini</actor>
+      <actor>Catalina Guerra</actor>
+      <actor>Álvaro Escobar</actor>
+      <actor>Claudia Burr</actor>
+      <actor>Maricarmen Arrigorriaga</actor>
+      <actor>Edgardo Bruna</actor>
+      <actor>Mauricio Pesutic</actor>
+      <actor>Francisco Pérez-Bannen</actor>
+      <actor>Ximena Rivas</actor>
+      <actor>Alejandra Fosalba</actor>
+      <actor>Patricia Rivadeneira</actor>
+      <actor>Yuyuniz Navas</actor>
+      <actor>Paola Volpato</actor>
+      <actor>Yael Unger</actor>
+      <actor>Jaime Vadell</actor>
+      <actor>Anita Reeves</actor>
+    </credits>
+    <date>1999</date>
+    <category>Teleseries</category>
+    <country>Chile</country>
+    <rating><value>R</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/aquelarre.jpg" />
+  </programme>
+  <programme start="20261115210000 -0300" stop="20261115231500 -0300" channel="0117">
+    <title>Mea Culpa</title>
+    <desc>Mea Culpa es un programa de televisión dirigido por el periodista y realizador chileno, Carlos Pinto, el cual recrea casos policiales de alto impacto que han conmocionado al país.</desc>
+    <credits>
+      <director>Carlos Pinto</director>
+      <actor>Carlos Pinto</actor>
+    </credits>
+    <date>1993</date>
+    <category>Series</category>
+    <country>Chile</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/meaculpa.jpg" />
+  </programme>
+  <programme start="20261115231500 -0300" stop="20261116011500 -0300" channel="0117">
+    <title>El día menos pensado</title>
+    <desc>Una producción que recrea historias atribuidas a sucesos paranormales, como encuentros con otras dimensiones y la vida después de la muerte.</desc>
+    <credits>
+      <director>Carlos Pinto</director>
+      <actor>Carlos Pinto</actor>
+    </credits>
+    <date>1999</date>
+    <category>Series</category>
+    <country>Chile</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/eldiamenospensado.jpg" />
+  </programme>
+  <programme start="20261116011500 -0300" stop="20261116050000 -0300" channel="0117">
+    <title>Alguien te mira</title>
+    <desc>Rodrigo vuelve a Chile y se reencuentra con sus antiguos colegas luego de salir escapando del país por razones desconocidas. Mientras que en Santiago, la aparición de un asesino en serie pone de cabeza a la policía y al circulo mas acomodado de la capital... ¿Quien está detrás de los crimines?</desc>
+    <credits>
+      <director>María Eugenia Rencoret</director>
+      <director>Germán Barriga</director>
+      <director>Rodrigo Velásquez</director>
+      <actor>Álvaro Rudolphy</actor>
+      <actor>Francisco Melo</actor>
+      <actor>Francisco Pérez-Bannen</actor>
+      <actor>Sigrid Alegría</actor>
+      <actor>Luz Valdivieso</actor>
+      <actor>Alejandra Fosalba</actor>
+      <actor>Francisca Imboden</actor>
+      <actor>Claudio Arredondo</actor>
+      <actor>Paola Volpato</actor>
+    </credits>
+    <date>2007</date>
+    <category>Otros</category>
+    <country>Chile</country>
+    <rating><value>R</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/alguientemira.jpg" />
+  </programme>
+  <programme start="20261116050000 -0300" stop="20261116060000 -0300" channel="0117">
+    <title>Tierra adentro</title>
+    <desc>Entrevistas a los personajes que mueven las industrias y la economía del Perú.</desc>
+    <credits>
+      <director>Paul Landon</director>
+      <actor>Paul Landon</actor>
+    </credits>
+    <date>1991</date>
+    <category>Cultura</category>
+    <country>Chile</country>
+    <rating><value>14</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/tierraadentro.jpg" />
   </programme>
   <programme start="20261116060000 -0300" stop="20261116100000 -0300" channel="0117">
     <title>TVN 3</title>
@@ -67994,12 +68322,12 @@ Escápate los lleva por rutas desconocidas y les muestra la otra cara de los lug
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0180_fallback.jpg" />
   </programme>
-  <programme start="20261115180000 -0300" stop="20261115220000 -0300" channel="0180">
+  <programme start="20261115180000 -0300" stop="20261115210000 -0300" channel="0180">
     <title>CHV de Culto</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0180_fallback.jpg" />
   </programme>
-  <programme start="20261115220000 -0300" stop="20261116020000 -0300" channel="0180">
+  <programme start="20261115210000 -0300" stop="20261116020000 -0300" channel="0180">
     <title>CHV de Culto</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0180_fallback.jpg" />
@@ -107613,7 +107941,7 @@ Claudia Gurisatti - Jefferson Beltrán - Jason Calderón</desc>
     <rating><value>18</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/transmisionconjunta13.jpg" />
   </programme>
-  <programme start="20261115053000 -0300" stop="20261115063000 -0300" channel="0214">
+  <programme start="20261115053000 -0300" stop="20261115060000 -0300" channel="0214">
     <title>Conversaciones T13</title>
     <desc>Espacio en que profundizan en las noticias y los temas que marcarán la pauta informativa desde una mirada más cercana.</desc>
     <date>2023</date>
@@ -107622,7 +107950,274 @@ Claudia Gurisatti - Jefferson Beltrán - Jason Calderón</desc>
     <rating><value>TE</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/conversacionest13.jpg" />
   </programme>
+  <programme start="20261115060000 -0300" stop="20261115063000 -0300" channel="0214">
+    <title>Informe T13</title>
+    <desc>Las principales informaciones del país.</desc>
+    <date>2019</date>
+    <category>Noticias y Actualidad</category>
+    <rating><value>14</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/informet13.jpg" />
+  </programme>
   <programme start="20261115063000 -0300" stop="20261115070000 -0300" channel="0214">
+    <title>Más 100cia</title>
+    <desc>Programa donde se busca destacar en televisión casos nacionales de emprendimientos científicos.</desc>
+    <credits>
+      <actor>Catalina Palma</actor>
+    </credits>
+    <date>2023</date>
+    <category>Interés General</category>
+    <country>Chile</country>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/mas100cia.jpg" />
+  </programme>
+  <programme start="20261115070000 -0300" stop="20261115080000 -0300" channel="0214">
+    <title>Vive sustentable</title>
+    <desc>Programa de cocina, pero también una experiencia de vida, donde conocemos distintos emprendimientos de nuestro país.</desc>
+    <category>Turismo y Gastronomía</category>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/vivesustentable.jpg" />
+  </programme>
+  <programme start="20261115080000 -0300" stop="20261115090000 -0300" channel="0214">
+    <title>City tour</title>
+    <desc>Un recorrido por distintas calles de Chile para enseñar a apreciar la arquitectura patrimonial, el diseño, urbanismo y cultura popular, en forma amena y coloquial.</desc>
+    <credits>
+      <director>Federico Sánchez</director>
+      <director>Pablo Ampuero</director>
+      <actor>Marcelo Comparini</actor>
+      <actor>Federico Sánchez</actor>
+      <presenter>Federico Sánchez</presenter>
+      <presenter>Marcelo Comparini</presenter>
+    </credits>
+    <date>2009</date>
+    <category>Entretención</category>
+    <country>Chile</country>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/citytour.jpg" />
+  </programme>
+  <programme start="20261115090000 -0300" stop="20261115103000 -0300" channel="0214">
+    <title>Teletrece a la hora</title>
+    <desc>Un espacio que ofrece toda la información actual de lo que ocurre a nivel nacional e internacional.</desc>
+    <credits>
+      <actor>Chantal Aguilar</actor>
+      <actor>Polo Ramírez</actor>
+    </credits>
+    <date>2020</date>
+    <category>Noticias y Actualidad</category>
+    <country>Chile</country>
+    <rating><value>14</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/teletrecealahora.jpg" />
+  </programme>
+  <programme start="20261115103000 -0300" stop="20261115123000 -0300" channel="0214">
+    <title>Mesa central</title>
+    <desc>Una propuesta que busca generar conversaciones a través del análisis de la contingencia, entrevistas, un rat pack con reporteros que aportarán información dura y golpeadora, y un panel de debate y conversación.</desc>
+    <credits>
+      <actor>Iván Valenzuela</actor>
+    </credits>
+    <date>2018</date>
+    <category>Debate y Opinión</category>
+    <country>Chile</country>
+    <rating><value>14</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/mesacentral.jpg" />
+  </programme>
+  <programme start="20261115123000 -0300" stop="20261115143000 -0300" channel="0214">
+    <title>Teletrece tarde</title>
+    <desc>Cuando ya ha terminado la mañana, este informativo presenta las informaciones más importantes que están en desarrollo, con móviles en directo y comentarios que dan más contexto a la jornada.</desc>
+    <credits>
+      <actor>Mónica Pérez</actor>
+      <actor>Iván Valenzuela</actor>
+      <presenter>Consuelo Saavedra</presenter>
+      <presenter>Iván Valenzuela</presenter>
+    </credits>
+    <date>2011</date>
+    <category>Noticias y Actualidad</category>
+    <country>Chile</country>
+    <rating><value>14</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/teletrecetarde.jpg" />
+  </programme>
+  <programme start="20261115143000 -0300" stop="20261115150000 -0300" channel="0214">
+    <title>Sin intereses</title>
+    <desc>En una conversación deslenguada, nuestros invitados nos cuentan sus aciertos y errores financieros ¿cuál es el tuyo?</desc>
+    <date>2026</date>
+    <category>Interés General</category>
+    <country>Chile</country>
+    <rating><value>18</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/sinintereses.jpg" />
+  </programme>
+  <programme start="20261115150000 -0300" stop="20261115153000 -0300" channel="0214">
+    <title>Emprendedores T13</title>
+    <desc>Espacio de noticias vinculadas con el emprendimiento, postulaciones y tips asociados con la innovación y las Pymes.</desc>
+    <date>2023</date>
+    <category>Interés General</category>
+    <country>Chile</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/emprendedorest13.jpg" />
+  </programme>
+  <programme start="20261115153000 -0300" stop="20261115160000 -0300" channel="0214">
+    <title>Conexión Europa</title>
+    <desc>Es un ciclo de entrevistas contingentes de economía, educación y cultural entre Chile y la Unión Europea conducido por Cristina González.</desc>
+    <credits>
+      <actor>Cristina González</actor>
+    </credits>
+    <date>2026</date>
+    <category>Interés General</category>
+    <country>Chile</country>
+    <rating><value>14</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/conexioneuropa.jpg" />
+  </programme>
+  <programme start="20261115160000 -0300" stop="20261115180000 -0300" channel="0214">
+    <title>Informe T13</title>
+    <desc>Las principales informaciones del país.</desc>
+    <date>2019</date>
+    <category>Noticias y Actualidad</category>
+    <rating><value>14</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/informet13.jpg" />
+  </programme>
+  <programme start="20261115180000 -0300" stop="20261115190000 -0300" channel="0214">
+    <title>Micrófono abierto</title>
+    <desc>Programa deportivo en vivo y en directo, donde hablamos de todo el acontecer nacional e internacional deportivo y con entrevistas a destacados personajes de todo ámbito.</desc>
+    <date>2023</date>
+    <category>Deportes</category>
+    <country>Chile</country>
+    <rating><value>18</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/microfonoabierto.jpg" />
+  </programme>
+  <programme start="20261115190000 -0300" stop="20261115193000 -0300" channel="0214">
+    <title>Mercado en vivo</title>
+    <desc>Programa que informa al público sobre las noticias económicas que se producen en Chile.</desc>
+    <credits>
+      <actor>Cristian Pino</actor>
+    </credits>
+    <date>2023</date>
+    <category>Interés General</category>
+    <country>Chile</country>
+    <rating><value>14</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/mercadoenvivo.jpg" />
+  </programme>
+  <programme start="20261115193000 -0300" stop="20261115200000 -0300" channel="0214">
+    <title>El Mundo Hoy</title>
+    <desc>El periodista, cientista político y analista internacional, Libardo Buitrago, profundiza en la realidad que viven otros países, sus crisis y cómo pueden afectar el escenario mundial.</desc>
+    <credits>
+      <presenter>Libardo Buitrago</presenter>
+    </credits>
+    <date>2023</date>
+    <category>Noticias y Actualidad</category>
+    <country>Chile</country>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/elmundohoy.jpg" />
+  </programme>
+  <programme start="20261115200000 -0300" stop="20261115210000 -0300" channel="0214">
+    <title>Reportajes T13</title>
+    <desc>Los mejores y más interesantes reportajes de la actualidad nacional e internacional.</desc>
+    <date>2026</date>
+    <category>Noticias y Actualidad</category>
+    <country>Chile</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/reportajest13.jpg" />
+  </programme>
+  <programme start="20261115210000 -0300" stop="20261115224000 -0300" channel="0214">
+    <title>Teletrece central</title>
+    <desc>El informativo central de Canal 13 entrega cada noche una mirada panorámica de la actualidad noticiosa de Chile y el mundo, con notas en profundidad y reportajes que dan cuenta del amplio despliegue informativo.</desc>
+    <credits>
+      <actor>Ramón Ulloa</actor>
+      <actor>Soledad Onetto</actor>
+      <presenter>Soledad Onetto</presenter>
+      <presenter>Ramón Ulloa</presenter>
+    </credits>
+    <date>1970</date>
+    <category>Noticias y Actualidad</category>
+    <country>Chile</country>
+    <rating><value>14</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/teletrececentral.jpg" />
+  </programme>
+  <programme start="20261115224000 -0300" stop="20261115225000 -0300" channel="0214">
+    <title>El tiempo</title>
+    <desc>Presentación de la información sobre el pronóstico meteorológico de todas las provincias a nivel nacional.</desc>
+    <credits>
+      <actor>Carolina Infante</actor>
+      <actor>Macarena Sánchez</actor>
+      <actor>Gianfranco Marcone</actor>
+      <presenter>Albert Barniol</presenter>
+      <presenter>Mónica López</presenter>
+    </credits>
+    <date>1992</date>
+    <category>Clima</category>
+    <country>Chile</country>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0214_eltiempo.jpg" />
+  </programme>
+  <programme start="20261115225000 -0300" stop="20261116010000 -0300" channel="0214">
+    <title>Mesa central</title>
+    <desc>Una propuesta que busca generar conversaciones a través del análisis de la contingencia, entrevistas, un rat pack con reporteros que aportarán información dura y golpeadora, y un panel de debate y conversación.</desc>
+    <credits>
+      <actor>Iván Valenzuela</actor>
+    </credits>
+    <date>2018</date>
+    <category>Debate y Opinión</category>
+    <country>Chile</country>
+    <rating><value>14</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/mesacentral.jpg" />
+  </programme>
+  <programme start="20261116010000 -0300" stop="20261116020000 -0300" channel="0214">
+    <title>Reportajes T13</title>
+    <desc>Los mejores y más interesantes reportajes de la actualidad nacional e internacional.</desc>
+    <date>2026</date>
+    <category>Noticias y Actualidad</category>
+    <country>Chile</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/reportajest13.jpg" />
+  </programme>
+  <programme start="20261116020000 -0300" stop="20261116023000 -0300" channel="0214">
+    <title>Conversaciones T13</title>
+    <desc>Espacio en que profundizan en las noticias y los temas que marcarán la pauta informativa desde una mirada más cercana.</desc>
+    <date>2023</date>
+    <category>Noticias y Actualidad</category>
+    <country>Chile</country>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/conversacionest13.jpg" />
+  </programme>
+  <programme start="20261116023000 -0300" stop="20261116033000 -0300" channel="0214">
+    <title>Vive sustentable</title>
+    <desc>Programa de cocina, pero también una experiencia de vida, donde conocemos distintos emprendimientos de nuestro país.</desc>
+    <category>Turismo y Gastronomía</category>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/vivesustentable.jpg" />
+  </programme>
+  <programme start="20261116033000 -0300" stop="20261116040000 -0300" channel="0214">
+    <title>Conversaciones T13</title>
+    <desc>Espacio en que profundizan en las noticias y los temas que marcarán la pauta informativa desde una mirada más cercana.</desc>
+    <date>2023</date>
+    <category>Noticias y Actualidad</category>
+    <country>Chile</country>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/conversacionest13.jpg" />
+  </programme>
+  <programme start="20261116040000 -0300" stop="20261116044000 -0300" channel="0214">
+    <title>Informe T13</title>
+    <desc>Las principales informaciones del país.</desc>
+    <date>2019</date>
+    <category>Noticias y Actualidad</category>
+    <rating><value>14</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/informet13.jpg" />
+  </programme>
+  <programme start="20261116044000 -0300" stop="20261116050000 -0300" channel="0214">
+    <title>Conversaciones T13</title>
+    <desc>Espacio en que profundizan en las noticias y los temas que marcarán la pauta informativa desde una mirada más cercana.</desc>
+    <date>2023</date>
+    <category>Noticias y Actualidad</category>
+    <country>Chile</country>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/conversacionest13.jpg" />
+  </programme>
+  <programme start="20261116050000 -0300" stop="20261116060000 -0300" channel="0214">
+    <title>3x3</title>
+    <desc>Programa infomativo chileno para arrancar las mañanas actualizado que se presenta en un formato libre y distendido. 45 minutos de noticias y diversión para despertarse con buen humor y acompañar los desayunos de una forma distinta.</desc>
+    <credits>
+      <director>Nuno Rocha</director>
+      <actor>Luis Marambio</actor>
+      <actor>Camila Espinoza</actor>
+      <presenter>Simón Valdebenito</presenter>
+    </credits>
+    <date>2005</date>
+    <category>Noticias y Actualidad</category>
+    <country>Chile</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/3x3.jpg" />
+  </programme>
+  <programme start="20261116060000 -0300" stop="20261116100000 -0300" channel="0214">
     <title>T13 en vivo</title>
     <desc>Ponte al día con las noticias más relevantes de la actualidad.</desc>
     <date>2026</date>
@@ -107630,7 +108225,7 @@ Claudia Gurisatti - Jefferson Beltrán - Jason Calderón</desc>
     <country>Chile</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/t13envivo.jpg" />
   </programme>
-  <programme start="20261115070000 -0300" stop="20261115110000 -0300" channel="0214">
+  <programme start="20261116100000 -0300" stop="20261116140000 -0300" channel="0214">
     <title>T13 en vivo</title>
     <desc>Ponte al día con las noticias más relevantes de la actualidad.</desc>
     <date>2026</date>
@@ -107638,7 +108233,7 @@ Claudia Gurisatti - Jefferson Beltrán - Jason Calderón</desc>
     <country>Chile</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/t13envivo.jpg" />
   </programme>
-  <programme start="20261115110000 -0300" stop="20261115150000 -0300" channel="0214">
+  <programme start="20261116140000 -0300" stop="20261116180000 -0300" channel="0214">
     <title>T13 en vivo</title>
     <desc>Ponte al día con las noticias más relevantes de la actualidad.</desc>
     <date>2026</date>
@@ -107646,7 +108241,7 @@ Claudia Gurisatti - Jefferson Beltrán - Jason Calderón</desc>
     <country>Chile</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/t13envivo.jpg" />
   </programme>
-  <programme start="20261115150000 -0300" stop="20261115190000 -0300" channel="0214">
+  <programme start="20261116180000 -0300" stop="20261116220000 -0300" channel="0214">
     <title>T13 en vivo</title>
     <desc>Ponte al día con las noticias más relevantes de la actualidad.</desc>
     <date>2026</date>
@@ -107654,7 +108249,7 @@ Claudia Gurisatti - Jefferson Beltrán - Jason Calderón</desc>
     <country>Chile</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/t13envivo.jpg" />
   </programme>
-  <programme start="20261115190000 -0300" stop="20261115230000 -0300" channel="0214">
+  <programme start="20261116220000 -0300" stop="20261117020000 -0300" channel="0214">
     <title>T13 en vivo</title>
     <desc>Ponte al día con las noticias más relevantes de la actualidad.</desc>
     <date>2026</date>
@@ -107662,7 +108257,7 @@ Claudia Gurisatti - Jefferson Beltrán - Jason Calderón</desc>
     <country>Chile</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/t13envivo.jpg" />
   </programme>
-  <programme start="20261115230000 -0300" stop="20261116030000 -0300" channel="0214">
+  <programme start="20261117020000 -0300" stop="20261117060000 -0300" channel="0214">
     <title>T13 en vivo</title>
     <desc>Ponte al día con las noticias más relevantes de la actualidad.</desc>
     <date>2026</date>
@@ -107670,7 +108265,7 @@ Claudia Gurisatti - Jefferson Beltrán - Jason Calderón</desc>
     <country>Chile</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/t13envivo.jpg" />
   </programme>
-  <programme start="20261116030000 -0300" stop="20261116070000 -0300" channel="0214">
+  <programme start="20261117060000 -0300" stop="20261117100000 -0300" channel="0214">
     <title>T13 en vivo</title>
     <desc>Ponte al día con las noticias más relevantes de la actualidad.</desc>
     <date>2026</date>
@@ -107678,7 +108273,7 @@ Claudia Gurisatti - Jefferson Beltrán - Jason Calderón</desc>
     <country>Chile</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/t13envivo.jpg" />
   </programme>
-  <programme start="20261116070000 -0300" stop="20261116110000 -0300" channel="0214">
+  <programme start="20261117100000 -0300" stop="20261117140000 -0300" channel="0214">
     <title>T13 en vivo</title>
     <desc>Ponte al día con las noticias más relevantes de la actualidad.</desc>
     <date>2026</date>
@@ -107686,7 +108281,7 @@ Claudia Gurisatti - Jefferson Beltrán - Jason Calderón</desc>
     <country>Chile</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/t13envivo.jpg" />
   </programme>
-  <programme start="20261116110000 -0300" stop="20261116150000 -0300" channel="0214">
+  <programme start="20261117140000 -0300" stop="20261117180000 -0300" channel="0214">
     <title>T13 en vivo</title>
     <desc>Ponte al día con las noticias más relevantes de la actualidad.</desc>
     <date>2026</date>
@@ -107694,7 +108289,7 @@ Claudia Gurisatti - Jefferson Beltrán - Jason Calderón</desc>
     <country>Chile</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/t13envivo.jpg" />
   </programme>
-  <programme start="20261116150000 -0300" stop="20261116190000 -0300" channel="0214">
+  <programme start="20261117180000 -0300" stop="20261117220000 -0300" channel="0214">
     <title>T13 en vivo</title>
     <desc>Ponte al día con las noticias más relevantes de la actualidad.</desc>
     <date>2026</date>
@@ -107702,7 +108297,7 @@ Claudia Gurisatti - Jefferson Beltrán - Jason Calderón</desc>
     <country>Chile</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/t13envivo.jpg" />
   </programme>
-  <programme start="20261116190000 -0300" stop="20261116230000 -0300" channel="0214">
+  <programme start="20261117220000 -0300" stop="20261118020000 -0300" channel="0214">
     <title>T13 en vivo</title>
     <desc>Ponte al día con las noticias más relevantes de la actualidad.</desc>
     <date>2026</date>
@@ -107710,7 +108305,7 @@ Claudia Gurisatti - Jefferson Beltrán - Jason Calderón</desc>
     <country>Chile</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/t13envivo.jpg" />
   </programme>
-  <programme start="20261116230000 -0300" stop="20261117030000 -0300" channel="0214">
+  <programme start="20261118020000 -0300" stop="20261118060000 -0300" channel="0214">
     <title>T13 en vivo</title>
     <desc>Ponte al día con las noticias más relevantes de la actualidad.</desc>
     <date>2026</date>
@@ -107718,7 +108313,7 @@ Claudia Gurisatti - Jefferson Beltrán - Jason Calderón</desc>
     <country>Chile</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/t13envivo.jpg" />
   </programme>
-  <programme start="20261117030000 -0300" stop="20261117070000 -0300" channel="0214">
+  <programme start="20261118060000 -0300" stop="20261118100000 -0300" channel="0214">
     <title>T13 en vivo</title>
     <desc>Ponte al día con las noticias más relevantes de la actualidad.</desc>
     <date>2026</date>
@@ -107726,7 +108321,7 @@ Claudia Gurisatti - Jefferson Beltrán - Jason Calderón</desc>
     <country>Chile</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/t13envivo.jpg" />
   </programme>
-  <programme start="20261117070000 -0300" stop="20261117110000 -0300" channel="0214">
+  <programme start="20261118100000 -0300" stop="20261118140000 -0300" channel="0214">
     <title>T13 en vivo</title>
     <desc>Ponte al día con las noticias más relevantes de la actualidad.</desc>
     <date>2026</date>
@@ -107734,7 +108329,7 @@ Claudia Gurisatti - Jefferson Beltrán - Jason Calderón</desc>
     <country>Chile</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/t13envivo.jpg" />
   </programme>
-  <programme start="20261117110000 -0300" stop="20261117150000 -0300" channel="0214">
+  <programme start="20261118140000 -0300" stop="20261118180000 -0300" channel="0214">
     <title>T13 en vivo</title>
     <desc>Ponte al día con las noticias más relevantes de la actualidad.</desc>
     <date>2026</date>
@@ -107742,7 +108337,7 @@ Claudia Gurisatti - Jefferson Beltrán - Jason Calderón</desc>
     <country>Chile</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/t13envivo.jpg" />
   </programme>
-  <programme start="20261117150000 -0300" stop="20261117190000 -0300" channel="0214">
+  <programme start="20261118180000 -0300" stop="20261118220000 -0300" channel="0214">
     <title>T13 en vivo</title>
     <desc>Ponte al día con las noticias más relevantes de la actualidad.</desc>
     <date>2026</date>
@@ -107750,63 +108345,7 @@ Claudia Gurisatti - Jefferson Beltrán - Jason Calderón</desc>
     <country>Chile</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/t13envivo.jpg" />
   </programme>
-  <programme start="20261117190000 -0300" stop="20261117230000 -0300" channel="0214">
-    <title>T13 en vivo</title>
-    <desc>Ponte al día con las noticias más relevantes de la actualidad.</desc>
-    <date>2026</date>
-    <category>Noticiero</category>
-    <country>Chile</country>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/t13envivo.jpg" />
-  </programme>
-  <programme start="20261117230000 -0300" stop="20261118030000 -0300" channel="0214">
-    <title>T13 en vivo</title>
-    <desc>Ponte al día con las noticias más relevantes de la actualidad.</desc>
-    <date>2026</date>
-    <category>Noticiero</category>
-    <country>Chile</country>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/t13envivo.jpg" />
-  </programme>
-  <programme start="20261118030000 -0300" stop="20261118070000 -0300" channel="0214">
-    <title>T13 en vivo</title>
-    <desc>Ponte al día con las noticias más relevantes de la actualidad.</desc>
-    <date>2026</date>
-    <category>Noticiero</category>
-    <country>Chile</country>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/t13envivo.jpg" />
-  </programme>
-  <programme start="20261118070000 -0300" stop="20261118110000 -0300" channel="0214">
-    <title>T13 en vivo</title>
-    <desc>Ponte al día con las noticias más relevantes de la actualidad.</desc>
-    <date>2026</date>
-    <category>Noticiero</category>
-    <country>Chile</country>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/t13envivo.jpg" />
-  </programme>
-  <programme start="20261118110000 -0300" stop="20261118150000 -0300" channel="0214">
-    <title>T13 en vivo</title>
-    <desc>Ponte al día con las noticias más relevantes de la actualidad.</desc>
-    <date>2026</date>
-    <category>Noticiero</category>
-    <country>Chile</country>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/t13envivo.jpg" />
-  </programme>
-  <programme start="20261118150000 -0300" stop="20261118190000 -0300" channel="0214">
-    <title>T13 en vivo</title>
-    <desc>Ponte al día con las noticias más relevantes de la actualidad.</desc>
-    <date>2026</date>
-    <category>Noticiero</category>
-    <country>Chile</country>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/t13envivo.jpg" />
-  </programme>
-  <programme start="20261118190000 -0300" stop="20261118230000 -0300" channel="0214">
-    <title>T13 en vivo</title>
-    <desc>Ponte al día con las noticias más relevantes de la actualidad.</desc>
-    <date>2026</date>
-    <category>Noticiero</category>
-    <country>Chile</country>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/t13envivo.jpg" />
-  </programme>
-  <programme start="20261118230000 -0300" stop="20261118235959 -0300" channel="0214">
+  <programme start="20261118220000 -0300" stop="20261118235959 -0300" channel="0214">
     <title>T13 en vivo</title>
     <desc>Ponte al día con las noticias más relevantes de la actualidad.</desc>
     <date>2026</date>
@@ -530577,7 +531116,7 @@ Jorge (Raúl Arévalo) se imaginaba a su edad casado por la iglesia, con hijos y
   </programme>
   <programme start="20261115085500 -0300" stop="20261115105500 -0300" channel="0622">
     <title>La novia vestía de negro</title>
-    <desc>Una joven viuda deja su pueblo natal para vengar la muerte de su esposo. Cautelosa, sigue la pista de los 5 hombres que ella cree intervinieron en el crimen. La duda se cierne sobre esa elección.</desc>
+    <desc>Al salir de la iglesia tras su boda, Julie Kohler ve cómo su marido es abatido a tiros. Decidida a vengar su muerte, emprende la búsqueda de los responsables y los va matando uno tras otro...</desc>
     <credits>
       <director>François Truffaut</director>
       <actor>Jeanne Moreau</actor>
@@ -530587,7 +531126,7 @@ Jorge (Raúl Arévalo) se imaginaba a su edad casado por la iglesia, con hijos y
     <date>1968</date>
     <category>Drama</category>
     <country>Francia</country>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/lanoviavestiadenegro.jpg" />
   </programme>
   <programme start="20261115105500 -0300" stop="20261115130500 -0300" channel="0622">
     <title>Polvo de estrellas</title>
@@ -681407,9 +681946,22 @@ Hank en su nueva vida tendrá como acompañantes a su hermano, quien ve tener un
   <programme start="20261113030600 -0300" stop="20261113045200 -0300" channel="0807">
     <title>Casablanca</title>
     <desc>En Marruecos, el dueño de un café ayuda a su exnovia y a su marido a escapar de los nazis.</desc>
+    <credits>
+      <director>Michael Curtiz</director>
+      <actor>Humphrey Bogart</actor>
+      <actor>Ingrid Bergman</actor>
+      <actor>Paul Henreid</actor>
+      <actor>Claude Rains</actor>
+      <actor>Conrad Veidt</actor>
+      <actor>Sydney Greenstreet</actor>
+      <actor>Peter Lorre</actor>
+      <actor>S.Z. Sakall</actor>
+    </credits>
+    <date>1943</date>
     <category>Drama</category>
+    <country>Estados Unidos</country>
     <rating><value>PG</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/casablanca.jpg" />
   </programme>
   <programme start="20261113045200 -0300" stop="20261113055200 -0300" channel="0807">
     <title>Hollywood One on One</title>
@@ -767633,7 +768185,7 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
     <category>Acción</category>
     <country>EE. UU</country>
     <rating><value>B15</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/elimplacable.jpg" />
   </programme>
   <programme start="20261116121200 -0300" stop="20261116155500 -0300" channel="0829">
     <title>Batman</title>
@@ -771811,7 +772363,7 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
     <category>Crime drama</category>
     <country>EE. UU</country>
     <rating><value>B15</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/elimplacable.jpg" />
   </programme>
   <programme start="20261116155600 -0300" stop="20261116185900 -0300" channel="3829">
     <title>Batman</title>
@@ -772272,7 +772824,7 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
     <category>Crime drama</category>
     <country>EE. UU</country>
     <rating><value>B15</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/elimplacable.jpg" />
   </programme>
   <programme start="20261117134500 -0300" stop="20261117154400 -0300" channel="3829">
     <title>Una noche para sobrevivir</title>
@@ -817424,7 +817976,7 @@ No aparece en el programa ningún otro superhéroe de ficción, a excepción  de
     <category>Drama</category>
     <country>Argentina</country>
     <rating><value>3.9</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/propiedadprivada.jpg" />
   </programme>
   <programme start="20261115021500 -0300" stop="20261115040000 -0300" channel="0839">
     <title>El hijo de Satanás</title>
@@ -898583,7 +899135,7 @@ Serie italiana protagonizada por el inolvidable compañero de aventuras de Bud S
     <category>Feature Film • 1987</category>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261112223600 -0300" stop="20261113071300 -0300" channel="0863">
+  <programme start="20261112223600 -0300" stop="20261113112700 -0300" channel="0863">
     <title>Scream</title>
     <desc>Lo que comienza como un vídeo viral de YouTube, pronto conduce a problemas para los adolescentes de Lakewood y sirve como catalizador para un asesinato que abre una ventana al turbulento pasado de la ciudad.</desc>
     <credits>
@@ -898603,36 +899155,6 @@ Serie italiana protagonizada por el inolvidable compañero de aventuras de Bud S
     <category>Feature Film • 1996</category>
     <country>EE. UU</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/scream.jpg" />
-  </programme>
-  <programme start="20261113071300 -0300" stop="20261113092000 -0300" channel="0863">
-    <title>Batman</title>
-    <desc>Batman es una serie televisiva exhibida entre 1966 y 1968 en el canal estadounidense ABC, con un total de 120 episodios.
-
-La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y su ayudante Robin (Burt Ward) en Gotham City. La identidad secreta de Batman es la del elegante «filántropo millonario» Bruce Wayne (Bruno Díaz, en la versión traducida en México), que vivía en las afueras de la ciudad en la Mansión Wayne, con su joven pupilo Dick Grayson (Ricardo Tapia, en México), también conocido como Robin (Burt Ward), su fiel mayordomo Alfred (Alan Napier), y la tía Harriet Cooper (Madge Blake). Ayudaban a Batman: Batgirl (Yvonne Craig), el comisario de policía Gordon (Neil Hamilton), y el jefe de policía O&#x27;Hara (Stafford Repp).</desc>
-    <credits>
-      <director>Matt Reeves</director>
-      <actor>Robert Pattinson</actor>
-      <actor>Zöe Kravitz</actor>
-      <actor>Jeffrey Wright</actor>
-      <actor>Paul Dano</actor>
-      <actor>Colin Farrell</actor>
-      <actor>Peter Sarsgaard</actor>
-      <actor>Barry Keoghan</actor>
-      <actor>Andy Serkis</actor>
-      <actor>Jayme Lawson</actor>
-      <actor>John Turturro</actor>
-    </credits>
-    <date>2022</date>
-    <category>Feature Film • 1989</category>
-    <country>EE. UU</country>
-    <rating><value>B</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/batman.jpg" />
-  </programme>
-  <programme start="20261113092000 -0300" stop="20261113112700 -0300" channel="0863">
-    <title>Batman Returns</title>
-    <desc>Feature Film • 1992. Caped Crusader (Michael Keaton) vs. Penguin (Danny DeVito) and Catwoman (Michelle Pfeiffer).</desc>
-    <category>Feature Film • 1992</category>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261113112700 -0300" stop="20261113132900 -0300" channel="0863">
     <title>Batman Forever</title>
@@ -899552,7 +900074,7 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261112214300 -0300" stop="20261113065700 -0300" channel="0864">
+  <programme start="20261112214300 -0300" stop="20261113095600 -0300" channel="0864">
     <title>Joker: Folie à Deux</title>
     <desc>Tras crear el caos, Arthur Fleck ha sido internado en Arkham a la espera de juicio por sus crímenes como Joker. Mientras lidia con su doble identidad, Arthur no sólo se topa con el amor verdadero, sino que también descubre la música que siempre ha estado dentro de él.</desc>
     <credits>
@@ -899570,61 +900092,6 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
     <category>Feature Film • 2024</category>
     <country>Estados Unidos</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/jokerfoliedeux.jpg" />
-  </programme>
-  <programme start="20261113065700 -0300" stop="20261113083400 -0300" channel="0864">
-    <title>Godzilla</title>
-    <desc>Las pruebas nucleares realizadas por los franceses en el Pacífico originan la aparición en el océano de un reptil mutante, de enormes dimensiones, localizado tras el ataque a un barco pescador japonés. Sin embargo, la criatura no se va a limitar a vivir en el agua: Godzilla se dirige con rumbo fijo a Nueva York, en cuyas calles causará el pánico.</desc>
-    <credits>
-      <director>Roland Emmerich</director>
-      <actor>Matthew Broderick</actor>
-      <actor>Jean Reno</actor>
-      <actor>Maria Pitillo</actor>
-      <actor>Hank Azaria</actor>
-      <actor>Kevin Dunn</actor>
-      <actor>Michael Lerner</actor>
-      <actor>Harry Shearer</actor>
-      <actor>Arabella Field</actor>
-      <actor>Vicki Lewis</actor>
-      <actor>Doug Savant</actor>
-      <actor>Malcolm Danare</actor>
-      <actor>Lorry Goldman</actor>
-      <actor>David Arnold</actor>
-      <actor>Ueli Steiger</actor>
-      <actor>Peter Amundson</actor>
-      <actor>David Siegel</actor>
-      <actor>David Bloch</actor>
-      <actor>April Webster</actor>
-      <actor>Paula Rosenberg</actor>
-      <actor>Oliver Scholl</actor>
-      <actor>Oana Bogdan</actor>
-      <actor>William Ladd Skinner</actor>
-      <actor>Robert Woodruff</actor>
-      <actor>Victor J. Zolfo</actor>
-      <actor>Joseph A. Porro</actor>
-    </credits>
-    <date>1998</date>
-    <category>Feature Film • 1956</category>
-    <country>Estados Unidos</country>
-    <rating><value>B</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/godzilla.jpg" />
-  </programme>
-  <programme start="20261113083400 -0300" stop="20261113095600 -0300" channel="0864">
-    <title>Godzilla, King of the Monsters!</title>
-    <desc>Feature Film • 1956. U.S. newsman (Raymond Burr) in Tokyo recalls big dinosaur roused by nuke blast.</desc>
-    <credits>
-      <actor>中島春雄</actor>
-      <actor>Akira Ifukube</actor>
-      <actor>福田純</actor>
-      <actor>湯浅憲明</actor>
-      <actor>薩摩剣八郎</actor>
-      <actor>Roland Emmerich</actor>
-      <actor>Alex Cox</actor>
-      <actor>Dean Devlin</actor>
-    </credits>
-    <date>1998</date>
-    <category>Feature Film • 1956</category>
-    <country>Reino Unido</country>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/godzillakingofthemonsters.jpg" />
   </programme>
   <programme start="20261113095600 -0300" stop="20261113111800 -0300" channel="0864">
     <title>Godzilla Raids Again</title>
@@ -900542,38 +901009,10 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261112220100 -0300" stop="20261113061400 -0300" channel="0865">
+  <programme start="20261112220100 -0300" stop="20261113101300 -0300" channel="0865">
     <title>Shazam! Fury of the Gods</title>
     <desc>Feature Film • 2023. Shazam and his allies must save the world from a vengeful trio of ancient gods.</desc>
     <category>Feature Film • 2023</category>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
-  </programme>
-  <programme start="20261113061400 -0300" stop="20261113080000 -0300" channel="0865">
-    <title>DC League of Super-Pets</title>
-    <desc>Feature Film • 2022. Krypto the Super-Dog and a ragtag group of animals must save Superman and the Justice League.</desc>
-    <credits>
-      <director>Jared Stern</director>
-      <director>Sam J Levine</director>
-      <actor>Dwayne Johnson</actor>
-      <actor>Kevin Hart</actor>
-      <actor>Kate McKinnon</actor>
-      <actor>Vanessa Bayer</actor>
-      <actor>Diego Luna</actor>
-      <actor>Keanu Reeves</actor>
-      <actor>John Krasinski</actor>
-      <actor>Thomas Middleditch</actor>
-      <actor>Ben Schwartz</actor>
-      <actor>Marc Maron</actor>
-    </credits>
-    <date>2022</date>
-    <category>Feature Film • 2022</category>
-    <country>EE. UU</country>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
-  </programme>
-  <programme start="20261113080000 -0300" stop="20261113101300 -0300" channel="0865">
-    <title>Miss Sloane</title>
-    <desc>Feature Film • 2016. A lobbyist makes powerful new enemies by supporting a bill that imposes regulations on firearms.</desc>
-    <category>Feature Film • 2016</category>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261113101300 -0300" stop="20261113121800 -0300" channel="0865">
@@ -928431,7 +928870,7 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
     <category>Interés general</category>
     <country>Argentina</country>
     <rating><value>3.9</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/propiedadprivada.jpg" />
   </programme>
   <programme start="20261113173000 -0300" stop="20261113180000 -0300" channel="0918">
     <title>Café financiero</title>
@@ -929465,7 +929904,7 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
     <category>Interés general</category>
     <country>Argentina</country>
     <rating><value>3.9</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/propiedadprivada.jpg" />
   </programme>
   <programme start="20261115183000 -0300" stop="20261115190000 -0300" channel="0918">
     <title>Autoexecutive</title>
@@ -929990,7 +930429,7 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
     <category>Interés general</category>
     <country>Argentina</country>
     <rating><value>3.9</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/propiedadprivada.jpg" />
   </programme>
   <programme start="20261116203000 -0300" stop="20261116210000 -0300" channel="0918">
     <title>Industria Argentina P.E.M</title>
@@ -951344,162 +951783,206 @@ El cambio climático y la pérdida de biodiversidad exigen una nueva forma de ec
     <category>drama</category>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261114012800 -0300" stop="20261114022800 -0300" channel="0967">
+  <programme start="20261114012800 -0300" stop="20261114021400 -0300" channel="0967">
     <title>La magia de Sofía- Episodio 25</title>
     <desc>Sofía enfrenta lo desconocido y, Entre cuentos y fantasía, Sofía busca respuestas simples a la vida compleja que los adultos parecen complicar siempre.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261114022800 -0300" stop="20261114030000 -0300" channel="0967">
+  <programme start="20261114021400 -0300" stop="20261114025900 -0300" channel="0967">
+    <title>La magia de Sofía- Episodio 26</title>
+    <desc>Sofía enfrenta lo desconocido y, Entre cuentos y fantasía, Sofía busca respuestas simples a la vida compleja que los adultos parecen complicar siempre.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261114025900 -0300" stop="20261114032900 -0300" channel="0967">
+    <title>Club 10 - Año 11- - Episodio 306</title>
+    <desc>Un grupo de niños y su amigo Dinodoro viven emocionantes aventuras llenas de humor, aprendizaje y diversión en Club 10.</desc>
+    <category>fantasy</category>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261114032900 -0300" stop="20261114034300 -0300" channel="0967">
+    <title>Club 10 - Año 11- - Episodio 307</title>
+    <desc>Un grupo de niños y su amigo Dinodoro viven emocionantes aventuras llenas de humor, aprendizaje y diversión en Club 10.</desc>
+    <category>fantasy</category>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261114034300 -0300" stop="20261114034600 -0300" channel="0967">
+    <title>Roberta Quiere Cacao T2 - Ep. 5. Un beso milagroso</title>
+    <desc>Roberta y Fausto, marcados por el destino, enfrentan secretos, traiciones y un reencuentro que cambiará sus vidas para siempre.</desc>
+    <category>animation</category>
+    <category>kids &amp; family</category>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261114034600 -0300" stop="20261114034900 -0300" channel="0967">
+    <title>Roberta Quiere Cacao T2 - Ep. 6. La voz recuperada</title>
+    <desc>Roberta y Fausto, marcados por el destino, enfrentan secretos, traiciones y un reencuentro que cambiará sus vidas para siempre.</desc>
+    <category>animation</category>
+    <category>kids &amp; family</category>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261114034900 -0300" stop="20261114041400 -0300" channel="0967">
+    <title>Cuentos de los Hermanos Grimm - Episodio 19. La princesa egoísta</title>
+    <desc>Emitida por Caracol desde 1988, esta serie trajo los cuentos Grimm a la TV con emoción, valores y estilo inolvidable.</desc>
+    <category>animation</category>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261114041400 -0300" stop="20261114043800 -0300" channel="0967">
+    <title>Cuentos de los Hermanos Grimm - Episodio 20. Los tres acertijos del diablo</title>
+    <desc>Emitida por Caracol desde 1988, esta serie trajo los cuentos Grimm a la TV con emoción, valores y estilo inolvidable.</desc>
+    <category>animation</category>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261114043800 -0300" stop="20261114053800 -0300" channel="0967">
+    <title>El mundo de Julius- Episodio 44</title>
+    <desc>Todo era perfecto para Julius, hasta que su mundo se rompe. Entre nuevos retos y aventuras, lucha por seguir siendo un niño feliz.</desc>
+    <category>drama</category>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261114053800 -0300" stop="20261114060000 -0300" channel="0967">
     <title>TEST DITU CARACOL KIDS</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261114030000 -0300" stop="20261114070000 -0300" channel="0967">
+  <programme start="20261114060000 -0300" stop="20261114100000 -0300" channel="0967">
     <title>TEST DITU CARACOL KIDS</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261114070000 -0300" stop="20261114110000 -0300" channel="0967">
+  <programme start="20261114100000 -0300" stop="20261114140000 -0300" channel="0967">
     <title>TEST DITU CARACOL KIDS</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261114110000 -0300" stop="20261114150000 -0300" channel="0967">
+  <programme start="20261114140000 -0300" stop="20261114180000 -0300" channel="0967">
     <title>TEST DITU CARACOL KIDS</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261114150000 -0300" stop="20261114190000 -0300" channel="0967">
+  <programme start="20261114180000 -0300" stop="20261114220000 -0300" channel="0967">
     <title>TEST DITU CARACOL KIDS</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261114190000 -0300" stop="20261114230000 -0300" channel="0967">
+  <programme start="20261114220000 -0300" stop="20261115020000 -0300" channel="0967">
     <title>TEST DITU CARACOL KIDS</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261114230000 -0300" stop="20261115030000 -0300" channel="0967">
+  <programme start="20261115020000 -0300" stop="20261115060000 -0300" channel="0967">
     <title>TEST DITU CARACOL KIDS</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261115030000 -0300" stop="20261115070000 -0300" channel="0967">
+  <programme start="20261115060000 -0300" stop="20261115100000 -0300" channel="0967">
     <title>TEST DITU CARACOL KIDS</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261115070000 -0300" stop="20261115110000 -0300" channel="0967">
+  <programme start="20261115100000 -0300" stop="20261115140000 -0300" channel="0967">
     <title>TEST DITU CARACOL KIDS</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261115110000 -0300" stop="20261115150000 -0300" channel="0967">
+  <programme start="20261115140000 -0300" stop="20261115180000 -0300" channel="0967">
     <title>TEST DITU CARACOL KIDS</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261115150000 -0300" stop="20261115190000 -0300" channel="0967">
+  <programme start="20261115180000 -0300" stop="20261115220000 -0300" channel="0967">
     <title>TEST DITU CARACOL KIDS</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261115190000 -0300" stop="20261115230000 -0300" channel="0967">
+  <programme start="20261115220000 -0300" stop="20261116020000 -0300" channel="0967">
     <title>TEST DITU CARACOL KIDS</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261115230000 -0300" stop="20261116030000 -0300" channel="0967">
+  <programme start="20261116020000 -0300" stop="20261116060000 -0300" channel="0967">
     <title>TEST DITU CARACOL KIDS</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261116030000 -0300" stop="20261116070000 -0300" channel="0967">
+  <programme start="20261116060000 -0300" stop="20261116100000 -0300" channel="0967">
     <title>TEST DITU CARACOL KIDS</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261116070000 -0300" stop="20261116110000 -0300" channel="0967">
+  <programme start="20261116100000 -0300" stop="20261116140000 -0300" channel="0967">
     <title>TEST DITU CARACOL KIDS</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261116110000 -0300" stop="20261116150000 -0300" channel="0967">
+  <programme start="20261116140000 -0300" stop="20261116180000 -0300" channel="0967">
     <title>TEST DITU CARACOL KIDS</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261116150000 -0300" stop="20261116190000 -0300" channel="0967">
+  <programme start="20261116180000 -0300" stop="20261116220000 -0300" channel="0967">
     <title>TEST DITU CARACOL KIDS</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261116190000 -0300" stop="20261116230000 -0300" channel="0967">
+  <programme start="20261116220000 -0300" stop="20261117020000 -0300" channel="0967">
     <title>TEST DITU CARACOL KIDS</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261116230000 -0300" stop="20261117030000 -0300" channel="0967">
+  <programme start="20261117020000 -0300" stop="20261117060000 -0300" channel="0967">
     <title>TEST DITU CARACOL KIDS</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261117030000 -0300" stop="20261117070000 -0300" channel="0967">
+  <programme start="20261117060000 -0300" stop="20261117100000 -0300" channel="0967">
     <title>TEST DITU CARACOL KIDS</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261117070000 -0300" stop="20261117110000 -0300" channel="0967">
+  <programme start="20261117100000 -0300" stop="20261117140000 -0300" channel="0967">
     <title>TEST DITU CARACOL KIDS</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261117110000 -0300" stop="20261117150000 -0300" channel="0967">
+  <programme start="20261117140000 -0300" stop="20261117180000 -0300" channel="0967">
     <title>TEST DITU CARACOL KIDS</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261117150000 -0300" stop="20261117190000 -0300" channel="0967">
+  <programme start="20261117180000 -0300" stop="20261117220000 -0300" channel="0967">
     <title>TEST DITU CARACOL KIDS</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261117190000 -0300" stop="20261117230000 -0300" channel="0967">
+  <programme start="20261117220000 -0300" stop="20261118020000 -0300" channel="0967">
     <title>TEST DITU CARACOL KIDS</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261117230000 -0300" stop="20261118030000 -0300" channel="0967">
+  <programme start="20261118020000 -0300" stop="20261118060000 -0300" channel="0967">
     <title>TEST DITU CARACOL KIDS</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261118030000 -0300" stop="20261118070000 -0300" channel="0967">
+  <programme start="20261118060000 -0300" stop="20261118100000 -0300" channel="0967">
     <title>TEST DITU CARACOL KIDS</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261118070000 -0300" stop="20261118110000 -0300" channel="0967">
+  <programme start="20261118100000 -0300" stop="20261118140000 -0300" channel="0967">
     <title>TEST DITU CARACOL KIDS</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261118110000 -0300" stop="20261118150000 -0300" channel="0967">
+  <programme start="20261118140000 -0300" stop="20261118180000 -0300" channel="0967">
     <title>TEST DITU CARACOL KIDS</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261118150000 -0300" stop="20261118190000 -0300" channel="0967">
+  <programme start="20261118180000 -0300" stop="20261118220000 -0300" channel="0967">
     <title>TEST DITU CARACOL KIDS</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261118190000 -0300" stop="20261118230000 -0300" channel="0967">
-    <title>TEST DITU CARACOL KIDS</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
-  </programme>
-  <programme start="20261118230000 -0300" stop="20261118235959 -0300" channel="0967">
+  <programme start="20261118220000 -0300" stop="20261118235959 -0300" channel="0967">
     <title>TEST DITU CARACOL KIDS</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
@@ -951650,8 +952133,8 @@ El cambio climático y la pérdida de biodiversidad exigen una nueva forma de ec
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261113180000 -0300" stop="20261113190000 -0300" channel="0968">
-    <title>Especiales Caracol Sports</title>
-    <desc>Descripción no disponible</desc>
+    <title>GOL Caracol Retro (Repetición)</title>
+    <desc>Repetición ║ Gol Caracol Retro revive las hazañas inolvidables de la Selección Colombia y los grandes momentos del fútbol nacional.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261113190000 -0300" stop="20261113203000 -0300" channel="0968">
@@ -951684,7 +952167,17 @@ El cambio climático y la pérdida de biodiversidad exigen una nueva forma de ec
     <desc>Descripción no disponible</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261114030000 -0300" stop="20261114043000 -0300" channel="0968">
+  <programme start="20261114030000 -0300" stop="20261114033000 -0300" channel="0968">
+    <title>Especiales Caracol Sports</title>
+    <desc>Descripción no disponible</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261114033000 -0300" stop="20261114040000 -0300" channel="0968">
+    <title>Noticias Caracol Sports (Repetición)</title>
+    <desc>Repetición ║ Noticias Sports ofrece la mejor cobertura deportiva de Colombia y el mundo, con información precisa, ágil y exclusiva.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261114040000 -0300" stop="20261114043000 -0300" channel="0968">
     <title>Especiales Caracol Sports</title>
     <desc>Descripción no disponible</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
@@ -951725,8 +952218,8 @@ El cambio climático y la pérdida de biodiversidad exigen una nueva forma de ec
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261114110000 -0300" stop="20261114120000 -0300" channel="0968">
-    <title>Especiales Caracol Sports</title>
-    <desc>Descripción no disponible</desc>
+    <title>Tribuna Caliente (Repetición)</title>
+    <desc>Repetición ║ Tribuna Caliente prende la pantalla con debates intensos, análisis directo y la mejor actualidad deportiva en vivo.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261114120000 -0300" stop="20261114123000 -0300" channel="0968">
@@ -951814,9 +952307,19 @@ El cambio climático y la pérdida de biodiversidad exigen una nueva forma de ec
     <desc>Repetición ║ Tribuna Caliente prende la pantalla con debates intensos, análisis directo y la mejor actualidad deportiva en vivo.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261115030000 -0300" stop="20261115053000 -0300" channel="0968">
+  <programme start="20261115030000 -0300" stop="20261115040000 -0300" channel="0968">
+    <title>Noticias Caracol Sports (Repetición)</title>
+    <desc>Repetición ║ Noticias Sports ofrece la mejor cobertura deportiva de Colombia y el mundo, con información precisa, ágil y exclusiva.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261115040000 -0300" stop="20261115043000 -0300" channel="0968">
     <title>Especiales Caracol Sports</title>
     <desc>Descripción no disponible</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261115043000 -0300" stop="20261115053000 -0300" channel="0968">
+    <title>Tribuna Caliente (Repetición)</title>
+    <desc>Repetición ║ Tribuna Caliente prende la pantalla con debates intensos, análisis directo y la mejor actualidad deportiva en vivo.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261115053000 -0300" stop="20261115063000 -0300" channel="0968">
@@ -951825,13 +952328,13 @@ El cambio climático y la pérdida de biodiversidad exigen una nueva forma de ec
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261115063000 -0300" stop="20261115070000 -0300" channel="0968">
-    <title>Noticias Caracol Sports (Repetición)</title>
-    <desc>Repetición ║ Noticias Sports ofrece la mejor cobertura deportiva de Colombia y el mundo, con información precisa, ágil y exclusiva.</desc>
+    <title>Especiales Caracol Sports</title>
+    <desc>Descripción no disponible</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261115070000 -0300" stop="20261115080000 -0300" channel="0968">
-    <title>Especiales Caracol Sports</title>
-    <desc>Descripción no disponible</desc>
+    <title>Tribuna Caliente (Repetición)</title>
+    <desc>Repetición ║ Tribuna Caliente prende la pantalla con debates intensos, análisis directo y la mejor actualidad deportiva en vivo.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261115080000 -0300" stop="20261115083000 -0300" channel="0968">
@@ -951839,8 +952342,13 @@ El cambio climático y la pérdida de biodiversidad exigen una nueva forma de ec
     <desc>Repetición ║ Noticias Sports ofrece la mejor cobertura deportiva de Colombia y el mundo, con información precisa, ágil y exclusiva.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261115083000 -0300" stop="20261115100000 -0300" channel="0968">
+  <programme start="20261115083000 -0300" stop="20261115090000 -0300" channel="0968">
     <title>Especiales Caracol Sports</title>
+    <desc>Descripción no disponible</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261115090000 -0300" stop="20261115100000 -0300" channel="0968">
+    <title>Colombia vs Chile</title>
     <desc>Descripción no disponible</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
@@ -951849,9 +952357,19 @@ El cambio climático y la pérdida de biodiversidad exigen una nueva forma de ec
     <desc>Repetición ║ Noticias Sports ofrece la mejor cobertura deportiva de Colombia y el mundo, con información precisa, ágil y exclusiva.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261115103000 -0300" stop="20261115123000 -0300" channel="0968">
+  <programme start="20261115103000 -0300" stop="20261115110000 -0300" channel="0968">
     <title>Colombia vs Chile</title>
     <desc>Descripción no disponible</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261115110000 -0300" stop="20261115113000 -0300" channel="0968">
+    <title>Noticias Caracol Sports (Repetición)</title>
+    <desc>Repetición ║ Noticias Sports ofrece la mejor cobertura deportiva de Colombia y el mundo, con información precisa, ágil y exclusiva.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261115113000 -0300" stop="20261115123000 -0300" channel="0968">
+    <title>Tribuna Caliente (Repetición)</title>
+    <desc>Repetición ║ Tribuna Caliente prende la pantalla con debates intensos, análisis directo y la mejor actualidad deportiva en vivo.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261115123000 -0300" stop="20261115130000 -0300" channel="0968">
@@ -951860,8 +952378,8 @@ El cambio climático y la pérdida de biodiversidad exigen una nueva forma de ec
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261115130000 -0300" stop="20261115140000 -0300" channel="0968">
-    <title>Tribuna Caliente (Repetición)</title>
-    <desc>Repetición ║ Tribuna Caliente prende la pantalla con debates intensos, análisis directo y la mejor actualidad deportiva en vivo.</desc>
+    <title>Colombia vs Chile</title>
+    <desc>Descripción no disponible</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261115140000 -0300" stop="20261115150000 -0300" channel="0968">
@@ -951890,8 +952408,8 @@ El cambio climático y la pérdida de biodiversidad exigen una nueva forma de ec
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261115173000 -0300" stop="20261115183000 -0300" channel="0968">
-    <title>Especiales Caracol Sports</title>
-    <desc>Descripción no disponible</desc>
+    <title>GOL Caracol Retro (Repetición)</title>
+    <desc>Repetición ║ Gol Caracol Retro revive las hazañas inolvidables de la Selección Colombia y los grandes momentos del fútbol nacional.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261115183000 -0300" stop="20261115203000 -0300" channel="0968">
@@ -951940,8 +952458,8 @@ El cambio climático y la pérdida de biodiversidad exigen una nueva forma de ec
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261116040000 -0300" stop="20261116050000 -0300" channel="0968">
-    <title>Especiales Caracol Sports</title>
-    <desc>Descripción no disponible</desc>
+    <title>Tribuna Caliente (Repetición)</title>
+    <desc>Repetición ║ Tribuna Caliente prende la pantalla con debates intensos, análisis directo y la mejor actualidad deportiva en vivo.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261116050000 -0300" stop="20261116060000 -0300" channel="0968">
@@ -951955,8 +952473,8 @@ El cambio climático y la pérdida de biodiversidad exigen una nueva forma de ec
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261116063000 -0300" stop="20261116073000 -0300" channel="0968">
-    <title>Especiales Caracol Sports</title>
-    <desc>Descripción no disponible</desc>
+    <title>GOL Caracol Retro (Repetición)</title>
+    <desc>Repetición ║ Gol Caracol Retro revive las hazañas inolvidables de la Selección Colombia y los grandes momentos del fútbol nacional.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261116073000 -0300" stop="20261116083000 -0300" channel="0968">
@@ -951964,24 +952482,49 @@ El cambio climático y la pérdida de biodiversidad exigen una nueva forma de ec
     <desc>Repetición ║ Noticias Sports ofrece la mejor cobertura deportiva de Colombia y el mundo, con información precisa, ágil y exclusiva.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261116083000 -0300" stop="20261116093000 -0300" channel="0968">
+  <programme start="20261116083000 -0300" stop="20261116103000 -0300" channel="0968">
     <title>Colombia vs Chile</title>
     <desc>Descripción no disponible</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261116093000 -0300" stop="20261116100000 -0300" channel="0968">
-    <title>TEST DITU CARACOL SPORTS</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
+  <programme start="20261116103000 -0300" stop="20261116110000 -0300" channel="0968">
+    <title>Noticias Caracol Sports (Repetición)</title>
+    <desc>Repetición ║ Noticias Sports ofrece la mejor cobertura deportiva de Colombia y el mundo, con información precisa, ágil y exclusiva.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261116100000 -0300" stop="20261116140000 -0300" channel="0968">
-    <title>TEST DITU CARACOL SPORTS</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
+  <programme start="20261116110000 -0300" stop="20261116113000 -0300" channel="0968">
+    <title>Especiales Caracol Sports</title>
+    <desc>Descripción no disponible</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261116140000 -0300" stop="20261116180000 -0300" channel="0968">
-    <title>TEST DITU CARACOL SPORTS</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
+  <programme start="20261116113000 -0300" stop="20261116133000 -0300" channel="0968">
+    <title>GOL Caracol Retro (Repetición)</title>
+    <desc>Repetición ║ Gol Caracol Retro revive las hazañas inolvidables de la Selección Colombia y los grandes momentos del fútbol nacional.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261116133000 -0300" stop="20261116153000 -0300" channel="0968">
+    <title>Colombia vs Chile</title>
+    <desc>Descripción no disponible</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261116153000 -0300" stop="20261116160000 -0300" channel="0968">
+    <title>Especiales Caracol Sports</title>
+    <desc>Descripción no disponible</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261116160000 -0300" stop="20261116163000 -0300" channel="0968">
+    <title>Noticias Caracol Sports (En Vivo)</title>
+    <desc>Noticias Sports ofrece la mejor cobertura deportiva de Colombia y el mundo, con información precisa, ágil y exclusiva.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261116163000 -0300" stop="20261116170000 -0300" channel="0968">
+    <title>Noticias Caracol Sports (Repetición)</title>
+    <desc>Repetición ║ Noticias Sports ofrece la mejor cobertura deportiva de Colombia y el mundo, con información precisa, ágil y exclusiva.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261116170000 -0300" stop="20261116180000 -0300" channel="0968">
+    <title>Especiales Caracol Sports</title>
+    <desc>Descripción no disponible</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261116180000 -0300" stop="20261116220000 -0300" channel="0968">
@@ -1045952,7 +1046495,12 @@ Escápate los lleva por rutas desconocidas y les muestra la otra cara de los lug
   <programme start="20261113033000 -0300" stop="20261113043000 -0300" channel="co0004">
     <title>Un día en la vida de</title>
     <desc>Un espacio que acerca la realidad de diversos profesionales para descubrir llo duro que puede ser su trabajo, sus logros, decepciones y aciertos. La aventura de cada uno de los personajes es en realidad, el diario vivir de un profesional.</desc>
+    <credits>
+      <director>Julián Cortizo</director>
+    </credits>
+    <date>2020</date>
     <category>Interés general</category>
+    <country>Argentina</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261113043000 -0300" stop="20261113050000 -0300" channel="co0004">
@@ -1046180,7 +1046728,12 @@ Escápate los lleva por rutas desconocidas y les muestra la otra cara de los lug
   <programme start="20261114033000 -0300" stop="20261114034000 -0300" channel="co0004">
     <title>Un día en la vida de</title>
     <desc>Un espacio que acerca la realidad de diversos profesionales para descubrir llo duro que puede ser su trabajo, sus logros, decepciones y aciertos. La aventura de cada uno de los personajes es en realidad, el diario vivir de un profesional.</desc>
+    <credits>
+      <director>Julián Cortizo</director>
+    </credits>
+    <date>2020</date>
     <category>Interés general</category>
+    <country>Argentina</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261114034000 -0300" stop="20261114040000 -0300" channel="co0004">
@@ -1046200,7 +1046753,12 @@ Escápate los lleva por rutas desconocidas y les muestra la otra cara de los lug
   <programme start="20261114040000 -0300" stop="20261114040500 -0300" channel="co0004">
     <title>Un día en la vida de</title>
     <desc>Un espacio que acerca la realidad de diversos profesionales para descubrir llo duro que puede ser su trabajo, sus logros, decepciones y aciertos. La aventura de cada uno de los personajes es en realidad, el diario vivir de un profesional.</desc>
+    <credits>
+      <director>Julián Cortizo</director>
+    </credits>
+    <date>2020</date>
     <category>Interés general</category>
+    <country>Argentina</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261114040500 -0300" stop="20261114043000 -0300" channel="co0004">
@@ -1088077,12 +1088635,7 @@ María es bienvenida en la casa del empresario Fernando de la Vega, uno de los h
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261112150000 -0300" stop="20261113150000 -0300" channel="pa0004">
-    <title>Tvmax Deportes</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
-  </programme>
-  <programme start="20261113150000 -0300" stop="20261113223000 -0300" channel="pa0004">
+  <programme start="20261112150000 -0300" stop="20261113223000 -0300" channel="pa0004">
     <title>Tvmax Deportes</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
