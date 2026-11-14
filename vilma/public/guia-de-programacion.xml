@@ -910115,6 +910115,7 @@ No aparece en el programa ningún otro superhéroe de ficción, a excepción  de
     <date>1945</date>
     <category>Movie</category>
     <category>Drama</category>
+    <country>México</country>
     <rating><value>B15</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
@@ -910220,6 +910221,7 @@ No aparece en el programa ningún otro superhéroe de ficción, a excepción  de
     <date>1945</date>
     <category>Movie</category>
     <category>Drama</category>
+    <country>México</country>
     <rating><value>B15</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
@@ -1012851,7 +1012853,20 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
   <programme start="20261119074400 -0300" stop="20261119082300 -0300" channel="0980">
     <title>Guardianes de la Galaxia: Especial de las fiestas</title>
     <desc>Con la misión de hacer que Quill tenga una Navidad inolvidable, los Guardianes se dirigen a la Tierra en busca del regalo perfecto.</desc>
+    <credits>
+      <director>James Gunn</director>
+      <actor>Chris Pratt</actor>
+      <actor>Dave Bautista</actor>
+      <actor>Karen Gillan</actor>
+      <actor>Pom Klementieff</actor>
+      <actor>Vin Diesel</actor>
+      <actor>Bradley Cooper</actor>
+      <actor>Sean Gunn</actor>
+      <actor>Rhett Miller</actor>
+    </credits>
+    <date>2022</date>
     <category>MOVIES</category>
+    <country>Estados Unidos</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/guardianesdelagalaxiaespecialdelasfiestas.jpg" />
   </programme>
   <programme start="20261119082300 -0300" stop="20261119095900 -0300" channel="0980">
@@ -1119923,11 +1119938,23 @@ María es bienvenida en la casa del empresario Fernando de la Vega, uno de los h
   </programme>
   <programme start="20261115114500 -0300" stop="20261115133000 -0300" channel="mx0004">
     <title>Space Chimps: Misión espacial</title>
-    <desc>En esta aventura animada, el chimpancé Ham III, nieto del primer simio astronauta, se ve envuelto en una revolución intergaláctica mientras busca recuperar una sonda perdida de la NADA. ¿Podrá vencer al tirano espacial?.</desc>
+    <desc>Cuando la NASA pierde una sonda en el espacio, decide reclutar a un grupo de monos para ir en su búsqueda. La agencia deposita sus ojos en Ham III, el nieto del primer mono en ser lanzado al espacio. Ham es una de las estrellas de un decadente circo que vive más interesado en sus vuelos de gravedad cero que en alcanzar las ilustres hazañas de su antepasado. Finalmente es reclutado por la agencia, donde aprende el valor del coraje al lado de sus compañeros: Luna, una apuesta chimpancé; y el tenaz Titan. Juntos viven increíbles aventuras y lo arriesgan todo en su esfuerzo por lograr derrocar al malvado dictador que gobierna en un lejano planeta.</desc>
+    <credits>
+      <director>Kirk DeMicco</director>
+      <actor>Andy Samberg</actor>
+      <actor>Cheryl Hines</actor>
+      <actor>Jeff Daniels</actor>
+      <actor>Patrick Warburton</actor>
+      <actor>Kristin Chenoweth</actor>
+      <actor>Kenan Thompson</actor>
+      <actor>Zack Shada</actor>
+      <actor>Carlos Alazraqui</actor>
+    </credits>
     <date>2008</date>
     <category>Animación</category>
+    <country>Estados Unidos</country>
     <rating><value>4.5</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/spacechimpsmisionespacial.jpg" />
   </programme>
   <programme start="20261115133000 -0300" stop="20261115153000 -0300" channel="mx0004">
     <title>Spark, una aventura espacial</title>
