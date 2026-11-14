@@ -19773,6 +19773,7 @@ Primer plano: interesante, impactante, informativo.</desc>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <date>2026</date>
     <category>Programa</category>
+    <rating><value>18</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/simpleynutritivo.jpg" />
   </programme>
   <programme start="20261114123000 -0300" stop="20261114130000 -0300" channel="0115">
@@ -68826,6 +68827,7 @@ Escápate los lleva por rutas desconocidas y les muestra la otra cara de los lug
     <title>La Tarde de Bio Bio</title>
     <desc>Información y conversación con el sello de Bío Bío. Un espacio para analizar la contingencia, escuchar las entrevistas que marcan pauta y profundizar en los temas que hoy son noticia en Chile.</desc>
     <credits>
+      <director>Julio Sanchez</director>
       <actor>Julio Sánchez</actor>
     </credits>
     <date>2026</date>
@@ -68858,6 +68860,7 @@ Escápate los lleva por rutas desconocidas y les muestra la otra cara de los lug
     <title>La Tarde de Bio Bio</title>
     <desc>Información y conversación con el sello de Bío Bío. Un espacio para analizar la contingencia, escuchar las entrevistas que marcan pauta y profundizar en los temas que hoy son noticia en Chile.</desc>
     <credits>
+      <director>Julio Sanchez</director>
       <actor>Julio Sánchez</actor>
     </credits>
     <date>2026</date>
@@ -445743,6 +445746,7 @@ Jorge (Raúl Arévalo) se imaginaba a su edad casado por la iglesia, con hijos y
     <desc>Se aborda el proceso creativo del mundo del sonido. Creadores exponen la intimidad de sus espacios, mostrando el inicio de lo que luego serán sus obras.</desc>
     <credits>
       <director>Joaquin Mora</director>
+      <actor>Sebastián Mella</actor>
     </credits>
     <date>2021</date>
     <category>Musica</category>
@@ -446562,6 +446566,7 @@ Jorge (Raúl Arévalo) se imaginaba a su edad casado por la iglesia, con hijos y
     <desc>Se aborda el proceso creativo del mundo del sonido. Creadores exponen la intimidad de sus espacios, mostrando el inicio de lo que luego serán sus obras.</desc>
     <credits>
       <director>Joaquin Mora</director>
+      <actor>Sebastián Mella</actor>
     </credits>
     <date>2021</date>
     <category>Musica</category>
@@ -446762,6 +446767,7 @@ Jorge (Raúl Arévalo) se imaginaba a su edad casado por la iglesia, con hijos y
     <desc>Fran Straube | Entre baterías y sintetizadores con Rubio, el experimento artístico y proyecto personal de la reconocida baterista y música chilena Francisca Straube. Ella cuenta qué lugar tiene la música en su vida y cómo concilia los instrumentos con lo orgánico.</desc>
     <credits>
       <director>Joaquin Mora</director>
+      <actor>Sebastián Mella</actor>
     </credits>
     <date>2023</date>
     <category>Musica</category>
@@ -578123,7 +578129,20 @@ Hank en su nueva vida tendrá como acompañantes a su hermano, quien ve tener un
   <programme start="20261114173100 -0300" stop="20261114193100 -0300" channel="0807">
     <title>La rueda de la fortuna</title>
     <desc>Lynn Hollister es un letrado que trata de averiguar lo que se oculta tras el asesinato de un amigo. Su principal sospechoso es Tom Cameron, pero Hollister pronto se enamorará de Sabra, la hija de éste.</desc>
+    <credits>
+      <director>John H. Auer</director>
+      <actor>John Wayne</actor>
+      <actor>Frances Dee</actor>
+      <actor>Edward Ellis</actor>
+      <actor>Wallace Ford</actor>
+      <actor>Ward Bond</actor>
+      <actor>Harold Huber</actor>
+      <actor>Alexander Granach</actor>
+      <actor>Barnett Parker</actor>
+    </credits>
+    <date>1941</date>
     <category>Musical</category>
+    <country>Estados Unidos</country>
     <rating><value>U</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/laruedadelafortuna.jpg" />
   </programme>
@@ -578249,7 +578268,20 @@ Hank en su nueva vida tendrá como acompañantes a su hermano, quien ve tener un
   <programme start="20261115092400 -0300" stop="20261115112300 -0300" channel="0807">
     <title>La rueda de la fortuna</title>
     <desc>Lynn Hollister es un letrado que trata de averiguar lo que se oculta tras el asesinato de un amigo. Su principal sospechoso es Tom Cameron, pero Hollister pronto se enamorará de Sabra, la hija de éste.</desc>
+    <credits>
+      <director>John H. Auer</director>
+      <actor>John Wayne</actor>
+      <actor>Frances Dee</actor>
+      <actor>Edward Ellis</actor>
+      <actor>Wallace Ford</actor>
+      <actor>Ward Bond</actor>
+      <actor>Harold Huber</actor>
+      <actor>Alexander Granach</actor>
+      <actor>Barnett Parker</actor>
+    </credits>
+    <date>1941</date>
     <category>Musical</category>
+    <country>Estados Unidos</country>
     <rating><value>U</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/laruedadelafortuna.jpg" />
   </programme>
@@ -910382,6 +910414,7 @@ No aparece en el programa ningún otro superhéroe de ficción, a excepción  de
     <date>1993</date>
     <category>Movie</category>
     <category>Comedy</category>
+    <country>México</country>
     <rating><value>A</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
@@ -937754,8 +937787,21 @@ No aparece en el programa ningún otro superhéroe de ficción, a excepción  de
   <programme start="20261114095500 -0300" stop="20261114100000 -0300" channel="sv0004">
     <title>Barbapapá</title>
     <desc>Descubra el día a día de la extraordinaria familia Barbapapa. La familia está conformada por los padres Barbapapa y Barbamama y sus siete hijos, todos pueden transformarse en lo que quieran mientras conservan sus colores originales.</desc>
+    <credits>
+      <director>山田勝久</director>
+      <actor>Youna Noiret</actor>
+      <actor>Lucille Boudonnat</actor>
+      <actor>Bernard Alane</actor>
+      <actor>Bruno Magne</actor>
+      <actor>Nathalie Karsenty</actor>
+      <actor>Fily Keita</actor>
+      <actor>Marie Facundo</actor>
+      <actor>Emmylou Homs</actor>
+    </credits>
+    <date>1974</date>
     <category>Infantil</category>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <country>Japón</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/barbapapa.jpg" />
   </programme>
   <programme start="20261114100000 -0300" stop="20261114103000 -0300" channel="sv0004">
     <title>Las aventuras de Tom Sawyer</title>
@@ -937772,8 +937818,21 @@ No aparece en el programa ningún otro superhéroe de ficción, a excepción  de
   <programme start="20261114105500 -0300" stop="20261114110000 -0300" channel="sv0004">
     <title>Barbapapá</title>
     <desc>Descubra el día a día de la extraordinaria familia Barbapapa. La familia está conformada por los padres Barbapapa y Barbamama y sus siete hijos, todos pueden transformarse en lo que quieran mientras conservan sus colores originales.</desc>
+    <credits>
+      <director>山田勝久</director>
+      <actor>Youna Noiret</actor>
+      <actor>Lucille Boudonnat</actor>
+      <actor>Bernard Alane</actor>
+      <actor>Bruno Magne</actor>
+      <actor>Nathalie Karsenty</actor>
+      <actor>Fily Keita</actor>
+      <actor>Marie Facundo</actor>
+      <actor>Emmylou Homs</actor>
+    </credits>
+    <date>1974</date>
     <category>Infantil</category>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <country>Japón</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/barbapapa.jpg" />
   </programme>
   <programme start="20261114110000 -0300" stop="20261114113000 -0300" channel="sv0004">
     <title>La familia Robinson</title>
