@@ -11268,6 +11268,8 @@ Primer plano: interesante, impactante, informativo.</desc>
     <title>Socios por el mundo</title>
     <desc>Repetición ║ Una aventura intensa, llena de grandes momentos en la que Pancho Saavedra y Jorge Zabaleta visitarán y descubrirán países tan variados y espectaculares como Marruecos, España, Italia y Egipto.</desc>
     <credits>
+      <director>Francisco Saavedra</director>
+      <director>Jorge Zabaleta</director>
       <actor>Jorge Zabaleta</actor>
       <actor>Pancho Saavedra</actor>
     </credits>
@@ -149323,8 +149325,12 @@ Claudia Gurisatti - Jefferson Beltrán - Jason Calderón</desc>
   <programme start="20261118210000 -0300" stop="20261118220000 -0300" channel="0301">
     <title>Neurópolis</title>
     <desc>Serie de divulgación científica que explora los alcances de la neurociencia en la vida cotidiana.</desc>
+    <credits>
+      <director>Julio Neri</director>
+    </credits>
     <date>2021</date>
     <category>Otros</category>
+    <country>Venezuela</country>
     <rating><value>14</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0301_fallback.jpg" />
   </programme>
@@ -464180,41 +464186,57 @@ Estos tres estudiantes intentan ocultar sus habilidades especiales a los demás,
     <title>Deadly Affairs: Betrayed by Love • A Lesson in Murder</title>
     <sub-title>A Lesson in Murder</sub-title>
     <desc>A Lesson in Murder | A school administrator and his wife begin building their dream lake house, but as costs run amok, he seeks solace in a new love; once his wife finds out, the punishment is far worse than detention; a man pays the price for allowing an open marriage.</desc>
+    <credits>
+      <actor>Susan Lucci</actor>
+    </credits>
     <date>2022</date>
     <category>Crime</category>
+    <country>Estados Unidos</country>
     <episode-num system="onscreen">T2 E2</episode-num>
     <rating><value>TV14</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/deadlyaffairsbetrayedbylove.jpg" />
   </programme>
   <programme start="20261115063000 -0300" stop="20261115070000 -0300" channel="2604">
     <title>Deadly Affairs: Betrayed by Love • Tempted by the Fruit of Another</title>
     <sub-title>Tempted by the Fruit of Another</sub-title>
     <desc>Tempted by the Fruit of Another | A Miami mogul falls for a much younger woman, but their relationship falters when she embraces the local club life; one makes a deadly deal that puts an end to the party; a sensual belly dancer and a doctor find that jealousy can be lethal.</desc>
+    <credits>
+      <actor>Susan Lucci</actor>
+    </credits>
     <date>2022</date>
     <category>Crime</category>
+    <country>Estados Unidos</country>
     <episode-num system="onscreen">T3 E8</episode-num>
     <rating><value>TV14</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/deadlyaffairsbetrayedbylove.jpg" />
   </programme>
   <programme start="20261115070000 -0300" stop="20261115073000 -0300" channel="2604">
     <title>Deadly Affairs: Betrayed by Love • Skinny Dipping in the Gene Pool</title>
     <sub-title>Skinny Dipping in the Gene Pool</sub-title>
     <desc>Skinny Dipping in the Gene Pool | A wealthy man in a failing marriage discovers his wife has gone too far when she plucks a new lover off his family tree; a picture-perfect couple with three kids faces tragedy when one of them ends up dead.</desc>
+    <credits>
+      <actor>Susan Lucci</actor>
+    </credits>
     <date>2022</date>
     <category>Crime</category>
+    <country>Estados Unidos</country>
     <episode-num system="onscreen">T3 E9</episode-num>
     <rating><value>TV14</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/deadlyaffairsbetrayedbylove.jpg" />
   </programme>
   <programme start="20261115073000 -0300" stop="20261115080000 -0300" channel="2604">
     <title>Deadly Affairs: Betrayed by Love • Jealous Bones</title>
     <sub-title>Jealous Bones</sub-title>
     <desc>Jealous Bones | A feisty firefighter knows how to bring the heat to the ladies, but when he attracts the wrong woman, he&#x27;ll need rescuing; a weary housewife wants a spicier life, but she should be careful what she wishes for -- because she just might get it.</desc>
+    <credits>
+      <actor>Susan Lucci</actor>
+    </credits>
     <date>2022</date>
     <category>Crime</category>
+    <country>Estados Unidos</country>
     <episode-num system="onscreen">T3 E10</episode-num>
     <rating><value>TV14</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/deadlyaffairsbetrayedbylove.jpg" />
   </programme>
   <programme start="20261115080000 -0300" stop="20261115090000 -0300" channel="2604">
     <title>On the Case With Paula Zahn • Text, Lies and Video</title>
@@ -736646,6 +736668,7 @@ El brujo Gargamel y su gato Azrael, intentan siempre y por todos los medios capt
     <date>2019</date>
     <category>Drama</category>
     <category>Crimen</category>
+    <country>México</country>
     <episode-num system="onscreen">T3 E1</episode-num>
     <rating><value>18</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/truedetective.jpg" />
@@ -736667,6 +736690,7 @@ El brujo Gargamel y su gato Azrael, intentan siempre y por todos los medios capt
     <date>2019</date>
     <category>Drama</category>
     <category>Crimen</category>
+    <country>México</country>
     <episode-num system="onscreen">T3 E2</episode-num>
     <rating><value>18</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/truedetective.jpg" />
@@ -736688,6 +736712,7 @@ El brujo Gargamel y su gato Azrael, intentan siempre y por todos los medios capt
     <date>2019</date>
     <category>Drama</category>
     <category>Crimen</category>
+    <country>México</country>
     <episode-num system="onscreen">T3 E3</episode-num>
     <rating><value>18</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/truedetective.jpg" />
@@ -736712,6 +736737,7 @@ El brujo Gargamel y su gato Azrael, intentan siempre y por todos los medios capt
     <date>2024</date>
     <category>Drama</category>
     <category>Crimen</category>
+    <country>México</country>
     <episode-num system="onscreen">T3 E4</episode-num>
     <rating><value>18</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/truedetective.jpg" />
@@ -736733,6 +736759,7 @@ El brujo Gargamel y su gato Azrael, intentan siempre y por todos los medios capt
     <date>2019</date>
     <category>Drama</category>
     <category>Crimen</category>
+    <country>México</country>
     <episode-num system="onscreen">T3 E5</episode-num>
     <rating><value>18</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/truedetective.jpg" />
@@ -736754,6 +736781,7 @@ El brujo Gargamel y su gato Azrael, intentan siempre y por todos los medios capt
     <date>2019</date>
     <category>Drama</category>
     <category>Crimen</category>
+    <country>México</country>
     <episode-num system="onscreen">T3 E6</episode-num>
     <rating><value>18</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/truedetective.jpg" />
@@ -736775,6 +736803,7 @@ El brujo Gargamel y su gato Azrael, intentan siempre y por todos los medios capt
     <date>2019</date>
     <category>Drama</category>
     <category>Crimen</category>
+    <country>México</country>
     <episode-num system="onscreen">T3 E7</episode-num>
     <rating><value>18</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/truedetective.jpg" />
@@ -736796,6 +736825,7 @@ El brujo Gargamel y su gato Azrael, intentan siempre y por todos los medios capt
     <date>2019</date>
     <category>Drama</category>
     <category>Crimen</category>
+    <country>México</country>
     <episode-num system="onscreen">T3 E8</episode-num>
     <rating><value>18</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/truedetective.jpg" />
@@ -873252,6 +873282,7 @@ Un camaleónico agente capaz de infiltrase en cualquier organización criminal y
     <date>1951</date>
     <category>Movie</category>
     <category>Drama</category>
+    <country>México</country>
     <rating><value>B15</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
@@ -873356,6 +873387,7 @@ Un camaleónico agente capaz de infiltrase en cualquier organización criminal y
     <date>1951</date>
     <category>Movie</category>
     <category>Drama</category>
+    <country>México</country>
     <rating><value>B15</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
@@ -873460,6 +873492,7 @@ Un camaleónico agente capaz de infiltrase en cualquier organización criminal y
     <date>1951</date>
     <category>Movie</category>
     <category>Drama</category>
+    <country>México</country>
     <rating><value>B15</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
