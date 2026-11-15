@@ -44433,7 +44433,7 @@ El cambio climático y la pérdida de biodiversidad exigen una nueva forma de ec
     <rating><value>18</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/congresofuturo.jpg" />
   </programme>
-  <programme start="20261121212500 -0300" stop="20261121222500 -0300" channel="0142">
+  <programme start="20261121212500 -0300" stop="20261121235500 -0300" channel="0142">
     <title>Especiales del Senado</title>
     <desc>Asuntos que interpelan al Senado de Chile.</desc>
     <date>2020</date>
@@ -44442,6 +44442,14 @@ El cambio climático y la pérdida de biodiversidad exigen una nueva forma de ec
     <category>Social</category>
     <rating><value>14</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/especialesdelsenado.jpg" />
+  </programme>
+  <programme start="20261121235500 -0300" stop="20261122005500 -0300" channel="0142">
+    <title>Aula media</title>
+    <desc>Un espacio para aprender acerca de diversos contenidos relacionados con la música, la historia, el arte y la interpretación.</desc>
+    <category>Educativo</category>
+    <category>Musica</category>
+    <rating><value>18</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/aulamedia.jpg" />
   </programme>
   <programme start="20261114150000 -0300" stop="20261114173000 -0300" channel="0143">
     <title>Comisión de ciencias</title>
@@ -359427,7 +359435,7 @@ Toei Animation la describe como &quot;Una Historia Original de Anime&quot;, y es
     <episode-num system="onscreen">Episodio 681</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/noesparatanto.jpg" />
   </programme>
-  <programme start="20261117203000 -0300" stop="20261117213000 -0300" channel="0401">
+  <programme start="20261117203000 -0300" stop="20261117220000 -0300" channel="0401">
     <title>TNT data sports • Data Sports 17-11-2026</title>
     <sub-title>Data Sports 17-11-2026</sub-title>
     <desc>Repetición ║ Data Sports 17-11-2026 | Un noticiero diario que brinda no solo noticias sino el más pormenorizado análisis deportivo, con imágenes al instante de lo que ocurre en el mundo y con el foco puesto en las estadísticas.</desc>
@@ -359442,102 +359450,104 @@ Toei Animation la describe como &quot;Una Historia Original de Anime&quot;, y es
     <episode-num system="onscreen">Episodio 411</episode-num>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/tntdatasports.jpg" />
   </programme>
-  <programme start="20261117213000 -0300" stop="20261117220000 -0300" channel="0401">
+  <programme start="20261117220000 -0300" stop="20261117230000 -0300" channel="0401">
+    <title>NBA Regular Season 2026-2027 • Detroit Pistons - San Antonio Spurs 17-11-2026</title>
+    <sub-title>Detroit Pistons - San Antonio Spurs 17-11-2026</sub-title>
+    <desc>Detroit Pistons - San Antonio Spurs 17-11-2026 | La información de este programa no se encuentra disponible.</desc>
+    <episode-num system="onscreen">Episodio 11</episode-num>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0401_fallback.jpg" />
+  </programme>
+  <programme start="20261117230000 -0300" stop="20261118030000 -0300" channel="0401">
     <title>TNT Sports Premium Chile</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0401_fallback.jpg" />
   </programme>
-  <programme start="20261117220000 -0300" stop="20261118020000 -0300" channel="0401">
+  <programme start="20261118030000 -0300" stop="20261118070000 -0300" channel="0401">
     <title>TNT Sports Premium Chile</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0401_fallback.jpg" />
   </programme>
-  <programme start="20261118020000 -0300" stop="20261118060000 -0300" channel="0401">
+  <programme start="20261118070000 -0300" stop="20261118110000 -0300" channel="0401">
     <title>TNT Sports Premium Chile</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0401_fallback.jpg" />
   </programme>
-  <programme start="20261118060000 -0300" stop="20261118100000 -0300" channel="0401">
+  <programme start="20261118110000 -0300" stop="20261118150000 -0300" channel="0401">
     <title>TNT Sports Premium Chile</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0401_fallback.jpg" />
   </programme>
-  <programme start="20261118100000 -0300" stop="20261118140000 -0300" channel="0401">
+  <programme start="20261118150000 -0300" stop="20261118190000 -0300" channel="0401">
     <title>TNT Sports Premium Chile</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0401_fallback.jpg" />
   </programme>
-  <programme start="20261118140000 -0300" stop="20261118180000 -0300" channel="0401">
+  <programme start="20261118190000 -0300" stop="20261118230000 -0300" channel="0401">
     <title>TNT Sports Premium Chile</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0401_fallback.jpg" />
   </programme>
-  <programme start="20261118180000 -0300" stop="20261118220000 -0300" channel="0401">
+  <programme start="20261118230000 -0300" stop="20261119030000 -0300" channel="0401">
     <title>TNT Sports Premium Chile</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0401_fallback.jpg" />
   </programme>
-  <programme start="20261118220000 -0300" stop="20261119020000 -0300" channel="0401">
+  <programme start="20261119030000 -0300" stop="20261119070000 -0300" channel="0401">
     <title>TNT Sports Premium Chile</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0401_fallback.jpg" />
   </programme>
-  <programme start="20261119020000 -0300" stop="20261119060000 -0300" channel="0401">
+  <programme start="20261119070000 -0300" stop="20261119110000 -0300" channel="0401">
     <title>TNT Sports Premium Chile</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0401_fallback.jpg" />
   </programme>
-  <programme start="20261119060000 -0300" stop="20261119100000 -0300" channel="0401">
+  <programme start="20261119110000 -0300" stop="20261119150000 -0300" channel="0401">
     <title>TNT Sports Premium Chile</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0401_fallback.jpg" />
   </programme>
-  <programme start="20261119100000 -0300" stop="20261119140000 -0300" channel="0401">
+  <programme start="20261119150000 -0300" stop="20261119190000 -0300" channel="0401">
     <title>TNT Sports Premium Chile</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0401_fallback.jpg" />
   </programme>
-  <programme start="20261119140000 -0300" stop="20261119180000 -0300" channel="0401">
+  <programme start="20261119190000 -0300" stop="20261119230000 -0300" channel="0401">
     <title>TNT Sports Premium Chile</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0401_fallback.jpg" />
   </programme>
-  <programme start="20261119180000 -0300" stop="20261119220000 -0300" channel="0401">
+  <programme start="20261119230000 -0300" stop="20261120030000 -0300" channel="0401">
     <title>TNT Sports Premium Chile</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0401_fallback.jpg" />
   </programme>
-  <programme start="20261119220000 -0300" stop="20261120020000 -0300" channel="0401">
+  <programme start="20261120030000 -0300" stop="20261120070000 -0300" channel="0401">
     <title>TNT Sports Premium Chile</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0401_fallback.jpg" />
   </programme>
-  <programme start="20261120020000 -0300" stop="20261120060000 -0300" channel="0401">
+  <programme start="20261120070000 -0300" stop="20261120110000 -0300" channel="0401">
     <title>TNT Sports Premium Chile</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0401_fallback.jpg" />
   </programme>
-  <programme start="20261120060000 -0300" stop="20261120100000 -0300" channel="0401">
+  <programme start="20261120110000 -0300" stop="20261120150000 -0300" channel="0401">
     <title>TNT Sports Premium Chile</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0401_fallback.jpg" />
   </programme>
-  <programme start="20261120100000 -0300" stop="20261120140000 -0300" channel="0401">
+  <programme start="20261120150000 -0300" stop="20261120190000 -0300" channel="0401">
     <title>TNT Sports Premium Chile</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0401_fallback.jpg" />
   </programme>
-  <programme start="20261120140000 -0300" stop="20261120180000 -0300" channel="0401">
+  <programme start="20261120190000 -0300" stop="20261120230000 -0300" channel="0401">
     <title>TNT Sports Premium Chile</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0401_fallback.jpg" />
   </programme>
-  <programme start="20261120180000 -0300" stop="20261120220000 -0300" channel="0401">
-    <title>TNT Sports Premium Chile</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0401_fallback.jpg" />
-  </programme>
-  <programme start="20261120220000 -0300" stop="20261120235959 -0300" channel="0401">
+  <programme start="20261120230000 -0300" stop="20261120235959 -0300" channel="0401">
     <title>TNT Sports Premium Chile</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0401_fallback.jpg" />
@@ -705882,7 +705892,7 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     <category>Comedia</category>
     <country>EE. UU</country>
     <episode-num system="onscreen">S2E17</episode-num>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/spincity.jpg" />
   </programme>
   <programme start="20261114201500 -0300" stop="20261114210500 -0300" channel="0812">
     <title>Spin City • Una boda y un funeral</title>
@@ -705911,7 +705921,7 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     <category>Comedia</category>
     <country>EE. UU</country>
     <episode-num system="onscreen">S2E18</episode-num>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/spincity.jpg" />
   </programme>
   <programme start="20261114210500 -0300" stop="20261114213000 -0300" channel="0812">
     <title>Spin City • A River Runs Through Me</title>
@@ -705940,7 +705950,7 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     <category>Comedia</category>
     <country>EE. UU</country>
     <episode-num system="onscreen">S2E19</episode-num>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/spincity.jpg" />
   </programme>
   <programme start="20261114213000 -0300" stop="20261114215500 -0300" channel="0812">
     <title>Spin City • Adiós, pajarito #2.20</title>
@@ -705969,7 +705979,7 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     <category>Comedia</category>
     <country>EE. UU</country>
     <episode-num system="onscreen">S2E21</episode-num>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/spincity.jpg" />
   </programme>
   <programme start="20261114215500 -0300" stop="20261114221500 -0300" channel="0812">
     <title>The Exes • Cuarentas a oscuras</title>
@@ -707372,7 +707382,7 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     <category>Comedia</category>
     <country>EE. UU</country>
     <episode-num system="onscreen">S2E20</episode-num>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/spincity.jpg" />
   </programme>
   <programme start="20261115201500 -0300" stop="20261115204000 -0300" channel="0812">
     <title>Spin City • The Lady or the Tiger</title>
@@ -707401,7 +707411,7 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     <category>Comedia</category>
     <country>EE. UU</country>
     <episode-num system="onscreen">S2E22</episode-num>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/spincity.jpg" />
   </programme>
   <programme start="20261115204000 -0300" stop="20261115210500 -0300" channel="0812">
     <title>Spin City • Single White Male</title>
@@ -707430,7 +707440,7 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     <category>Comedia</category>
     <country>EE. UU</country>
     <episode-num system="onscreen">S2E23</episode-num>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/spincity.jpg" />
   </programme>
   <programme start="20261115210500 -0300" stop="20261115213000 -0300" channel="0812">
     <title>Spin City • The Paul Bearer</title>
@@ -707459,7 +707469,7 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     <category>Comedia</category>
     <country>EE. UU</country>
     <episode-num system="onscreen">S2E24</episode-num>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/spincity.jpg" />
   </programme>
   <programme start="20261115213000 -0300" stop="20261115215500 -0300" channel="0812">
     <title>Spin City • Un perro muerto habla</title>
@@ -707488,7 +707498,7 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     <category>Comedia</category>
     <country>EE. UU</country>
     <episode-num system="onscreen">S3E1</episode-num>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/spincity.jpg" />
   </programme>
   <programme start="20261115215500 -0300" stop="20261115221500 -0300" channel="0812">
     <title>The Exes • La boda de mi exnovio</title>
@@ -708586,7 +708596,7 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     <category>Comedia</category>
     <country>EE. UU</country>
     <episode-num system="onscreen">S2E24</episode-num>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/spincity.jpg" />
   </programme>
   <programme start="20261116153000 -0300" stop="20261116155500 -0300" channel="0812">
     <title>Spin City • Un perro muerto habla</title>
@@ -708615,7 +708625,7 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     <category>Comedia</category>
     <country>EE. UU</country>
     <episode-num system="onscreen">S3E1</episode-num>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/spincity.jpg" />
   </programme>
   <programme start="20261116155500 -0300" stop="20261116161500 -0300" channel="0812">
     <title>Un hombre. Un plan • Adam no lo lamenta</title>
@@ -708804,7 +708814,7 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     <category>Comedia</category>
     <country>EE. UU</country>
     <episode-num system="onscreen">S2E17</episode-num>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/spincity.jpg" />
   </programme>
   <programme start="20261116183000 -0300" stop="20261116185500 -0300" channel="0812">
     <title>Spin City • Una boda y un funeral</title>
@@ -708833,7 +708843,7 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     <category>Comedia</category>
     <country>EE. UU</country>
     <episode-num system="onscreen">S2E18</episode-num>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/spincity.jpg" />
   </programme>
   <programme start="20261116185500 -0300" stop="20261116192000 -0300" channel="0812">
     <title>Hot in Cleveland • Colados en el funeral</title>
@@ -709026,7 +709036,7 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     <category>Comedia</category>
     <country>EE. UU</country>
     <episode-num system="onscreen">S3E2</episode-num>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/spincity.jpg" />
   </programme>
   <programme start="20261116213000 -0300" stop="20261116215000 -0300" channel="0812">
     <title>Spin City • Gone with the Wind</title>
@@ -709055,7 +709065,7 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     <category>Comedia</category>
     <country>EE. UU</country>
     <episode-num system="onscreen">S3E3</episode-num>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/spincity.jpg" />
   </programme>
   <programme start="20261116215000 -0300" stop="20261116221500 -0300" channel="0812">
     <title>Becker</title>
@@ -710058,7 +710068,7 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     <category>Comedia</category>
     <country>EE. UU</country>
     <episode-num system="onscreen">S3E2</episode-num>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/spincity.jpg" />
   </programme>
   <programme start="20261117153000 -0300" stop="20261117160000 -0300" channel="0812">
     <title>Spin City • Gone with the Wind</title>
@@ -710087,7 +710097,7 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     <category>Comedia</category>
     <country>EE. UU</country>
     <episode-num system="onscreen">S3E3</episode-num>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/spincity.jpg" />
   </programme>
   <programme start="20261117160000 -0300" stop="20261117162000 -0300" channel="0812">
     <title>Un hombre. Un plan • La visita de la suegra</title>
@@ -710276,7 +710286,7 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     <category>Comedia</category>
     <country>EE. UU</country>
     <episode-num system="onscreen">S2E18</episode-num>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/spincity.jpg" />
   </programme>
   <programme start="20261117183500 -0300" stop="20261117190000 -0300" channel="0812">
     <title>Spin City • A River Runs Through Me</title>
@@ -710305,7 +710315,7 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     <category>Comedia</category>
     <country>EE. UU</country>
     <episode-num system="onscreen">S2E19</episode-num>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/spincity.jpg" />
   </programme>
   <programme start="20261117190000 -0300" stop="20261117192000 -0300" channel="0812">
     <title>Hot in Cleveland • Una cosa o una madre</title>
@@ -710498,7 +710508,7 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     <category>Comedia</category>
     <country>EE. UU</country>
     <episode-num system="onscreen">S3E4</episode-num>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/spincity.jpg" />
   </programme>
   <programme start="20261117213500 -0300" stop="20261117220000 -0300" channel="0812">
     <title>Spin City • It Happened One Night</title>
@@ -710527,7 +710537,7 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     <category>Comedia</category>
     <country>EE. UU</country>
     <episode-num system="onscreen">S3E5</episode-num>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/spincity.jpg" />
   </programme>
   <programme start="20261117220000 -0300" stop="20261117222000 -0300" channel="0812">
     <title>Becker • Sueño de Margaret</title>
@@ -711583,7 +711593,7 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     <category>Comedia</category>
     <country>EE. UU</country>
     <episode-num system="onscreen">S3E4</episode-num>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/spincity.jpg" />
   </programme>
   <programme start="20261118153000 -0300" stop="20261118160000 -0300" channel="0812">
     <title>Spin City • It Happened One Night</title>
@@ -711612,7 +711622,7 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     <category>Comedia</category>
     <country>EE. UU</country>
     <episode-num system="onscreen">S3E5</episode-num>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/spincity.jpg" />
   </programme>
   <programme start="20261118160000 -0300" stop="20261118162000 -0300" channel="0812">
     <title>Un hombre. Un plan • La estrategia de Teddy</title>
@@ -711801,7 +711811,7 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     <category>Comedia</category>
     <country>EE. UU</country>
     <episode-num system="onscreen">S2E21</episode-num>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/spincity.jpg" />
   </programme>
   <programme start="20261118183500 -0300" stop="20261118190000 -0300" channel="0812">
     <title>Spin City • The Pope of Gracie Mansion</title>
@@ -711830,7 +711840,7 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     <category>Comedia</category>
     <country>EE. UU</country>
     <episode-num system="onscreen">S2E20</episode-num>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/spincity.jpg" />
   </programme>
   <programme start="20261118190000 -0300" stop="20261118192000 -0300" channel="0812">
     <title>Hot in Cleveland • Dios y fútbol</title>
@@ -712023,7 +712033,7 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     <category>Comedia</category>
     <country>EE. UU</country>
     <episode-num system="onscreen">S3E7</episode-num>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/spincity.jpg" />
   </programme>
   <programme start="20261118213500 -0300" stop="20261118220000 -0300" channel="0812">
     <title>Spin City • Tres hombres y una pequeña dama</title>
@@ -712052,7 +712062,7 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     <category>Comedia</category>
     <country>EE. UU</country>
     <episode-num system="onscreen">S3E6</episode-num>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/spincity.jpg" />
   </programme>
   <programme start="20261118220000 -0300" stop="20261118222000 -0300" channel="0812">
     <title>Becker • ¿Pero qué pasa con Harry</title>
@@ -745248,6 +745258,7 @@ El brujo Gargamel y su gato Azrael, intentan siempre y por todos los medios capt
     <date>2023</date>
     <category>Movie</category>
     <category>Drama</category>
+    <country>México</country>
     <rating><value>B15</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/unactormalo.jpg" />
   </programme>
@@ -745624,6 +745635,7 @@ El brujo Gargamel y su gato Azrael, intentan siempre y por todos los medios capt
     <date>2023</date>
     <category>Movie</category>
     <category>Drama</category>
+    <country>México</country>
     <rating><value>B15</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/unactormalo.jpg" />
   </programme>
@@ -925736,7 +925748,7 @@ Más allá del jardín (título original en inglés: Over the Garden Wall) es un
   </programme>
   <programme start="20261117040000 -0300" stop="20261117050000 -0300" channel="0919">
     <title>Campo de batalla</title>
-    <desc>Un programa de literatura donde se dan cita distintas posturas filosóficas, estéticas, políticas, culturales e históricas.</desc>
+    <desc>Battlefield es una serie documental estrenada en 1994 que explora las batallas más importantes libradas principalmente durante la Segunda Guerra Mundial, pero también durante la Guerra de Vietnam. La serie emplea un enfoque novedoso en el que la historia se describe mediante relatos detallados de las principales batallas, junto con información contextual y de antecedentes.</desc>
     <date>2018</date>
     <category>Series</category>
     <country>Canadá</country>
