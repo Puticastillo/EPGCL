@@ -1892,6 +1892,10 @@
     <display-name lang="es">Zapping Channel</display-name>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/homero/0901.jpg" />
   </channel>
+  <channel id="0902">
+    <display-name lang="es">KNino TV</display-name>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/homero/0902.jpg" />
+  </channel>
   <channel id="1902">
     <display-name lang="es">Caracol TV • Internacional</display-name>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/homero/0902.jpg" />
@@ -140937,7 +140941,7 @@ Claudia Gurisatti - Jefferson Beltrán - Jason Calderón</desc>
     <category>Drama</category>
     <country>Francia</country>
     <rating><value>TE</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/resilience.jpg" />
   </programme>
   <programme start="20261118170000 -0300" stop="20261118172700 -0300" channel="0224">
     <title>Le journal de la RTS</title>
@@ -584263,10 +584267,19 @@ El personaje de El Pantera fue creado en los años 70 por el escritor Daniel Mu�
     <desc>La Patrulla de Rescate del Aconcagua en Argentina, está encargada de rescatar y salvar la vida de los andinistas atrapados en la nieve y las alturas.</desc>
     <credits>
       <director>David Moncasi</director>
+      <actor>Steven Seagal</actor>
+      <actor>Ida Nowakowska</actor>
+      <actor>Agnieszka Wagner</actor>
+      <actor>Krzysztof Pieczyński</actor>
+      <actor>Robbie Gee</actor>
+      <actor>Murat Yılmaz</actor>
+      <actor>Matt Schulze</actor>
+      <actor>Nick Brimble</actor>
     </credits>
     <date>2026</date>
     <category>Drama</category>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <country>Poland</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/rescateallimite.jpg" />
   </programme>
   <programme start="20261118014500 -0300" stop="20261118024500 -0300" channel="0637">
     <title>Salón de té La Moderna</title>
@@ -584667,10 +584680,19 @@ El personaje de El Pantera fue creado en los años 70 por el escritor Daniel Mu�
     <desc>La Patrulla de Rescate del Aconcagua en Argentina, está encargada de rescatar y salvar la vida de los andinistas atrapados en la nieve y las alturas.</desc>
     <credits>
       <director>David Moncasi</director>
+      <actor>Steven Seagal</actor>
+      <actor>Ida Nowakowska</actor>
+      <actor>Agnieszka Wagner</actor>
+      <actor>Krzysztof Pieczyński</actor>
+      <actor>Robbie Gee</actor>
+      <actor>Murat Yılmaz</actor>
+      <actor>Matt Schulze</actor>
+      <actor>Nick Brimble</actor>
     </credits>
     <date>2011</date>
     <category>Documentary</category>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <country>Poland</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/rescateallimite.jpg" />
   </programme>
   <programme start="20261118193500 -0300" stop="20261118203500 -0300" channel="0637">
     <title>Seis hermanas</title>
@@ -585075,10 +585097,19 @@ El personaje de El Pantera fue creado en los años 70 por el escritor Daniel Mu�
     <desc>La Patrulla de Rescate del Aconcagua en Argentina, está encargada de rescatar y salvar la vida de los andinistas atrapados en la nieve y las alturas.</desc>
     <credits>
       <director>David Moncasi</director>
+      <actor>Steven Seagal</actor>
+      <actor>Ida Nowakowska</actor>
+      <actor>Agnieszka Wagner</actor>
+      <actor>Krzysztof Pieczyński</actor>
+      <actor>Robbie Gee</actor>
+      <actor>Murat Yılmaz</actor>
+      <actor>Matt Schulze</actor>
+      <actor>Nick Brimble</actor>
     </credits>
     <date>2011</date>
     <category>Documentary</category>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <country>Poland</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/rescateallimite.jpg" />
   </programme>
   <programme start="20261119132500 -0300" stop="20261119143000 -0300" channel="0637">
     <title>Salón de té La Moderna</title>
@@ -585442,10 +585473,19 @@ El personaje de El Pantera fue creado en los años 70 por el escritor Daniel Mu�
     <desc>La Patrulla de Rescate del Aconcagua en Argentina, está encargada de rescatar y salvar la vida de los andinistas atrapados en la nieve y las alturas.</desc>
     <credits>
       <director>David Moncasi</director>
+      <actor>Steven Seagal</actor>
+      <actor>Ida Nowakowska</actor>
+      <actor>Agnieszka Wagner</actor>
+      <actor>Krzysztof Pieczyński</actor>
+      <actor>Robbie Gee</actor>
+      <actor>Murat Yılmaz</actor>
+      <actor>Matt Schulze</actor>
+      <actor>Nick Brimble</actor>
     </credits>
     <date>2011</date>
     <category>Documentary</category>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <country>Poland</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/rescateallimite.jpg" />
   </programme>
   <programme start="20261120060000 -0300" stop="20261120065500 -0300" channel="0637">
     <title>Acacias 38</title>
@@ -788648,6 +788688,7 @@ Los problemas aumentan cuando la familia también comienza a notar  presencias y
     <category>Movie</category>
     <category>Action</category>
     <category>Drama</category>
+    <country>Estados Unidos</country>
     <rating><value>B15</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/elduelofinal.jpg" />
   </programme>
@@ -789032,6 +789073,7 @@ Los problemas aumentan cuando la familia también comienza a notar  presencias y
     <category>Movie</category>
     <category>Action</category>
     <category>Drama</category>
+    <country>Estados Unidos</country>
     <rating><value>B15</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/elduelofinal.jpg" />
   </programme>
@@ -953254,7 +953296,7 @@ Más allá del jardín (título original en inglés: Over the Garden Wall) es un
   </programme>
   <programme start="20261118121500 -0300" stop="20261118135500 -0300" channel="0870">
     <title>[En vivo] Enseñar a un sinvergüenza</title>
-    <desc>En vivo ║ Una profesora que ha pasado su vida entre libros y estudios conoce a un sinvergüenza que vive del juego.</desc>
+    <desc>En vivo ║ Rosana es una atractiva profesora que ha desaprovechado parte de su juventud al haber estado demasiado atenta a su disciplina de estudio. Un día irrumpe en su vida un perfecto caradura, que vive del juego y se dedica al ocio y la buena vida.</desc>
     <credits>
       <director>Agustín Navarro</director>
       <actor>Carmen Sevilla</actor>
@@ -953269,6 +953311,7 @@ Más allá del jardín (título original en inglés: Over the Garden Wall) es un
     <category>Movie</category>
     <category>Comedy</category>
     <category>Romantic comedy</category>
+    <country>España</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261118135500 -0300" stop="20261118153000 -0300" channel="0870">
@@ -953762,7 +953805,8 @@ Más allá del jardín (título original en inglés: Over the Garden Wall) es un
     <category>Movie</category>
     <category>Musical</category>
     <category>Romance</category>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <country>España</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/sinunadios.jpg" />
   </programme>
   <programme start="20261120020000 -0300" stop="20261120034000 -0300" channel="0870">
     <title>Edipo alcalde</title>
@@ -953927,7 +953971,8 @@ Más allá del jardín (título original en inglés: Over the Garden Wall) es un
     <category>Movie</category>
     <category>Musical</category>
     <category>Romance</category>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <country>España</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/sinunadios.jpg" />
   </programme>
   <programme start="20261120140000 -0300" stop="20261120155500 -0300" channel="0870">
     <title>Eso</title>
@@ -954286,6 +954331,469 @@ Más allá del jardín (título original en inglés: Over the Garden Wall) es un
   </programme>
   <programme start="20261119200000 -0300" stop="20261119235959 -0300" channel="0901">
     <title>Zapping Channel</title>
+    <desc>La información de este programa no se encuentra disponible.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261113130900 -0300" stop="20261113140000 -0300" channel="0902">
+    <title>Estimulación</title>
+    <desc>Estimulación en naturaleza salvaje y bosques.</desc>
+    <category>Interés General</category>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/estimulacion.jpg" />
+  </programme>
+  <programme start="20261113140000 -0300" stop="20261113140900 -0300" channel="0902">
+    <title>Knino</title>
+    <desc>La información de este programa no se encuentra disponible.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261113140900 -0300" stop="20261113161000 -0300" channel="0902">
+    <title>Exposición</title>
+    <desc>Exposición en naturaleza salvaje y bosques.</desc>
+    <category>Interés General</category>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/exposicion.jpg" />
+  </programme>
+  <programme start="20261113161000 -0300" stop="20261113180000 -0300" channel="0902">
+    <title>Siesta TV Daytime</title>
+    <desc>Dibujos animados para perros .</desc>
+    <category>Interés General</category>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/siestatvdaytime.jpg" />
+  </programme>
+  <programme start="20261113180000 -0300" stop="20261113181100 -0300" channel="0902">
+    <title>Knino</title>
+    <desc>La información de este programa no se encuentra disponible.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261113181100 -0300" stop="20261113182100 -0300" channel="0902">
+    <title>Luna en Chile</title>
+    <desc>Producción original para perros. Luna, una perrita viajera y &quot;patiperra&quot; que recorre distintos lugares de Chile junto a sus amigos.</desc>
+    <category>Infantil</category>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/lunaenchile.jpg" />
+  </programme>
+  <programme start="20261113182100 -0300" stop="20261113192100 -0300" channel="0902">
+    <title>Estimulación</title>
+    <desc>Estimulación en naturaleza salvaje y bosques.</desc>
+    <category>Interés General</category>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/estimulacion.jpg" />
+  </programme>
+  <programme start="20261113192100 -0300" stop="20261113210000 -0300" channel="0902">
+    <title>Exposición</title>
+    <desc>Exposición en naturaleza salvaje y bosques.</desc>
+    <category>Interés General</category>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/exposicion.jpg" />
+  </programme>
+  <programme start="20261113210000 -0300" stop="20261113212100 -0300" channel="0902">
+    <title>Knino</title>
+    <desc>La información de este programa no se encuentra disponible.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261113212100 -0300" stop="20261113212600 -0300" channel="0902">
+    <title>Amigos de KNino</title>
+    <desc>Capsulas originales.</desc>
+    <category>Interés General</category>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/amigosdeknino.jpg" />
+  </programme>
+  <programme start="20261113212600 -0300" stop="20261113230200 -0300" channel="0902">
+    <title>Estimulación</title>
+    <desc>Estimulación en naturaleza salvaje y bosques.</desc>
+    <category>Interés General</category>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/estimulacion.jpg" />
+  </programme>
+  <programme start="20261113230200 -0300" stop="20261114010400 -0300" channel="0902">
+    <title>Noche y descanso</title>
+    <desc>Programación nocturna para descanso y sueño reparador.</desc>
+    <category>Interés General</category>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/nocheydescanso.jpg" />
+  </programme>
+  <programme start="20261114010400 -0300" stop="20261114020000 -0300" channel="0902">
+    <title>Siesta TV Nighttime</title>
+    <desc>Dibujos animados para perros .</desc>
+    <category>Infantil</category>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/siestatvnighttime.jpg" />
+  </programme>
+  <programme start="20261114020000 -0300" stop="20261114030500 -0300" channel="0902">
+    <title>Knino</title>
+    <desc>La información de este programa no se encuentra disponible.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261114030500 -0300" stop="20261114060000 -0300" channel="0902">
+    <title>Noche y descanso</title>
+    <desc>Programación nocturna para descanso y sueño reparador.</desc>
+    <category>Interés General</category>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/nocheydescanso.jpg" />
+  </programme>
+  <programme start="20261114060000 -0300" stop="20261114070800 -0300" channel="0902">
+    <title>Knino</title>
+    <desc>La información de este programa no se encuentra disponible.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261114070800 -0300" stop="20261114090900 -0300" channel="0902">
+    <title>Relajación</title>
+    <desc>Relajación en escenas urbanas y calles de la ciudad.</desc>
+    <category>Interés General</category>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/relajacion.jpg" />
+  </programme>
+  <programme start="20261114090900 -0300" stop="20261114091400 -0300" channel="0902">
+    <title>Amigos de KNino</title>
+    <desc>Capsulas originales.</desc>
+    <category>Interés General</category>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/amigosdeknino.jpg" />
+  </programme>
+  <programme start="20261114091400 -0300" stop="20261114100000 -0300" channel="0902">
+    <title>Relajación</title>
+    <desc>Relajación en escenas urbanas y calles de la ciudad.</desc>
+    <category>Interés General</category>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/relajacion.jpg" />
+  </programme>
+  <programme start="20261114100000 -0300" stop="20261114111500 -0300" channel="0902">
+    <title>Knino</title>
+    <desc>La información de este programa no se encuentra disponible.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261114111500 -0300" stop="20261114131500 -0300" channel="0902">
+    <title>Relajación</title>
+    <desc>Relajación en escenas urbanas y calles de la ciudad.</desc>
+    <category>Interés General</category>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/relajacion.jpg" />
+  </programme>
+  <programme start="20261114131500 -0300" stop="20261114140000 -0300" channel="0902">
+    <title>Estimulación</title>
+    <desc>Estimulación en naturaleza salvaje y bosques.</desc>
+    <category>Interés General</category>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/estimulacion.jpg" />
+  </programme>
+  <programme start="20261114140000 -0300" stop="20261114141600 -0300" channel="0902">
+    <title>Knino</title>
+    <desc>La información de este programa no se encuentra disponible.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261114141600 -0300" stop="20261114142600 -0300" channel="0902">
+    <title>Luna en Chile</title>
+    <desc>Producción original para perros. Luna, una perrita viajera y &quot;patiperra&quot; que recorre distintos lugares de Chile junto a sus amigos.</desc>
+    <category>Infantil</category>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/lunaenchile.jpg" />
+  </programme>
+  <programme start="20261114142600 -0300" stop="20261114162600 -0300" channel="0902">
+    <title>Exposición</title>
+    <desc>Exposición en naturaleza salvaje y bosques.</desc>
+    <category>Interés General</category>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/exposicion.jpg" />
+  </programme>
+  <programme start="20261114162600 -0300" stop="20261114180000 -0300" channel="0902">
+    <title>Relajación</title>
+    <desc>Relajación en escenas urbanas y calles de la ciudad.</desc>
+    <category>Interés General</category>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/relajacion.jpg" />
+  </programme>
+  <programme start="20261114180000 -0300" stop="20261114182700 -0300" channel="0902">
+    <title>Knino</title>
+    <desc>La información de este programa no se encuentra disponible.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261114182700 -0300" stop="20261114192800 -0300" channel="0902">
+    <title>Estimulación</title>
+    <desc>Estimulación en naturaleza salvaje y bosques.</desc>
+    <category>Interés General</category>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/estimulacion.jpg" />
+  </programme>
+  <programme start="20261114192800 -0300" stop="20261114210000 -0300" channel="0902">
+    <title>Exposición</title>
+    <desc>Exposición en naturaleza salvaje y bosques.</desc>
+    <category>Interés General</category>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/exposicion.jpg" />
+  </programme>
+  <programme start="20261114210000 -0300" stop="20261114211300 -0300" channel="0902">
+    <title>Knino</title>
+    <desc>La información de este programa no se encuentra disponible.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261114211300 -0300" stop="20261114211800 -0300" channel="0902">
+    <title>Amigos de KNino</title>
+    <desc>Capsulas originales.</desc>
+    <category>Interés General</category>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/amigosdeknino.jpg" />
+  </programme>
+  <programme start="20261114211800 -0300" stop="20261114221900 -0300" channel="0902">
+    <title>Estimulación</title>
+    <desc>Estimulación en naturaleza salvaje y bosques.</desc>
+    <category>Interés General</category>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/estimulacion.jpg" />
+  </programme>
+  <programme start="20261114221900 -0300" stop="20261115000200 -0300" channel="0902">
+    <title>Relajación</title>
+    <desc>Relajación en escenas urbanas y calles de la ciudad.</desc>
+    <category>Interés General</category>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/relajacion.jpg" />
+  </programme>
+  <programme start="20261115000200 -0300" stop="20261115020000 -0300" channel="0902">
+    <title>Siesta TV Nighttime</title>
+    <desc>Dibujos animados para perros .</desc>
+    <category>Infantil</category>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/siestatvnighttime.jpg" />
+  </programme>
+  <programme start="20261115020000 -0300" stop="20261115020300 -0300" channel="0902">
+    <title>Knino</title>
+    <desc>La información de este programa no se encuentra disponible.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261115020300 -0300" stop="20261115050400 -0300" channel="0902">
+    <title>Noche y descanso</title>
+    <desc>Programación nocturna para descanso y sueño reparador.</desc>
+    <category>Interés General</category>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/nocheydescanso.jpg" />
+  </programme>
+  <programme start="20261115050400 -0300" stop="20261115060000 -0300" channel="0902">
+    <title>KNino</title>
+    <desc>La información de este programa no se encuentra disponible.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261115060000 -0300" stop="20261115060600 -0300" channel="0902">
+    <title>Knino</title>
+    <desc>La información de este programa no se encuentra disponible.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261115060600 -0300" stop="20261115070700 -0300" channel="0902">
+    <title>Noche y descanso</title>
+    <desc>Programación nocturna para descanso y sueño reparador.</desc>
+    <category>Interés General</category>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/nocheydescanso.jpg" />
+  </programme>
+  <programme start="20261115070700 -0300" stop="20261115090700 -0300" channel="0902">
+    <title>Relajación</title>
+    <desc>Relajación en escenas urbanas y calles de la ciudad.</desc>
+    <category>Interés General</category>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/relajacion.jpg" />
+  </programme>
+  <programme start="20261115090700 -0300" stop="20261115091200 -0300" channel="0902">
+    <title>Amigos de KNino</title>
+    <desc>Capsulas originales.</desc>
+    <category>Interés General</category>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/amigosdeknino.jpg" />
+  </programme>
+  <programme start="20261115091200 -0300" stop="20261115100000 -0300" channel="0902">
+    <title>Exposición</title>
+    <desc>Exposición en naturaleza salvaje y bosques.</desc>
+    <category>Interés General</category>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/exposicion.jpg" />
+  </programme>
+  <programme start="20261115100000 -0300" stop="20261115105400 -0300" channel="0902">
+    <title>Knino</title>
+    <desc>La información de este programa no se encuentra disponible.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261115105400 -0300" stop="20261115110400 -0300" channel="0902">
+    <title>Luna en Chile</title>
+    <desc>Producción original para perros. Luna, una perrita viajera y &quot;patiperra&quot; que recorre distintos lugares de Chile junto a sus amigos.</desc>
+    <category>Infantil</category>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/lunaenchile.jpg" />
+  </programme>
+  <programme start="20261115110400 -0300" stop="20261115130500 -0300" channel="0902">
+    <title>Relajación</title>
+    <desc>Relajación en escenas urbanas y calles de la ciudad.</desc>
+    <category>Interés General</category>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/relajacion.jpg" />
+  </programme>
+  <programme start="20261115130500 -0300" stop="20261115140000 -0300" channel="0902">
+    <title>Estimulación</title>
+    <desc>Estimulación en naturaleza salvaje y bosques.</desc>
+    <category>Interés General</category>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/estimulacion.jpg" />
+  </programme>
+  <programme start="20261115140000 -0300" stop="20261115140500 -0300" channel="0902">
+    <title>Knino</title>
+    <desc>La información de este programa no se encuentra disponible.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261115140500 -0300" stop="20261115154700 -0300" channel="0902">
+    <title>Exposición</title>
+    <desc>Exposición en naturaleza salvaje y bosques.</desc>
+    <category>Interés General</category>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/exposicion.jpg" />
+  </programme>
+  <programme start="20261115154700 -0300" stop="20261115174800 -0300" channel="0902">
+    <title>Relajación</title>
+    <desc>Relajación en escenas urbanas y calles de la ciudad.</desc>
+    <category>Interés General</category>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/relajacion.jpg" />
+  </programme>
+  <programme start="20261115174800 -0300" stop="20261115175800 -0300" channel="0902">
+    <title>Luna en Chile</title>
+    <desc>Producción original para perros. Luna, una perrita viajera y &quot;patiperra&quot; que recorre distintos lugares de Chile junto a sus amigos.</desc>
+    <category>Infantil</category>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/lunaenchile.jpg" />
+  </programme>
+  <programme start="20261115175800 -0300" stop="20261115180000 -0300" channel="0902">
+    <title>Estimulación</title>
+    <desc>Estimulación en naturaleza salvaje y bosques.</desc>
+    <category>Interés General</category>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/estimulacion.jpg" />
+  </programme>
+  <programme start="20261115180000 -0300" stop="20261115185800 -0300" channel="0902">
+    <title>Knino</title>
+    <desc>La información de este programa no se encuentra disponible.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261115185800 -0300" stop="20261115205900 -0300" channel="0902">
+    <title>Exposición</title>
+    <desc>Exposición en naturaleza salvaje y bosques.</desc>
+    <category>Interés General</category>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/exposicion.jpg" />
+  </programme>
+  <programme start="20261115205900 -0300" stop="20261115210000 -0300" channel="0902">
+    <title>Amigos de KNino</title>
+    <desc>Capsulas originales.</desc>
+    <category>Interés General</category>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/amigosdeknino.jpg" />
+  </programme>
+  <programme start="20261115210000 -0300" stop="20261115210400 -0300" channel="0902">
+    <title>Knino</title>
+    <desc>La información de este programa no se encuentra disponible.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261115210400 -0300" stop="20261115220400 -0300" channel="0902">
+    <title>Estimulación</title>
+    <desc>Estimulación en naturaleza salvaje y bosques.</desc>
+    <category>Interés General</category>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/estimulacion.jpg" />
+  </programme>
+  <programme start="20261115220400 -0300" stop="20261115235900 -0300" channel="0902">
+    <title>Relajación</title>
+    <desc>Relajación en escenas urbanas y calles de la ciudad.</desc>
+    <category>Interés General</category>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/relajacion.jpg" />
+  </programme>
+  <programme start="20261115235900 -0300" stop="20261116020000 -0300" channel="0902">
+    <title>Noche y descanso</title>
+    <desc>Programación nocturna para descanso y sueño reparador.</desc>
+    <category>Interés General</category>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/nocheydescanso.jpg" />
+  </programme>
+  <programme start="20261116020000 -0300" stop="20261116020100 -0300" channel="0902">
+    <title>Knino</title>
+    <desc>La información de este programa no se encuentra disponible.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261116020100 -0300" stop="20261116050100 -0300" channel="0902">
+    <title>Noche y descanso</title>
+    <desc>Programación nocturna para descanso y sueño reparador.</desc>
+    <category>Interés General</category>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/nocheydescanso.jpg" />
+  </programme>
+  <programme start="20261116050100 -0300" stop="20261116060000 -0300" channel="0902">
+    <title>KNino</title>
+    <desc>La información de este programa no se encuentra disponible.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261116060000 -0300" stop="20261116100000 -0300" channel="0902">
+    <title>Knino</title>
+    <desc>La información de este programa no se encuentra disponible.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261116100000 -0300" stop="20261116140000 -0300" channel="0902">
+    <title>Knino</title>
+    <desc>La información de este programa no se encuentra disponible.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261116140000 -0300" stop="20261116180000 -0300" channel="0902">
+    <title>Knino</title>
+    <desc>La información de este programa no se encuentra disponible.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261116180000 -0300" stop="20261116210000 -0300" channel="0902">
+    <title>Knino</title>
+    <desc>La información de este programa no se encuentra disponible.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261116210000 -0300" stop="20261117020000 -0300" channel="0902">
+    <title>Knino</title>
+    <desc>La información de este programa no se encuentra disponible.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261117020000 -0300" stop="20261117060000 -0300" channel="0902">
+    <title>Knino</title>
+    <desc>La información de este programa no se encuentra disponible.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261117060000 -0300" stop="20261117100000 -0300" channel="0902">
+    <title>KNino TV</title>
+    <desc>La información de este programa no se encuentra disponible.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261117100000 -0300" stop="20261117140000 -0300" channel="0902">
+    <title>KNino TV</title>
+    <desc>La información de este programa no se encuentra disponible.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261117140000 -0300" stop="20261117180000 -0300" channel="0902">
+    <title>KNino TV</title>
+    <desc>La información de este programa no se encuentra disponible.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261117180000 -0300" stop="20261117220000 -0300" channel="0902">
+    <title>KNino TV</title>
+    <desc>La información de este programa no se encuentra disponible.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261117220000 -0300" stop="20261118020000 -0300" channel="0902">
+    <title>KNino TV</title>
+    <desc>La información de este programa no se encuentra disponible.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261118020000 -0300" stop="20261118060000 -0300" channel="0902">
+    <title>KNino TV</title>
+    <desc>La información de este programa no se encuentra disponible.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261118060000 -0300" stop="20261118100000 -0300" channel="0902">
+    <title>KNino TV</title>
+    <desc>La información de este programa no se encuentra disponible.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261118100000 -0300" stop="20261118140000 -0300" channel="0902">
+    <title>KNino TV</title>
+    <desc>La información de este programa no se encuentra disponible.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261118140000 -0300" stop="20261118180000 -0300" channel="0902">
+    <title>KNino TV</title>
+    <desc>La información de este programa no se encuentra disponible.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261118180000 -0300" stop="20261118220000 -0300" channel="0902">
+    <title>KNino TV</title>
+    <desc>La información de este programa no se encuentra disponible.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261118220000 -0300" stop="20261119020000 -0300" channel="0902">
+    <title>KNino TV</title>
+    <desc>La información de este programa no se encuentra disponible.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261119020000 -0300" stop="20261119060000 -0300" channel="0902">
+    <title>KNino TV</title>
+    <desc>La información de este programa no se encuentra disponible.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261119060000 -0300" stop="20261119100000 -0300" channel="0902">
+    <title>KNino TV</title>
+    <desc>La información de este programa no se encuentra disponible.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261119100000 -0300" stop="20261119140000 -0300" channel="0902">
+    <title>KNino TV</title>
+    <desc>La información de este programa no se encuentra disponible.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261119140000 -0300" stop="20261119180000 -0300" channel="0902">
+    <title>KNino TV</title>
+    <desc>La información de este programa no se encuentra disponible.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261119180000 -0300" stop="20261119220000 -0300" channel="0902">
+    <title>KNino TV</title>
+    <desc>La información de este programa no se encuentra disponible.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261119220000 -0300" stop="20261119235959 -0300" channel="0902">
+    <title>KNino TV</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
@@ -1089653,6 +1090161,7 @@ No aparece en el programa ningún otro superhéroe de ficción, a excepción  de
     <date>2003</date>
     <category>Drama</category>
     <category>Novela</category>
+    <country>México</country>
     <rating><value>14</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
@@ -1089942,6 +1090451,7 @@ El brujo Gargamel y su gato Azrael, intentan siempre y por todos los medios capt
     <date>2003</date>
     <category>Drama</category>
     <category>Novela</category>
+    <country>México</country>
     <rating><value>14</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
@@ -1090223,6 +1090733,7 @@ El brujo Gargamel y su gato Azrael, intentan siempre y por todos los medios capt
     <date>2003</date>
     <category>Drama</category>
     <category>Novela</category>
+    <country>México</country>
     <rating><value>14</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
@@ -1090555,6 +1091066,7 @@ El brujo Gargamel y su gato Azrael, intentan siempre y por todos los medios capt
     <date>2003</date>
     <category>Drama</category>
     <category>Novela</category>
+    <country>México</country>
     <rating><value>14</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
@@ -1090805,6 +1091317,7 @@ El brujo Gargamel y su gato Azrael, intentan siempre y por todos los medios capt
     <date>2003</date>
     <category>Drama</category>
     <category>Novela</category>
+    <country>México</country>
     <rating><value>14</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
@@ -1091080,6 +1091593,7 @@ El brujo Gargamel y su gato Azrael, intentan siempre y por todos los medios capt
     <date>2003</date>
     <category>Drama</category>
     <category>Novela</category>
+    <country>México</country>
     <rating><value>14</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
@@ -1091276,6 +1091790,7 @@ El brujo Gargamel y su gato Azrael, intentan siempre y por todos los medios capt
     <date>2003</date>
     <category>Drama</category>
     <category>Novela</category>
+    <country>México</country>
     <rating><value>14</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
@@ -1147981,11 +1148496,23 @@ Serie que busca que los niños en edad preescolar se interesen por llevar una di
   </programme>
   <programme start="20261114174500 -0300" stop="20261114195000 -0300" channel="py0002">
     <title>Escuela para fracasados</title>
-    <desc>Un grupo de alborotadores y abusones son obligados a quedarse en el colegio por las noches para así conseguir aprobar los exámenes que les permitan finalizar sus estudios de bachillerato.</desc>
+    <desc>Un grupo de alborotadores se ven obligados a asistir a la escuela nocturna con la esperanza de que aprueben el examen de GED para terminar la escuela secundaria.</desc>
+    <credits>
+      <director>Malcolm D. Lee</director>
+      <actor>Kevin Hart</actor>
+      <actor>Tiffany Haddish</actor>
+      <actor>Rob Riggle</actor>
+      <actor>Romany Malco</actor>
+      <actor>Taran Killam</actor>
+      <actor>Megalyn Echikunwoke</actor>
+      <actor>Al Madrigal</actor>
+      <actor>Mary Lynn Rajskub</actor>
+    </credits>
     <date>2018</date>
     <category>Comedia</category>
+    <country>Estados Unidos</country>
     <rating><value>5.6</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/escuelaparafracasados.jpg" />
   </programme>
   <programme start="20261114195000 -0300" stop="20261114210000 -0300" channel="py0002">
     <title>Telediario</title>
