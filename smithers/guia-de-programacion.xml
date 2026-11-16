@@ -125327,6 +125327,7 @@ Claudia Gurisatti - Jefferson Beltrán - Jason Calderón</desc>
     <date>2019</date>
     <category>Entretenimiento</category>
     <category>Talk Show</category>
+    <country>Estados Unidos</country>
     <rating><value>R</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/danoiaruotalibera.jpg" />
   </programme>
@@ -547553,7 +547554,7 @@ Y mientras la vida de Iñaki transcurre plácidamente, un día se ve obligado a 
   </programme>
   <programme start="20261118220000 -0300" stop="20261118234500 -0300" channel="0622">
     <title>Babylon Berlin</title>
-    <desc>En Berlín, a fines de la década de 1920, Alemania está experimentando importantes cambios sociales, económicos, políticos y sufriendo el aumento del desempleo y la inflación, mientras Adolf Hitler lucha por ascender al poder.</desc>
+    <desc>Babylon Berlín, una serie alemana de 16 capítulos ambientada en el Berlín de los años veinte, cuando la diversión parecía no tener fin en la gran ciudad y que tiene como protagonista a un joven detective de 29 años marcado por su experiencia en la Gran Guerra, puede escribir un nuevo y gran capitulo en la historia de las producciones para televisión que se han hecho hasta la fecha en Europa, por una razón existencial: la serie es terriblemente ambiciosa.</desc>
     <credits>
       <director>Tom Tykwer</director>
       <actor>Volker Bruch</actor>
@@ -547569,7 +547570,7 @@ Y mientras la vida de Iñaki transcurre plácidamente, un día se ve obligado a 
     <date>2017</date>
     <category>Drama</category>
     <country>Alemania</country>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/babylonberlin.jpg" />
   </programme>
   <programme start="20261118234500 -0300" stop="20261119014000 -0300" channel="0622">
     <title>Un hombre perfecto</title>
@@ -1001769,9 +1001770,22 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
   </programme>
   <programme start="20261121002700 -0300" stop="20261121024400 -0300" channel="0977">
     <title>La Naranja Mecanica</title>
-    <desc>Gran Bretaña, en un futuro indeterminado. Alex (Malcolm McDowell) es un joven muy agresivo que tiene dos pasiones: la violencia desaforada y Beethoven. Es el jefe de la banda de los drugos, que dan rienda suelta a sus instintos más salvajes apaleando, violando y aterrorizando a la población. Cuando esa escalada de terror llega hasta el asesinato, Alex es detenido y en prisión, se someterá voluntariamente a una innovadora experiencia de reeducación que pretende anular drásticamente cualquier atisbo de conducta antisocial.</desc>
+    <desc>Gran Bretaña, en un futuro indeterminado. Alex es un joven muy agresivo que tiene dos pasiones: la violencia desaforada y Beethoven. Es el jefe de la banda de los drugos, que dan rienda suelta a sus instintos más salvajes apaleando, violando y aterrorizando a la población. Cuando esa escalada de terror llega hasta el asesinato, Alex es detenido y, en prisión, se someterá voluntariamente a una innovadora experiencia de reeducación que pretende anular drásticamente cualquier atisbo de conducta antisocial.</desc>
+    <credits>
+      <director>Stanley Kubrick</director>
+      <actor>Malcolm McDowell</actor>
+      <actor>Patrick Magee</actor>
+      <actor>Carl Duering</actor>
+      <actor>Michael Bates</actor>
+      <actor>Warren Clarke</actor>
+      <actor>James Marcus</actor>
+      <actor>Michael Tarn</actor>
+      <actor>Miriam Karlin</actor>
+    </credits>
+    <date>1971</date>
     <category>MOVIES RETRO</category>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <country>Reino Unido</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/lanaranjamecanica.jpg" />
   </programme>
   <programme start="20261121024400 -0300" stop="20261121045700 -0300" channel="0977">
     <title>Daredevil: el hombre sin miedo</title>
@@ -1149903,11 +1149917,23 @@ No aparece en el programa ningún otro superhéroe de ficción, a excepción  de
   </programme>
   <programme start="20261115200000 -0300" stop="20261115220000 -0300" channel="sv0003">
     <title>Si yo fuera diputado</title>
-    <desc>Cantinflas trabaja como barbero y suele recibir lecciones de leyes de un anciano, quien le propone que defienda a los más desprotegidos del barrio ante la corte. Alcanzará tanto éxito que obtendrá los votos necesarios para ser diputado.</desc>
+    <desc>Cantinflas es un singular barbero que, entre corte y corte de pelo, recibe lecciones de leyes de un anciano vecino. Éste le propone asesoramiento para defender en los tribunales a los desfavorecidos del barrio. Su éxito le procura los votos del distrito en las elecciones a diputado, ya que el otro candidato, Don Pulcro, no es aceptado por nadie.</desc>
+    <credits>
+      <director>Miguel M. Delgado</director>
+      <actor>Cantinflas</actor>
+      <actor>Gloria Mange</actor>
+      <actor>Andrés Soler</actor>
+      <actor>Emperatriz Carvajal</actor>
+      <actor>Alejandro Ciangherotti</actor>
+      <actor>Ernesto Finance</actor>
+      <actor>Rafael Icardo</actor>
+      <actor>Eduardo Alcaraz</actor>
+    </credits>
     <date>1952</date>
     <category>Comedia</category>
+    <country>México</country>
     <rating><value>7.3</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/siyofueradiputado.jpg" />
   </programme>
   <programme start="20261115220000 -0300" stop="20261115223000 -0300" channel="sv0003">
     <title>El noticiero - Fin de semana</title>
