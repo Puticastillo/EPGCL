@@ -22822,21 +22822,9 @@
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261114130000 -0300" stop="20261114140000 -0300" channel="0117">
-    <title>El festival de la una</title>
-    <desc>Cantantes, concursos, presentaciones en vivo y mucho más en un clásico de la televisión criolla. El Festival de la una llega junto a Enrique Maluenda y todo su equipo para hacer la tarde más amena.</desc>
-    <credits>
-      <director>René Schneider</director>
-      <presenter>Enrique Maluenda</presenter>
-    </credits>
-    <date>1980</date>
-    <category>Entretención</category>
-    <country>Chile</country>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/elfestivaldelauna.jpg" />
-  </programme>
-  <programme start="20261114140000 -0300" stop="20261114143000 -0300" channel="0117">
-    <title>TVN 3</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
+  <programme start="20261114130000 -0300" stop="20261114143000 -0300" channel="0117">
+    <title>Festival De La Una</title>
+    <desc>Programa, que incluye música popular, humor, concursos y participación del público.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0117_fallback.jpg" />
   </programme>
   <programme start="20261114143000 -0300" stop="20261114150000 -0300" channel="0117">
@@ -22855,7 +22843,7 @@
       <actor>Alvaro Díaz</actor>
     </credits>
     <date>2003</date>
-    <category>Humorístico</category>
+    <category>Comedia</category>
     <country>Chile</country>
     <rating><value>TE</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/31minutos.jpg" />
@@ -22864,7 +22852,6 @@
     <title>Patiperros</title>
     <desc>Programa que muestra las historias y experiencias de los chilenos que decidieron emigrar y vivir en distintos países alrededor de los cinco continentes.</desc>
     <credits>
-      <director>Cristián Leighton</director>
       <actor>Cristián Leighton</actor>
       <presenter>Cristián Leighton</presenter>
     </credits>
@@ -22873,7 +22860,7 @@
     <country>Chile</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/patiperros.jpg" />
   </programme>
-  <programme start="20261114170000 -0300" stop="20261114180000 -0300" channel="0117">
+  <programme start="20261114170000 -0300" stop="20261114210000 -0300" channel="0117">
     <title>Alguien te mira</title>
     <desc>Rodrigo vuelve a Chile y se reencuentra con sus antiguos colegas luego de salir escapando del país por razones desconocidas. Mientras que en Santiago, la aparición de un asesino en serie pone de cabeza a la policía y al circulo mas acomodado de la capital... ¿Quien está detrás de los crimines?</desc>
     <credits>
@@ -22896,17 +22883,7 @@
     <rating><value>R</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/alguientemira.jpg" />
   </programme>
-  <programme start="20261114180000 -0300" stop="20261114210000 -0300" channel="0117">
-    <title>TVN 3</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0117_fallback.jpg" />
-  </programme>
-  <programme start="20261114210000 -0300" stop="20261114221500 -0300" channel="0117">
-    <title>TVN 3</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0117_fallback.jpg" />
-  </programme>
-  <programme start="20261114221500 -0300" stop="20261114231500 -0300" channel="0117">
+  <programme start="20261114210000 -0300" stop="20261114231500 -0300" channel="0117">
     <title>Mea Culpa</title>
     <desc>Mea Culpa es un programa de televisión dirigido por el periodista y realizador chileno, Carlos Pinto, el cual recrea casos policiales de alto impacto que han conmocionado al país.</desc>
     <credits>
@@ -22919,18 +22896,11 @@
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/meaculpa.jpg" />
   </programme>
   <programme start="20261114231500 -0300" stop="20261115011500 -0300" channel="0117">
-    <title>El día menos pensado</title>
-    <desc>Una producción que recrea historias atribuidas a sucesos paranormales, como encuentros con otras dimensiones y la vida después de la muerte.</desc>
-    <credits>
-      <director>Carlos Pinto</director>
-      <actor>Carlos Pinto</actor>
-    </credits>
-    <date>1999</date>
-    <category>Series</category>
-    <country>Chile</country>
+    <title>El Día Menos Pensado</title>
+    <desc>Andrea es una joven estudiante cuya familia enfrenta graves problemas económicos.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/eldiamenospensado.jpg" />
   </programme>
-  <programme start="20261115011500 -0300" stop="20261115020000 -0300" channel="0117">
+  <programme start="20261115011500 -0300" stop="20261115051500 -0300" channel="0117">
     <title>Aquelarre</title>
     <desc>Una historia de misterios y amores apasionados que se desarrollan en un mágico ambiente en la zona central de Chile.</desc>
     <credits>
@@ -22957,33 +22927,27 @@
       <actor>Anita Reeves</actor>
     </credits>
     <date>1999</date>
-    <category>Teleseries</category>
+    <category>Soap</category>
     <country>Chile</country>
     <rating><value>R</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/aquelarre.jpg" />
   </programme>
-  <programme start="20261115020000 -0300" stop="20261115050000 -0300" channel="0117">
-    <title>TVN 3</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0117_fallback.jpg" />
-  </programme>
-  <programme start="20261115050000 -0300" stop="20261115060000 -0300" channel="0117">
-    <title>Tierra adentro</title>
-    <desc>Entrevistas a los personajes que mueven las industrias y la economía del Perú.</desc>
-    <credits>
-      <director>Paul Landon</director>
-      <actor>Paul Landon</actor>
-    </credits>
-    <date>1991</date>
-    <category>Cultura</category>
-    <country>Chile</country>
-    <rating><value>14</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/tierraadentro.jpg" />
+  <programme start="20261115051500 -0300" stop="20261115060000 -0300" channel="0117">
+    <title>Legado: Tierra Adentro</title>
+    <desc>El legado de Tierradentro se compone principalmente de sus hipogeos subterráneos, sus urnas funerarias y su arte rupestre.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/legadotierraadentro.jpg" />
   </programme>
   <programme start="20261115060000 -0300" stop="20261115071500 -0300" channel="0117">
-    <title>TVN 3</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0117_fallback.jpg" />
+    <title>Patiperros</title>
+    <desc>Programa que muestra las historias y experiencias de los chilenos que decidieron emigrar y vivir en distintos países alrededor de los cinco continentes.</desc>
+    <credits>
+      <actor>Cristián Leighton</actor>
+      <presenter>Cristián Leighton</presenter>
+    </credits>
+    <date>1998</date>
+    <category>Entretención</category>
+    <country>Chile</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/patiperros.jpg" />
   </programme>
   <programme start="20261115071500 -0300" stop="20261115074500 -0300" channel="0117">
     <title>31 Minutos</title>
@@ -23001,12 +22965,12 @@
       <actor>Alvaro Díaz</actor>
     </credits>
     <date>2003</date>
-    <category>Humorístico</category>
+    <category>Comedia</category>
     <country>Chile</country>
     <rating><value>TE</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/31minutos.jpg" />
   </programme>
-  <programme start="20261115074500 -0300" stop="20261115100000 -0300" channel="0117">
+  <programme start="20261115074500 -0300" stop="20261115130000 -0300" channel="0117">
     <title>Calle 7</title>
     <desc>Programa de juegos en el que dos equipos se enfrentarán en una serie de divertidos y complejos desafíos.</desc>
     <credits>
@@ -23026,46 +22990,9 @@
     <country>Chile</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/calle7.jpg" />
   </programme>
-  <programme start="20261115100000 -0300" stop="20261115111500 -0300" channel="0117">
-    <title>TVN 3</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0117_fallback.jpg" />
-  </programme>
-  <programme start="20261115111500 -0300" stop="20261115130000 -0300" channel="0117">
-    <title>Calle 7</title>
-    <desc>Programa de juegos en el que dos equipos se enfrentarán en una serie de divertidos y complejos desafíos.</desc>
-    <credits>
-      <actor>Gianella Marengo</actor>
-      <actor>Laura Prieto</actor>
-      <actor>Francisco Puelles</actor>
-      <actor>Camila Nash</actor>
-      <actor>Valentina Roth</actor>
-      <actor>Nelson Mauricio Pacheco</actor>
-      <actor>Felipe Camus</actor>
-      <presenter>Martín Cárcamo</presenter>
-      <presenter>Karen Doggenweiler</presenter>
-      <presenter>Jean Philippe Cretton</presenter>
-    </credits>
-    <date>2009</date>
-    <category>Entretención</category>
-    <country>Chile</country>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/calle7.jpg" />
-  </programme>
-  <programme start="20261115130000 -0300" stop="20261115140000 -0300" channel="0117">
-    <title>El festival de la una</title>
-    <desc>Cantantes, concursos, presentaciones en vivo y mucho más en un clásico de la televisión criolla. El Festival de la una llega junto a Enrique Maluenda y todo su equipo para hacer la tarde más amena.</desc>
-    <credits>
-      <director>René Schneider</director>
-      <presenter>Enrique Maluenda</presenter>
-    </credits>
-    <date>1980</date>
-    <category>Entretención</category>
-    <country>Chile</country>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/elfestivaldelauna.jpg" />
-  </programme>
-  <programme start="20261115140000 -0300" stop="20261115143000 -0300" channel="0117">
-    <title>TVN 3</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
+  <programme start="20261115130000 -0300" stop="20261115143000 -0300" channel="0117">
+    <title>Festival De La Una</title>
+    <desc>Programa, que incluye música popular, humor, concursos y participación del público.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0117_fallback.jpg" />
   </programme>
   <programme start="20261115143000 -0300" stop="20261115150000 -0300" channel="0117">
@@ -23084,7 +23011,7 @@
       <actor>Alvaro Díaz</actor>
     </credits>
     <date>2003</date>
-    <category>Humorístico</category>
+    <category>Comedia</category>
     <country>Chile</country>
     <rating><value>TE</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/31minutos.jpg" />
@@ -23093,7 +23020,6 @@
     <title>Patiperros</title>
     <desc>Programa que muestra las historias y experiencias de los chilenos que decidieron emigrar y vivir en distintos países alrededor de los cinco continentes.</desc>
     <credits>
-      <director>Cristián Leighton</director>
       <actor>Cristián Leighton</actor>
       <presenter>Cristián Leighton</presenter>
     </credits>
@@ -23102,7 +23028,7 @@
     <country>Chile</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/patiperros.jpg" />
   </programme>
-  <programme start="20261115170000 -0300" stop="20261115180000 -0300" channel="0117">
+  <programme start="20261115170000 -0300" stop="20261115210000 -0300" channel="0117">
     <title>Aquelarre</title>
     <desc>Una historia de misterios y amores apasionados que se desarrollan en un mágico ambiente en la zona central de Chile.</desc>
     <credits>
@@ -23129,22 +23055,12 @@
       <actor>Anita Reeves</actor>
     </credits>
     <date>1999</date>
-    <category>Teleseries</category>
+    <category>Soap</category>
     <country>Chile</country>
     <rating><value>R</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/aquelarre.jpg" />
   </programme>
-  <programme start="20261115180000 -0300" stop="20261115210000 -0300" channel="0117">
-    <title>TVN 3</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0117_fallback.jpg" />
-  </programme>
-  <programme start="20261115210000 -0300" stop="20261115221500 -0300" channel="0117">
-    <title>TVN 3</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0117_fallback.jpg" />
-  </programme>
-  <programme start="20261115221500 -0300" stop="20261115231500 -0300" channel="0117">
+  <programme start="20261115210000 -0300" stop="20261115231500 -0300" channel="0117">
     <title>Mea Culpa</title>
     <desc>Mea Culpa es un programa de televisión dirigido por el periodista y realizador chileno, Carlos Pinto, el cual recrea casos policiales de alto impacto que han conmocionado al país.</desc>
     <credits>
@@ -23157,18 +23073,11 @@
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/meaculpa.jpg" />
   </programme>
   <programme start="20261115231500 -0300" stop="20261116011500 -0300" channel="0117">
-    <title>El día menos pensado</title>
-    <desc>Una producción que recrea historias atribuidas a sucesos paranormales, como encuentros con otras dimensiones y la vida después de la muerte.</desc>
-    <credits>
-      <director>Carlos Pinto</director>
-      <actor>Carlos Pinto</actor>
-    </credits>
-    <date>1999</date>
-    <category>Series</category>
-    <country>Chile</country>
+    <title>El Día Menos Pensado</title>
+    <desc>Andrea es una joven estudiante cuya familia enfrenta graves problemas económicos.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/eldiamenospensado.jpg" />
   </programme>
-  <programme start="20261116011500 -0300" stop="20261116020000 -0300" channel="0117">
+  <programme start="20261116011500 -0300" stop="20261116051500 -0300" channel="0117">
     <title>Alguien te mira</title>
     <desc>Rodrigo vuelve a Chile y se reencuentra con sus antiguos colegas luego de salir escapando del país por razones desconocidas. Mientras que en Santiago, la aparición de un asesino en serie pone de cabeza a la policía y al circulo mas acomodado de la capital... ¿Quien está detrás de los crimines?</desc>
     <credits>
@@ -23191,166 +23100,1823 @@
     <rating><value>R</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/alguientemira.jpg" />
   </programme>
-  <programme start="20261116020000 -0300" stop="20261116050000 -0300" channel="0117">
-    <title>TVN 3</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0117_fallback.jpg" />
+  <programme start="20261116051500 -0300" stop="20261116060000 -0300" channel="0117">
+    <title>Legado: Tierra Adentro</title>
+    <desc>El legado de Tierradentro se compone principalmente de sus hipogeos subterráneos, sus urnas funerarias y su arte rupestre.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/legadotierraadentro.jpg" />
   </programme>
-  <programme start="20261116050000 -0300" stop="20261116060000 -0300" channel="0117">
-    <title>Tierra adentro</title>
-    <desc>Entrevistas a los personajes que mueven las industrias y la economía del Perú.</desc>
+  <programme start="20261116060000 -0300" stop="20261116063000 -0300" channel="0117">
+    <title>Pasiones</title>
+    <desc>Un programa sobre el amor, sus caídas y triunfos. Junto a nuestros animadores tendremos entrevistas, expertos y mucha pasión.</desc>
     <credits>
-      <director>Paul Landon</director>
-      <actor>Paul Landon</actor>
+      <actor>Felipe Camiroaga</actor>
+      <actor>Bárbara Rebolledo</actor>
+      <presenter>Felipe Camiroaga</presenter>
+      <presenter>Bárbara Rebolledo</presenter>
+      <presenter>Krishna de Caso</presenter>
+      <presenter>Martín Cárcamo</presenter>
+      <presenter>Marcelo Arismendi</presenter>
     </credits>
-    <date>1991</date>
-    <category>Cultura</category>
+    <date>2004</date>
+    <category>Entretención</category>
     <country>Chile</country>
-    <rating><value>14</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/tierraadentro.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/pasiones.jpg" />
   </programme>
-  <programme start="20261116060000 -0300" stop="20261116100000 -0300" channel="0117">
-    <title>TVN 3</title>
+  <programme start="20261116063000 -0300" stop="20261116080000 -0300" channel="0117">
+    <title>Calle 7</title>
+    <desc>Programa de juegos en el que dos equipos se enfrentarán en una serie de divertidos y complejos desafíos.</desc>
+    <credits>
+      <actor>Gianella Marengo</actor>
+      <actor>Laura Prieto</actor>
+      <actor>Francisco Puelles</actor>
+      <actor>Camila Nash</actor>
+      <actor>Valentina Roth</actor>
+      <actor>Nelson Mauricio Pacheco</actor>
+      <actor>Felipe Camus</actor>
+      <presenter>Martín Cárcamo</presenter>
+      <presenter>Karen Doggenweiler</presenter>
+      <presenter>Jean Philippe Cretton</presenter>
+    </credits>
+    <date>2009</date>
+    <category>Entretención</category>
+    <country>Chile</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/calle7.jpg" />
+  </programme>
+  <programme start="20261116080000 -0300" stop="20261116090000 -0300" channel="0117">
+    <title>Aquelarre</title>
+    <desc>Una historia de misterios y amores apasionados que se desarrollan en un mágico ambiente en la zona central de Chile.</desc>
+    <credits>
+      <director>María Eugenia Rencoret</director>
+      <director>Víctor Huerta</director>
+      <actor>Sigrid Alegría</actor>
+      <actor>Álvaro Rudolphy</actor>
+      <actor>Bastián Bodenhöfer</actor>
+      <actor>Coca Guazzini</actor>
+      <actor>Catalina Guerra</actor>
+      <actor>Álvaro Escobar</actor>
+      <actor>Claudia Burr</actor>
+      <actor>Maricarmen Arrigorriaga</actor>
+      <actor>Edgardo Bruna</actor>
+      <actor>Mauricio Pesutic</actor>
+      <actor>Francisco Pérez-Bannen</actor>
+      <actor>Ximena Rivas</actor>
+      <actor>Alejandra Fosalba</actor>
+      <actor>Patricia Rivadeneira</actor>
+      <actor>Yuyuniz Navas</actor>
+      <actor>Paola Volpato</actor>
+      <actor>Yael Unger</actor>
+      <actor>Jaime Vadell</actor>
+      <actor>Anita Reeves</actor>
+    </credits>
+    <date>1999</date>
+    <category>Soap</category>
+    <country>Chile</country>
+    <rating><value>R</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/aquelarre.jpg" />
+  </programme>
+  <programme start="20261116090000 -0300" stop="20261116100000 -0300" channel="0117">
+    <title>Patiperros</title>
+    <desc>Programa que muestra las historias y experiencias de los chilenos que decidieron emigrar y vivir en distintos países alrededor de los cinco continentes.</desc>
+    <credits>
+      <actor>Cristián Leighton</actor>
+      <presenter>Cristián Leighton</presenter>
+    </credits>
+    <date>1998</date>
+    <category>Entretención</category>
+    <country>Chile</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/patiperros.jpg" />
+  </programme>
+  <programme start="20261116100000 -0300" stop="20261116111500 -0300" channel="0117">
+    <title>Pasiones</title>
+    <desc>Un programa sobre el amor, sus caídas y triunfos. Junto a nuestros animadores tendremos entrevistas, expertos y mucha pasión.</desc>
+    <credits>
+      <actor>Felipe Camiroaga</actor>
+      <actor>Bárbara Rebolledo</actor>
+      <presenter>Felipe Camiroaga</presenter>
+      <presenter>Bárbara Rebolledo</presenter>
+      <presenter>Krishna de Caso</presenter>
+      <presenter>Martín Cárcamo</presenter>
+      <presenter>Marcelo Arismendi</presenter>
+    </credits>
+    <date>2004</date>
+    <category>Entretención</category>
+    <country>Chile</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/pasiones.jpg" />
+  </programme>
+  <programme start="20261116111500 -0300" stop="20261116130000 -0300" channel="0117">
+    <title>Calle 7</title>
+    <desc>Programa de juegos en el que dos equipos se enfrentarán en una serie de divertidos y complejos desafíos.</desc>
+    <credits>
+      <actor>Gianella Marengo</actor>
+      <actor>Laura Prieto</actor>
+      <actor>Francisco Puelles</actor>
+      <actor>Camila Nash</actor>
+      <actor>Valentina Roth</actor>
+      <actor>Nelson Mauricio Pacheco</actor>
+      <actor>Felipe Camus</actor>
+      <presenter>Martín Cárcamo</presenter>
+      <presenter>Karen Doggenweiler</presenter>
+      <presenter>Jean Philippe Cretton</presenter>
+    </credits>
+    <date>2009</date>
+    <category>Entretención</category>
+    <country>Chile</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/calle7.jpg" />
+  </programme>
+  <programme start="20261116130000 -0300" stop="20261116140000 -0300" channel="0117">
+    <title>Alguien te mira</title>
+    <desc>Rodrigo vuelve a Chile y se reencuentra con sus antiguos colegas luego de salir escapando del país por razones desconocidas. Mientras que en Santiago, la aparición de un asesino en serie pone de cabeza a la policía y al circulo mas acomodado de la capital... ¿Quien está detrás de los crimines?</desc>
+    <credits>
+      <director>María Eugenia Rencoret</director>
+      <director>Germán Barriga</director>
+      <director>Rodrigo Velásquez</director>
+      <actor>Álvaro Rudolphy</actor>
+      <actor>Francisco Melo</actor>
+      <actor>Francisco Pérez-Bannen</actor>
+      <actor>Sigrid Alegría</actor>
+      <actor>Luz Valdivieso</actor>
+      <actor>Alejandra Fosalba</actor>
+      <actor>Francisca Imboden</actor>
+      <actor>Claudio Arredondo</actor>
+      <actor>Paola Volpato</actor>
+    </credits>
+    <date>2007</date>
+    <category>Otros</category>
+    <country>Chile</country>
+    <rating><value>R</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/alguientemira.jpg" />
+  </programme>
+  <programme start="20261116140000 -0300" stop="20261116150000 -0300" channel="0117">
+    <title>Aquelarre</title>
+    <desc>Una historia de misterios y amores apasionados que se desarrollan en un mágico ambiente en la zona central de Chile.</desc>
+    <credits>
+      <director>María Eugenia Rencoret</director>
+      <director>Víctor Huerta</director>
+      <actor>Sigrid Alegría</actor>
+      <actor>Álvaro Rudolphy</actor>
+      <actor>Bastián Bodenhöfer</actor>
+      <actor>Coca Guazzini</actor>
+      <actor>Catalina Guerra</actor>
+      <actor>Álvaro Escobar</actor>
+      <actor>Claudia Burr</actor>
+      <actor>Maricarmen Arrigorriaga</actor>
+      <actor>Edgardo Bruna</actor>
+      <actor>Mauricio Pesutic</actor>
+      <actor>Francisco Pérez-Bannen</actor>
+      <actor>Ximena Rivas</actor>
+      <actor>Alejandra Fosalba</actor>
+      <actor>Patricia Rivadeneira</actor>
+      <actor>Yuyuniz Navas</actor>
+      <actor>Paola Volpato</actor>
+      <actor>Yael Unger</actor>
+      <actor>Jaime Vadell</actor>
+      <actor>Anita Reeves</actor>
+    </credits>
+    <date>1999</date>
+    <category>Soap</category>
+    <country>Chile</country>
+    <rating><value>R</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/aquelarre.jpg" />
+  </programme>
+  <programme start="20261116150000 -0300" stop="20261116160000 -0300" channel="0117">
+    <title>Patiperros</title>
+    <desc>Programa que muestra las historias y experiencias de los chilenos que decidieron emigrar y vivir en distintos países alrededor de los cinco continentes.</desc>
+    <credits>
+      <actor>Cristián Leighton</actor>
+      <presenter>Cristián Leighton</presenter>
+    </credits>
+    <date>1998</date>
+    <category>Entretención</category>
+    <country>Chile</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/patiperros.jpg" />
+  </programme>
+  <programme start="20261116160000 -0300" stop="20261116170000 -0300" channel="0117">
+    <title>Legado: Tierra Adentro</title>
+    <desc>El legado de Tierradentro se compone principalmente de sus hipogeos subterráneos, sus urnas funerarias y su arte rupestre.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/legadotierraadentro.jpg" />
+  </programme>
+  <programme start="20261116170000 -0300" stop="20261116181500 -0300" channel="0117">
+    <title>Pasiones</title>
+    <desc>Un programa sobre el amor, sus caídas y triunfos. Junto a nuestros animadores tendremos entrevistas, expertos y mucha pasión.</desc>
+    <credits>
+      <actor>Felipe Camiroaga</actor>
+      <actor>Bárbara Rebolledo</actor>
+      <presenter>Felipe Camiroaga</presenter>
+      <presenter>Bárbara Rebolledo</presenter>
+      <presenter>Krishna de Caso</presenter>
+      <presenter>Martín Cárcamo</presenter>
+      <presenter>Marcelo Arismendi</presenter>
+    </credits>
+    <date>2004</date>
+    <category>Entretención</category>
+    <country>Chile</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/pasiones.jpg" />
+  </programme>
+  <programme start="20261116181500 -0300" stop="20261116200000 -0300" channel="0117">
+    <title>Calle 7</title>
+    <desc>Programa de juegos en el que dos equipos se enfrentarán en una serie de divertidos y complejos desafíos.</desc>
+    <credits>
+      <actor>Gianella Marengo</actor>
+      <actor>Laura Prieto</actor>
+      <actor>Francisco Puelles</actor>
+      <actor>Camila Nash</actor>
+      <actor>Valentina Roth</actor>
+      <actor>Nelson Mauricio Pacheco</actor>
+      <actor>Felipe Camus</actor>
+      <presenter>Martín Cárcamo</presenter>
+      <presenter>Karen Doggenweiler</presenter>
+      <presenter>Jean Philippe Cretton</presenter>
+    </credits>
+    <date>2009</date>
+    <category>Entretención</category>
+    <country>Chile</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/calle7.jpg" />
+  </programme>
+  <programme start="20261116200000 -0300" stop="20261116210000 -0300" channel="0117">
+    <title>Aquelarre</title>
+    <desc>Una historia de misterios y amores apasionados que se desarrollan en un mágico ambiente en la zona central de Chile.</desc>
+    <credits>
+      <director>María Eugenia Rencoret</director>
+      <director>Víctor Huerta</director>
+      <actor>Sigrid Alegría</actor>
+      <actor>Álvaro Rudolphy</actor>
+      <actor>Bastián Bodenhöfer</actor>
+      <actor>Coca Guazzini</actor>
+      <actor>Catalina Guerra</actor>
+      <actor>Álvaro Escobar</actor>
+      <actor>Claudia Burr</actor>
+      <actor>Maricarmen Arrigorriaga</actor>
+      <actor>Edgardo Bruna</actor>
+      <actor>Mauricio Pesutic</actor>
+      <actor>Francisco Pérez-Bannen</actor>
+      <actor>Ximena Rivas</actor>
+      <actor>Alejandra Fosalba</actor>
+      <actor>Patricia Rivadeneira</actor>
+      <actor>Yuyuniz Navas</actor>
+      <actor>Paola Volpato</actor>
+      <actor>Yael Unger</actor>
+      <actor>Jaime Vadell</actor>
+      <actor>Anita Reeves</actor>
+    </credits>
+    <date>1999</date>
+    <category>Soap</category>
+    <country>Chile</country>
+    <rating><value>R</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/aquelarre.jpg" />
+  </programme>
+  <programme start="20261116210000 -0300" stop="20261116220000 -0300" channel="0117">
+    <title>Alguien te mira</title>
+    <desc>Rodrigo vuelve a Chile y se reencuentra con sus antiguos colegas luego de salir escapando del país por razones desconocidas. Mientras que en Santiago, la aparición de un asesino en serie pone de cabeza a la policía y al circulo mas acomodado de la capital... ¿Quien está detrás de los crimines?</desc>
+    <credits>
+      <director>María Eugenia Rencoret</director>
+      <director>Germán Barriga</director>
+      <director>Rodrigo Velásquez</director>
+      <actor>Álvaro Rudolphy</actor>
+      <actor>Francisco Melo</actor>
+      <actor>Francisco Pérez-Bannen</actor>
+      <actor>Sigrid Alegría</actor>
+      <actor>Luz Valdivieso</actor>
+      <actor>Alejandra Fosalba</actor>
+      <actor>Francisca Imboden</actor>
+      <actor>Claudio Arredondo</actor>
+      <actor>Paola Volpato</actor>
+    </credits>
+    <date>2007</date>
+    <category>Otros</category>
+    <country>Chile</country>
+    <rating><value>R</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/alguientemira.jpg" />
+  </programme>
+  <programme start="20261116220000 -0300" stop="20261117000000 -0300" channel="0117">
+    <title>Mea Culpa</title>
+    <desc>Mea Culpa es un programa de televisión dirigido por el periodista y realizador chileno, Carlos Pinto, el cual recrea casos policiales de alto impacto que han conmocionado al país.</desc>
+    <credits>
+      <director>Carlos Pinto</director>
+      <actor>Carlos Pinto</actor>
+    </credits>
+    <date>1993</date>
+    <category>Series</category>
+    <country>Chile</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/meaculpa.jpg" />
+  </programme>
+  <programme start="20261117000000 -0300" stop="20261117010000 -0300" channel="0117">
+    <title>El Día Menos Pensado</title>
+    <desc>Andrea es una joven estudiante cuya familia enfrenta graves problemas económicos.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/eldiamenospensado.jpg" />
+  </programme>
+  <programme start="20261117010000 -0300" stop="20261117020000 -0300" channel="0117">
+    <title>Mea Culpa</title>
+    <desc>Mea Culpa es un programa de televisión dirigido por el periodista y realizador chileno, Carlos Pinto, el cual recrea casos policiales de alto impacto que han conmocionado al país.</desc>
+    <credits>
+      <director>Carlos Pinto</director>
+      <actor>Carlos Pinto</actor>
+    </credits>
+    <date>1993</date>
+    <category>Series</category>
+    <country>Chile</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/meaculpa.jpg" />
+  </programme>
+  <programme start="20261117020000 -0300" stop="20261117030000 -0300" channel="0117">
+    <title>Aquelarre</title>
+    <desc>Una historia de misterios y amores apasionados que se desarrollan en un mágico ambiente en la zona central de Chile.</desc>
+    <credits>
+      <director>María Eugenia Rencoret</director>
+      <director>Víctor Huerta</director>
+      <actor>Sigrid Alegría</actor>
+      <actor>Álvaro Rudolphy</actor>
+      <actor>Bastián Bodenhöfer</actor>
+      <actor>Coca Guazzini</actor>
+      <actor>Catalina Guerra</actor>
+      <actor>Álvaro Escobar</actor>
+      <actor>Claudia Burr</actor>
+      <actor>Maricarmen Arrigorriaga</actor>
+      <actor>Edgardo Bruna</actor>
+      <actor>Mauricio Pesutic</actor>
+      <actor>Francisco Pérez-Bannen</actor>
+      <actor>Ximena Rivas</actor>
+      <actor>Alejandra Fosalba</actor>
+      <actor>Patricia Rivadeneira</actor>
+      <actor>Yuyuniz Navas</actor>
+      <actor>Paola Volpato</actor>
+      <actor>Yael Unger</actor>
+      <actor>Jaime Vadell</actor>
+      <actor>Anita Reeves</actor>
+    </credits>
+    <date>1999</date>
+    <category>Soap</category>
+    <country>Chile</country>
+    <rating><value>R</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/aquelarre.jpg" />
+  </programme>
+  <programme start="20261117030000 -0300" stop="20261117040000 -0300" channel="0117">
+    <title>Alguien te mira</title>
+    <desc>Rodrigo vuelve a Chile y se reencuentra con sus antiguos colegas luego de salir escapando del país por razones desconocidas. Mientras que en Santiago, la aparición de un asesino en serie pone de cabeza a la policía y al circulo mas acomodado de la capital... ¿Quien está detrás de los crimines?</desc>
+    <credits>
+      <director>María Eugenia Rencoret</director>
+      <director>Germán Barriga</director>
+      <director>Rodrigo Velásquez</director>
+      <actor>Álvaro Rudolphy</actor>
+      <actor>Francisco Melo</actor>
+      <actor>Francisco Pérez-Bannen</actor>
+      <actor>Sigrid Alegría</actor>
+      <actor>Luz Valdivieso</actor>
+      <actor>Alejandra Fosalba</actor>
+      <actor>Francisca Imboden</actor>
+      <actor>Claudio Arredondo</actor>
+      <actor>Paola Volpato</actor>
+    </credits>
+    <date>2007</date>
+    <category>Otros</category>
+    <country>Chile</country>
+    <rating><value>R</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/alguientemira.jpg" />
+  </programme>
+  <programme start="20261117040000 -0300" stop="20261117050000 -0300" channel="0117">
+    <title>Legado: Tierra Adentro</title>
+    <desc>El legado de Tierradentro se compone principalmente de sus hipogeos subterráneos, sus urnas funerarias y su arte rupestre.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/legadotierraadentro.jpg" />
+  </programme>
+  <programme start="20261117050000 -0300" stop="20261117063000 -0300" channel="0117">
+    <title>Pasiones</title>
+    <desc>Un programa sobre el amor, sus caídas y triunfos. Junto a nuestros animadores tendremos entrevistas, expertos y mucha pasión.</desc>
+    <credits>
+      <actor>Felipe Camiroaga</actor>
+      <actor>Bárbara Rebolledo</actor>
+      <presenter>Felipe Camiroaga</presenter>
+      <presenter>Bárbara Rebolledo</presenter>
+      <presenter>Krishna de Caso</presenter>
+      <presenter>Martín Cárcamo</presenter>
+      <presenter>Marcelo Arismendi</presenter>
+    </credits>
+    <date>2004</date>
+    <category>Entretención</category>
+    <country>Chile</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/pasiones.jpg" />
+  </programme>
+  <programme start="20261117063000 -0300" stop="20261117080000 -0300" channel="0117">
+    <title>Calle 7</title>
+    <desc>Programa de juegos en el que dos equipos se enfrentarán en una serie de divertidos y complejos desafíos.</desc>
+    <credits>
+      <actor>Gianella Marengo</actor>
+      <actor>Laura Prieto</actor>
+      <actor>Francisco Puelles</actor>
+      <actor>Camila Nash</actor>
+      <actor>Valentina Roth</actor>
+      <actor>Nelson Mauricio Pacheco</actor>
+      <actor>Felipe Camus</actor>
+      <presenter>Martín Cárcamo</presenter>
+      <presenter>Karen Doggenweiler</presenter>
+      <presenter>Jean Philippe Cretton</presenter>
+    </credits>
+    <date>2009</date>
+    <category>Entretención</category>
+    <country>Chile</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/calle7.jpg" />
+  </programme>
+  <programme start="20261117080000 -0300" stop="20261117090000 -0300" channel="0117">
+    <title>Aquelarre</title>
+    <desc>Una historia de misterios y amores apasionados que se desarrollan en un mágico ambiente en la zona central de Chile.</desc>
+    <credits>
+      <director>María Eugenia Rencoret</director>
+      <director>Víctor Huerta</director>
+      <actor>Sigrid Alegría</actor>
+      <actor>Álvaro Rudolphy</actor>
+      <actor>Bastián Bodenhöfer</actor>
+      <actor>Coca Guazzini</actor>
+      <actor>Catalina Guerra</actor>
+      <actor>Álvaro Escobar</actor>
+      <actor>Claudia Burr</actor>
+      <actor>Maricarmen Arrigorriaga</actor>
+      <actor>Edgardo Bruna</actor>
+      <actor>Mauricio Pesutic</actor>
+      <actor>Francisco Pérez-Bannen</actor>
+      <actor>Ximena Rivas</actor>
+      <actor>Alejandra Fosalba</actor>
+      <actor>Patricia Rivadeneira</actor>
+      <actor>Yuyuniz Navas</actor>
+      <actor>Paola Volpato</actor>
+      <actor>Yael Unger</actor>
+      <actor>Jaime Vadell</actor>
+      <actor>Anita Reeves</actor>
+    </credits>
+    <date>1999</date>
+    <category>Soap</category>
+    <country>Chile</country>
+    <rating><value>R</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/aquelarre.jpg" />
+  </programme>
+  <programme start="20261117090000 -0300" stop="20261117100000 -0300" channel="0117">
+    <title>Patiperros</title>
+    <desc>Programa que muestra las historias y experiencias de los chilenos que decidieron emigrar y vivir en distintos países alrededor de los cinco continentes.</desc>
+    <credits>
+      <actor>Cristián Leighton</actor>
+      <presenter>Cristián Leighton</presenter>
+    </credits>
+    <date>1998</date>
+    <category>Entretención</category>
+    <country>Chile</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/patiperros.jpg" />
+  </programme>
+  <programme start="20261117100000 -0300" stop="20261117111500 -0300" channel="0117">
+    <title>Pasiones</title>
+    <desc>Un programa sobre el amor, sus caídas y triunfos. Junto a nuestros animadores tendremos entrevistas, expertos y mucha pasión.</desc>
+    <credits>
+      <actor>Felipe Camiroaga</actor>
+      <actor>Bárbara Rebolledo</actor>
+      <presenter>Felipe Camiroaga</presenter>
+      <presenter>Bárbara Rebolledo</presenter>
+      <presenter>Krishna de Caso</presenter>
+      <presenter>Martín Cárcamo</presenter>
+      <presenter>Marcelo Arismendi</presenter>
+    </credits>
+    <date>2004</date>
+    <category>Entretención</category>
+    <country>Chile</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/pasiones.jpg" />
+  </programme>
+  <programme start="20261117111500 -0300" stop="20261117130000 -0300" channel="0117">
+    <title>Calle 7</title>
+    <desc>Programa de juegos en el que dos equipos se enfrentarán en una serie de divertidos y complejos desafíos.</desc>
+    <credits>
+      <actor>Gianella Marengo</actor>
+      <actor>Laura Prieto</actor>
+      <actor>Francisco Puelles</actor>
+      <actor>Camila Nash</actor>
+      <actor>Valentina Roth</actor>
+      <actor>Nelson Mauricio Pacheco</actor>
+      <actor>Felipe Camus</actor>
+      <presenter>Martín Cárcamo</presenter>
+      <presenter>Karen Doggenweiler</presenter>
+      <presenter>Jean Philippe Cretton</presenter>
+    </credits>
+    <date>2009</date>
+    <category>Entretención</category>
+    <country>Chile</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/calle7.jpg" />
+  </programme>
+  <programme start="20261117130000 -0300" stop="20261117140000 -0300" channel="0117">
+    <title>Alguien te mira</title>
+    <desc>Rodrigo vuelve a Chile y se reencuentra con sus antiguos colegas luego de salir escapando del país por razones desconocidas. Mientras que en Santiago, la aparición de un asesino en serie pone de cabeza a la policía y al circulo mas acomodado de la capital... ¿Quien está detrás de los crimines?</desc>
+    <credits>
+      <director>María Eugenia Rencoret</director>
+      <director>Germán Barriga</director>
+      <director>Rodrigo Velásquez</director>
+      <actor>Álvaro Rudolphy</actor>
+      <actor>Francisco Melo</actor>
+      <actor>Francisco Pérez-Bannen</actor>
+      <actor>Sigrid Alegría</actor>
+      <actor>Luz Valdivieso</actor>
+      <actor>Alejandra Fosalba</actor>
+      <actor>Francisca Imboden</actor>
+      <actor>Claudio Arredondo</actor>
+      <actor>Paola Volpato</actor>
+    </credits>
+    <date>2007</date>
+    <category>Otros</category>
+    <country>Chile</country>
+    <rating><value>R</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/alguientemira.jpg" />
+  </programme>
+  <programme start="20261117140000 -0300" stop="20261117150000 -0300" channel="0117">
+    <title>Aquelarre</title>
+    <desc>Una historia de misterios y amores apasionados que se desarrollan en un mágico ambiente en la zona central de Chile.</desc>
+    <credits>
+      <director>María Eugenia Rencoret</director>
+      <director>Víctor Huerta</director>
+      <actor>Sigrid Alegría</actor>
+      <actor>Álvaro Rudolphy</actor>
+      <actor>Bastián Bodenhöfer</actor>
+      <actor>Coca Guazzini</actor>
+      <actor>Catalina Guerra</actor>
+      <actor>Álvaro Escobar</actor>
+      <actor>Claudia Burr</actor>
+      <actor>Maricarmen Arrigorriaga</actor>
+      <actor>Edgardo Bruna</actor>
+      <actor>Mauricio Pesutic</actor>
+      <actor>Francisco Pérez-Bannen</actor>
+      <actor>Ximena Rivas</actor>
+      <actor>Alejandra Fosalba</actor>
+      <actor>Patricia Rivadeneira</actor>
+      <actor>Yuyuniz Navas</actor>
+      <actor>Paola Volpato</actor>
+      <actor>Yael Unger</actor>
+      <actor>Jaime Vadell</actor>
+      <actor>Anita Reeves</actor>
+    </credits>
+    <date>1999</date>
+    <category>Soap</category>
+    <country>Chile</country>
+    <rating><value>R</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/aquelarre.jpg" />
+  </programme>
+  <programme start="20261117150000 -0300" stop="20261117160000 -0300" channel="0117">
+    <title>Patiperros</title>
+    <desc>Programa que muestra las historias y experiencias de los chilenos que decidieron emigrar y vivir en distintos países alrededor de los cinco continentes.</desc>
+    <credits>
+      <actor>Cristián Leighton</actor>
+      <presenter>Cristián Leighton</presenter>
+    </credits>
+    <date>1998</date>
+    <category>Entretención</category>
+    <country>Chile</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/patiperros.jpg" />
+  </programme>
+  <programme start="20261117160000 -0300" stop="20261117170000 -0300" channel="0117">
+    <title>Legado: Tierra Adentro</title>
+    <desc>El legado de Tierradentro se compone principalmente de sus hipogeos subterráneos, sus urnas funerarias y su arte rupestre.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/legadotierraadentro.jpg" />
+  </programme>
+  <programme start="20261117170000 -0300" stop="20261117181500 -0300" channel="0117">
+    <title>Pasiones</title>
+    <desc>Un programa sobre el amor, sus caídas y triunfos. Junto a nuestros animadores tendremos entrevistas, expertos y mucha pasión.</desc>
+    <credits>
+      <actor>Felipe Camiroaga</actor>
+      <actor>Bárbara Rebolledo</actor>
+      <presenter>Felipe Camiroaga</presenter>
+      <presenter>Bárbara Rebolledo</presenter>
+      <presenter>Krishna de Caso</presenter>
+      <presenter>Martín Cárcamo</presenter>
+      <presenter>Marcelo Arismendi</presenter>
+    </credits>
+    <date>2004</date>
+    <category>Entretención</category>
+    <country>Chile</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/pasiones.jpg" />
+  </programme>
+  <programme start="20261117181500 -0300" stop="20261117200000 -0300" channel="0117">
+    <title>Calle 7</title>
+    <desc>Programa de juegos en el que dos equipos se enfrentarán en una serie de divertidos y complejos desafíos.</desc>
+    <credits>
+      <actor>Gianella Marengo</actor>
+      <actor>Laura Prieto</actor>
+      <actor>Francisco Puelles</actor>
+      <actor>Camila Nash</actor>
+      <actor>Valentina Roth</actor>
+      <actor>Nelson Mauricio Pacheco</actor>
+      <actor>Felipe Camus</actor>
+      <presenter>Martín Cárcamo</presenter>
+      <presenter>Karen Doggenweiler</presenter>
+      <presenter>Jean Philippe Cretton</presenter>
+    </credits>
+    <date>2009</date>
+    <category>Entretención</category>
+    <country>Chile</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/calle7.jpg" />
+  </programme>
+  <programme start="20261117200000 -0300" stop="20261117210000 -0300" channel="0117">
+    <title>Aquelarre</title>
+    <desc>Una historia de misterios y amores apasionados que se desarrollan en un mágico ambiente en la zona central de Chile.</desc>
+    <credits>
+      <director>María Eugenia Rencoret</director>
+      <director>Víctor Huerta</director>
+      <actor>Sigrid Alegría</actor>
+      <actor>Álvaro Rudolphy</actor>
+      <actor>Bastián Bodenhöfer</actor>
+      <actor>Coca Guazzini</actor>
+      <actor>Catalina Guerra</actor>
+      <actor>Álvaro Escobar</actor>
+      <actor>Claudia Burr</actor>
+      <actor>Maricarmen Arrigorriaga</actor>
+      <actor>Edgardo Bruna</actor>
+      <actor>Mauricio Pesutic</actor>
+      <actor>Francisco Pérez-Bannen</actor>
+      <actor>Ximena Rivas</actor>
+      <actor>Alejandra Fosalba</actor>
+      <actor>Patricia Rivadeneira</actor>
+      <actor>Yuyuniz Navas</actor>
+      <actor>Paola Volpato</actor>
+      <actor>Yael Unger</actor>
+      <actor>Jaime Vadell</actor>
+      <actor>Anita Reeves</actor>
+    </credits>
+    <date>1999</date>
+    <category>Soap</category>
+    <country>Chile</country>
+    <rating><value>R</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/aquelarre.jpg" />
+  </programme>
+  <programme start="20261117210000 -0300" stop="20261117220000 -0300" channel="0117">
+    <title>Alguien te mira</title>
+    <desc>Rodrigo vuelve a Chile y se reencuentra con sus antiguos colegas luego de salir escapando del país por razones desconocidas. Mientras que en Santiago, la aparición de un asesino en serie pone de cabeza a la policía y al circulo mas acomodado de la capital... ¿Quien está detrás de los crimines?</desc>
+    <credits>
+      <director>María Eugenia Rencoret</director>
+      <director>Germán Barriga</director>
+      <director>Rodrigo Velásquez</director>
+      <actor>Álvaro Rudolphy</actor>
+      <actor>Francisco Melo</actor>
+      <actor>Francisco Pérez-Bannen</actor>
+      <actor>Sigrid Alegría</actor>
+      <actor>Luz Valdivieso</actor>
+      <actor>Alejandra Fosalba</actor>
+      <actor>Francisca Imboden</actor>
+      <actor>Claudio Arredondo</actor>
+      <actor>Paola Volpato</actor>
+    </credits>
+    <date>2007</date>
+    <category>Otros</category>
+    <country>Chile</country>
+    <rating><value>R</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/alguientemira.jpg" />
+  </programme>
+  <programme start="20261117220000 -0300" stop="20261118000000 -0300" channel="0117">
+    <title>Mea Culpa</title>
+    <desc>Mea Culpa es un programa de televisión dirigido por el periodista y realizador chileno, Carlos Pinto, el cual recrea casos policiales de alto impacto que han conmocionado al país.</desc>
+    <credits>
+      <director>Carlos Pinto</director>
+      <actor>Carlos Pinto</actor>
+    </credits>
+    <date>1993</date>
+    <category>Series</category>
+    <country>Chile</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/meaculpa.jpg" />
+  </programme>
+  <programme start="20261118000000 -0300" stop="20261118010000 -0300" channel="0117">
+    <title>El Día Menos Pensado</title>
+    <desc>Andrea es una joven estudiante cuya familia enfrenta graves problemas económicos.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/eldiamenospensado.jpg" />
+  </programme>
+  <programme start="20261118010000 -0300" stop="20261118020000 -0300" channel="0117">
+    <title>Mea Culpa</title>
+    <desc>Mea Culpa es un programa de televisión dirigido por el periodista y realizador chileno, Carlos Pinto, el cual recrea casos policiales de alto impacto que han conmocionado al país.</desc>
+    <credits>
+      <director>Carlos Pinto</director>
+      <actor>Carlos Pinto</actor>
+    </credits>
+    <date>1993</date>
+    <category>Series</category>
+    <country>Chile</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/meaculpa.jpg" />
+  </programme>
+  <programme start="20261118020000 -0300" stop="20261118030000 -0300" channel="0117">
+    <title>Aquelarre</title>
+    <desc>Una historia de misterios y amores apasionados que se desarrollan en un mágico ambiente en la zona central de Chile.</desc>
+    <credits>
+      <director>María Eugenia Rencoret</director>
+      <director>Víctor Huerta</director>
+      <actor>Sigrid Alegría</actor>
+      <actor>Álvaro Rudolphy</actor>
+      <actor>Bastián Bodenhöfer</actor>
+      <actor>Coca Guazzini</actor>
+      <actor>Catalina Guerra</actor>
+      <actor>Álvaro Escobar</actor>
+      <actor>Claudia Burr</actor>
+      <actor>Maricarmen Arrigorriaga</actor>
+      <actor>Edgardo Bruna</actor>
+      <actor>Mauricio Pesutic</actor>
+      <actor>Francisco Pérez-Bannen</actor>
+      <actor>Ximena Rivas</actor>
+      <actor>Alejandra Fosalba</actor>
+      <actor>Patricia Rivadeneira</actor>
+      <actor>Yuyuniz Navas</actor>
+      <actor>Paola Volpato</actor>
+      <actor>Yael Unger</actor>
+      <actor>Jaime Vadell</actor>
+      <actor>Anita Reeves</actor>
+    </credits>
+    <date>1999</date>
+    <category>Soap</category>
+    <country>Chile</country>
+    <rating><value>R</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/aquelarre.jpg" />
+  </programme>
+  <programme start="20261118030000 -0300" stop="20261118040000 -0300" channel="0117">
+    <title>Alguien te mira</title>
+    <desc>Rodrigo vuelve a Chile y se reencuentra con sus antiguos colegas luego de salir escapando del país por razones desconocidas. Mientras que en Santiago, la aparición de un asesino en serie pone de cabeza a la policía y al circulo mas acomodado de la capital... ¿Quien está detrás de los crimines?</desc>
+    <credits>
+      <director>María Eugenia Rencoret</director>
+      <director>Germán Barriga</director>
+      <director>Rodrigo Velásquez</director>
+      <actor>Álvaro Rudolphy</actor>
+      <actor>Francisco Melo</actor>
+      <actor>Francisco Pérez-Bannen</actor>
+      <actor>Sigrid Alegría</actor>
+      <actor>Luz Valdivieso</actor>
+      <actor>Alejandra Fosalba</actor>
+      <actor>Francisca Imboden</actor>
+      <actor>Claudio Arredondo</actor>
+      <actor>Paola Volpato</actor>
+    </credits>
+    <date>2007</date>
+    <category>Otros</category>
+    <country>Chile</country>
+    <rating><value>R</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/alguientemira.jpg" />
+  </programme>
+  <programme start="20261118040000 -0300" stop="20261118050000 -0300" channel="0117">
+    <title>Legado: Tierra Adentro</title>
+    <desc>El legado de Tierradentro se compone principalmente de sus hipogeos subterráneos, sus urnas funerarias y su arte rupestre.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/legadotierraadentro.jpg" />
+  </programme>
+  <programme start="20261118050000 -0300" stop="20261118063000 -0300" channel="0117">
+    <title>Pasiones</title>
+    <desc>Un programa sobre el amor, sus caídas y triunfos. Junto a nuestros animadores tendremos entrevistas, expertos y mucha pasión.</desc>
+    <credits>
+      <actor>Felipe Camiroaga</actor>
+      <actor>Bárbara Rebolledo</actor>
+      <presenter>Felipe Camiroaga</presenter>
+      <presenter>Bárbara Rebolledo</presenter>
+      <presenter>Krishna de Caso</presenter>
+      <presenter>Martín Cárcamo</presenter>
+      <presenter>Marcelo Arismendi</presenter>
+    </credits>
+    <date>2004</date>
+    <category>Entretención</category>
+    <country>Chile</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/pasiones.jpg" />
+  </programme>
+  <programme start="20261118063000 -0300" stop="20261118080000 -0300" channel="0117">
+    <title>Calle 7</title>
+    <desc>Programa de juegos en el que dos equipos se enfrentarán en una serie de divertidos y complejos desafíos.</desc>
+    <credits>
+      <actor>Gianella Marengo</actor>
+      <actor>Laura Prieto</actor>
+      <actor>Francisco Puelles</actor>
+      <actor>Camila Nash</actor>
+      <actor>Valentina Roth</actor>
+      <actor>Nelson Mauricio Pacheco</actor>
+      <actor>Felipe Camus</actor>
+      <presenter>Martín Cárcamo</presenter>
+      <presenter>Karen Doggenweiler</presenter>
+      <presenter>Jean Philippe Cretton</presenter>
+    </credits>
+    <date>2009</date>
+    <category>Entretención</category>
+    <country>Chile</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/calle7.jpg" />
+  </programme>
+  <programme start="20261118080000 -0300" stop="20261118090000 -0300" channel="0117">
+    <title>Aquelarre</title>
+    <desc>Una historia de misterios y amores apasionados que se desarrollan en un mágico ambiente en la zona central de Chile.</desc>
+    <credits>
+      <director>María Eugenia Rencoret</director>
+      <director>Víctor Huerta</director>
+      <actor>Sigrid Alegría</actor>
+      <actor>Álvaro Rudolphy</actor>
+      <actor>Bastián Bodenhöfer</actor>
+      <actor>Coca Guazzini</actor>
+      <actor>Catalina Guerra</actor>
+      <actor>Álvaro Escobar</actor>
+      <actor>Claudia Burr</actor>
+      <actor>Maricarmen Arrigorriaga</actor>
+      <actor>Edgardo Bruna</actor>
+      <actor>Mauricio Pesutic</actor>
+      <actor>Francisco Pérez-Bannen</actor>
+      <actor>Ximena Rivas</actor>
+      <actor>Alejandra Fosalba</actor>
+      <actor>Patricia Rivadeneira</actor>
+      <actor>Yuyuniz Navas</actor>
+      <actor>Paola Volpato</actor>
+      <actor>Yael Unger</actor>
+      <actor>Jaime Vadell</actor>
+      <actor>Anita Reeves</actor>
+    </credits>
+    <date>1999</date>
+    <category>Soap</category>
+    <country>Chile</country>
+    <rating><value>R</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/aquelarre.jpg" />
+  </programme>
+  <programme start="20261118090000 -0300" stop="20261118100000 -0300" channel="0117">
+    <title>Patiperros</title>
+    <desc>Programa que muestra las historias y experiencias de los chilenos que decidieron emigrar y vivir en distintos países alrededor de los cinco continentes.</desc>
+    <credits>
+      <actor>Cristián Leighton</actor>
+      <presenter>Cristián Leighton</presenter>
+    </credits>
+    <date>1998</date>
+    <category>Entretención</category>
+    <country>Chile</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/patiperros.jpg" />
+  </programme>
+  <programme start="20261118100000 -0300" stop="20261118111500 -0300" channel="0117">
+    <title>Pasiones</title>
+    <desc>Un programa sobre el amor, sus caídas y triunfos. Junto a nuestros animadores tendremos entrevistas, expertos y mucha pasión.</desc>
+    <credits>
+      <actor>Felipe Camiroaga</actor>
+      <actor>Bárbara Rebolledo</actor>
+      <presenter>Felipe Camiroaga</presenter>
+      <presenter>Bárbara Rebolledo</presenter>
+      <presenter>Krishna de Caso</presenter>
+      <presenter>Martín Cárcamo</presenter>
+      <presenter>Marcelo Arismendi</presenter>
+    </credits>
+    <date>2004</date>
+    <category>Entretención</category>
+    <country>Chile</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/pasiones.jpg" />
+  </programme>
+  <programme start="20261118111500 -0300" stop="20261118130000 -0300" channel="0117">
+    <title>Calle 7</title>
+    <desc>Programa de juegos en el que dos equipos se enfrentarán en una serie de divertidos y complejos desafíos.</desc>
+    <credits>
+      <actor>Gianella Marengo</actor>
+      <actor>Laura Prieto</actor>
+      <actor>Francisco Puelles</actor>
+      <actor>Camila Nash</actor>
+      <actor>Valentina Roth</actor>
+      <actor>Nelson Mauricio Pacheco</actor>
+      <actor>Felipe Camus</actor>
+      <presenter>Martín Cárcamo</presenter>
+      <presenter>Karen Doggenweiler</presenter>
+      <presenter>Jean Philippe Cretton</presenter>
+    </credits>
+    <date>2009</date>
+    <category>Entretención</category>
+    <country>Chile</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/calle7.jpg" />
+  </programme>
+  <programme start="20261118130000 -0300" stop="20261118140000 -0300" channel="0117">
+    <title>Alguien te mira</title>
+    <desc>Rodrigo vuelve a Chile y se reencuentra con sus antiguos colegas luego de salir escapando del país por razones desconocidas. Mientras que en Santiago, la aparición de un asesino en serie pone de cabeza a la policía y al circulo mas acomodado de la capital... ¿Quien está detrás de los crimines?</desc>
+    <credits>
+      <director>María Eugenia Rencoret</director>
+      <director>Germán Barriga</director>
+      <director>Rodrigo Velásquez</director>
+      <actor>Álvaro Rudolphy</actor>
+      <actor>Francisco Melo</actor>
+      <actor>Francisco Pérez-Bannen</actor>
+      <actor>Sigrid Alegría</actor>
+      <actor>Luz Valdivieso</actor>
+      <actor>Alejandra Fosalba</actor>
+      <actor>Francisca Imboden</actor>
+      <actor>Claudio Arredondo</actor>
+      <actor>Paola Volpato</actor>
+    </credits>
+    <date>2007</date>
+    <category>Otros</category>
+    <country>Chile</country>
+    <rating><value>R</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/alguientemira.jpg" />
+  </programme>
+  <programme start="20261118140000 -0300" stop="20261118150000 -0300" channel="0117">
+    <title>Aquelarre</title>
+    <desc>Una historia de misterios y amores apasionados que se desarrollan en un mágico ambiente en la zona central de Chile.</desc>
+    <credits>
+      <director>María Eugenia Rencoret</director>
+      <director>Víctor Huerta</director>
+      <actor>Sigrid Alegría</actor>
+      <actor>Álvaro Rudolphy</actor>
+      <actor>Bastián Bodenhöfer</actor>
+      <actor>Coca Guazzini</actor>
+      <actor>Catalina Guerra</actor>
+      <actor>Álvaro Escobar</actor>
+      <actor>Claudia Burr</actor>
+      <actor>Maricarmen Arrigorriaga</actor>
+      <actor>Edgardo Bruna</actor>
+      <actor>Mauricio Pesutic</actor>
+      <actor>Francisco Pérez-Bannen</actor>
+      <actor>Ximena Rivas</actor>
+      <actor>Alejandra Fosalba</actor>
+      <actor>Patricia Rivadeneira</actor>
+      <actor>Yuyuniz Navas</actor>
+      <actor>Paola Volpato</actor>
+      <actor>Yael Unger</actor>
+      <actor>Jaime Vadell</actor>
+      <actor>Anita Reeves</actor>
+    </credits>
+    <date>1999</date>
+    <category>Soap</category>
+    <country>Chile</country>
+    <rating><value>R</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/aquelarre.jpg" />
+  </programme>
+  <programme start="20261118150000 -0300" stop="20261118160000 -0300" channel="0117">
+    <title>Patiperros</title>
+    <desc>Programa que muestra las historias y experiencias de los chilenos que decidieron emigrar y vivir en distintos países alrededor de los cinco continentes.</desc>
+    <credits>
+      <actor>Cristián Leighton</actor>
+      <presenter>Cristián Leighton</presenter>
+    </credits>
+    <date>1998</date>
+    <category>Entretención</category>
+    <country>Chile</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/patiperros.jpg" />
+  </programme>
+  <programme start="20261118160000 -0300" stop="20261118170000 -0300" channel="0117">
+    <title>Legado: Tierra Adentro</title>
+    <desc>El legado de Tierradentro se compone principalmente de sus hipogeos subterráneos, sus urnas funerarias y su arte rupestre.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/legadotierraadentro.jpg" />
+  </programme>
+  <programme start="20261118170000 -0300" stop="20261118181500 -0300" channel="0117">
+    <title>Pasiones</title>
+    <desc>Un programa sobre el amor, sus caídas y triunfos. Junto a nuestros animadores tendremos entrevistas, expertos y mucha pasión.</desc>
+    <credits>
+      <actor>Felipe Camiroaga</actor>
+      <actor>Bárbara Rebolledo</actor>
+      <presenter>Felipe Camiroaga</presenter>
+      <presenter>Bárbara Rebolledo</presenter>
+      <presenter>Krishna de Caso</presenter>
+      <presenter>Martín Cárcamo</presenter>
+      <presenter>Marcelo Arismendi</presenter>
+    </credits>
+    <date>2004</date>
+    <category>Entretención</category>
+    <country>Chile</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/pasiones.jpg" />
+  </programme>
+  <programme start="20261118181500 -0300" stop="20261118200000 -0300" channel="0117">
+    <title>Calle 7</title>
+    <desc>Programa de juegos en el que dos equipos se enfrentarán en una serie de divertidos y complejos desafíos.</desc>
+    <credits>
+      <actor>Gianella Marengo</actor>
+      <actor>Laura Prieto</actor>
+      <actor>Francisco Puelles</actor>
+      <actor>Camila Nash</actor>
+      <actor>Valentina Roth</actor>
+      <actor>Nelson Mauricio Pacheco</actor>
+      <actor>Felipe Camus</actor>
+      <presenter>Martín Cárcamo</presenter>
+      <presenter>Karen Doggenweiler</presenter>
+      <presenter>Jean Philippe Cretton</presenter>
+    </credits>
+    <date>2009</date>
+    <category>Entretención</category>
+    <country>Chile</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/calle7.jpg" />
+  </programme>
+  <programme start="20261118200000 -0300" stop="20261118210000 -0300" channel="0117">
+    <title>Aquelarre</title>
+    <desc>Una historia de misterios y amores apasionados que se desarrollan en un mágico ambiente en la zona central de Chile.</desc>
+    <credits>
+      <director>María Eugenia Rencoret</director>
+      <director>Víctor Huerta</director>
+      <actor>Sigrid Alegría</actor>
+      <actor>Álvaro Rudolphy</actor>
+      <actor>Bastián Bodenhöfer</actor>
+      <actor>Coca Guazzini</actor>
+      <actor>Catalina Guerra</actor>
+      <actor>Álvaro Escobar</actor>
+      <actor>Claudia Burr</actor>
+      <actor>Maricarmen Arrigorriaga</actor>
+      <actor>Edgardo Bruna</actor>
+      <actor>Mauricio Pesutic</actor>
+      <actor>Francisco Pérez-Bannen</actor>
+      <actor>Ximena Rivas</actor>
+      <actor>Alejandra Fosalba</actor>
+      <actor>Patricia Rivadeneira</actor>
+      <actor>Yuyuniz Navas</actor>
+      <actor>Paola Volpato</actor>
+      <actor>Yael Unger</actor>
+      <actor>Jaime Vadell</actor>
+      <actor>Anita Reeves</actor>
+    </credits>
+    <date>1999</date>
+    <category>Soap</category>
+    <country>Chile</country>
+    <rating><value>R</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/aquelarre.jpg" />
+  </programme>
+  <programme start="20261118210000 -0300" stop="20261118220000 -0300" channel="0117">
+    <title>Alguien te mira</title>
+    <desc>Rodrigo vuelve a Chile y se reencuentra con sus antiguos colegas luego de salir escapando del país por razones desconocidas. Mientras que en Santiago, la aparición de un asesino en serie pone de cabeza a la policía y al circulo mas acomodado de la capital... ¿Quien está detrás de los crimines?</desc>
+    <credits>
+      <director>María Eugenia Rencoret</director>
+      <director>Germán Barriga</director>
+      <director>Rodrigo Velásquez</director>
+      <actor>Álvaro Rudolphy</actor>
+      <actor>Francisco Melo</actor>
+      <actor>Francisco Pérez-Bannen</actor>
+      <actor>Sigrid Alegría</actor>
+      <actor>Luz Valdivieso</actor>
+      <actor>Alejandra Fosalba</actor>
+      <actor>Francisca Imboden</actor>
+      <actor>Claudio Arredondo</actor>
+      <actor>Paola Volpato</actor>
+    </credits>
+    <date>2007</date>
+    <category>Otros</category>
+    <country>Chile</country>
+    <rating><value>R</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/alguientemira.jpg" />
+  </programme>
+  <programme start="20261118220000 -0300" stop="20261119000000 -0300" channel="0117">
+    <title>Mea Culpa</title>
+    <desc>Mea Culpa es un programa de televisión dirigido por el periodista y realizador chileno, Carlos Pinto, el cual recrea casos policiales de alto impacto que han conmocionado al país.</desc>
+    <credits>
+      <director>Carlos Pinto</director>
+      <actor>Carlos Pinto</actor>
+    </credits>
+    <date>1993</date>
+    <category>Series</category>
+    <country>Chile</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/meaculpa.jpg" />
+  </programme>
+  <programme start="20261119000000 -0300" stop="20261119010000 -0300" channel="0117">
+    <title>El Día Menos Pensado</title>
+    <desc>Andrea es una joven estudiante cuya familia enfrenta graves problemas económicos.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/eldiamenospensado.jpg" />
+  </programme>
+  <programme start="20261119010000 -0300" stop="20261119020000 -0300" channel="0117">
+    <title>Mea Culpa</title>
+    <desc>Mea Culpa es un programa de televisión dirigido por el periodista y realizador chileno, Carlos Pinto, el cual recrea casos policiales de alto impacto que han conmocionado al país.</desc>
+    <credits>
+      <director>Carlos Pinto</director>
+      <actor>Carlos Pinto</actor>
+    </credits>
+    <date>1993</date>
+    <category>Series</category>
+    <country>Chile</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/meaculpa.jpg" />
+  </programme>
+  <programme start="20261119020000 -0300" stop="20261119030000 -0300" channel="0117">
+    <title>Aquelarre</title>
+    <desc>Una historia de misterios y amores apasionados que se desarrollan en un mágico ambiente en la zona central de Chile.</desc>
+    <credits>
+      <director>María Eugenia Rencoret</director>
+      <director>Víctor Huerta</director>
+      <actor>Sigrid Alegría</actor>
+      <actor>Álvaro Rudolphy</actor>
+      <actor>Bastián Bodenhöfer</actor>
+      <actor>Coca Guazzini</actor>
+      <actor>Catalina Guerra</actor>
+      <actor>Álvaro Escobar</actor>
+      <actor>Claudia Burr</actor>
+      <actor>Maricarmen Arrigorriaga</actor>
+      <actor>Edgardo Bruna</actor>
+      <actor>Mauricio Pesutic</actor>
+      <actor>Francisco Pérez-Bannen</actor>
+      <actor>Ximena Rivas</actor>
+      <actor>Alejandra Fosalba</actor>
+      <actor>Patricia Rivadeneira</actor>
+      <actor>Yuyuniz Navas</actor>
+      <actor>Paola Volpato</actor>
+      <actor>Yael Unger</actor>
+      <actor>Jaime Vadell</actor>
+      <actor>Anita Reeves</actor>
+    </credits>
+    <date>1999</date>
+    <category>Soap</category>
+    <country>Chile</country>
+    <rating><value>R</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/aquelarre.jpg" />
+  </programme>
+  <programme start="20261119030000 -0300" stop="20261119040000 -0300" channel="0117">
+    <title>Alguien te mira</title>
+    <desc>Rodrigo vuelve a Chile y se reencuentra con sus antiguos colegas luego de salir escapando del país por razones desconocidas. Mientras que en Santiago, la aparición de un asesino en serie pone de cabeza a la policía y al circulo mas acomodado de la capital... ¿Quien está detrás de los crimines?</desc>
+    <credits>
+      <director>María Eugenia Rencoret</director>
+      <director>Germán Barriga</director>
+      <director>Rodrigo Velásquez</director>
+      <actor>Álvaro Rudolphy</actor>
+      <actor>Francisco Melo</actor>
+      <actor>Francisco Pérez-Bannen</actor>
+      <actor>Sigrid Alegría</actor>
+      <actor>Luz Valdivieso</actor>
+      <actor>Alejandra Fosalba</actor>
+      <actor>Francisca Imboden</actor>
+      <actor>Claudio Arredondo</actor>
+      <actor>Paola Volpato</actor>
+    </credits>
+    <date>2007</date>
+    <category>Otros</category>
+    <country>Chile</country>
+    <rating><value>R</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/alguientemira.jpg" />
+  </programme>
+  <programme start="20261119040000 -0300" stop="20261119050000 -0300" channel="0117">
+    <title>Legado: Tierra Adentro</title>
+    <desc>El legado de Tierradentro se compone principalmente de sus hipogeos subterráneos, sus urnas funerarias y su arte rupestre.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/legadotierraadentro.jpg" />
+  </programme>
+  <programme start="20261119050000 -0300" stop="20261119063000 -0300" channel="0117">
+    <title>Pasiones</title>
+    <desc>Un programa sobre el amor, sus caídas y triunfos. Junto a nuestros animadores tendremos entrevistas, expertos y mucha pasión.</desc>
+    <credits>
+      <actor>Felipe Camiroaga</actor>
+      <actor>Bárbara Rebolledo</actor>
+      <presenter>Felipe Camiroaga</presenter>
+      <presenter>Bárbara Rebolledo</presenter>
+      <presenter>Krishna de Caso</presenter>
+      <presenter>Martín Cárcamo</presenter>
+      <presenter>Marcelo Arismendi</presenter>
+    </credits>
+    <date>2004</date>
+    <category>Entretención</category>
+    <country>Chile</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/pasiones.jpg" />
+  </programme>
+  <programme start="20261119063000 -0300" stop="20261119080000 -0300" channel="0117">
+    <title>Calle 7</title>
+    <desc>Programa de juegos en el que dos equipos se enfrentarán en una serie de divertidos y complejos desafíos.</desc>
+    <credits>
+      <actor>Gianella Marengo</actor>
+      <actor>Laura Prieto</actor>
+      <actor>Francisco Puelles</actor>
+      <actor>Camila Nash</actor>
+      <actor>Valentina Roth</actor>
+      <actor>Nelson Mauricio Pacheco</actor>
+      <actor>Felipe Camus</actor>
+      <presenter>Martín Cárcamo</presenter>
+      <presenter>Karen Doggenweiler</presenter>
+      <presenter>Jean Philippe Cretton</presenter>
+    </credits>
+    <date>2009</date>
+    <category>Entretención</category>
+    <country>Chile</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/calle7.jpg" />
+  </programme>
+  <programme start="20261119080000 -0300" stop="20261119090000 -0300" channel="0117">
+    <title>Aquelarre</title>
+    <desc>Una historia de misterios y amores apasionados que se desarrollan en un mágico ambiente en la zona central de Chile.</desc>
+    <credits>
+      <director>María Eugenia Rencoret</director>
+      <director>Víctor Huerta</director>
+      <actor>Sigrid Alegría</actor>
+      <actor>Álvaro Rudolphy</actor>
+      <actor>Bastián Bodenhöfer</actor>
+      <actor>Coca Guazzini</actor>
+      <actor>Catalina Guerra</actor>
+      <actor>Álvaro Escobar</actor>
+      <actor>Claudia Burr</actor>
+      <actor>Maricarmen Arrigorriaga</actor>
+      <actor>Edgardo Bruna</actor>
+      <actor>Mauricio Pesutic</actor>
+      <actor>Francisco Pérez-Bannen</actor>
+      <actor>Ximena Rivas</actor>
+      <actor>Alejandra Fosalba</actor>
+      <actor>Patricia Rivadeneira</actor>
+      <actor>Yuyuniz Navas</actor>
+      <actor>Paola Volpato</actor>
+      <actor>Yael Unger</actor>
+      <actor>Jaime Vadell</actor>
+      <actor>Anita Reeves</actor>
+    </credits>
+    <date>1999</date>
+    <category>Soap</category>
+    <country>Chile</country>
+    <rating><value>R</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/aquelarre.jpg" />
+  </programme>
+  <programme start="20261119090000 -0300" stop="20261119100000 -0300" channel="0117">
+    <title>Patiperros</title>
+    <desc>Programa que muestra las historias y experiencias de los chilenos que decidieron emigrar y vivir en distintos países alrededor de los cinco continentes.</desc>
+    <credits>
+      <actor>Cristián Leighton</actor>
+      <presenter>Cristián Leighton</presenter>
+    </credits>
+    <date>1998</date>
+    <category>Entretención</category>
+    <country>Chile</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/patiperros.jpg" />
+  </programme>
+  <programme start="20261119100000 -0300" stop="20261119111500 -0300" channel="0117">
+    <title>Pasiones</title>
+    <desc>Un programa sobre el amor, sus caídas y triunfos. Junto a nuestros animadores tendremos entrevistas, expertos y mucha pasión.</desc>
+    <credits>
+      <actor>Felipe Camiroaga</actor>
+      <actor>Bárbara Rebolledo</actor>
+      <presenter>Felipe Camiroaga</presenter>
+      <presenter>Bárbara Rebolledo</presenter>
+      <presenter>Krishna de Caso</presenter>
+      <presenter>Martín Cárcamo</presenter>
+      <presenter>Marcelo Arismendi</presenter>
+    </credits>
+    <date>2004</date>
+    <category>Entretención</category>
+    <country>Chile</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/pasiones.jpg" />
+  </programme>
+  <programme start="20261119111500 -0300" stop="20261119130000 -0300" channel="0117">
+    <title>Calle 7</title>
+    <desc>Programa de juegos en el que dos equipos se enfrentarán en una serie de divertidos y complejos desafíos.</desc>
+    <credits>
+      <actor>Gianella Marengo</actor>
+      <actor>Laura Prieto</actor>
+      <actor>Francisco Puelles</actor>
+      <actor>Camila Nash</actor>
+      <actor>Valentina Roth</actor>
+      <actor>Nelson Mauricio Pacheco</actor>
+      <actor>Felipe Camus</actor>
+      <presenter>Martín Cárcamo</presenter>
+      <presenter>Karen Doggenweiler</presenter>
+      <presenter>Jean Philippe Cretton</presenter>
+    </credits>
+    <date>2009</date>
+    <category>Entretención</category>
+    <country>Chile</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/calle7.jpg" />
+  </programme>
+  <programme start="20261119130000 -0300" stop="20261119140000 -0300" channel="0117">
+    <title>Alguien te mira</title>
+    <desc>Rodrigo vuelve a Chile y se reencuentra con sus antiguos colegas luego de salir escapando del país por razones desconocidas. Mientras que en Santiago, la aparición de un asesino en serie pone de cabeza a la policía y al circulo mas acomodado de la capital... ¿Quien está detrás de los crimines?</desc>
+    <credits>
+      <director>María Eugenia Rencoret</director>
+      <director>Germán Barriga</director>
+      <director>Rodrigo Velásquez</director>
+      <actor>Álvaro Rudolphy</actor>
+      <actor>Francisco Melo</actor>
+      <actor>Francisco Pérez-Bannen</actor>
+      <actor>Sigrid Alegría</actor>
+      <actor>Luz Valdivieso</actor>
+      <actor>Alejandra Fosalba</actor>
+      <actor>Francisca Imboden</actor>
+      <actor>Claudio Arredondo</actor>
+      <actor>Paola Volpato</actor>
+    </credits>
+    <date>2007</date>
+    <category>Otros</category>
+    <country>Chile</country>
+    <rating><value>R</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/alguientemira.jpg" />
+  </programme>
+  <programme start="20261119140000 -0300" stop="20261119150000 -0300" channel="0117">
+    <title>Aquelarre</title>
+    <desc>Una historia de misterios y amores apasionados que se desarrollan en un mágico ambiente en la zona central de Chile.</desc>
+    <credits>
+      <director>María Eugenia Rencoret</director>
+      <director>Víctor Huerta</director>
+      <actor>Sigrid Alegría</actor>
+      <actor>Álvaro Rudolphy</actor>
+      <actor>Bastián Bodenhöfer</actor>
+      <actor>Coca Guazzini</actor>
+      <actor>Catalina Guerra</actor>
+      <actor>Álvaro Escobar</actor>
+      <actor>Claudia Burr</actor>
+      <actor>Maricarmen Arrigorriaga</actor>
+      <actor>Edgardo Bruna</actor>
+      <actor>Mauricio Pesutic</actor>
+      <actor>Francisco Pérez-Bannen</actor>
+      <actor>Ximena Rivas</actor>
+      <actor>Alejandra Fosalba</actor>
+      <actor>Patricia Rivadeneira</actor>
+      <actor>Yuyuniz Navas</actor>
+      <actor>Paola Volpato</actor>
+      <actor>Yael Unger</actor>
+      <actor>Jaime Vadell</actor>
+      <actor>Anita Reeves</actor>
+    </credits>
+    <date>1999</date>
+    <category>Soap</category>
+    <country>Chile</country>
+    <rating><value>R</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/aquelarre.jpg" />
+  </programme>
+  <programme start="20261119150000 -0300" stop="20261119160000 -0300" channel="0117">
+    <title>Patiperros</title>
+    <desc>Programa que muestra las historias y experiencias de los chilenos que decidieron emigrar y vivir en distintos países alrededor de los cinco continentes.</desc>
+    <credits>
+      <actor>Cristián Leighton</actor>
+      <presenter>Cristián Leighton</presenter>
+    </credits>
+    <date>1998</date>
+    <category>Entretención</category>
+    <country>Chile</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/patiperros.jpg" />
+  </programme>
+  <programme start="20261119160000 -0300" stop="20261119170000 -0300" channel="0117">
+    <title>Legado: Tierra Adentro</title>
+    <desc>El legado de Tierradentro se compone principalmente de sus hipogeos subterráneos, sus urnas funerarias y su arte rupestre.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/legadotierraadentro.jpg" />
+  </programme>
+  <programme start="20261119170000 -0300" stop="20261119181500 -0300" channel="0117">
+    <title>Pasiones</title>
+    <desc>Un programa sobre el amor, sus caídas y triunfos. Junto a nuestros animadores tendremos entrevistas, expertos y mucha pasión.</desc>
+    <credits>
+      <actor>Felipe Camiroaga</actor>
+      <actor>Bárbara Rebolledo</actor>
+      <presenter>Felipe Camiroaga</presenter>
+      <presenter>Bárbara Rebolledo</presenter>
+      <presenter>Krishna de Caso</presenter>
+      <presenter>Martín Cárcamo</presenter>
+      <presenter>Marcelo Arismendi</presenter>
+    </credits>
+    <date>2004</date>
+    <category>Entretención</category>
+    <country>Chile</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/pasiones.jpg" />
+  </programme>
+  <programme start="20261119181500 -0300" stop="20261119200000 -0300" channel="0117">
+    <title>Calle 7</title>
+    <desc>Programa de juegos en el que dos equipos se enfrentarán en una serie de divertidos y complejos desafíos.</desc>
+    <credits>
+      <actor>Gianella Marengo</actor>
+      <actor>Laura Prieto</actor>
+      <actor>Francisco Puelles</actor>
+      <actor>Camila Nash</actor>
+      <actor>Valentina Roth</actor>
+      <actor>Nelson Mauricio Pacheco</actor>
+      <actor>Felipe Camus</actor>
+      <presenter>Martín Cárcamo</presenter>
+      <presenter>Karen Doggenweiler</presenter>
+      <presenter>Jean Philippe Cretton</presenter>
+    </credits>
+    <date>2009</date>
+    <category>Entretención</category>
+    <country>Chile</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/calle7.jpg" />
+  </programme>
+  <programme start="20261119200000 -0300" stop="20261119210000 -0300" channel="0117">
+    <title>Aquelarre</title>
+    <desc>Una historia de misterios y amores apasionados que se desarrollan en un mágico ambiente en la zona central de Chile.</desc>
+    <credits>
+      <director>María Eugenia Rencoret</director>
+      <director>Víctor Huerta</director>
+      <actor>Sigrid Alegría</actor>
+      <actor>Álvaro Rudolphy</actor>
+      <actor>Bastián Bodenhöfer</actor>
+      <actor>Coca Guazzini</actor>
+      <actor>Catalina Guerra</actor>
+      <actor>Álvaro Escobar</actor>
+      <actor>Claudia Burr</actor>
+      <actor>Maricarmen Arrigorriaga</actor>
+      <actor>Edgardo Bruna</actor>
+      <actor>Mauricio Pesutic</actor>
+      <actor>Francisco Pérez-Bannen</actor>
+      <actor>Ximena Rivas</actor>
+      <actor>Alejandra Fosalba</actor>
+      <actor>Patricia Rivadeneira</actor>
+      <actor>Yuyuniz Navas</actor>
+      <actor>Paola Volpato</actor>
+      <actor>Yael Unger</actor>
+      <actor>Jaime Vadell</actor>
+      <actor>Anita Reeves</actor>
+    </credits>
+    <date>1999</date>
+    <category>Soap</category>
+    <country>Chile</country>
+    <rating><value>R</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/aquelarre.jpg" />
+  </programme>
+  <programme start="20261119210000 -0300" stop="20261119220000 -0300" channel="0117">
+    <title>Alguien te mira</title>
+    <desc>Rodrigo vuelve a Chile y se reencuentra con sus antiguos colegas luego de salir escapando del país por razones desconocidas. Mientras que en Santiago, la aparición de un asesino en serie pone de cabeza a la policía y al circulo mas acomodado de la capital... ¿Quien está detrás de los crimines?</desc>
+    <credits>
+      <director>María Eugenia Rencoret</director>
+      <director>Germán Barriga</director>
+      <director>Rodrigo Velásquez</director>
+      <actor>Álvaro Rudolphy</actor>
+      <actor>Francisco Melo</actor>
+      <actor>Francisco Pérez-Bannen</actor>
+      <actor>Sigrid Alegría</actor>
+      <actor>Luz Valdivieso</actor>
+      <actor>Alejandra Fosalba</actor>
+      <actor>Francisca Imboden</actor>
+      <actor>Claudio Arredondo</actor>
+      <actor>Paola Volpato</actor>
+    </credits>
+    <date>2007</date>
+    <category>Otros</category>
+    <country>Chile</country>
+    <rating><value>R</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/alguientemira.jpg" />
+  </programme>
+  <programme start="20261119220000 -0300" stop="20261120000000 -0300" channel="0117">
+    <title>Mea Culpa</title>
+    <desc>Mea Culpa es un programa de televisión dirigido por el periodista y realizador chileno, Carlos Pinto, el cual recrea casos policiales de alto impacto que han conmocionado al país.</desc>
+    <credits>
+      <director>Carlos Pinto</director>
+      <actor>Carlos Pinto</actor>
+    </credits>
+    <date>1993</date>
+    <category>Series</category>
+    <country>Chile</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/meaculpa.jpg" />
+  </programme>
+  <programme start="20261120000000 -0300" stop="20261120010000 -0300" channel="0117">
+    <title>El Día Menos Pensado</title>
+    <desc>Andrea es una joven estudiante cuya familia enfrenta graves problemas económicos.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/eldiamenospensado.jpg" />
+  </programme>
+  <programme start="20261120010000 -0300" stop="20261120020000 -0300" channel="0117">
+    <title>Mea Culpa</title>
+    <desc>Mea Culpa es un programa de televisión dirigido por el periodista y realizador chileno, Carlos Pinto, el cual recrea casos policiales de alto impacto que han conmocionado al país.</desc>
+    <credits>
+      <director>Carlos Pinto</director>
+      <actor>Carlos Pinto</actor>
+    </credits>
+    <date>1993</date>
+    <category>Series</category>
+    <country>Chile</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/meaculpa.jpg" />
+  </programme>
+  <programme start="20261120020000 -0300" stop="20261120030000 -0300" channel="0117">
+    <title>Aquelarre</title>
+    <desc>Una historia de misterios y amores apasionados que se desarrollan en un mágico ambiente en la zona central de Chile.</desc>
+    <credits>
+      <director>María Eugenia Rencoret</director>
+      <director>Víctor Huerta</director>
+      <actor>Sigrid Alegría</actor>
+      <actor>Álvaro Rudolphy</actor>
+      <actor>Bastián Bodenhöfer</actor>
+      <actor>Coca Guazzini</actor>
+      <actor>Catalina Guerra</actor>
+      <actor>Álvaro Escobar</actor>
+      <actor>Claudia Burr</actor>
+      <actor>Maricarmen Arrigorriaga</actor>
+      <actor>Edgardo Bruna</actor>
+      <actor>Mauricio Pesutic</actor>
+      <actor>Francisco Pérez-Bannen</actor>
+      <actor>Ximena Rivas</actor>
+      <actor>Alejandra Fosalba</actor>
+      <actor>Patricia Rivadeneira</actor>
+      <actor>Yuyuniz Navas</actor>
+      <actor>Paola Volpato</actor>
+      <actor>Yael Unger</actor>
+      <actor>Jaime Vadell</actor>
+      <actor>Anita Reeves</actor>
+    </credits>
+    <date>1999</date>
+    <category>Soap</category>
+    <country>Chile</country>
+    <rating><value>R</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/aquelarre.jpg" />
+  </programme>
+  <programme start="20261120030000 -0300" stop="20261120040000 -0300" channel="0117">
+    <title>Alguien te mira</title>
+    <desc>Rodrigo vuelve a Chile y se reencuentra con sus antiguos colegas luego de salir escapando del país por razones desconocidas. Mientras que en Santiago, la aparición de un asesino en serie pone de cabeza a la policía y al circulo mas acomodado de la capital... ¿Quien está detrás de los crimines?</desc>
+    <credits>
+      <director>María Eugenia Rencoret</director>
+      <director>Germán Barriga</director>
+      <director>Rodrigo Velásquez</director>
+      <actor>Álvaro Rudolphy</actor>
+      <actor>Francisco Melo</actor>
+      <actor>Francisco Pérez-Bannen</actor>
+      <actor>Sigrid Alegría</actor>
+      <actor>Luz Valdivieso</actor>
+      <actor>Alejandra Fosalba</actor>
+      <actor>Francisca Imboden</actor>
+      <actor>Claudio Arredondo</actor>
+      <actor>Paola Volpato</actor>
+    </credits>
+    <date>2007</date>
+    <category>Otros</category>
+    <country>Chile</country>
+    <rating><value>R</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/alguientemira.jpg" />
+  </programme>
+  <programme start="20261120040000 -0300" stop="20261120050000 -0300" channel="0117">
+    <title>Legado: Tierra Adentro</title>
+    <desc>El legado de Tierradentro se compone principalmente de sus hipogeos subterráneos, sus urnas funerarias y su arte rupestre.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/legadotierraadentro.jpg" />
+  </programme>
+  <programme start="20261120050000 -0300" stop="20261120063000 -0300" channel="0117">
+    <title>Pasiones</title>
+    <desc>Un programa sobre el amor, sus caídas y triunfos. Junto a nuestros animadores tendremos entrevistas, expertos y mucha pasión.</desc>
+    <credits>
+      <actor>Felipe Camiroaga</actor>
+      <actor>Bárbara Rebolledo</actor>
+      <presenter>Felipe Camiroaga</presenter>
+      <presenter>Bárbara Rebolledo</presenter>
+      <presenter>Krishna de Caso</presenter>
+      <presenter>Martín Cárcamo</presenter>
+      <presenter>Marcelo Arismendi</presenter>
+    </credits>
+    <date>2004</date>
+    <category>Entretención</category>
+    <country>Chile</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/pasiones.jpg" />
+  </programme>
+  <programme start="20261120063000 -0300" stop="20261120080000 -0300" channel="0117">
+    <title>Calle 7</title>
+    <desc>Programa de juegos en el que dos equipos se enfrentarán en una serie de divertidos y complejos desafíos.</desc>
+    <credits>
+      <actor>Gianella Marengo</actor>
+      <actor>Laura Prieto</actor>
+      <actor>Francisco Puelles</actor>
+      <actor>Camila Nash</actor>
+      <actor>Valentina Roth</actor>
+      <actor>Nelson Mauricio Pacheco</actor>
+      <actor>Felipe Camus</actor>
+      <presenter>Martín Cárcamo</presenter>
+      <presenter>Karen Doggenweiler</presenter>
+      <presenter>Jean Philippe Cretton</presenter>
+    </credits>
+    <date>2009</date>
+    <category>Entretención</category>
+    <country>Chile</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/calle7.jpg" />
+  </programme>
+  <programme start="20261120080000 -0300" stop="20261120090000 -0300" channel="0117">
+    <title>Aquelarre</title>
+    <desc>Una historia de misterios y amores apasionados que se desarrollan en un mágico ambiente en la zona central de Chile.</desc>
+    <credits>
+      <director>María Eugenia Rencoret</director>
+      <director>Víctor Huerta</director>
+      <actor>Sigrid Alegría</actor>
+      <actor>Álvaro Rudolphy</actor>
+      <actor>Bastián Bodenhöfer</actor>
+      <actor>Coca Guazzini</actor>
+      <actor>Catalina Guerra</actor>
+      <actor>Álvaro Escobar</actor>
+      <actor>Claudia Burr</actor>
+      <actor>Maricarmen Arrigorriaga</actor>
+      <actor>Edgardo Bruna</actor>
+      <actor>Mauricio Pesutic</actor>
+      <actor>Francisco Pérez-Bannen</actor>
+      <actor>Ximena Rivas</actor>
+      <actor>Alejandra Fosalba</actor>
+      <actor>Patricia Rivadeneira</actor>
+      <actor>Yuyuniz Navas</actor>
+      <actor>Paola Volpato</actor>
+      <actor>Yael Unger</actor>
+      <actor>Jaime Vadell</actor>
+      <actor>Anita Reeves</actor>
+    </credits>
+    <date>1999</date>
+    <category>Soap</category>
+    <country>Chile</country>
+    <rating><value>R</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/aquelarre.jpg" />
+  </programme>
+  <programme start="20261120090000 -0300" stop="20261120100000 -0300" channel="0117">
+    <title>Patiperros</title>
+    <desc>Programa que muestra las historias y experiencias de los chilenos que decidieron emigrar y vivir en distintos países alrededor de los cinco continentes.</desc>
+    <credits>
+      <actor>Cristián Leighton</actor>
+      <presenter>Cristián Leighton</presenter>
+    </credits>
+    <date>1998</date>
+    <category>Entretención</category>
+    <country>Chile</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/patiperros.jpg" />
+  </programme>
+  <programme start="20261120100000 -0300" stop="20261120111500 -0300" channel="0117">
+    <title>Pasiones</title>
+    <desc>Un programa sobre el amor, sus caídas y triunfos. Junto a nuestros animadores tendremos entrevistas, expertos y mucha pasión.</desc>
+    <credits>
+      <actor>Felipe Camiroaga</actor>
+      <actor>Bárbara Rebolledo</actor>
+      <presenter>Felipe Camiroaga</presenter>
+      <presenter>Bárbara Rebolledo</presenter>
+      <presenter>Krishna de Caso</presenter>
+      <presenter>Martín Cárcamo</presenter>
+      <presenter>Marcelo Arismendi</presenter>
+    </credits>
+    <date>2004</date>
+    <category>Entretención</category>
+    <country>Chile</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/pasiones.jpg" />
+  </programme>
+  <programme start="20261120111500 -0300" stop="20261120130000 -0300" channel="0117">
+    <title>Calle 7</title>
+    <desc>Programa de juegos en el que dos equipos se enfrentarán en una serie de divertidos y complejos desafíos.</desc>
+    <credits>
+      <actor>Gianella Marengo</actor>
+      <actor>Laura Prieto</actor>
+      <actor>Francisco Puelles</actor>
+      <actor>Camila Nash</actor>
+      <actor>Valentina Roth</actor>
+      <actor>Nelson Mauricio Pacheco</actor>
+      <actor>Felipe Camus</actor>
+      <presenter>Martín Cárcamo</presenter>
+      <presenter>Karen Doggenweiler</presenter>
+      <presenter>Jean Philippe Cretton</presenter>
+    </credits>
+    <date>2009</date>
+    <category>Entretención</category>
+    <country>Chile</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/calle7.jpg" />
+  </programme>
+  <programme start="20261120130000 -0300" stop="20261120140000 -0300" channel="0117">
+    <title>Alguien te mira</title>
+    <desc>Rodrigo vuelve a Chile y se reencuentra con sus antiguos colegas luego de salir escapando del país por razones desconocidas. Mientras que en Santiago, la aparición de un asesino en serie pone de cabeza a la policía y al circulo mas acomodado de la capital... ¿Quien está detrás de los crimines?</desc>
+    <credits>
+      <director>María Eugenia Rencoret</director>
+      <director>Germán Barriga</director>
+      <director>Rodrigo Velásquez</director>
+      <actor>Álvaro Rudolphy</actor>
+      <actor>Francisco Melo</actor>
+      <actor>Francisco Pérez-Bannen</actor>
+      <actor>Sigrid Alegría</actor>
+      <actor>Luz Valdivieso</actor>
+      <actor>Alejandra Fosalba</actor>
+      <actor>Francisca Imboden</actor>
+      <actor>Claudio Arredondo</actor>
+      <actor>Paola Volpato</actor>
+    </credits>
+    <date>2007</date>
+    <category>Otros</category>
+    <country>Chile</country>
+    <rating><value>R</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/alguientemira.jpg" />
+  </programme>
+  <programme start="20261120140000 -0300" stop="20261120150000 -0300" channel="0117">
+    <title>Aquelarre</title>
+    <desc>Una historia de misterios y amores apasionados que se desarrollan en un mágico ambiente en la zona central de Chile.</desc>
+    <credits>
+      <director>María Eugenia Rencoret</director>
+      <director>Víctor Huerta</director>
+      <actor>Sigrid Alegría</actor>
+      <actor>Álvaro Rudolphy</actor>
+      <actor>Bastián Bodenhöfer</actor>
+      <actor>Coca Guazzini</actor>
+      <actor>Catalina Guerra</actor>
+      <actor>Álvaro Escobar</actor>
+      <actor>Claudia Burr</actor>
+      <actor>Maricarmen Arrigorriaga</actor>
+      <actor>Edgardo Bruna</actor>
+      <actor>Mauricio Pesutic</actor>
+      <actor>Francisco Pérez-Bannen</actor>
+      <actor>Ximena Rivas</actor>
+      <actor>Alejandra Fosalba</actor>
+      <actor>Patricia Rivadeneira</actor>
+      <actor>Yuyuniz Navas</actor>
+      <actor>Paola Volpato</actor>
+      <actor>Yael Unger</actor>
+      <actor>Jaime Vadell</actor>
+      <actor>Anita Reeves</actor>
+    </credits>
+    <date>1999</date>
+    <category>Soap</category>
+    <country>Chile</country>
+    <rating><value>R</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/aquelarre.jpg" />
+  </programme>
+  <programme start="20261120150000 -0300" stop="20261120160000 -0300" channel="0117">
+    <title>Patiperros</title>
+    <desc>Programa que muestra las historias y experiencias de los chilenos que decidieron emigrar y vivir en distintos países alrededor de los cinco continentes.</desc>
+    <credits>
+      <actor>Cristián Leighton</actor>
+      <presenter>Cristián Leighton</presenter>
+    </credits>
+    <date>1998</date>
+    <category>Entretención</category>
+    <country>Chile</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/patiperros.jpg" />
+  </programme>
+  <programme start="20261120160000 -0300" stop="20261120170000 -0300" channel="0117">
+    <title>Legado: Tierra Adentro</title>
+    <desc>El legado de Tierradentro se compone principalmente de sus hipogeos subterráneos, sus urnas funerarias y su arte rupestre.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/legadotierraadentro.jpg" />
+  </programme>
+  <programme start="20261120170000 -0300" stop="20261120181500 -0300" channel="0117">
+    <title>Pasiones</title>
+    <desc>Un programa sobre el amor, sus caídas y triunfos. Junto a nuestros animadores tendremos entrevistas, expertos y mucha pasión.</desc>
+    <credits>
+      <actor>Felipe Camiroaga</actor>
+      <actor>Bárbara Rebolledo</actor>
+      <presenter>Felipe Camiroaga</presenter>
+      <presenter>Bárbara Rebolledo</presenter>
+      <presenter>Krishna de Caso</presenter>
+      <presenter>Martín Cárcamo</presenter>
+      <presenter>Marcelo Arismendi</presenter>
+    </credits>
+    <date>2004</date>
+    <category>Entretención</category>
+    <country>Chile</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/pasiones.jpg" />
+  </programme>
+  <programme start="20261120181500 -0300" stop="20261120200000 -0300" channel="0117">
+    <title>Calle 7</title>
+    <desc>Programa de juegos en el que dos equipos se enfrentarán en una serie de divertidos y complejos desafíos.</desc>
+    <credits>
+      <actor>Gianella Marengo</actor>
+      <actor>Laura Prieto</actor>
+      <actor>Francisco Puelles</actor>
+      <actor>Camila Nash</actor>
+      <actor>Valentina Roth</actor>
+      <actor>Nelson Mauricio Pacheco</actor>
+      <actor>Felipe Camus</actor>
+      <presenter>Martín Cárcamo</presenter>
+      <presenter>Karen Doggenweiler</presenter>
+      <presenter>Jean Philippe Cretton</presenter>
+    </credits>
+    <date>2009</date>
+    <category>Entretención</category>
+    <country>Chile</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/calle7.jpg" />
+  </programme>
+  <programme start="20261120200000 -0300" stop="20261120210000 -0300" channel="0117">
+    <title>Aquelarre</title>
+    <desc>Una historia de misterios y amores apasionados que se desarrollan en un mágico ambiente en la zona central de Chile.</desc>
+    <credits>
+      <director>María Eugenia Rencoret</director>
+      <director>Víctor Huerta</director>
+      <actor>Sigrid Alegría</actor>
+      <actor>Álvaro Rudolphy</actor>
+      <actor>Bastián Bodenhöfer</actor>
+      <actor>Coca Guazzini</actor>
+      <actor>Catalina Guerra</actor>
+      <actor>Álvaro Escobar</actor>
+      <actor>Claudia Burr</actor>
+      <actor>Maricarmen Arrigorriaga</actor>
+      <actor>Edgardo Bruna</actor>
+      <actor>Mauricio Pesutic</actor>
+      <actor>Francisco Pérez-Bannen</actor>
+      <actor>Ximena Rivas</actor>
+      <actor>Alejandra Fosalba</actor>
+      <actor>Patricia Rivadeneira</actor>
+      <actor>Yuyuniz Navas</actor>
+      <actor>Paola Volpato</actor>
+      <actor>Yael Unger</actor>
+      <actor>Jaime Vadell</actor>
+      <actor>Anita Reeves</actor>
+    </credits>
+    <date>1999</date>
+    <category>Soap</category>
+    <country>Chile</country>
+    <rating><value>R</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/aquelarre.jpg" />
+  </programme>
+  <programme start="20261120210000 -0300" stop="20261120220000 -0300" channel="0117">
+    <title>Alguien te mira</title>
+    <desc>Rodrigo vuelve a Chile y se reencuentra con sus antiguos colegas luego de salir escapando del país por razones desconocidas. Mientras que en Santiago, la aparición de un asesino en serie pone de cabeza a la policía y al circulo mas acomodado de la capital... ¿Quien está detrás de los crimines?</desc>
+    <credits>
+      <director>María Eugenia Rencoret</director>
+      <director>Germán Barriga</director>
+      <director>Rodrigo Velásquez</director>
+      <actor>Álvaro Rudolphy</actor>
+      <actor>Francisco Melo</actor>
+      <actor>Francisco Pérez-Bannen</actor>
+      <actor>Sigrid Alegría</actor>
+      <actor>Luz Valdivieso</actor>
+      <actor>Alejandra Fosalba</actor>
+      <actor>Francisca Imboden</actor>
+      <actor>Claudio Arredondo</actor>
+      <actor>Paola Volpato</actor>
+    </credits>
+    <date>2007</date>
+    <category>Otros</category>
+    <country>Chile</country>
+    <rating><value>R</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/alguientemira.jpg" />
+  </programme>
+  <programme start="20261120220000 -0300" stop="20261121000000 -0300" channel="0117">
+    <title>Mea Culpa</title>
+    <desc>Mea Culpa es un programa de televisión dirigido por el periodista y realizador chileno, Carlos Pinto, el cual recrea casos policiales de alto impacto que han conmocionado al país.</desc>
+    <credits>
+      <director>Carlos Pinto</director>
+      <actor>Carlos Pinto</actor>
+    </credits>
+    <date>1993</date>
+    <category>Series</category>
+    <country>Chile</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/meaculpa.jpg" />
+  </programme>
+  <programme start="20261121000000 -0300" stop="20261121010000 -0300" channel="0117">
+    <title>El Día Menos Pensado</title>
+    <desc>Andrea es una joven estudiante cuya familia enfrenta graves problemas económicos.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/eldiamenospensado.jpg" />
+  </programme>
+  <programme start="20261121010000 -0300" stop="20261121020000 -0300" channel="0117">
+    <title>Mea Culpa</title>
+    <desc>Mea Culpa es un programa de televisión dirigido por el periodista y realizador chileno, Carlos Pinto, el cual recrea casos policiales de alto impacto que han conmocionado al país.</desc>
+    <credits>
+      <director>Carlos Pinto</director>
+      <actor>Carlos Pinto</actor>
+    </credits>
+    <date>1993</date>
+    <category>Series</category>
+    <country>Chile</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/meaculpa.jpg" />
+  </programme>
+  <programme start="20261121020000 -0300" stop="20261121080000 -0300" channel="0117">
+    <title>NA</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0117_fallback.jpg" />
   </programme>
-  <programme start="20261116100000 -0300" stop="20261116140000 -0300" channel="0117">
-    <title>TVN 3</title>
+  <programme start="20261121080000 -0300" stop="20261121140000 -0300" channel="0117">
+    <title>NA</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0117_fallback.jpg" />
   </programme>
-  <programme start="20261116140000 -0300" stop="20261116180000 -0300" channel="0117">
-    <title>TVN 3</title>
+  <programme start="20261121140000 -0300" stop="20261121200000 -0300" channel="0117">
+    <title>NA</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0117_fallback.jpg" />
   </programme>
-  <programme start="20261116180000 -0300" stop="20261116210000 -0300" channel="0117">
-    <title>TVN 3</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0117_fallback.jpg" />
-  </programme>
-  <programme start="20261116210000 -0300" stop="20261117020000 -0300" channel="0117">
-    <title>TVN 3</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0117_fallback.jpg" />
-  </programme>
-  <programme start="20261117020000 -0300" stop="20261117060000 -0300" channel="0117">
-    <title>TVN 3</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0117_fallback.jpg" />
-  </programme>
-  <programme start="20261117060000 -0300" stop="20261117100000 -0300" channel="0117">
-    <title>TVN 3</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0117_fallback.jpg" />
-  </programme>
-  <programme start="20261117100000 -0300" stop="20261117140000 -0300" channel="0117">
-    <title>TVN 3</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0117_fallback.jpg" />
-  </programme>
-  <programme start="20261117140000 -0300" stop="20261117180000 -0300" channel="0117">
-    <title>TVN 3</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0117_fallback.jpg" />
-  </programme>
-  <programme start="20261117180000 -0300" stop="20261117210000 -0300" channel="0117">
-    <title>TVN 3</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0117_fallback.jpg" />
-  </programme>
-  <programme start="20261117210000 -0300" stop="20261118020000 -0300" channel="0117">
-    <title>TVN 3</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0117_fallback.jpg" />
-  </programme>
-  <programme start="20261118020000 -0300" stop="20261118060000 -0300" channel="0117">
-    <title>TVN 3</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0117_fallback.jpg" />
-  </programme>
-  <programme start="20261118060000 -0300" stop="20261118100000 -0300" channel="0117">
-    <title>TVN 3</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0117_fallback.jpg" />
-  </programme>
-  <programme start="20261118100000 -0300" stop="20261118140000 -0300" channel="0117">
-    <title>TVN 3</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0117_fallback.jpg" />
-  </programme>
-  <programme start="20261118140000 -0300" stop="20261118180000 -0300" channel="0117">
-    <title>TVN 3</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0117_fallback.jpg" />
-  </programme>
-  <programme start="20261118180000 -0300" stop="20261118220000 -0300" channel="0117">
-    <title>TVN 3</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0117_fallback.jpg" />
-  </programme>
-  <programme start="20261118220000 -0300" stop="20261119020000 -0300" channel="0117">
-    <title>TVN 3</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0117_fallback.jpg" />
-  </programme>
-  <programme start="20261119020000 -0300" stop="20261119060000 -0300" channel="0117">
-    <title>TVN 3</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0117_fallback.jpg" />
-  </programme>
-  <programme start="20261119060000 -0300" stop="20261119100000 -0300" channel="0117">
-    <title>TVN 3</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0117_fallback.jpg" />
-  </programme>
-  <programme start="20261119100000 -0300" stop="20261119140000 -0300" channel="0117">
-    <title>TVN 3</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0117_fallback.jpg" />
-  </programme>
-  <programme start="20261119140000 -0300" stop="20261119180000 -0300" channel="0117">
-    <title>TVN 3</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0117_fallback.jpg" />
-  </programme>
-  <programme start="20261119180000 -0300" stop="20261119220000 -0300" channel="0117">
-    <title>TVN 3</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0117_fallback.jpg" />
-  </programme>
-  <programme start="20261119220000 -0300" stop="20261120020000 -0300" channel="0117">
-    <title>TVN 3</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0117_fallback.jpg" />
-  </programme>
-  <programme start="20261120020000 -0300" stop="20261120060000 -0300" channel="0117">
-    <title>TVN 3</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0117_fallback.jpg" />
-  </programme>
-  <programme start="20261120060000 -0300" stop="20261120100000 -0300" channel="0117">
-    <title>TVN 3</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0117_fallback.jpg" />
-  </programme>
-  <programme start="20261120100000 -0300" stop="20261120140000 -0300" channel="0117">
-    <title>TVN 3</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0117_fallback.jpg" />
-  </programme>
-  <programme start="20261120140000 -0300" stop="20261120180000 -0300" channel="0117">
-    <title>TVN 3</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0117_fallback.jpg" />
-  </programme>
-  <programme start="20261120180000 -0300" stop="20261120220000 -0300" channel="0117">
-    <title>TVN 3</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0117_fallback.jpg" />
-  </programme>
-  <programme start="20261120220000 -0300" stop="20261120235959 -0300" channel="0117">
-    <title>TVN 3</title>
+  <programme start="20261121200000 -0300" stop="20261121230000 -0300" channel="0117">
+    <title>NA</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0117_fallback.jpg" />
   </programme>
@@ -61026,6 +62592,10 @@ Escápate los lleva por rutas desconocidas y les muestra la otra cara de los lug
     <title>Doble Vida</title>
     <desc>¡Un recorrido inolvidable! Pipo Gormaz nos invita a viajar por nuestro país para conocer las historias de grandes chilenos y chilenas</desc>
     <credits>
+      <director>Martín Kweller</director>
+      <director>Gustavo Luppi</director>
+      <director>Diego Palacio</director>
+      <director>Claudio Gallardou</director>
       <actor>Jorge Marrale</actor>
       <actor>Felipe Colombo</actor>
       <actor>Esteban Pérez</actor>
@@ -61139,6 +62709,10 @@ Escápate los lleva por rutas desconocidas y les muestra la otra cara de los lug
     <title>Doble Vida</title>
     <desc>¡Un recorrido inolvidable! Pipo Gormaz nos invita a viajar por nuestro país para conocer las historias de grandes chilenos y chilenas</desc>
     <credits>
+      <director>Martín Kweller</director>
+      <director>Gustavo Luppi</director>
+      <director>Diego Palacio</director>
+      <director>Claudio Gallardou</director>
       <actor>Jorge Marrale</actor>
       <actor>Felipe Colombo</actor>
       <actor>Esteban Pérez</actor>
@@ -61451,6 +63025,10 @@ Escápate los lleva por rutas desconocidas y les muestra la otra cara de los lug
     <title>Doble Vida</title>
     <desc>¡Un recorrido inolvidable! Pipo Gormaz nos invita a viajar por nuestro país para conocer las historias de grandes chilenos y chilenas</desc>
     <credits>
+      <director>Martín Kweller</director>
+      <director>Gustavo Luppi</director>
+      <director>Diego Palacio</director>
+      <director>Claudio Gallardou</director>
       <actor>Jorge Marrale</actor>
       <actor>Felipe Colombo</actor>
       <actor>Esteban Pérez</actor>
@@ -61592,6 +63170,10 @@ Escápate los lleva por rutas desconocidas y les muestra la otra cara de los lug
     <title>Doble Vida</title>
     <desc>¡Un recorrido inolvidable! Pipo Gormaz nos invita a viajar por nuestro país para conocer las historias de grandes chilenos y chilenas</desc>
     <credits>
+      <director>Martín Kweller</director>
+      <director>Gustavo Luppi</director>
+      <director>Diego Palacio</director>
+      <director>Claudio Gallardou</director>
       <actor>Jorge Marrale</actor>
       <actor>Felipe Colombo</actor>
       <actor>Esteban Pérez</actor>
@@ -61663,6 +63245,10 @@ Escápate los lleva por rutas desconocidas y les muestra la otra cara de los lug
     <title>Doble Vida</title>
     <desc>¡Un recorrido inolvidable! Pipo Gormaz nos invita a viajar por nuestro país para conocer las historias de grandes chilenos y chilenas</desc>
     <credits>
+      <director>Martín Kweller</director>
+      <director>Gustavo Luppi</director>
+      <director>Diego Palacio</director>
+      <director>Claudio Gallardou</director>
       <actor>Jorge Marrale</actor>
       <actor>Felipe Colombo</actor>
       <actor>Esteban Pérez</actor>
@@ -61744,6 +63330,10 @@ Escápate los lleva por rutas desconocidas y les muestra la otra cara de los lug
     <title>Doble Vida</title>
     <desc>¡Un recorrido inolvidable! Pipo Gormaz nos invita a viajar por nuestro país para conocer las historias de grandes chilenos y chilenas</desc>
     <credits>
+      <director>Martín Kweller</director>
+      <director>Gustavo Luppi</director>
+      <director>Diego Palacio</director>
+      <director>Claudio Gallardou</director>
       <actor>Jorge Marrale</actor>
       <actor>Felipe Colombo</actor>
       <actor>Esteban Pérez</actor>
@@ -423037,7 +424627,15 @@ Estos tres estudiantes intentan ocultar sus habilidades especiales a los demás,
     <title>Live at iTunes Festival • Willie Nelson</title>
     <sub-title>Willie Nelson</sub-title>
     <desc>Willie Nelson | ITunes Festival, is an annual music festival that takes place over a month in London. Sponsored by Apple Inc., it had its first edition in 2007.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <credits>
+      <actor>Matthew Bellamy</actor>
+      <actor>Chris Wolstenholme</actor>
+      <actor>Dominic Howard</actor>
+    </credits>
+    <date>2012</date>
+    <category>Música</category>
+    <country>Estados Unidos</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/liveatitunesfestival.jpg" />
   </programme>
   <programme start="20261115160600 -0300" stop="20261115173100 -0300" channel="0501">
     <title>Live in London • Robert Plant</title>
@@ -423056,8 +424654,16 @@ Estos tres estudiantes intentan ocultar sus habilidades especiales a los demás,
     <title>Live at iTunes Festival • Kasabian</title>
     <sub-title>Kasabian</sub-title>
     <desc>Kasabian | ITunes Festival, is an annual music festival that takes place over a month in London. Sponsored by Apple Inc., it had its first edition in 2007</desc>
+    <credits>
+      <actor>Matthew Bellamy</actor>
+      <actor>Chris Wolstenholme</actor>
+      <actor>Dominic Howard</actor>
+    </credits>
+    <date>2012</date>
+    <category>Música</category>
+    <country>Estados Unidos</country>
     <episode-num system="onscreen">2025..</episode-num>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/liveatitunesfestival.jpg" />
   </programme>
   <programme start="20261115190000 -0300" stop="20261115201900 -0300" channel="0501">
     <title>Live in Houston • Velvet Revolver</title>
@@ -679590,7 +681196,19 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
   <programme start="20261115072300 -0300" stop="20261115090200 -0300" channel="0807">
     <title>East of Eden</title>
     <desc>Un granjero californiano tiene dos hijos, Cal y Aron, a los que saca adelante como puede. La situación de Cal se complica cuando averigua que, en realidad, su madre no solo no está muerta, sino que además dirige un burdel local.</desc>
+    <credits>
+      <director>Victor Quinaz</director>
+      <actor>Penn Badgley</actor>
+      <actor>Brian Shoaf</actor>
+      <actor>Philip Quinaz</actor>
+      <actor>Alison Fyhrie</actor>
+      <actor>Josh Hetzler</actor>
+      <actor>A. M. Lukas</actor>
+      <actor>Charlie Porter</actor>
+    </credits>
+    <date>2012</date>
     <category>Drama</category>
+    <country>Estados Unidos</country>
     <rating><value>PG</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/eastofeden.jpg" />
   </programme>
@@ -772062,6 +773680,7 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
     </credits>
     <date>1950</date>
     <category>Drama</category>
+    <country>México</country>
     <rating><value>A</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
@@ -773009,6 +774628,7 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
     <date>1950</date>
     <category>Movie</category>
     <category>Drama</category>
+    <country>México</country>
     <rating><value>A</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
@@ -887362,8 +888982,9 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
     </credits>
     <date>2020</date>
     <category>Acción</category>
+    <country>Italia</country>
     <rating><value>C</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/unaobramaestra.jpg" />
   </programme>
   <programme start="20261117013000 -0300" stop="20261117023500 -0300" channel="0851">
     <title>En los pasos de Christian Louboutin</title>
@@ -888343,8 +889964,9 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
     <date>2019</date>
     <category>Movie</category>
     <category>Thriller</category>
+    <country>Italia</country>
     <rating><value>C</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/unaobramaestra.jpg" />
   </programme>
   <programme start="20261117043000 -0300" stop="20261117053500 -0300" channel="1851">
     <title>In the Footsteps of Christian Louboutin</title>
@@ -888615,8 +890237,9 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
     <date>2019</date>
     <category>Movie</category>
     <category>Thriller</category>
+    <country>Italia</country>
     <rating><value>C</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/unaobramaestra.jpg" />
   </programme>
   <programme start="20261117210000 -0300" stop="20261117220000 -0300" channel="1851">
     <title>Madonna &amp; Graham</title>
@@ -961203,7 +962826,20 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
   <programme start="20261118205000 -0300" stop="20261118223900 -0300" channel="0976">
     <title>Jojo Rabbit</title>
     <desc>Jojo Rabbit es un niño viviendo en plena 2ª Guerra Mundial. Su única vía de escape es su amigo imaginario, una versión de Hitler étnicamente incorrecta que incita los ciegos ideales patrióticos del niño. Todo esto cambia cuando descubre que su madre Rosie está escondiendo a una joven judía en su ático.</desc>
+    <credits>
+      <director>Taika Waititi</director>
+      <actor>Roman Griffin Davis</actor>
+      <actor>Thomasin McKenzie</actor>
+      <actor>Scarlett Johansson</actor>
+      <actor>Taika Waititi</actor>
+      <actor>Sam Rockwell</actor>
+      <actor>Rebel Wilson</actor>
+      <actor>Alfie Allen</actor>
+      <actor>Stephen Merchant</actor>
+    </credits>
+    <date>2019</date>
     <category>MOVIES</category>
+    <country>Nueva Zelanda</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/jojorabbit.jpg" />
   </programme>
   <programme start="20261118223900 -0300" stop="20261119014000 -0300" channel="0976">
