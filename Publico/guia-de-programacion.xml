@@ -44045,12 +44045,12 @@ El cambio climático y la pérdida de biodiversidad exigen una nueva forma de ec
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261116210000 -0300" stop="20261116212500 -0300" channel="0139">
+  <programme start="20261116210000 -0300" stop="20261116212700 -0300" channel="0139">
     <title>Noticias Central</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261116212500 -0300" stop="20261116220000 -0300" channel="0139">
+  <programme start="20261116212700 -0300" stop="20261116220100 -0300" channel="0139">
     <title>Portavoz noticias</title>
     <desc>Un noticiero nacional accesible, hecho para todas las regiones.</desc>
     <credits>
@@ -44061,8 +44061,13 @@ El cambio climático y la pérdida de biodiversidad exigen una nueva forma de ec
     <rating><value>14</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/portavoznoticias.jpg" />
   </programme>
-  <programme start="20261116220000 -0300" stop="20261117000000 -0300" channel="0139">
+  <programme start="20261116220100 -0300" stop="20261116233700 -0300" channel="0139">
     <title>Cine Prime</title>
+    <desc>La información de este programa no se encuentra disponible.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261116233700 -0300" stop="20261117000000 -0300" channel="0139">
+    <title>Repe Hablemos</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
@@ -44081,7 +44086,7 @@ El cambio climático y la pérdida de biodiversidad exigen una nueva forma de ec
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/cinetrasnoche.jpg" />
   </programme>
-  <programme start="20261117033800 -0300" stop="20261117065000 -0300" channel="0139">
+  <programme start="20261117033800 -0300" stop="20261117065500 -0300" channel="0139">
     <title>Cierre de transmisiones</title>
     <desc>Fin de emisión diaria del canal.</desc>
     <date>2022</date>
@@ -44089,12 +44094,12 @@ El cambio climático y la pérdida de biodiversidad exigen una nueva forma de ec
     <rating><value>18</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/cierredetransmisiones.jpg" />
   </programme>
-  <programme start="20261117065000 -0300" stop="20261117083000 -0300" channel="0139">
+  <programme start="20261117065500 -0300" stop="20261117083000 -0300" channel="0139">
     <title>Cine</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/cine.jpg" />
   </programme>
-  <programme start="20261117083000 -0300" stop="20261117090000 -0300" channel="0139">
+  <programme start="20261117083000 -0300" stop="20261117090100 -0300" channel="0139">
     <title>Portavoz noticias</title>
     <desc>Un noticiero nacional accesible, hecho para todas las regiones.</desc>
     <credits>
@@ -44105,17 +44110,17 @@ El cambio climático y la pérdida de biodiversidad exigen una nueva forma de ec
     <rating><value>14</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/portavoznoticias.jpg" />
   </programme>
-  <programme start="20261117090000 -0300" stop="20261117092500 -0300" channel="0139">
+  <programme start="20261117090100 -0300" stop="20261117092800 -0300" channel="0139">
     <title>Noticias Primera</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261117092500 -0300" stop="20261117105000 -0300" channel="0139">
+  <programme start="20261117092800 -0300" stop="20261117104300 -0300" channel="0139">
     <title>Cine infantil</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261117105000 -0300" stop="20261117120800 -0300" channel="0139">
+  <programme start="20261117104300 -0300" stop="20261117120800 -0300" channel="0139">
     <title>Documentales DW</title>
     <desc>Ciclo de documentales de la cadena de televisión alemana Deutsche Welle, en los que podrás conocer sobre los más diversos temas, incluyendo históricos y de interés actual.</desc>
     <date>2017</date>
@@ -44123,13 +44128,34 @@ El cambio climático y la pérdida de biodiversidad exigen una nueva forma de ec
     <rating><value>14</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/documentalesdw.jpg" />
   </programme>
-  <programme start="20261117120800 -0300" stop="20261117130000 -0300" channel="0139">
-    <title>Documentales DW</title>
-    <desc>Ciclo de documentales de la cadena de televisión alemana Deutsche Welle, en los que podrás conocer sobre los más diversos temas, incluyendo históricos y de interés actual.</desc>
-    <date>2017</date>
+  <programme start="20261117120800 -0300" stop="20261117123400 -0300" channel="0139">
+    <title>Fuerza latina</title>
+    <desc>Revista para mujeres que aborda temas relevantes para la región, con presentadoras de Colombia, Venezuela y Bolivia.</desc>
+    <credits>
+      <actor>Yoani Sánchez</actor>
+      <actor>Natalia Orozco</actor>
+      <presenter>Helena Carpio</presenter>
+      <presenter>Natalia Orozco</presenter>
+      <presenter>Quya Reyna</presenter>
+    </credits>
+    <date>2024</date>
+    <category>Documental</category>
+    <country>Alemania</country>
+    <rating><value>TVPG</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fuerzalatina.jpg" />
+  </programme>
+  <programme start="20261117123400 -0300" stop="20261117130000 -0300" channel="0139">
+    <title>Enlaces</title>
+    <desc>Un magacín sobre tecnología digital donde se analizan los temas del momento, se habla con expertos y se proporcionan los principales datos y hechos en la materia.</desc>
+    <credits>
+      <actor>Juan Sebastián Gómez</actor>
+      <presenter>Juan Sebastián Gómez</presenter>
+    </credits>
+    <date>2026</date>
     <category>Serie</category>
-    <rating><value>14</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/documentalesdw.jpg" />
+    <country>Alemania</country>
+    <rating><value>PG</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/enlaces.jpg" />
   </programme>
   <programme start="20261117130000 -0300" stop="20261117133000 -0300" channel="0139">
     <title>Portavoz noticias</title>
@@ -44142,12 +44168,12 @@ El cambio climático y la pérdida de biodiversidad exigen una nueva forma de ec
     <rating><value>14</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/portavoznoticias.jpg" />
   </programme>
-  <programme start="20261117133000 -0300" stop="20261117170000 -0300" channel="0139">
+  <programme start="20261117133000 -0300" stop="20261117161700 -0300" channel="0139">
     <title>Cine Familiar</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261117170000 -0300" stop="20261117183400 -0300" channel="0139">
+  <programme start="20261117161700 -0300" stop="20261117171100 -0300" channel="0139">
     <title>Documentales DW</title>
     <desc>Ciclo de documentales de la cadena de televisión alemana Deutsche Welle, en los que podrás conocer sobre los más diversos temas, incluyendo históricos y de interés actual.</desc>
     <date>2017</date>
@@ -44155,15 +44181,16 @@ El cambio climático y la pérdida de biodiversidad exigen una nueva forma de ec
     <rating><value>14</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/documentalesdw.jpg" />
   </programme>
-  <programme start="20261117183400 -0300" stop="20261117190000 -0300" channel="0139">
-    <title>Documentales DW</title>
-    <desc>Ciclo de documentales de la cadena de televisión alemana Deutsche Welle, en los que podrás conocer sobre los más diversos temas, incluyendo históricos y de interés actual.</desc>
-    <date>2017</date>
-    <category>Serie</category>
-    <rating><value>14</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/documentalesdw.jpg" />
+  <programme start="20261117171100 -0300" stop="20261117173800 -0300" channel="0139">
+    <title>RPM</title>
+    <desc>Programa sobre el automóvil y la movilidad.</desc>
+    <date>1999</date>
+    <category>Auto</category>
+    <country>Canadá</country>
+    <rating><value>TVPG</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/rpm.jpg" />
   </programme>
-  <programme start="20261117190000 -0300" stop="20261117210000 -0300" channel="0139">
+  <programme start="20261117173800 -0300" stop="20261117210000 -0300" channel="0139">
     <title>Cine Familiar</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
@@ -44189,22 +44216,22 @@ El cambio climático y la pérdida de biodiversidad exigen una nueva forma de ec
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261118000000 -0300" stop="20261118013000 -0300" channel="0139">
+  <programme start="20261118000000 -0300" stop="20261118004000 -0300" channel="0139">
     <title>Repe Hablemos</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261118013000 -0300" stop="20261118023000 -0300" channel="0139">
+  <programme start="20261118004000 -0300" stop="20261118010600 -0300" channel="0139">
     <title>Noticias Cierre</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261118023000 -0300" stop="20261118040000 -0300" channel="0139">
+  <programme start="20261118010600 -0300" stop="20261118023900 -0300" channel="0139">
     <title>Cine Trasnoche</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/cinetrasnoche.jpg" />
   </programme>
-  <programme start="20261118040000 -0300" stop="20261118065000 -0300" channel="0139">
+  <programme start="20261118023900 -0300" stop="20261118065000 -0300" channel="0139">
     <title>Cierre de transmisiones</title>
     <desc>Fin de emisión diaria del canal.</desc>
     <date>2022</date>
@@ -44912,12 +44939,12 @@ El cambio climático y la pérdida de biodiversidad exigen una nueva forma de ec
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261123210000 -0300" stop="20261123212500 -0300" channel="0139">
+  <programme start="20261123210000 -0300" stop="20261123212700 -0300" channel="0139">
     <title>Noticias Central</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261123212500 -0300" stop="20261123220000 -0300" channel="0139">
+  <programme start="20261123212700 -0300" stop="20261123220100 -0300" channel="0139">
     <title>Portavoz noticias</title>
     <desc>Un noticiero nacional accesible, hecho para todas las regiones.</desc>
     <credits>
@@ -44928,8 +44955,13 @@ El cambio climático y la pérdida de biodiversidad exigen una nueva forma de ec
     <rating><value>14</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/portavoznoticias.jpg" />
   </programme>
-  <programme start="20261123220000 -0300" stop="20261123230000 -0300" channel="0139">
+  <programme start="20261123220100 -0300" stop="20261123233700 -0300" channel="0139">
     <title>Cine Prime</title>
+    <desc>La información de este programa no se encuentra disponible.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261123233700 -0300" stop="20261124003700 -0300" channel="0139">
+    <title>Repe Hablemos</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
@@ -407948,104 +407980,13 @@ Toei Animation la describe como &quot;Una Historia Original de Anime&quot;, y es
     <rating><value>NR</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/dsportsnoticiasnite.jpg" />
   </programme>
-  <programme start="20261117000000 -0300" stop="20261117010000 -0300" channel="2431">
-    <title>Más que fútbol</title>
-    <desc>El debate, análisis y la mejor información deportiva.</desc>
+  <programme start="20261117000000 -0300" stop="20261117080000 -0300" channel="2431">
+    <title>Por confirmar</title>
+    <desc>Programación pendiente de confirmación.</desc>
     <date>2025</date>
-    <category>Fútbol</category>
-    <category>Deportes</category>
-    <country>Venezuela</country>
-    <rating><value>NR</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/masquefutbol.jpg" />
-  </programme>
-  <programme start="20261117010000 -0300" stop="20261117020000 -0300" channel="2431">
-    <title>De fútbol se habla así</title>
-    <desc>Un grupo de experimentados periodistas repasan el presente del fútbol argentino y de su selección a través de las primicias que marcan la agenda del día. Notas exclusivas, móviles en vivo, informes especiales y las secciones más divertidas.</desc>
-    <credits>
-      <actor>Toti Pasman</actor>
-    </credits>
-    <date>2025</date>
-    <category>Fútbol</category>
-    <country>Argentina</country>
-    <rating><value>NR</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
-  </programme>
-  <programme start="20261117020000 -0300" stop="20261117030000 -0300" channel="2431">
-    <title>DSports Noticias Nite</title>
-    <desc>Un resumen de la información deportiva del día.</desc>
-    <credits>
-      <actor>Julián Fernández</actor>
-      <actor>Martín Reich</actor>
-    </credits>
-    <date>2026</date>
-    <category>Deportivo</category>
-    <country>Argentina</country>
-    <rating><value>NR</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/dsportsnoticiasnite.jpg" />
-  </programme>
-  <programme start="20261117030000 -0300" stop="20261117040000 -0300" channel="2431">
-    <title>DSports Noticias Nite</title>
-    <desc>Un resumen de la información deportiva del día.</desc>
-    <credits>
-      <actor>Julián Fernández</actor>
-      <actor>Martín Reich</actor>
-    </credits>
-    <date>2026</date>
-    <category>Deportivo</category>
-    <country>Argentina</country>
-    <rating><value>NR</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/dsportsnoticiasnite.jpg" />
-  </programme>
-  <programme start="20261117040000 -0300" stop="20261117050000 -0300" channel="2431">
-    <title>DSports Noticias Nite</title>
-    <desc>Un resumen de la información deportiva del día.</desc>
-    <credits>
-      <actor>Julián Fernández</actor>
-      <actor>Martín Reich</actor>
-    </credits>
-    <date>2026</date>
-    <category>Deportivo</category>
-    <country>Argentina</country>
-    <rating><value>NR</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/dsportsnoticiasnite.jpg" />
-  </programme>
-  <programme start="20261117050000 -0300" stop="20261117060000 -0300" channel="2431">
-    <title>DSports Noticias Nite</title>
-    <desc>Un resumen de la información deportiva del día.</desc>
-    <credits>
-      <actor>Julián Fernández</actor>
-      <actor>Martín Reich</actor>
-    </credits>
-    <date>2026</date>
-    <category>Deportivo</category>
-    <country>Argentina</country>
-    <rating><value>NR</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/dsportsnoticiasnite.jpg" />
-  </programme>
-  <programme start="20261117060000 -0300" stop="20261117070000 -0300" channel="2431">
-    <title>De fútbol se habla así</title>
-    <desc>Un grupo de experimentados periodistas repasan el presente del fútbol argentino y de su selección a través de las primicias que marcan la agenda del día. Notas exclusivas, móviles en vivo, informes especiales y las secciones más divertidas.</desc>
-    <credits>
-      <actor>Toti Pasman</actor>
-    </credits>
-    <date>2025</date>
-    <category>Fútbol</category>
-    <country>Argentina</country>
-    <rating><value>NR</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
-  </programme>
-  <programme start="20261117070000 -0300" stop="20261117080000 -0300" channel="2431">
-    <title>DSports Noticias Nite</title>
-    <desc>Un resumen de la información deportiva del día.</desc>
-    <credits>
-      <actor>Julián Fernández</actor>
-      <actor>Martín Reich</actor>
-    </credits>
-    <date>2026</date>
-    <category>Deportivo</category>
-    <country>Argentina</country>
-    <rating><value>NR</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/dsportsnoticiasnite.jpg" />
+    <category>Variedades</category>
+    <rating><value>18</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/porconfirmar.jpg" />
   </programme>
   <programme start="20261117080000 -0300" stop="20261117100000 -0300" channel="2431">
     <title>Partido amistoso: Argentina vs Uruguay</title>
@@ -408054,29 +407995,88 @@ Toei Animation la describe como &quot;Una Historia Original de Anime&quot;, y es
     <rating><value>NR</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261117100000 -0300" stop="20261117110000 -0300" channel="2431">
+  <programme start="20261117100000 -0300" stop="20261117103000 -0300" channel="2431">
+    <title>Racing Campeón Sudamericana 2024</title>
+    <desc>Programa documental que repasa las grandes hazañas del deporte.</desc>
+    <date>2026</date>
+    <rating><value>NR</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261117103000 -0300" stop="20261117110000 -0300" channel="2431">
+    <title>Amistoso Internacional - Colombia vs Chile</title>
+    <desc>Resumen en 30 minutos de los mejores partidos emitidos en DSPORTS.</desc>
+    <date>2026</date>
+    <rating><value>NR</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261117110000 -0300" stop="20261117130000 -0300" channel="2431">
+    <title>[En vivo] DSports Noticias Lite</title>
+    <desc>En Vivo ║ Columnistas especiales, entrevistas, el minuto a minuto de todos los deportes y, sobre todo, mucha información de la mano de Sol Rivas y Manu Olivari.</desc>
+    <credits>
+      <actor>Manuel Olivari</actor>
+      <actor>Sol Rivas</actor>
+    </credits>
+    <date>2024</date>
+    <category>Deportivo</category>
+    <rating><value>NR</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261117130000 -0300" stop="20261117140000 -0300" channel="2431">
+    <title>De fútbol se habla así</title>
+    <desc>Un grupo de experimentados periodistas repasan el presente del fútbol argentino y de su selección a través de las primicias que marcan la agenda del día. Notas exclusivas, móviles en vivo, informes especiales y las secciones más divertidas.</desc>
+    <credits>
+      <actor>Toti Pasman</actor>
+    </credits>
+    <date>2025</date>
+    <category>Fútbol</category>
+    <country>Argentina</country>
+    <rating><value>NR</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261117140000 -0300" stop="20261117143000 -0300" channel="2431">
+    <title>Los Goles De Cristiano Ronaldo Al Atl. De Madrid</title>
+    <desc>Programa documental que repasa las grandes hazañas del deporte.</desc>
+    <date>2026</date>
+    <rating><value>NR</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261117143000 -0300" stop="20261117160000 -0300" channel="2431">
+    <title>[En vivo] DSports noticias</title>
+    <desc>En Vivo ║ Todas las novedades y la información de la actualidad deportiva.</desc>
+    <credits>
+      <actor>Nani Senra</actor>
+      <actor>Nicolas Fazio</actor>
+    </credits>
+    <date>2025</date>
+    <category>Serie</category>
+    <country>Argentina</country>
+    <rating><value>NR</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/dsportsnoticias.jpg" />
+  </programme>
+  <programme start="20261117160000 -0300" stop="20261117180000 -0300" channel="2431">
+    <title>[En vivo] Puede pasar</title>
+    <desc>En Vivo ║ Un espacio de debate futbolero con información de todos los equipos de la liga argentina, secciones destacadas con la mejor tecnología y las principales novedades de las ligas europeas.</desc>
+    <credits>
+      <actor>Gustavo Kuffner</actor>
+      <actor>Manuel Olivari</actor>
+      <actor>Nicolas Haase</actor>
+      <actor>Ariel Helueni</actor>
+      <actor>Rodrigo Castro</actor>
+      <actor>Leandro Buonsante</actor>
+    </credits>
+    <date>2024</date>
+    <category>Fútbol</category>
+    <country>Argentina</country>
+    <rating><value>NR</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/puedepasar.jpg" />
+  </programme>
+  <programme start="20261117180000 -0300" stop="20261117190000 -0300" channel="2431">
     <title>Por confirmar</title>
     <desc>Programación pendiente de confirmación.</desc>
     <date>2025</date>
     <category>Variedades</category>
     <rating><value>18</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/porconfirmar.jpg" />
-  </programme>
-  <programme start="20261117110000 -0300" stop="20261117150000 -0300" channel="2431">
-    <title>DSports</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
-    <category>Deportes</category>
-    <category>Entretenimiento</category>
-    <rating><value>PG-13</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
-  </programme>
-  <programme start="20261117150000 -0300" stop="20261117190000 -0300" channel="2431">
-    <title>DSports</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
-    <category>Deportes</category>
-    <category>Entretenimiento</category>
-    <rating><value>PG-13</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261117190000 -0300" stop="20261117230000 -0300" channel="2431">
     <title>DSports</title>
@@ -411156,50 +411156,15 @@ Toei Animation la describe como &quot;Una Historia Original de Anime&quot;, y es
     <rating><value>NR</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261117000000 -0300" stop="20261117020000 -0300" channel="2432">
-    <title>Torneo Regional Del Noa: Huirapuca vs Tucumán Rugby</title>
-    <desc>Cobertura del Torneo Regional del Noroeste de Rugby.</desc>
-    <date>2026</date>
-    <rating><value>NR</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
-  </programme>
-  <programme start="20261117020000 -0300" stop="20261117033000 -0300" channel="2432">
-    <title>Fútbol Total</title>
-    <desc>Otra forma de sentir el Mundial: Debate, actualidad, análisis e historias que van más allá de la cancha con la conducción de Juanjo Buscalia.</desc>
-    <credits>
-      <actor>Pablo Giralt</actor>
-      <actor>Samuel Vargas</actor>
-      <actor>Claudio Husaín</actor>
-      <actor>Gustavo Cherquis</actor>
-    </credits>
+  <programme start="20261117000000 -0300" stop="20261117080000 -0300" channel="2432">
+    <title>Por confirmar</title>
+    <desc>Programación pendiente de confirmación.</desc>
     <date>2025</date>
-    <category>Fútbol</category>
-    <country>Argentina</country>
-    <rating><value>NR</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futboltotal.jpg" />
+    <category>Variedades</category>
+    <rating><value>18</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/porconfirmar.jpg" />
   </programme>
-  <programme start="20261117033000 -0300" stop="20261117040000 -0300" channel="2432">
-    <title>Amistoso Internacional - Argentina vs Uruguay</title>
-    <desc>Resumen en 30 minutos de los mejores partidos emitidos en DSPORTS.</desc>
-    <date>2026</date>
-    <rating><value>NR</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
-  </programme>
-  <programme start="20261117040000 -0300" stop="20261117060000 -0300" channel="2432">
-    <title>LaLiga: Villarreal vs Getafe</title>
-    <desc>Villarreal se enfrenta a Getafe en LaLiga EA Sports. Villarreal juega de local en el Estadio de la Ceramica. Ronda 12.</desc>
-    <date>2026</date>
-    <rating><value>ALL</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
-  </programme>
-  <programme start="20261117060000 -0300" stop="20261117080000 -0300" channel="2432">
-    <title>LaLiga: Valencia vs Real Madrid</title>
-    <desc>Valencia se enfrenta a Real Madrid en LaLiga EA Sports. Valencia juega de local en el Estadio Mestalla. Ronda 12.</desc>
-    <date>2026</date>
-    <rating><value>ALL</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
-  </programme>
-  <programme start="20261117080000 -0300" stop="20261117100000 -0300" channel="2432">
+  <programme start="20261117080000 -0300" stop="20261117090000 -0300" channel="2432">
     <title>DSports Total</title>
     <desc>Programa deportivo conducido por Pablo Giralt.</desc>
     <credits>
@@ -411211,7 +411176,69 @@ Toei Animation la describe como &quot;Una Historia Original de Anime&quot;, y es
     <rating><value>NR</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/dsportstotal.jpg" />
   </programme>
-  <programme start="20261117100000 -0300" stop="20261117110000 -0300" channel="2432">
+  <programme start="20261117090000 -0300" stop="20261117093000 -0300" channel="2432">
+    <title>Boca Juniors Campeón Copa Sudamericana 2004</title>
+    <desc>Programa documental que repasa las grandes hazañas del deporte.</desc>
+    <date>2026</date>
+    <rating><value>NR</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261117093000 -0300" stop="20261117100000 -0300" channel="2432">
+    <title>Diego Maradona</title>
+    <desc>Construido a partir de más de 500 horas de imágenes nunca antes vistas, este documental se centra en la carrera del célebre jugador de fútbol Diego Maradona que jugó para el SSC Napoli en la década de 1980.</desc>
+    <credits>
+      <director>Asif Kapadia</director>
+      <actor>Diego Armando Maradona</actor>
+      <actor>Pelé</actor>
+      <actor>Dalma Maradona</actor>
+      <actor>Gianni Minà</actor>
+      <actor>Víctor Hugo Morales</actor>
+      <actor>Antônio Pinto</actor>
+      <actor>Chris King</actor>
+    </credits>
+    <date>2026</date>
+    <category>Biográfica</category>
+    <category>Documental</category>
+    <country>Reino Unido</country>
+    <rating><value>NR</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/diegomaradona.jpg" />
+  </programme>
+  <programme start="20261117100000 -0300" stop="20261117120000 -0300" channel="2432">
+    <title>Serie C 26/27: Ravenna vs Forli</title>
+    <desc>Toda la emoción de la tercera máxima categoría del fútbol italiano. La Serie C está repleta de partidos decisivos, rivalidades y clubes en busca del ascenso.</desc>
+    <date>2026</date>
+    <rating><value>NR</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261117120000 -0300" stop="20261117123000 -0300" channel="2432">
+    <title>Amistoso Internacional - Colombia vs Chile</title>
+    <desc>Resumen en 30 minutos de los mejores partidos emitidos en DSPORTS.</desc>
+    <date>2026</date>
+    <rating><value>NR</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261117123000 -0300" stop="20261117130000 -0300" channel="2432">
+    <title>Luis Suárez</title>
+    <desc>Juan Pablo Varsky recorre los perfiles e historias de las grandes figuras del deporte mundial, mediante una narración innovadora.</desc>
+    <date>2026</date>
+    <rating><value>NR</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261117130000 -0300" stop="20261117150000 -0300" channel="2432">
+    <title>Partido amistoso: Argentina vs Uruguay</title>
+    <desc>Argentina se enfrenta a Uruguay en partido amistoso.</desc>
+    <date>2026</date>
+    <rating><value>NR</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261117150000 -0300" stop="20261117170000 -0300" channel="2432">
+    <title>[En vivo] Euroleague 26/27: Zalgiris Kaunas vs Bayern Munich</title>
+    <desc>En Vivo ║ Zalgiris Kaunas se enfrenta a FC Bayern Munchen en Euroleague. Ronda 12.</desc>
+    <date>2026</date>
+    <rating><value>NR</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261117170000 -0300" stop="20261117180000 -0300" channel="2432">
     <title>Por confirmar</title>
     <desc>Programación pendiente de confirmación.</desc>
     <date>2025</date>
@@ -411219,172 +411246,162 @@ Toei Animation la describe como &quot;Una Historia Original de Anime&quot;, y es
     <rating><value>18</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/porconfirmar.jpg" />
   </programme>
-  <programme start="20261117110000 -0300" stop="20261117150000 -0300" channel="2432">
+  <programme start="20261117180000 -0300" stop="20261117220000 -0300" channel="2432">
     <title>DSports 2</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261117150000 -0300" stop="20261117190000 -0300" channel="2432">
+  <programme start="20261117220000 -0300" stop="20261118020000 -0300" channel="2432">
     <title>DSports 2</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261117190000 -0300" stop="20261117230000 -0300" channel="2432">
+  <programme start="20261118020000 -0300" stop="20261118060000 -0300" channel="2432">
     <title>DSports 2</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261117230000 -0300" stop="20261118030000 -0300" channel="2432">
+  <programme start="20261118060000 -0300" stop="20261118100000 -0300" channel="2432">
     <title>DSports 2</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261118030000 -0300" stop="20261118070000 -0300" channel="2432">
+  <programme start="20261118100000 -0300" stop="20261118140000 -0300" channel="2432">
     <title>DSports 2</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261118070000 -0300" stop="20261118110000 -0300" channel="2432">
+  <programme start="20261118140000 -0300" stop="20261118180000 -0300" channel="2432">
     <title>DSports 2</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261118110000 -0300" stop="20261118150000 -0300" channel="2432">
+  <programme start="20261118180000 -0300" stop="20261118220000 -0300" channel="2432">
     <title>DSports 2</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261118150000 -0300" stop="20261118190000 -0300" channel="2432">
+  <programme start="20261118220000 -0300" stop="20261119020000 -0300" channel="2432">
     <title>DSports 2</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261118190000 -0300" stop="20261118230000 -0300" channel="2432">
+  <programme start="20261119020000 -0300" stop="20261119060000 -0300" channel="2432">
     <title>DSports 2</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261118230000 -0300" stop="20261119030000 -0300" channel="2432">
+  <programme start="20261119060000 -0300" stop="20261119100000 -0300" channel="2432">
     <title>DSports 2</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261119030000 -0300" stop="20261119070000 -0300" channel="2432">
+  <programme start="20261119100000 -0300" stop="20261119140000 -0300" channel="2432">
     <title>DSports 2</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261119070000 -0300" stop="20261119110000 -0300" channel="2432">
+  <programme start="20261119140000 -0300" stop="20261119180000 -0300" channel="2432">
     <title>DSports 2</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261119110000 -0300" stop="20261119150000 -0300" channel="2432">
+  <programme start="20261119180000 -0300" stop="20261119220000 -0300" channel="2432">
     <title>DSports 2</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261119150000 -0300" stop="20261119190000 -0300" channel="2432">
+  <programme start="20261119220000 -0300" stop="20261120020000 -0300" channel="2432">
     <title>DSports 2</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261119190000 -0300" stop="20261119230000 -0300" channel="2432">
+  <programme start="20261120020000 -0300" stop="20261120060000 -0300" channel="2432">
     <title>DSports 2</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261119230000 -0300" stop="20261120030000 -0300" channel="2432">
+  <programme start="20261120060000 -0300" stop="20261120100000 -0300" channel="2432">
     <title>DSports 2</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261120030000 -0300" stop="20261120070000 -0300" channel="2432">
+  <programme start="20261120100000 -0300" stop="20261120140000 -0300" channel="2432">
     <title>DSports 2</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261120070000 -0300" stop="20261120110000 -0300" channel="2432">
+  <programme start="20261120140000 -0300" stop="20261120180000 -0300" channel="2432">
     <title>DSports 2</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261120110000 -0300" stop="20261120150000 -0300" channel="2432">
+  <programme start="20261120180000 -0300" stop="20261120220000 -0300" channel="2432">
     <title>DSports 2</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261120150000 -0300" stop="20261120190000 -0300" channel="2432">
+  <programme start="20261120220000 -0300" stop="20261121020000 -0300" channel="2432">
     <title>DSports 2</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261120190000 -0300" stop="20261120230000 -0300" channel="2432">
+  <programme start="20261121020000 -0300" stop="20261121060000 -0300" channel="2432">
     <title>DSports 2</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261120230000 -0300" stop="20261121030000 -0300" channel="2432">
+  <programme start="20261121060000 -0300" stop="20261121100000 -0300" channel="2432">
     <title>DSports 2</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261121030000 -0300" stop="20261121070000 -0300" channel="2432">
+  <programme start="20261121100000 -0300" stop="20261121140000 -0300" channel="2432">
     <title>DSports 2</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261121070000 -0300" stop="20261121110000 -0300" channel="2432">
+  <programme start="20261121140000 -0300" stop="20261121180000 -0300" channel="2432">
     <title>DSports 2</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261121110000 -0300" stop="20261121150000 -0300" channel="2432">
+  <programme start="20261121180000 -0300" stop="20261121220000 -0300" channel="2432">
     <title>DSports 2</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261121150000 -0300" stop="20261121190000 -0300" channel="2432">
+  <programme start="20261121220000 -0300" stop="20261122020000 -0300" channel="2432">
     <title>DSports 2</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261121190000 -0300" stop="20261121230000 -0300" channel="2432">
+  <programme start="20261122020000 -0300" stop="20261122060000 -0300" channel="2432">
     <title>DSports 2</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261121230000 -0300" stop="20261122030000 -0300" channel="2432">
+  <programme start="20261122060000 -0300" stop="20261122100000 -0300" channel="2432">
     <title>DSports 2</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261122030000 -0300" stop="20261122070000 -0300" channel="2432">
+  <programme start="20261122100000 -0300" stop="20261122140000 -0300" channel="2432">
     <title>DSports 2</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261122070000 -0300" stop="20261122110000 -0300" channel="2432">
+  <programme start="20261122140000 -0300" stop="20261122180000 -0300" channel="2432">
     <title>DSports 2</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261122110000 -0300" stop="20261122150000 -0300" channel="2432">
+  <programme start="20261122180000 -0300" stop="20261122220000 -0300" channel="2432">
     <title>DSports 2</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261122150000 -0300" stop="20261122190000 -0300" channel="2432">
-    <title>DSports 2</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
-  </programme>
-  <programme start="20261122190000 -0300" stop="20261122230000 -0300" channel="2432">
-    <title>DSports 2</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
-  </programme>
-  <programme start="20261122230000 -0300" stop="20261122235959 -0300" channel="2432">
+  <programme start="20261122220000 -0300" stop="20261122235959 -0300" channel="2432">
     <title>DSports 2</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
@@ -412289,7 +412306,7 @@ Toei Animation la describe como &quot;Una Historia Original de Anime&quot;, y es
     <rating><value>ALL</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261117000000 -0300" stop="20261117003000 -0300" channel="1433">
+  <programme start="20261117000000 -0300" stop="20261117080000 -0300" channel="1433">
     <title>Por confirmar</title>
     <desc>Programación pendiente de confirmación.</desc>
     <date>2025</date>
@@ -412297,28 +412314,21 @@ Toei Animation la describe como &quot;Una Historia Original de Anime&quot;, y es
     <rating><value>18</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/porconfirmar.jpg" />
   </programme>
-  <programme start="20261117003000 -0300" stop="20261117010000 -0300" channel="1433">
-    <title>Ciclismo: Soldier Hollow</title>
-    <desc>Transmisión de las emocionantes pruebas de ciclismo alrededor del mundo.</desc>
-    <date>2026</date>
-    <rating><value>ALL</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
-  </programme>
-  <programme start="20261117010000 -0300" stop="20261117013000 -0300" channel="1433">
+  <programme start="20261117080000 -0300" stop="20261117083000 -0300" channel="1433">
     <title>FISE World Series: Bmx Freestyle Wc - Shanghai</title>
     <desc>Una mirada al festival de deportes extremos más importante del mundo.</desc>
     <date>2026</date>
     <rating><value>NR</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261117013000 -0300" stop="20261117033000 -0300" channel="1433">
-    <title>ONE Friday Fights: One Friday Fight 178</title>
-    <desc>Transmisión de ONE Friday Fights.</desc>
-    <date>2026</date>
+  <programme start="20261117083000 -0300" stop="20261117103000 -0300" channel="1433">
+    <title>Euroleague 26/27: Panathinaikos vs Barcelona</title>
+    <desc>Panathinaikos se enfrenta a Barcelona en Euroleague. Ronda 2 de la fase de grupos.</desc>
+    <date>2025</date>
     <rating><value>NR</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261117033000 -0300" stop="20261117043000 -0300" channel="1433">
+  <programme start="20261117103000 -0300" stop="20261117110000 -0300" channel="1433">
     <title>Por confirmar</title>
     <desc>Programación pendiente de confirmación.</desc>
     <date>2025</date>
@@ -412326,28 +412336,28 @@ Toei Animation la describe como &quot;Una Historia Original de Anime&quot;, y es
     <rating><value>18</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/porconfirmar.jpg" />
   </programme>
-  <programme start="20261117043000 -0300" stop="20261117060000 -0300" channel="1433">
-    <title>Power Slap: Power Slap 26: Riyadh</title>
-    <desc>Transmisión de Power Slap.</desc>
+  <programme start="20261117110000 -0300" stop="20261117130000 -0300" channel="1433">
+    <title>Euroleague 26/27: Real Madrid vs Estrella Roja</title>
+    <desc>Real Madrid se enfrenta a Crvena Zvezda Beograd en Euroleague. Ronda 11.</desc>
     <date>2026</date>
     <rating><value>NR</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261117060000 -0300" stop="20261117080000 -0300" channel="1433">
-    <title>Uci Mtb World Series - Lake Placid: Xcc Women &amp; Men</title>
-    <desc>Acción de la Copa del Mundo de Mountain Bike. Desde Lake Placid, en Nueva York.</desc>
+  <programme start="20261117130000 -0300" stop="20261117133000 -0300" channel="1433">
+    <title>Guillermo Coria</title>
+    <desc>Juan Pablo Varsky recorre los perfiles e historias de las grandes figuras del deporte mundial, mediante una narración innovadora.</desc>
     <date>2026</date>
     <rating><value>NR</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261117080000 -0300" stop="20261117100000 -0300" channel="1433">
-    <title>FISE World Series: Bmx Freestyle Wc - Shanghai</title>
-    <desc>Una mirada al festival de deportes extremos más importante del mundo.</desc>
+  <programme start="20261117133000 -0300" stop="20261117153000 -0300" channel="1433">
+    <title>Italian Men´S Volleyball League 26/27: Trentino vs Perugia</title>
+    <desc>Acción de la Serie A, la máxima categoría profesional masculina del voleibol en Italia.</desc>
     <date>2026</date>
     <rating><value>NR</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261117100000 -0300" stop="20261117110000 -0300" channel="1433">
+  <programme start="20261117153000 -0300" stop="20261117160000 -0300" channel="1433">
     <title>Por confirmar</title>
     <desc>Programación pendiente de confirmación.</desc>
     <date>2025</date>
@@ -412355,15 +412365,20 @@ Toei Animation la describe como &quot;Una Historia Original de Anime&quot;, y es
     <rating><value>18</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/porconfirmar.jpg" />
   </programme>
-  <programme start="20261117110000 -0300" stop="20261117150000 -0300" channel="1433">
-    <title>DSports Plus</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
+  <programme start="20261117160000 -0300" stop="20261117180000 -0300" channel="1433">
+    <title>Manu Ginobili, The Last Dance En La Selección</title>
+    <desc>Programa documental que repasa las grandes hazañas del deporte.</desc>
+    <date>2026</date>
+    <rating><value>NR</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261117150000 -0300" stop="20261117190000 -0300" channel="1433">
-    <title>DSports Plus</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  <programme start="20261117180000 -0300" stop="20261117190000 -0300" channel="1433">
+    <title>Por confirmar</title>
+    <desc>Programación pendiente de confirmación.</desc>
+    <date>2025</date>
+    <category>Variedades</category>
+    <rating><value>18</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/porconfirmar.jpg" />
   </programme>
   <programme start="20261117190000 -0300" stop="20261117230000 -0300" channel="1433">
     <title>DSports Plus</title>
@@ -429011,6 +429026,7 @@ Estos tres estudiantes intentan ocultar sus habilidades especiales a los demás,
     </credits>
     <date>2013</date>
     <category>Musical</category>
+    <country>Argentina</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/roxettelivetravellingtheworld2013.jpg" />
   </programme>
   <programme start="20261119000000 -0300" stop="20261119010000 -0300" channel="0503">
@@ -429087,6 +429103,7 @@ Estos tres estudiantes intentan ocultar sus habilidades especiales a los demás,
     </credits>
     <date>2013</date>
     <category>Musical</category>
+    <country>Argentina</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/roxettelivetravellingtheworld2013.jpg" />
   </programme>
   <programme start="20261119080000 -0300" stop="20261119090000 -0300" channel="0503">
@@ -429163,6 +429180,7 @@ Estos tres estudiantes intentan ocultar sus habilidades especiales a los demás,
     </credits>
     <date>2013</date>
     <category>Musical</category>
+    <country>Argentina</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/roxettelivetravellingtheworld2013.jpg" />
   </programme>
   <programme start="20261119160000 -0300" stop="20261119170000 -0300" channel="0503">
@@ -429584,13 +429602,15 @@ Estos tres estudiantes intentan ocultar sus habilidades especiales a los demás,
   </programme>
   <programme start="20261120210000 -0300" stop="20261120230000 -0300" channel="0503">
     <title>Sting - Bring on the Night</title>
-    <desc>Un registro de la preparación y los ensayos para el primer concierto solista de Sting, así como las opiniones de la banda sobre su líder y sus controvertidos esfuerzos.</desc>
+    <desc>Bring on the Night es una película documental de 1985 que se centra en el proyecto y la banda inspirados en el jazz liderados por el músico británico Sting durante las primeras etapas de su carrera en solitario. Algunas de las canciones, cuyas sesiones de grabación aparecen en la película, aparecieron en su álbum debut en solitario The Dream of the Blue Turtles. Se entrevista a cada músico de la banda a lo largo de la película.</desc>
     <credits>
+      <director>Michael Apted</director>
       <actor>Sting</actor>
     </credits>
     <date>2005</date>
     <category>Musical</category>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <country>Estados Unidos</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/stingbringonthenight.jpg" />
   </programme>
   <programme start="20261120230000 -0300" stop="20261121003000 -0300" channel="0503">
     <title>The Police Synchronicity Concert 1984</title>
@@ -685034,9 +685054,22 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
   <programme start="20261117065000 -0300" stop="20261117085900 -0300" channel="0807">
     <title>Madame Curie</title>
     <desc>Basado en la vida de la estudiante polaca de origen pobre que descubrió el mineral radio e hizo historia.</desc>
+    <credits>
+      <director>Mervyn LeRoy</director>
+      <actor>Greer Garson</actor>
+      <actor>Walter Pidgeon</actor>
+      <actor>Henry Travers</actor>
+      <actor>Albert Bassermann</actor>
+      <actor>Robert Walker</actor>
+      <actor>C. Aubrey Smith</actor>
+      <actor>May Whitty</actor>
+      <actor>Victor Francen</actor>
+    </credits>
+    <date>1943</date>
     <category>Biography</category>
+    <country>Estados Unidos</country>
     <rating><value>12</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/madamecurie.jpg" />
   </programme>
   <programme start="20261117085900 -0300" stop="20261117112100 -0300" channel="0807">
     <title>What Ever Happened to Baby Jane?</title>
@@ -901349,7 +901382,7 @@ Las mejores amigas de Lana convencerán a André de que recurra a ella para prom
     <rating><value>NR</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261117000000 -0300" stop="20261117010000 -0300" channel="0858">
+  <programme start="20261117000000 -0300" stop="20261117080000 -0300" channel="0858">
     <title>Por confirmar</title>
     <desc>Programación pendiente de confirmación.</desc>
     <date>2025</date>
@@ -901357,51 +901390,71 @@ Las mejores amigas de Lana convencerán a André de que recurra a ella para prom
     <rating><value>18</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/porconfirmar.jpg" />
   </programme>
-  <programme start="20261117010000 -0300" stop="20261117030000 -0300" channel="0858">
-    <title>Chicano</title>
-    <desc>Aventura, Drama</desc>
-    <date>1976</date>
-    <rating><value>13+</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
-  </programme>
-  <programme start="20261117030000 -0300" stop="20261117033000 -0300" channel="0858">
-    <title>Por confirmar</title>
-    <desc>Programación pendiente de confirmación.</desc>
-    <date>2025</date>
-    <category>Variedades</category>
-    <rating><value>18</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/porconfirmar.jpg" />
-  </programme>
-  <programme start="20261117033000 -0300" stop="20261117053000 -0300" channel="0858">
-    <title>Los hijos ajenos</title>
-    <desc>Es la historia de una niña huérfana de madre, quien sufre el rechazo de su madastra. La fe de la pequeña le ayuda a conquistar el amor de la segunda esposa de su padre.</desc>
-    <date>1959</date>
-    <rating><value>NR</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
-  </programme>
-  <programme start="20261117053000 -0300" stop="20261117073000 -0300" channel="0858">
-    <title>Chicano</title>
-    <desc>Aventura, Drama</desc>
-    <date>1976</date>
-    <rating><value>13+</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
-  </programme>
-  <programme start="20261117073000 -0300" stop="20261117080000 -0300" channel="0858">
-    <title>Por confirmar</title>
-    <desc>Programación pendiente de confirmación.</desc>
-    <date>2025</date>
-    <category>Variedades</category>
-    <rating><value>18</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/porconfirmar.jpg" />
-  </programme>
-  <programme start="20261117080000 -0300" stop="20261117100000 -0300" channel="0858">
+  <programme start="20261117080000 -0300" stop="20261117083000 -0300" channel="0858">
     <title>El sonógrafo</title>
     <desc>Un homenaje a los clásicos programas de radio que hicieron historia a través de un recorrido musical de las piezas de nuestro cine.</desc>
     <date>2024</date>
     <rating><value>NR</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261117100000 -0300" stop="20261117110000 -0300" channel="0858">
+  <programme start="20261117083000 -0300" stop="20261117090000 -0300" channel="0858">
+    <title>Julio Casado</title>
+    <desc>Entrevista a diversas personas relacinadas con el medio del cine.</desc>
+    <date>2019</date>
+    <rating><value>13+</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261117090000 -0300" stop="20261117093000 -0300" channel="0858">
+    <title>Eugenio Montessoro</title>
+    <desc>Entrevista a diversas personas relacinadas con el medio del cine.</desc>
+    <date>2023</date>
+    <rating><value>NR</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261117093000 -0300" stop="20261117113000 -0300" channel="0858">
+    <title>El Moderno Barba Azul</title>
+    <desc>Las locuras de un soldado americano que naufraga en las costas de México, creyendo que es Japón, y allí acaba preso porque las autoridades creen que es un asesino.</desc>
+    <date>1946</date>
+    <rating><value>NR</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261117113000 -0300" stop="20261117130000 -0300" channel="0858">
+    <title>El fistol del diablo</title>
+    <desc>Un hombre cobarde y fracasado, invoca al diablo y éste le entrega un fistol a cambio de su alma.</desc>
+    <credits>
+      <director>Fernando Fernández</director>
+      <actor>Roberto Cañedo</actor>
+      <actor>DAGOBERTO RODRIGUEZ</actor>
+      <actor>Pascual García Peña</actor>
+      <actor>Norma Angélica</actor>
+      <actor>Arturo Martínez</actor>
+      <actor>Agustín Isunza</actor>
+      <actor>Mireya Sauza</actor>
+      <actor>Carlos León</actor>
+    </credits>
+    <date>1961</date>
+    <category>Misterio</category>
+    <category>Crimen</category>
+    <category>Terror</category>
+    <country>México</country>
+    <rating><value>NR</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261117130000 -0300" stop="20261117150000 -0300" channel="0858">
+    <title>Mar sangriento (La gaviota roja)</title>
+    <desc>Una pareja se une a la fiebre del oro y acaban tropezando con un hombre que pensaban estaba muerto hacia un buen tiempo.</desc>
+    <date>1965</date>
+    <rating><value>13+</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261117150000 -0300" stop="20261117170000 -0300" channel="0858">
+    <title>La duda</title>
+    <desc>Suspenso, Horror, Drama</desc>
+    <date>1954</date>
+    <rating><value>NR</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261117170000 -0300" stop="20261117180000 -0300" channel="0858">
     <title>Por confirmar</title>
     <desc>Programación pendiente de confirmación.</desc>
     <date>2025</date>
@@ -901409,172 +901462,162 @@ Las mejores amigas de Lana convencerán a André de que recurra a ella para prom
     <rating><value>18</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/porconfirmar.jpg" />
   </programme>
-  <programme start="20261117110000 -0300" stop="20261117150000 -0300" channel="0858">
+  <programme start="20261117180000 -0300" stop="20261117220000 -0300" channel="0858">
     <title>Claro Cinema</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261117150000 -0300" stop="20261117190000 -0300" channel="0858">
+  <programme start="20261117220000 -0300" stop="20261118020000 -0300" channel="0858">
     <title>Claro Cinema</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261117190000 -0300" stop="20261117230000 -0300" channel="0858">
+  <programme start="20261118020000 -0300" stop="20261118060000 -0300" channel="0858">
     <title>Claro Cinema</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261117230000 -0300" stop="20261118030000 -0300" channel="0858">
+  <programme start="20261118060000 -0300" stop="20261118100000 -0300" channel="0858">
     <title>Claro Cinema</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261118030000 -0300" stop="20261118070000 -0300" channel="0858">
+  <programme start="20261118100000 -0300" stop="20261118140000 -0300" channel="0858">
     <title>Claro Cinema</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261118070000 -0300" stop="20261118110000 -0300" channel="0858">
+  <programme start="20261118140000 -0300" stop="20261118180000 -0300" channel="0858">
     <title>Claro Cinema</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261118110000 -0300" stop="20261118150000 -0300" channel="0858">
+  <programme start="20261118180000 -0300" stop="20261118220000 -0300" channel="0858">
     <title>Claro Cinema</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261118150000 -0300" stop="20261118190000 -0300" channel="0858">
+  <programme start="20261118220000 -0300" stop="20261119020000 -0300" channel="0858">
     <title>Claro Cinema</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261118190000 -0300" stop="20261118230000 -0300" channel="0858">
+  <programme start="20261119020000 -0300" stop="20261119060000 -0300" channel="0858">
     <title>Claro Cinema</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261118230000 -0300" stop="20261119030000 -0300" channel="0858">
+  <programme start="20261119060000 -0300" stop="20261119100000 -0300" channel="0858">
     <title>Claro Cinema</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261119030000 -0300" stop="20261119070000 -0300" channel="0858">
+  <programme start="20261119100000 -0300" stop="20261119140000 -0300" channel="0858">
     <title>Claro Cinema</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261119070000 -0300" stop="20261119110000 -0300" channel="0858">
+  <programme start="20261119140000 -0300" stop="20261119180000 -0300" channel="0858">
     <title>Claro Cinema</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261119110000 -0300" stop="20261119150000 -0300" channel="0858">
+  <programme start="20261119180000 -0300" stop="20261119220000 -0300" channel="0858">
     <title>Claro Cinema</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261119150000 -0300" stop="20261119190000 -0300" channel="0858">
+  <programme start="20261119220000 -0300" stop="20261120020000 -0300" channel="0858">
     <title>Claro Cinema</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261119190000 -0300" stop="20261119230000 -0300" channel="0858">
+  <programme start="20261120020000 -0300" stop="20261120060000 -0300" channel="0858">
     <title>Claro Cinema</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261119230000 -0300" stop="20261120030000 -0300" channel="0858">
+  <programme start="20261120060000 -0300" stop="20261120100000 -0300" channel="0858">
     <title>Claro Cinema</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261120030000 -0300" stop="20261120070000 -0300" channel="0858">
+  <programme start="20261120100000 -0300" stop="20261120140000 -0300" channel="0858">
     <title>Claro Cinema</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261120070000 -0300" stop="20261120110000 -0300" channel="0858">
+  <programme start="20261120140000 -0300" stop="20261120180000 -0300" channel="0858">
     <title>Claro Cinema</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261120110000 -0300" stop="20261120150000 -0300" channel="0858">
+  <programme start="20261120180000 -0300" stop="20261120220000 -0300" channel="0858">
     <title>Claro Cinema</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261120150000 -0300" stop="20261120190000 -0300" channel="0858">
+  <programme start="20261120220000 -0300" stop="20261121020000 -0300" channel="0858">
     <title>Claro Cinema</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261120190000 -0300" stop="20261120230000 -0300" channel="0858">
+  <programme start="20261121020000 -0300" stop="20261121060000 -0300" channel="0858">
     <title>Claro Cinema</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261120230000 -0300" stop="20261121030000 -0300" channel="0858">
+  <programme start="20261121060000 -0300" stop="20261121100000 -0300" channel="0858">
     <title>Claro Cinema</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261121030000 -0300" stop="20261121070000 -0300" channel="0858">
+  <programme start="20261121100000 -0300" stop="20261121140000 -0300" channel="0858">
     <title>Claro Cinema</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261121070000 -0300" stop="20261121110000 -0300" channel="0858">
+  <programme start="20261121140000 -0300" stop="20261121180000 -0300" channel="0858">
     <title>Claro Cinema</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261121110000 -0300" stop="20261121150000 -0300" channel="0858">
+  <programme start="20261121180000 -0300" stop="20261121220000 -0300" channel="0858">
     <title>Claro Cinema</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261121150000 -0300" stop="20261121190000 -0300" channel="0858">
+  <programme start="20261121220000 -0300" stop="20261122020000 -0300" channel="0858">
     <title>Claro Cinema</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261121190000 -0300" stop="20261121230000 -0300" channel="0858">
+  <programme start="20261122020000 -0300" stop="20261122060000 -0300" channel="0858">
     <title>Claro Cinema</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261121230000 -0300" stop="20261122030000 -0300" channel="0858">
+  <programme start="20261122060000 -0300" stop="20261122100000 -0300" channel="0858">
     <title>Claro Cinema</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261122030000 -0300" stop="20261122070000 -0300" channel="0858">
+  <programme start="20261122100000 -0300" stop="20261122140000 -0300" channel="0858">
     <title>Claro Cinema</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261122070000 -0300" stop="20261122110000 -0300" channel="0858">
+  <programme start="20261122140000 -0300" stop="20261122180000 -0300" channel="0858">
     <title>Claro Cinema</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261122110000 -0300" stop="20261122150000 -0300" channel="0858">
+  <programme start="20261122180000 -0300" stop="20261122220000 -0300" channel="0858">
     <title>Claro Cinema</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261122150000 -0300" stop="20261122190000 -0300" channel="0858">
-    <title>Claro Cinema</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
-  </programme>
-  <programme start="20261122190000 -0300" stop="20261122230000 -0300" channel="0858">
-    <title>Claro Cinema</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
-  </programme>
-  <programme start="20261122230000 -0300" stop="20261122235959 -0300" channel="0858">
+  <programme start="20261122220000 -0300" stop="20261122235959 -0300" channel="0858">
     <title>Claro Cinema</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
@@ -909393,6 +909436,7 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
     <date>1956</date>
     <category>Movie</category>
     <category>Drama</category>
+    <country>México</country>
     <rating><value>A</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
@@ -910274,6 +910318,22 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
   <programme start="20261119211000 -0300" stop="20261119222000 -0300" channel="0867">
     <title>Cuando el diablo sopla</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
+    <credits>
+      <director>Jaime Salvador</director>
+      <actor>Álvaro Zermeño</actor>
+      <actor>Irma Dorantes</actor>
+      <actor>Lucy Gallardo</actor>
+      <actor>Enrique Rambal</actor>
+      <actor>Carlos Riquelme</actor>
+      <actor>Amparo Arozamena</actor>
+      <actor>Antonio Raxel</actor>
+      <actor>Joaquín García Vargas</actor>
+    </credits>
+    <date>1966</date>
+    <category>Música</category>
+    <category>Comedia</category>
+    <category>Drama</category>
+    <country>México</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261119222000 -0300" stop="20261119225000 -0300" channel="0867">
@@ -968421,8 +968481,21 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
   <programme start="20261120072000 -0300" stop="20261120092700 -0300" channel="0977">
     <title>El imperio contraataca</title>
     <desc>Tras un ataque sorpresa de las tropas imperiales a las bases camufladas de la alianza rebelde, Luke Skywalker, en compañía de R2D2, parte hacia el planeta Dagobah en busca de Yoda, el último maestro Jedi, para que le enseñe los secretos de la Fuerza. Mientras, Han Solo, la princesa Leia, Chewbacca, y C3PO esquivan a las fuerzas imperiales y piden refugio al antiguo propietario del Halcón Milenario, Lando Calrissian, en la ciudad minera de Bespin, donde les prepara una trampa urdida por Darth Vader.</desc>
+    <credits>
+      <director>Irvin Kershner</director>
+      <actor>Mark Hamill</actor>
+      <actor>Harrison Ford</actor>
+      <actor>Carrie Fisher</actor>
+      <actor>Billy Dee Williams</actor>
+      <actor>Anthony Daniels</actor>
+      <actor>David Prowse</actor>
+      <actor>Peter Mayhew</actor>
+      <actor>Kenny Baker</actor>
+    </credits>
+    <date>1980</date>
     <category>MOVIES RETRO</category>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <country>Estados Unidos</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/elimperiocontraataca.jpg" />
   </programme>
   <programme start="20261120092700 -0300" stop="20261120110700 -0300" channel="0977">
     <title>Rescate en el barrio Chino</title>
