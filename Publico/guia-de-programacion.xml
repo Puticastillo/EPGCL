@@ -436449,7 +436449,18 @@ Estos tres estudiantes intentan ocultar sus habilidades especiales a los demás,
   <programme start="20261118131300 -0300" stop="20261118152600 -0300" channel="0501">
     <title>The Who - Live At The Isle Of Wight Festival 2004</title>
     <desc>In 2004 The Who returned to the Isle Of Wight Festival for the first time since their legendary performance in 1970. After a long absence, the festival had been reborn in 2002 and continues to this day.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <credits>
+      <director>Murray Lerner</director>
+      <actor>Roger Daltrey</actor>
+      <actor>Pete Townshend</actor>
+      <actor>Keith Moon</actor>
+      <actor>John Entwistle</actor>
+    </credits>
+    <date>2009</date>
+    <category>Música</category>
+    <category>Documental</category>
+    <country>Reino Unido</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/thewholiveattheisleofwightfestival2004.jpg" />
   </programme>
   <programme start="20261118152600 -0300" stop="20261118160500 -0300" channel="0501">
     <title>Live in London • Leon Bridges</title>
@@ -918746,6 +918757,7 @@ No aparece en el programa ningún otro superhéroe de ficción, a excepción  de
     <date>1951</date>
     <category>Movie</category>
     <category>Drama</category>
+    <country>México</country>
     <rating><value>A</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
@@ -918847,6 +918859,7 @@ No aparece en el programa ningún otro superhéroe de ficción, a excepción  de
     <date>1951</date>
     <category>Movie</category>
     <category>Drama</category>
+    <country>México</country>
     <rating><value>A</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
