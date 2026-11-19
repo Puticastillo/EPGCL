@@ -406109,7 +406109,7 @@ Toei Animation la describe como &quot;Una Historia Original de Anime&quot;, y es
   <programme start="20261120223000 -0300" stop="20261121003000 -0300" channel="0429">
     <title>[En vivo] Juego al aire • Deportivo Cali vs Millonarios</title>
     <sub-title>Deportivo Cali vs. Millonarios</sub-title>
-    <desc>En vivo ║ Deportivo Cali vs Millonarios | Acción de la fecha 1, cuadrangular semifinal de la Liga BetPlay 2026-II. Deportivo Cali se enfrenta a Millonarios en el Estadio Deportivo Cali.</desc>
+    <desc>En vivo ║ Deportivo Cali vs Millonarios | Acción de la fecha 1, cuadrangular semifinal de la Categoría Primera A 2026-II. Deportivo Cali se enfrenta a Millonarios en el Estadio Deportivo Cali.</desc>
     <date>2026</date>
     <category>Fútbol</category>
     <rating><value>+15</value></rating>
@@ -406401,7 +406401,7 @@ Toei Animation la describe como &quot;Una Historia Original de Anime&quot;, y es
   <programme start="20261123050000 -0300" stop="20261123070000 -0300" channel="0429">
     <title>Fútbol Brasileirao • Red Bull Bragantino vs Vasco da Gama</title>
     <sub-title>Red Bull Bragantino vs. Vasco da Gama</sub-title>
-    <desc>Red Bull Bragantino vs Vasco da Gama | Toda la acción con los partidos del campeonato brasileño de fútbol de Primera División.</desc>
+    <desc>Red Bull Bragantino vs Vasco da Gama | Fecha 36 del Brasileirão Serie A 2026. Bragantino ganó a Vasco da Gama tres de sus últimos cinco enfrentamientos. Desde el estadio Cícero de Souza Marques, en Sao Paulo.</desc>
     <date>2026</date>
     <category>Fútbol</category>
     <rating><value>+15</value></rating>
@@ -407342,7 +407342,7 @@ Toei Animation la describe como &quot;Una Historia Original de Anime&quot;, y es
   <programme start="20261122193000 -0300" stop="20261122213000 -0300" channel="0430">
     <title>[En vivo] Fútbol Brasileirao • Red Bull Bragantino vs Vasco da Gama</title>
     <sub-title>Red Bull Bragantino vs. Vasco da Gama</sub-title>
-    <desc>En vivo ║ Red Bull Bragantino vs Vasco da Gama | Toda la acción con los partidos del campeonato brasileño de fútbol de Primera División.</desc>
+    <desc>En vivo ║ Red Bull Bragantino vs Vasco da Gama | Fecha 36 del Brasileirão Serie A 2026. Bragantino ganó a Vasco da Gama tres de sus últimos cinco enfrentamientos. Desde el estadio Cícero de Souza Marques, en Sao Paulo.</desc>
     <date>2026</date>
     <category>Fútbol</category>
     <rating><value>+15</value></rating>
@@ -407525,7 +407525,7 @@ Toei Animation la describe como &quot;Una Historia Original de Anime&quot;, y es
   <programme start="20261124030000 -0300" stop="20261124050000 -0300" channel="0430">
     <title>Fútbol Brasileirao • Red Bull Bragantino vs Vasco da Gama</title>
     <sub-title>Red Bull Bragantino vs. Vasco da Gama</sub-title>
-    <desc>Red Bull Bragantino vs Vasco da Gama | Toda la acción con los partidos del campeonato brasileño de fútbol de Primera División.</desc>
+    <desc>Red Bull Bragantino vs Vasco da Gama | Fecha 36 del Brasileirão Serie A 2026. Bragantino ganó a Vasco da Gama tres de sus últimos cinco enfrentamientos. Desde el estadio Cícero de Souza Marques, en Sao Paulo.</desc>
     <date>2026</date>
     <category>Fútbol</category>
     <rating><value>+15</value></rating>
@@ -774367,7 +774367,7 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
     <date>2019</date>
     <category>Drama</category>
     <category>Crimen</category>
-    <country>Estados Unidos,Reino Unido</country>
+    <country>Reino Unido,Estados Unidos</country>
     <rating><value>+15</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/loscaballeros.jpg" />
   </programme>
@@ -898073,6 +898073,7 @@ Adaptación televisiva de la comedia romántica de los años 90 &quot;Cuatro bod
     <category>Crime drama</category>
     <category>Horror</category>
     <category>Thriller</category>
+    <country>Estados Unidos</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261122015500 -0300" stop="20261122035600 -0300" channel="0855">
@@ -905649,7 +905650,13 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
   <programme start="20261124054200 -0300" stop="20261124072100 -0300" channel="0865">
     <title>Architecton</title>
     <desc>Feature Film • 2024. An odyssey through the world&#x27;s foundations, following mountains as they are turned into concrete.</desc>
+    <credits>
+      <director>Виктор Косаковский</director>
+      <actor>Michele De Lucchi</actor>
+    </credits>
+    <date>2024</date>
     <category>Feature Film • 2024</category>
+    <country>Francia</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/architecton.jpg" />
   </programme>
   <programme start="20261124072100 -0300" stop="20261124091000 -0300" channel="0865">
@@ -909193,8 +909200,24 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
   </programme>
   <programme start="20261119041500 -0300" stop="20261119062500 -0300" channel="0867">
     <title>El Rebelde</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <desc>El drama gira en torno a oficiales de inteligencia durante los tiempos revolucionarios en Shanghai.</desc>
+    <credits>
+      <director>Zhou You</director>
+      <actor>朱一龙</actor>
+      <actor>童瑶</actor>
+      <actor>王志文</actor>
+      <actor>王阳</actor>
+      <actor>Zhu Zhu</actor>
+      <actor>李强</actor>
+      <actor>张子贤</actor>
+      <actor>姚安濂</actor>
+    </credits>
+    <date>2021</date>
+    <category>Drama</category>
+    <category>Misterio</category>
+    <category>War &amp; Politics</category>
+    <country>China</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/elrebelde.jpg" />
   </programme>
   <programme start="20261119062500 -0300" stop="20261119080000 -0300" channel="0867">
     <title>Duelo de valientes</title>
@@ -1065578,7 +1065601,7 @@ Ernesto Andrés Fuenmayor y Tamara Rivera Castro serán los YouTubers que analic
   <programme start="20261120223000 -0300" stop="20261121003000 -0300" channel="co0013">
     <title>[En vivo] Juego al aire • Deportivo Cali vs Millonarios</title>
     <sub-title>Deportivo Cali vs. Millonarios</sub-title>
-    <desc>En vivo ║ Deportivo Cali vs Millonarios | Acción de la fecha 1, cuadrangular semifinal de la Liga BetPlay 2026-II. Deportivo Cali se enfrenta a Millonarios en el Estadio Deportivo Cali.</desc>
+    <desc>En vivo ║ Deportivo Cali vs Millonarios | Acción de la fecha 1, cuadrangular semifinal de la Categoría Primera A 2026-II. Deportivo Cali se enfrenta a Millonarios en el Estadio Deportivo Cali.</desc>
     <date>2026</date>
     <category>Fútbol</category>
     <rating><value>+15</value></rating>
@@ -1065870,7 +1065893,7 @@ Ernesto Andrés Fuenmayor y Tamara Rivera Castro serán los YouTubers que analic
   <programme start="20261123050000 -0300" stop="20261123070000 -0300" channel="co0013">
     <title>Fútbol Brasileirao • Red Bull Bragantino vs Vasco da Gama</title>
     <sub-title>Red Bull Bragantino vs. Vasco da Gama</sub-title>
-    <desc>Red Bull Bragantino vs Vasco da Gama | Toda la acción con los partidos del campeonato brasileño de fútbol de Primera División.</desc>
+    <desc>Red Bull Bragantino vs Vasco da Gama | Fecha 36 del Brasileirão Serie A 2026. Bragantino ganó a Vasco da Gama tres de sus últimos cinco enfrentamientos. Desde el estadio Cícero de Souza Marques, en Sao Paulo.</desc>
     <date>2026</date>
     <category>Fútbol</category>
     <rating><value>+15</value></rating>
