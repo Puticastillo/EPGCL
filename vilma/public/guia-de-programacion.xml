@@ -9997,8 +9997,9 @@ No aparece en el programa ningún otro superhéroe de ficción, a excepción  de
   </programme>
   <programme start="20261119224500 -0300" stop="20261120004500 -0300" channel="0106">
     <title>Club de la comedia</title>
-    <desc>El club de la comedia consiste en un grupo de actores que realizan monólogos siguiendo el formato de stand-up comedy: se presentan sobre un escenario, frente a un público presente en el estudio de televisión.</desc>
+    <desc>El club de la comedia es un programa de monólogos humorísticos, así como un espectáculo teatral, que se graba en un teatro y que ha sido retransmitido por distintas cadenas de televisión españolas a lo largo de sus nueve temporadas desde el 26 de septiembre de 1999.</desc>
     <credits>
+      <director>José Miguel Contreras</director>
       <actor>Rodrigo Salinas</actor>
       <actor>Fabrizio Copano</actor>
       <actor>Juan Pablo Flores</actor>
@@ -10011,6 +10012,7 @@ No aparece en el programa ningún otro superhéroe de ficción, a excepción  de
     </credits>
     <date>2007</date>
     <category>Comedia de Entretenimiento</category>
+    <country>España</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/clubdelacomedia.jpg" />
   </programme>
   <programme start="20261120004500 -0300" stop="20261120014500 -0300" channel="0106">
@@ -46552,17 +46554,27 @@ Ernesto Andrés Fuenmayor y Tamara Rivera Castro serán los YouTubers que analic
     <rating><value>14</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/vidaenelarte.jpg" />
   </programme>
-  <programme start="20261119100000 -0300" stop="20261119120000 -0300" channel="0143">
-    <title>Comisión de agricultura</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
-    <date>2013</date>
-    <category>Relaciones Públicas</category>
-    <category>Social</category>
+  <programme start="20261119100000 -0300" stop="20261119101500 -0300" channel="0143">
+    <title>Antesala</title>
+    <desc>Alfredo descubrirá, de la peor manera, que todas las acciones que realizamos en este mundo tienen consecuencias y que nadie se escapa de la cosecha de lo sembrado.</desc>
+    <date>2026</date>
+    <category>Series</category>
+    <rating><value>14</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/antesala.jpg" />
+  </programme>
+  <programme start="20261119101500 -0300" stop="20261119103000 -0300" channel="0143">
+    <title>La cámara en la radio</title>
+    <desc>Un espacio en el que se realizan entrevistas a diputados sobre temas de actualidad.</desc>
+    <credits>
+      <actor>Gabriela Nuñez</actor>
+    </credits>
+    <date>2000</date>
+    <category>Entrevista</category>
     <country>Chile</country>
     <rating><value>14</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/comisiondeagricultura.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/lacamaraenlaradio.jpg" />
   </programme>
-  <programme start="20261119120000 -0300" stop="20261119143000 -0300" channel="0143">
+  <programme start="20261119103000 -0300" stop="20261119130000 -0300" channel="0143">
     <title>Sesión de sala</title>
     <desc>Espacio donde se muestra el debate de los proyectos, diferentes opiniones y posturas de los Diputados. Entrevistas a sus autores y a quienes han participado en la elaboración de la norma.</desc>
     <date>2005</date>
@@ -46571,19 +46583,73 @@ Ernesto Andrés Fuenmayor y Tamara Rivera Castro serán los YouTubers que analic
     <rating><value>14</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/sesiondesala.jpg" />
   </programme>
-  <programme start="20261119143000 -0300" stop="20261119153000 -0300" channel="0143">
-    <title>Comisión de salud</title>
-    <desc>Un espacio para mostrar el trabajo legislativo en el área de Salud.</desc>
-    <date>2007</date>
-    <category>Salud</category>
-    <category>Relaciones Públicas</category>
-    <category>Política</category>
+  <programme start="20261119130000 -0300" stop="20261119154000 -0300" channel="0143">
+    <title>Comisión de ciencias</title>
+    <desc>La información de este programa no se encuentra disponible.</desc>
+    <date>2026</date>
     <category>Social</category>
+    <category>Relaciones Públicas</category>
     <country>Chile</country>
     <rating><value>14</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/comisiondesalud.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/comisiondeciencias.jpg" />
   </programme>
-  <programme start="20261119153000 -0300" stop="20261119160000 -0300" channel="0143">
+  <programme start="20261119154000 -0300" stop="20261119160000 -0300" channel="0143">
+    <title>La cámara en la radio</title>
+    <desc>Un espacio en el que se realizan entrevistas a diputados sobre temas de actualidad.</desc>
+    <credits>
+      <actor>Gabriela Nuñez</actor>
+    </credits>
+    <date>2000</date>
+    <category>Entrevista</category>
+    <country>Chile</country>
+    <rating><value>14</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/lacamaraenlaradio.jpg" />
+  </programme>
+  <programme start="20261119160000 -0300" stop="20261119180000 -0300" channel="0143">
+    <title>Comisión de hacienda</title>
+    <desc>La información de este programa no se encuentra disponible.</desc>
+    <date>2013</date>
+    <category>Política</category>
+    <rating><value>18</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/comisiondehacienda.jpg" />
+  </programme>
+  <programme start="20261119180000 -0300" stop="20261119183000 -0300" channel="0143">
+    <title>Mentes brillantes</title>
+    <desc>Serie documental, de carácter humano-histórico científico, que nos cuenta de manera entretenida la historia de la ciencia chilena de los últimos 50 años, a través de sus protagonistas principales: los Premios Nacionales de Ciencias.</desc>
+    <date>2011</date>
+    <category>Biográfica</category>
+    <country>Chile</country>
+    <rating><value>14</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/mentesbrillantes.jpg" />
+  </programme>
+  <programme start="20261119183000 -0300" stop="20261119200000 -0300" channel="0143">
+    <title>Comisión de recursos hídricos</title>
+    <desc>La información de este programa no se encuentra disponible.</desc>
+    <date>2013</date>
+    <category>Política</category>
+    <country>Chile</country>
+    <rating><value>14</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/comisionderecursoshidricos.jpg" />
+  </programme>
+  <programme start="20261119200000 -0300" stop="20261119204500 -0300" channel="0143">
+    <title>Noticiero UESTV</title>
+    <desc>Charlas con investigadores, escritores y académicos sobre temas de interés para la sociedad de Latinoamérica.</desc>
+    <date>2017</date>
+    <category>Entrevista</category>
+    <category>Reportaje</category>
+    <rating><value>18</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/noticierouestv.jpg" />
+  </programme>
+  <programme start="20261119204500 -0300" stop="20261119220000 -0300" channel="0143">
+    <title>Comisión de gobierno interior</title>
+    <desc>Información legislativa a la ciudadanía de las disposiciones efectuadas por los representantes políticos designados por el pueblo chileno.</desc>
+    <date>2016</date>
+    <category>Política</category>
+    <country>Chile</country>
+    <rating><value>14</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/comisiondegobiernointerior.jpg" />
+  </programme>
+  <programme start="20261119220000 -0300" stop="20261119223000 -0300" channel="0143">
     <title>Puntos de vista</title>
     <desc>Segmento en el cual el periodista Guillermo Navarro conversa sobre actualidad y política, con diferentes parlamentarios chilenos, quienes exponen su opinión y apreciaciones sobre los acontecimientos tanto nacionales como internacionales.</desc>
     <credits>
@@ -46597,78 +46663,15 @@ Ernesto Andrés Fuenmayor y Tamara Rivera Castro serán los YouTubers que analic
     <rating><value>18</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/puntosdevista.jpg" />
   </programme>
-  <programme start="20261119160000 -0300" stop="20261119180000 -0300" channel="0143">
-    <title>Comisión de deportes</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
-    <date>2013</date>
-    <category>Deportes</category>
-    <rating><value>14</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/comisiondedeportes.jpg" />
-  </programme>
-  <programme start="20261119180000 -0300" stop="20261119183000 -0300" channel="0143">
-    <title>Condimentos para el alma</title>
-    <desc>Conversaciones con cantautores y agrupaciones musicales que hablan sobre su trabajo, exponen su trayectoria y presentan su música.</desc>
-    <date>2019</date>
-    <category>Entrevista</category>
-    <category>Musica</category>
-    <rating><value>14</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/condimentosparaelalma.jpg" />
-  </programme>
-  <programme start="20261119183000 -0300" stop="20261119203000 -0300" channel="0143">
-    <title>Comisión acusación exministro Pardow</title>
-    <desc>Se realiza una acusación constitucional contra Diego Pardow, exministro de Energía, por errores en el cobro del servicio eléctrico.</desc>
-    <date>2025</date>
-    <category>Social</category>
-    <category>Relaciones Públicas</category>
-    <category>Política</category>
-    <rating><value>14</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/comisionacusacionexministropardow.jpg" />
-  </programme>
-  <programme start="20261119203000 -0300" stop="20261119213000 -0300" channel="0143">
-    <title>Noticiero UESTV</title>
-    <desc>Charlas con investigadores, escritores y académicos sobre temas de interés para la sociedad de Latinoamérica.</desc>
-    <date>2017</date>
-    <category>Entrevista</category>
-    <category>Reportaje</category>
-    <rating><value>18</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/noticierouestv.jpg" />
-  </programme>
-  <programme start="20261119213000 -0300" stop="20261119220000 -0300" channel="0143">
-    <title>Innovación y territorio</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
-    <credits>
-      <actor>Loreto Bustos</actor>
-    </credits>
-    <date>2025</date>
-    <category>Series</category>
-    <country>Chile</country>
-    <rating><value>14</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/innovacionyterritorio.jpg" />
-  </programme>
-  <programme start="20261119220000 -0300" stop="20261119223000 -0300" channel="0143">
-    <title>De Frente</title>
-    <desc>Programa periodístico que brinda asesoría a la comunidad sobre temas de actualidad e interés general.</desc>
-    <credits>
-      <director>Javier Fesser</director>
-      <director>Claudia Fesser</director>
-      <actor>Claudia Fesser</actor>
-      <actor>Victor Rubio</actor>
-    </credits>
-    <date>2006</date>
-    <category>Reportaje</category>
-    <country>España</country>
-    <rating><value>18</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/defrente.jpg" />
-  </programme>
   <programme start="20261119223000 -0300" stop="20261120003000 -0300" channel="0143">
-    <title>Comisión de educación</title>
+    <title>Comisión de familia</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <date>2013</date>
-    <category>Política</category>
-    <category>Reportaje</category>
-    <country>México</country>
+    <category>Relaciones Públicas</category>
+    <category>Social</category>
+    <country>Chile</country>
     <rating><value>18</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/comisiondeeducacion.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/comisiondefamilia.jpg" />
   </programme>
   <programme start="20261120003000 -0300" stop="20261120070000 -0300" channel="0143">
     <title>Sign Off</title>
@@ -46719,7 +46722,7 @@ Ernesto Andrés Fuenmayor y Tamara Rivera Castro serán los YouTubers que analic
     <date>2006</date>
     <category>Reportaje</category>
     <country>España</country>
-    <rating><value>18</value></rating>
+    <rating><value>14</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/defrente.jpg" />
   </programme>
   <programme start="20261120143000 -0300" stop="20261120160000 -0300" channel="0143">
@@ -46818,7 +46821,7 @@ Ernesto Andrés Fuenmayor y Tamara Rivera Castro serán los YouTubers que analic
     <category>Política</category>
     <category>Social</category>
     <country>Chile</country>
-    <rating><value>14</value></rating>
+    <rating><value>18</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/comisiondesalud.jpg" />
   </programme>
   <programme start="20261120233000 -0300" stop="20261121004000 -0300" channel="0143">
@@ -46984,7 +46987,7 @@ Ernesto Andrés Fuenmayor y Tamara Rivera Castro serán los YouTubers que analic
     <date>2006</date>
     <category>Reportaje</category>
     <country>España</country>
-    <rating><value>18</value></rating>
+    <rating><value>14</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/defrente.jpg" />
   </programme>
   <programme start="20261121213000 -0300" stop="20261121233000 -0300" channel="0143">
@@ -47077,7 +47080,7 @@ Ernesto Andrés Fuenmayor y Tamara Rivera Castro serán los YouTubers que analic
     <date>2006</date>
     <category>Reportaje</category>
     <country>España</country>
-    <rating><value>18</value></rating>
+    <rating><value>14</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/defrente.jpg" />
   </programme>
   <programme start="20261122130000 -0300" stop="20261122150000 -0300" channel="0143">
@@ -47129,7 +47132,7 @@ Ernesto Andrés Fuenmayor y Tamara Rivera Castro serán los YouTubers que analic
     <category>Política</category>
     <category>Social</category>
     <country>Chile</country>
-    <rating><value>14</value></rating>
+    <rating><value>18</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/comisiondesalud.jpg" />
   </programme>
   <programme start="20261122200000 -0300" stop="20261122210000 -0300" channel="0143">
@@ -47249,7 +47252,7 @@ Ernesto Andrés Fuenmayor y Tamara Rivera Castro serán los YouTubers que analic
     <date>2006</date>
     <category>Reportaje</category>
     <country>España</country>
-    <rating><value>18</value></rating>
+    <rating><value>14</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/defrente.jpg" />
   </programme>
   <programme start="20261123150000 -0300" stop="20261123180000 -0300" channel="0143">
@@ -47374,7 +47377,7 @@ Ernesto Andrés Fuenmayor y Tamara Rivera Castro serán los YouTubers que analic
     <category>Política</category>
     <category>Social</category>
     <country>Chile</country>
-    <rating><value>14</value></rating>
+    <rating><value>18</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/comisiondesalud.jpg" />
   </programme>
   <programme start="20261124210000 -0300" stop="20261124220000 -0300" channel="0143">
@@ -776127,7 +776130,7 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
   </programme>
   <programme start="20261123155600 -0300" stop="20261123175200 -0300" channel="1830">
     <title>Valentín de la Sierra</title>
-    <desc>Un jefe revolucionario cae en una trampa, su mujer y el pueblo lo salvan, pero su campamento es arrasado.</desc>
+    <desc>Basada en el corrido de Valentín de la Sierra, uno de los caudillos revolucionarios que forjaron la lucha armada en la historia de México. Los abusos del Gobierno Porfirista contra el pueblo humilde, hacen que Valentín encabece un levantamiento armado de grandes proporciones.</desc>
     <credits>
       <director>René Cardona</director>
       <actor>Antonio Aguilar</actor>
@@ -776137,6 +776140,7 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
     <date>1968</date>
     <category>Movie</category>
     <category>Adventure</category>
+    <country>México</country>
     <rating><value>B</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
@@ -896816,8 +896820,20 @@ El programa está compuesto por Ana Morgade, Anna Simon, Cristina Pedroche, Miki
   <programme start="20261120170000 -0300" stop="20261120190000 -0300" channel="0857">
     <title>Romance en el aire</title>
     <desc>Un DJ de radio comienza a cuestionar las intenciones de su ex cuando de repente vuelve a entrar en su vida justo cuando un misterioso acosador comienza a apuntar a ella en su programa de radio.</desc>
+    <credits>
+      <director>Mike Hoy</director>
+      <actor>Skye Coyne</actor>
+      <actor>Jillian Murray</actor>
+      <actor>Iyan Evans</actor>
+      <actor>Britt Allen</actor>
+      <actor>Triana Browne</actor>
+      <actor>Ben Richardson</actor>
+      <actor>Dane E. Connor</actor>
+      <actor>Ryan Music</actor>
+    </credits>
     <date>2024</date>
     <category>Romántica</category>
+    <country>Estados Unidos</country>
     <rating><value>6.5</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/romanceenelaire.jpg" />
   </programme>
@@ -896878,8 +896894,20 @@ El programa está compuesto por Ana Morgade, Anna Simon, Cristina Pedroche, Miki
   <programme start="20261120230000 -0300" stop="20261121010000 -0300" channel="0857">
     <title>Romance en el aire</title>
     <desc>Un DJ de radio comienza a cuestionar las intenciones de su ex cuando de repente vuelve a entrar en su vida justo cuando un misterioso acosador comienza a apuntar a ella en su programa de radio.</desc>
+    <credits>
+      <director>Mike Hoy</director>
+      <actor>Skye Coyne</actor>
+      <actor>Jillian Murray</actor>
+      <actor>Iyan Evans</actor>
+      <actor>Britt Allen</actor>
+      <actor>Triana Browne</actor>
+      <actor>Ben Richardson</actor>
+      <actor>Dane E. Connor</actor>
+      <actor>Ryan Music</actor>
+    </credits>
     <date>2024</date>
     <category>Romántica</category>
+    <country>Estados Unidos</country>
     <rating><value>6.5</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/romanceenelaire.jpg" />
   </programme>
