@@ -425734,6 +425734,21 @@ Estos tres estudiantes intentan ocultar sus habilidades especiales a los demás,
     <title>Destiny&#x27;s Child • Live in Atlanta</title>
     <sub-title>Destiny&#x27;s Child: Live in Atlanta</sub-title>
     <desc>Live in Atlanta | Destiny&#x27;s Child: Live in Atlanta is a live video album of the American group Destiny&#x27;s Child. This show was graded on July 15, 2005 in Atlanta at the Philips Arena</desc>
+    <credits>
+      <director>Devon Greggory</director>
+      <actor>Dominic Daniel</actor>
+      <actor>Six Reasons</actor>
+      <actor>Melissa Molinaro</actor>
+      <actor>Seth Ayott</actor>
+      <actor>Brian Wedlake</actor>
+      <actor>Ransford Doherty</actor>
+      <actor>Revital Krawetz</actor>
+      <actor>Matt Bolding</actor>
+    </credits>
+    <date>2003</date>
+    <category>Drama</category>
+    <category>Suspense</category>
+    <country>Estados Unidos</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261119061800 -0300" stop="20261119070100 -0300" channel="0501">
@@ -425805,6 +425820,12 @@ Estos tres estudiantes intentan ocultar sus habilidades especiales a los demás,
   <programme start="20261119160300 -0300" stop="20261119173900 -0300" channel="0501">
     <title>Paul Simon - Live in New York City</title>
     <desc>Während der ersten Etappe seiner triumphalen US-Tournee begeisterte Paul Simon die Fans seiner Heimatstadt 2011 mit einem besonderen Club-Auftritt in der historischen Webster Hall in New York City.</desc>
+    <credits>
+      <actor>Paul Simon</actor>
+    </credits>
+    <date>2012</date>
+    <category>Música</category>
+    <country>Estados Unidos</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/paulsimonliveinnewyorkcity.jpg" />
   </programme>
   <programme start="20261119173900 -0300" stop="20261119183000 -0300" channel="0501">
@@ -573917,7 +573938,7 @@ Diarios de un nómada es adrenalina, paisajes y experiencias, pero también Hist
   </programme>
   <programme start="20261118230000 -0300" stop="20261119010000 -0300" channel="0642">
     <title>Security</title>
-    <desc>Un exmarine acepta un trabajo como vigilante de seguridad en un centro comercial. Durante su primera noche, abre las puertas del centro a una niña muerta de miedo a la que persigue un grupo de mercenarios.</desc>
+    <desc>Un exsoldado que trabaja como guardia de seguridad debe proteger a una niña de 11 años que corre un grave peligro. La muchacha ha sido testigo de un asesinato y por eso se ha convertido en el blanco de unos peligrosos delincuentes.</desc>
     <credits>
       <director>Alain Desrochers</director>
       <actor>Antonio Banderas</actor>
@@ -573944,8 +573965,9 @@ Diarios de un nómada es adrenalina, paisajes y experiencias, pero también Hist
     </credits>
     <date>2016</date>
     <category>Action</category>
+    <country>Estados Unidos</country>
     <rating><value>R</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/security.jpg" />
   </programme>
   <programme start="20261119010000 -0300" stop="20261119030000 -0300" channel="0642">
     <title>Fugitivas</title>
@@ -576542,7 +576564,7 @@ Diarios de un nómada es adrenalina, paisajes y experiencias, pero también Hist
   </programme>
   <programme start="20261118230000 -0300" stop="20261119010000 -0300" channel="1642">
     <title>Security</title>
-    <desc>Un exmarine acepta un trabajo como vigilante de seguridad en un centro comercial. Durante su primera noche, abre las puertas del centro a una niña muerta de miedo a la que persigue un grupo de mercenarios.</desc>
+    <desc>Un exsoldado que trabaja como guardia de seguridad debe proteger a una niña de 11 años que corre un grave peligro. La muchacha ha sido testigo de un asesinato y por eso se ha convertido en el blanco de unos peligrosos delincuentes.</desc>
     <credits>
       <director>Alain Desrochers</director>
       <actor>Antonio Banderas</actor>
@@ -576570,8 +576592,9 @@ Diarios de un nómada es adrenalina, paisajes y experiencias, pero también Hist
     <date>2016</date>
     <category>Movie</category>
     <category>Action</category>
+    <country>Estados Unidos</country>
     <rating><value>B</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/security.jpg" />
   </programme>
   <programme start="20261119010000 -0300" stop="20261119030000 -0300" channel="1642">
     <title>Fugitivas</title>
@@ -773858,6 +773881,7 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
     </credits>
     <date>1995</date>
     <category>Musical</category>
+    <country>México</country>
     <rating><value>6.4</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
@@ -774790,6 +774814,7 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
     <date>1994</date>
     <category>Movie</category>
     <category>Musical comedy</category>
+    <country>México</country>
     <rating><value>A</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
@@ -873542,6 +873567,7 @@ No aparece en el programa ningún otro superhéroe de ficción, a excepción  de
     <title>La tumba de Matías</title>
     <desc>La única ambición de un jugador es ganar dinero para que el día que muera pueda tener la lápida más grande.</desc>
     <credits>
+      <director>Alberto Mariscal</director>
       <actor>David Reynoso</actor>
       <actor>Laura Marti</actor>
       <actor>Manuel López Ochoa</actor>
@@ -873549,6 +873575,7 @@ No aparece en el programa ningún otro superhéroe de ficción, a excepción  de
     <date>1988</date>
     <category>Movie</category>
     <category>Comedy drama</category>
+    <country>Estados Unidos</country>
     <rating><value>B</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
@@ -873631,6 +873658,7 @@ No aparece en el programa ningún otro superhéroe de ficción, a excepción  de
     <title>La tumba de Matías</title>
     <desc>La única ambición de un jugador es ganar dinero para que el día que muera pueda tener la lápida más grande.</desc>
     <credits>
+      <director>Alberto Mariscal</director>
       <actor>David Reynoso</actor>
       <actor>Laura Marti</actor>
       <actor>Manuel López Ochoa</actor>
@@ -873638,6 +873666,7 @@ No aparece en el programa ningún otro superhéroe de ficción, a excepción  de
     <date>1988</date>
     <category>Movie</category>
     <category>Comedy drama</category>
+    <country>Estados Unidos</country>
     <rating><value>B</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
