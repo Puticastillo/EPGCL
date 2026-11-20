@@ -781323,7 +781323,7 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
   </programme>
   <programme start="20261123030900 -0300" stop="20261123050800 -0300" channel="1830">
     <title>Las glorias del Gran Púas</title>
-    <desc>Un escritor entrevista a un boxeador apodado &quot;El Púas&quot;, y se entera de las penurias que pasó antes de ser famoso.</desc>
+    <desc>El escritor Ricardo Garibay llega a Los Ángeles a hablar con el boxeado Rubén Olivares &quot;El Púas&quot;, para escribir un libro sobre él, que está con Nacho, uno de sus inseparables amigos. El escritor ve una pelea en la que Olivares gana pero no puede entrevistarlo. Ya en México Olivares por fin le cuenta episodios de su infancia: era un niño pobre, su padre se embriaga, barrió calles, repartía periódicos y lavaba coches. En la escuela tenía problemas porque era peleonero. Ahora tiene tres fieles amigos que nunca se separan de él: Nacho, El Sedas y El Jarocho, y es atendido por un médico y su manager Pancho. Su esposa lo acompaña en sus giras. Entre viaje y viaje, Garibay trata de entender al contradictorio personaje y todos terminan embriagándose. (FILMAFFINITY)</desc>
     <credits>
       <director>Roberto G. Rivera</director>
       <actor>Rubén Olivares</actor>
@@ -781343,6 +781343,7 @@ La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y 
     <date>1984</date>
     <category>Movie</category>
     <category>Comedy drama</category>
+    <country>México</country>
     <rating><value>B</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
@@ -877836,6 +877837,7 @@ No aparece en el programa ningún otro superhéroe de ficción, a excepción  de
     <date>1956</date>
     <category>Movie</category>
     <category>Comedy</category>
+    <country>México</country>
     <rating><value>B15</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
@@ -894796,8 +894798,21 @@ Adaptación televisiva de la comedia romántica de los años 90 &quot;Cuatro bod
   <programme start="20261120200000 -0300" stop="20261120210000 -0300" channel="0851">
     <title>Hokusai</title>
     <desc>Katsushika Hokusai fue probablemente el pintor y grabador japonés más famoso y destacado de su generación, y el artista cuya fama cruzó los mares con mayor rapidez (su nombre ha sido popular en Europa durante mucho tiempo).</desc>
+    <credits>
+      <director>橋本一</director>
+      <actor>柳楽優弥</actor>
+      <actor>田中泯</actor>
+      <actor>Hiroshi Abe</actor>
+      <actor>永山瑛太</actor>
+      <actor>玉木宏</actor>
+      <actor>Munetaka Aoki</actor>
+      <actor>瀧本美織</actor>
+      <actor>浦上晟周</actor>
+    </credits>
+    <date>2021</date>
     <category>Documental</category>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+    <country>Japón</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/hokusai.jpg" />
   </programme>
   <programme start="20261120210000 -0300" stop="20261120220000 -0300" channel="0851">
     <title>El show de Graham Norton • Especial - Año Nuevo</title>
