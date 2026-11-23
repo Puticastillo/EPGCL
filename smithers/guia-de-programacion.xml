@@ -319905,8 +319905,19 @@ de Billy y Mandy</title>
   </programme>
   <programme start="20261122202000 -0300" stop="20261122213000 -0300" channel="0325">
     <title>Ren y Stimpy</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0325_fallback.jpg" />
+    <desc>Ren Höek, un perro chihuahua neurótico, y Stimpson J. Gato, un gato bobalicón, tienen aventuras carentes de cualquier sentido que recuerdan en ocasiones la era dorada de las caricaturas.</desc>
+    <credits>
+      <director>John Kricfalusi</director>
+      <director>Bob Camp</director>
+      <actor>Billy West</actor>
+    </credits>
+    <date>1991</date>
+    <category>Animación</category>
+    <category>Sci-Fi &amp; Fantasy</category>
+    <category>Comedia</category>
+    <category>Familia</category>
+    <country>Estados Unidos</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/renystimpy.jpg" />
   </programme>
   <programme start="20261122213000 -0300" stop="20261122215800 -0300" channel="0325">
     <title>Sailor Moon</title>
@@ -363177,73 +363188,70 @@ Pese a pretender ser quisquilloso con las leyes de ley y orden, Hammer es más b
     <rating><value>NR</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0431_fallback.jpg" />
   </programme>
-  <programme start="20261123000000 -0300" stop="20261123073000 -0300" channel="2431">
+  <programme start="20261123000000 -0300" stop="20261123160000 -0300" channel="2431">
     <title>Por confirmar</title>
     <desc>Programación pendiente de confirmación.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/porconfirmar.jpg" />
   </programme>
-  <programme start="20261123073000 -0300" stop="20261123093000 -0300" channel="2431">
-    <title>LaLiga: Getafe vs Atl. De Madrid</title>
-    <desc>Getafe se enfrenta a Atlético de Madrid en LaLiga EA Sports. Getafe juega de local en el Coliseum. Ronda 13.</desc>
-    <date>2026</date>
-    <rating><value>ALL</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0431_fallback.jpg" />
-  </programme>
-  <programme start="20261123093000 -0300" stop="20261123113000 -0300" channel="2431">
-    <title>🔴 Fifa U17 Men&#x27;S Wc Qatar 2026: España vs Fiyi</title>
-    <desc>En Vivo ║ España Sub-17 se enfrenta a Fiyi Sub-17 en Copa Mundial Sub-17 de la FIFA. Ronda 2.</desc>
-    <date>2026</date>
-    <rating><value>NR</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0431_fallback.jpg" />
-  </programme>
-  <programme start="20261123113000 -0300" stop="20261123133000 -0300" channel="2431">
-    <title>🔴 Fifa U17 Men&#x27;S Wc Qatar 2026: Italia vs Costa De Marfil</title>
-    <desc>En Vivo ║ Italia Sub-17 se enfrenta a Costa de Marfil Sub-17 en Copa Mundial Sub-17 de la FIFA. Ronda 2.</desc>
-    <date>2026</date>
-    <rating><value>NR</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0431_fallback.jpg" />
-  </programme>
-  <programme start="20261123133000 -0300" stop="20261123143000 -0300" channel="2431">
-    <title>De fútbol se habla así</title>
-    <desc>Un grupo de experimentados periodistas repasan el presente del fútbol argentino y de su selección a través de las primicias que marcan la agenda del día. Notas exclusivas, móviles en vivo, informes especiales y las secciones más divertidas.</desc>
-    <date>2025</date>
-    <rating><value>NR</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0431_fallback.jpg" />
-  </programme>
-  <programme start="20261123143000 -0300" stop="20261123150000 -0300" channel="2431">
-    <title>Final Conmebol Sudamericana - Atlético Mineiro vs Boca Juniors</title>
-    <desc>Resumen en 30 minutos de los mejores partidos emitidos en DSPORTS.</desc>
-    <date>2026</date>
-    <rating><value>NR</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0431_fallback.jpg" />
-  </programme>
-  <programme start="20261123150000 -0300" stop="20261123160000 -0300" channel="2431">
-    <title>🔴 Dsports Noticias</title>
-    <desc>En Vivo ║ El noticiero más completo de la región con toda la actualidad deportiva y las novedades más importantes.</desc>
-    <date>2025</date>
-    <rating><value>NR</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/dsportsnoticias.jpg" />
-  </programme>
-  <programme start="20261123160000 -0300" stop="20261123180000 -0300" channel="2431">
+  <programme start="20261123160000 -0300" stop="20261123170000 -0300" channel="2431">
     <title>🔴 Puede Pasar</title>
     <desc>En Vivo ║ Gustavo Kuffner y un gran plantel debaten sobre todo lo que ocurre en las ligas del fútbol sudamericano.</desc>
     <rating><value>NR</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/puedepasar.jpg" />
   </programme>
-  <programme start="20261123180000 -0300" stop="20261123190000 -0300" channel="2431">
+  <programme start="20261123170000 -0300" stop="20261123183000 -0300" channel="2431">
+    <title>🔴 Dsports Noticias Lite Tarde</title>
+    <desc>En Vivo ║ Todo el acontecer deportivo en un solo lugar.</desc>
+    <date>2026</date>
+    <rating><value>NR</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0431_fallback.jpg" />
+  </programme>
+  <programme start="20261123183000 -0300" stop="20261123200000 -0300" channel="2431">
+    <title>🔴 Fútbol Total</title>
+    <desc>En Vivo ║ El show futbolero número uno de Latinoamérica.</desc>
+    <date>2025</date>
+    <rating><value>NR</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futboltotal.jpg" />
+  </programme>
+  <programme start="20261123200000 -0300" stop="20261123210000 -0300" channel="2431">
+    <title>🔴 El Juego</title>
+    <desc>En Vivo ║ El mejor debate y análisis del fútbol argentino, junto a todas las novedades del fútbol sudamericano, de la mano de Sergio Goycochea y un gran equipo.</desc>
+    <date>2025</date>
+    <rating><value>NR</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/eljuego.jpg" />
+  </programme>
+  <programme start="20261123210000 -0300" stop="20261123220000 -0300" channel="2431">
+    <title>🔴 De fútbol se habla así</title>
+    <desc>En Vivo ║ Un grupo de experimentados periodistas repasan el presente del fútbol argentino y de su selección a través de las primicias que marcan la agenda del día. Notas exclusivas, móviles en vivo, informes especiales y las secciones más divertidas.</desc>
+    <date>2025</date>
+    <rating><value>NR</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0431_fallback.jpg" />
+  </programme>
+  <programme start="20261123220000 -0300" stop="20261123230000 -0300" channel="2431">
+    <title>Dsports Total</title>
+    <desc>Programa deportivo conducido por Pablo Giralt.</desc>
+    <date>2026</date>
+    <rating><value>NR</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/dsportstotal.jpg" />
+  </programme>
+  <programme start="20261123230000 -0300" stop="20261124000000 -0300" channel="2431">
+    <title>🔴 Dsports Noticias Nite</title>
+    <desc>En Vivo ║ Un resumen de la información deportiva del día.</desc>
+    <date>2026</date>
+    <rating><value>NR</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/dsportsnoticiasnite.jpg" />
+  </programme>
+  <programme start="20261124000000 -0300" stop="20261124020000 -0300" channel="2431">
+    <title>Más Que Fútbol</title>
+    <desc>Juan Pablo Varsky brinda el mejor y más completo análisis del fin de semana futbolero en Argentina y el mundo.</desc>
+    <date>2025</date>
+    <rating><value>NR</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/masquefutbol.jpg" />
+  </programme>
+  <programme start="20261124020000 -0300" stop="20261124030000 -0300" channel="2431">
     <title>Por confirmar</title>
     <desc>Programación pendiente de confirmación.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/porconfirmar.jpg" />
-  </programme>
-  <programme start="20261123190000 -0300" stop="20261123230000 -0300" channel="2431">
-    <title>DSports</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0431_fallback.jpg" />
-  </programme>
-  <programme start="20261123230000 -0300" stop="20261124030000 -0300" channel="2431">
-    <title>DSports</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0431_fallback.jpg" />
   </programme>
   <programme start="20261124030000 -0300" stop="20261124070000 -0300" channel="2431">
     <title>DSports</title>
@@ -365801,79 +365809,67 @@ Pese a pretender ser quisquilloso con las leyes de ley y orden, Hammer es más b
     <rating><value>ALL</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0432_fallback.jpg" />
   </programme>
-  <programme start="20261123000000 -0300" stop="20261123080000 -0300" channel="2432">
+  <programme start="20261123000000 -0300" stop="20261123160000 -0300" channel="2432">
     <title>Por confirmar</title>
     <desc>Programación pendiente de confirmación.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/porconfirmar.jpg" />
   </programme>
-  <programme start="20261123080000 -0300" stop="20261123100000 -0300" channel="2432">
-    <title>Copa Sudamericana: Atlético Mineiro vs Boca Juniors</title>
-    <desc>Atletico MG se enfrenta a Boca Juniors en Copa Sudamericana. Final.</desc>
-    <date>2026</date>
-    <rating><value>NR</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0432_fallback.jpg" />
-  </programme>
-  <programme start="20261123100000 -0300" stop="20261123103000 -0300" channel="2432">
-    <title>Por confirmar</title>
-    <desc>Programación pendiente de confirmación.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/porconfirmar.jpg" />
-  </programme>
-  <programme start="20261123103000 -0300" stop="20261123110000 -0300" channel="2432">
-    <title>Martín Palermo</title>
-    <desc>Juan Pablo Varsky recorre los perfiles e historias de las grandes figuras del deporte mundial, mediante una narración innovadora.</desc>
-    <date>2026</date>
-    <rating><value>NR</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0432_fallback.jpg" />
-  </programme>
-  <programme start="20261123110000 -0300" stop="20261123113000 -0300" channel="2432">
-    <title>Final Conmebol Sudamericana - Atlético Mineiro vs Boca Juniors</title>
-    <desc>Resumen en 30 minutos de los mejores partidos emitidos en DSPORTS.</desc>
-    <date>2026</date>
-    <rating><value>NR</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0432_fallback.jpg" />
-  </programme>
-  <programme start="20261123113000 -0300" stop="20261123133000 -0300" channel="2432">
-    <title>LaLiga: Getafe vs Atl. De Madrid</title>
-    <desc>Getafe se enfrenta a Atlético de Madrid en LaLiga EA Sports. Getafe juega de local en el Coliseum. Ronda 13.</desc>
-    <date>2026</date>
-    <rating><value>ALL</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0432_fallback.jpg" />
-  </programme>
-  <programme start="20261123133000 -0300" stop="20261123153000 -0300" channel="2432">
-    <title>LaLiga: Real Madrid vs Celta</title>
-    <desc>Real Madrid se enfrenta a Celta Vigo en LaLiga EA Sports. Real Madrid juega de local en el Estadio Bernabeu. Ronda 13.</desc>
-    <date>2026</date>
-    <rating><value>ALL</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0432_fallback.jpg" />
-  </programme>
-  <programme start="20261123153000 -0300" stop="20261123160000 -0300" channel="2432">
-    <title>Final Conmebol Sudamericana - Atlético Mineiro vs Boca Juniors</title>
-    <desc>Resumen en 30 minutos de los mejores partidos emitidos en DSPORTS.</desc>
-    <date>2026</date>
-    <rating><value>NR</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0432_fallback.jpg" />
-  </programme>
-  <programme start="20261123160000 -0300" stop="20261123180000 -0300" channel="2432">
+  <programme start="20261123160000 -0300" stop="20261123165500 -0300" channel="2432">
     <title>🔴 La Previa: Levante vs Elche</title>
     <desc>En Vivo ║ Levante se enfrenta a Elche en LaLiga EA Sports. Levante juega de local en el Estadio Ciudad de Valencia. Ronda 13.</desc>
     <date>2026</date>
     <rating><value>NR</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0432_fallback.jpg" />
   </programme>
-  <programme start="20261123180000 -0300" stop="20261123190000 -0300" channel="2432">
+  <programme start="20261123165500 -0300" stop="20261123185500 -0300" channel="2432">
+    <title>🔴 LaLiga: Levante vs Elche</title>
+    <desc>En vivo ║ Levante se enfrenta a Elche en LaLiga EA Sports. Levante juega de local en el Estadio Ciudad de Valencia. Ronda 13.</desc>
+    <date>2026</date>
+    <rating><value>ALL</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0432_fallback.jpg" />
+  </programme>
+  <programme start="20261123185500 -0300" stop="20261123190000 -0300" channel="2432">
     <title>Por confirmar</title>
     <desc>Programación pendiente de confirmación.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/porconfirmar.jpg" />
   </programme>
-  <programme start="20261123190000 -0300" stop="20261123230000 -0300" channel="2432">
-    <title>DSports 2</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
+  <programme start="20261123190000 -0300" stop="20261123210000 -0300" channel="2432">
+    <title>Copa Sudamericana: Atlético Mineiro vs Boca Juniors</title>
+    <desc>Atletico MG se enfrenta a Boca Juniors en Copa Sudamericana. Final.</desc>
+    <date>2026</date>
+    <rating><value>NR</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0432_fallback.jpg" />
   </programme>
-  <programme start="20261123230000 -0300" stop="20261124030000 -0300" channel="2432">
-    <title>DSports 2</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
+  <programme start="20261123210000 -0300" stop="20261123213000 -0300" channel="2432">
+    <title>Por confirmar</title>
+    <desc>Programación pendiente de confirmación.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/porconfirmar.jpg" />
+  </programme>
+  <programme start="20261123213000 -0300" stop="20261123220000 -0300" channel="2432">
+    <title>Magazine Conmebol Sudamericana 2026: Final</title>
+    <desc>Magazine deportivo centrado en la Copa Conmebol Sudamericana.</desc>
+    <date>2026</date>
+    <rating><value>NR</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0432_fallback.jpg" />
+  </programme>
+  <programme start="20261123220000 -0300" stop="20261124000000 -0300" channel="2432">
+    <title>LaLiga: Barcelona vs Villarreal</title>
+    <desc>Barcelona se enfrenta a Villarreal en LaLiga EA Sports. Barcelona juega de local en el Spotify Camp Nou. Ronda 13.</desc>
+    <date>2026</date>
+    <rating><value>ALL</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0432_fallback.jpg" />
+  </programme>
+  <programme start="20261124000000 -0300" stop="20261124020000 -0300" channel="2432">
+    <title>Fifa U17 Men&#x27;S Wc Qatar 2026: España vs Fiyi</title>
+    <desc>España Sub-17 se enfrenta a Fiyi Sub-17 en Copa Mundial Sub-17 de la FIFA. Ronda 2.</desc>
+    <date>2026</date>
+    <rating><value>NR</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0432_fallback.jpg" />
+  </programme>
+  <programme start="20261124020000 -0300" stop="20261124030000 -0300" channel="2432">
+    <title>Por confirmar</title>
+    <desc>Programación pendiente de confirmación.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/porconfirmar.jpg" />
   </programme>
   <programme start="20261124030000 -0300" stop="20261124070000 -0300" channel="2432">
     <title>DSports 2</title>
@@ -366925,72 +366921,63 @@ Pese a pretender ser quisquilloso con las leyes de ley y orden, Hammer es más b
     <rating><value>NR</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0433_fallback.jpg" />
   </programme>
-  <programme start="20261123000000 -0300" stop="20261123080000 -0300" channel="1433">
+  <programme start="20261123000000 -0300" stop="20261123160000 -0300" channel="1433">
     <title>Por confirmar</title>
     <desc>Programación pendiente de confirmación.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/porconfirmar.jpg" />
   </programme>
-  <programme start="20261123080000 -0300" stop="20261123100000 -0300" channel="1433">
-    <title>Lgct 2026: Gcl Supercup Verona</title>
-    <desc>Acción del Global Champions Tour desde Miami.</desc>
-    <date>2026</date>
-    <rating><value>NR</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0433_fallback.jpg" />
-  </programme>
-  <programme start="20261123100000 -0300" stop="20261123110000 -0300" channel="1433">
-    <title>Ciclismo: Criterium Singapore</title>
-    <desc>Transmisión de las emocionantes pruebas de ciclismo alrededor del mundo.</desc>
-    <date>2026</date>
-    <rating><value>ALL</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0433_fallback.jpg" />
-  </programme>
-  <programme start="20261123110000 -0300" stop="20261123130000 -0300" channel="1433">
-    <title>Euroleague 26/27: Barcelona vs Estrella Roja</title>
-    <desc>Barcelona se enfrenta a Crvena Zvezda Beograd en Euroleague. Ronda 13.</desc>
-    <date>2026</date>
-    <rating><value>NR</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0433_fallback.jpg" />
-  </programme>
-  <programme start="20261123130000 -0300" stop="20261123133000 -0300" channel="1433">
-    <title>Por confirmar</title>
-    <desc>Programación pendiente de confirmación.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/porconfirmar.jpg" />
-  </programme>
-  <programme start="20261123133000 -0300" stop="20261123140000 -0300" channel="1433">
-    <title>Dirk Nowitzki</title>
-    <desc>Juan Pablo Varsky recorre los perfiles e historias de las grandes figuras del deporte mundial, mediante una narración innovadora.</desc>
-    <date>2026</date>
-    <rating><value>NR</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0433_fallback.jpg" />
-  </programme>
-  <programme start="20261123140000 -0300" stop="20261123160000 -0300" channel="1433">
-    <title>Euroleague 26/27: Olympiacos vs Real Madrid</title>
-    <desc>Olympiacos B.C. se enfrenta a Real Madrid en Euroleague. Ronda 13.</desc>
-    <date>2026</date>
-    <rating><value>NR</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0433_fallback.jpg" />
-  </programme>
-  <programme start="20261123160000 -0300" stop="20261123180000 -0300" channel="1433">
+  <programme start="20261123160000 -0300" stop="20261123163000 -0300" channel="1433">
     <title>Ciclismo: Especial Con Valentina Roa</title>
     <desc>Transmisión de las emocionantes pruebas de ciclismo alrededor del mundo.</desc>
     <date>2026</date>
     <rating><value>ALL</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0433_fallback.jpg" />
   </programme>
-  <programme start="20261123180000 -0300" stop="20261123190000 -0300" channel="1433">
+  <programme start="20261123163000 -0300" stop="20261123183000 -0300" channel="1433">
+    <title>Euroleague 26/27: Milan vs Fenerbahce</title>
+    <desc>AX Armani Exchange Milano se enfrenta a Fenerbahce en Euroleague. Ronda 13.</desc>
+    <date>2026</date>
+    <rating><value>NR</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0433_fallback.jpg" />
+  </programme>
+  <programme start="20261123183000 -0300" stop="20261123203000 -0300" channel="1433">
+    <title>Torneo Regional Del Litoral: Duendes Rc vs Estudiantes De Paraná</title>
+    <desc>Transmisión de Torneo Regional del Litoral.</desc>
+    <date>2026</date>
+    <rating><value>NR</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0433_fallback.jpg" />
+  </programme>
+  <programme start="20261123203000 -0300" stop="20261123210000 -0300" channel="1433">
+    <title>Dcsha</title>
+    <desc>El programa más completo del mundo del ciclismo, con informes, debate, entrevistas y mucho más de la mano de Camilo Castellanos.</desc>
+    <rating><value>NR</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0433_fallback.jpg" />
+  </programme>
+  <programme start="20261123210000 -0300" stop="20261123220000 -0300" channel="1433">
+    <title>Giro D&#x27;Abruzzo: Giro D&#x27;Abruzzo 2026</title>
+    <desc>Emisión de cada una de las etapas del Giro de Abruzzo.</desc>
+    <date>2026</date>
+    <rating><value>NR</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0433_fallback.jpg" />
+  </programme>
+  <programme start="20261123220000 -0300" stop="20261124000000 -0300" channel="1433">
+    <title>Lgct 2026: Gcl Supercup Verona</title>
+    <desc>Acción del Global Champions Tour desde Miami.</desc>
+    <date>2026</date>
+    <rating><value>NR</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0433_fallback.jpg" />
+  </programme>
+  <programme start="20261124000000 -0300" stop="20261124020000 -0300" channel="1433">
+    <title>FISE World Series: Bmx Freestyle Wc - Shanghai</title>
+    <desc>Una mirada al festival de deportes extremos más importante del mundo.</desc>
+    <date>2026</date>
+    <rating><value>NR</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0433_fallback.jpg" />
+  </programme>
+  <programme start="20261124020000 -0300" stop="20261124030000 -0300" channel="1433">
     <title>Por confirmar</title>
     <desc>Programación pendiente de confirmación.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/porconfirmar.jpg" />
-  </programme>
-  <programme start="20261123190000 -0300" stop="20261123230000 -0300" channel="1433">
-    <title>DSports Plus</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0433_fallback.jpg" />
-  </programme>
-  <programme start="20261123230000 -0300" stop="20261124030000 -0300" channel="1433">
-    <title>DSports Plus</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0433_fallback.jpg" />
   </programme>
   <programme start="20261124030000 -0300" stop="20261124070000 -0300" channel="1433">
     <title>DSports Plus</title>
@@ -408510,6 +408497,8 @@ En colaboración con Tom Hanks, Gary Goetzman y Mark Herzog y producida por la C
     <sub-title>Los ingresos desaparecen</sub-title>
     <desc>Los ingresos desaparecen | Jonathan y Drew deben decidir si respaldar a un inversor abrumado que posiblemente tenga una mina de oro, o a una pareja que consiguió una propiedad, pero no tiene idea de si deberían renovarla para obtener mayores ingresos por reventa o alquiler.</desc>
     <credits>
+      <director>Jonathan Silver Scott</director>
+      <director>Drew Scott</director>
       <actor>Drew Scott</actor>
       <actor>Jonathan Silver Scott</actor>
     </credits>
@@ -408517,13 +408506,15 @@ En colaboración con Tom Hanks, Gary Goetzman y Mark Herzog y producida por la C
     <category>Entretenimiento</category>
     <country>EE. UU</country>
     <episode-num system="onscreen">S1E2</episode-num>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0601_fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/hermanosscottalrescate.jpg" />
   </programme>
   <programme start="20261126193900 -0300" stop="20261126202600 -0300" channel="0601">
     <title>Hermanos Scott: al rescate • Dinero sangriento</title>
     <sub-title>Dinero sangriento</sub-title>
     <desc>Dinero sangriento | Jonathan y Drew deben elegir entre un inversionista novato que está rebasado en una inversión de un millón de dólares, y una viuda que ha estado durante años en bienes raíces. Mientras, ayudan a un inversionista a colocar su triplex en el mercado.</desc>
     <credits>
+      <director>Jonathan Silver Scott</director>
+      <director>Drew Scott</director>
       <actor>Drew Scott</actor>
       <actor>Jonathan Silver Scott</actor>
     </credits>
@@ -408531,13 +408522,15 @@ En colaboración con Tom Hanks, Gary Goetzman y Mark Herzog y producida por la C
     <category>Entretenimiento</category>
     <country>EE. UU</country>
     <episode-num system="onscreen">S1E3</episode-num>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0601_fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/hermanosscottalrescate.jpg" />
   </programme>
   <programme start="20261126202600 -0300" stop="20261126211300 -0300" channel="0601">
     <title>Hermanos Scott: al rescate • Sin riesgo, no hay recompensa</title>
     <sub-title>Sin riesgo, no hay recompensa</sub-title>
     <desc>Sin riesgo, no hay recompensa | Tras ayudar a una inversionista a vender el espacio comercial de su difunto esposo, Jonathan y Drew continúan apoyándola reinvirtiendo sus ganancias en una propiedad residencial para generar ingresos, pero solo tienen 45 días para hacerlo realidad.</desc>
     <credits>
+      <director>Jonathan Silver Scott</director>
+      <director>Drew Scott</director>
       <actor>Drew Scott</actor>
       <actor>Jonathan Silver Scott</actor>
     </credits>
@@ -408545,13 +408538,15 @@ En colaboración con Tom Hanks, Gary Goetzman y Mark Herzog y producida por la C
     <category>Entretenimiento</category>
     <country>EE. UU</country>
     <episode-num system="onscreen">S1E6</episode-num>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0601_fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/hermanosscottalrescate.jpg" />
   </programme>
   <programme start="20261126211300 -0300" stop="20261126220000 -0300" channel="0601">
     <title>Hermanos Scott: al rescate • Un gran evento</title>
     <sub-title>Un gran evento</sub-title>
     <desc>Un gran evento | Jonathan y Drew deben decidir entre una inversión inmobiliaria histórica y una casa nueva de dos pisos. Ambas son igualmente prometedoras, pero ninguna ofrece el camino fácil.</desc>
     <credits>
+      <director>Jonathan Silver Scott</director>
+      <director>Drew Scott</director>
       <actor>Drew Scott</actor>
       <actor>Jonathan Silver Scott</actor>
     </credits>
@@ -408559,7 +408554,7 @@ En colaboración con Tom Hanks, Gary Goetzman y Mark Herzog y producida por la C
     <category>Entretenimiento</category>
     <country>EE. UU</country>
     <episode-num system="onscreen">S1E10</episode-num>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0601_fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/hermanosscottalrescate.jpg" />
   </programme>
   <programme start="20261126220000 -0300" stop="20261126224700 -0300" channel="0601">
     <title>Hermanos a la obra: Bajo presión • Juntos o nada</title>
@@ -408784,6 +408779,8 @@ En colaboración con Tom Hanks, Gary Goetzman y Mark Herzog y producida por la C
     <sub-title>Salvando el negocio familiar</sub-title>
     <desc>Salvando el negocio familiar | Jonathan y Drew continúan ayudando a una empresa familiar al borde de la ruina financiera, pero las buenas intenciones no pueden competir contra gastos excesivos.</desc>
     <credits>
+      <director>Jonathan Silver Scott</director>
+      <director>Drew Scott</director>
       <actor>Drew Scott</actor>
       <actor>Jonathan Silver Scott</actor>
       <presenter>Drew Scott</presenter>
@@ -408795,13 +408792,15 @@ En colaboración con Tom Hanks, Gary Goetzman y Mark Herzog y producida por la C
     <country>EE. UU</country>
     <episode-num system="onscreen">T1 E6</episode-num>
     <rating><value>TVPG</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0601_fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/hermanosscottalrescate.jpg" />
   </programme>
   <programme start="20261122175700 -0300" stop="20261122184600 -0300" channel="1601">
     <title>Hermanos Scott: al rescate • Los ingresos desaparecen</title>
     <sub-title>Los ingresos desaparecen</sub-title>
     <desc>Los ingresos desaparecen | Jonathan y Drew deben decidir si respaldar a un inversor abrumado que posiblemente tenga una mina de oro, o a una pareja que consiguió una propiedad, pero no tiene idea de si deberían renovarla para obtener mayores ingresos por reventa o alquiler.</desc>
     <credits>
+      <director>Jonathan Silver Scott</director>
+      <director>Drew Scott</director>
       <actor>Drew Scott</actor>
       <actor>Jonathan Silver Scott</actor>
       <presenter>Drew Scott</presenter>
@@ -408813,7 +408812,7 @@ En colaboración con Tom Hanks, Gary Goetzman y Mark Herzog y producida por la C
     <country>EE. UU</country>
     <episode-num system="onscreen">T1 E2</episode-num>
     <rating><value>TVPG</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0601_fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/hermanosscottalrescate.jpg" />
   </programme>
   <programme start="20261122184600 -0300" stop="20261122193400 -0300" channel="1601">
     <title>Rescata mi restaurante • Emboscada: El ataque del hijo</title>
@@ -604570,11 +604569,23 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
   </programme>
   <programme start="20261122175000 -0300" stop="20261122194500 -0300" channel="0802">
     <title>Luchando con mi familia</title>
-    <desc>Un antiguo luchador de lucha libre y su familia se ganan la vida actuando a lo largo del país, pero sus hijos sueñan con poder vivir del Wrestling y brillar en la WWE.</desc>
+    <desc>Un antiguo luchador de lucha libre y su familia se ganan la vida actuando a lo largo del país, pero sus hijos sueñan con poder vivir del Wrestling.</desc>
+    <credits>
+      <director>Stephen Merchant</director>
+      <actor>Florence Pugh</actor>
+      <actor>Lena Headey</actor>
+      <actor>Nick Frost</actor>
+      <actor>Vince Vaughn</actor>
+      <actor>Jack Lowden</actor>
+      <actor>Dwayne Johnson</actor>
+      <actor>Thea Trinidad</actor>
+      <actor>Aqueela Zoll</actor>
+    </credits>
     <date>2019</date>
     <category>Comedia</category>
+    <country>Reino Unido</country>
     <rating><value>7.1</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0802_fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/luchandoconmifamilia.jpg" />
   </programme>
   <programme start="20261122194500 -0300" stop="20261122213500 -0300" channel="0802">
     <title>Rescate millonario</title>
@@ -668695,7 +668706,7 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
   </programme>
   <programme start="20261123060000 -0300" stop="20261123075000 -0300" channel="0813">
     <title>Last Christmas, otra oportunidad para amar</title>
-    <desc>Kate no para de tomar malas decisiones. Trabajar de elfa en una tienda de artículos navideños no le ayudará a esta aspirante a cantante. Sin embargo, ahí conocerá a Tom y su vida cambiará por completo. Para Kate, será demasiado bueno para ser real.</desc>
+    <desc>Kate (Emilia Clarke) es una mujer joven que suele tomar siempre la decisión menos acertada. ¿Su último error? Haber aceptado un trabajo como elfo de Santa Claus en un centro comercial. Sin embargo, el destino la lleva a conocer a Tom (Henry Golding), circunstancia que cambia por completo su vida. Para Kate, todo es demasiado bueno para ser cierto.</desc>
     <credits>
       <director>Paul Feig</director>
       <actor>Emilia Clarke</actor>
@@ -668712,7 +668723,7 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     <date>2019</date>
     <category>Comedia</category>
     <country>EE. UU</country>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0813_fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/lastchristmasotraoportunidadparaamar.jpg" />
   </programme>
   <programme start="20261123075000 -0300" stop="20261123095200 -0300" channel="0813">
     <title>Luna de miel en familia</title>
@@ -675395,7 +675406,7 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
   </programme>
   <programme start="20261126060100 -0300" stop="20261126075800 -0300" channel="0814">
     <title>El Caza Recompensas</title>
-    <desc>A Milo Boyd, un cazarrecompensas que está viviendo una mala racha, le asignan el caso de sus sueños: capturar a su ex-mujer, la periodista Nicole Hurley, que ha violado su libertad condicional. Milo cree que será un trabajo divertido; pero Nicole se ha escapado para investigar un asesinato, de modo que las cosas no serán tan sencillas. De repente, sus vidas empiezan a correr peligro y tienen que salir huyendo. Si pensaban que la promesa de amarse y respetarse era difícil, mantenerse con vida será aún mucho más complicado.</desc>
+    <desc>Milo Boyd, un cazarrecompensas que no pasa por su mejor momento, recibe el trabajo de sus sueños: debe encontrar a su exesposa, una reportera que ha violado su libertad condicional.</desc>
     <credits>
       <director>Andy Tennant</director>
       <actor>Gerard Butler</actor>
@@ -675418,7 +675429,7 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     <date>2010</date>
     <category>Comedia</category>
     <country>EE. UU</country>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0814_fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/elcazarecompensas.jpg" />
   </programme>
   <programme start="20261126075800 -0300" stop="20261126101000 -0300" channel="0814">
     <title>Black Adam</title>
@@ -681722,8 +681733,8 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/lastravesurasdepeterrabbit.jpg" />
   </programme>
   <programme start="20261122233800 -0300" stop="20261123012200 -0300" channel="0816">
-    <title>Last christmas: Otra oportunidad para amar</title>
-    <desc>Una mujer joven a quien persigue la mala suerte acepta trabajar en Navidad en un almacén. Este trabajo como elfo de Santa cambiará su suerte y le permitirá conocer a Tom.</desc>
+    <title>Last Christmas, otra oportunidad para amar</title>
+    <desc>Kate (Emilia Clarke) es una mujer joven que suele tomar siempre la decisión menos acertada. ¿Su último error? Haber aceptado un trabajo como elfo de Santa Claus en un centro comercial. Sin embargo, el destino la lleva a conocer a Tom (Henry Golding), circunstancia que cambia por completo su vida. Para Kate, todo es demasiado bueno para ser cierto.</desc>
     <credits>
       <director>Paul Feig</director>
       <director>Richard Hardy</director>
@@ -681742,7 +681753,7 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     <category>Navidad</category>
     <country>Reino Unido,Estados Unidos</country>
     <rating><value>TE</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0816_fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/lastchristmasotraoportunidadparaamar.jpg" />
   </programme>
   <programme start="20261123012200 -0300" stop="20261123033000 -0300" channel="0816">
     <title>Cómo entrenar a tu dragón</title>
@@ -682833,8 +682844,8 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/harrypotterylasreliquiasdelamuerteparte1.jpg" />
   </programme>
   <programme start="20261126022600 -0300" stop="20261126041100 -0300" channel="0816">
-    <title>Last christmas: Otra oportunidad para amar</title>
-    <desc>Una mujer joven a quien persigue la mala suerte acepta trabajar en Navidad en un almacén. Este trabajo como elfo de Santa cambiará su suerte y le permitirá conocer a Tom.</desc>
+    <title>Last Christmas, otra oportunidad para amar</title>
+    <desc>Kate (Emilia Clarke) es una mujer joven que suele tomar siempre la decisión menos acertada. ¿Su último error? Haber aceptado un trabajo como elfo de Santa Claus en un centro comercial. Sin embargo, el destino la lleva a conocer a Tom (Henry Golding), circunstancia que cambia por completo su vida. Para Kate, todo es demasiado bueno para ser cierto.</desc>
     <credits>
       <director>Paul Feig</director>
       <director>Richard Hardy</director>
@@ -682853,7 +682864,7 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
     <category>Navidad</category>
     <country>Reino Unido,Estados Unidos</country>
     <rating><value>TE</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0816_fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/lastchristmasotraoportunidadparaamar.jpg" />
   </programme>
   <programme start="20261126041100 -0300" stop="20261126055200 -0300" channel="0816">
     <title>La casa de muñecas de Gabby: la película</title>
@@ -710248,7 +710259,7 @@ Combinando imágenes generadas por ordenador con reconstrucciones dramáticas, e
   </programme>
   <programme start="20261126113000 -0300" stop="20261126130700 -0300" channel="0825">
     <title>Dog and Pony Show</title>
-    <desc>Cuando un perro quisquilloso se queda atrás en un carnaval ambulante y es adoptado por un granjero solitario, los ladrones torpes de un circo rival planean secuestrar al invaluable perro.</desc>
+    <desc>Un famoso perro de circo es el único que queda después de que su espectáculo itinerante deja la ciudad. En un golpe de suerte, ella es encontrada por Billy, un chico de la ciudad que acaba de mudarse a la ciudad, y la lleva a vivir en una granja entre un peculiar elenco de animales de granja.</desc>
     <credits>
       <director>Demetrius Navarro</director>
       <actor>Mira Sorvino</actor>
@@ -723645,6 +723656,7 @@ Los problemas aumentan cuando la familia también comienza a notar  presencias y
     <date>1993</date>
     <category>Movie</category>
     <category>Comedy</category>
+    <country>México</country>
     <rating><value>A</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/yohicearoqueiii.jpg" />
   </programme>
@@ -723740,6 +723752,7 @@ Los problemas aumentan cuando la familia también comienza a notar  presencias y
     <date>1957</date>
     <category>Movie</category>
     <category>Adventure</category>
+    <country>México</country>
     <rating><value>A</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0830_fallback.jpg" />
   </programme>
@@ -768732,13 +768745,24 @@ El personaje de El Pantera fue creado en los años 70 por el escritor Daniel Mu�
   </programme>
   <programme start="20261129065300 -0300" stop="20261129085600 -0300" channel="0840">
     <title>El Caza Recompensas</title>
-    <desc>Milo Boyd, un cazador de recompensas caído en desgracia, obtiene el trabajo de sus sueños: capturar a su ex esposa, la periodista Nicole Hurly, que se halla fugitiva por no cumplir con los términos de su fianza. Él piensa que es dinero fácil, pero cuando Nicole se escapa para investigar el encubrimiento de un asesinato, Milo se da cuenta de que nada será simple entre ellos. Los ex esposos intentan siempre estar un paso por delante del otro hasta que se encuentran en una carrera por salvar sus vidas. Si pensaban que la promesa de amarse, honrarse y obedecerse era difícil, mantenerse con vida será mucho más complicado.</desc>
+    <desc>Milo Boyd, un cazarrecompensas que no pasa por su mejor momento, recibe el trabajo de sus sueños: debe encontrar a su exesposa, una reportera que ha violado su libertad condicional.</desc>
     <credits>
       <director>Andy Tennant</director>
+      <actor>Jennifer Aniston</actor>
+      <actor>Gerard Butler</actor>
+      <actor>Jason Sudeikis</actor>
+      <actor>Jeff Garlin</actor>
+      <actor>Ritchie Coster</actor>
+      <actor>Cathy Moriarty</actor>
+      <actor>Peter Greene</actor>
+      <actor>Joel Marsh Garland</actor>
     </credits>
     <date>2010</date>
+    <category>Acción</category>
+    <category>Comedia</category>
+    <category>Romance</category>
     <country>USA</country>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0840_fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/elcazarecompensas.jpg" />
   </programme>
   <programme start="20261129085600 -0300" stop="20261129105500 -0300" channel="0840">
     <title>Rápidos y furiosos</title>
@@ -768828,13 +768852,24 @@ El personaje de El Pantera fue creado en los años 70 por el escritor Daniel Mu�
   </programme>
   <programme start="20261129151800 -0300" stop="20261129172700 -0300" channel="0840">
     <title>El Caza Recompensas</title>
-    <desc>Milo Boyd, un cazador de recompensas caído en desgracia, obtiene el trabajo de sus sueños: capturar a su ex esposa, la periodista Nicole Hurly, que se halla fugitiva por no cumplir con los términos de su fianza. Él piensa que es dinero fácil, pero cuando Nicole se escapa para investigar el encubrimiento de un asesinato, Milo se da cuenta de que nada será simple entre ellos. Los ex esposos intentan siempre estar un paso por delante del otro hasta que se encuentran en una carrera por salvar sus vidas. Si pensaban que la promesa de amarse, honrarse y obedecerse era difícil, mantenerse con vida será mucho más complicado.</desc>
+    <desc>Milo Boyd, un cazarrecompensas que no pasa por su mejor momento, recibe el trabajo de sus sueños: debe encontrar a su exesposa, una reportera que ha violado su libertad condicional.</desc>
     <credits>
       <director>Andy Tennant</director>
+      <actor>Jennifer Aniston</actor>
+      <actor>Gerard Butler</actor>
+      <actor>Jason Sudeikis</actor>
+      <actor>Jeff Garlin</actor>
+      <actor>Ritchie Coster</actor>
+      <actor>Cathy Moriarty</actor>
+      <actor>Peter Greene</actor>
+      <actor>Joel Marsh Garland</actor>
     </credits>
     <date>2010</date>
+    <category>Acción</category>
+    <category>Comedia</category>
+    <category>Romance</category>
     <country>USA</country>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0840_fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/elcazarecompensas.jpg" />
   </programme>
   <programme start="20261129172700 -0300" stop="20261129192900 -0300" channel="0840">
     <title>Rápidos y furiosos</title>
@@ -837800,8 +837835,23 @@ de Billy y Mandy</title>
   </programme>
   <programme start="20261123130500 -0300" stop="20261123144400 -0300" channel="0852">
     <title>Mas Barato Por Docena</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0852_fallback.jpg" />
+    <desc>Los Baker son una familia mixta que, con 10 niños, intenta sobrevivir a una agitada vida hogareña sin desatender el negocio familiar, lo cual lleva al público a una montaña rusa de experiencias hilarantes y conmovedoras.</desc>
+    <credits>
+      <director>Gail Lerner</director>
+      <actor>Gabrielle Union</actor>
+      <actor>Zach Braff</actor>
+      <actor>Erika Christensen</actor>
+      <actor>Timon Kyle Durrett</actor>
+      <actor>Journee Brown</actor>
+      <actor>Andre Robinson</actor>
+      <actor>Caylee Blosenski</actor>
+      <actor>Aryan Simhadri</actor>
+    </credits>
+    <date>2022</date>
+    <category>Familia</category>
+    <category>Comedia</category>
+    <country>Estados Unidos</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/masbaratopordocena.jpg" />
   </programme>
   <programme start="20261123144400 -0300" stop="20261123162200 -0300" channel="0852">
     <title>Material Girls</title>
@@ -838745,8 +838795,23 @@ de Billy y Mandy</title>
   </programme>
   <programme start="20261124072700 -0300" stop="20261124090700 -0300" channel="0853">
     <title>Mas Barato Por Docena</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0853_fallback.jpg" />
+    <desc>Los Baker son una familia mixta que, con 10 niños, intenta sobrevivir a una agitada vida hogareña sin desatender el negocio familiar, lo cual lleva al público a una montaña rusa de experiencias hilarantes y conmovedoras.</desc>
+    <credits>
+      <director>Gail Lerner</director>
+      <actor>Gabrielle Union</actor>
+      <actor>Zach Braff</actor>
+      <actor>Erika Christensen</actor>
+      <actor>Timon Kyle Durrett</actor>
+      <actor>Journee Brown</actor>
+      <actor>Andre Robinson</actor>
+      <actor>Caylee Blosenski</actor>
+      <actor>Aryan Simhadri</actor>
+    </credits>
+    <date>2022</date>
+    <category>Familia</category>
+    <category>Comedia</category>
+    <country>Estados Unidos</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/masbaratopordocena.jpg" />
   </programme>
   <programme start="20261124090700 -0300" stop="20261124104600 -0300" channel="0853">
     <title>Pequeña Princesita</title>
@@ -843259,82 +843324,10 @@ Serie italiana protagonizada por el inolvidable compañero de aventuras de Bud S
     <rating><value>NR</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0858_fallback.jpg" />
   </programme>
-  <programme start="20261123000000 -0300" stop="20261123073000 -0300" channel="0858">
+  <programme start="20261123000000 -0300" stop="20261123160000 -0300" channel="0858">
     <title>Por confirmar</title>
     <desc>Programación pendiente de confirmación.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/porconfirmar.jpg" />
-  </programme>
-  <programme start="20261123073000 -0300" stop="20261123090000 -0300" channel="0858">
-    <title>El ataúd infernal</title>
-    <desc>Después de fracasar en un concurso de canto por televisión, el joven Arturo le vende su alma al diablo, a cambio de su alma el Diablo le da un fistol. Arturo triunfa al recibir una nueva oportunidad.</desc>
-    <date>1962</date>
-    <rating><value>NR</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0858_fallback.jpg" />
-  </programme>
-  <programme start="20261123090000 -0300" stop="20261123093000 -0300" channel="0858">
-    <title>Gerardo Quiroz</title>
-    <desc>Entrevista a diversas personas relacinadas con el medio del cine.</desc>
-    <date>2023</date>
-    <rating><value>NR</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0858_fallback.jpg" />
-  </programme>
-  <programme start="20261123093000 -0300" stop="20261123113000 -0300" channel="0858">
-    <title>El Moderno Barba Azul</title>
-    <desc>Las locuras de un soldado americano que naufraga en las costas de México, creyendo que es Japón, y allí acaba preso porque las autoridades creen que es un asesino.</desc>
-    <credits>
-      <director>Jaime Salvador</director>
-      <actor>Buster Keaton</actor>
-      <actor>Ángel Garasa</actor>
-      <actor>Virginia Serret</actor>
-      <actor>Fernando Soto</actor>
-      <actor>Luis G. Barreiro</actor>
-      <actor>Jorge Mondragón</actor>
-      <actor>Óscar Pulido</actor>
-      <actor>José Elías Moreno</actor>
-    </credits>
-    <date>1946</date>
-    <category>Bélica</category>
-    <category>Comedia</category>
-    <category>Ciencia ficción</category>
-    <country>México</country>
-    <rating><value>NR</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/elmodernobarbaazul.jpg" />
-  </programme>
-  <programme start="20261123113000 -0300" stop="20261123133000 -0300" channel="0858">
-    <title>La escondida</title>
-    <desc>María Félix la estrella mexicana,  recorre la gama emocional como Gabriela, quien se eleva desde las profundidades de la pobreza a las alturas de la sociedad mexicana como una cortesana muy buscada. Eventualmente, sin embargo, Gabriela demuestra que sigue siendo fiel a su herencia campesina al unir su suerte a los rebeldes en la guerra civil mexicana de 1916. Pedro Armendáriz co protagoniza a Felipe, el carismático líder rebelde que se gana el corazón de  Gabriela.</desc>
-    <credits>
-      <director>Roberto Gavaldón</director>
-      <actor>María Félix</actor>
-      <actor>Pedro Armendáriz</actor>
-      <actor>Andrés Soler</actor>
-      <actor>Carlos Agostí</actor>
-      <actor>Sara Guasch</actor>
-      <actor>Jorge Martínez de Hoyos</actor>
-      <actor>Arturo Martínez</actor>
-      <actor>Domingo Soler</actor>
-      <actor>Cuco Sánchez</actor>
-    </credits>
-    <date>1956</date>
-    <category>Movie</category>
-    <category>Drama</category>
-    <country>México</country>
-    <rating><value>NR</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/laescondida.jpg" />
-  </programme>
-  <programme start="20261123133000 -0300" stop="20261123153000 -0300" channel="0858">
-    <title>Besito a papá</title>
-    <desc>Jenaro se hace pasar por el padre de Roberto para que pueda casarse con su novia Luisa. Al conocer a Hermelinda, hermana mayor de Luisa, se enamoran provocando los celos de Espiridión.</desc>
-    <date>1961</date>
-    <rating><value>NR</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0858_fallback.jpg" />
-  </programme>
-  <programme start="20261123153000 -0300" stop="20261123160000 -0300" channel="0858">
-    <title>El Sonógrafo</title>
-    <desc>Un homenaje a los clásicos programas de radio que hicieron historia a través de un recorrido musical de las piezas de nuestro cine.</desc>
-    <date>2024</date>
-    <rating><value>NR</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0858_fallback.jpg" />
   </programme>
   <programme start="20261123160000 -0300" stop="20261123180000 -0300" channel="0858">
     <title>Los hijos ajenos</title>
@@ -843343,20 +843336,43 @@ Serie italiana protagonizada por el inolvidable compañero de aventuras de Bud S
     <rating><value>NR</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0858_fallback.jpg" />
   </programme>
-  <programme start="20261123180000 -0300" stop="20261123190000 -0300" channel="0858">
+  <programme start="20261123180000 -0300" stop="20261123193000 -0300" channel="0858">
+    <title>La ladrona</title>
+    <desc>Drama</desc>
+    <date>1954</date>
+    <rating><value>13+</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0858_fallback.jpg" />
+  </programme>
+  <programme start="20261123193000 -0300" stop="20261123213000 -0300" channel="0858">
+    <title>Mil estudiantes y una muchacha</title>
+    <desc>Un profesor universitario se muda con su hija a vivir en el recinto del campus, donde la joven tiene muchos pretendientes.</desc>
+    <date>1942</date>
+    <rating><value>NR</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0858_fallback.jpg" />
+  </programme>
+  <programme start="20261123213000 -0300" stop="20261123220000 -0300" channel="0858">
     <title>Por confirmar</title>
     <desc>Programación pendiente de confirmación.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/porconfirmar.jpg" />
   </programme>
-  <programme start="20261123190000 -0300" stop="20261123230000 -0300" channel="0858">
-    <title>Claro Cinema</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
+  <programme start="20261123220000 -0300" stop="20261124000000 -0300" channel="0858">
+    <title>La cantante de Matamoros</title>
+    <desc>Drama</desc>
+    <date>2008</date>
+    <rating><value>13+</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0858_fallback.jpg" />
   </programme>
-  <programme start="20261123230000 -0300" stop="20261124030000 -0300" channel="0858">
-    <title>Claro Cinema</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
+  <programme start="20261124000000 -0300" stop="20261124020000 -0300" channel="0858">
+    <title>El taxista caliente 2</title>
+    <desc>Un hombre que no entiende que todas sus mujeres le traen problemas, regresa a la cárcel culpado de un delito que no cometió, pero no contaba con la astucia de su compadre y amigos para ayudarlo.</desc>
+    <date>2017</date>
+    <rating><value>NR</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0858_fallback.jpg" />
+  </programme>
+  <programme start="20261124020000 -0300" stop="20261124030000 -0300" channel="0858">
+    <title>Por confirmar</title>
+    <desc>Programación pendiente de confirmación.</desc>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/porconfirmar.jpg" />
   </programme>
   <programme start="20261124030000 -0300" stop="20261124070000 -0300" channel="0858">
     <title>Claro Cinema</title>
@@ -844830,9 +844846,23 @@ Serie italiana protagonizada por el inolvidable compañero de aventuras de Bud S
   </programme>
   <programme start="20261128162100 -0300" stop="20261128173900 -0300" channel="0863">
     <title>The Hobbit</title>
-    <desc>TV Movie • 1977. J.R.R. Tolkien&#x27;s wee Bilbo Baggins helps dwarves fight the dragon Smaug.</desc>
+    <desc>Una adaptación animada de la historia de J.R.R. Tolkien acerca de las aventuras de un hobbit en busca de recuperar el oro del rey de los enanos.</desc>
+    <credits>
+      <director>Arthur Rankin Jr.</director>
+      <director>Jules Bass</director>
+      <actor>Orson Bean</actor>
+      <actor>John Huston</actor>
+      <actor>Hans Conried</actor>
+      <actor>Richard Boone</actor>
+      <actor>Theodore Gottlieb</actor>
+      <actor>Otto Preminger</actor>
+      <actor>Cyril Ritchard</actor>
+      <actor>Paul Frees</actor>
+    </credits>
+    <date>1977</date>
     <category>TV Movie • 1977</category>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0863_fallback.jpg" />
+    <country>Japón</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/thehobbit.jpg" />
   </programme>
   <programme start="20261128173900 -0300" stop="20261128191600 -0300" channel="0863">
     <title>Dim Sum Funeral</title>
@@ -926132,8 +926162,21 @@ Más allá del jardín (título original en inglés: Over the Garden Wall) es un
   <programme start="20261129015200 -0300" stop="20261129031700 -0300" channel="0985">
     <title>Dos Tipos Peligrosos</title>
     <desc>En la década de 1970, en Los Ángeles, un par de detectives privados incompatibles investigan una chica desaparecida y la misteriosa muerte de una estrella porno.</desc>
+    <credits>
+      <director>Shane Black</director>
+      <actor>Russell Crowe</actor>
+      <actor>Ryan Gosling</actor>
+      <actor>Angourie Rice</actor>
+      <actor>Matt Bomer</actor>
+      <actor>Margaret Qualley</actor>
+      <actor>Yaya DaCosta</actor>
+      <actor>Keith David</actor>
+      <actor>Beau Knapp</actor>
+    </credits>
+    <date>2016</date>
     <category>Comedia</category>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0985_fallback.jpg" />
+    <country>Estados Unidos</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/dostipospeligrosos.jpg" />
   </programme>
   <programme start="20261129031700 -0300" stop="20261129034800 -0300" channel="0985">
     <title>Django sin cadenas</title>
@@ -928986,12 +929029,10 @@ Más allá del jardín (título original en inglés: Over the Garden Wall) es un
       <actor>Roberto Cañedo</actor>
       <actor>José Luis Jiménez</actor>
       <actor>Emma Roldán</actor>
-      <actor>Arturo Castro</actor>
+      <actor>Arturo Castro &#x27;Bigotón&#x27;</actor>
       <actor>Pascual García Peña</actor>
       <actor>Antonio Bravo</actor>
       <actor>Celia Viveros</actor>
-      <actor>Julián de Meriche</actor>
-      <actor>Alicia Rodríguez</actor>
     </credits>
     <date>1962</date>
     <category>Drama</category>
@@ -929027,12 +929068,10 @@ Más allá del jardín (título original en inglés: Over the Garden Wall) es un
       <actor>Roberto Cañedo</actor>
       <actor>José Luis Jiménez</actor>
       <actor>Emma Roldán</actor>
-      <actor>Arturo Castro</actor>
+      <actor>Arturo Castro &#x27;Bigotón&#x27;</actor>
       <actor>Pascual García Peña</actor>
       <actor>Antonio Bravo</actor>
       <actor>Celia Viveros</actor>
-      <actor>Julián de Meriche</actor>
-      <actor>Alicia Rodríguez</actor>
     </credits>
     <date>1962</date>
     <category>Drama</category>
@@ -929077,12 +929116,10 @@ Más allá del jardín (título original en inglés: Over the Garden Wall) es un
       <actor>Roberto Cañedo</actor>
       <actor>José Luis Jiménez</actor>
       <actor>Emma Roldán</actor>
-      <actor>Arturo Castro</actor>
+      <actor>Arturo Castro &#x27;Bigotón&#x27;</actor>
       <actor>Pascual García Peña</actor>
       <actor>Antonio Bravo</actor>
       <actor>Celia Viveros</actor>
-      <actor>Julián de Meriche</actor>
-      <actor>Alicia Rodríguez</actor>
     </credits>
     <date>1962</date>
     <category>Drama</category>
@@ -939048,8 +939085,21 @@ Columbus,  un estudiante universitario poco social, se dirige hacia casa de sus 
   <programme start="20261126013800 -0300" stop="20261126025900 -0300" channel="0989">
     <title>Dos Tipos Peligrosos</title>
     <desc>En la década de 1970, en Los Ángeles, un par de detectives privados incompatibles investigan una chica desaparecida y la misteriosa muerte de una estrella porno.</desc>
+    <credits>
+      <director>Shane Black</director>
+      <actor>Russell Crowe</actor>
+      <actor>Ryan Gosling</actor>
+      <actor>Angourie Rice</actor>
+      <actor>Matt Bomer</actor>
+      <actor>Margaret Qualley</actor>
+      <actor>Yaya DaCosta</actor>
+      <actor>Keith David</actor>
+      <actor>Beau Knapp</actor>
+    </credits>
+    <date>2016</date>
     <category>Comedia</category>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0989_fallback.jpg" />
+    <country>Estados Unidos</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/dostipospeligrosos.jpg" />
   </programme>
   <programme start="20261126025900 -0300" stop="20261126033800 -0300" channel="0989">
     <title>Don Jon</title>
@@ -940061,8 +940111,21 @@ No aparece en el programa ningún otro superhéroe de ficción, a excepción  de
   <programme start="20261128014600 -0300" stop="20261128034700 -0300" channel="0989">
     <title>Guerra sin reglas</title>
     <desc>El ejército británico recluta a un pequeño grupo de soldados de élite para atacar a los nazis detrás de las líneas enemigas durante la Segunda Guerra Mundial.</desc>
+    <credits>
+      <director>Guy Ritchie</director>
+      <actor>Henry Cavill</actor>
+      <actor>Eiza González</actor>
+      <actor>Alan Ritchson</actor>
+      <actor>Henry Golding</actor>
+      <actor>Cary Elwes</actor>
+      <actor>Alex Pettyfer</actor>
+      <actor>Babs Olusanmokun</actor>
+      <actor>Hero Fiennes Tiffin</actor>
+    </credits>
+    <date>2024</date>
     <category>Acción</category>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0989_fallback.jpg" />
+    <country>Reino Unido</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/guerrasinreglas.jpg" />
   </programme>
   <programme start="20261128034700 -0300" stop="20261128055800 -0300" channel="0989">
     <title>Las Confesiones del Sr. Schmidt</title>
@@ -940152,8 +940215,21 @@ No aparece en el programa ningún otro superhéroe de ficción, a excepción  de
   <programme start="20261128073900 -0300" stop="20261128085900 -0300" channel="0989">
     <title>¿Y dónde está el policía? 33⅓: El insulto final</title>
     <desc>Frank Drebin sale de su retiro para ayudar al Escuadrón Policial a infiltrarse en una banda de terroristas que planean detonar una bomba en los Premios de la Academia.</desc>
+    <credits>
+      <director>Peter Segal</director>
+      <actor>Leslie Nielsen</actor>
+      <actor>Priscilla Presley</actor>
+      <actor>George Kennedy</actor>
+      <actor>O. J. Simpson</actor>
+      <actor>Fred Ward</actor>
+      <actor>Kathleen Freeman</actor>
+      <actor>Anna Nicole Smith</actor>
+      <actor>Ellen Greene</actor>
+    </credits>
+    <date>1994</date>
     <category>Comedia</category>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0989_fallback.jpg" />
+    <country>Estados Unidos</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/ydondeestaelpolicia33elinsultofinal.jpg" />
   </programme>
   <programme start="20261128085900 -0300" stop="20261128092800 -0300" channel="0989">
     <title>Dinosaurios • No estamos solos</title>
@@ -943871,9 +943947,22 @@ No aparece en el programa ningún otro superhéroe de ficción, a excepción  de
   </programme>
   <programme start="20261128160800 -0300" stop="20261128182100 -0300" channel="0990">
     <title>Capitán de mar y guerra: La costa más lejana del mundo</title>
-    <desc>Guerras napoleónicas, año 1805. Bonaparte domina Europa. Inglaterra consigue resistir porque es la primera potencia naval del mundo. Precisamente por eso los mares se convierten en un crucial y estratégico campo de batalla. En el Atlántico, el Surprise, un navío inglés capitan...</desc>
+    <desc>Guerras napoleónicas, año 1805. Bonaparte domina Europa. Inglaterra consigue resistir porque es la primera potencia naval del mundo. Precisamente por eso los mares se convierten en un crucial y estratégico campo de batalla. En el Atlántico, el Surprise, un navío inglés capitaneado por Jack Aubrey (Crowe), es atacado por sorpresa por un buque de guerra francés. A pesar de los graves daños sufridos por la nave, Aubrey decide navegar a través de dos mares para interceptar y capturar al enemigo. Se trata de una misión que puede determinar el destino de toda una nación.</desc>
+    <credits>
+      <director>Peter Weir</director>
+      <actor>Russell Crowe</actor>
+      <actor>Paul Bettany</actor>
+      <actor>James D&#x27;Arcy</actor>
+      <actor>Robert Pugh</actor>
+      <actor>David Threlfall</actor>
+      <actor>Lee Ingleby</actor>
+      <actor>Max Pirkis</actor>
+      <actor>Max Benitz</actor>
+    </credits>
+    <date>2003</date>
     <category>Aventura</category>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0990_fallback.jpg" />
+    <country>Estados Unidos</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/capitandemaryguerralacostamaslejanadelmundo.jpg" />
   </programme>
   <programme start="20261128182100 -0300" stop="20261128185400 -0300" channel="0990">
     <title>Everest</title>
@@ -948479,12 +948568,10 @@ No aparece en el programa ningún otro superhéroe de ficción, a excepción  de
       <actor>Roberto Cañedo</actor>
       <actor>José Luis Jiménez</actor>
       <actor>Emma Roldán</actor>
-      <actor>Arturo Castro</actor>
+      <actor>Arturo Castro &#x27;Bigotón&#x27;</actor>
       <actor>Pascual García Peña</actor>
       <actor>Antonio Bravo</actor>
       <actor>Celia Viveros</actor>
-      <actor>Julián de Meriche</actor>
-      <actor>Alicia Rodríguez</actor>
     </credits>
     <date>1962</date>
     <category>Drama</category>
@@ -948572,7 +948659,7 @@ No aparece en el programa ningún otro superhéroe de ficción, a excepción  de
     <title>¿Y dónde está el policía? 33⅓: El insulto final</title>
     <desc>Frank Drebin sale de su retiro para ayudar al Escuadrón Policial a infiltrarse en una banda de terroristas que planean detonar una bomba en los Premios de la Academia.</desc>
     <category>Comedia</category>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0992_fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/ydondeestaelpolicia33elinsultofinal.jpg" />
   </programme>
   <programme start="20261125000000 -0300" stop="20261125025500 -0300" channel="0992">
     <title>Batman</title>
@@ -948632,12 +948719,10 @@ No aparece en el programa ningún otro superhéroe de ficción, a excepción  de
       <actor>Roberto Cañedo</actor>
       <actor>José Luis Jiménez</actor>
       <actor>Emma Roldán</actor>
-      <actor>Arturo Castro</actor>
+      <actor>Arturo Castro &#x27;Bigotón&#x27;</actor>
       <actor>Pascual García Peña</actor>
       <actor>Antonio Bravo</actor>
       <actor>Celia Viveros</actor>
-      <actor>Julián de Meriche</actor>
-      <actor>Alicia Rodríguez</actor>
     </credits>
     <date>1962</date>
     <category>Drama</category>
@@ -948901,12 +948986,10 @@ No aparece en el programa ningún otro superhéroe de ficción, a excepción  de
       <actor>Roberto Cañedo</actor>
       <actor>José Luis Jiménez</actor>
       <actor>Emma Roldán</actor>
-      <actor>Arturo Castro</actor>
+      <actor>Arturo Castro &#x27;Bigotón&#x27;</actor>
       <actor>Pascual García Peña</actor>
       <actor>Antonio Bravo</actor>
       <actor>Celia Viveros</actor>
-      <actor>Julián de Meriche</actor>
-      <actor>Alicia Rodríguez</actor>
     </credits>
     <date>1962</date>
     <category>Drama</category>
@@ -949230,15 +949313,28 @@ No aparece en el programa ningún otro superhéroe de ficción, a excepción  de
   </programme>
   <programme start="20261126213600 -0300" stop="20261126223700 -0300" channel="0992">
     <title>Capitán de mar y guerra: La costa más lejana del mundo</title>
-    <desc>Guerras napoleónicas, año 1805. Bonaparte domina Europa. Inglaterra consigue resistir porque es la primera potencia naval del mundo. Precisamente por eso los mares se convierten en un crucial y estratégico campo de batalla. En el Atlántico, el Surprise, un navío inglés capitan...</desc>
+    <desc>Guerras napoleónicas, año 1805. Bonaparte domina Europa. Inglaterra consigue resistir porque es la primera potencia naval del mundo. Precisamente por eso los mares se convierten en un crucial y estratégico campo de batalla. En el Atlántico, el Surprise, un navío inglés capitaneado por Jack Aubrey (Crowe), es atacado por sorpresa por un buque de guerra francés. A pesar de los graves daños sufridos por la nave, Aubrey decide navegar a través de dos mares para interceptar y capturar al enemigo. Se trata de una misión que puede determinar el destino de toda una nación.</desc>
+    <credits>
+      <director>Peter Weir</director>
+      <actor>Russell Crowe</actor>
+      <actor>Paul Bettany</actor>
+      <actor>James D&#x27;Arcy</actor>
+      <actor>Robert Pugh</actor>
+      <actor>David Threlfall</actor>
+      <actor>Lee Ingleby</actor>
+      <actor>Max Pirkis</actor>
+      <actor>Max Benitz</actor>
+    </credits>
+    <date>2003</date>
     <category>Aventura</category>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0992_fallback.jpg" />
+    <country>Estados Unidos</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/capitandemaryguerralacostamaslejanadelmundo.jpg" />
   </programme>
   <programme start="20261126223700 -0300" stop="20261127023600 -0300" channel="0992">
     <title>¿Y dónde está el policía? 33⅓: El insulto final</title>
     <desc>Frank Drebin sale de su retiro para ayudar al Escuadrón Policial a infiltrarse en una banda de terroristas que planean detonar una bomba en los Premios de la Academia.</desc>
     <category>Comedia</category>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0992_fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/ydondeestaelpolicia33elinsultofinal.jpg" />
   </programme>
   <programme start="20261127023600 -0300" stop="20261127041500 -0300" channel="0992">
     <title>40 Días y 40 noches</title>
@@ -949422,9 +949518,22 @@ No aparece en el programa ningún otro superhéroe de ficción, a excepción  de
   </programme>
   <programme start="20261127132900 -0300" stop="20261127133200 -0300" channel="0992">
     <title>Capitán de mar y guerra: La costa más lejana del mundo</title>
-    <desc>Guerras napoleónicas, año 1805. Bonaparte domina Europa. Inglaterra consigue resistir porque es la primera potencia naval del mundo. Precisamente por eso los mares se convierten en un crucial y estratégico campo de batalla. En el Atlántico, el Surprise, un navío inglés capitan...</desc>
+    <desc>Guerras napoleónicas, año 1805. Bonaparte domina Europa. Inglaterra consigue resistir porque es la primera potencia naval del mundo. Precisamente por eso los mares se convierten en un crucial y estratégico campo de batalla. En el Atlántico, el Surprise, un navío inglés capitaneado por Jack Aubrey (Crowe), es atacado por sorpresa por un buque de guerra francés. A pesar de los graves daños sufridos por la nave, Aubrey decide navegar a través de dos mares para interceptar y capturar al enemigo. Se trata de una misión que puede determinar el destino de toda una nación.</desc>
+    <credits>
+      <director>Peter Weir</director>
+      <actor>Russell Crowe</actor>
+      <actor>Paul Bettany</actor>
+      <actor>James D&#x27;Arcy</actor>
+      <actor>Robert Pugh</actor>
+      <actor>David Threlfall</actor>
+      <actor>Lee Ingleby</actor>
+      <actor>Max Pirkis</actor>
+      <actor>Max Benitz</actor>
+    </credits>
+    <date>2003</date>
     <category>Aventura</category>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0992_fallback.jpg" />
+    <country>Estados Unidos</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/capitandemaryguerralacostamaslejanadelmundo.jpg" />
   </programme>
   <programme start="20261127133200 -0300" stop="20261127150500 -0300" channel="0992">
     <title>Dentro o fuera</title>
@@ -949506,9 +949615,22 @@ No aparece en el programa ningún otro superhéroe de ficción, a excepción  de
   </programme>
   <programme start="20261127190000 -0300" stop="20261127190900 -0300" channel="0992">
     <title>Capitán de mar y guerra: La costa más lejana del mundo</title>
-    <desc>Guerras napoleónicas, año 1805. Bonaparte domina Europa. Inglaterra consigue resistir porque es la primera potencia naval del mundo. Precisamente por eso los mares se convierten en un crucial y estratégico campo de batalla. En el Atlántico, el Surprise, un navío inglés capitan...</desc>
+    <desc>Guerras napoleónicas, año 1805. Bonaparte domina Europa. Inglaterra consigue resistir porque es la primera potencia naval del mundo. Precisamente por eso los mares se convierten en un crucial y estratégico campo de batalla. En el Atlántico, el Surprise, un navío inglés capitaneado por Jack Aubrey (Crowe), es atacado por sorpresa por un buque de guerra francés. A pesar de los graves daños sufridos por la nave, Aubrey decide navegar a través de dos mares para interceptar y capturar al enemigo. Se trata de una misión que puede determinar el destino de toda una nación.</desc>
+    <credits>
+      <director>Peter Weir</director>
+      <actor>Russell Crowe</actor>
+      <actor>Paul Bettany</actor>
+      <actor>James D&#x27;Arcy</actor>
+      <actor>Robert Pugh</actor>
+      <actor>David Threlfall</actor>
+      <actor>Lee Ingleby</actor>
+      <actor>Max Pirkis</actor>
+      <actor>Max Benitz</actor>
+    </credits>
+    <date>2003</date>
     <category>Aventura</category>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0992_fallback.jpg" />
+    <country>Estados Unidos</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/capitandemaryguerralacostamaslejanadelmundo.jpg" />
   </programme>
   <programme start="20261127190900 -0300" stop="20261127194200 -0300" channel="0992">
     <title>Papás por Siempre</title>
@@ -949885,9 +950007,22 @@ No aparece en el programa ningún otro superhéroe de ficción, a excepción  de
   </programme>
   <programme start="20261128190700 -0300" stop="20261128194500 -0300" channel="0992">
     <title>Hitchcok, el maestro del suspenso</title>
-    <desc>En la cima de su carrera como director, Alfred Hitchcock decide filmar una película de terror aparentemente de baja categoría. Ningún estudio apoya el proyecto, así que Hitchcock decide financiarlo él mismo y rodarla con un equipo barato de TV. El resultado fue un fenómeno int...</desc>
+    <desc>En la cima de su carrera como director, Alfred Hitchcock decide filmar una película de terror aparentemente de baja categoría. Ningún estudio apoya el proyecto, así que Hitchcock decide financiarlo él mismo y rodarla con un equipo barato de TV. El resultado fue un fenómeno internacional y una de las películas más famosas e influyentes de la historia.</desc>
+    <credits>
+      <director>Sacha Gervasi</director>
+      <actor>Anthony Hopkins</actor>
+      <actor>Helen Mirren</actor>
+      <actor>Scarlett Johansson</actor>
+      <actor>Danny Huston</actor>
+      <actor>Toni Collette</actor>
+      <actor>Michael Stuhlbarg</actor>
+      <actor>Michael Wincott</actor>
+      <actor>Jessica Biel</actor>
+    </credits>
+    <date>2012</date>
     <category>Drama</category>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0992_fallback.jpg" />
+    <country>Estados Unidos</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/hitchcokelmaestrodelsuspenso.jpg" />
   </programme>
   <programme start="20261128194500 -0300" stop="20261128204400 -0300" channel="0992">
     <title>Cruella</title>
@@ -950134,9 +950269,22 @@ No aparece en el programa ningún otro superhéroe de ficción, a excepción  de
   </programme>
   <programme start="20261129115900 -0300" stop="20261129133600 -0300" channel="0992">
     <title>Hitchcok, el maestro del suspenso</title>
-    <desc>En la cima de su carrera como director, Alfred Hitchcock decide filmar una película de terror aparentemente de baja categoría. Ningún estudio apoya el proyecto, así que Hitchcock decide financiarlo él mismo y rodarla con un equipo barato de TV. El resultado fue un fenómeno int...</desc>
+    <desc>En la cima de su carrera como director, Alfred Hitchcock decide filmar una película de terror aparentemente de baja categoría. Ningún estudio apoya el proyecto, así que Hitchcock decide financiarlo él mismo y rodarla con un equipo barato de TV. El resultado fue un fenómeno internacional y una de las películas más famosas e influyentes de la historia.</desc>
+    <credits>
+      <director>Sacha Gervasi</director>
+      <actor>Anthony Hopkins</actor>
+      <actor>Helen Mirren</actor>
+      <actor>Scarlett Johansson</actor>
+      <actor>Danny Huston</actor>
+      <actor>Toni Collette</actor>
+      <actor>Michael Stuhlbarg</actor>
+      <actor>Michael Wincott</actor>
+      <actor>Jessica Biel</actor>
+    </credits>
+    <date>2012</date>
     <category>Drama</category>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0992_fallback.jpg" />
+    <country>Estados Unidos</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/hitchcokelmaestrodelsuspenso.jpg" />
   </programme>
   <programme start="20261129133600 -0300" stop="20261129140400 -0300" channel="0992">
     <title>Everest</title>
@@ -989994,25 +990142,24 @@ Andrés Gil</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/ar0028_fallback.jpg" />
   </programme>
   <programme start="20261125033000 -0300" stop="20261125043000 -0300" channel="ar0028">
-    <title>Marimar</title>
-    <desc>Una joven que fue criada por sus abuelos, encuentra a un joven rico que la utiliza y que más adelante descubre el amor por ella.</desc>
+    <title>María, la del barrio</title>
+    <desc>Una muchacha humilde, hermosa y carismática que creció en la pobreza se dedica a ser recolectora en los basureros de la ciudad, pero el destino la llevará como sirvienta en la casa de la familia De la Vega en donde conoce al hombre de sus sueños.</desc>
     <credits>
       <director>Beatriz Sheridan</director>
       <actor>Thalía</actor>
-      <actor>Eduardo Capetillo</actor>
-      <actor>Chantal Andere</actor>
-      <actor>Alfonso Iturralde</actor>
-      <actor>Tito Guizar</actor>
-      <actor>Ada Carrasco</actor>
+      <actor>Fernando Colunga</actor>
+      <actor>Irán Eory</actor>
+      <actor>Ricardo Blume</actor>
+      <actor>Carmen Salinas</actor>
+      <actor>Ana Patricia Rojo</actor>
       <actor>René Muñoz</actor>
-      <actor>Miguel Palmer</actor>
-      <actor>Inés Rodena</actor>
+      <actor>Itatí Cantoral</actor>
+      <actor>Hector Soberón</actor>
     </credits>
-    <date>1994</date>
+    <date>1995</date>
     <category>Novela</category>
-    <country>México</country>
     <rating><value>PG-13</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/marimar.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/marialadelbarrio.jpg" />
   </programme>
   <programme start="20261125043000 -0300" stop="20261125050000 -0300" channel="ar0028">
     <title>Cucinare</title>
@@ -990365,25 +990512,24 @@ Andrés Gil</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/ar0028_fallback.jpg" />
   </programme>
   <programme start="20261126033000 -0300" stop="20261126043000 -0300" channel="ar0028">
-    <title>Marimar</title>
-    <desc>Una joven que fue criada por sus abuelos, encuentra a un joven rico que la utiliza y que más adelante descubre el amor por ella.</desc>
+    <title>María, la del barrio</title>
+    <desc>Una muchacha humilde, hermosa y carismática que creció en la pobreza se dedica a ser recolectora en los basureros de la ciudad, pero el destino la llevará como sirvienta en la casa de la familia De la Vega en donde conoce al hombre de sus sueños.</desc>
     <credits>
       <director>Beatriz Sheridan</director>
       <actor>Thalía</actor>
-      <actor>Eduardo Capetillo</actor>
-      <actor>Chantal Andere</actor>
-      <actor>Alfonso Iturralde</actor>
-      <actor>Tito Guizar</actor>
-      <actor>Ada Carrasco</actor>
+      <actor>Fernando Colunga</actor>
+      <actor>Irán Eory</actor>
+      <actor>Ricardo Blume</actor>
+      <actor>Carmen Salinas</actor>
+      <actor>Ana Patricia Rojo</actor>
       <actor>René Muñoz</actor>
-      <actor>Miguel Palmer</actor>
-      <actor>Inés Rodena</actor>
+      <actor>Itatí Cantoral</actor>
+      <actor>Hector Soberón</actor>
     </credits>
-    <date>1994</date>
+    <date>1995</date>
     <category>Novela</category>
-    <country>México</country>
     <rating><value>PG-13</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/marimar.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/marialadelbarrio.jpg" />
   </programme>
   <programme start="20261126043000 -0300" stop="20261126050000 -0300" channel="ar0028">
     <title>Cucinare</title>
