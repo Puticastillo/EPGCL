@@ -2045,7 +2045,10 @@
       const name = nameEl ? nameEl.textContent.trim() : id;
 
       const iconEl = ch.getElementsByTagName("icon")[0];
-      const icon = iconEl ? iconEl.getAttribute("src") : "";
+      let icon = iconEl ? (iconEl.getAttribute("src") || "") : "";
+      if (icon && icon.includes("/pedro/")) {
+        icon = icon.replace("/pedro/", "/burns/");
+      }
 
       const isAdult = /adult|porn|xxx|venus|playboy|sextreme|hot\s*pack|hustler/i.test(name) || /adult|xxx/i.test(id);
 

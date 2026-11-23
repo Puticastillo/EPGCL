@@ -425,8 +425,8 @@ body.header-hidden #appContainer {
 }
 
 .hero-ch-logo {
-  width: 22px;
-  height: 22px;
+  width: 32px;
+  height: 24px;
   object-fit: contain;
   flex-shrink: 0;
 }
@@ -750,15 +750,14 @@ body.header-hidden #appContainer {
 
 .emision-ch-logo-badge {
   position: absolute;
-  top: 8px;
+  top: 6px;
   left: 8px;
   z-index: 2;
-  width: 38px;
-  height: 38px;
-  background: #131620;
-  border: 1px solid var(--border-subtle);
-  border-radius: 6px;
-  padding: 4px;
+  width: 54px;
+  height: 40px;
+  background: transparent;
+  border: none;
+  padding: 0;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -767,8 +766,8 @@ body.header-hidden #appContainer {
 .emision-ch-logo {
   width: 100%;
   height: 100%;
-  max-width: 28px;
-  max-height: 28px;
+  max-width: 100%;
+  max-height: 100%;
   object-fit: contain;
 }
 
@@ -785,8 +784,8 @@ body.header-hidden #appContainer {
 }
 
 .emision-compact-logo {
-  width: 26px;
-  height: 26px;
+  width: 36px;
+  height: 27px;
   object-fit: contain;
   flex-shrink: 0;
 }
@@ -905,12 +904,12 @@ body.header-hidden #appContainer {
 }
 
 .list-ch-logo {
-  width: 42px;
+  width: 56px;
   height: 42px;
   object-fit: contain;
-  background: #10131c;
-  border-radius: 6px;
-  padding: 2px;
+  background: transparent;
+  border-radius: 4px;
+  padding: 0;
   flex-shrink: 0;
 }
 
@@ -1146,7 +1145,7 @@ body.header-hidden #appContainer {
 }
 
 .guide-ch-item img {
-  width: 30px;
+  width: 40px;
   height: 30px;
   object-fit: contain;
   flex-shrink: 0;
@@ -1200,7 +1199,7 @@ body.header-hidden #appContainer {
 }
 
 .guide-ch-logo {
-  width: 48px;
+  width: 64px;
   height: 48px;
   object-fit: contain;
 }
@@ -1390,8 +1389,8 @@ body.header-hidden #appContainer {
 }
 
 .quick-logo {
-  width: 38px;
-  height: 38px;
+  width: 52px;
+  height: 39px;
   object-fit: contain;
 }
 
@@ -1558,12 +1557,11 @@ body.header-hidden #appContainer {
 }
 
 .modal-banner-ch-badge {
-  width: 42px;
-  height: 42px;
-  background: #131620;
-  border: 1px solid var(--border-subtle);
-  border-radius: 6px;
-  padding: 4px;
+  width: 64px;
+  height: 48px;
+  background: transparent;
+  border: none;
+  padding: 0;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1573,8 +1571,8 @@ body.header-hidden #appContainer {
 .modal-banner-ch-logo {
   width: 100%;
   height: 100%;
-  max-width: 34px;
-  max-height: 34px;
+  max-width: 100%;
+  max-height: 100%;
   object-fit: contain;
 }
 
@@ -1622,12 +1620,12 @@ body.header-hidden #appContainer {
     gap: 6px;
   }
   .modal-banner-ch-badge {
-    width: 34px;
-    height: 34px;
+    width: 52px;
+    height: 39px;
   }
   .modal-banner-ch-logo {
-    max-width: 26px;
-    max-height: 26px;
+    max-width: 100%;
+    max-height: 100%;
   }
   .modal-banner-time-badge {
     height: 34px;
@@ -2103,12 +2101,11 @@ input:checked + .slider:before {
 }
 
 .search-ch-logo-wrap {
-  width: 52px;
-  height: 52px;
-  background: #10131c;
-  border: 1px solid var(--border-subtle);
-  border-radius: 6px;
-  padding: 4px;
+  width: 64px;
+  height: 48px;
+  background: transparent;
+  border: none;
+  padding: 0;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -2186,12 +2183,11 @@ input:checked + .slider:before {
 }
 
 .search-prog-ch-logo {
-  width: 44px;
-  height: 44px;
-  background: #10131c;
-  border: 1px solid var(--border-subtle);
-  border-radius: 6px;
-  padding: 4px;
+  width: 52px;
+  height: 39px;
+  background: transparent;
+  border: none;
+  padding: 0;
   flex-shrink: 0;
   display: flex;
   align-items: center;
@@ -2604,8 +2600,8 @@ input:checked + .slider:before {
   }
 
   .list-ch-logo {
-    width: 40px !important;
-    height: 40px !important;
+    width: 48px !important;
+    height: 36px !important;
   }
 
   .list-programs-col {
@@ -2681,12 +2677,11 @@ input:checked + .slider:before {
   }
 
   .guide-ch-logo {
-    width: 40px;
-    height: 40px;
+    width: 52px;
+    height: 39px;
     object-fit: contain;
-    border-radius: 6px;
-    background: #10131c;
-    padding: 2px;
+    background: transparent;
+    padding: 0;
     flex-shrink: 0;
   }
 
@@ -2921,12 +2916,11 @@ input:checked + .slider:before {
 }
 
 .channel-actions-logo {
-  width: 38px;
-  height: 38px;
+  width: 52px;
+  height: 39px;
   object-fit: contain;
-  border-radius: 6px;
-  background: var(--bg-card);
-  padding: 3px;
+  background: transparent;
+  padding: 0;
   flex-shrink: 0;
 }
 
