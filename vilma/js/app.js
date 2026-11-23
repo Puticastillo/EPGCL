@@ -68,6 +68,9 @@
     el.favCount = document.getElementById('favCount');
     el.channelCounter = document.getElementById('channelCounter');
     el.liveClock = document.getElementById('liveClock');
+    el.btnThemeToggle = document.getElementById('btnThemeToggle');
+    el.iconThemeMoon = document.getElementById('iconThemeMoon');
+    el.iconThemeSun = document.getElementById('iconThemeSun');
     el.btnSettings = document.getElementById('btnSettings');
     el.chkFilterFavorites = document.getElementById('chkFilterFavorites');
     
@@ -2844,6 +2847,30 @@
     el.modalDetail.onclick = (e) => {
       if (e.target === el.modalDetail) closeModalDetail();
     };
+
+    // Selector de tema Claro (por defecto) / Oscuro
+    function syncThemeUI() {
+      const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+      if (el.iconThemeMoon) el.iconThemeMoon.classList.toggle('hidden', isDark);
+      if (el.iconThemeSun) el.iconThemeSun.classList.toggle('hidden', !isDark);
+      if (el.btnThemeToggle) {
+        el.btnThemeToggle.title = isDark ? 'Cambiar a modo claro' : 'Cambiar a modo oscuro';
+      }
+    }
+    syncThemeUI();
+    if (el.btnThemeToggle) {
+      el.btnThemeToggle.onclick = () => {
+        const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+        if (isDark) {
+          document.documentElement.removeAttribute('data-theme');
+          try { localStorage.setItem('epg_theme', 'light'); } catch (e) {}
+        } else {
+          document.documentElement.setAttribute('data-theme', 'dark');
+          try { localStorage.setItem('epg_theme', 'dark'); } catch (e) {}
+        }
+        syncThemeUI();
+      };
+    }
 
     // Modal Ajustes
     el.btnSettings.onclick = () => {
