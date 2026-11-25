@@ -835688,6 +835688,7 @@ Este drama se basó en una serie de cómics en la web llamada Nok Du Jeon, del a
     <title>Silent Rage</title>
     <desc>Un aguerrido sheriff cree que un caso está cerrado cuando sus hombres abaten a un psicópata asesino. Pero un científico perturbado lo revive y lo convierte en una indestructible máquina de matar. Entonces el sheriff deberá detenerlo.</desc>
     <credits>
+      <director>Michael Miller</director>
       <actor>Ron Silver</actor>
       <actor>Steven Keats</actor>
       <actor>Toni Kalem</actor>
@@ -835704,7 +835705,7 @@ Este drama se basó en una serie de cómics en la web llamada Nok Du Jeon, del a
     <date>1982</date>
     <category>Acción</category>
     <country>EE. UU</country>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0859_fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/silentrage.jpg" />
   </programme>
   <programme start="20261125142000 -0300" stop="20261125155000 -0300" channel="0859">
     <title>Deathgasm</title>
@@ -836083,7 +836084,7 @@ Este drama se basó en una serie de cómics en la web llamada Nok Du Jeon, del a
     <date>1977</date>
     <category>Aventura</category>
     <country>EE. UU</country>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0859_fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/thedeep.jpg" />
   </programme>
   <programme start="20261126225000 -0300" stop="20261126234000 -0300" channel="0859">
     <title>The Adventure of Denchu-Kozo</title>
@@ -836262,7 +836263,7 @@ Este drama se basó en una serie de cómics en la web llamada Nok Du Jeon, del a
     <date>1977</date>
     <category>Aventura</category>
     <country>EE. UU</country>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0859_fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/thedeep.jpg" />
   </programme>
   <programme start="20261127184000 -0300" stop="20261127200500 -0300" channel="0859">
     <title>Bad Milo</title>
@@ -847422,7 +847423,7 @@ Más allá del jardín (título original en inglés: Over the Garden Wall) es un
   </programme>
   <programme start="20261130090500 -0300" stop="20261130103000 -0300" channel="0870">
     <title>Cuba libre</title>
-    <desc>Un grupo de jóvenes entra en la embajada de Cuba en Madrid justo cuando Fidel Castro anuncia en la televisión las primeras elecciones democráticas.</desc>
+    <desc>Varios jóvenes okupas son desalojados mientras estaban celebrando el 80 cumpleaños de un anciano que vive con ellos. Huyendo de la policía acaban refugiándose en la embajada de Cuba en Madrid, justo en el momento en que se anuncian elecciones libres en aquel país. Los funcionarios de la embajada, para evitar la avalancha de periodistas, deciden cerrar las puertas, dejando dentro a los okupas.</desc>
     <credits>
       <director>Raimundo García</director>
       <actor>Mario Arias</actor>
@@ -847434,6 +847435,7 @@ Más allá del jardín (título original en inglés: Over the Garden Wall) es un
     <date>2005</date>
     <category>Movie</category>
     <category>Comedy</category>
+    <country>España</country>
     <rating><value>G</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/cubalibre.jpg" />
   </programme>
@@ -916286,9 +916288,22 @@ Profesor Jorquel Es el responsable del perfeccionamiento cibernético de Galáct
   </programme>
   <programme start="20261201034100 -0300" stop="20261201055900 -0300" channel="0986">
     <title>Logan: Wolverine</title>
-    <desc>Sin sus poderes, por primera vez, Wolverine es verdaderamente vulnerable. Después de una vida de dolor y angustia, sin rumbo y perdido en el mundo donde los X-Men son leyenda, su mentor Charles Xavier lo convence de asumir una última misión: proteger a una joven que será la ún...</desc>
+    <desc>Sin sus poderes, por primera vez, Wolverine es verdaderamente vulnerable. Después de una vida de dolor y angustia, sin rumbo y perdido en el mundo donde los X-Men son leyenda, su mentor Charles Xavier lo convence de asumir una última misión: proteger a una joven que será la única esperanza para la raza mutante… Tercera y última película protagonizada por Hugh Jackman en el papel de Wolverine.</desc>
+    <credits>
+      <director>James Mangold</director>
+      <actor>Hugh Jackman</actor>
+      <actor>Dafne Keen</actor>
+      <actor>Patrick Stewart</actor>
+      <actor>Elizabeth Rodriguez</actor>
+      <actor>Boyd Holbrook</actor>
+      <actor>Stephen Merchant</actor>
+      <actor>Richard E. Grant</actor>
+      <actor>Stephen Dunlevy</actor>
+    </credits>
+    <date>2017</date>
     <category>Acción</category>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0986_fallback.jpg" />
+    <country>Estados Unidos</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/loganwolverine.jpg" />
   </programme>
   <programme start="20261201055900 -0300" stop="20261201080900 -0300" channel="0986">
     <title>The King&#x27;s Man: El Origen</title>
