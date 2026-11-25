@@ -24546,7 +24546,7 @@ La serie refleja también la compleja situación de la ciudad de Miami, combinan
   <programme start="20261125030000 -0300" stop="20261125040000 -0300" channel="0123">
     <title>Hawaii Five-0</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0123_fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/hawaiifive0.jpg" />
   </programme>
   <programme start="20261125040000 -0300" stop="20261125060000 -0300" channel="0123">
     <title>Home Cine De Trasnoche</title>
@@ -24776,7 +24776,7 @@ No aparece en el programa ningún otro superhéroe de ficción, a excepción  de
   <programme start="20261126030000 -0300" stop="20261126040000 -0300" channel="0123">
     <title>Hawaii Five-0</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0123_fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/hawaiifive0.jpg" />
   </programme>
   <programme start="20261126040000 -0300" stop="20261126060000 -0300" channel="0123">
     <title>Home Cine De Trasnoche</title>
@@ -24993,7 +24993,7 @@ No aparece en el programa ningún otro superhéroe de ficción, a excepción  de
   <programme start="20261127030000 -0300" stop="20261127040000 -0300" channel="0123">
     <title>Hawaii Five-0</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0123_fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/hawaiifive0.jpg" />
   </programme>
   <programme start="20261127040000 -0300" stop="20261127060000 -0300" channel="0123">
     <title>Home Cine De Trasnoche</title>
@@ -25721,7 +25721,7 @@ No aparece en el programa ningún otro superhéroe de ficción, a excepción  de
   <programme start="20261201030000 -0300" stop="20261201040000 -0300" channel="0123">
     <title>Hawaii Five-0</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0123_fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/hawaiifive0.jpg" />
   </programme>
   <programme start="20261201040000 -0300" stop="20261201060000 -0300" channel="0123">
     <title>Home Cine De Trasnoche</title>
@@ -599765,11 +599765,23 @@ Diarios de un nómada es adrenalina, paisajes y experiencias, pero también Hist
   </programme>
   <programme start="20261126080000 -0300" stop="20261126100500 -0300" channel="0802">
     <title>Cuarto de guerra</title>
-    <desc>Tony y Elizabeth Jordan lo tienen todo, grandes puestos de trabajo, una hermosa hija, y su casa de ensueño. Pero las apariencias pueden ser engañosas; el mundo, en realidad, se está desmoronando bajo el peso de un matrimonio fracasado.</desc>
+    <desc>Una familia aparentemente perfecta lo tiene todo: buenos trabajos, una bella hija, una casa ideal. Pero las apariencias engañan. Su matrimonio se convirtió en una zona de guerra y la hija es daño colateral. Con la ayuda de la oración y de Clara, una mujer anciana y sabia, la esposa descubre que puede luchar por su familia en vez de contra ellos.</desc>
+    <credits>
+      <director>Alex Kendrick</director>
+      <actor>Karen Abercrombie</actor>
+      <actor>Priscilla C. Shirer</actor>
+      <actor>T.C. Stallings</actor>
+      <actor>Tenae Downing</actor>
+      <actor>Alena Pitts</actor>
+      <actor>Michael Jr.</actor>
+      <actor>Jadin Harris</actor>
+      <actor>Alex Kendrick</actor>
+    </credits>
     <date>2015</date>
     <category>Drama</category>
+    <country>Estados Unidos</country>
     <rating><value>6.3</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0802_fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/cuartodeguerra.jpg" />
   </programme>
   <programme start="20261126100500 -0300" stop="20261126120000 -0300" channel="0802">
     <title>Sin rastro</title>
@@ -612467,7 +612479,7 @@ Diarios de un nómada es adrenalina, paisajes y experiencias, pero también Hist
   </programme>
   <programme start="20261127031500 -0300" stop="20261127045300 -0300" channel="1805">
     <title>Venom 2: Carnage liberado</title>
-    <desc>Después de encontrar un cuerpo anfitrión en el periodista de investigación Eddie Brock, el simbionte alienígena debe enfrentarse a un nuevo enemigo, Carnage, el alter ego del asesino en serie Cletus Kasady.</desc>
+    <desc>Eddie Brock y su simbionte Venom todavía están intentando descubrir cómo vivir juntos cuando un preso que está en el corredor de la muerte se infecta con un simbionte propio.</desc>
     <credits>
       <director>Andy Serkis</director>
       <actor>Tom Hardy</actor>
@@ -612497,6 +612509,7 @@ Diarios de un nómada es adrenalina, paisajes y experiencias, pero también Hist
     <category>Fantasy</category>
     <category>Science fiction</category>
     <category>Comedy</category>
+    <country>Estados Unidos</country>
     <rating><value>B</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/venom2carnageliberado.jpg" />
   </programme>
@@ -613026,7 +613039,7 @@ Diarios de un nómada es adrenalina, paisajes y experiencias, pero también Hist
   </programme>
   <programme start="20261128110100 -0300" stop="20261128124700 -0300" channel="1805">
     <title>Venom 2: Carnage liberado</title>
-    <desc>Después de encontrar un cuerpo anfitrión en el periodista de investigación Eddie Brock, el simbionte alienígena debe enfrentarse a un nuevo enemigo, Carnage, el alter ego del asesino en serie Cletus Kasady.</desc>
+    <desc>Eddie Brock y su simbionte Venom todavía están intentando descubrir cómo vivir juntos cuando un preso que está en el corredor de la muerte se infecta con un simbionte propio.</desc>
     <credits>
       <director>Andy Serkis</director>
       <actor>Tom Hardy</actor>
@@ -613056,6 +613069,7 @@ Diarios de un nómada es adrenalina, paisajes y experiencias, pero también Hist
     <category>Fantasy</category>
     <category>Science fiction</category>
     <category>Comedy</category>
+    <country>Estados Unidos</country>
     <rating><value>B</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/venom2carnageliberado.jpg" />
   </programme>
@@ -804551,9 +804565,10 @@ No aparece en el programa ningún otro superhéroe de ficción, a excepción  de
     <date>2012</date>
     <category>Drama</category>
     <category>Crimen</category>
+    <country>Estados Unidos</country>
     <episode-num system="onscreen">T3 E4</episode-num>
     <rating><value>14</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0847_fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/hawaiifive0.jpg" />
   </programme>
   <programme start="20261124193000 -0300" stop="20261124202000 -0300" channel="1847">
     <title>Hawaii Five-0 • Offering</title>
@@ -804571,9 +804586,10 @@ No aparece en el programa ningún otro superhéroe de ficción, a excepción  de
     <date>2012</date>
     <category>Drama</category>
     <category>Crimen</category>
+    <country>Estados Unidos</country>
     <episode-num system="onscreen">T3 E5</episode-num>
     <rating><value>14</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0847_fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/hawaiifive0.jpg" />
   </programme>
   <programme start="20261124202000 -0300" stop="20261124211000 -0300" channel="1847">
     <title>Hawaii Five-0 • In a Time Past</title>
@@ -804591,9 +804607,10 @@ No aparece en el programa ningún otro superhéroe de ficción, a excepción  de
     <date>2012</date>
     <category>Drama</category>
     <category>Crimen</category>
+    <country>Estados Unidos</country>
     <episode-num system="onscreen">T3 E6</episode-num>
     <rating><value>14</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0847_fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/hawaiifive0.jpg" />
   </programme>
   <programme start="20261124211000 -0300" stop="20261124220500 -0300" channel="1847">
     <title>Criminal Minds • Sex, Birth, Death</title>
@@ -804754,9 +804771,10 @@ No aparece en el programa ningún otro superhéroe de ficción, a excepción  de
     <date>2012</date>
     <category>Drama</category>
     <category>Crimen</category>
+    <country>Estados Unidos</country>
     <episode-num system="onscreen">T3 E4</episode-num>
     <rating><value>14</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0847_fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/hawaiifive0.jpg" />
   </programme>
   <programme start="20261125031500 -0300" stop="20261125040500 -0300" channel="1847">
     <title>Hawaii Five-0 • Offering</title>
@@ -804774,9 +804792,10 @@ No aparece en el programa ningún otro superhéroe de ficción, a excepción  de
     <date>2012</date>
     <category>Drama</category>
     <category>Crimen</category>
+    <country>Estados Unidos</country>
     <episode-num system="onscreen">T3 E5</episode-num>
     <rating><value>14</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0847_fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/hawaiifive0.jpg" />
   </programme>
   <programme start="20261125040500 -0300" stop="20261125050000 -0300" channel="1847">
     <title>Hawaii Five-0 • In a Time Past</title>
@@ -804794,9 +804813,10 @@ No aparece en el programa ningún otro superhéroe de ficción, a excepción  de
     <date>2012</date>
     <category>Drama</category>
     <category>Crimen</category>
+    <country>Estados Unidos</country>
     <episode-num system="onscreen">T3 E6</episode-num>
     <rating><value>14</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0847_fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/hawaiifive0.jpg" />
   </programme>
   <programme start="20261125050000 -0300" stop="20261125060000 -0300" channel="1847">
     <title>S.W.A.T • Whispers</title>
@@ -805184,9 +805204,10 @@ No aparece en el programa ningún otro superhéroe de ficción, a excepción  de
     <date>2012</date>
     <category>Drama</category>
     <category>Crimen</category>
+    <country>Estados Unidos</country>
     <episode-num system="onscreen">T3 E7</episode-num>
     <rating><value>14</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0847_fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/hawaiifive0.jpg" />
   </programme>
   <programme start="20261125193000 -0300" stop="20261125202000 -0300" channel="1847">
     <title>Hawaii Five-0 • Evil Woman</title>
@@ -805204,9 +805225,10 @@ No aparece en el programa ningún otro superhéroe de ficción, a excepción  de
     <date>2012</date>
     <category>Drama</category>
     <category>Crimen</category>
+    <country>Estados Unidos</country>
     <episode-num system="onscreen">T3 E8</episode-num>
     <rating><value>14</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0847_fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/hawaiifive0.jpg" />
   </programme>
   <programme start="20261125202000 -0300" stop="20261125211000 -0300" channel="1847">
     <title>Hawaii Five-0 • Death Wish</title>
@@ -805224,9 +805246,10 @@ No aparece en el programa ningún otro superhéroe de ficción, a excepción  de
     <date>2012</date>
     <category>Drama</category>
     <category>Crimen</category>
+    <country>Estados Unidos</country>
     <episode-num system="onscreen">T3 E9</episode-num>
     <rating><value>14</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0847_fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/hawaiifive0.jpg" />
   </programme>
   <programme start="20261125211000 -0300" stop="20261125220500 -0300" channel="1847">
     <title>Criminal Minds • No Way Out</title>
@@ -805390,9 +805413,10 @@ No aparece en el programa ningún otro superhéroe de ficción, a excepción  de
     <date>2012</date>
     <category>Drama</category>
     <category>Crimen</category>
+    <country>Estados Unidos</country>
     <episode-num system="onscreen">T3 E7</episode-num>
     <rating><value>14</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0847_fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/hawaiifive0.jpg" />
   </programme>
   <programme start="20261126032000 -0300" stop="20261126041000 -0300" channel="1847">
     <title>Hawaii Five-0 • Evil Woman</title>
@@ -805410,9 +805434,10 @@ No aparece en el programa ningún otro superhéroe de ficción, a excepción  de
     <date>2012</date>
     <category>Drama</category>
     <category>Crimen</category>
+    <country>Estados Unidos</country>
     <episode-num system="onscreen">T3 E8</episode-num>
     <rating><value>14</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0847_fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/hawaiifive0.jpg" />
   </programme>
   <programme start="20261126041000 -0300" stop="20261126050000 -0300" channel="1847">
     <title>Hawaii Five-0 • Death Wish</title>
@@ -805430,9 +805455,10 @@ No aparece en el programa ningún otro superhéroe de ficción, a excepción  de
     <date>2012</date>
     <category>Drama</category>
     <category>Crimen</category>
+    <country>Estados Unidos</country>
     <episode-num system="onscreen">T3 E9</episode-num>
     <rating><value>14</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0847_fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/hawaiifive0.jpg" />
   </programme>
   <programme start="20261126050000 -0300" stop="20261126060000 -0300" channel="1847">
     <title>NCIS: Criminología naval</title>
@@ -805822,9 +805848,10 @@ No aparece en el programa ningún otro superhéroe de ficción, a excepción  de
     <date>2012</date>
     <category>Drama</category>
     <category>Crimen</category>
+    <country>Estados Unidos</country>
     <episode-num system="onscreen">T3 E10</episode-num>
     <rating><value>14</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0847_fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/hawaiifive0.jpg" />
   </programme>
   <programme start="20261126193000 -0300" stop="20261126202000 -0300" channel="1847">
     <title>Hawaii Five-0 • Guardian</title>
@@ -805842,15 +805869,19 @@ No aparece en el programa ningún otro superhéroe de ficción, a excepción  de
     <date>2012</date>
     <category>Drama</category>
     <category>Crimen</category>
+    <country>Estados Unidos</country>
     <episode-num system="onscreen">T3 E11</episode-num>
     <rating><value>14</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0847_fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/hawaiifive0.jpg" />
   </programme>
   <programme start="20261126202000 -0300" stop="20261126211000 -0300" channel="1847">
     <title>Hawaii Five-0 • Forbidden</title>
     <sub-title>Forbidden</sub-title>
     <desc>Forbidden | Cuando un profesor es asesinado, su jefe, su asistente de enseñanza y un estudiante son sospechosos de su muerte.</desc>
     <credits>
+      <director>Roberto Orci</director>
+      <director>Alex Kurtzman</director>
+      <director>Peter M. Lenkov</director>
       <actor>Alex O&#x27;loughlin</actor>
       <actor>Scott Caan</actor>
       <actor>Daniel Dae Kim</actor>
@@ -805861,9 +805892,10 @@ No aparece en el programa ningún otro superhéroe de ficción, a excepción  de
     <date>2013</date>
     <category>Drama</category>
     <category>Crimen</category>
+    <country>Estados Unidos</country>
     <episode-num system="onscreen">T3 E12</episode-num>
     <rating><value>14</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0847_fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/hawaiifive0.jpg" />
   </programme>
   <programme start="20261126211000 -0300" stop="20261126220500 -0300" channel="1847">
     <title>Criminal Minds • The Big Game</title>
@@ -806017,9 +806049,10 @@ No aparece en el programa ningún otro superhéroe de ficción, a excepción  de
     <date>2012</date>
     <category>Drama</category>
     <category>Crimen</category>
+    <country>Estados Unidos</country>
     <episode-num system="onscreen">T3 E10</episode-num>
     <rating><value>14</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0847_fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/hawaiifive0.jpg" />
   </programme>
   <programme start="20261127031000 -0300" stop="20261127040500 -0300" channel="1847">
     <title>Hawaii Five-0 • Guardian</title>
@@ -806037,15 +806070,19 @@ No aparece en el programa ningún otro superhéroe de ficción, a excepción  de
     <date>2012</date>
     <category>Drama</category>
     <category>Crimen</category>
+    <country>Estados Unidos</country>
     <episode-num system="onscreen">T3 E11</episode-num>
     <rating><value>14</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0847_fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/hawaiifive0.jpg" />
   </programme>
   <programme start="20261127040500 -0300" stop="20261127050000 -0300" channel="1847">
     <title>Hawaii Five-0 • Forbidden</title>
     <sub-title>Forbidden</sub-title>
     <desc>Forbidden | Cuando un profesor es asesinado, su jefe, su asistente de enseñanza y un estudiante son sospechosos de su muerte.</desc>
     <credits>
+      <director>Roberto Orci</director>
+      <director>Alex Kurtzman</director>
+      <director>Peter M. Lenkov</director>
       <actor>Alex O&#x27;loughlin</actor>
       <actor>Scott Caan</actor>
       <actor>Daniel Dae Kim</actor>
@@ -806056,9 +806093,10 @@ No aparece en el programa ningún otro superhéroe de ficción, a excepción  de
     <date>2013</date>
     <category>Drama</category>
     <category>Crimen</category>
+    <country>Estados Unidos</country>
     <episode-num system="onscreen">T3 E12</episode-num>
     <rating><value>14</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0847_fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/hawaiifive0.jpg" />
   </programme>
   <programme start="20261127050000 -0300" stop="20261127060000 -0300" channel="1847">
     <title>Hudson &amp; Rex • Jail Break</title>
@@ -806437,9 +806475,10 @@ No aparece en el programa ningún otro superhéroe de ficción, a excepción  de
     <date>2013</date>
     <category>Drama</category>
     <category>Crimen</category>
+    <country>Estados Unidos</country>
     <episode-num system="onscreen">T3 E13</episode-num>
     <rating><value>14</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0847_fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/hawaiifive0.jpg" />
   </programme>
   <programme start="20261127193000 -0300" stop="20261127202000 -0300" channel="1847">
     <title>Hawaii Five-0 • Scandal</title>
@@ -806457,9 +806496,10 @@ No aparece en el programa ningún otro superhéroe de ficción, a excepción  de
     <date>2013</date>
     <category>Drama</category>
     <category>Crimen</category>
+    <country>Estados Unidos</country>
     <episode-num system="onscreen">T3 E14</episode-num>
     <rating><value>14</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0847_fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/hawaiifive0.jpg" />
   </programme>
   <programme start="20261127202000 -0300" stop="20261127211000 -0300" channel="1847">
     <title>Hawaii Five-0 • Hookman</title>
@@ -806477,9 +806517,10 @@ No aparece en el programa ningún otro superhéroe de ficción, a excepción  de
     <date>2013</date>
     <category>Drama</category>
     <category>Crimen</category>
+    <country>Estados Unidos</country>
     <episode-num system="onscreen">T3 E15</episode-num>
     <rating><value>14</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0847_fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/hawaiifive0.jpg" />
   </programme>
   <programme start="20261127211000 -0300" stop="20261127220500 -0300" channel="1847">
     <title>Criminal Minds • Distress</title>
@@ -806641,9 +806682,10 @@ No aparece en el programa ningún otro superhéroe de ficción, a excepción  de
     <date>2013</date>
     <category>Drama</category>
     <category>Crimen</category>
+    <country>Estados Unidos</country>
     <episode-num system="onscreen">T3 E13</episode-num>
     <rating><value>14</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0847_fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/hawaiifive0.jpg" />
   </programme>
   <programme start="20261128032000 -0300" stop="20261128041000 -0300" channel="1847">
     <title>Hawaii Five-0 • Scandal</title>
@@ -806661,9 +806703,10 @@ No aparece en el programa ningún otro superhéroe de ficción, a excepción  de
     <date>2013</date>
     <category>Drama</category>
     <category>Crimen</category>
+    <country>Estados Unidos</country>
     <episode-num system="onscreen">T3 E14</episode-num>
     <rating><value>14</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0847_fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/hawaiifive0.jpg" />
   </programme>
   <programme start="20261128041000 -0300" stop="20261128050000 -0300" channel="1847">
     <title>Hawaii Five-0 • Hookman</title>
@@ -806681,9 +806724,10 @@ No aparece en el programa ningún otro superhéroe de ficción, a excepción  de
     <date>2013</date>
     <category>Drama</category>
     <category>Crimen</category>
+    <country>Estados Unidos</country>
     <episode-num system="onscreen">T3 E15</episode-num>
     <rating><value>14</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0847_fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/hawaiifive0.jpg" />
   </programme>
   <programme start="20261128050000 -0300" stop="20261128060000 -0300" channel="1847">
     <title>9-1-1 • In Another Life</title>
@@ -808286,9 +808330,10 @@ No aparece en el programa ningún otro superhéroe de ficción, a excepción  de
     <date>2013</date>
     <category>Drama</category>
     <category>Crimen</category>
+    <country>Estados Unidos</country>
     <episode-num system="onscreen">T3 E16</episode-num>
     <rating><value>14</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0847_fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/hawaiifive0.jpg" />
   </programme>
   <programme start="20261130193000 -0300" stop="20261130202000 -0300" channel="1847">
     <title>Hawaii Five-0 • The Game</title>
@@ -808306,9 +808351,10 @@ No aparece en el programa ningún otro superhéroe de ficción, a excepción  de
     <date>2013</date>
     <category>Drama</category>
     <category>Crimen</category>
+    <country>Estados Unidos</country>
     <episode-num system="onscreen">T3 E17</episode-num>
     <rating><value>14</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0847_fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/hawaiifive0.jpg" />
   </programme>
   <programme start="20261130202000 -0300" stop="20261130211000 -0300" channel="1847">
     <title>Hawaii Five-0 • Dolls</title>
@@ -808326,9 +808372,10 @@ No aparece en el programa ningún otro superhéroe de ficción, a excepción  de
     <date>2013</date>
     <category>Drama</category>
     <category>Crimen</category>
+    <country>Estados Unidos</country>
     <episode-num system="onscreen">T3 E18</episode-num>
     <rating><value>14</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0847_fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/hawaiifive0.jpg" />
   </programme>
   <programme start="20261130211000 -0300" stop="20261130220500 -0300" channel="1847">
     <title>Criminal Minds • Ashes and Dust</title>
@@ -808428,9 +808475,10 @@ No aparece en el programa ningún otro superhéroe de ficción, a excepción  de
     <date>2012</date>
     <category>Drama</category>
     <category>Crimen</category>
+    <country>Estados Unidos</country>
     <episode-num system="onscreen">T2 E14</episode-num>
     <rating><value>14</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0847_fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/hawaiifive0.jpg" />
   </programme>
   <programme start="20261201014000 -0300" stop="20261201023000 -0300" channel="1847">
     <title>Csi • Angle of Attack</title>
@@ -808474,9 +808522,10 @@ No aparece en el programa ningún otro superhéroe de ficción, a excepción  de
     <date>2013</date>
     <category>Drama</category>
     <category>Crimen</category>
+    <country>Estados Unidos</country>
     <episode-num system="onscreen">T3 E16</episode-num>
     <rating><value>14</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0847_fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/hawaiifive0.jpg" />
   </programme>
   <programme start="20261201032000 -0300" stop="20261201041000 -0300" channel="1847">
     <title>Hawaii Five-0 • The Game</title>
@@ -808494,9 +808543,10 @@ No aparece en el programa ningún otro superhéroe de ficción, a excepción  de
     <date>2013</date>
     <category>Drama</category>
     <category>Crimen</category>
+    <country>Estados Unidos</country>
     <episode-num system="onscreen">T3 E17</episode-num>
     <rating><value>14</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0847_fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/hawaiifive0.jpg" />
   </programme>
   <programme start="20261201041000 -0300" stop="20261201050000 -0300" channel="1847">
     <title>Hawaii Five-0 • Dolls</title>
@@ -808514,9 +808564,10 @@ No aparece en el programa ningún otro superhéroe de ficción, a excepción  de
     <date>2013</date>
     <category>Drama</category>
     <category>Crimen</category>
+    <country>Estados Unidos</country>
     <episode-num system="onscreen">T3 E18</episode-num>
     <rating><value>14</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0847_fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/hawaiifive0.jpg" />
   </programme>
   <programme start="20261201050000 -0300" stop="20261201060000 -0300" channel="1847">
     <title>Criminal Minds</title>
@@ -808572,9 +808623,10 @@ No aparece en el programa ningún otro superhéroe de ficción, a excepción  de
     <date>2012</date>
     <category>Drama</category>
     <category>Crimen</category>
+    <country>Estados Unidos</country>
     <episode-num system="onscreen">T2 E14</episode-num>
     <rating><value>14</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0847_fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/hawaiifive0.jpg" />
   </programme>
   <programme start="20261201080000 -0300" stop="20261201090000 -0300" channel="1847">
     <title>NCIS: Los Angeles</title>
@@ -808734,6 +808786,9 @@ No aparece en el programa ningún otro superhéroe de ficción, a excepción  de
     <title>Hawaii Five-0</title>
     <desc>Un grupo de detectives son parte de un grupo élite en el estado de Hawái cuya misión es eliminar el crimen en las playas.</desc>
     <credits>
+      <director>Roberto Orci</director>
+      <director>Alex Kurtzman</director>
+      <director>Peter M. Lenkov</director>
       <actor>Alex O&#x27;loughlin</actor>
       <actor>Scott Caan</actor>
       <actor>Chi McBride</actor>
@@ -808748,8 +808803,9 @@ No aparece en el programa ningún otro superhéroe de ficción, a excepción  de
     <date>2010</date>
     <category>Drama</category>
     <category>Crimen</category>
+    <country>Estados Unidos</country>
     <rating><value>14</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0847_fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/hawaiifive0.jpg" />
   </programme>
   <programme start="20261201211000 -0300" stop="20261201230000 -0300" channel="1847">
     <title>Criminal Minds</title>
@@ -810132,19 +810188,49 @@ No aparece en el programa ningún otro superhéroe de ficción, a excepción  de
     <title>Hawaii Five-0 • Close Friend</title>
     <sub-title>Close Friend</sub-title>
     <desc>Close Friend | El equipo debe identificar a un sospechoso que amenaza a una empresa que perjudica la vida de los tiburones con su trabajo.</desc>
+    <credits>
+      <director>Roberto Orci</director>
+      <director>Alex Kurtzman</director>
+      <director>Peter M. Lenkov</director>
+      <actor>Alex O&#x27;Loughlin</actor>
+      <actor>Scott Caan</actor>
+      <actor>Ian Anthony Dale</actor>
+      <actor>Meaghan Rath</actor>
+      <actor>Beulah Koale</actor>
+      <actor>Dennis Chun</actor>
+      <actor>Kimee Balmilero</actor>
+      <actor>Chi McBride</actor>
+    </credits>
+    <date>2010</date>
     <category>Crime drama</category>
+    <country>Estados Unidos</country>
     <episode-num system="onscreen">S03E19</episode-num>
     <rating><value>TV14</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0847_fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/hawaiifive0.jpg" />
   </programme>
   <programme start="20261125051000 -0300" stop="20261125060000 -0300" channel="3847">
     <title>Hawaii Five-0 • The Promise</title>
     <sub-title>The Promise</sub-title>
     <desc>The Promise | McGarrett cuenta la historia de su última misión en Corea del Norte mientras él y Catherine cruzan al país para recuperar los restos de un amigo.</desc>
+    <credits>
+      <director>Roberto Orci</director>
+      <director>Alex Kurtzman</director>
+      <director>Peter M. Lenkov</director>
+      <actor>Alex O&#x27;Loughlin</actor>
+      <actor>Scott Caan</actor>
+      <actor>Ian Anthony Dale</actor>
+      <actor>Meaghan Rath</actor>
+      <actor>Beulah Koale</actor>
+      <actor>Dennis Chun</actor>
+      <actor>Kimee Balmilero</actor>
+      <actor>Chi McBride</actor>
+    </credits>
+    <date>2010</date>
     <category>Crime drama</category>
+    <country>Estados Unidos</country>
     <episode-num system="onscreen">S03E20</episode-num>
     <rating><value>TV14</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0847_fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/hawaiifive0.jpg" />
   </programme>
   <programme start="20261125060000 -0300" stop="20261125070000 -0300" channel="3847">
     <title>Unforgettable • Instintos</title>
@@ -810291,19 +810377,49 @@ No aparece en el programa ningún otro superhéroe de ficción, a excepción  de
     <title>Hawaii Five-0 • Seek Within One&#x27;s Soul</title>
     <sub-title>Seek Within One&#x27;s Soul</sub-title>
     <desc>Seek Within One&#x27;s Soul | Steve y el equipo le permiten a una conductora de televisión y a su equipo seguirlos durante un día, pero un encuentro con Wo Fat los pone en peligro.</desc>
+    <credits>
+      <director>Roberto Orci</director>
+      <director>Alex Kurtzman</director>
+      <director>Peter M. Lenkov</director>
+      <actor>Alex O&#x27;Loughlin</actor>
+      <actor>Scott Caan</actor>
+      <actor>Ian Anthony Dale</actor>
+      <actor>Meaghan Rath</actor>
+      <actor>Beulah Koale</actor>
+      <actor>Dennis Chun</actor>
+      <actor>Kimee Balmilero</actor>
+      <actor>Chi McBride</actor>
+    </credits>
+    <date>2010</date>
     <category>Crime drama</category>
+    <country>Estados Unidos</country>
     <episode-num system="onscreen">S03E21</episode-num>
     <rating><value>TV14</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0847_fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/hawaiifive0.jpg" />
   </programme>
   <programme start="20261125192000 -0300" stop="20261125201500 -0300" channel="3847">
     <title>Hawaii Five-0 • To Take Captive</title>
     <sub-title>To Take Captive</sub-title>
     <desc>To Take Captive | El cuerpo de una niña es encontrado después de haber sido secuestrada diez años atrás. El equipo busca a los culpables, que ya tienen a otra víctima en su poder. Kono le pide a Catherine un favor que podría afectar su relación con Adam.</desc>
+    <credits>
+      <director>Roberto Orci</director>
+      <director>Alex Kurtzman</director>
+      <director>Peter M. Lenkov</director>
+      <actor>Alex O&#x27;Loughlin</actor>
+      <actor>Scott Caan</actor>
+      <actor>Ian Anthony Dale</actor>
+      <actor>Meaghan Rath</actor>
+      <actor>Beulah Koale</actor>
+      <actor>Dennis Chun</actor>
+      <actor>Kimee Balmilero</actor>
+      <actor>Chi McBride</actor>
+    </credits>
+    <date>2010</date>
     <category>Crime drama</category>
+    <country>Estados Unidos</country>
     <episode-num system="onscreen">S03E22</episode-num>
     <rating><value>TV14</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0847_fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/hawaiifive0.jpg" />
   </programme>
   <programme start="20261125201500 -0300" stop="20261125211000 -0300" channel="3847">
     <title>S.W.A.T • Lion&#x27;s Share</title>
@@ -810424,19 +810540,49 @@ No aparece en el programa ningún otro superhéroe de ficción, a excepción  de
     <title>Hawaii Five-0 • Seek Within One&#x27;s Soul</title>
     <sub-title>Seek Within One&#x27;s Soul</sub-title>
     <desc>Seek Within One&#x27;s Soul | Steve y el equipo le permiten a una conductora de televisión y a su equipo seguirlos durante un día, pero un encuentro con Wo Fat los pone en peligro.</desc>
+    <credits>
+      <director>Roberto Orci</director>
+      <director>Alex Kurtzman</director>
+      <director>Peter M. Lenkov</director>
+      <actor>Alex O&#x27;Loughlin</actor>
+      <actor>Scott Caan</actor>
+      <actor>Ian Anthony Dale</actor>
+      <actor>Meaghan Rath</actor>
+      <actor>Beulah Koale</actor>
+      <actor>Dennis Chun</actor>
+      <actor>Kimee Balmilero</actor>
+      <actor>Chi McBride</actor>
+    </credits>
+    <date>2010</date>
     <category>Crime drama</category>
+    <country>Estados Unidos</country>
     <episode-num system="onscreen">S03E21</episode-num>
     <rating><value>TV14</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0847_fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/hawaiifive0.jpg" />
   </programme>
   <programme start="20261126051000 -0300" stop="20261126060000 -0300" channel="3847">
     <title>Hawaii Five-0 • To Take Captive</title>
     <sub-title>To Take Captive</sub-title>
     <desc>To Take Captive | El cuerpo de una niña es encontrado después de haber sido secuestrada diez años atrás. El equipo busca a los culpables, que ya tienen a otra víctima en su poder. Kono le pide a Catherine un favor que podría afectar su relación con Adam.</desc>
+    <credits>
+      <director>Roberto Orci</director>
+      <director>Alex Kurtzman</director>
+      <director>Peter M. Lenkov</director>
+      <actor>Alex O&#x27;Loughlin</actor>
+      <actor>Scott Caan</actor>
+      <actor>Ian Anthony Dale</actor>
+      <actor>Meaghan Rath</actor>
+      <actor>Beulah Koale</actor>
+      <actor>Dennis Chun</actor>
+      <actor>Kimee Balmilero</actor>
+      <actor>Chi McBride</actor>
+    </credits>
+    <date>2010</date>
     <category>Crime drama</category>
+    <country>Estados Unidos</country>
     <episode-num system="onscreen">S03E22</episode-num>
     <rating><value>TV14</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0847_fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/hawaiifive0.jpg" />
   </programme>
   <programme start="20261126060000 -0300" stop="20261126070000 -0300" channel="3847">
     <title>Unforgettable • Dólar y aroma</title>
@@ -810583,19 +810729,49 @@ No aparece en el programa ningún otro superhéroe de ficción, a excepción  de
     <title>Hawaii Five-0 • Family Business</title>
     <sub-title>Family Business</sub-title>
     <desc>Family Business | McGarrett ayuda a su mamá en una operación encubierta. Kono se enfrenta al peligro mientras se acerca a un secreto de Adam.</desc>
+    <credits>
+      <director>Roberto Orci</director>
+      <director>Alex Kurtzman</director>
+      <director>Peter M. Lenkov</director>
+      <actor>Alex O&#x27;Loughlin</actor>
+      <actor>Scott Caan</actor>
+      <actor>Ian Anthony Dale</actor>
+      <actor>Meaghan Rath</actor>
+      <actor>Beulah Koale</actor>
+      <actor>Dennis Chun</actor>
+      <actor>Kimee Balmilero</actor>
+      <actor>Chi McBride</actor>
+    </credits>
+    <date>2010</date>
     <category>Crime drama</category>
+    <country>Estados Unidos</country>
     <episode-num system="onscreen">S03E23</episode-num>
     <rating><value>TV14</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0847_fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/hawaiifive0.jpg" />
   </programme>
   <programme start="20261126192000 -0300" stop="20261126201500 -0300" channel="3847">
     <title>Hawaii Five-0 • Farewell and Take Care</title>
     <sub-title>Farewell and Take Care</sub-title>
     <desc>Farewell and Take Care | Kono es culpado por un asesinato que no cometió. La visita de McGarrett a Wo Fat lleva a un descubrimiento sorprendente.</desc>
+    <credits>
+      <director>Roberto Orci</director>
+      <director>Alex Kurtzman</director>
+      <director>Peter M. Lenkov</director>
+      <actor>Alex O&#x27;Loughlin</actor>
+      <actor>Scott Caan</actor>
+      <actor>Ian Anthony Dale</actor>
+      <actor>Meaghan Rath</actor>
+      <actor>Beulah Koale</actor>
+      <actor>Dennis Chun</actor>
+      <actor>Kimee Balmilero</actor>
+      <actor>Chi McBride</actor>
+    </credits>
+    <date>2010</date>
     <category>Crime drama</category>
+    <country>Estados Unidos</country>
     <episode-num system="onscreen">S03E24</episode-num>
     <rating><value>TV14</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0847_fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/hawaiifive0.jpg" />
   </programme>
   <programme start="20261126201500 -0300" stop="20261126211000 -0300" channel="3847">
     <title>S.W.A.T • To Protect and to Serve</title>
@@ -810725,19 +810901,49 @@ No aparece en el programa ningún otro superhéroe de ficción, a excepción  de
     <title>Hawaii Five-0 • Family Business</title>
     <sub-title>Family Business</sub-title>
     <desc>Family Business | McGarrett ayuda a su mamá en una operación encubierta. Kono se enfrenta al peligro mientras se acerca a un secreto de Adam.</desc>
+    <credits>
+      <director>Roberto Orci</director>
+      <director>Alex Kurtzman</director>
+      <director>Peter M. Lenkov</director>
+      <actor>Alex O&#x27;Loughlin</actor>
+      <actor>Scott Caan</actor>
+      <actor>Ian Anthony Dale</actor>
+      <actor>Meaghan Rath</actor>
+      <actor>Beulah Koale</actor>
+      <actor>Dennis Chun</actor>
+      <actor>Kimee Balmilero</actor>
+      <actor>Chi McBride</actor>
+    </credits>
+    <date>2010</date>
     <category>Crime drama</category>
+    <country>Estados Unidos</country>
     <episode-num system="onscreen">S03E23</episode-num>
     <rating><value>TV14</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0847_fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/hawaiifive0.jpg" />
   </programme>
   <programme start="20261127051000 -0300" stop="20261127060000 -0300" channel="3847">
     <title>Hawaii Five-0 • Farewell and Take Care</title>
     <sub-title>Farewell and Take Care</sub-title>
     <desc>Farewell and Take Care | Kono es culpado por un asesinato que no cometió. La visita de McGarrett a Wo Fat lleva a un descubrimiento sorprendente.</desc>
+    <credits>
+      <director>Roberto Orci</director>
+      <director>Alex Kurtzman</director>
+      <director>Peter M. Lenkov</director>
+      <actor>Alex O&#x27;Loughlin</actor>
+      <actor>Scott Caan</actor>
+      <actor>Ian Anthony Dale</actor>
+      <actor>Meaghan Rath</actor>
+      <actor>Beulah Koale</actor>
+      <actor>Dennis Chun</actor>
+      <actor>Kimee Balmilero</actor>
+      <actor>Chi McBride</actor>
+    </credits>
+    <date>2010</date>
     <category>Crime drama</category>
+    <country>Estados Unidos</country>
     <episode-num system="onscreen">S03E24</episode-num>
     <rating><value>TV14</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0847_fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/hawaiifive0.jpg" />
   </programme>
   <programme start="20261127060000 -0300" stop="20261127070000 -0300" channel="3847">
     <title>Unforgettable • The Arrival of Eddie</title>
@@ -810884,19 +811090,49 @@ No aparece en el programa ningún otro superhéroe de ficción, a excepción  de
     <title>Hawaii Five-0 • We Need Each Other</title>
     <sub-title>We Need Each Other</sub-title>
     <desc>We Need Each Other | Tras el escape de McGarrett y Wo Fat, un grupo de hombres armados llegan al lugar de trabajo del equipo. McGarrett debe encontrar a Catherine.</desc>
+    <credits>
+      <director>Roberto Orci</director>
+      <director>Alex Kurtzman</director>
+      <director>Peter M. Lenkov</director>
+      <actor>Alex O&#x27;Loughlin</actor>
+      <actor>Scott Caan</actor>
+      <actor>Ian Anthony Dale</actor>
+      <actor>Meaghan Rath</actor>
+      <actor>Beulah Koale</actor>
+      <actor>Dennis Chun</actor>
+      <actor>Kimee Balmilero</actor>
+      <actor>Chi McBride</actor>
+    </credits>
+    <date>2010</date>
     <category>Crime drama</category>
+    <country>Estados Unidos</country>
     <episode-num system="onscreen">S04E01</episode-num>
     <rating><value>TV14</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0847_fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/hawaiifive0.jpg" />
   </programme>
   <programme start="20261127192000 -0300" stop="20261127201500 -0300" channel="3847">
     <title>Hawaii Five-0 • Fish Out of Water</title>
     <sub-title>Fish Out of Water</sub-title>
     <desc>Fish Out of Water | La investigación de un caso de homicidio lleva a los miembros del equipo hasta un oficial de Texas que llegó a Hawái para buscar a su hija desaparecida. Mientras tanto, Adán y Kono luchan por mantenerse con vida.</desc>
+    <credits>
+      <director>Roberto Orci</director>
+      <director>Alex Kurtzman</director>
+      <director>Peter M. Lenkov</director>
+      <actor>Alex O&#x27;Loughlin</actor>
+      <actor>Scott Caan</actor>
+      <actor>Ian Anthony Dale</actor>
+      <actor>Meaghan Rath</actor>
+      <actor>Beulah Koale</actor>
+      <actor>Dennis Chun</actor>
+      <actor>Kimee Balmilero</actor>
+      <actor>Chi McBride</actor>
+    </credits>
+    <date>2010</date>
     <category>Crime drama</category>
+    <country>Estados Unidos</country>
     <episode-num system="onscreen">S04E02</episode-num>
     <rating><value>TV14</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0847_fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/hawaiifive0.jpg" />
   </programme>
   <programme start="20261127201500 -0300" stop="20261127211000 -0300" channel="3847">
     <title>S.W.A.T • Stockholm</title>
@@ -873427,8 +873663,21 @@ Profesor Jorquel Es el responsable del perfeccionamiento cibernético de Galáct
   </programme>
   <programme start="20261201144600 -0300" stop="20261201154700 -0300" channel="0978">
     <title>Barbie y Teresa: La receta de la amistad</title>
-    <desc>2025 · Películas Infantiles</desc>
+    <desc>Un grupo de amigas ayuda a Teresa a preparar la atesorada receta familiar de tamales para la apertura del restaurante de su prima en Nueva York.</desc>
+    <credits>
+      <director>Karen J. Lloyd</director>
+      <actor>Tatiana Varria</actor>
+      <actor>America Young</actor>
+      <actor>Yeni Alvarez</actor>
+      <actor>Giselle Fernández</actor>
+      <actor>Ren Hanami</actor>
+      <actor>Cristina Milizia</actor>
+      <actor>Margo Rey</actor>
+      <actor>Nicolas Roye</actor>
+    </credits>
+    <date>2025</date>
     <category>Movies</category>
+    <country>Estados Unidos</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/barbieyteresalarecetadelaamistad.jpg" />
   </programme>
   <programme start="20261201154700 -0300" stop="20261201172500 -0300" channel="0978">
@@ -920095,8 +920344,21 @@ No aparece en el programa ningún otro superhéroe de ficción, a excepción  de
   <programme start="20261201223900 -0300" stop="20261202000000 -0300" channel="0987">
     <title>Toy Story</title>
     <desc>Un muñeco vaquero se siente profundamente amenazado y celoso cuando una nueva figura del hombre del espacio lo suplanta como juguete principal en el cuarto de un niño.</desc>
+    <credits>
+      <director>John Lasseter</director>
+      <actor>Tom Hanks</actor>
+      <actor>Tim Allen</actor>
+      <actor>Don Rickles</actor>
+      <actor>Jim Varney</actor>
+      <actor>Wallace Shawn</actor>
+      <actor>John Ratzenberger</actor>
+      <actor>Annie Potts</actor>
+      <actor>John Morris</actor>
+    </credits>
+    <date>1995</date>
     <category>Familia</category>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0987_fallback.jpg" />
+    <country>Estados Unidos</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/toystory.jpg" />
   </programme>
   <programme start="20261124121400 -0300" stop="20261124121500 -0300" channel="0988">
     <title>Avengers: Los Vengadores</title>
@@ -923366,8 +923628,21 @@ No aparece en el programa ningún otro superhéroe de ficción, a excepción  de
   </programme>
   <programme start="20261201140800 -0300" stop="20261201160200 -0300" channel="0988">
     <title>Bumblebee</title>
-    <desc>Sexta entrega de la saga &#x27;Transformers&#x27;, esta vez centrada en el &quot;hermano pequeño&quot; de los Autobots, Bumblebee. Tratando de escapar, en el año 1987, Bumblebee encuentra refugio en un depósito de chatarra en una pequeña ciudad en la costa Californiana. Charlie (Hailee Steinfeld)...</desc>
+    <desc>Sexta entrega de la saga &#x27;Transformers&#x27;, esta vez centrada en el &quot;hermano pequeño&quot; de los Autobots, Bumblebee. Tratando de escapar, en el año 1987, Bumblebee encuentra refugio en un depósito de chatarra en una pequeña ciudad en la costa Californiana. Charlie (Hailee Steinfeld), a punto de cumplir 18 años y tratando de encontrar su lugar en el mundo, descubre a Bumblebee, dañado durante una batalla y descompuesto. Cuando Charlie lo revive, aprende rápidamente que éste no es un VW amarillo ordinario.</desc>
+    <credits>
+      <director>Travis Knight</director>
+      <actor>Dylan O&#x27;Brien</actor>
+      <actor>Hailee Steinfeld</actor>
+      <actor>John Cena</actor>
+      <actor>Jorge Lendeborg Jr.</actor>
+      <actor>John Ortiz</actor>
+      <actor>Stephen Schneider</actor>
+      <actor>Jason Ian Drucker</actor>
+      <actor>Pamela Adlon</actor>
+    </credits>
+    <date>2018</date>
     <category>Acción</category>
+    <country>China</country>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/bumblebee.jpg" />
   </programme>
   <programme start="20261201160200 -0300" stop="20261201183800 -0300" channel="0988">
@@ -930047,9 +930322,22 @@ No aparece en el programa ningún otro superhéroe de ficción, a excepción  de
   </programme>
   <programme start="20261130134300 -0300" stop="20261130152200 -0300" channel="0990">
     <title>Alguien como tú</title>
-    <desc>Dawson, un joven arquitecto, pierde a su mejor amiga, London. Afligido por la trágica pérdida, Dawson emprende una búsqueda imposible, la de la hermana gemela secreta de London. Pero en el camino, Dawson nunca planeó enamorarse.</desc>
+    <desc>Jane Goodale, una joven que vive en Nueva York, está decidida a triunfar tanto en su profesión, contratando invitados para un popular programa de entrevistas, como en el amor. Cuando Ray Brown, el nuevo y apuesto ejecutivo del programa, empieza a tirarle los tejos, Jane se siente en la cima del mundo. Y en cuanto Ray pronuncia las palabras mágicas, la pareja decide compartir un acogedor nido amoroso. Pero cuando él, inexplicablemente, pone fin a tan fogoso romance, Jane se siente anonadada y perdida. Busca entonces obsesivamente una razón que explique el comportamiento de Ray, y cree haberla encontrado en el mundo animal. El descubrimiento de una extraña relación entre hombres y animales da lugar a una teoría que convierte a Jane en una reverenciada gurú del amor.</desc>
+    <credits>
+      <director>Tony Goldwyn</director>
+      <actor>Ashley Judd</actor>
+      <actor>Greg Kinnear</actor>
+      <actor>Hugh Jackman</actor>
+      <actor>Marisa Tomei</actor>
+      <actor>Ellen Barkin</actor>
+      <actor>Catherine Dent</actor>
+      <actor>Laura Regan</actor>
+      <actor>Peter Friedman</actor>
+    </credits>
+    <date>2001</date>
     <category>Romance</category>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0990_fallback.jpg" />
+    <country>Estados Unidos</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/alguiencomotu.jpg" />
   </programme>
   <programme start="20261130152200 -0300" stop="20261130170500 -0300" channel="0990">
     <title>El día de la marmota</title>
@@ -936051,9 +936339,22 @@ No aparece en el programa ningún otro superhéroe de ficción, a excepción  de
   </programme>
   <programme start="20261201082100 -0300" stop="20261201095900 -0300" channel="0992">
     <title>Alguien como tú</title>
-    <desc>Dawson, un joven arquitecto, pierde a su mejor amiga, London. Afligido por la trágica pérdida, Dawson emprende una búsqueda imposible, la de la hermana gemela secreta de London. Pero en el camino, Dawson nunca planeó enamorarse.</desc>
+    <desc>Jane Goodale, una joven que vive en Nueva York, está decidida a triunfar tanto en su profesión, contratando invitados para un popular programa de entrevistas, como en el amor. Cuando Ray Brown, el nuevo y apuesto ejecutivo del programa, empieza a tirarle los tejos, Jane se siente en la cima del mundo. Y en cuanto Ray pronuncia las palabras mágicas, la pareja decide compartir un acogedor nido amoroso. Pero cuando él, inexplicablemente, pone fin a tan fogoso romance, Jane se siente anonadada y perdida. Busca entonces obsesivamente una razón que explique el comportamiento de Ray, y cree haberla encontrado en el mundo animal. El descubrimiento de una extraña relación entre hombres y animales da lugar a una teoría que convierte a Jane en una reverenciada gurú del amor.</desc>
+    <credits>
+      <director>Tony Goldwyn</director>
+      <actor>Ashley Judd</actor>
+      <actor>Greg Kinnear</actor>
+      <actor>Hugh Jackman</actor>
+      <actor>Marisa Tomei</actor>
+      <actor>Ellen Barkin</actor>
+      <actor>Catherine Dent</actor>
+      <actor>Laura Regan</actor>
+      <actor>Peter Friedman</actor>
+    </credits>
+    <date>2001</date>
     <category>Romance</category>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0992_fallback.jpg" />
+    <country>Estados Unidos</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/alguiencomotu.jpg" />
   </programme>
   <programme start="20261201095900 -0300" stop="20261201104400 -0300" channel="0992">
     <title>Dr. House • Bobo</title>
