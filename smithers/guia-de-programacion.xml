@@ -21848,9 +21848,7 @@ No aparece en el programa ningún otro superhéroe de ficción, a excepción  de
   </programme>
   <programme start="20261128090000 -0300" stop="20261128093000 -0300" channel="0123">
     <title>Los Pitufos</title>
-    <desc>Basada en unas historietas del belga Pierre Culliford (AKA Peyo) y ambientada en la Edad Media. En la aldea de los pitufos todas las casas son hongos o setas. Todos ellos se visten igual: pantalón blanco y gorro frigio blanco, a excepción del Gran Pitufo o Papá Pitufo, que usa un atuendo rojo. Él es el jefe de la aldea, debido a su avanzada edad y a sus conocimientos de magia.
-
-El brujo Gargamel y su gato Azrael, intentan siempre y por todos los medios capturar a los pitufos con trampas. Los objetivos son dos: utilizarlos como ingrediente imprescindible para conseguir la transmutación de los metales y su transformación en oro, y preparar con ellos &#x27;sopa de pitufos&#x27;, un legendario plato exquisito de sabor incomparable. La serie se ramificó en varias películas; la última, que se estrenó en 2008, celebraba el 50º aniversario de los personajes.</desc>
+    <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/lospitufos.jpg" />
   </programme>
   <programme start="20261128093000 -0300" stop="20261128100000 -0300" channel="0123">
@@ -22027,9 +22025,7 @@ Basado en hechos reales, A Haunting dramatiza algunas de las historias más ater
   </programme>
   <programme start="20261129090000 -0300" stop="20261129093000 -0300" channel="0123">
     <title>Los Pitufos</title>
-    <desc>Basada en unas historietas del belga Pierre Culliford (AKA Peyo) y ambientada en la Edad Media. En la aldea de los pitufos todas las casas son hongos o setas. Todos ellos se visten igual: pantalón blanco y gorro frigio blanco, a excepción del Gran Pitufo o Papá Pitufo, que usa un atuendo rojo. Él es el jefe de la aldea, debido a su avanzada edad y a sus conocimientos de magia.
-
-El brujo Gargamel y su gato Azrael, intentan siempre y por todos los medios capturar a los pitufos con trampas. Los objetivos son dos: utilizarlos como ingrediente imprescindible para conseguir la transmutación de los metales y su transformación en oro, y preparar con ellos &#x27;sopa de pitufos&#x27;, un legendario plato exquisito de sabor incomparable. La serie se ramificó en varias películas; la última, que se estrenó en 2008, celebraba el 50º aniversario de los personajes.</desc>
+    <desc>La información de este programa no se encuentra disponible.</desc>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/lospitufos.jpg" />
   </programme>
   <programme start="20261129093000 -0300" stop="20261129100000 -0300" channel="0123">
@@ -72865,13 +72861,323 @@ Claudia Gurisatti - Jefferson Beltrán - Jason Calderón</desc>
     <rating><value>TE</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/elpuntoclavedelanoticia.jpg" />
   </programme>
-  <programme start="20261201233000 -0300" stop="20261202003000 -0300" channel="0212">
+  <programme start="20261201233000 -0300" stop="20261202000000 -0300" channel="0212">
     <title>Exclusivas NTN24</title>
     <desc>Un espacio informativo que reúne las noticias más relevantes, abordadas en las diferentes emisiones semanales.</desc>
     <date>2021</date>
     <category>Reportaje</category>
     <rating><value>TE</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0212_fallback.jpg" />
+  </programme>
+  <programme start="20261202000000 -0300" stop="20261202010000 -0300" channel="0212">
+    <title>El informativo</title>
+    <desc>Información inmediata, actual, oportuna y veráz de todo lo que acontece en América Latina, Estados Unidos y el mundo.
+
+Dirige: Jason Calderón
+
+Presenta:
+
+Claudia Gurisatti - Jefferson Beltrán - Jason Calderón</desc>
+    <credits>
+      <actor>Carlos Eduardo Sánchez</actor>
+      <actor>Andrea Bernal</actor>
+      <actor>Hugo Vecino</actor>
+    </credits>
+    <date>2008</date>
+    <category>Reportaje</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/elinformativo.jpg" />
+  </programme>
+  <programme start="20261202010000 -0300" stop="20261202020000 -0300" channel="0212">
+    <title>La noche</title>
+    <desc>Un camino vertiginoso, infinito y único por todos los reveses nocturnos. Sexo, drogas y bebidas se alternan entre encuentro y encuentro, creando un continuado sin tapujos, frente a una cámara tan curiosa como audaz, que se atreve a recorrerlo todo.</desc>
+    <credits>
+      <director>Claudia Gurisatti</director>
+    </credits>
+    <date>2008</date>
+    <category>Reportaje</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/lanoche.jpg" />
+  </programme>
+  <programme start="20261202020000 -0300" stop="20261202030000 -0300" channel="0212">
+    <title>El informativo</title>
+    <desc>Información inmediata, actual, oportuna y veráz de todo lo que acontece en América Latina, Estados Unidos y el mundo.
+
+Dirige: Jason Calderón
+
+Presenta:
+
+Claudia Gurisatti - Jefferson Beltrán - Jason Calderón</desc>
+    <credits>
+      <actor>Carlos Eduardo Sánchez</actor>
+      <actor>Andrea Bernal</actor>
+      <actor>Hugo Vecino</actor>
+    </credits>
+    <date>2008</date>
+    <category>Reportaje</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/elinformativo.jpg" />
+  </programme>
+  <programme start="20261202030000 -0300" stop="20261202050000 -0300" channel="0212">
+    <title>La tarde</title>
+    <desc>Análisis y debate sobre las noticias más relevantes de la región y el mundo.</desc>
+    <credits>
+      <director>Idania Chirinos</director>
+    </credits>
+    <date>2012</date>
+    <category>Actualidad</category>
+    <category>Reportaje</category>
+    <rating><value>+15</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/latarde.jpg" />
+  </programme>
+  <programme start="20261202050000 -0300" stop="20261202060000 -0300" channel="0212">
+    <title>El informativo</title>
+    <desc>Información inmediata, actual, oportuna y veráz de todo lo que acontece en América Latina, Estados Unidos y el mundo.
+
+Dirige: Jason Calderón
+
+Presenta:
+
+Claudia Gurisatti - Jefferson Beltrán - Jason Calderón</desc>
+    <credits>
+      <actor>Carlos Eduardo Sánchez</actor>
+      <actor>Andrea Bernal</actor>
+      <actor>Hugo Vecino</actor>
+    </credits>
+    <date>2008</date>
+    <category>Reportaje</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/elinformativo.jpg" />
+  </programme>
+  <programme start="20261202060000 -0300" stop="20261202070000 -0300" channel="0212">
+    <title>Ángulo</title>
+    <desc>Protagonistas y panelistas intervienen y debaten para identificar problemas y plantear soluciones en un diálogo constructivo.</desc>
+    <date>2021</date>
+    <category>Reportaje</category>
+    <rating><value>+15</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/angulo.jpg" />
+  </programme>
+  <programme start="20261202070000 -0300" stop="20261202080000 -0300" channel="0212">
+    <title>La noche</title>
+    <desc>Un camino vertiginoso, infinito y único por todos los reveses nocturnos. Sexo, drogas y bebidas se alternan entre encuentro y encuentro, creando un continuado sin tapujos, frente a una cámara tan curiosa como audaz, que se atreve a recorrerlo todo.</desc>
+    <credits>
+      <director>Claudia Gurisatti</director>
+    </credits>
+    <date>2008</date>
+    <category>Reportaje</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/lanoche.jpg" />
+  </programme>
+  <programme start="20261202080000 -0300" stop="20261202090000 -0300" channel="0212">
+    <title>El informativo</title>
+    <desc>Información inmediata, actual, oportuna y veráz de todo lo que acontece en América Latina, Estados Unidos y el mundo.
+
+Dirige: Jason Calderón
+
+Presenta:
+
+Claudia Gurisatti - Jefferson Beltrán - Jason Calderón</desc>
+    <credits>
+      <actor>Carlos Eduardo Sánchez</actor>
+      <actor>Andrea Bernal</actor>
+      <actor>Hugo Vecino</actor>
+    </credits>
+    <date>2008</date>
+    <category>Reportaje</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/elinformativo.jpg" />
+  </programme>
+  <programme start="20261202090000 -0300" stop="20261202110000 -0300" channel="0212">
+    <title>La mañana</title>
+    <desc>Programa matinal de NTN24 que presenta las noticias más relevantes con las que amanece América Latina y el mundo.
+
+Presenta:
+
+Andrés Gil</desc>
+    <credits>
+      <actor>Andres Gil</actor>
+    </credits>
+    <date>2008</date>
+    <category>Reportaje</category>
+    <category>Talk Show</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/lamanana.jpg" />
+  </programme>
+  <programme start="20261202110000 -0300" stop="20261202120000 -0300" channel="0212">
+    <title>Club de prensa</title>
+    <desc>Periodistas y analistas internacionales comentan las noticias más importantes del mundo. En directo desde Washington.</desc>
+    <date>2011</date>
+    <category>Política</category>
+    <category>Reportaje</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/clubdeprensa.jpg" />
+  </programme>
+  <programme start="20261202120000 -0300" stop="20261202123000 -0300" channel="0212">
+    <title>El informativo</title>
+    <desc>Información inmediata, actual, oportuna y veráz de todo lo que acontece en América Latina, Estados Unidos y el mundo.
+
+Dirige: Jason Calderón
+
+Presenta:
+
+Claudia Gurisatti - Jefferson Beltrán - Jason Calderón</desc>
+    <credits>
+      <actor>Carlos Eduardo Sánchez</actor>
+      <actor>Andrea Bernal</actor>
+      <actor>Hugo Vecino</actor>
+    </credits>
+    <date>2008</date>
+    <category>Reportaje</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/elinformativo.jpg" />
+  </programme>
+  <programme start="20261202123000 -0300" stop="20261202125500 -0300" channel="0212">
+    <title>Club de prensa</title>
+    <desc>Periodistas y analistas internacionales comentan las noticias más importantes del mundo. En directo desde Washington.</desc>
+    <date>2011</date>
+    <category>Política</category>
+    <category>Reportaje</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/clubdeprensa.jpg" />
+  </programme>
+  <programme start="20261202125500 -0300" stop="20261202130000 -0300" channel="0212">
+    <title>Titulares de la hora</title>
+    <desc>La mejor información nacional e internacional actualizada al momento.</desc>
+    <date>2012</date>
+    <category>Reportaje</category>
+    <rating><value>+15</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/titularesdelahora.jpg" />
+  </programme>
+  <programme start="20261202130000 -0300" stop="20261202140000 -0300" channel="0212">
+    <title>La noche</title>
+    <desc>Un camino vertiginoso, infinito y único por todos los reveses nocturnos. Sexo, drogas y bebidas se alternan entre encuentro y encuentro, creando un continuado sin tapujos, frente a una cámara tan curiosa como audaz, que se atreve a recorrerlo todo.</desc>
+    <credits>
+      <director>Claudia Gurisatti</director>
+    </credits>
+    <date>2008</date>
+    <category>Reportaje</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/lanoche.jpg" />
+  </programme>
+  <programme start="20261202140000 -0300" stop="20261202150000 -0300" channel="0212">
+    <title>El informativo</title>
+    <desc>Información inmediata, actual, oportuna y veráz de todo lo que acontece en América Latina, Estados Unidos y el mundo.
+
+Dirige: Jason Calderón
+
+Presenta:
+
+Claudia Gurisatti - Jefferson Beltrán - Jason Calderón</desc>
+    <credits>
+      <actor>Carlos Eduardo Sánchez</actor>
+      <actor>Andrea Bernal</actor>
+      <actor>Hugo Vecino</actor>
+    </credits>
+    <date>2008</date>
+    <category>Reportaje</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/elinformativo.jpg" />
+  </programme>
+  <programme start="20261202150000 -0300" stop="20261202155500 -0300" channel="0212">
+    <title>Flash Fashion</title>
+    <desc>El mundo de la moda y consejos prácticos para vestirse bien al salir a la calle o ir a la oficina.</desc>
+    <date>2008</date>
+    <category>Moda</category>
+    <rating><value>14</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/flashfashion.jpg" />
+  </programme>
+  <programme start="20261202155500 -0300" stop="20261202160000 -0300" channel="0212">
+    <title>Titulares de la hora</title>
+    <desc>La mejor información nacional e internacional actualizada al momento.</desc>
+    <date>2012</date>
+    <category>Reportaje</category>
+    <rating><value>+15</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/titularesdelahora.jpg" />
+  </programme>
+  <programme start="20261202160000 -0300" stop="20261202170000 -0300" channel="0212">
+    <title>El informativo</title>
+    <desc>Información inmediata, actual, oportuna y veráz de todo lo que acontece en América Latina, Estados Unidos y el mundo.
+
+Dirige: Jason Calderón
+
+Presenta:
+
+Claudia Gurisatti - Jefferson Beltrán - Jason Calderón</desc>
+    <credits>
+      <actor>Carlos Eduardo Sánchez</actor>
+      <actor>Andrea Bernal</actor>
+      <actor>Hugo Vecino</actor>
+    </credits>
+    <date>2008</date>
+    <category>Reportaje</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/elinformativo.jpg" />
+  </programme>
+  <programme start="20261202170000 -0300" stop="20261202170500 -0300" channel="0212">
+    <title>Titulares de la hora</title>
+    <desc>La mejor información nacional e internacional actualizada al momento.</desc>
+    <date>2012</date>
+    <category>Reportaje</category>
+    <rating><value>+15</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/titularesdelahora.jpg" />
+  </programme>
+  <programme start="20261202170500 -0300" stop="20261202180000 -0300" channel="0212">
+    <title>Ángulo</title>
+    <desc>Protagonistas y panelistas intervienen y debaten para identificar problemas y plantear soluciones en un diálogo constructivo.</desc>
+    <date>2021</date>
+    <category>Reportaje</category>
+    <rating><value>+15</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/angulo.jpg" />
+  </programme>
+  <programme start="20261202180000 -0300" stop="20261202200000 -0300" channel="0212">
+    <title>La tarde</title>
+    <desc>Análisis y debate sobre las noticias más relevantes de la región y el mundo.</desc>
+    <credits>
+      <director>Idania Chirinos</director>
+    </credits>
+    <date>2012</date>
+    <category>Actualidad</category>
+    <category>Reportaje</category>
+    <rating><value>+15</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/latarde.jpg" />
+  </programme>
+  <programme start="20261202200000 -0300" stop="20261202210000 -0300" channel="0212">
+    <title>La noche</title>
+    <desc>Un camino vertiginoso, infinito y único por todos los reveses nocturnos. Sexo, drogas y bebidas se alternan entre encuentro y encuentro, creando un continuado sin tapujos, frente a una cámara tan curiosa como audaz, que se atreve a recorrerlo todo.</desc>
+    <credits>
+      <director>Claudia Gurisatti</director>
+    </credits>
+    <date>2008</date>
+    <category>Reportaje</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/lanoche.jpg" />
+  </programme>
+  <programme start="20261202210000 -0300" stop="20261202230000 -0300" channel="0212">
+    <title>El informativo</title>
+    <desc>Información inmediata, actual, oportuna y veráz de todo lo que acontece en América Latina, Estados Unidos y el mundo.
+
+Dirige: Jason Calderón
+
+Presenta:
+
+Claudia Gurisatti - Jefferson Beltrán - Jason Calderón</desc>
+    <credits>
+      <actor>Carlos Eduardo Sánchez</actor>
+      <actor>Andrea Bernal</actor>
+      <actor>Hugo Vecino</actor>
+    </credits>
+    <date>2008</date>
+    <category>Reportaje</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/elinformativo.jpg" />
+  </programme>
+  <programme start="20261202230000 -0300" stop="20261203000000 -0300" channel="0212">
+    <title>Ángulo</title>
+    <desc>Protagonistas y panelistas intervienen y debaten para identificar problemas y plantear soluciones en un diálogo constructivo.</desc>
+    <date>2021</date>
+    <category>Reportaje</category>
+    <rating><value>+15</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/angulo.jpg" />
   </programme>
   <programme start="20261125120000 -0300" stop="20261125121200 -0300" channel="0213">
     <title>Euronews hoy</title>
@@ -299128,7 +299434,7 @@ Toei Animation la describe como &quot;Una Historia Original de Anime&quot;, y es
     <rating><value>TE</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbolprevia.jpg" />
   </programme>
-  <programme start="20261201220000 -0300" stop="20261201230000 -0300" channel="0429">
+  <programme start="20261201220000 -0300" stop="20261202000000 -0300" channel="0429">
     <title>Fútbol Colombiano Primera División</title>
     <desc>La mejor cobertura de los encuentros correspondientes a la Liga Colombiana de fútbol.</desc>
     <date>2010</date>
@@ -299136,10 +299442,149 @@ Toei Animation la describe como &quot;Una Historia Original de Anime&quot;, y es
     <rating><value>TE</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbolcolombianoprimeradivision.jpg" />
   </programme>
-  <programme start="20261201230000 -0300" stop="20261201235959 -0300" channel="0429">
-    <title>Win Sports</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
+  <programme start="20261202000000 -0300" stop="20261202010000 -0300" channel="0429">
+    <title>Última jugada</title>
+    <desc>En el mundo del billar, Johnny (Mars Callahan) podría ser uno de los mejores, pero vive sometido a Joe (Chazz Palminteri), un oscuro personaje que decide cómo y con quién debe jugar. Finalmente Johnny rompe sus relaciones con Joe y, presionado por su novia (Alison Eastwood), empieza a trabajar. Joe, resentido, intenta vengarse y encuentra un nuevo protegido, Brad (Rick Schroder), tan bueno o mejor que Johnny. (FILMAFFINITY)</desc>
+    <date>2022</date>
+    <category>Fútbol</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/ultimajugada.jpg" />
+  </programme>
+  <programme start="20261202010000 -0300" stop="20261202030000 -0300" channel="0429">
+    <title>El Chiringuito de Jugones</title>
+    <desc>El chiringuito de Jugones es un programa de televisión español de debate futbolístico, en el que se trata la actualidad de los principales equipos de liga española.</desc>
+    <credits>
+      <director>Josep Pedrerol</director>
+    </credits>
+    <date>2014</date>
+    <category>Deportes</category>
+    <category>Entretenimiento</category>
+    <rating><value>18</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/elchiringuitodejugones.jpg" />
+  </programme>
+  <programme start="20261202030000 -0300" stop="20261202043000 -0300" channel="0429">
+    <title>Conexión deportes</title>
+    <desc>Programa de opinión y debate sobre los hechos más destacados en el deporte colombiano e internacional.</desc>
+    <credits>
+      <actor>Tito Puccetti</actor>
+    </credits>
+    <date>2014</date>
+    <category>Deportes</category>
+    <rating><value>+15</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/conexiondeportes.jpg" />
+  </programme>
+  <programme start="20261202043000 -0300" stop="20261202050000 -0300" channel="0429">
+    <title>Campañas</title>
+    <desc>Un programa que recuerda aquellas temporadas exitosas y muestra el camino que recorrieron equipos, jugadores y entrenadores emblemáticos del fútbol colombiano que dejaron una huella y llenan de orgullo a cada una de sus hinchadas.</desc>
+    <date>2019</date>
+    <category>Fútbol</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/campanas.jpg" />
+  </programme>
+  <programme start="20261202050000 -0300" stop="20261202070000 -0300" channel="0429">
+    <title>Saque largo</title>
+    <desc>Una forma diferente de ver y vivir el fútbol, con debate y análisis sobre lo que pasa a nivel nacional e internacional.</desc>
+    <date>2014</date>
+    <category>Fútbol</category>
+    <rating><value>+15</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/saquelargo.jpg" />
+  </programme>
+  <programme start="20261202070000 -0300" stop="20261202090000 -0300" channel="0429">
+    <title>Fútbol Copa Colombia</title>
+    <desc>Cobertura del torneo que une a la Primera A y la B de Colombia por un cupo a la CONMEBOL Copa Sudamericana.</desc>
+    <date>2013</date>
+    <category>Fútbol</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbolcopacolombia.jpg" />
+  </programme>
+  <programme start="20261202090000 -0300" stop="20261202100000 -0300" channel="0429">
+    <title>Última jugada</title>
+    <desc>En el mundo del billar, Johnny (Mars Callahan) podría ser uno de los mejores, pero vive sometido a Joe (Chazz Palminteri), un oscuro personaje que decide cómo y con quién debe jugar. Finalmente Johnny rompe sus relaciones con Joe y, presionado por su novia (Alison Eastwood), empieza a trabajar. Joe, resentido, intenta vengarse y encuentra un nuevo protegido, Brad (Rick Schroder), tan bueno o mejor que Johnny. (FILMAFFINITY)</desc>
+    <date>2022</date>
+    <category>Fútbol</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/ultimajugada.jpg" />
+  </programme>
+  <programme start="20261202100000 -0300" stop="20261202130000 -0300" channel="0429">
+    <title>Primer toque</title>
+    <desc>Las noticias deportivas más relevantes del día y mucho más. Fútbol, actualidad, variedades, política, cultura, economía y otros deportes.</desc>
+    <date>2020</date>
+    <category>Fútbol</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/primertoque.jpg" />
+  </programme>
+  <programme start="20261202130000 -0300" stop="20261202143000 -0300" channel="0429">
+    <title>Win Noticias Emisión Central</title>
+    <desc>Completo recorrido informativo por los hechos más relevantes del deporte nacional e internacional con interacción en las ciudades principales del país y las noticias más destacadas del mundo.</desc>
+    <date>2022</date>
+    <category>Deportes</category>
+    <rating><value>+15</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/winnoticiasemisioncentral.jpg" />
+  </programme>
+  <programme start="20261202143000 -0300" stop="20261202163000 -0300" channel="0429">
+    <title>Fútbol Colombiano Primera División</title>
+    <desc>La mejor cobertura de los encuentros correspondientes a la Liga Colombiana de fútbol.</desc>
+    <date>2010</date>
+    <category>Fútbol</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbolcolombianoprimeradivision.jpg" />
+  </programme>
+  <programme start="20261202163000 -0300" stop="20261202180000 -0300" channel="0429">
+    <title>Win Noticias Emisión Central</title>
+    <desc>Completo recorrido informativo por los hechos más relevantes del deporte nacional e internacional con interacción en las ciudades principales del país y las noticias más destacadas del mundo.</desc>
+    <date>2022</date>
+    <category>Deportes</category>
+    <rating><value>+15</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/winnoticiasemisioncentral.jpg" />
+  </programme>
+  <programme start="20261202180000 -0300" stop="20261202190000 -0300" channel="0429">
+    <title>Saque largo</title>
+    <desc>Una forma diferente de ver y vivir el fútbol, con debate y análisis sobre lo que pasa a nivel nacional e internacional.</desc>
+    <date>2014</date>
+    <category>Fútbol</category>
+    <rating><value>+15</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/saquelargo.jpg" />
+  </programme>
+  <programme start="20261202190000 -0300" stop="20261202210000 -0300" channel="0429">
+    <title>Fútbol Copa Colombia</title>
+    <desc>Cobertura del torneo que une a la Primera A y la B de Colombia por un cupo a la CONMEBOL Copa Sudamericana.</desc>
+    <date>2013</date>
+    <category>Fútbol</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbolcopacolombia.jpg" />
+  </programme>
+  <programme start="20261202210000 -0300" stop="20261202213000 -0300" channel="0429">
+    <title>Rueda de prensa: Superliga de Colombia</title>
+    <desc>Comparecencia ante los medios de cara a los partidos de la final por la Superliga de Colombia.</desc>
+    <date>2023</date>
+    <category>Fútbol</category>
+    <category>Deportes</category>
+    <rating><value>+15</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0429_fallback.jpg" />
+  </programme>
+  <programme start="20261202213000 -0300" stop="20261202220000 -0300" channel="0429">
+    <title>Fútbol: Previa</title>
+    <desc>Reportajes, análisis y comentarios previo al gran evento deportivo.</desc>
+    <date>2003</date>
+    <category>Fútbol</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbolprevia.jpg" />
+  </programme>
+  <programme start="20261202220000 -0300" stop="20261202230000 -0300" channel="0429">
+    <title>Score Mundial</title>
+    <desc>Programa especializado en fútbol internacional con resúmenes de las principales ligas europeas, como la Liga Española, francesa, alemana, italiana e inglesa. Con especial atención al desempeño de los jugadores colombianos.</desc>
+    <date>2017</date>
+    <category>Series</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/scoremundial.jpg" />
+  </programme>
+  <programme start="20261202230000 -0300" stop="20261203000000 -0300" channel="0429">
+    <title>Última jugada</title>
+    <desc>En el mundo del billar, Johnny (Mars Callahan) podría ser uno de los mejores, pero vive sometido a Joe (Chazz Palminteri), un oscuro personaje que decide cómo y con quién debe jugar. Finalmente Johnny rompe sus relaciones con Joe y, presionado por su novia (Alison Eastwood), empieza a trabajar. Joe, resentido, intenta vengarse y encuentra un nuevo protegido, Brad (Rick Schroder), tan bueno o mejor que Johnny. (FILMAFFINITY)</desc>
+    <date>2022</date>
+    <category>Fútbol</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/ultimajugada.jpg" />
   </programme>
   <programme start="20261125130000 -0300" stop="20261125150000 -0300" channel="0430">
     <title>Fútbol Colombiano Primera División • Millonarios vs Atlético Bucaramanga</title>
@@ -299972,6 +300417,159 @@ Toei Animation la describe como &quot;Una Historia Original de Anime&quot;, y es
     <category>Reportaje</category>
     <rating><value>TE</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/winnoticias.jpg" />
+  </programme>
+  <programme start="20261202003000 -0300" stop="20261202023000 -0300" channel="0430">
+    <title>Fútbol Copa Italia</title>
+    <desc>La competición de fútbol de Italia en la que participan los equipos de la Serie A y de la Serie B.</desc>
+    <date>2012</date>
+    <category>Fútbol</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbolcopaitalia.jpg" />
+  </programme>
+  <programme start="20261202023000 -0300" stop="20261202033000 -0300" channel="0430">
+    <title>WIN Noticias</title>
+    <desc>La más completa información y todas las novedades del mundo deportivo nacional e internacional. Además, se tiene la más amplia cobertura de los deportistas colombianos en todo el mundo.</desc>
+    <date>2014</date>
+    <category>Reportaje</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/winnoticias.jpg" />
+  </programme>
+  <programme start="20261202033000 -0300" stop="20261202040000 -0300" channel="0430">
+    <title>Campañas</title>
+    <desc>Un programa que recuerda aquellas temporadas exitosas y muestra el camino que recorrieron equipos, jugadores y entrenadores emblemáticos del fútbol colombiano que dejaron una huella y llenan de orgullo a cada una de sus hinchadas.</desc>
+    <date>2019</date>
+    <category>Fútbol</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/campanas.jpg" />
+  </programme>
+  <programme start="20261202040000 -0300" stop="20261202060000 -0300" channel="0430">
+    <title>Fútbol Colombiano Primera División</title>
+    <desc>Toda la emoción, la acción y los goles, con el recuerdo de los mejores partidos de la Primera División del fútbol colombiano.</desc>
+    <date>2016</date>
+    <category>Fútbol</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbolcolombianoprimeradivision.jpg" />
+  </programme>
+  <programme start="20261202060000 -0300" stop="20261202070000 -0300" channel="0430">
+    <title>WIN Noticias</title>
+    <desc>La más completa información y todas las novedades del mundo deportivo nacional e internacional. Además, se tiene la más amplia cobertura de los deportistas colombianos en todo el mundo.</desc>
+    <date>2014</date>
+    <category>Reportaje</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/winnoticias.jpg" />
+  </programme>
+  <programme start="20261202070000 -0300" stop="20261202090000 -0300" channel="0430">
+    <title>Fútbol Colombiano Primera División</title>
+    <desc>Toda la emoción, la acción y los goles, con el recuerdo de los mejores partidos de la Primera División del fútbol colombiano.</desc>
+    <date>2016</date>
+    <category>Fútbol</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbolcolombianoprimeradivision.jpg" />
+  </programme>
+  <programme start="20261202090000 -0300" stop="20261202100000 -0300" channel="0430">
+    <title>WIN Noticias</title>
+    <desc>La más completa información y todas las novedades del mundo deportivo nacional e internacional. Además, se tiene la más amplia cobertura de los deportistas colombianos en todo el mundo.</desc>
+    <date>2014</date>
+    <category>Reportaje</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/winnoticias.jpg" />
+  </programme>
+  <programme start="20261202100000 -0300" stop="20261202103000 -0300" channel="0430">
+    <title>Campañas</title>
+    <desc>Un programa que recuerda aquellas temporadas exitosas y muestra el camino que recorrieron equipos, jugadores y entrenadores emblemáticos del fútbol colombiano que dejaron una huella y llenan de orgullo a cada una de sus hinchadas.</desc>
+    <date>2019</date>
+    <category>Fútbol</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/campanas.jpg" />
+  </programme>
+  <programme start="20261202103000 -0300" stop="20261202123000 -0300" channel="0430">
+    <title>Supercopa de Italia</title>
+    <desc>Toda la emoción y la mejor cobertura de esta competencia del fútbol italiano.</desc>
+    <date>2012</date>
+    <category>Fútbol</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0430_fallback.jpg" />
+  </programme>
+  <programme start="20261202123000 -0300" stop="20261202133000 -0300" channel="0430">
+    <title>Detrás de la gloria</title>
+    <desc>El camino para ser campeón del fútbol colombiano nunca ha sido fácil. Una muestra de todo lo que los equipos viven dentro y fuera de sus planteles para levantar la copa y llenarse de Gloria.</desc>
+    <date>2020</date>
+    <category>Deportes</category>
+    <rating><value>+15</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/detrasdelagloria.jpg" />
+  </programme>
+  <programme start="20261202133000 -0300" stop="20261202153000 -0300" channel="0430">
+    <title>Fútbol Colombiano Segunda División</title>
+    <desc>La mejor cobertura del torneo de Segunda División en Colombia.</desc>
+    <date>2013</date>
+    <category>Fútbol</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbolcolombianosegundadivision.jpg" />
+  </programme>
+  <programme start="20261202153000 -0300" stop="20261202163000 -0300" channel="0430">
+    <title>Coppa Italia Show</title>
+    <desc>Toda la información sobre la Copa de Italia.</desc>
+    <date>2023</date>
+    <category>Fútbol</category>
+    <rating><value>+15</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/coppaitaliashow.jpg" />
+  </programme>
+  <programme start="20261202163000 -0300" stop="20261202170000 -0300" channel="0430">
+    <title>Fútbol: Previa</title>
+    <desc>Reportajes, análisis y comentarios previo al gran evento deportivo.</desc>
+    <date>2003</date>
+    <category>Fútbol</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbolprevia.jpg" />
+  </programme>
+  <programme start="20261202170000 -0300" stop="20261202190000 -0300" channel="0430">
+    <title>Fútbol Copa Italia</title>
+    <desc>La competición de fútbol de Italia en la que participan los equipos de la Serie A y de la Serie B.</desc>
+    <date>2012</date>
+    <category>Fútbol</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbolcopaitalia.jpg" />
+  </programme>
+  <programme start="20261202190000 -0300" stop="20261202193000 -0300" channel="0430">
+    <title>Campañas</title>
+    <desc>Un programa que recuerda aquellas temporadas exitosas y muestra el camino que recorrieron equipos, jugadores y entrenadores emblemáticos del fútbol colombiano que dejaron una huella y llenan de orgullo a cada una de sus hinchadas.</desc>
+    <date>2019</date>
+    <category>Fútbol</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/campanas.jpg" />
+  </programme>
+  <programme start="20261202193000 -0300" stop="20261202213000 -0300" channel="0430">
+    <title>Fútbol Copa Italia</title>
+    <desc>La competición de fútbol de Italia en la que participan los equipos de la Serie A y de la Serie B.</desc>
+    <date>2012</date>
+    <category>Fútbol</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbolcopaitalia.jpg" />
+  </programme>
+  <programme start="20261202213000 -0300" stop="20261202223000 -0300" channel="0430">
+    <title>Rueda de prensa Superliga</title>
+    <desc>Las voces previas a la definición del título en la Superliga de Colombia.</desc>
+    <date>2022</date>
+    <category>Fútbol</category>
+    <category>Deportes</category>
+    <rating><value>+15</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0430_fallback.jpg" />
+  </programme>
+  <programme start="20261202223000 -0300" stop="20261202233000 -0300" channel="0430">
+    <title>WIN Noticias</title>
+    <desc>La más completa información y todas las novedades del mundo deportivo nacional e internacional. Además, se tiene la más amplia cobertura de los deportistas colombianos en todo el mundo.</desc>
+    <date>2014</date>
+    <category>Reportaje</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/winnoticias.jpg" />
+  </programme>
+  <programme start="20261202233000 -0300" stop="20261203003000 -0300" channel="0430">
+    <title>Fútbol Copa Italia</title>
+    <desc>La competición de fútbol de Italia en la que participan los equipos de la Serie A y de la Serie B.</desc>
+    <date>2012</date>
+    <category>Fútbol</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/futbolcopaitalia.jpg" />
   </programme>
   <programme start="20261125123000 -0300" stop="20261125133000 -0300" channel="0431">
     <title>🔴 DSports Noticias Lite</title>
@@ -572473,7 +573071,7 @@ Diarios de un nómada es adrenalina, paisajes y experiencias, pero también Hist
   </programme>
   <programme start="20261126205500 -0300" stop="20261126230000 -0300" channel="0818">
     <title>Indomables</title>
-    <desc>Un deslumbrante cartel de jóvenes actores (Jacob Elordi (&quot;Euphoria&quot;, &quot;Saltburn&quot;), Daisy Edgar-Jones (&quot;Normal People&quot;), Will Poulter (&quot;Midsommar&quot;), Diego Calva (&quot;Babylon&quot;), Sasha Calle (&quot;Flash&quot;)...) encabeza el reparto de este melodrama moderno de...</desc>
+    <desc>Muriel y su marido Lee, están a punto de comenzar una nueva vida, se ven afectados por la llegada del hermano de Lee. Muriel se embarca en una vida secreta, apostando a los caballos de carreras y descubriendo un amor que nunca creyó.</desc>
     <credits>
       <director>Daniel Minahan</director>
       <actor>Jacob Elordi</actor>
@@ -572492,7 +573090,8 @@ Diarios de un nómada es adrenalina, paisajes y experiencias, pero también Hist
     </credits>
     <date>2025</date>
     <category>Drama</category>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0818_fallback.jpg" />
+    <country>Estados Unidos</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/indomables.jpg" />
   </programme>
   <programme start="20261126230000 -0300" stop="20261127012100 -0300" channel="0818">
     <title>Llámame por tu nombre</title>
@@ -583749,7 +584348,7 @@ Diarios de un nómada es adrenalina, paisajes y experiencias, pero también Hist
   </programme>
   <programme start="20261129230000 -0300" stop="20261130003300 -0300" channel="0822">
     <title>🔴 Alien Lockdown</title>
-    <desc>En vivo ║ Una criatura alienígena debe ser destruida después de que falla un plan del gobierno para utilizarla como arma.</desc>
+    <desc>En vivo ║ El doctor Alan Woodman se ha encerrado en un laboratorio secreto de alta tecnología. Sin que nadie lo sepa, allí llevará a cabo una serie de experimentos con una criatura de 5.000 años de antigüedad. El doctor está convencido de que puede convertir a esta criatura en una máquina de matar capaz de revolucionar las futuras guerras, pero en el momento de la demostración algo falla... (FILMAFFINITY)</desc>
     <credits>
       <director>Tim Cox</director>
       <actor>John Savage</actor>
@@ -583766,8 +584365,9 @@ Diarios de un nómada es adrenalina, paisajes y experiencias, pero también Hist
     <date>2004</date>
     <category>Movie</category>
     <category>Science fiction</category>
+    <country>Estados Unidos</country>
     <rating><value>B15</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0822_fallback.jpg" />
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/alienlockdown.jpg" />
   </programme>
   <programme start="20261130003300 -0300" stop="20261130020800 -0300" channel="0822">
     <title>Jigsaw: El juego continúa</title>
@@ -597175,7 +597775,7 @@ Diarios de un nómada es adrenalina, paisajes y experiencias, pero también Hist
     <rating><value>18</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/elcoleccionistadehuesos.jpg" />
   </programme>
-  <programme start="20261126000000 -0300" stop="20261126023200 -0300" channel="1829">
+  <programme start="20261126000000 -0300" stop="20261126022800 -0300" channel="1829">
     <title>El fugitivo</title>
     <desc>El doctor Kimble es un prestigioso cirujano de Chicago con una vida prácticamente perfecta. Todo se desmorona el día que su mujer es brutalmente asesinada en manos de un misterioso hombre manco y él es acusado del crimen. Ahora, deberá encontrar al culpable.</desc>
     <credits>
@@ -597187,7 +597787,7 @@ Diarios de un nómada es adrenalina, paisajes y experiencias, pero también Hist
       <actor>Joe Pantoliano</actor>
       <actor>Jeroen Krabbé</actor>
       <actor>Andreas Katsulas</actor>
-      <actor>Dan Roebuck</actor>
+      <actor>Daniel Roebuck</actor>
       <actor>L. Scott Caldwell</actor>
       <actor>Michael Chapman</actor>
     </credits>
@@ -597199,7 +597799,7 @@ Diarios de un nómada es adrenalina, paisajes y experiencias, pero también Hist
     <rating><value>14</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/elfugitivo.jpg" />
   </programme>
-  <programme start="20261126023200 -0300" stop="20261126045300 -0300" channel="1829">
+  <programme start="20261126022800 -0300" stop="20261126044600 -0300" channel="1829">
     <title>Los federales</title>
     <desc>Mark Sheridan, acusado del asesinato de dos agentes secretos, es arrestado y trasladado en avión a una penitenciaría. Durante el viaje, debido a una revuelta, la aeronave sufre un accidente que le permite escapar. Comienza entonces una implacable persecución por parte del agente federal Samuel Gerard, que hace años vivió una experiencia similar persiguiendo al doctor Kimble, el famoso fugitivo.</desc>
     <credits>
@@ -597210,7 +597810,7 @@ Diarios de un nómada es adrenalina, paisajes y experiencias, pero también Hist
       <actor>Kate Nelligan</actor>
       <actor>Joe Pantoliano</actor>
       <actor>Irène Jacob</actor>
-      <actor>Dan Roebuck</actor>
+      <actor>Daniel Roebuck</actor>
       <actor>Tom Wood</actor>
       <actor>LaTanya Richardson</actor>
       <actor>Michael Paul Chan</actor>
@@ -597222,7 +597822,7 @@ Diarios de un nómada es adrenalina, paisajes y experiencias, pero también Hist
     <rating><value>14</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/losfederales.jpg" />
   </programme>
-  <programme start="20261126045300 -0300" stop="20261126062200 -0300" channel="1829">
+  <programme start="20261126044600 -0300" stop="20261126061600 -0300" channel="1829">
     <title>Gamer: Juego letal</title>
     <desc>Kable, la superestrella y el héroe del super violento &#x27;Slayers&#x27;, es controlado por Simon, un joven jugador legendario que, a pesar de las escasas probabilidades, consigue mantener con vida a Kable cada semana. Apartado de su familia, encarcelado y obligado a luchar contra su voluntad, este moderno gladiador debe sobrevivir lo suficiente para poder escapar del juego y liberar a su familia, recuperar su identidad y salvar a la humanidad de la despiadada tecnología de Castle.</desc>
     <credits>
@@ -597247,21 +597847,30 @@ Diarios de un nómada es adrenalina, paisajes y experiencias, pero también Hist
     <rating><value>12</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/gamerjuegoletal.jpg" />
   </programme>
-  <programme start="20261126062200 -0300" stop="20261126080000 -0300" channel="1829">
-    <title>Line Walker: espía invisible</title>
-    <desc>Una organización criminal del sudeste asiático secuestra niños para criarlos como agentes enemigos que más tarde infiltrarán en las fuerzas de seguridad de Hong Kong. El hallazgo, por parte de unos hackers, de información confidencial relacionada con esta organización, pondrá en marcha a los cuerpos especiales, siguiendo una pista que les llevará hasta España.</desc>
+  <programme start="20261126061600 -0300" stop="20261126080000 -0300" channel="1829">
+    <title>12 horas para sobrevivir: El año de la elección</title>
+    <desc>Años después de perdonar al hombre que mató a su hijo, el ex sargento de la policía Barnes se ha convertido en jefe de seguridad de la senadora Charlie Roan, candidata presidencial que impulsa la idea de suprimir La Purga anual.</desc>
     <credits>
-      <director>Jazz Boon</director>
-      <actor>Jang Jin</actor>
-      <actor>Nick Cheung</actor>
-      <actor>Louis Koo Tin-Lok</actor>
-      <actor>Francis Ng</actor>
+      <director>James DeMonaco</director>
+      <director>David Lee Blankenship</director>
+      <actor>Frank Grillo</actor>
+      <actor>Elizabeth Mitchell</actor>
+      <actor>Mykelti Williamson</actor>
+      <actor>Joseph Julian Soria</actor>
+      <actor>Betty Gabriel</actor>
+      <actor>Terry Serpico</actor>
+      <actor>Edwin Hodge</actor>
+      <actor>Kyle Secor</actor>
+      <actor>Barry Nolan</actor>
+      <actor>Liza Colón-Zayas</actor>
     </credits>
-    <date>2019</date>
+    <date>2016</date>
     <category>Acción</category>
-    <country>China</country>
-    <rating><value>18</value></rating>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/linewalkerespiainvisible.jpg" />
+    <category>Terror</category>
+    <category>Suspenso</category>
+    <country>Francia,Estados Unidos</country>
+    <rating><value>+15</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/12horasparasobrevivirelanodelaeleccion.jpg" />
   </programme>
   <programme start="20261126080000 -0300" stop="20261126090000 -0300" channel="1829">
     <title>Hollywood One on One</title>
@@ -598897,7 +599506,7 @@ Diarios de un nómada es adrenalina, paisajes y experiencias, pero también Hist
     <rating><value>18</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0829_fallback.jpg" />
   </programme>
-  <programme start="20261201212800 -0300" stop="20261201222800 -0300" channel="1829">
+  <programme start="20261201212800 -0300" stop="20261202000000 -0300" channel="1829">
     <title>Spider-Man: Lejos de casa</title>
     <desc>Peter Parker decide irse junto a MJ, Ned y el resto de sus amigos a pasar unas vacaciones a Europa. Sin embargo, el plan de Parker por dejar de lado sus superpoderes durante unas semanas se ven truncados cuando Nick Fury contacta con él para solicitarle ayuda para frenar el ataque de unas criaturas elementales que están causando el caos en el continente. En ese momento, Parker vuelve a ponerse el traje de Spider-Man para cumplir con su labor.</desc>
     <credits>
@@ -598924,15 +599533,283 @@ Diarios de un nómada es adrenalina, paisajes y experiencias, pero también Hist
     <rating><value>7</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/spidermanlejosdecasa.jpg" />
   </programme>
-  <programme start="20261201222800 -0300" stop="20261201230000 -0300" channel="1829">
-    <title>Space</title>
+  <programme start="20261202000000 -0300" stop="20261202024100 -0300" channel="1829">
+    <title>Spider-Man: Sin camino a casa</title>
+    <desc>Peter Parker es desenmascarado y ya no puede separar su vida normal de los altos riesgos de ser un súper héroe. Cuando pide ayuda al Doctor Strange para recuperar su secreto, el hechizo crea un agujero en su mundo, liberando a los villanos más poderosos que han luchado con cualquier Spider-Man, en cualquier universo. Ahora Peter debe de superar su reto más grande, que no solo alterara su propio futuro pero el del multiverso, forzándolo a descubrir lo que realmente significa ser Spider-Man.</desc>
+    <credits>
+      <director>Jon Watts</director>
+      <director>Samantha Avila</director>
+      <actor>Tom Holland</actor>
+      <actor>Zendaya</actor>
+      <actor>Benedict Cumberbatch</actor>
+      <actor>Jacob Batalon</actor>
+      <actor>Jon Favreau</actor>
+      <actor>Jamie Foxx</actor>
+      <actor>Willem Dafoe</actor>
+      <actor>Alfred Molina</actor>
+      <actor>Benedict Wong</actor>
+      <actor>Tony Revolori</actor>
+    </credits>
+    <date>2021</date>
+    <category>Acción</category>
+    <category>Comedia</category>
+    <category>Fantasía</category>
+    <category>Aventura</category>
+    <country>Estados Unidos</country>
+    <rating><value>12</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/spidermansincaminoacasa.jpg" />
+  </programme>
+  <programme start="20261202024100 -0300" stop="20261202042700 -0300" channel="1829">
+    <title>Rendirse jamás 2: Combate final</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
+    <credits>
+      <director>Michael Jai White</director>
+      <actor>Michael Jai White</actor>
+      <actor>Alex Meraz</actor>
+      <actor>Todd Duffee</actor>
+      <actor>Scottie Epstein</actor>
+      <actor>Dean Geyer</actor>
+      <actor>Evan Peters</actor>
+      <actor>Jillian Murray</actor>
+      <actor>Stacey Asaro</actor>
+      <actor>Chris Hauty</actor>
+    </credits>
+    <date>2011</date>
+    <category>Acción</category>
+    <country>Estados Unidos</country>
+    <rating><value>+15</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0829_fallback.jpg" />
   </programme>
-  <programme start="20261201230000 -0300" stop="20261201235959 -0300" channel="1829">
-    <title>Space</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
+  <programme start="20261202042700 -0300" stop="20261202065500 -0300" channel="1829">
+    <title>Misión imposible: Repercusión</title>
+    <desc>Un traficante de armas y un grupo de terroristas pretenden realizar un triple ataque nuclear con tres artefactos de plutonio, los cuales se pierden. Ethan Hunt y su equipo tendrán que recuperarlos antes de que caigan en las manos equivocadas.</desc>
+    <credits>
+      <director>Christopher McQuarrie</director>
+      <actor>Tom Cruise</actor>
+      <actor>Henry Cavill</actor>
+      <actor>Ving Rhames</actor>
+      <actor>Simon Pegg</actor>
+      <actor>Rebecca Ferguson</actor>
+      <actor>Sean Harris</actor>
+      <actor>Angela Bassett</actor>
+      <actor>Michelle Monaghan</actor>
+      <actor>Alec Baldwin</actor>
+      <actor>Vanessa Kirby</actor>
+    </credits>
+    <date>2018</date>
+    <category>Acción</category>
+    <category>Aventura</category>
+    <category>Suspenso</category>
+    <country>Estados Unidos,China</country>
+    <rating><value>12</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0829_fallback.jpg" />
+  </programme>
+  <programme start="20261202065500 -0300" stop="20261202080000 -0300" channel="1829">
+    <title>El ataque de los zombies en la nieve</title>
+    <desc>Unos jóvenes que practican el snowboard están atrapados en un remoto centro de esquí, donde son perseguidos por zombis.</desc>
+    <credits>
+      <director>Dominik Hartl</director>
+      <actor>Gabriela Marcinkova</actor>
+      <actor>Patricia Aulitzky</actor>
+      <actor>Laurie Calvert</actor>
+      <actor>Karl Fischer</actor>
+      <actor>Margarete Tiesel</actor>
+      <actor>Oscar Dyekjær Giese</actor>
+      <actor>Kari Rakkola</actor>
+      <actor>Dominik Hartl</actor>
+      <actor>Armin Prediger</actor>
+      <actor>Paul Gallister</actor>
+    </credits>
+    <date>2016</date>
+    <category>Comedia</category>
+    <category>Terror</category>
+    <country>Austria</country>
+    <rating><value>18</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/elataquedeloszombiesenlanieve.jpg" />
+  </programme>
+  <programme start="20261202080000 -0300" stop="20261202084300 -0300" channel="1829">
+    <title>Hollywood One on One</title>
+    <desc>Las celebridades de Hollywood dan cuenta de su vida personal y profesional, y se sinceran sobre sus próximos proyectos.</desc>
+    <date>1993</date>
+    <category>Entretenimiento</category>
+    <category>Talk Show</category>
+    <rating><value>14</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/hollywoodoneonone.jpg" />
+  </programme>
+  <programme start="20261202084300 -0300" stop="20261202104400 -0300" channel="1829">
+    <title>El vengador del futuro</title>
+    <desc>Rekall es una empresa que puede convertir los sueños en recuerdos reales, haciendo que la frontera entre realidad y memoria se difumine. Para Douglas Quaid la idea de hacer un viaje mental que le proporcione recuerdos de una vida como superespía puede ser la solución perfecta para contrarrestar su frustrante vida. Lo malo es que el proceso sale mal, y Quaid se convierte en un hombre perseguido por los agentes de un estado totalitario. En su huida se asocia con una luchadora rebelde, con el fin de encontrar al cabecilla de la resistencia clandestina.</desc>
+    <credits>
+      <director>Len Wiseman</director>
+      <director>Patrick Banister</director>
+      <actor>Colin Farrell</actor>
+      <actor>Kate Beckinsale</actor>
+      <actor>Jessica Biel</actor>
+      <actor>Bryan Cranston</actor>
+      <actor>Bokeem Woodbine</actor>
+      <actor>Bill Nighy</actor>
+      <actor>John Cho</actor>
+      <actor>Will Yun Lee</actor>
+      <actor>Milton Barnes</actor>
+      <actor>James McGowan</actor>
+    </credits>
+    <date>2012</date>
+    <category>Acción</category>
+    <category>Misterio</category>
+    <category>Aventura</category>
+    <category>Suspenso</category>
+    <country>Estados Unidos,Canadá</country>
+    <rating><value>12</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/elvengadordelfuturo.jpg" />
+  </programme>
+  <programme start="20261202104400 -0300" stop="20261202132200 -0300" channel="1829">
+    <title>Minority Report: sentencia previa</title>
+    <desc>En Washington, en el año 2054, la tecnología y los poderes psíquicos se han convertido en aliados insustituibles para la justicia, ya que en este tiempo, los criminales son identificados incluso antes de que den el mal paso. Nadie confía más en el sistema que el jefe de la unidad de Pre-crimen, John Anderton, hasta que él mismo es señalado como sospechoso de un futuro asesinato.</desc>
+    <credits>
+      <director>Steven Spielberg</director>
+      <director>Ramsey Avery</director>
+      <director>Leslie McDonald</director>
+      <actor>Tom Cruise</actor>
+      <actor>Colin Farrell</actor>
+      <actor>Samantha Morton</actor>
+      <actor>Max Von Sydow</actor>
+      <actor>Lois Smith</actor>
+      <actor>Peter Stormare</actor>
+      <actor>Tim Blake Nelson</actor>
+      <actor>Steve Harris</actor>
+      <actor>Kathryn Morris</actor>
+      <actor>Mike Binder</actor>
+    </credits>
+    <date>2002</date>
+    <category>Acción</category>
+    <category>Drama</category>
+    <category>Misterio</category>
+    <category>Crimen</category>
+    <category>Suspenso</category>
+    <country>Estados Unidos</country>
+    <rating><value>12</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/minorityreportsentenciaprevia.jpg" />
+  </programme>
+  <programme start="20261202132200 -0300" stop="20261202152300 -0300" channel="1829">
+    <title>Rendirse jamás</title>
+    <desc>Jack se ve envuelto en una dura pelea durante una fiesta, donde es vencido y humillado. Avergonzado, decide aprender artes marciales de la mano de un mentor, quien le enseñará disciplina y las claves para llegar a lo más alto.</desc>
+    <credits>
+      <director>Jeff Wadlow</director>
+      <director>Andrew White</director>
+      <actor>Djimon Hounsou</actor>
+      <actor>Sean Faris</actor>
+      <actor>Amber Heard</actor>
+      <actor>Cam Gigandet</actor>
+      <actor>Leslie Hope</actor>
+      <actor>Evan Peters</actor>
+      <actor>Wyatt Smith</actor>
+      <actor>Affion Crockett</actor>
+      <actor>Neil Brown</actor>
+      <actor>Lauren Leech</actor>
+    </credits>
+    <date>2008</date>
+    <category>Acción</category>
+    <country>Estados Unidos</country>
+    <rating><value>12</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0829_fallback.jpg" />
+  </programme>
+  <programme start="20261202152300 -0300" stop="20261202171300 -0300" channel="1829">
+    <title>Rendirse jamás 2: Combate final</title>
+    <desc>La información de este programa no se encuentra disponible.</desc>
+    <credits>
+      <director>Michael Jai White</director>
+      <actor>Michael Jai White</actor>
+      <actor>Alex Meraz</actor>
+      <actor>Todd Duffee</actor>
+      <actor>Scottie Epstein</actor>
+      <actor>Dean Geyer</actor>
+      <actor>Evan Peters</actor>
+      <actor>Jillian Murray</actor>
+      <actor>Stacey Asaro</actor>
+      <actor>Chris Hauty</actor>
+    </credits>
+    <date>2011</date>
+    <category>Acción</category>
+    <country>Estados Unidos</country>
+    <rating><value>+15</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0829_fallback.jpg" />
+  </programme>
+  <programme start="20261202171300 -0300" stop="20261202184900 -0300" channel="1829">
+    <title>Rendirse jamás 4: La revuelta</title>
+    <desc>Una luchadora aficionada es secuestrada por un sindicato de traficantes especializado en luchas clandestinas de élite, donde su brutal captor la obliga a luchar o a enfrentarse a una muerte segura.</desc>
+    <credits>
+      <director>Kellie Madison</director>
+      <director>Jenny Ray</director>
+      <actor>James Faulkner</actor>
+      <actor>Gianni Calchetti</actor>
+      <actor>Cameron Jack</actor>
+      <actor>Michael Bisping</actor>
+      <actor>Hannah Al Rashid</actor>
+      <actor>Raffaello Degruttola</actor>
+      <actor>Olivia Popica</actor>
+      <actor>Christopher Sciueref</actor>
+      <actor>Diana Hoyos</actor>
+      <actor>Tommy Bastow</actor>
+    </credits>
+    <date>2021</date>
+    <category>Acción</category>
+    <category>Drama</category>
+    <country>Estados Unidos</country>
+    <rating><value>18</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0829_fallback.jpg" />
+  </programme>
+  <programme start="20261202184900 -0300" stop="20261202211800 -0300" channel="1829">
+    <title>Spider-Man: Lejos de casa</title>
+    <desc>Peter Parker decide irse junto a MJ, Ned y el resto de sus amigos a pasar unas vacaciones a Europa. Sin embargo, el plan de Parker por dejar de lado sus superpoderes durante unas semanas se ven truncados cuando Nick Fury contacta con él para solicitarle ayuda para frenar el ataque de unas criaturas elementales que están causando el caos en el continente. En ese momento, Parker vuelve a ponerse el traje de Spider-Man para cumplir con su labor.</desc>
+    <credits>
+      <director>Jon Watts</director>
+      <director>Joanne Rider</director>
+      <director>Joe Howard</director>
+      <actor>Tom Holland</actor>
+      <actor>Samuel L. Jackson</actor>
+      <actor>Jake Gyllenhaal</actor>
+      <actor>Marisa Tomei</actor>
+      <actor>Jon Favreau</actor>
+      <actor>Zendaya</actor>
+      <actor>Jacob Batalon</actor>
+      <actor>Tony Revolori</actor>
+      <actor>Angourie Rice</actor>
+      <actor>Remy Hii</actor>
+    </credits>
+    <date>2019</date>
+    <category>Acción</category>
+    <category>Comedia</category>
+    <category>Fantasía</category>
+    <category>Aventura</category>
+    <country>Estados Unidos</country>
+    <rating><value>7</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/spidermanlejosdecasa.jpg" />
+  </programme>
+  <programme start="20261202211800 -0300" stop="20261202221800 -0300" channel="1829">
+    <title>Spider-Man: Sin camino a casa</title>
+    <desc>Peter Parker es desenmascarado y ya no puede separar su vida normal de los altos riesgos de ser un súper héroe. Cuando pide ayuda al Doctor Strange para recuperar su secreto, el hechizo crea un agujero en su mundo, liberando a los villanos más poderosos que han luchado con cualquier Spider-Man, en cualquier universo. Ahora Peter debe de superar su reto más grande, que no solo alterara su propio futuro pero el del multiverso, forzándolo a descubrir lo que realmente significa ser Spider-Man.</desc>
+    <credits>
+      <director>Jon Watts</director>
+      <director>Samantha Avila</director>
+      <actor>Tom Holland</actor>
+      <actor>Zendaya</actor>
+      <actor>Benedict Cumberbatch</actor>
+      <actor>Jacob Batalon</actor>
+      <actor>Jon Favreau</actor>
+      <actor>Jamie Foxx</actor>
+      <actor>Willem Dafoe</actor>
+      <actor>Alfred Molina</actor>
+      <actor>Benedict Wong</actor>
+      <actor>Tony Revolori</actor>
+    </credits>
+    <date>2021</date>
+    <category>Acción</category>
+    <category>Comedia</category>
+    <category>Fantasía</category>
+    <category>Aventura</category>
+    <country>Estados Unidos</country>
+    <rating><value>12</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/spidermansincaminoacasa.jpg" />
   </programme>
   <programme start="20261125135400 -0300" stop="20261125144500 -0300" channel="3829">
     <title>LM52</title>
@@ -622584,7 +623461,7 @@ Diarios de un nómada es adrenalina, paisajes y experiencias, pero también Hist
     <category>Romance</category>
     <category>Navidad</category>
     <country>Estados Unidos</country>
-    <rating><value>18</value></rating>
+    <rating><value>+15</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/acarolfortwo.jpg" />
   </programme>
   <programme start="20261126184000 -0300" stop="20261126202000 -0300" channel="1834">
@@ -624203,7 +625080,7 @@ Diarios de un nómada es adrenalina, paisajes y experiencias, pero también Hist
     <category>Romance</category>
     <category>Navidad</category>
     <country>Estados Unidos</country>
-    <rating><value>18</value></rating>
+    <rating><value>+15</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/acarolfortwo.jpg" />
   </programme>
   <programme start="20261201080000 -0300" stop="20261201083000 -0300" channel="1834">
@@ -624468,7 +625345,7 @@ Diarios de un nómada es adrenalina, paisajes y experiencias, pero también Hist
     <rating><value>TE</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/navidadenelplaza.jpg" />
   </programme>
-  <programme start="20261201233000 -0300" stop="20261202003000 -0300" channel="1834">
+  <programme start="20261201233000 -0300" stop="20261202011000 -0300" channel="1834">
     <title>Una Navidad atemporal</title>
     <desc>Charles Whitley viaja desde 1903 hasta el año 2020, donde conoce a Megan Turner y vive una Navidad del siglo XXI.</desc>
     <credits>
@@ -624491,6 +625368,400 @@ Diarios de un nómada es adrenalina, paisajes y experiencias, pero también Hist
     <country>Estados Unidos</country>
     <rating><value>TE</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/unanavidadatemporal.jpg" />
+  </programme>
+  <programme start="20261202011000 -0300" stop="20261202025000 -0300" channel="1834">
+    <title>Following Yonder Star</title>
+    <desc>Una antigua estrella de televisión espera que se resuelva un escándalo en Vermont. Se hace amiga del posadero y de su hija mientras lo ayuda a dirigir un espectáculo navideño.</desc>
+    <credits>
+      <director>Jeff Beesley</director>
+      <director>Jesse Miki</director>
+      <actor>Brooke D&#x27;Orsay</actor>
+      <actor>John Brotherton</actor>
+      <actor>Isla Verot</actor>
+      <actor>Amanda Austin</actor>
+      <actor>Melissa Murray-Mutch</actor>
+      <actor>Jacob Blair</actor>
+      <actor>Lois Brothers</actor>
+      <actor>Naomi Rubel Lifshits</actor>
+      <actor>John-Eliot Jordan</actor>
+      <actor>Carlie Mantilla-Jordan</actor>
+    </credits>
+    <date>2024</date>
+    <category>Drama</category>
+    <category>Navidad</category>
+    <country>Estados Unidos</country>
+    <rating><value>+15</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0834_fallback.jpg" />
+  </programme>
+  <programme start="20261202025000 -0300" stop="20261202042500 -0300" channel="1834">
+    <title>Galletas de Navidad</title>
+    <desc>Un gran conglomerado compra una fábrica de galletas, y mandan de ejecutiva a Hannah para que selle el acuerdo y cierre la fábrica. Lo que se suponía que era una simple tarea para Hannah, se complica cuando conoce a Jake, el dueño de la fábrica, quien está decidido a mantener la fábrica en la ciudad. Su relación con Jake cambiará su perspectiva.</desc>
+    <credits>
+      <director>James Head</director>
+      <actor>Jill Wagner</actor>
+      <actor>Wes Brown</actor>
+      <actor>Tiera Skovbye</actor>
+      <actor>Chelsey Reist</actor>
+      <actor>Marci T. House</actor>
+      <actor>Jim Thorburn</actor>
+      <actor>Amélie Eve</actor>
+      <actor>Dee Jay Jackson</actor>
+      <actor>Robert Tate Miller</actor>
+      <actor>Ronald Richards</actor>
+    </credits>
+    <date>2016</date>
+    <category>Drama</category>
+    <category>Romance</category>
+    <category>Navidad</category>
+    <country>Estados Unidos,Canadá</country>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0834_fallback.jpg" />
+  </programme>
+  <programme start="20261202042500 -0300" stop="20261202060000 -0300" channel="1834">
+    <title>My Dad&#x27;s Christmas Date</title>
+    <desc>Jules, de dieciséis años, va en busca de un nuevo amor para su padre, con la esperanza de encontrar a alguien a quien también pueda abrir su corazón.</desc>
+    <credits>
+      <director>Mick Davis</director>
+      <director>Mike Jones</director>
+      <actor>Jeremy Piven</actor>
+      <actor>Joely Richardson</actor>
+      <actor>Anna Walton</actor>
+      <actor>Nathalie Cox</actor>
+      <actor>Roger Ashton-griffiths</actor>
+      <actor>Olivia-Mai Barrett</actor>
+      <actor>Tina Louise Owens</actor>
+      <actor>Philip Gascoyne</actor>
+      <actor>John Alan Roberts</actor>
+      <actor>Hadar Cats</actor>
+    </credits>
+    <date>2020</date>
+    <category>Comedia</category>
+    <category>Navidad</category>
+    <country>Reino Unido</country>
+    <rating><value>18</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0834_fallback.jpg" />
+  </programme>
+  <programme start="20261202060000 -0300" stop="20261202073000 -0300" channel="1834">
+    <title>Cita navideña</title>
+    <desc>Brooke debe regresar a su casa por las fiestas, así que le pide a Joel que se haga pasar por su exnovio mientras están allí.</desc>
+    <credits>
+      <director>Jeff Beesley</director>
+      <actor>Matt Cohen</actor>
+      <actor>Brittany Bristow</actor>
+      <actor>Teryl Rothery</actor>
+      <actor>Bruce Boxleitner</actor>
+      <actor>Peter Benson</actor>
+      <actor>Ava Grace Cooper</actor>
+      <actor>Anna Van Hooft</actor>
+      <actor>Edward Ruttle</actor>
+      <actor>Shannon Chan-Kent</actor>
+      <actor>Matty Finochio</actor>
+    </credits>
+    <date>2019</date>
+    <category>Navidad</category>
+    <country>Estados Unidos</country>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0834_fallback.jpg" />
+  </programme>
+  <programme start="20261202073000 -0300" stop="20261202080000 -0300" channel="1834">
+    <title>Hollywood on Set • Hasta pronto, Christopher Robin; Feliz día de tu muerte; Tan distinto como yo</title>
+    <sub-title>Hasta pronto, Christopher Robin; Feliz día de tu muerte; Tan distinto como yo</sub-title>
+    <desc>Hasta pronto, Christopher Robin; Feliz día de tu muerte; Tan distinto como yo | Imágenes del rodaje de &#x27;Adiós, Christopher Robin&#x27;, &#x27;Feliz cumpleaños&#x27; y &#x27;Todos somos iguales&#x27;.</desc>
+    <credits>
+      <director>Paul Wynne</director>
+      <director>David Freydt</director>
+      <director>Lisa Evans</director>
+      <director>Guy Handelman</director>
+      <actor>Michelle Blenker</actor>
+      <actor>Janett Hermosillo</actor>
+      <actor>Angela Valley</actor>
+      <actor>Michael Keaton</actor>
+      <actor>Ann Marie Lariccia</actor>
+      <actor>Oscar Isaac</actor>
+      <actor>Isabela Merced</actor>
+      <actor>Jodie Comer</actor>
+      <actor>Anya Taylor-Joy</actor>
+      <actor>Martin Saint Charles</actor>
+      <actor>Jake Gyllenhaal</actor>
+      <presenter>Michelle Blenker</presenter>
+    </credits>
+    <date>2017</date>
+    <category>Entretenimiento</category>
+    <category>Drama</category>
+    <country>EE. UU</country>
+    <rating><value>18</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/hollywoodonset.jpg" />
+  </programme>
+  <programme start="20261202080000 -0300" stop="20261202083000 -0300" channel="1834">
+    <title>Hollywood on Set • Star Wars: Episodio VIII - Los Últimos Jedi; ¡Esto Recién Comienza!; Aprendiendo a Vivir</title>
+    <sub-title>Star Wars: Episodio VIII - Los Últimos Jedi; ¡Esto Recién Comienza!; Aprendiendo a Vivir</sub-title>
+    <desc>Star Wars: Episodio VIII - Los Últimos Jedi; ¡Esto Recién Comienza!; Aprendiendo a Vivir | Actores y cineastas visionarios comparten detalles y aspectos memorables durante la creación de cada película.</desc>
+    <credits>
+      <director>David Freydt</director>
+      <director>Paul Wynne</director>
+      <director>Martin Saint Charles</director>
+      <actor>Michelle Blenker</actor>
+      <actor>Janett Hermosillo</actor>
+      <actor>Angela Valley</actor>
+      <actor>Michael Keaton</actor>
+      <actor>Ann Marie Lariccia</actor>
+      <actor>Oscar Isaac</actor>
+      <actor>Isabela Merced</actor>
+      <actor>Jodie Comer</actor>
+      <actor>Anya Taylor-Joy</actor>
+      <actor>Martin Saint Charles</actor>
+      <actor>Jake Gyllenhaal</actor>
+      <presenter>Michelle Blenker</presenter>
+    </credits>
+    <date>2017</date>
+    <category>Entretenimiento</category>
+    <country>EE. UU</country>
+    <episode-num system="onscreen">Temporada 1</episode-num>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/hollywoodonset.jpg" />
+  </programme>
+  <programme start="20261202083000 -0300" stop="20261202102000 -0300" channel="1834">
+    <title>Arthur Christmas: operación regalo</title>
+    <desc>El hijo menor de Papá Noel realiza una misión urgente para entregar un regalo a un niño del que su padre se olvidó antes de que llegue la mañana de Navidad.</desc>
+    <credits>
+      <director>Sarah Smith</director>
+      <director>Olivier Adam</director>
+      <director>Alexei Nechytaylo</director>
+      <actor>James McAvoy</actor>
+      <actor>Hugh Laurie</actor>
+      <actor>Bill Nighy</actor>
+      <actor>Jim Broadbent</actor>
+      <actor>Imelda Staunton</actor>
+      <actor>Ashley Jensen</actor>
+      <actor>Marc Wootton</actor>
+      <actor>Laura Linney</actor>
+      <actor>Eva Longoria</actor>
+      <actor>Ramona Marquez</actor>
+    </credits>
+    <date>2011</date>
+    <category>Niños</category>
+    <category>Comedia</category>
+    <category>Drama</category>
+    <category>Fantasía</category>
+    <category>Navidad</category>
+    <category>Dibujo Animado</category>
+    <country>Reino Unido,Estados Unidos</country>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0834_fallback.jpg" />
+  </programme>
+  <programme start="20261202102000 -0300" stop="20261202120500 -0300" channel="1834">
+    <title>El expreso polar</title>
+    <desc>Es Navidad cuando un niño intenta oír el tintineo de las campanas del trineo de Papá Noel. A solo cinco minutos de la medianoche, un ruido sobresalta al muchacho: un reluciente tren negro frena frente a su casa para llevarlo al Polo Norte.</desc>
+    <credits>
+      <director>Robert Zemeckis</director>
+      <director>Tony Fanning</director>
+      <director>James Hegedus</director>
+      <actor>Tom Hanks</actor>
+      <actor>Michael Jeter</actor>
+      <actor>Nona Gaye</actor>
+      <actor>Peter Scolari</actor>
+      <actor>Eddie Deezen</actor>
+      <actor>Charles Fleischer</actor>
+      <actor>Steven Tyler</actor>
+      <actor>Leslie Zemeckis</actor>
+      <actor>Daryl Sabara</actor>
+      <actor>André Sogliuzzo</actor>
+    </credits>
+    <date>2004</date>
+    <category>Niños</category>
+    <category>Fantasía</category>
+    <category>Navidad</category>
+    <category>Dibujo Animado</category>
+    <country>Estados Unidos</country>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0834_fallback.jpg" />
+  </programme>
+  <programme start="20261202120500 -0300" stop="20261202140500 -0300" channel="1834">
+    <title>Fred Claus: El hermano de Santa</title>
+    <desc>Santa Claus saca de la cárcel a Fred, su inepto hermano, y lo lleva con él al Polo Norte para fabricar juguetes, pero Fred le regresa el favor robándose la Navidad.</desc>
+    <credits>
+      <director>David Dobkin</director>
+      <director>Mike Stallion</director>
+      <director>Alex Cameron</director>
+      <actor>Vince Vaughn</actor>
+      <actor>Paul Giamatti</actor>
+      <actor>Miranda Richardson</actor>
+      <actor>John Michael Higgins</actor>
+      <actor>Rachel Weisz</actor>
+      <actor>Kevin Spacey</actor>
+      <actor>Elizabeth Banks</actor>
+      <actor>Kathy Bates</actor>
+      <actor>Trevor Peacock</actor>
+      <actor>Chris &quot;Ludacris&quot; Bridges</actor>
+    </credits>
+    <date>2007</date>
+    <category>Comedia</category>
+    <category>Navidad</category>
+    <country>Estados Unidos</country>
+    <rating><value>12</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0834_fallback.jpg" />
+  </programme>
+  <programme start="20261202140500 -0300" stop="20261202154000 -0300" channel="1834">
+    <title>Ni en tu casa ni en la mía</title>
+    <desc>Brad y Kate, una pareja de San Francisco que había pensado pasar las Navidades en un lugar exótico, lejos de su familia, se ve obligada a cancelar sus planes y asistir a cuatro celebraciones familiares en el mismo día.</desc>
+    <credits>
+      <director>Seth Gordon</director>
+      <actor>Vince Vaughn</actor>
+      <actor>Reese Witherspoon</actor>
+      <actor>Robert Duvall</actor>
+      <actor>Jon Favreau</actor>
+      <actor>Mary Steenburgen</actor>
+      <actor>Dwight Yoakam</actor>
+      <actor>Tim McGraw</actor>
+      <actor>Kristin Chenoweth</actor>
+      <actor>Jon Voight</actor>
+      <actor>Sissy Spacek</actor>
+    </credits>
+    <date>2008</date>
+    <category>Navidad</category>
+    <country>Estados Unidos</country>
+    <rating><value>7</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/nientucasanienlamia.jpg" />
+  </programme>
+  <programme start="20261202154000 -0300" stop="20261202172000 -0300" channel="1834">
+    <title>Una Navidad para comenzar de nuevo</title>
+    <desc>Después de la muerte de su marido, Traci, una cristiana devota, pierde la fe. En su segunda Navidad sin él visita un grupo de apoyo en busca de consuelo e inspiración.</desc>
+    <credits>
+      <director>Fred Gerber</director>
+      <actor>Nikki DeLoach</actor>
+      <actor>Brennan Elliott</actor>
+      <actor>Princess Davis</actor>
+      <actor>Pete Graham</actor>
+      <actor>Shiraine Haas</actor>
+      <actor>Brittany Mitchell</actor>
+      <actor>Cardi Wong</actor>
+      <actor>Beverley Elliott</actor>
+      <actor>Victor Zinck</actor>
+      <actor>Katharine Isabelle</actor>
+    </credits>
+    <date>2022</date>
+    <category>Drama</category>
+    <category>Romance</category>
+    <category>Navidad</category>
+    <country>Estados Unidos</country>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0834_fallback.jpg" />
+  </programme>
+  <programme start="20261202172000 -0300" stop="20261202185000 -0300" channel="1834">
+    <title>Navidad nostálgica</title>
+    <desc>El trabajo de Anne para una compañía juguetera en la ciudad de Nueva York parece colmar todos sus sueños, pero la jubilación de su padre y el cierre de su amada juguetería la empujan a volver a la pequeña ciudad en la que creció.</desc>
+    <credits>
+      <director>J.B. Sugar</director>
+      <actor>Brooke D&#x27;Orsay</actor>
+      <actor>Trevor Donovan</actor>
+      <actor>Jenna Weir</actor>
+      <actor>Ron Lea</actor>
+      <actor>Tara Joshi</actor>
+      <actor>Eugene Clark</actor>
+      <actor>Chad Willett</actor>
+      <actor>Barbara Gordon</actor>
+      <actor>Vanessa Burns</actor>
+      <actor>Arlene Duncan</actor>
+    </credits>
+    <date>2019</date>
+    <category>Romance</category>
+    <category>Navidad</category>
+    <country>Canadá</country>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0834_fallback.jpg" />
+  </programme>
+  <programme start="20261202185000 -0300" stop="20261202202500 -0300" channel="1834">
+    <title>El camino a la Navidad</title>
+    <desc>Maggie Baker, productora de televisión de Los Ángeles, se enamora de Danny Wise, el ex productor del especial de Navidad de su madre.</desc>
+    <credits>
+      <director>Allan Harmon</director>
+      <actor>Jessy Schram</actor>
+      <actor>Teryl Rothery</actor>
+      <actor>Matreya Scarrwener</actor>
+      <actor>Chad Michael Murray</actor>
+      <actor>Jeff Gonek</actor>
+      <actor>Cardi Wong</actor>
+      <actor>Rebekah Asselstine</actor>
+      <actor>Marlie Collins</actor>
+      <actor>Alisson Amigo</actor>
+      <actor>Bj Harrison</actor>
+    </credits>
+    <date>2018</date>
+    <category>Romance</category>
+    <category>Navidad</category>
+    <country>Estados Unidos</country>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0834_fallback.jpg" />
+  </programme>
+  <programme start="20261202202500 -0300" stop="20261202220000 -0300" channel="1834">
+    <title>Christmas on Mistletoe Lake</title>
+    <desc>La diseñadora de interiores Reilly se encuentra en la ciudad de Mistletoe Lake sin un lugar donde quedarse en Navidad. Ella acepta una oferta de Ray para quedarse en su bote y lo ayuda a renovarlo para el festival navideño de la ciudad.</desc>
+    <credits>
+      <director>Robin Dunne</director>
+      <director>Brandon Macpherson</director>
+      <actor>Genelle Williams</actor>
+      <actor>Corey Sevier</actor>
+      <actor>Hattie Kragten</actor>
+      <actor>Brandon Ludwig</actor>
+      <actor>Kyana Teresa</actor>
+      <actor>Jane Moffat</actor>
+      <actor>Darrell Faria</actor>
+      <actor>Jackie Richardson</actor>
+      <actor>Richard Fitzpatrick</actor>
+      <actor>Robin Dunne</actor>
+    </credits>
+    <date>2022</date>
+    <category>Navidad</category>
+    <country>Canadá,Estados Unidos</country>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/christmasonmistletoelake.jpg" />
+  </programme>
+  <programme start="20261202220000 -0300" stop="20261202233500 -0300" channel="1834">
+    <title>Navidad en Londres</title>
+    <desc>Un arquitecto contrata a un comprador profesional para que le ayude a encontrar el regalo perfecto para su novia.</desc>
+    <credits>
+      <director>Jonathan Wright</director>
+      <director>Jamie Foote</director>
+      <actor>Reshma Shetty</actor>
+      <actor>Will Kemp</actor>
+      <actor>Callum Blue</actor>
+      <actor>Su McLaughlin</actor>
+      <actor>James Faulkner</actor>
+      <actor>Sophie Hopkins</actor>
+      <actor>Amerjit Deu</actor>
+      <actor>Montana Manning</actor>
+      <actor>Jules Knight</actor>
+      <actor>Martin Miller</actor>
+    </credits>
+    <date>2022</date>
+    <category>Romance</category>
+    <category>Navidad</category>
+    <country>Reino Unido</country>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/navidadenlondres.jpg" />
+  </programme>
+  <programme start="20261202233500 -0300" stop="20261203003500 -0300" channel="1834">
+    <title>Buenos días Navidad</title>
+    <desc>Dos presentadores de televisión competidores viajan a un pequeño pueblo durante la Navidad. Mientras fingen que se llevan bien para sobrellevar las apariencias, terminan descubriendo que se parecen más de lo que pensaban.</desc>
+    <credits>
+      <director>Paul Ziller</director>
+      <actor>Alison Sweeney</actor>
+      <actor>Marc Blucas</actor>
+      <actor>Jillian Walchuck</actor>
+      <actor>Ian Collins</actor>
+      <actor>Nicole Oliver</actor>
+      <actor>Matthew James Dowden</actor>
+      <actor>Jay Brazeau</actor>
+      <actor>Kayla Heller</actor>
+      <actor>Barbara Pollard</actor>
+      <actor>Kat Ruston</actor>
+    </credits>
+    <date>2020</date>
+    <category>Romance</category>
+    <category>Navidad</category>
+    <country>Canadá</country>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/buenosdiasnavidad.jpg" />
   </programme>
   <programme start="20261125131500 -0300" stop="20261125145000 -0300" channel="2834">
     <title>Navidad en el lago</title>
@@ -675813,7 +677084,7 @@ No aparece en el programa ningún otro superhéroe de ficción, a excepción  de
   <programme start="20261125235000 -0300" stop="20261126004000 -0300" channel="1847">
     <title>NCIS: Origins • Funny How Time Slips Away</title>
     <sub-title>Funny How Time Slips Away</sub-title>
-    <desc>Funny How Time Slips Away | En 1991, años antes de los acontecimientos de Navy: Investigación Criminal ,Leroy Jethro Gibbs comienza su carrera como agente especial recién incorporado a la incipiente oficina de NCIS en Camp Pendleton, donde se labra un lugar en un equipo duro y heterogéneo liderado por la leyenda de NCIS, Mike Franks.</desc>
+    <desc>Funny How Time Slips Away | Un oficial naval muere misteriosamente en los años 90, Gibbs y su equipo se desplazan a la pequeña localidad de Serenity, California, donde se encuentran con unos vecinos que ocultan secretos y un sheriff poco cooperativo.</desc>
     <credits>
       <director>Niels Arden Oplev</director>
       <actor>Mark Harmon</actor>
@@ -675979,7 +677250,7 @@ No aparece en el programa ningún otro superhéroe de ficción, a excepción  de
   <programme start="20261126060000 -0300" stop="20261126070000 -0300" channel="1847">
     <title>NCIS: Origins • Funny How Time Slips Away</title>
     <sub-title>Funny How Time Slips Away</sub-title>
-    <desc>Funny How Time Slips Away | En 1991, años antes de los acontecimientos de Navy: Investigación Criminal ,Leroy Jethro Gibbs comienza su carrera como agente especial recién incorporado a la incipiente oficina de NCIS en Camp Pendleton, donde se labra un lugar en un equipo duro y heterogéneo liderado por la leyenda de NCIS, Mike Franks.</desc>
+    <desc>Funny How Time Slips Away | Un oficial naval muere misteriosamente en los años 90, Gibbs y su equipo se desplazan a la pequeña localidad de Serenity, California, donde se encuentran con unos vecinos que ocultan secretos y un sheriff poco cooperativo.</desc>
     <credits>
       <director>Niels Arden Oplev</director>
       <actor>Mark Harmon</actor>
@@ -679327,7 +680598,7 @@ No aparece en el programa ningún otro superhéroe de ficción, a excepción  de
     <rating><value>14</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/criminalminds.jpg" />
   </programme>
-  <programme start="20261201230000 -0300" stop="20261202005000 -0300" channel="1847">
+  <programme start="20261201230000 -0300" stop="20261202013000 -0300" channel="1847">
     <title>9-1-1</title>
     <desc>Un programa que muestra las vidas de policías, bomberos y paramédicos de Los Ángeles, quienes son los que acuden en primera instancia cuando ocurre una tragedia, situaciones que a menudo pueden ser impredecibles y que ponen en riesgo sus vidas.</desc>
     <credits>
@@ -679348,6 +680619,324 @@ No aparece en el programa ningún otro superhéroe de ficción, a excepción  de
     <country>EE. UU</country>
     <rating><value>14</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/911.jpg" />
+  </programme>
+  <programme start="20261202013000 -0300" stop="20261202022000 -0300" channel="1847">
+    <title>Csi</title>
+    <desc>Un grupo de investigadores forenses de un laboratorio de criminalística de Las Vegas trabaja para resolver crímenes.</desc>
+    <credits>
+      <actor>Ted Danson</actor>
+      <actor>Elisabeth Shue</actor>
+      <actor>George Eads</actor>
+      <actor>Jorja Fox</actor>
+      <actor>Eric Szmanda</actor>
+      <actor>Robert David Hall</actor>
+      <actor>David Berman</actor>
+      <actor>Wallace Langham</actor>
+      <actor>Elisabeth Harnois</actor>
+      <actor>Jon Wellner</actor>
+    </credits>
+    <date>2000</date>
+    <category>Acción</category>
+    <category>Drama</category>
+    <category>Crimen</category>
+    <category>Misterio</category>
+    <rating><value>14</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0847_fallback.jpg" />
+  </programme>
+  <programme start="20261202022000 -0300" stop="20261202050500 -0300" channel="1847">
+    <title>Hawaii Five-0</title>
+    <desc>Un grupo de detectives son parte de un grupo élite en el estado de Hawái cuya misión es eliminar el crimen en las playas.</desc>
+    <credits>
+      <director>Roberto Orci</director>
+      <director>Alex Kurtzman</director>
+      <director>Peter M. Lenkov</director>
+      <actor>Alex O&#x27;loughlin</actor>
+      <actor>Scott Caan</actor>
+      <actor>Chi McBride</actor>
+      <actor>Jorge Garcia</actor>
+      <actor>Meaghan Rath</actor>
+      <actor>Taylor Wily</actor>
+      <actor>Kimee Balmilero</actor>
+      <actor>Dennis Chun</actor>
+      <actor>Ian Anthony Dale</actor>
+      <actor>Beulah Koale</actor>
+    </credits>
+    <date>2010</date>
+    <category>Drama</category>
+    <category>Crimen</category>
+    <country>Estados Unidos</country>
+    <rating><value>14</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/hawaiifive0.jpg" />
+  </programme>
+  <programme start="20261202050500 -0300" stop="20261202080000 -0300" channel="1847">
+    <title>9-1-1</title>
+    <desc>Un programa que muestra las vidas de policías, bomberos y paramédicos de Los Ángeles, quienes son los que acuden en primera instancia cuando ocurre una tragedia, situaciones que a menudo pueden ser impredecibles y que ponen en riesgo sus vidas.</desc>
+    <credits>
+      <actor>Angela Bassett</actor>
+      <actor>Oliver Stark</actor>
+      <actor>Elijah M. Cooper</actor>
+      <actor>Aisha Hinds</actor>
+      <actor>Kenneth Choi</actor>
+      <actor>Jennifer Love Hewitt</actor>
+      <actor>Ryan Guzman</actor>
+      <actor>Corinne Massiah</actor>
+      <actor>Gavin McHugh</actor>
+      <actor>Brad Falchuk</actor>
+    </credits>
+    <date>2018</date>
+    <category>Acción</category>
+    <category>Drama</category>
+    <country>EE. UU</country>
+    <rating><value>14</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/911.jpg" />
+  </programme>
+  <programme start="20261202080000 -0300" stop="20261202090000 -0300" channel="1847">
+    <title>NCIS: Los Angeles</title>
+    <desc>Agentes sumamente entrenados trabajan encubiertos con la tecnología más avanzada para atrapar a los criminales considerados un peligro contra la seguridad nacional.</desc>
+    <credits>
+      <actor>Chris O&#x27;Donnell</actor>
+      <actor>LL Cool J</actor>
+      <actor>Linda Hunt</actor>
+      <actor>Daniela Ruah</actor>
+      <actor>Eric Christian Olsen</actor>
+      <actor>Medalion Rahimi</actor>
+      <actor>Caleb Castille</actor>
+      <actor>Gerald Mcraney</actor>
+      <actor>Shane Brennan</actor>
+    </credits>
+    <date>2009</date>
+    <category>Acción</category>
+    <category>Drama</category>
+    <category>Aventura</category>
+    <category>Crimen</category>
+    <category>Misterio</category>
+    <rating><value>14</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/ncislosangeles.jpg" />
+  </programme>
+  <programme start="20261202090000 -0300" stop="20261202110000 -0300" channel="1847">
+    <title>CSI: Miami</title>
+    <desc>Un equipo de investigadores forenses de la policía utiliza métodos de tecnología de punta junto con la investigación policial tradicional para resolver crímenes.</desc>
+    <credits>
+      <actor>David Caruso</actor>
+      <actor>Emily Procter</actor>
+      <actor>Adam Rodriguez</actor>
+      <actor>Jonathan Togo</actor>
+      <actor>REX LINN</actor>
+      <actor>Eva LaRue</actor>
+      <actor>Omar Miller</actor>
+      <actor>Eddie Cibrian</actor>
+      <actor>Megalyn Echikunwoke</actor>
+      <actor>Evan Ellingson</actor>
+    </credits>
+    <date>2002</date>
+    <category>Acción</category>
+    <category>Drama</category>
+    <category>Crimen</category>
+    <category>Misterio</category>
+    <rating><value>14</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/csimiami.jpg" />
+  </programme>
+  <programme start="20261202110000 -0300" stop="20261202125000 -0300" channel="1847">
+    <title>NCIS: Criminología naval</title>
+    <desc>Un equipo élite de agentes del Servicio Naval de Investigación Criminal realiza investigaciones de todos los crímenes que guardan relación con personal de la Marina o de cualquier estamento naval.</desc>
+    <credits>
+      <director>Don McGill</director>
+      <director>Donald P. Bellisario</director>
+      <actor>Sean Murray</actor>
+      <actor>Wilmer Valderrama</actor>
+      <actor>Brian Dietzen</actor>
+      <actor>Diona Reasonover</actor>
+      <actor>Katrina Law</actor>
+      <actor>Gary Cole</actor>
+      <actor>Michael Weatherly</actor>
+    </credits>
+    <date>2003</date>
+    <category>Acción</category>
+    <category>Drama</category>
+    <category>Aventura</category>
+    <category>Crimen</category>
+    <category>Misterio</category>
+    <country>Estados Unidos</country>
+    <rating><value>14</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/nciscriminologianaval.jpg" />
+  </programme>
+  <programme start="20261202125000 -0300" stop="20261202143000 -0300" channel="1847">
+    <title>Criminal Minds</title>
+    <desc>Un equipo élite del FBI analiza las mentes criminales más retorcidas para anticipar ataques futuros de estos peligrosos sujetos.</desc>
+    <credits>
+      <actor>Joe Mantegna</actor>
+      <actor>A.J. Cook</actor>
+      <actor>Kirsten Vangsness</actor>
+      <actor>Aisha Tyler</actor>
+      <actor>Adam Rodriguez</actor>
+      <actor>Paget Brewster</actor>
+    </credits>
+    <date>2005</date>
+    <category>Drama</category>
+    <category>Crimen</category>
+    <category>Misterio</category>
+    <rating><value>14</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/criminalminds.jpg" />
+  </programme>
+  <programme start="20261202143000 -0300" stop="20261202152000 -0300" channel="1847">
+    <title>NCIS: Los Angeles</title>
+    <desc>Agentes sumamente entrenados trabajan encubiertos con la tecnología más avanzada para atrapar a los criminales considerados un peligro contra la seguridad nacional.</desc>
+    <credits>
+      <actor>Chris O&#x27;Donnell</actor>
+      <actor>LL Cool J</actor>
+      <actor>Linda Hunt</actor>
+      <actor>Daniela Ruah</actor>
+      <actor>Eric Christian Olsen</actor>
+      <actor>Medalion Rahimi</actor>
+      <actor>Caleb Castille</actor>
+      <actor>Gerald Mcraney</actor>
+      <actor>Shane Brennan</actor>
+    </credits>
+    <date>2009</date>
+    <category>Acción</category>
+    <category>Drama</category>
+    <category>Aventura</category>
+    <category>Crimen</category>
+    <category>Misterio</category>
+    <rating><value>14</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/ncislosangeles.jpg" />
+  </programme>
+  <programme start="20261202152000 -0300" stop="20261202170000 -0300" channel="1847">
+    <title>Csi</title>
+    <desc>Un grupo de investigadores forenses de un laboratorio de criminalística de Las Vegas trabaja para resolver crímenes.</desc>
+    <credits>
+      <actor>Ted Danson</actor>
+      <actor>Elisabeth Shue</actor>
+      <actor>George Eads</actor>
+      <actor>Jorja Fox</actor>
+      <actor>Eric Szmanda</actor>
+      <actor>Robert David Hall</actor>
+      <actor>David Berman</actor>
+      <actor>Wallace Langham</actor>
+      <actor>Elisabeth Harnois</actor>
+      <actor>Jon Wellner</actor>
+    </credits>
+    <date>2000</date>
+    <category>Acción</category>
+    <category>Drama</category>
+    <category>Crimen</category>
+    <category>Misterio</category>
+    <rating><value>14</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0847_fallback.jpg" />
+  </programme>
+  <programme start="20261202170000 -0300" stop="20261202184000 -0300" channel="1847">
+    <title>CSI: Miami</title>
+    <desc>Un equipo de investigadores forenses de la policía utiliza métodos de tecnología de punta junto con la investigación policial tradicional para resolver crímenes.</desc>
+    <credits>
+      <actor>David Caruso</actor>
+      <actor>Emily Procter</actor>
+      <actor>Adam Rodriguez</actor>
+      <actor>Jonathan Togo</actor>
+      <actor>REX LINN</actor>
+      <actor>Eva LaRue</actor>
+      <actor>Omar Miller</actor>
+      <actor>Eddie Cibrian</actor>
+      <actor>Megalyn Echikunwoke</actor>
+      <actor>Evan Ellingson</actor>
+    </credits>
+    <date>2002</date>
+    <category>Acción</category>
+    <category>Drama</category>
+    <category>Crimen</category>
+    <category>Misterio</category>
+    <rating><value>14</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/csimiami.jpg" />
+  </programme>
+  <programme start="20261202184000 -0300" stop="20261202211000 -0300" channel="1847">
+    <title>Hawaii Five-0</title>
+    <desc>Un grupo de detectives son parte de un grupo élite en el estado de Hawái cuya misión es eliminar el crimen en las playas.</desc>
+    <credits>
+      <director>Roberto Orci</director>
+      <director>Alex Kurtzman</director>
+      <director>Peter M. Lenkov</director>
+      <actor>Alex O&#x27;loughlin</actor>
+      <actor>Scott Caan</actor>
+      <actor>Chi McBride</actor>
+      <actor>Jorge Garcia</actor>
+      <actor>Meaghan Rath</actor>
+      <actor>Taylor Wily</actor>
+      <actor>Kimee Balmilero</actor>
+      <actor>Dennis Chun</actor>
+      <actor>Ian Anthony Dale</actor>
+      <actor>Beulah Koale</actor>
+    </credits>
+    <date>2010</date>
+    <category>Drama</category>
+    <category>Crimen</category>
+    <country>Estados Unidos</country>
+    <rating><value>14</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/hawaiifive0.jpg" />
+  </programme>
+  <programme start="20261202211000 -0300" stop="20261202230000 -0300" channel="1847">
+    <title>Criminal Minds</title>
+    <desc>Un equipo élite del FBI analiza las mentes criminales más retorcidas para anticipar ataques futuros de estos peligrosos sujetos.</desc>
+    <credits>
+      <actor>Joe Mantegna</actor>
+      <actor>A.J. Cook</actor>
+      <actor>Kirsten Vangsness</actor>
+      <actor>Aisha Tyler</actor>
+      <actor>Adam Rodriguez</actor>
+      <actor>Paget Brewster</actor>
+    </credits>
+    <date>2005</date>
+    <category>Drama</category>
+    <category>Crimen</category>
+    <category>Misterio</category>
+    <rating><value>14</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/criminalminds.jpg" />
+  </programme>
+  <programme start="20261202230000 -0300" stop="20261202235000 -0300" channel="1847">
+    <title>NCIS: Criminología naval</title>
+    <desc>Un equipo élite de agentes del Servicio Naval de Investigación Criminal realiza investigaciones de todos los crímenes que guardan relación con personal de la Marina o de cualquier estamento naval.</desc>
+    <credits>
+      <director>Don McGill</director>
+      <director>Donald P. Bellisario</director>
+      <actor>Sean Murray</actor>
+      <actor>Wilmer Valderrama</actor>
+      <actor>Brian Dietzen</actor>
+      <actor>Diona Reasonover</actor>
+      <actor>Katrina Law</actor>
+      <actor>Gary Cole</actor>
+      <actor>Michael Weatherly</actor>
+    </credits>
+    <date>2003</date>
+    <category>Acción</category>
+    <category>Drama</category>
+    <category>Aventura</category>
+    <category>Crimen</category>
+    <category>Misterio</category>
+    <country>Estados Unidos</country>
+    <rating><value>14</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/nciscriminologianaval.jpg" />
+  </programme>
+  <programme start="20261202235000 -0300" stop="20261203005000 -0300" channel="1847">
+    <title>NCIS: Origins</title>
+    <desc>El joven Leroy Jethro Gibbs ingresa en el equipo NCIS en 1991. El inexperto agente tendrá que demostrar su valía en un equipo comandado por el legendario Mike Franks.</desc>
+    <credits>
+      <director>Gina Lucita Monreal</director>
+      <director>David J. North</director>
+      <actor>Mark Harmon</actor>
+      <actor>Austin Stowell</actor>
+      <actor>Kyle Schmid</actor>
+      <actor>Mariel Molino</actor>
+      <actor>Tyla Abercrumbie</actor>
+      <actor>Diany Rodriguez</actor>
+      <actor>Caleb Foote</actor>
+    </credits>
+    <date>2024</date>
+    <category>Acción</category>
+    <category>Drama</category>
+    <category>Aventura</category>
+    <category>Crimen</category>
+    <category>Misterio</category>
+    <country>Estados Unidos</country>
+    <rating><value>14</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/ncisorigins.jpg" />
   </programme>
   <programme start="20261125122000 -0300" stop="20261125131000 -0300" channel="2847">
     <title>NCIS: Los Ángeles • Cambio de equipo</title>
@@ -848277,7 +849866,7 @@ El brujo Gargamel y su gato Azrael, intentan siempre y por todos los medios capt
     <date>2000</date>
     <category>Política</category>
     <category>Reportaje</category>
-    <rating><value>TE</value></rating>
+    <rating><value>+15</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261127220000 -0300" stop="20261127230000 -0300" channel="co0003">
@@ -849449,6 +851038,299 @@ Escápate los lleva por rutas desconocidas y les muestra la otra cara de los lug
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261201230000 -0300" stop="20261202000000 -0300" channel="co0003">
+    <title>Noticentro 1: emisión central</title>
+    <desc>Las mejores noticias del acontecer nacional e internacional, con información clara y objetiva.</desc>
+    <credits>
+      <actor>Claudia Palacios</actor>
+      <actor>Margarita Ortega</actor>
+    </credits>
+    <date>2020</date>
+    <category>Reportaje</category>
+    <rating><value>+15</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261202000000 -0300" stop="20261202013000 -0300" channel="co0003">
+    <title>Noticentro 1: Última emisión</title>
+    <desc>La información de este programa no se encuentra disponible.</desc>
+    <date>2025</date>
+    <category>Reportaje</category>
+    <rating><value>18</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261202013000 -0300" stop="20261202023000 -0300" channel="co0003">
+    <title>Revelando misterios</title>
+    <desc>Explicación sobre las razones por las que acontecen ciertas cosas en la vida.</desc>
+    <date>2018</date>
+    <category>Religioso</category>
+    <rating><value>18</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261202023000 -0300" stop="20261202030000 -0300" channel="co0003">
+    <title>Prosperidad con Dios</title>
+    <desc>Un espacio donde aprendemos cómo vencer las crisis y alcanzar la verdadera prosperidad a través de la fe, para poder ver las maravillas de Dios en nuestra vida.</desc>
+    <date>2023</date>
+    <category>Religioso</category>
+    <rating><value>18</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/prosperidadcondios.jpg" />
+  </programme>
+  <programme start="20261202030000 -0300" stop="20261202033000 -0300" channel="co0003">
+    <title>En búsqueda del amor</title>
+    <desc>Cómo encontrar el amor verdadero usando la guía de Dios.</desc>
+    <date>2018</date>
+    <category>Religioso</category>
+    <rating><value>18</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261202033000 -0300" stop="20261202040000 -0300" channel="co0003">
+    <title>Casos imposibles</title>
+    <desc>Se demuestra que no hay problema que no se pueda resolver. Se presentan testimonios de personas que han resuelto hasta sus problemas más difíciles.</desc>
+    <date>2018</date>
+    <category>Religioso</category>
+    <category>Biográfica</category>
+    <rating><value>18</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261202040000 -0300" stop="20261202043000 -0300" channel="co0003">
+    <title>Cierre de transmisiones</title>
+    <desc>Fin de emisión diaria del canal.</desc>
+    <date>2005</date>
+    <category>Especial</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/cierredetransmisiones.jpg" />
+  </programme>
+  <programme start="20261202043000 -0300" stop="20261202050000 -0300" channel="co0003">
+    <title>Cierre de transmisiones</title>
+    <desc>Fin de emisión diaria del canal.</desc>
+    <date>2005</date>
+    <category>Especial</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/cierredetransmisiones.jpg" />
+  </programme>
+  <programme start="20261202050000 -0300" stop="20261202053000 -0300" channel="co0003">
+    <title>Cierre de transmisiones</title>
+    <desc>Fin de emisión diaria del canal.</desc>
+    <date>2005</date>
+    <category>Especial</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/cierredetransmisiones.jpg" />
+  </programme>
+  <programme start="20261202053000 -0300" stop="20261202060000 -0300" channel="co0003">
+    <title>Cierre de transmisiones</title>
+    <desc>Fin de emisión diaria del canal.</desc>
+    <date>2005</date>
+    <category>Especial</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/cierredetransmisiones.jpg" />
+  </programme>
+  <programme start="20261202060000 -0300" stop="20261202063000 -0300" channel="co0003">
+    <title>Cierre de transmisiones</title>
+    <desc>Fin de emisión diaria del canal.</desc>
+    <date>2005</date>
+    <category>Especial</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/cierredetransmisiones.jpg" />
+  </programme>
+  <programme start="20261202063000 -0300" stop="20261202070000 -0300" channel="co0003">
+    <title>Cierre de transmisiones</title>
+    <desc>Fin de emisión diaria del canal.</desc>
+    <date>2005</date>
+    <category>Especial</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/cierredetransmisiones.jpg" />
+  </programme>
+  <programme start="20261202070000 -0300" stop="20261202080000 -0300" channel="co0003">
+    <title>Programa pagado</title>
+    <desc>Programa que muestra diversos productos para la venta.</desc>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/programapagado.jpg" />
+  </programme>
+  <programme start="20261202080000 -0300" stop="20261202083000 -0300" channel="co0003">
+    <title>Buenos Días Señor Jesús</title>
+    <desc>Iniciando el día orando y alabando al Señor.</desc>
+    <date>2000</date>
+    <category>Religioso</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261202083000 -0300" stop="20261202090000 -0300" channel="co0003">
+    <title>RT reporta</title>
+    <desc>Explosivas declaraciones, gestos imperceptibles, sutiles detalles. Todo lo que los corresponsales experimentan, de primera mano, en el día a día de su trabajo, ahora llega a través de RT reporta. Un programa que permite conocer, a través de la mirada de los periodistas que hacen RT, qué ocurre delante y detrás de las cámaras en cada lugar del mundo donde suceden los hechos que se convierten en noticia.</desc>
+    <date>2013</date>
+    <category>Entretenimiento</category>
+    <rating><value>+15</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/rtreporta.jpg" />
+  </programme>
+  <programme start="20261202090000 -0300" stop="20261202110000 -0300" channel="co0003">
+    <title>Cambio total</title>
+    <desc>Un espacio donde se habla de las diferentes patologías que aquejan a hombres y mujeres de diferentes edades, junto a invitados de diferentes especialidades de la salud.</desc>
+    <category>Salud</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261202110000 -0300" stop="20261202120000 -0300" channel="co0003">
+    <title>No desista</title>
+    <desc>La información de este programa no se encuentra disponible.</desc>
+    <date>2018</date>
+    <category>Religioso</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261202120000 -0300" stop="20261202130000 -0300" channel="co0003">
+    <title>Cuando los ángeles caen</title>
+    <desc>Historias de ángeles terrenales que impactan la vida de las personas.</desc>
+    <date>2025</date>
+    <category>Talk Show</category>
+    <rating><value>+15</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/cuandolosangelescaen.jpg" />
+  </programme>
+  <programme start="20261202130000 -0300" stop="20261202130500 -0300" channel="co0003">
+    <title>Noticentro 1 Red + Noticias</title>
+    <desc>La información de este programa no se encuentra disponible.</desc>
+    <date>2023</date>
+    <category>Reportaje</category>
+    <rating><value>+15</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261202130500 -0300" stop="20261202140000 -0300" channel="co0003">
+    <title>Cuando los ángeles caen</title>
+    <desc>Historias de ángeles terrenales que impactan la vida de las personas.</desc>
+    <date>2025</date>
+    <category>Talk Show</category>
+    <rating><value>+15</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/cuandolosangelescaen.jpg" />
+  </programme>
+  <programme start="20261202140000 -0300" stop="20261202150000 -0300" channel="co0003">
+    <title>Noticiero Televista</title>
+    <desc>Noticiero regional que acerca las noticias nacionales e internacionales más relevantes.</desc>
+    <credits>
+      <actor>Osvaldo Sampayo</actor>
+      <actor>Valentina Utria</actor>
+      <actor>Carlos de la Torre</actor>
+    </credits>
+    <date>2012</date>
+    <category>Reportaje</category>
+    <rating><value>+15</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261202150000 -0300" stop="20261202150400 -0300" channel="co0003">
+    <title>Noticentro 1 Red + Noticias</title>
+    <desc>La información de este programa no se encuentra disponible.</desc>
+    <date>2023</date>
+    <category>Reportaje</category>
+    <rating><value>+15</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261202150400 -0300" stop="20261202160000 -0300" channel="co0003">
+    <title>Sin carreta</title>
+    <desc>La fresca perspectiva del presentador Juan Diego Alvira sobre la actualidad en Colombia, usando un lenguaje sencillo y accesible para todos.</desc>
+    <credits>
+      <actor>Juan Diego Alvira</actor>
+    </credits>
+    <date>2023</date>
+    <category>Reportaje</category>
+    <rating><value>+15</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261202160000 -0300" stop="20261202160400 -0300" channel="co0003">
+    <title>Noticentro 1 Red + Noticias</title>
+    <desc>La información de este programa no se encuentra disponible.</desc>
+    <date>2023</date>
+    <category>Reportaje</category>
+    <rating><value>+15</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261202160400 -0300" stop="20261202170000 -0300" channel="co0003">
+    <title>Tú tienes la sazón</title>
+    <desc>Se comparten sabores que no dejan remordimientos y platillos nutritivos para cuidar el bienestar de la familia.</desc>
+    <date>2023</date>
+    <category>Gastronomía</category>
+    <rating><value>+15</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261202170000 -0300" stop="20261202170400 -0300" channel="co0003">
+    <title>Noticentro 1 Red + Noticias</title>
+    <desc>La información de este programa no se encuentra disponible.</desc>
+    <date>2023</date>
+    <category>Reportaje</category>
+    <rating><value>+15</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261202170400 -0300" stop="20261202180100 -0300" channel="co0003">
+    <title>Lo sé todo</title>
+    <desc>El mejor equipo de entretenimiento mezcla el humor con investigación, además de entrevistas a artistas invitados, se realizan denuncias sociales y políticas y también hay espacio para la última información de la farándula.</desc>
+    <date>2013</date>
+    <category>Reportaje</category>
+    <rating><value>14</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261202180100 -0300" stop="20261202180500 -0300" channel="co0003">
+    <title>Noticentro 1 Red + Noticias</title>
+    <desc>La información de este programa no se encuentra disponible.</desc>
+    <date>2023</date>
+    <category>Reportaje</category>
+    <rating><value>+15</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261202180500 -0300" stop="20261202190000 -0300" channel="co0003">
+    <title>Cuando los ángeles caen</title>
+    <desc>Historias de ángeles terrenales que impactan la vida de las personas.</desc>
+    <date>2025</date>
+    <category>Talk Show</category>
+    <rating><value>+15</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/cuandolosangelescaen.jpg" />
+  </programme>
+  <programme start="20261202190000 -0300" stop="20261202190400 -0300" channel="co0003">
+    <title>Noticentro 1 Red + Noticias</title>
+    <desc>La información de este programa no se encuentra disponible.</desc>
+    <date>2023</date>
+    <category>Reportaje</category>
+    <rating><value>+15</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261202190400 -0300" stop="20261202200000 -0300" channel="co0003">
+    <title>Trending</title>
+    <desc>Revista juvenil con entrevistas, música, tecnología y mucho más.</desc>
+    <date>2018</date>
+    <category>Musica</category>
+    <rating><value>+15</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261202200000 -0300" stop="20261202200400 -0300" channel="co0003">
+    <title>Noticentro 1 Red + Noticias</title>
+    <desc>La información de este programa no se encuentra disponible.</desc>
+    <date>2023</date>
+    <category>Reportaje</category>
+    <rating><value>+15</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261202200400 -0300" stop="20261202210000 -0300" channel="co0003">
+    <title>Cuando los ángeles caen</title>
+    <desc>Historias de ángeles terrenales que impactan la vida de las personas.</desc>
+    <date>2025</date>
+    <category>Talk Show</category>
+    <rating><value>+15</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/cuandolosangelescaen.jpg" />
+  </programme>
+  <programme start="20261202210000 -0300" stop="20261202220000 -0300" channel="co0003">
+    <title>Sin carreta</title>
+    <desc>La fresca perspectiva del presentador Juan Diego Alvira sobre la actualidad en Colombia, usando un lenguaje sencillo y accesible para todos.</desc>
+    <credits>
+      <actor>Juan Diego Alvira</actor>
+    </credits>
+    <date>2023</date>
+    <category>Reportaje</category>
+    <rating><value>+15</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261202220000 -0300" stop="20261202230000 -0300" channel="co0003">
+    <title>Noticentro 1ra Emisión</title>
+    <desc>Las noticias más importantes de la actualidad.</desc>
+    <date>2015</date>
+    <category>Reportaje</category>
+    <rating><value>+15</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261202230000 -0300" stop="20261203000000 -0300" channel="co0003">
     <title>Noticentro 1: emisión central</title>
     <desc>Las mejores noticias del acontecer nacional e internacional, con información clara y objetiva.</desc>
     <credits>
@@ -852350,12 +854232,330 @@ Ernesto Andrés Fuenmayor y Tamara Rivera Castro serán los YouTubers que analic
     <rating><value>TE</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/co0006_fallback.jpg" />
   </programme>
-  <programme start="20261201233000 -0300" stop="20261202003000 -0300" channel="co0006">
+  <programme start="20261201233000 -0300" stop="20261202000000 -0300" channel="co0006">
     <title>La Dra. Lau Vet, dejando huella</title>
     <desc>La información de este programa no se encuentra disponible.</desc>
     <date>2026</date>
     <category>Mascotas</category>
     <rating><value>+15</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/co0006_fallback.jpg" />
+  </programme>
+  <programme start="20261202000000 -0300" stop="20261202003000 -0300" channel="co0006">
+    <title>Una historia en bicicleta</title>
+    <desc>Dos fotógrafos aventureros viajan en bicicleta por carreteras, trochas y caminos de herradura mostrando aspectos desconocidos de pueblos remotos, personajes e historias encontrados por los nueve departamentos de Colombia.</desc>
+    <date>2013</date>
+    <category>Al aire libre</category>
+    <category>Entretenimiento</category>
+    <category>Viajes</category>
+    <category>Aventura</category>
+    <rating><value>+15</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/co0006_fallback.jpg" />
+  </programme>
+  <programme start="20261202003000 -0300" stop="20261202010000 -0300" channel="co0006">
+    <title>Nada personal</title>
+    <desc>Tres personas de diferentes grupos poblacionales se encuentran alrededor de una mesa. Sobre la mesa hay un par de dados y un juego de cartas. Los participantes lanzan los dados, y el que saque menor puntaje responde a las preguntas en las cartas.</desc>
+    <date>2023</date>
+    <category>Entretenimiento</category>
+    <rating><value>18</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/nadapersonal.jpg" />
+  </programme>
+  <programme start="20261202010000 -0300" stop="20261202010500 -0300" channel="co0006">
+    <title>JFK, el valor de hacerlo juntos</title>
+    <desc>Un espacio con los temas financieros más relevantes para las personas.</desc>
+    <date>2021</date>
+    <category>Noticias</category>
+    <category>Empresarial</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/co0006_fallback.jpg" />
+  </programme>
+  <programme start="20261202010500 -0300" stop="20261202020000 -0300" channel="co0006">
+    <title>Teleantioquia Noticias</title>
+    <desc>En su nueva etapa, Teleantioquia Noticias presenta información de una manera más profunda, más análisis, más contexto e investigación, y mayor participación noticiosa desde las regiones.</desc>
+    <credits>
+      <director>Jorge González</director>
+    </credits>
+    <date>2002</date>
+    <category>Reportaje</category>
+    <rating><value>+15</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/co0006_fallback.jpg" />
+  </programme>
+  <programme start="20261202020000 -0300" stop="20261202030000 -0300" channel="co0006">
+    <title>Nocturnos</title>
+    <desc>Se abordan problemáticas sociales y personales en torno a la salud mental. Un espacio de escucha y acompañamiento, con la participación de psicólogos y expertos.</desc>
+    <date>2024</date>
+    <category>Salud</category>
+    <rating><value>18</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/co0006_fallback.jpg" />
+  </programme>
+  <programme start="20261202030000 -0300" stop="20261202040000 -0300" channel="co0006">
+    <title>Tener la razón no es suficiente</title>
+    <desc>Un programa donde el diálogo cobra vida y muestra que en el juego de las ideas, tener razón no es lo más importante.</desc>
+    <date>2024</date>
+    <category>Entretenimiento</category>
+    <category>Talk Show</category>
+    <rating><value>+15</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/co0006_fallback.jpg" />
+  </programme>
+  <programme start="20261202040000 -0300" stop="20261202050000 -0300" channel="co0006">
+    <title>Teleantioquia Noticias</title>
+    <desc>En su nueva etapa, Teleantioquia Noticias presenta información de una manera más profunda, más análisis, más contexto e investigación, y mayor participación noticiosa desde las regiones.</desc>
+    <credits>
+      <director>Jorge González</director>
+    </credits>
+    <date>2002</date>
+    <category>Reportaje</category>
+    <rating><value>+15</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/co0006_fallback.jpg" />
+  </programme>
+  <programme start="20261202050000 -0300" stop="20261202053000 -0300" channel="co0006">
+    <title>Cazador de cascadas</title>
+    <desc>Una aventura por el departamento de Antioquia para conocer el esplendor oculto en sus cavernas, parajes y arboledas espesas.</desc>
+    <date>2022</date>
+    <category>Otros</category>
+    <category>Viajes</category>
+    <category>Aventura</category>
+    <rating><value>+15</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/co0006_fallback.jpg" />
+  </programme>
+  <programme start="20261202053000 -0300" stop="20261202060000 -0300" channel="co0006">
+    <title>Ladran, Sancho</title>
+    <desc>Los divertidos sueños de Fede Rivera.</desc>
+    <date>2024</date>
+    <category>Comedia</category>
+    <rating><value>18</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/co0006_fallback.jpg" />
+  </programme>
+  <programme start="20261202060000 -0300" stop="20261202063000 -0300" channel="co0006">
+    <title>La sartén por el mango</title>
+    <desc>Un grupo de expertos enseñan diferentes técnicas, recetas, consejos prácticos, guías de compras, aportes nutricionales y curiosidades de la cocina.</desc>
+    <date>2011</date>
+    <category>Gastronomía</category>
+    <category>Salud</category>
+    <rating><value>18</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/co0006_fallback.jpg" />
+  </programme>
+  <programme start="20261202063000 -0300" stop="20261202070000 -0300" channel="co0006">
+    <title>Doc, una consultica</title>
+    <desc>Se repasan algunas afecciones de salud y se dan consejos para mejorar la calidad de vida.</desc>
+    <date>2024</date>
+    <category>Salud</category>
+    <rating><value>+15</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/co0006_fallback.jpg" />
+  </programme>
+  <programme start="20261202070000 -0300" stop="20261202080000 -0300" channel="co0006">
+    <title>Lo que no dijimos</title>
+    <desc>Un video pódcast sobre salud mental que propone abrir un espacio íntimo y honesto para conversar sobre esos temas de los que muchas veces no se habla.</desc>
+    <date>2025</date>
+    <category>Salud</category>
+    <category>Entrevista</category>
+    <category>Talk Show</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/co0006_fallback.jpg" />
+  </programme>
+  <programme start="20261202080000 -0300" stop="20261202091500 -0300" channel="co0006">
+    <title>Consejo de redacción</title>
+    <desc>Espacio dedicado a las noticias de Antioquia, que tiene como objetivo informar a todos los sectores de la sociedad sobre los acontecimientos de la región, promover la investigación y reflexión de la ciudadanía como veedores de la función pública.</desc>
+    <date>2017</date>
+    <category>Entretenimiento</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/co0006_fallback.jpg" />
+  </programme>
+  <programme start="20261202091500 -0300" stop="20261202092000 -0300" channel="co0006">
+    <title>Viva mi casa</title>
+    <desc>El sector de la construcción de Antioquia se articula al programa &#x27;Viva mi casa&#x27;, para aportar un grano de arena a la Gobernación y el IDEA.</desc>
+    <date>2024</date>
+    <category>Entretenimiento</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/co0006_fallback.jpg" />
+  </programme>
+  <programme start="20261202092000 -0300" stop="20261202100000 -0300" channel="co0006">
+    <title>Consejo de redacción</title>
+    <desc>Espacio dedicado a las noticias de Antioquia, que tiene como objetivo informar a todos los sectores de la sociedad sobre los acontecimientos de la región, promover la investigación y reflexión de la ciudadanía como veedores de la función pública.</desc>
+    <date>2017</date>
+    <category>Entretenimiento</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/co0006_fallback.jpg" />
+  </programme>
+  <programme start="20261202100000 -0300" stop="20261202110000 -0300" channel="co0006">
+    <title>Lo que no dijimos</title>
+    <desc>Un video pódcast sobre salud mental que propone abrir un espacio íntimo y honesto para conversar sobre esos temas de los que muchas veces no se habla.</desc>
+    <date>2025</date>
+    <category>Salud</category>
+    <category>Entrevista</category>
+    <category>Talk Show</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/co0006_fallback.jpg" />
+  </programme>
+  <programme start="20261202110000 -0300" stop="20261202130000 -0300" channel="co0006">
+    <title>Mañanas en casa</title>
+    <desc>Magacín diario con un variado contenido dirigido a brindar diversión a las amas de casa y la familia, con información útil y amena para todos los públicos.</desc>
+    <date>2024</date>
+    <category>Entretenimiento</category>
+    <category>Actualidad</category>
+    <category>Relaciones Públicas</category>
+    <category>Reportaje</category>
+    <category>Social</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/co0006_fallback.jpg" />
+  </programme>
+  <programme start="20261202130000 -0300" stop="20261202133000 -0300" channel="co0006">
+    <title>Parques Naturales</title>
+    <desc>El programa explica y presenta los diferentes parques naturales a través de Colombia, áreas de incalculable belleza que debido a su diversidad natural tienen la necesidad de ser conservadas y protegidas.</desc>
+    <date>2002</date>
+    <category>Otros</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/co0006_fallback.jpg" />
+  </programme>
+  <programme start="20261202133000 -0300" stop="20261202140000 -0300" channel="co0006">
+    <title>No me etiquetes</title>
+    <desc>Las nuevas generaciones están llamadas a romper los estereotipos de género. Niñas y niños de Bogotá han decidido enfrentar dichas estructuras para desarrollar sus intereses, talentos, emociones, formas de pensar y de actuar con libertad y autonomía.</desc>
+    <date>2023</date>
+    <category>Otros</category>
+    <category>Relaciones Públicas</category>
+    <category>Social</category>
+    <rating><value>+15</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/co0006_fallback.jpg" />
+  </programme>
+  <programme start="20261202140000 -0300" stop="20261202143000 -0300" channel="co0006">
+    <title>La Dra. Lau Vet, dejando huella</title>
+    <desc>La información de este programa no se encuentra disponible.</desc>
+    <date>2026</date>
+    <category>Mascotas</category>
+    <rating><value>+15</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/co0006_fallback.jpg" />
+  </programme>
+  <programme start="20261202143000 -0300" stop="20261202150000 -0300" channel="co0006">
+    <title>InfluenSer</title>
+    <desc>Una mirada al ser que hay detrás de los creadores de contenido.</desc>
+    <date>2024</date>
+    <category>Entretenimiento</category>
+    <category>Entrevista</category>
+    <rating><value>+15</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/co0006_fallback.jpg" />
+  </programme>
+  <programme start="20261202150000 -0300" stop="20261202160000 -0300" channel="co0006">
+    <title>Teleantioquia Noticias</title>
+    <desc>En su nueva etapa, Teleantioquia Noticias presenta información de una manera más profunda, más análisis, más contexto e investigación, y mayor participación noticiosa desde las regiones.</desc>
+    <credits>
+      <director>Jorge González</director>
+    </credits>
+    <date>2002</date>
+    <category>Reportaje</category>
+    <rating><value>+15</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/co0006_fallback.jpg" />
+  </programme>
+  <programme start="20261202160000 -0300" stop="20261202160500 -0300" channel="co0006">
+    <title>Copacabana</title>
+    <desc>La información de este programa no se encuentra disponible.</desc>
+    <date>2012</date>
+    <category>Series</category>
+    <rating><value>+15</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/copacabana.jpg" />
+  </programme>
+  <programme start="20261202160500 -0300" stop="20261202173000 -0300" channel="co0006">
+    <title>Las tres gracias</title>
+    <desc>Programa de variedades orientado para todo público en donde se trata temas del hogar y mucho más.</desc>
+    <date>2006</date>
+    <category>Entretenimiento</category>
+    <category>Actualidad</category>
+    <category>Reportaje</category>
+    <rating><value>+15</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/co0006_fallback.jpg" />
+  </programme>
+  <programme start="20261202173000 -0300" stop="20261202180000 -0300" channel="co0006">
+    <title>El Guardián De La Salud</title>
+    <desc>Especialistas de la salud nos enseñan en torno a patologías generales y cómo, a través de los alimentos naturales, prever y tener mayor bienestar.</desc>
+    <date>2021</date>
+    <category>Salud</category>
+    <rating><value>+15</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/co0006_fallback.jpg" />
+  </programme>
+  <programme start="20261202180000 -0300" stop="20261202183000 -0300" channel="co0006">
+    <title>Ecolatinoamérica</title>
+    <desc>Un magacín con todas las noticias sobre el medio ambiente.</desc>
+    <category>Otros</category>
+    <category>Reportaje</category>
+    <rating><value>14</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/ecolatinoamerica.jpg" />
+  </programme>
+  <programme start="20261202183000 -0300" stop="20261202203000 -0300" channel="co0006">
+    <title>Te hacemos la tarde</title>
+    <desc>Es un espacio de radio en televisión, dirigido a la familia, principalmente a hombres y mujeres jóvenes mayores de 18 años que se propone llevar a la pantalla la dinámica que se vive dentro de un programa de radio.</desc>
+    <date>2024</date>
+    <category>Noticias</category>
+    <rating><value>+15</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/co0006_fallback.jpg" />
+  </programme>
+  <programme start="20261202203000 -0300" stop="20261202205500 -0300" channel="co0006">
+    <title>Nada que ver</title>
+    <desc>Un programa que brinda las últimas noticias del mundo del cine y la música. Además, toda la información sobre los eventos de la ciudad.</desc>
+    <date>2020</date>
+    <category>Entrevista</category>
+    <rating><value>+15</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/nadaquever.jpg" />
+  </programme>
+  <programme start="20261202205500 -0300" stop="20261202210000 -0300" channel="co0006">
+    <title>JFK, el valor de hacerlo juntos</title>
+    <desc>Un espacio con los temas financieros más relevantes para las personas.</desc>
+    <date>2021</date>
+    <category>Noticias</category>
+    <category>Empresarial</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/co0006_fallback.jpg" />
+  </programme>
+  <programme start="20261202210000 -0300" stop="20261202214500 -0300" channel="co0006">
+    <title>Teleantioquia Noticias</title>
+    <desc>En su nueva etapa, Teleantioquia Noticias presenta información de una manera más profunda, más análisis, más contexto e investigación, y mayor participación noticiosa desde las regiones.</desc>
+    <credits>
+      <director>Jorge González</director>
+    </credits>
+    <date>2002</date>
+    <category>Reportaje</category>
+    <rating><value>+15</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/co0006_fallback.jpg" />
+  </programme>
+  <programme start="20261202214500 -0300" stop="20261202220000 -0300" channel="co0006">
+    <title>Teleantioquia Deportes</title>
+    <desc>La información más completa, eventos y los últimos acontecimientos sobre los deportes nacionales e internacionales son presentados por un equipo periodístico audaz y profesional.</desc>
+    <date>2013</date>
+    <category>Deportes</category>
+    <category>Acción</category>
+    <rating><value>+15</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/co0006_fallback.jpg" />
+  </programme>
+  <programme start="20261202220000 -0300" stop="20261202223000 -0300" channel="co0006">
+    <title>Tener la razón no es suficiente</title>
+    <desc>Un programa donde el diálogo cobra vida y muestra que en el juego de las ideas, tener razón no es lo más importante.</desc>
+    <date>2024</date>
+    <category>Entretenimiento</category>
+    <category>Talk Show</category>
+    <rating><value>+15</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/co0006_fallback.jpg" />
+  </programme>
+  <programme start="20261202223000 -0300" stop="20261202230000 -0300" channel="co0006">
+    <title>Especiales Teleantioquia</title>
+    <desc>Presentación de diferentes temas de interés social, nacional e internacional, cultura, arte, ciencia, economía y política.</desc>
+    <date>2012</date>
+    <category>Entretenimiento</category>
+    <rating><value>+15</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/co0006_fallback.jpg" />
+  </programme>
+  <programme start="20261202230000 -0300" stop="20261202233000 -0300" channel="co0006">
+    <title>Cámara y Senado</title>
+    <desc>Las últimas noticias y eventos importantes del senado y la cámara, así como las decisiones tomadas en sus plenarias.</desc>
+    <date>2012</date>
+    <category>Política</category>
+    <rating><value>+15</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/co0006_fallback.jpg" />
+  </programme>
+  <programme start="20261202233000 -0300" stop="20261203003000 -0300" channel="co0006">
+    <title>Lo que no dijimos</title>
+    <desc>Un video pódcast sobre salud mental que propone abrir un espacio íntimo y honesto para conversar sobre esos temas de los que muchas veces no se habla.</desc>
+    <date>2025</date>
+    <category>Salud</category>
+    <category>Entrevista</category>
+    <category>Talk Show</category>
+    <rating><value>TE</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/co0006_fallback.jpg" />
   </programme>
   <programme start="20261125120000 -0300" stop="20261125130000 -0300" channel="co0007">
@@ -858781,6 +860981,346 @@ Ernesto Andrés Fuenmayor y Tamara Rivera Castro serán los YouTubers que analic
     <rating><value>TE</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/cablenoticiasedicioncentral.jpg" />
   </programme>
+  <programme start="20261202000000 -0300" stop="20261202010000 -0300" channel="co0011">
+    <title>La otra cara de la moneda</title>
+    <desc>Espacio de opinión, debate y entrevistas, donde se abordan temas de interés y actualidad.</desc>
+    <date>2006</date>
+    <category>Relaciones Públicas</category>
+    <category>Social</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/co0011_fallback.jpg" />
+  </programme>
+  <programme start="20261202010000 -0300" stop="20261202020000 -0300" channel="co0011">
+    <title>Cablenoticias edición central</title>
+    <desc>Noticiero central con lo último de la información sobre sociedad, política, economía y espectáculo.</desc>
+    <credits>
+      <actor>Ana María Serrano</actor>
+      <actor>Ana María Vélez</actor>
+      <actor>Paula Andrea Valencia</actor>
+    </credits>
+    <date>2013</date>
+    <category>Reportaje</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/cablenoticiasedicioncentral.jpg" />
+  </programme>
+  <programme start="20261202020000 -0300" stop="20261202023000 -0300" channel="co0011">
+    <title>Testigo directo</title>
+    <desc>Un programa periodístico moderno, con reporteros y periodistas arriesgados que cubren sucesos y casos impactantes de la vida real.</desc>
+    <credits>
+      <actor>Rafael Poveda</actor>
+    </credits>
+    <date>2012</date>
+    <category>Actualidad</category>
+    <category>Reportaje</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/co0011_fallback.jpg" />
+  </programme>
+  <programme start="20261202023000 -0300" stop="20261202030000 -0300" channel="co0011">
+    <title>Economía al Día</title>
+    <desc>Conociendo las principales noticias sobre la economía nacional e internacional, así como los sucesos y eventos del sector.</desc>
+    <date>2009</date>
+    <category>Noticias</category>
+    <category>Empresarial</category>
+    <rating><value>+15</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/co0011_fallback.jpg" />
+  </programme>
+  <programme start="20261202030000 -0300" stop="20261202040000 -0300" channel="co0011">
+    <title>Hoy en el mundo</title>
+    <desc>Toda la información de las noticias internacionales.</desc>
+    <date>2015</date>
+    <category>Reportaje</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/hoyenelmundo.jpg" />
+  </programme>
+  <programme start="20261202040000 -0300" stop="20261202050000 -0300" channel="co0011">
+    <title>Cablenoticias edición central</title>
+    <desc>Noticiero central con lo último de la información sobre sociedad, política, economía y espectáculo.</desc>
+    <credits>
+      <actor>Ana María Serrano</actor>
+      <actor>Ana María Vélez</actor>
+      <actor>Paula Andrea Valencia</actor>
+    </credits>
+    <date>2013</date>
+    <category>Reportaje</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/cablenoticiasedicioncentral.jpg" />
+  </programme>
+  <programme start="20261202050000 -0300" stop="20261202060000 -0300" channel="co0011">
+    <title>La otra cara de la moneda</title>
+    <desc>Espacio de opinión, debate y entrevistas, donde se abordan temas de interés y actualidad.</desc>
+    <date>2006</date>
+    <category>Relaciones Públicas</category>
+    <category>Social</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/co0011_fallback.jpg" />
+  </programme>
+  <programme start="20261202060000 -0300" stop="20261202063000 -0300" channel="co0011">
+    <title>Testigo directo</title>
+    <desc>Un programa periodístico moderno, con reporteros y periodistas arriesgados que cubren sucesos y casos impactantes de la vida real.</desc>
+    <credits>
+      <actor>Rafael Poveda</actor>
+    </credits>
+    <date>2012</date>
+    <category>Actualidad</category>
+    <category>Reportaje</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/co0011_fallback.jpg" />
+  </programme>
+  <programme start="20261202063000 -0300" stop="20261202073000 -0300" channel="co0011">
+    <title>Hoy en el mundo</title>
+    <desc>Toda la información de las noticias internacionales.</desc>
+    <date>2015</date>
+    <category>Reportaje</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/hoyenelmundo.jpg" />
+  </programme>
+  <programme start="20261202073000 -0300" stop="20261202080000 -0300" channel="co0011">
+    <title>Torta nacional</title>
+    <desc>La información de este programa no se encuentra disponible.</desc>
+    <date>2025</date>
+    <category>Gastronomía</category>
+    <rating><value>18</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/co0011_fallback.jpg" />
+  </programme>
+  <programme start="20261202080000 -0300" stop="20261202090000 -0300" channel="co0011">
+    <title>Cablenoticias edición central</title>
+    <desc>Noticiero central con lo último de la información sobre sociedad, política, economía y espectáculo.</desc>
+    <credits>
+      <actor>Ana María Serrano</actor>
+      <actor>Ana María Vélez</actor>
+      <actor>Paula Andrea Valencia</actor>
+    </credits>
+    <date>2013</date>
+    <category>Reportaje</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/cablenoticiasedicioncentral.jpg" />
+  </programme>
+  <programme start="20261202090000 -0300" stop="20261202091500 -0300" channel="co0011">
+    <title>Canal Cartagena</title>
+    <desc>La información de este programa no se encuentra disponible.</desc>
+    <date>2022</date>
+    <category>Entretenimiento</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/co0011_fallback.jpg" />
+  </programme>
+  <programme start="20261202091500 -0300" stop="20261202093000 -0300" channel="co0011">
+    <title>Telemedellin</title>
+    <desc>La información de este programa no se encuentra disponible.</desc>
+    <date>2010</date>
+    <category>Especial</category>
+    <category>Actualidad</category>
+    <category>Reportaje</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/co0011_fallback.jpg" />
+  </programme>
+  <programme start="20261202093000 -0300" stop="20261202094500 -0300" channel="co0011">
+    <title>Canal Telepacífico</title>
+    <desc>La información de este programa no se encuentra disponible.</desc>
+    <date>2022</date>
+    <category>Entretenimiento</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/co0011_fallback.jpg" />
+  </programme>
+  <programme start="20261202094500 -0300" stop="20261202100000 -0300" channel="co0011">
+    <title>Bloque de noticias</title>
+    <desc>Un pequeño resumen informativo con los hechos más destacados ocurridos durante el día.</desc>
+    <date>2022</date>
+    <category>Reportaje</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/co0011_fallback.jpg" />
+  </programme>
+  <programme start="20261202100000 -0300" stop="20261202103000 -0300" channel="co0011">
+    <title>Hoy en el mundo</title>
+    <desc>Toda la información de las noticias internacionales.</desc>
+    <date>2015</date>
+    <category>Reportaje</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/hoyenelmundo.jpg" />
+  </programme>
+  <programme start="20261202103000 -0300" stop="20261202110000 -0300" channel="co0011">
+    <title>Especial Salud</title>
+    <desc>Sección dedicada a informar sobre lo más destacado en el área de la salud en Colombia y el mundo, los avances, los problemas, las soluciones, las políticas, con entrevistas a los expertos.</desc>
+    <date>2004</date>
+    <category>Educativo</category>
+    <category>Salud</category>
+    <category>Reportaje</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/co0011_fallback.jpg" />
+  </programme>
+  <programme start="20261202110000 -0300" stop="20261202120000 -0300" channel="co0011">
+    <title>La otra cara de la moneda</title>
+    <desc>Espacio de opinión, debate y entrevistas, donde se abordan temas de interés y actualidad.</desc>
+    <date>2006</date>
+    <category>Relaciones Públicas</category>
+    <category>Social</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/co0011_fallback.jpg" />
+  </programme>
+  <programme start="20261202120000 -0300" stop="20261202123000 -0300" channel="co0011">
+    <title>CableNoticias: En la Mañana</title>
+    <desc>Informativo que resume la actualidad nacional e internacional. El registro de los hechos más importantes y llevados en el momento que se producen. Las noticias en desarrollo, los personajes y el análisis de los sucesos impactantes.</desc>
+    <credits>
+      <actor>Leidy Muñoz Romero</actor>
+    </credits>
+    <date>2000</date>
+    <category>Reportaje</category>
+    <rating><value>+15</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/co0011_fallback.jpg" />
+  </programme>
+  <programme start="20261202123000 -0300" stop="20261202130000 -0300" channel="co0011">
+    <title>Bloque Deportivo</title>
+    <desc>Espacio con toda cobertura de la actualidad del fútbol chileno e internacional, el seguimiento de la selección chilena, así como de eventos polideportivos.</desc>
+    <date>2011</date>
+    <category>Deportes</category>
+    <rating><value>+15</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/co0011_fallback.jpg" />
+  </programme>
+  <programme start="20261202130000 -0300" stop="20261202133000 -0300" channel="co0011">
+    <title>Noticias internacionales</title>
+    <desc>Un resumen con las principales noticias del mundo.</desc>
+    <category>Reportaje</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/co0011_fallback.jpg" />
+  </programme>
+  <programme start="20261202133000 -0300" stop="20261202134500 -0300" channel="co0011">
+    <title>Bloque de noticias</title>
+    <desc>Un pequeño resumen informativo con los hechos más destacados ocurridos durante el día.</desc>
+    <date>2022</date>
+    <category>Reportaje</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/co0011_fallback.jpg" />
+  </programme>
+  <programme start="20261202134500 -0300" stop="20261202150000 -0300" channel="co0011">
+    <title>Cablenoticias al mediodía</title>
+    <desc>Lo último de la información sobre política, sociedad, policiales y mucho más.</desc>
+    <credits>
+      <actor>Johanna Herrera</actor>
+    </credits>
+    <date>2013</date>
+    <category>Reportaje</category>
+    <rating><value>+15</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/co0011_fallback.jpg" />
+  </programme>
+  <programme start="20261202150000 -0300" stop="20261202153000 -0300" channel="co0011">
+    <title>Visión futuro</title>
+    <desc>Visión futuro es la emisión de DW sobre ciencia. Este magazín va dirigido a todos los que se interesan por la investigación en Alemania y Europa. Con un lenguaje comprensible y una presentación atractiva, sus dinámicos reportajes cubren un amplio espectro de temas cruciales para el futuro: desde la astronáutica hasta la protección medioambiental, pasando por la ingeniería genética, los descubrimientos en la medicina y las propuestas urbanísticas del mañana. Visión futuro transmite las ideas de personas que piensan más allá: científicos destacados, cerebros únicos y visionarios.</desc>
+    <date>2015</date>
+    <category>Actualidad</category>
+    <category>Reportaje</category>
+    <rating><value>14</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/visionfuturo.jpg" />
+  </programme>
+  <programme start="20261202153000 -0300" stop="20261202160000 -0300" channel="co0011">
+    <title>VOA Noticias</title>
+    <desc>Una exposición del acontecer noticioso de última hora, las previsiones meteorológicas y los reportes de tránsito al momento.</desc>
+    <date>2008</date>
+    <category>Reportaje</category>
+    <rating><value>+15</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/co0011_fallback.jpg" />
+  </programme>
+  <programme start="20261202160000 -0300" stop="20261202163000 -0300" channel="co0011">
+    <title>Testigo directo</title>
+    <desc>Un programa periodístico moderno, con reporteros y periodistas arriesgados que cubren sucesos y casos impactantes de la vida real.</desc>
+    <credits>
+      <actor>Rafael Poveda</actor>
+    </credits>
+    <date>2012</date>
+    <category>Actualidad</category>
+    <category>Reportaje</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/co0011_fallback.jpg" />
+  </programme>
+  <programme start="20261202163000 -0300" stop="20261202170000 -0300" channel="co0011">
+    <title>Bloque Deportivo</title>
+    <desc>Espacio con toda cobertura de la actualidad del fútbol chileno e internacional, el seguimiento de la selección chilena, así como de eventos polideportivos.</desc>
+    <date>2011</date>
+    <category>Deportes</category>
+    <rating><value>+15</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/co0011_fallback.jpg" />
+  </programme>
+  <programme start="20261202170000 -0300" stop="20261202173000 -0300" channel="co0011">
+    <title>Cablenoticias a las 3</title>
+    <desc>Actualización de las noticias y lo último del acontecer nacional e internacional sobre política, economía y sociedad a las 3 de la tarde.</desc>
+    <date>2013</date>
+    <category>Reportaje</category>
+    <rating><value>+15</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/co0011_fallback.jpg" />
+  </programme>
+  <programme start="20261202173000 -0300" stop="20261202180000 -0300" channel="co0011">
+    <title>Deutsche Welle Journal Noticias</title>
+    <desc>Desde Alemania, una visión europea de las noticias y los temas que a diario marcan al mundo entero.</desc>
+    <date>2008</date>
+    <category>Reportaje</category>
+    <rating><value>+15</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/co0011_fallback.jpg" />
+  </programme>
+  <programme start="20261202180000 -0300" stop="20261202183000 -0300" channel="co0011">
+    <title>Noticias internacionales</title>
+    <desc>Un resumen con las principales noticias del mundo.</desc>
+    <category>Reportaje</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/co0011_fallback.jpg" />
+  </programme>
+  <programme start="20261202183000 -0300" stop="20261202190000 -0300" channel="co0011">
+    <title>Bloque de noticias</title>
+    <desc>Un pequeño resumen informativo con los hechos más destacados ocurridos durante el día.</desc>
+    <date>2022</date>
+    <category>Reportaje</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/co0011_fallback.jpg" />
+  </programme>
+  <programme start="20261202190000 -0300" stop="20261202200000 -0300" channel="co0011">
+    <title>La otra cara de la moneda</title>
+    <desc>Espacio de opinión, debate y entrevistas, donde se abordan temas de interés y actualidad.</desc>
+    <date>2006</date>
+    <category>Relaciones Públicas</category>
+    <category>Social</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/co0011_fallback.jpg" />
+  </programme>
+  <programme start="20261202200000 -0300" stop="20261202210000 -0300" channel="co0011">
+    <title>Cablenoticias edición central</title>
+    <desc>Noticiero central con lo último de la información sobre sociedad, política, economía y espectáculo.</desc>
+    <credits>
+      <actor>Ana María Serrano</actor>
+      <actor>Ana María Vélez</actor>
+      <actor>Paula Andrea Valencia</actor>
+    </credits>
+    <date>2013</date>
+    <category>Reportaje</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/cablenoticiasedicioncentral.jpg" />
+  </programme>
+  <programme start="20261202210000 -0300" stop="20261202220000 -0300" channel="co0011">
+    <title>Hoy en el mundo</title>
+    <desc>Toda la información de las noticias internacionales.</desc>
+    <date>2015</date>
+    <category>Reportaje</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/hoyenelmundo.jpg" />
+  </programme>
+  <programme start="20261202220000 -0300" stop="20261202230000 -0300" channel="co0011">
+    <title>La otra cara de la moneda</title>
+    <desc>Espacio de opinión, debate y entrevistas, donde se abordan temas de interés y actualidad.</desc>
+    <date>2006</date>
+    <category>Relaciones Públicas</category>
+    <category>Social</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/co0011_fallback.jpg" />
+  </programme>
+  <programme start="20261202230000 -0300" stop="20261203000000 -0300" channel="co0011">
+    <title>Cablenoticias edición central</title>
+    <desc>Noticiero central con lo último de la información sobre sociedad, política, economía y espectáculo.</desc>
+    <credits>
+      <actor>Ana María Serrano</actor>
+      <actor>Ana María Vélez</actor>
+      <actor>Paula Andrea Valencia</actor>
+    </credits>
+    <date>2013</date>
+    <category>Reportaje</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/cablenoticiasedicioncentral.jpg" />
+  </programme>
   <programme start="20261125120000 -0300" stop="20261125123000 -0300" channel="co0012">
     <title>Mucho animal</title>
     <desc>Programa que pretende exaltar lo mejor de los animales de compañía, además de tratar temas tan importantes como el veterinario y el adiestramiento.</desc>
@@ -860332,6 +862872,243 @@ Ernesto Andrés Fuenmayor y Tamara Rivera Castro serán los YouTubers que analic
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261201233000 -0300" stop="20261202003000 -0300" channel="co0012">
+    <title>La Corona TV</title>
+    <desc>Espacio con toda la información del entretenimiento y lo último de la farándula nacional e internacional.</desc>
+    <date>2024</date>
+    <category>Entretenimiento</category>
+    <category>Entrevista</category>
+    <rating><value>+15</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261202003000 -0300" stop="20261202020000 -0300" channel="co0012">
+    <title>Citynoticias de las 8</title>
+    <desc>Las últimas noticias del país y del mundo.</desc>
+    <credits>
+      <actor>Johnatan Nieto Blanco</actor>
+    </credits>
+    <date>2015</date>
+    <category>Reportaje</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261202020000 -0300" stop="20261202080000 -0300" channel="co0012">
+    <title>El rollo de Fili</title>
+    <desc>Un fascinante recorrido por los caminos y los lugares más bellos de Colombia.</desc>
+    <date>2015</date>
+    <category>Entretenimiento</category>
+    <category>Viajes</category>
+    <rating><value>+15</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261202080000 -0300" stop="20261202090000 -0300" channel="co0012">
+    <title>Citynoticias de las 8</title>
+    <desc>Las últimas noticias del país y del mundo.</desc>
+    <credits>
+      <actor>Johnatan Nieto Blanco</actor>
+    </credits>
+    <date>2015</date>
+    <category>Reportaje</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261202090000 -0300" stop="20261202093000 -0300" channel="co0012">
+    <title>Programa Comercial</title>
+    <desc>La información de este programa no se encuentra disponible.</desc>
+    <date>2011</date>
+    <category>Series</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261202093000 -0300" stop="20261202100000 -0300" channel="co0012">
+    <title>Entrevistas Con María Beatriz Echandía</title>
+    <desc>La vida personal y profesional de figuras reconocidas en diferentes campos.</desc>
+    <date>2014</date>
+    <category>Entrevista</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261202100000 -0300" stop="20261202110000 -0300" channel="co0012">
+    <title>Los del barrio</title>
+    <desc>Marco y Adrián son dos buenos amigos del barrio que comparten muchas aventuras y un talento en la música que nunca han podido demostrar, hasta que una gran oportunidad toca su puerta y deberán enfrentarse entre ellos en un conocido reality musical.</desc>
+    <credits>
+      <actor>Tula Rodríguez</actor>
+      <actor>Christian Domínguez</actor>
+      <actor>Erick Elera</actor>
+      <actor>Orlando Fundichely</actor>
+    </credits>
+    <date>2008</date>
+    <category>Drama</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/losdelbarrio.jpg" />
+  </programme>
+  <programme start="20261202110000 -0300" stop="20261202113000 -0300" channel="co0012">
+    <title>Programa Comercial</title>
+    <desc>La información de este programa no se encuentra disponible.</desc>
+    <date>2011</date>
+    <category>Series</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261202113000 -0300" stop="20261202120000 -0300" channel="co0012">
+    <title>Famosos con City</title>
+    <desc>Programa con entrevistas que tiene como objetivo humanizar a artistas de la esfera musical. A través de su trayectoria artística y las historias íntimas de estos personajes famosos, se busca conectar al espectador con el invitado.</desc>
+    <date>2019</date>
+    <category>Entrevista</category>
+    <category>Musica</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261202120000 -0300" stop="20261202123000 -0300" channel="co0012">
+    <title>Mucho animal</title>
+    <desc>Programa que pretende exaltar lo mejor de los animales de compañía, además de tratar temas tan importantes como el veterinario y el adiestramiento.</desc>
+    <date>2017</date>
+    <category>Mascotas</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261202123000 -0300" stop="20261202130000 -0300" channel="co0012">
+    <title>El rollo de Fili</title>
+    <desc>Un fascinante recorrido por los caminos y los lugares más bellos de Colombia.</desc>
+    <date>2015</date>
+    <category>Entretenimiento</category>
+    <category>Viajes</category>
+    <rating><value>+15</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261202130000 -0300" stop="20261202133000 -0300" channel="co0012">
+    <title>Echadas pa&#x27;lante</title>
+    <desc>Mujeres luchadoras, deportistas, emprendedoras. Un momento para ellas, para reconocer su lugar en el mundo, su aporte a la sociedad y los desafíos que han tenido que superar para cumplir sus sueños. Una mirada femenina al entorno y la actualidad.</desc>
+    <date>2017</date>
+    <category>Especial</category>
+    <category>Entretenimiento</category>
+    <rating><value>+15</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261202133000 -0300" stop="20261202150000 -0300" channel="co0012">
+    <title>Citynoticias del mediodía</title>
+    <desc>Las noticias diarias de la ciudad de Bogotá.</desc>
+    <credits>
+      <actor>Sandra Vélez</actor>
+    </credits>
+    <date>2008</date>
+    <category>Reportaje</category>
+    <rating><value>+15</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261202150000 -0300" stop="20261202153000 -0300" channel="co0012">
+    <title>Doctor city</title>
+    <desc>Un programa ágil y divertido. Un espacio para hablar con los especialistas más importantes del país, debatir, aclarar dudas y recorrer la ciudad hablando sobre la salud.</desc>
+    <date>2017</date>
+    <category>Especial</category>
+    <category>Entretenimiento</category>
+    <rating><value>+15</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261202153000 -0300" stop="20261202160000 -0300" channel="co0012">
+    <title>Mucho animal</title>
+    <desc>Programa que pretende exaltar lo mejor de los animales de compañía, además de tratar temas tan importantes como el veterinario y el adiestramiento.</desc>
+    <date>2017</date>
+    <category>Mascotas</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261202160000 -0300" stop="20261202163000 -0300" channel="co0012">
+    <title>El rollo de Fili</title>
+    <desc>Un fascinante recorrido por los caminos y los lugares más bellos de Colombia.</desc>
+    <date>2015</date>
+    <category>Entretenimiento</category>
+    <category>Viajes</category>
+    <rating><value>+15</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261202163000 -0300" stop="20261202173000 -0300" channel="co0012">
+    <title>Los del barrio</title>
+    <desc>Marco y Adrián son dos buenos amigos del barrio que comparten muchas aventuras y un talento en la música que nunca han podido demostrar, hasta que una gran oportunidad toca su puerta y deberán enfrentarse entre ellos en un conocido reality musical.</desc>
+    <credits>
+      <actor>Tula Rodríguez</actor>
+      <actor>Christian Domínguez</actor>
+      <actor>Erick Elera</actor>
+      <actor>Orlando Fundichely</actor>
+    </credits>
+    <date>2008</date>
+    <category>Drama</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/losdelbarrio.jpg" />
+  </programme>
+  <programme start="20261202173000 -0300" stop="20261202180000 -0300" channel="co0012">
+    <title>Famosos con City</title>
+    <desc>Programa con entrevistas que tiene como objetivo humanizar a artistas de la esfera musical. A través de su trayectoria artística y las historias íntimas de estos personajes famosos, se busca conectar al espectador con el invitado.</desc>
+    <date>2019</date>
+    <category>Entrevista</category>
+    <category>Musica</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261202180000 -0300" stop="20261202183000 -0300" channel="co0012">
+    <title>Entrevistas Con María Beatriz Echandía</title>
+    <desc>La vida personal y profesional de figuras reconocidas en diferentes campos.</desc>
+    <date>2014</date>
+    <category>Entrevista</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261202183000 -0300" stop="20261202200000 -0300" channel="co0012">
+    <title>Citynoticias del mediodía</title>
+    <desc>Las noticias diarias de la ciudad de Bogotá.</desc>
+    <credits>
+      <actor>Sandra Vélez</actor>
+    </credits>
+    <date>2008</date>
+    <category>Reportaje</category>
+    <rating><value>+15</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261202200000 -0300" stop="20261202203000 -0300" channel="co0012">
+    <title>Echadas pa&#x27;lante</title>
+    <desc>Mujeres luchadoras, deportistas, emprendedoras. Un momento para ellas, para reconocer su lugar en el mundo, su aporte a la sociedad y los desafíos que han tenido que superar para cumplir sus sueños. Una mirada femenina al entorno y la actualidad.</desc>
+    <date>2017</date>
+    <category>Especial</category>
+    <category>Entretenimiento</category>
+    <rating><value>+15</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261202203000 -0300" stop="20261202210000 -0300" channel="co0012">
+    <title>Mucho animal</title>
+    <desc>Programa que pretende exaltar lo mejor de los animales de compañía, además de tratar temas tan importantes como el veterinario y el adiestramiento.</desc>
+    <date>2017</date>
+    <category>Mascotas</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261202210000 -0300" stop="20261202213000 -0300" channel="co0012">
+    <title>Sala de redacción</title>
+    <desc>Análisis y opinión sobre los temas más polémicos de Colombia y el resto del mundo.</desc>
+    <date>2016</date>
+    <category>Reportaje</category>
+    <rating><value>+15</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261202213000 -0300" stop="20261202220000 -0300" channel="co0012">
+    <title>El rollo de Fili</title>
+    <desc>Un fascinante recorrido por los caminos y los lugares más bellos de Colombia.</desc>
+    <date>2015</date>
+    <category>Entretenimiento</category>
+    <category>Viajes</category>
+    <rating><value>+15</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261202220000 -0300" stop="20261202233000 -0300" channel="co0012">
+    <title>Citynoticias de las 8</title>
+    <desc>Las últimas noticias del país y del mundo.</desc>
+    <credits>
+      <actor>Johnatan Nieto Blanco</actor>
+    </credits>
+    <date>2015</date>
+    <category>Reportaje</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261202233000 -0300" stop="20261203003000 -0300" channel="co0012">
     <title>La Corona TV</title>
     <desc>Espacio con toda la información del entretenimiento y lo último de la farándula nacional e internacional.</desc>
     <date>2024</date>
@@ -882400,9 +885177,7 @@ No aparece en el programa ningún otro superhéroe de ficción, a excepción  de
   </programme>
   <programme start="20261126080000 -0300" stop="20261126090000 -0300" channel="mx0003">
     <title>Los Pitufos</title>
-    <desc>Repetición ║ Basada en unas historietas del belga Pierre Culliford (AKA Peyo) y ambientada en la Edad Media. En la aldea de los pitufos todas las casas son hongos o setas. Todos ellos se visten igual: pantalón blanco y gorro frigio blanco, a excepción del Gran Pitufo o Papá Pitufo, que usa un atuendo rojo. Él es el jefe de la aldea, debido a su avanzada edad y a sus conocimientos de magia.
-
-El brujo Gargamel y su gato Azrael, intentan siempre y por todos los medios capturar a los pitufos con trampas. Los objetivos son dos: utilizarlos como ingrediente imprescindible para conseguir la transmutación de los metales y su transformación en oro, y preparar con ellos &#x27;sopa de pitufos&#x27;, un legendario plato exquisito de sabor incomparable. La serie se ramificó en varias películas; la última, que se estrenó en 2008, celebraba el 50º aniversario de los personajes.</desc>
+    <desc>Repetición ║ Son unas criaturas azules no mayores a un dedo índice, que viven en una aldea de hongos oculta en el bosque. Gargamel y su gato Azrael, intentarán atraparlos por ser un ingrediente necesario para obtener la piedra filosofal.</desc>
     <credits>
       <actor>Davis Freeman</actor>
       <actor>Youssef El Kaoukibi</actor>
@@ -882927,9 +885702,7 @@ El brujo Gargamel y su gato Azrael, intentan siempre y por todos los medios capt
   </programme>
   <programme start="20261127080000 -0300" stop="20261127090000 -0300" channel="mx0003">
     <title>Los Pitufos</title>
-    <desc>Repetición ║ Basada en unas historietas del belga Pierre Culliford (AKA Peyo) y ambientada en la Edad Media. En la aldea de los pitufos todas las casas son hongos o setas. Todos ellos se visten igual: pantalón blanco y gorro frigio blanco, a excepción del Gran Pitufo o Papá Pitufo, que usa un atuendo rojo. Él es el jefe de la aldea, debido a su avanzada edad y a sus conocimientos de magia.
-
-El brujo Gargamel y su gato Azrael, intentan siempre y por todos los medios capturar a los pitufos con trampas. Los objetivos son dos: utilizarlos como ingrediente imprescindible para conseguir la transmutación de los metales y su transformación en oro, y preparar con ellos &#x27;sopa de pitufos&#x27;, un legendario plato exquisito de sabor incomparable. La serie se ramificó en varias películas; la última, que se estrenó en 2008, celebraba el 50º aniversario de los personajes.</desc>
+    <desc>Repetición ║ Son unas criaturas azules no mayores a un dedo índice, que viven en una aldea de hongos oculta en el bosque. Gargamel y su gato Azrael, intentarán atraparlos por ser un ingrediente necesario para obtener la piedra filosofal.</desc>
     <credits>
       <actor>Davis Freeman</actor>
       <actor>Youssef El Kaoukibi</actor>
@@ -883399,9 +886172,7 @@ El brujo Gargamel y su gato Azrael, intentan siempre y por todos los medios capt
   </programme>
   <programme start="20261128080000 -0300" stop="20261128090000 -0300" channel="mx0003">
     <title>Los Pitufos</title>
-    <desc>Repetición ║ Basada en unas historietas del belga Pierre Culliford (AKA Peyo) y ambientada en la Edad Media. En la aldea de los pitufos todas las casas son hongos o setas. Todos ellos se visten igual: pantalón blanco y gorro frigio blanco, a excepción del Gran Pitufo o Papá Pitufo, que usa un atuendo rojo. Él es el jefe de la aldea, debido a su avanzada edad y a sus conocimientos de magia.
-
-El brujo Gargamel y su gato Azrael, intentan siempre y por todos los medios capturar a los pitufos con trampas. Los objetivos son dos: utilizarlos como ingrediente imprescindible para conseguir la transmutación de los metales y su transformación en oro, y preparar con ellos &#x27;sopa de pitufos&#x27;, un legendario plato exquisito de sabor incomparable. La serie se ramificó en varias películas; la última, que se estrenó en 2008, celebraba el 50º aniversario de los personajes.</desc>
+    <desc>Repetición ║ Son unas criaturas azules no mayores a un dedo índice, que viven en una aldea de hongos oculta en el bosque. Gargamel y su gato Azrael, intentarán atraparlos por ser un ingrediente necesario para obtener la piedra filosofal.</desc>
     <credits>
       <actor>Davis Freeman</actor>
       <actor>Youssef El Kaoukibi</actor>
@@ -894219,7 +896990,7 @@ El brujo Gargamel y su gato Azrael, intentan siempre y por todos los medios capt
     <rating><value>+15</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
-  <programme start="20261201234500 -0300" stop="20261202004500 -0300" channel="mx0012">
+  <programme start="20261201234500 -0300" stop="20261202000000 -0300" channel="mx0012">
     <title>Milenio Negocios</title>
     <desc>Un espacio en el que se brinda información sobre el mundo de los negocios de la mano de expertos.</desc>
     <date>2016</date>
@@ -894228,6 +896999,370 @@ El brujo Gargamel y su gato Azrael, intentan siempre y por todos los medios capt
     <category>Social</category>
     <category>Empresarial</category>
     <rating><value>+15</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261202000000 -0300" stop="20261202004500 -0300" channel="mx0012">
+    <title>Milenio 21H con Elisa Alanís</title>
+    <desc>Un programa que gira en torno a las noticias de actualidad, política y otros asuntos de interés.</desc>
+    <credits>
+      <actor>Elisa Alanís</actor>
+    </credits>
+    <date>2019</date>
+    <category>Reportaje</category>
+    <rating><value>18</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261202004500 -0300" stop="20261202010000 -0300" channel="mx0012">
+    <title>El asalto a la razón con Carlos Marín</title>
+    <desc>Las personalidades invitadas debaten y ponen en perspectiva los problemas de interés con un enfoque objetivo.</desc>
+    <date>2008</date>
+    <category>Entrevista</category>
+    <category>Reportaje</category>
+    <category>Talk Show</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261202010000 -0300" stop="20261202014500 -0300" channel="mx0012">
+    <title>Milenio 22H con: Alejandro Domínguez</title>
+    <desc>La información habla por sí misma desde su contexto, los hechos se presentan con objetividad y sin consideraciones.</desc>
+    <credits>
+      <actor>Alejandro Domínguez</actor>
+    </credits>
+    <date>2015</date>
+    <category>Reportaje</category>
+    <rating><value>18</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261202014500 -0300" stop="20261202020000 -0300" channel="mx0012">
+    <title>En 15 con Carlos Puig</title>
+    <desc>Un programa de entrevistas a diferentes personalidades.</desc>
+    <category>Entrevista</category>
+    <category>Talk Show</category>
+    <rating><value>18</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261202020000 -0300" stop="20261202023000 -0300" channel="mx0012">
+    <title>Milenio noticias con Paola Barquet</title>
+    <desc>Un programa que gira en torno a las noticias de actualidad, política y otros asuntos de interés.</desc>
+    <credits>
+      <actor>Paola Barquet</actor>
+    </credits>
+    <date>2024</date>
+    <category>Reportaje</category>
+    <rating><value>18</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261202023000 -0300" stop="20261202024500 -0300" channel="mx0012">
+    <title>La afición</title>
+    <desc>Resúmenes, análisis y todo sobre los deportes favoritos de los televidentes.</desc>
+    <date>2008</date>
+    <category>Deportes</category>
+    <category>Reportaje</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261202024500 -0300" stop="20261202030000 -0300" channel="mx0012">
+    <title>Multiverso</title>
+    <desc>El parque Bicentenario se viste de gala para recibir la segunda edición del festival Multiverso. Artistas como Jorge Medina, Banda Cuisillos, El Fantasma, Sonido Pirata, Toy Selecta son parte del elenco que deleitará al público asistente.</desc>
+    <date>2023</date>
+    <category>Musica</category>
+    <category>Entretenimiento</category>
+    <rating><value>+15</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261202030000 -0300" stop="20261202034500 -0300" channel="mx0012">
+    <title>Milenio 22H con: Alejandro Domínguez</title>
+    <desc>La información habla por sí misma desde su contexto, los hechos se presentan con objetividad y sin consideraciones.</desc>
+    <credits>
+      <actor>Alejandro Domínguez</actor>
+    </credits>
+    <date>2015</date>
+    <category>Reportaje</category>
+    <rating><value>18</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261202034500 -0300" stop="20261202040000 -0300" channel="mx0012">
+    <title>En 15 con Carlos Puig</title>
+    <desc>Un programa de entrevistas a diferentes personalidades.</desc>
+    <category>Entrevista</category>
+    <category>Talk Show</category>
+    <rating><value>18</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261202040000 -0300" stop="20261202044500 -0300" channel="mx0012">
+    <title>Milenio 21H con Elisa Alanís</title>
+    <desc>Un programa que gira en torno a las noticias de actualidad, política y otros asuntos de interés.</desc>
+    <credits>
+      <actor>Elisa Alanís</actor>
+    </credits>
+    <date>2019</date>
+    <category>Reportaje</category>
+    <rating><value>18</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261202044500 -0300" stop="20261202050000 -0300" channel="mx0012">
+    <title>Milenio Negocios</title>
+    <desc>Un espacio en el que se brinda información sobre el mundo de los negocios de la mano de expertos.</desc>
+    <date>2016</date>
+    <category>Entrevista</category>
+    <category>Relaciones Públicas</category>
+    <category>Social</category>
+    <category>Empresarial</category>
+    <rating><value>+15</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261202050000 -0300" stop="20261202053000 -0300" channel="mx0012">
+    <title>Milenio 23H con Jorge Martínez</title>
+    <desc>La información de este programa no se encuentra disponible.</desc>
+    <credits>
+      <actor>Jorge Martínez</actor>
+    </credits>
+    <date>2026</date>
+    <category>Relaciones Públicas</category>
+    <category>Reportaje</category>
+    <category>Social</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261202053000 -0300" stop="20261202054500 -0300" channel="mx0012">
+    <title>La afición</title>
+    <desc>Resúmenes, análisis y todo sobre los deportes favoritos de los televidentes.</desc>
+    <date>2008</date>
+    <category>Deportes</category>
+    <category>Reportaje</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261202054500 -0300" stop="20261202060000 -0300" channel="mx0012">
+    <title>Multiverso</title>
+    <desc>El parque Bicentenario se viste de gala para recibir la segunda edición del festival Multiverso. Artistas como Jorge Medina, Banda Cuisillos, El Fantasma, Sonido Pirata, Toy Selecta son parte del elenco que deleitará al público asistente.</desc>
+    <date>2023</date>
+    <category>Musica</category>
+    <category>Entretenimiento</category>
+    <rating><value>+15</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261202060000 -0300" stop="20261202063000 -0300" channel="mx0012">
+    <title>Milenio 23H con Jorge Martínez</title>
+    <desc>La información de este programa no se encuentra disponible.</desc>
+    <credits>
+      <actor>Jorge Martínez</actor>
+    </credits>
+    <date>2026</date>
+    <category>Relaciones Públicas</category>
+    <category>Reportaje</category>
+    <category>Social</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261202063000 -0300" stop="20261202064500 -0300" channel="mx0012">
+    <title>Milenio Negocios</title>
+    <desc>Un espacio en el que se brinda información sobre el mundo de los negocios de la mano de expertos.</desc>
+    <date>2016</date>
+    <category>Entrevista</category>
+    <category>Relaciones Públicas</category>
+    <category>Social</category>
+    <category>Empresarial</category>
+    <rating><value>+15</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261202064500 -0300" stop="20261202070000 -0300" channel="mx0012">
+    <title>En 15 con Carlos Puig</title>
+    <desc>Un programa de entrevistas a diferentes personalidades.</desc>
+    <category>Entrevista</category>
+    <category>Talk Show</category>
+    <rating><value>18</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261202070000 -0300" stop="20261202073000 -0300" channel="mx0012">
+    <title>Milenio 23H con Jorge Martínez</title>
+    <desc>La información de este programa no se encuentra disponible.</desc>
+    <credits>
+      <actor>Jorge Martínez</actor>
+    </credits>
+    <date>2026</date>
+    <category>Relaciones Públicas</category>
+    <category>Reportaje</category>
+    <category>Social</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261202073000 -0300" stop="20261202074500 -0300" channel="mx0012">
+    <title>Multiverso</title>
+    <desc>El parque Bicentenario se viste de gala para recibir la segunda edición del festival Multiverso. Artistas como Jorge Medina, Banda Cuisillos, El Fantasma, Sonido Pirata, Toy Selecta son parte del elenco que deleitará al público asistente.</desc>
+    <date>2023</date>
+    <category>Musica</category>
+    <category>Entretenimiento</category>
+    <rating><value>+15</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261202074500 -0300" stop="20261202080000 -0300" channel="mx0012">
+    <title>En 15 con Carlos Puig</title>
+    <desc>Un programa de entrevistas a diferentes personalidades.</desc>
+    <category>Entrevista</category>
+    <category>Talk Show</category>
+    <rating><value>18</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261202080000 -0300" stop="20261202100000 -0300" channel="mx0012">
+    <title>Milenio noticias con Fernando Robles y Norma García</title>
+    <desc>La información de este programa no se encuentra disponible.</desc>
+    <credits>
+      <actor>Norma García</actor>
+    </credits>
+    <date>2025</date>
+    <category>Reportaje</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261202100000 -0300" stop="20261202120000 -0300" channel="mx0012">
+    <title>Milenio Noticias con Pamela Villanueva</title>
+    <desc>La información de este programa no se encuentra disponible.</desc>
+    <date>2026</date>
+    <category>Reportaje</category>
+    <rating><value>TE</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261202120000 -0300" stop="20261202130000 -0300" channel="mx0012">
+    <title>Milenio Noticias con Víctor Martínez y Pamela Longoria</title>
+    <desc>La información de este programa no se encuentra disponible.</desc>
+    <date>2025</date>
+    <category>Reportaje</category>
+    <rating><value>+15</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261202130000 -0300" stop="20261202140000 -0300" channel="mx0012">
+    <title>Milenio Noticias con Zelenny Ibarra y Ricardo Solabac</title>
+    <desc>La información más destacada y las últimas novedades de la actualidad.</desc>
+    <date>2017</date>
+    <category>Reportaje</category>
+    <rating><value>+15</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261202140000 -0300" stop="20261202150000 -0300" channel="mx0012">
+    <title>Milenio noticias con Josué Becerra y Dany Martin</title>
+    <desc>Un espacio destinado a la cobertura de los sucesos más sobresalientes en México y más allá de las fronteras.</desc>
+    <credits>
+      <actor>Josué Becerra</actor>
+    </credits>
+    <date>2010</date>
+    <category>Reportaje</category>
+    <rating><value>+15</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261202150000 -0300" stop="20261202160000 -0300" channel="mx0012">
+    <title>Milenio Noticias al mediodía con Carlos Zúñiga</title>
+    <desc>La información de este programa no se encuentra disponible.</desc>
+    <date>2010</date>
+    <category>Reportaje</category>
+    <rating><value>+15</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261202160000 -0300" stop="20261202170000 -0300" channel="mx0012">
+    <title>Milenio Noticias con Tania Díaz</title>
+    <desc>Noticias a nivel nacional e internacional que despiertan el interés general.</desc>
+    <date>2015</date>
+    <category>Reportaje</category>
+    <rating><value>+15</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261202170000 -0300" stop="20261202180000 -0300" channel="mx0012">
+    <title>Milenio noticias con Joel Valdez</title>
+    <desc>Programa donde se transmiten noticias de actualidad de México.</desc>
+    <credits>
+      <actor>Joel Valdéz</actor>
+    </credits>
+    <date>2018</date>
+    <category>Reportaje</category>
+    <rating><value>+15</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261202180000 -0300" stop="20261202184500 -0300" channel="mx0012">
+    <title>Milenio noticias con Luis Carlos Ortiz</title>
+    <desc>Un programa que gira en torno a las noticias de actualidad, política y otros asuntos de interés.</desc>
+    <date>2020</date>
+    <category>Reportaje</category>
+    <rating><value>+15</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261202184500 -0300" stop="20261202190000 -0300" channel="mx0012">
+    <title>La afición en los entrenamientos</title>
+    <desc>Resúmenes, análisis y todo sobre los entrenamientos de diversos deportes.</desc>
+    <date>2024</date>
+    <category>Deportes</category>
+    <rating><value>+15</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261202190000 -0300" stop="20261202200000 -0300" channel="mx0012">
+    <title>Pioneras</title>
+    <desc>La información de este programa no se encuentra disponible.</desc>
+    <date>2026</date>
+    <category>Reportaje</category>
+    <rating><value>+15</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/pioneras.jpg" />
+  </programme>
+  <programme start="20261202200000 -0300" stop="20261202210000 -0300" channel="mx0012">
+    <title>Milenio Noticias con Héctor Zamarrón</title>
+    <desc>Héctor Zamarrón entrevista a diferentes personalidades de la actualidad nacional e informa sobre los sucesos más recientes de la actualidad nacional.</desc>
+    <date>2014</date>
+    <category>Entrevista</category>
+    <category>Reportaje</category>
+    <rating><value>+15</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261202210000 -0300" stop="20261202214500 -0300" channel="mx0012">
+    <title>Milenio Noticias con Rodrigo Rico y Sandra Sandoval</title>
+    <desc>Un programa que gira en torno a las noticias de actualidad, política y otros asuntos de interés.</desc>
+    <credits>
+      <actor>Rodrigo Rico</actor>
+    </credits>
+    <date>2022</date>
+    <category>Reportaje</category>
+    <rating><value>+15</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261202214500 -0300" stop="20261202220000 -0300" channel="mx0012">
+    <title>El arte de la canción</title>
+    <desc>Proyecto artístico en el que 39 pintores interpretan con su obra 75 canciones emblemáticas de la historia de la composición.</desc>
+    <date>2020</date>
+    <category>Musica</category>
+    <rating><value>+15</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261202220000 -0300" stop="20261202224500 -0300" channel="mx0012">
+    <title>Milenio noticias con Alma Paola Wong</title>
+    <desc>Lo más relevante de la noticia nacional e internacional.</desc>
+    <date>2019</date>
+    <category>Reportaje</category>
+    <rating><value>+15</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261202224500 -0300" stop="20261202230000 -0300" channel="mx0012">
+    <title>Mujeres con M de Milenio</title>
+    <desc>La información de este programa no se encuentra disponible.</desc>
+    <date>2025</date>
+    <category>Reportaje</category>
+    <rating><value>+15</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261202230000 -0300" stop="20261202234500 -0300" channel="mx0012">
+    <title>Milenio Noticias con Pedro Gamboa</title>
+    <desc>Las últimas noticias nacionales e internacionales junto a un anfitrión que informa objetiva y acertadamente.</desc>
+    <credits>
+      <actor>Pedro Gamboa</actor>
+    </credits>
+    <date>2022</date>
+    <category>Reportaje</category>
+    <rating><value>+15</value></rating>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
+  </programme>
+  <programme start="20261202234500 -0300" stop="20261203004500 -0300" channel="mx0012">
+    <title>M2 con Susana Moscatel</title>
+    <desc>Programa de entrevistas y comentarios sobre diversos temas de interés general que despiertan controversia.</desc>
+    <date>2020</date>
+    <category>Reportaje</category>
+    <category>Talk Show</category>
+    <rating><value>TE</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/fallback.jpg" />
   </programme>
   <programme start="20261125120000 -0300" stop="20261125160000 -0300" channel="pa0001">
