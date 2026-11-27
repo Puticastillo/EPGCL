@@ -750151,7 +750151,7 @@ Diarios de un nómada es adrenalina, paisajes y experiencias, pero también Hist
   </programme>
   <programme start="20261202030900 -0300" stop="20261202050600 -0300" channel="1830">
     <title>Viacrucis Nacional</title>
-    <desc>Semana Santa en Acapulco es una película mexicana de humor dirigida por Luis Alcoriza, que cuenta con la participación de Lucha Villa y David Reynoso, en los papeles principales.  La historia trata del vía crucis que viven los capitalinos al salir de vacaciones de semana santa a las playas del país: Desde que salen de la ciudad de México, comienza el viacrucis: primero para pasar la caseta, que debido a la gran cantidad de vacacionistas saliendo, se vuelve muy lenta la salida. Después, en el camino se les descompone la camioneta y hasta muy tarde un carro de un sacerdote y dos monjas les ayudan a arreglar la camioneta y pueden seguir su camino.</desc>
+    <desc>Una familia capitalina viaja a Acapulco y sufre todas las vejaciones que padece el turista de recursos limitados y al regresar a su casa, se encuentra con que ésta ha sido saqueada.</desc>
     <credits>
       <director>Luis Alcoriza</director>
       <actor>Lucha Villa</actor>
@@ -750408,6 +750408,7 @@ Diarios de un nómada es adrenalina, paisajes y experiencias, pero también Hist
     <date>1942</date>
     <category>Movie</category>
     <category>Comedy</category>
+    <country>México</country>
     <rating><value>A</value></rating>
     <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/elcirco.jpg" />
   </programme>
@@ -872421,8 +872422,25 @@ de Billy y Mandy</title>
   </programme>
   <programme start="20261128040700 -0300" stop="20261128054200 -0300" channel="0852">
     <title>Retroceder nunca rendirse jamás</title>
-    <desc>La información de este programa no se encuentra disponible.</desc>
-    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/0852_fallback.jpg" />
+    <desc>Jason Stillwell (Kurt McKinney) es un joven estudiante de karate que entrena en el dōjō de su padre en Los Ángeles. Una noche después que el entrenamiento ha terminado, el dojo es visitado por miembros de un sindicato del crimen organizado con el fin de reclutar al padre de Jason para ser su matón. El padre de Jason es atacado y herido por el ruso Ivan Kraschinsky (Jean-Claude Van Damme), matón a sueldo del jefe de la mafia.</desc>
+    <credits>
+      <director>元奎</director>
+      <actor>Kurt McKinney</actor>
+      <actor>Jean-Claude Van Damme</actor>
+      <actor>J.W. Fails</actor>
+      <actor>Kathie Sileno</actor>
+      <actor>김태정</actor>
+      <actor>Kent Lipham</actor>
+      <actor>Ron Pohnel</actor>
+      <actor>Dale Jacoby</actor>
+    </credits>
+    <date>1986</date>
+    <category>Acción</category>
+    <category>Comedia</category>
+    <category>Crimen</category>
+    <category>Drama</category>
+    <country>Hong Kong SAR China</country>
+    <icon src="https://raw.githubusercontent.com/Puticastillo/EPGCL/main/zoidberg/retrocedernuncarendirsejamas.jpg" />
   </programme>
   <programme start="20261128054200 -0300" stop="20261128073100 -0300" channel="0852">
     <title>Riddick Criaturas de la noche</title>
